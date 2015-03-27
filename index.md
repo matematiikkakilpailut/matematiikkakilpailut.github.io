@@ -35,56 +35,56 @@ perustuu henkilökohtaisiin kutsuihin.
 
 ## <a name="kilpailut"></a>Kilpailut
 
-* [MAOL:n](MAOL/) kilpailu
+#### [MAOL:n](MAOL/) kilpailu
 
-    Suomen kansallinen matematiikkakilpailu. Lukion kilpailu jakautuu
-    avoimeen sarjaan sekä lukiota aloittelevien perussarjaan; lisäksi
-    peruskoululaisilla on oma kilpailunsa. Kansainvälisiin
-    kilpailuihin pyrkiville suositellaan avointa sarjaa, jonka
-    kilpailu jakautuu alku- ja loppukilpailuun.  Edellisessä tehtäviä
-    on yleensä 4 ja kesto on 120 min. Jälkimmäisessä on 5 tehtävään
-    työaikaa kolme tuntia.  MAOL:n kilpailu on luetelluista
-    kilpailuista selkeästi helpoin.
+Suomen kansallinen matematiikkakilpailu. Lukion kilpailu jakautuu
+avoimeen sarjaan sekä lukiota aloittelevien perussarjaan; lisäksi
+peruskoululaisilla on oma kilpailunsa. Kansainvälisiin
+kilpailuihin pyrkiville suositellaan avointa sarjaa, jonka
+kilpailu jakautuu alku- ja loppukilpailuun.  Edellisessä tehtäviä
+on yleensä 4 ja kesto on 120 min. Jälkimmäisessä on 5 tehtävään
+työaikaa kolme tuntia.  MAOL:n kilpailu on luetelluista
+kilpailuista selkeästi helpoin.
 
-* [Pythagoraan polku](pythagoras/)
+#### [Pythagoraan polku](pythagoras/)
 
-    Pythagoraan polku on Päivölän Opiston keväisin järjestämä
-    joukkuekilpailu Baltian tie -kilpailun mallin mukaan. Kilpailuun
-    osallistuminen on perustunut kutsuun. Osallistuvia lukioita on
-    ollut kymmenkunta.
+Pythagoraan polku on Päivölän Opiston keväisin järjestämä
+joukkuekilpailu Baltian tie -kilpailun mallin mukaan. Kilpailuun
+osallistuminen on perustunut kutsuun. Osallistuvia lukioita on
+ollut kymmenkunta.
 
-* [Pohjoismainen matematiikkakilpailu](PM/)
+#### [Pohjoismainen matematiikkakilpailu](PM/)
 
-    Vaikeampi kuin MAOL, helpompi kuin IMO. Kilpailuun valitaan
-    noin&nbsp;20 valmennettavaa, ja tuloksilla on suurehko merkitys
-    IMO-joukkuetta valittaessa. Kilpailijat tekevät nelitehtäväisen
-    nelituntisen kokeen omassa koulussaan.
+Vaikeampi kuin MAOL, helpompi kuin IMO. Kilpailuun valitaan
+noin&nbsp;20 valmennettavaa, ja tuloksilla on suurehko merkitys
+IMO-joukkuetta valittaessa. Kilpailijat tekevät nelitehtäväisen
+nelituntisen kokeen omassa koulussaan.
 
-* [Baltian tie](Baltian_tie/)
+#### [Baltian tie](Baltian_tie/)
 
-    Baltian tie on useimmista kilpailuista poiketen joukkuekilpailu.
-    Kilpailuun osallistuvat Itämeren alueen maat ja pohjoismaat
-    kansallisilla joukkueilla, paitsi Venäjä, joka kilpailee Pietarin
-    alueen joukkueella, ja Saksa, jonka joukkue edustaa
-    hansakaupunkien aluetta.  Kilpailussa on peräti 20 tehtävää,
-    joiden ratkaisemiseen on aikaa vain 4,5 tuntia.
+Baltian tie on useimmista kilpailuista poiketen joukkuekilpailu.
+Kilpailuun osallistuvat Itämeren alueen maat ja pohjoismaat
+kansallisilla joukkueilla, paitsi Venäjä, joka kilpailee Pietarin
+alueen joukkueella, ja Saksa, jonka joukkue edustaa
+hansakaupunkien aluetta.  Kilpailussa on peräti 20 tehtävää,
+joiden ratkaisemiseen on aikaa vain 4,5 tuntia.
 
-* [Kansainväliset Matematiikkaolympialaiset](IMO/)
+#### [Kansainväliset Matematiikkaolympialaiset](IMO/)
 
-    <span lang="en">International Mathematical Olympiad</span>, IMO.
-    IMO on lukiolaisten matematiikkakilpailujen hierarkian huipulla.
-    Kukin kutsuttu maa voi lähettää kilpailuun kuusi osallistujaa.
-    Tehtävät ovat vaikeita.  Kilpailu on kaksipäiväinen; kumpanakin
-    päivänä kamppaillaan 4,5 tuntia kolmen tehtävän parissa.
+<span lang="en">International Mathematical Olympiad</span>, IMO.
+IMO on lukiolaisten matematiikkakilpailujen hierarkian huipulla.
+Kukin kutsuttu maa voi lähettää kilpailuun kuusi osallistujaa.
+Tehtävät ovat vaikeita.  Kilpailu on kaksipäiväinen; kumpanakin
+päivänä kamppaillaan 4,5 tuntia kolmen tehtävän parissa.
 
-* [Euroopan Tyttöjen Matematiikkaolympialaiset](EGMO/)
+#### [Euroopan Tyttöjen Matematiikkaolympialaiset](EGMO/)
 
-    Euroopan Tyttöjen Matematiikkaolympialaiset, EGMO, on perustettu
-    vuonna 2011. Kilpailun tarkoitus on korjata Kansainvälisissä
-    Matematiikkaolympialaisissa vallitsevaa sukupuolten epätasapainoa
-    kannustamalla tyttöjä pyrkimään Kansainvälisiin
-    olympialaisiin. Kilpailu on kaksipäiväinen ja noudattaa muutenkin
-    Kansainvälisten Matematiikkaolympialaisten muotoja.
+oopan Tyttöjen Matematiikkaolympialaiset, EGMO, on perustettu
+nna 2011. Kilpailun tarkoitus on korjata Kansainvälisissä
+ematiikkaolympialaisissa vallitsevaa sukupuolten epätasapainoa
+nustamalla tyttöjä pyrkimään Kansainvälisiin
+mpialaisiin. Kilpailu on kaksipäiväinen ja noudattaa muutenkin
+sainvälisten Matematiikkaolympialaisten muotoja.
 
 ## <a name="kilpailuvalmennus"></a>Valmennusviikonloput
 
@@ -200,12 +200,12 @@ kilpailumatematiikkavalmennustilaisuuksia. Tarkemmin [tästä][oulu].
 
 ## <a name="muuta"></a>Muuta
 
-* [Päivölän kansanopisto](http://www.paivola.fi/)
+#### [Päivölän kansanopisto](http://www.paivola.fi/)
 
-    Päivölässä toimii [matematiikkalinja](http://www.paivola.fi/?menu=2&amp;sivu=matematiikka), 
-    jonka yhteydessä järjestetään viikonloppuvalmennuksia.
+Päivölässä toimii [matematiikkalinja](http://www.paivola.fi/?menu=2&amp;sivu=matematiikka),
+jonka yhteydessä järjestetään viikonloppuvalmennuksia.
    
-* [Solmu](http://solmu.math.helsinki.fi/)
+#### [Solmu](http://solmu.math.helsinki.fi/)
 
-    Matematiikkalehti, johon sinäkin voisit kenties kirjoittaa jotain.
+Matematiikkalehti, johon sinäkin voisit kenties kirjoittaa jotain.
 
