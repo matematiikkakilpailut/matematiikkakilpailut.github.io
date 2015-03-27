@@ -207,5 +207,5 @@ kilpailumatematiikkavalmennustilaisuuksia. Tarkemmin [tästä][oulu].
    
 * [Solmu](http://solmu.math.helsinki.fi/)
 
-    Matematiikkalehti, johon sinäkin voisit kenties kirjoittaa jotain.</dd>
+    Matematiikkalehti, johon sinäkin voisit kenties kirjoittaa jotain.
 
