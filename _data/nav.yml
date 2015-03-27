@@ -1,0 +1,31 @@
+---
+- title: Kilpailut ja valmennus
+  url: /
+  sub:
+    - title: Aikataulu
+      url: /aikataulu/
+    - title: Käytännön asioita
+      url: /kaytanto/
+    - title: Valmennustehtävät
+      url: /valmennus/
+    - title: Aiheet ja materiaalit
+      url: /aiheet/
+    - title: Valmentajat
+      url: /valmentajat/
+- title: Kilpailuja
+  url: /kilpailut/
+  sub:
+    - title: MAOL
+      url: /MAOL/
+    - title: Pythagoras
+      url: /pythagoras/
+    - title: Pohjoismainen
+      url: /PM/
+    - title: Baltian tie
+      url: /Baltian_tie/
+    - title: IMO
+      url: /IMO/
+    - title: EGMO
+      url: /EGMO/
+- title: In English
+  url: /english/

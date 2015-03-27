@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Käytännön asioita
-group: navigation
-tagline: Suomen matematiikan olympiavalmennus
+link: /
+link2: /kaytanto/
 ---
 {% include JB/setup %}
 
