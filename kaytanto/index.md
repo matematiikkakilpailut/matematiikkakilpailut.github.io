@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Käytännön asioita
+group: navigation
 tagline: Suomen matematiikan olympiavalmennus
 ---
 {% include JB/setup %}

@@ -2,6 +2,7 @@
 layout: page
 title: Matematiikkakilpailut
 tagline: Suomen matematiikan olympiavalmennus
+group: navigation
 # Jekyll Quick Start: http://jekyllbootstrap.com/usage/jekyll-quick-start.html
 # Jekyll Bootstrap: http://jekyllbootstrap.com
 ---
