@@ -33,7 +33,7 @@ Valmennusjaosto järjestää myös kilpailujoukkueiden valintaan ja
 valmennukseen liittyviä valmennustapahtumia, joihin osallistuminen
 perustuu henkilökohtaisiin kutsuihin.
 
-## <a name="kilpailut">Kilpailut</a>
+## <a name="kilpailut"></a>Kilpailut
 
 * [MAOL:n](MAOL/) kilpailu
 
@@ -86,7 +86,7 @@ perustuu henkilökohtaisiin kutsuihin.
     olympialaisiin. Kilpailu on kaksipäiväinen ja noudattaa muutenkin
     Kansainvälisten Matematiikkaolympialaisten muotoja.
 
-## <a name="kilpailuvalmennus">Valmennusviikonloput</a>
+## <a name="kilpailuvalmennus"></a>Valmennusviikonloput
 
 Suomen matemaattisen yhdistyksen Valmennusjaoston
 matematiikkakilpailuvalmennus koostuu valmennusviikonlopuista Päivölän
@@ -106,7 +106,7 @@ osa-alueiden aloilta, tehtävänratkaisua ja pieniä
 harjoituskokeita. Valmennusviikonloppuihin liittyvistä käytännön
 kysymyksistä löytyy lisätietoa [täältä](kaytanto).
 
-## <a name="uutisia">Uutisia</a>
+## <a name="uutisia"></a>Uutisia
 
 * Lukion matematiikkakilpailun loppukilpailu pidettiin 30.1.2015
   Ressun lukiossa Helsingissä. Kilpailun voitti **Ella Tamir**
@@ -171,7 +171,7 @@ Vanhempia uutisia löytyy [uutisarkistosta](vanhaset.html).
 [egmo-tulokset]: https://www.egmo.org/egmos/egmo3/scoreboard/
 
 
-## <a name="muut aktiviteetit">Muut aktiviteetit</a>
+## <a name="muut aktiviteetit"></a>Muut aktiviteetit
 
 Valmennusjaosto järjestää yhteistyössä
 [Helsingin yliopiston matematiikan ja tilastotieteen laitoksen][mathstat]
@@ -198,7 +198,7 @@ kilpailumatematiikkavalmennustilaisuuksia. Tarkemmin [tästä][oulu].
 [oulu]: http://ouluma.fi/2012/08/matematiikkavalmennus/
 
 
-## <a name="muuta">Muuta</a>
+## <a name="muuta"></a>Muuta
 
 * [Päivölän kansanopisto](http://www.paivola.fi/)
 
