@@ -20,7 +20,7 @@ kilpailuosallistumiseen liittyviä käytännön asioita.
 Valmennus koostuu yleensä viikonloppuisin järjestettävistä
 **valmennustapahtumista** (ks. [aikataulua](aikataulu))
 [Päiv&ouml;län opistossa](#muuta) Valkeakoskella sekä
-**[kirjevalmennuksesta](valmennus)**, joka on tarkoitettu
+[**kirjevalmennuksesta**](valmennus), joka on tarkoitettu
 kaikille, myös niille, jotka eivät voi osallistua
 valmennustapahtumiin.  Valmennustapahtumissa pidetään
 kilpailuharjoituksia ja esitetään myös muuta matematiikkaa, mistä saa
