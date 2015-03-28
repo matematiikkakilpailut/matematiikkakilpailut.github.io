@@ -1,0 +1,24 @@
+body{font-family: Fixedsys, Courier;
+color: #0000ff}
+
+a{color: #ff0000;
+text-decoration: none}
+
+a:hover{color: #ffffff;
+background-color: #ff0000}
+
+.toni{color: #00cc00;
+font-size: 36px}
+
+.logo{color: #00ccff;
+font-size: 72px}
+
+.vali{color: #00cc00;
+font-weight: bold}
+
+.tav{color: 0000ff;
+font-weight: bold}
+
+.tav:hover{color: ffffff;
+background-color: 0000ff;
+font-weight: bold}
