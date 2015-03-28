@@ -9,32 +9,26 @@
     </button>
   </div>
 
-  <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse" id="jb-navbar-collapse">
     <ul class="nav navbar-nav">
+      {% assign this = null %}
       {% for node in site.data.nav %}
-        {% if page.link == node.url %}{% assign active = true %}{% else %}{% assign active = false %}{% endif %}
-        {% if node.sub == null %}
-          <li {% if active %}class="active"{% endif %}>
-            <a {% if active %}class="active" {% endif %}
-	       href="{{ BASE_PATH }}{{ node.url }}">{{ node.title }}</a></li>
-        {% else %}
-          <li class="dropdown {% if active %}active{% endif %}">
-            <a {% if active %}class="active" {% endif %} data-toggle="dropdown"
-              >{{ node.title }} <span class="caret"></span></a>
-            <ul class="dropdown-menu navbar-default" role="menu">
-	      <li><a href="{{ node.url }}">{{ node.title }}</a></li>
-              <li role="presentation" class="divider"></li>
-              {% for subnode in node.sub %}
-	        {% if page.link2 == subnode.url %}
-	          <li class="active"><a href="{{ subnode.url }}" class="active">{{ subnode.title }}</a></li>
-	        {% else %}
-	          <li><a href="{{ subnode.url }}">{{ subnode.title }}</a></li>
-	        {% endif %}
-	      {% endfor %}
-	    </ul></li>
-        {% endif %}
+        {% if page.link == node.url %}{% assign this = node %}{% assign active = true %}{% else %}{% assign active = false %}{% endif %}
+        <li {% if active %}class="active"{% endif %}>
+          <a {% if active %}class="active" {% endif %}
+             href="{{ BASE_PATH }}{{ node.url }}">{{ node.title }}</a></li>
       {% endfor %}
     </ul>
-  </div><!-- /.navbar-collapse -->
+    {% if this.sub != null %}
+    <div class="clearfix"></div>
+    <ul class="nav navbar-nav">
+      {% for subnode in this.sub %}
+        {% if page.link2 == subnode.url %}{% assign active = true %}{% else %}{% assign active = false %}{% endif %}
+        <li {% if active %}class="active"{% endif %}>
+          <a {% if active %}class="active" {% endif %}
+             href="{{ BASE_PATH }}{{ subnode.url }}">{{ subnode.title }}</a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
 </nav>
