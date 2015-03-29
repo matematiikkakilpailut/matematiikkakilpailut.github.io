@@ -1,0 +1,2 @@
+AddType text/plain .tex
+AddCharset WINDOWS-1257 .tex

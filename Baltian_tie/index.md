@@ -207,7 +207,7 @@ tgz). Tulossarakkeen mahdolliset linkit ovat tulostaulukoihin.
 
 <div class="row">
 <div class="col-xs-1 col-md-1">2006</div>
-<div class="col-xs-2 col-md-2"><a href="http://matematiikkakilpailut.fi/BW2006/">Tur&shy;ku</a></div>
+<div class="col-xs-2 col-md-2"><a href="/BW2006/">Tur&shy;ku</a></div>
 <div class="col-xs-2 col-md-1"><a href="tulokset.html#2006">50 (7.)</a></div>
 <div class="col-xs-3 col-md-1"><a href="2006/Bt2006.ps">ps</a>, <a href="2006/Bt2006.pdf">pdf</a></div>
 <div class="col-xs-4 col-md-2"><a href="bwr2006.pdf">pdf</a>; <a href="Btratk2000_09.pdf">koko&shy;el&shy;massa</a></div>
