@@ -1,0 +1,72 @@
+BODY {font-family: Verdana, Arial, Helvetica, sans-serif;
+      color: black; 
+      background-color: rgb(200,200,255);
+      font-size: medium}
+H1 {font-family: Times;
+    font-style: italic;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    padding: 12px;
+    border-width: 1px;
+    border-color: white;}
+H2 {background-color: rgb(185,185,240);
+    font-family: Arial,Helvetica;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    padding: 3px;
+    border-width: 1px;
+    border-color: white;}
+H3 {background-color: rgb(185,185,240);    
+    font-family: Arial,Helvetica;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    padding: 3px;}
+UL {margin: 0;
+    padding: 2px;
+    list-style: none}
+DL {list-style: none}
+LI {margin:  0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding: 3px;}
+PRE {font-family: Courier;}
+UL {background-color: rgb(185,185,240);}
+A:link {color: rgb(80,80,140); 
+               text-decoration: none;
+               font-weigth: bold}
+A:active {color: red}
+A:visited {color: rgb(80,100,140);
+                  text-decoration: none}
+A:hover {color: rgb(80,150,140);
+                text-decoration: none}
+TABLE  {background-color: rgb(185,185,240);
+        font-family: Verdana,Arial,Helvetica,sans-serif;
+	padding: 7px;
+        border-spacing: 15px;}
+TABLE.inside  {
+        background-color: rgb(185,185,240);
+        font-family: Verdana,Arial,Helvetica,sans-serif;
+	padding: 0px;
+        border-spacing: 0px;}
+TD.lomake { background-color: rgb(185,185,240);
+            font-family: Verdana,Arial,Helvetica,sans-serif;
+            margin: 0;
+            border: 0;
+            border-spacing: 0;}
+TR  {background-color: rgb(185,185,240);}
+TABLE.nappi  {background-color: rgb(185,185,240);
+              padding: 5px;
+              border-spacing: 15px;
+              text-align: center; }
+TD  {background-color: rgb(185,185,240);}
+TD.sponsor {background-color: white;}
+TD.nappi {background-color: rgb(180,145,240);
+          font-family: Verdana,Arial,Helvetica,sans-serif;
+          padding: 7px; }
+SPAN.nappi {padding: 10px; border-width: 1px}
+#koko {
+	width: 80ex;
+	margin: auto;
+}
