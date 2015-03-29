@@ -4,3 +4,42 @@ title: Valmentajat
 url: /valmentajat/
 ---
 {% include JB/setup %}
+
+## Valmentajat
+
+Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
+[Suomen matemaattisen yhdistyksen][smy] valmennusjaosto ja sen vapaaehtoiset:
+
+*  [Anne-Maria Ernvall-Hytönen][ameh]<br/>
+   Filosofian tohtori, olympiaedustaja 1999, 2000, 2001.
+   Valmennusjaoston johtoryhmän jäsen. Kantaa huolta lukuteorian ja epäyhtälöiden osaamisesta.
+*  Lauri Hallila<br/> Olympiaedustaja vuosina 1996 ja 1997.
+*  Olli Hirviniemi<br/>Olympiaedustaja vuosina 2010 ja 2011.
+*  [Antti Honkela][ahonkela]<br/> Olympiaedustaja vuonna 1997.
+*  Jesse Jääsaari<br/>Olympiaedustaja vuonna 2011.
+*  Alexey Kirichenko<br/>
+   Kokemusta mm. maineikkaista Leningradin matematiikkaolympialaisista.
+*  Aleksis Koski<br/> Olympiaedustaja vuosina 2009 ja 2010.
+*  Katja Kulmala<br/> Olympiaedustaja vuonna 2013.
+*  Jari Lappalainen<br/> Olympiaedustaja vuosina 1990 ja 1991.
+*  [Matti Lehtinen][matti]<br/>
+   Olympiaedustaja vuonna 1965. Valmennusjaoston johtoryhmän jäsen.
+   Pitää huolta erityisesti valmennettavien geometrian taidoista.
+*  [Kerkko Luosto][kluosto]<br/>
+   Filosofian tohtori, matematiikan dosentti (HY), yliopistonlehtori (TaY).
+   Olympiaedustaja vuonna 1983. Valmennusjaoston johtoryhmän jäsen.
+   Sommittelee kombinatoriikan valmennusta.
+*  [Jouni Seppänen][jks]<br/> Tekniikan tohtori, olympiaedustaja vuosina 1994 ja 1995.
+*  Joni Teräväinen<br/> Olympiaedustaja vuosina 2011, 2012 ja 2013.
+*  [Niko Vuokko][ntvuok]<br/> Olympiaedustaja vuosina 2002 ja 2003.
+*  [Esa Vesalainen][evvesala]<br/>
+   Olympiaedustaja vuosina 2005, 2006 ja 2007. Valmennusjaoston johtoryhmän jäsen.
+
+[smy]: http://www.matemaattinenyhdistys.fi/
+[ameh]: http://www.helsinki.fi/~ernvall/
+[ahonkela]: http://www.iki.fi/ahonkela/
+[matti]: http://www.elisanet.fi/matti.t.Lehtinen
+[kluosto]: http://www.helsinki.fi/%7Ekluosto/
+[jks]: http://www.iki.fi/jks/
+[ntvuok]: http://www.cis.hut.fi/ntvuok/
+[evvesala]: http://www.helsinki.fi/~evvesala/
