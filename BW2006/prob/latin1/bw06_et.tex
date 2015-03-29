@@ -1,0 +1,278 @@
+\documentclass{bw06}
+\usepackage[estonian]{babel}
+
+\version{Estonian}
+\maintitle{Balti Tee 2006}
+\linetwo{Turu, 3. november 2006}
+
+\begin{document}
+\maketitle
+
+\begin{problems}
+
+\item
+Reaalarvude jada~$a_1, a_2, a_3, \dots$ kohta on teada, 
+et iga $n=2,3,4,\dots$ korral $a_n=a_{n-1}+a_{n+2}$.
+Leia selle jada järjestikuste positiivste elementide suurim 
+võimalik arv.
+
+%  For a sequence~$a_1, a_2, a_3, \dots$ of real numbers it is known
+%  that
+%  \[a_n=a_{n-1}+a_{n+2} \quad \text{for } n=2,3,4,\dots.\]
+%  What is the largest
+%  number of its consecutive elements that can all be positive?
+
+\item
+Reaalarvud $a_1,a_2,\ldots,a_{59}$ lõigult $[-2,17]$ 
+rahuldavad tingimust $a_1+a_2+\dots+a_{59}=0$.
+Tõesta, et
+\[a_1^2 + a_2^2 + \dots + a_{59}^2 \leqslant 2006.\]
+
+%  Suppose that the real numbers
+%$a_i\in[-2, 17];\; i = 1, 2, \dots, 59$
+%satisfy $a_1+a_2+\dots+a_{59}=0$.
+%Prove that
+%\[a_1^2 + a_2^2 + \dots + a_{59}^2 \le 2006.\]
+
+\item
+Tõesta, et iga reaalarvuliste kordajatega polünoomi $P(x)$ 
+jaoks leiduvad positiivne täisarv~$m$ ja reaalarvuliste kordajatega 
+polünoomid $P_1(x)$, $P_2(x)$, $\ldots$, $P_m(x)$, nii et
+\[P(x)=(P_1(x))^3+(P_2(x))^3+\ldots+(P_m(x))^3.\]
+
+%Prove that for every polynomial $P(x)$ with real coefficients
+%there exist a positive integer~$m$ and polynomials
+%$P_1(x)$, $P_2(x)$, $\ldots$, $P_m(x)$ with real coefficients
+%such that
+%\[P(x)=(P_1(x))^3+(P_2(x))^3+\ldots+(P_m(x))^3.\]
+
+\item
+Olgu $a$, $b$, $c$, $d$, $e$, $f$ mittenegatiivsed reaalarvud, 
+mis rahuldavad tingimust
+\[
+a+b+c+d+e+f=6\mbox{.}
+\]
+Leia avaldise
+\[abc+bcd+cde+def+efa+fab\]
+suurim võimalik väärtus ning kõik arvukuuikud
+$(a,b,c,d,e,f)$, mille korral see suurim väärtus saavutatakse.
+
+%Let $a$, $b$, $c$, $d$, $e$, $f$ be non-negative real
+%numbers satisfying $a+b+c+d+e+f=6$. Find the maximal possible value of
+%\[abc+bcd+cde+def+efa+fab\] and determine all $6$-tuples
+%$(a,b,c,d,e,f)$ for which this maximal value is achieved.
+
+\item 
+Üks ajuti ebausaldusväärne professor pühendas oma viimase raamatu 
+teatavale binaarsele tehtele~$*$. Selle tehte rakendamine suvalisele 
+kahele täisarvule annab tulemuseks täisarvu.
+On teada, et see tehe rahuldab järgmist kaht aksioomi:
+  \begin{itemize}
+    \item[a) ] iga~$x,y \in \mathbb{Z}$ korral $x*(x*y)=y$;
+    \item[b) ] iga~$x,y \in \mathbb{Z}$ korral $(x*y)*y=x$.
+  \end{itemize}
+Professor väidab oma raamatus, et
+  \begin{enumerate}
+  \item tehe~$*$ on kommutatiivne, st
+    $x*y=y*x$ iga~$x,y \in \mathbb{Z}$ korral;
+  \item tehe~$*$ on assotsiatiivne, st
+    $(x*y)*z=x*(y*z)$ iga~$x,y,z \in \mathbb{Z}$ korral.
+  \end{enumerate}
+Millised neist väidetest järelduvad ülaltoodud aksioomidest?
+
+%An occasionally unreliable professor has devoted his last book to 
+%a certain binary operation~$*$. When this operation is applied to 
+%any two integers, the result is again an integer.
+%The operation is known to satisfy the following axioms:
+%  \begin{itemize}
+%    \item[a) ] $x*(x*y)=y$ for all~$x,y \in \mathbb{Z}$;
+%    \item[b) ] $(x*y)*y=x$ for all~$x,y \in \mathbb{Z}$.
+%  \end{itemize}
+%The professor claims in his book that
+%  \begin{enumerate}
+%  \item the operation~$*$ is commutative:
+%    $x*y=y*x$ for all~$x,y \in \mathbb{Z}$.
+%  \item the operation~$*$ is associative:
+%    $(x*y)*z=x*(y*z)$ for all~$x,y,z \in \mathbb{Z}$.
+%  \end{enumerate}
+%Do these claims follow from the stated axioms?
+
+\item 
+Leia järgmisi tingimusi rahuldava positiivsete täisarvude hulga suurim 
+võimalik elementide arv.
+\begin{enumerate}
+\item Kõik täisarvud selles hulgas koosnevad hulga $\{1,2,3,4,5,6\}$ 
+numbritest.
+\item Ükski number ei esine samas arvus korduvalt.
+\item Iga arvu numbrid on kasvavas järjestuses.
+\item Igal kahel arvul on vähemalt üks ühine number (võib olla erinevas 
+positsioonis).
+\item Ükski number ei esine kõigis arvudes.
+\end{enumerate}
+
+%Determine the maximal size of a set of positive integers with the following
+%properties:
+%\begin{enumerate}
+%\item The integers consist of digits from the set $\{1,2,3,4,5,6\}$.
+%\item No digit occurs more than once in the same integer.
+%\item The digits in each integer are  in increasing order.
+%\item Any two integers have at least one digit in common (possibly at different
+%  positions).
+%\item There is no digit which appears in all the integers.
+%\end{enumerate}
+
+\item 
+Fotograaf tegi mõned pildid peol, millest võttis osa $10$ inimest. 
+Iga inimeste paar $45$ võimalikust esineb koos täpselt ühel fotol, 
+kusjuures igal fotol on kas $2$ või $3$ inimest.
+Leia vähim võimalik tehtud fotode arv.
+
+%A photographer took some pictures at a party with 10 people. Each of
+%the 45 possible pairs of people appears together on exactly one
+%photo, and each photo depicts two or three people. What is the
+%smallest possible number of photos taken?
+
+\item 
+Juhataja avastas, et tema osakonnas on siginenud $6$ vandenõu, 
+millest igaühesse on segatud täpselt $3$ töötajat. Tõesta, et juhataja 
+saab jaotada osakonna töötajad kahte laborisse nii, et ükski 
+vandenõulaste rühm pole tervikuna samas laboris.
+
+%The director has found out that six conspiracies have been set  
+%up in his department, each of them involving exactly 3 persons. Prove  
+%that the director can split the department in two laboratories so that  
+%none of the conspirative groups is entirely in the same laboratory.
+
+\item  %PU4
+Korrapärase viisnurga igasse tippu kirjutatakse mingi reaalarv. 
+On lubatud sooritada järgmist operatsiooni: valime viisnurga kaks naabertippu 
+ja asendame kummassegi tippu kirjutatud arvu nende arvude aritmeetilise 
+keskmisega. Kas alati, kui alguses tippudesse kirjutatud viie arvu 
+summa võrdub nulliga, on võimalik saavutada olukord, kus $0$ on 
+kirjutatud igasse tippu?
+
+%To  every vertex of a regular pentagon
+%a real number is assigned. We may
+%perform the following operation repeatedly: 
+%we choose two adjacent vertices of
+%the pentagon and replace each of the two numbers assigned to these
+%vertices by their arithmetic mean.  
+%Is it always possible to obtain the
+%position in which all five numbers are zeroes,
+%given that in the initial position the sum
+%of all five numbers is equal to zero?
+
+\item 
+$30\times 30$ tabelisse on kirjutatud $162$ plussi ja $144$ miinust 
+nii, et igas reas ja igas veerus on ülimalt $17$ märki. (Ükski 
+lahter ei sisalda üle ühe märgi.) 
+Iga plussi kohta leitakse miinuste arv tema reas, iga miinuse kohta 
+leitakse plusside arv tema veerus. Leia kõigi saadud arvude suurim võimalik 
+summa.
+
+%162 pluses and 144 minuses are placed in a $30\times 30$ 
+%table in such
+%a way that each row and each column contains at most 17 signs.
+%(No cell contains more than one sign.)
+%For every plus we count the number of minuses in its row and for every minus
+%we count the number of pluses in its column. Find the maximum of the sum
+%of these numbers.
+%%suggested by   Konstantin Kokhas
+
+\item 
+Kolmnurga kõrgused on pikkustega $12$, $15$ ja $20$. Leia selle 
+kolmnurga pindala.
+
+%The altitudes of a triangle are 12, 15, and 20. What is the area
+%of the triangle?
+
+\item 
+Kolmnurgas $ABC$ olgu $B_1$ ja $C_1$ vastavalt külgede $AB$ ja $AC$ keskpunktid.
+Olgu $P$ kolmnurkade $ABC_1$ ja $AB_1C$ ümberringjoonte $A$-st erinev lõikepunkt.
+Olgu $P_1$ sirge $AP$ ja kolmnurga $AB_1C_1$ ümberringjoone $A$-st erinev lõikepunkt. 
+Tõesta, et $2|AP| = 3|AP_1|$.
+
+%Let $ABC$ be a triangle, let $B_1$ be the midpoint of the side $AB$ and 
+%$C_1$ the midpoint of the side $AC$. Let $P$ be the point of intersection, other than
+%$A$, of the circumscribed circles around the triangles $ABC_1$ and $AB_1C$. Let 
+%$P_1$ be the point of intersection, other than $A$, of the line $AP$ with the 
+%circumscribed circle around the triangle $AB_1C_1$. Prove that $2AP = 3AP_1$.
+
+\item  %PU5
+Kolmnurga $ABC$ külgedel $AB$ ja $AC$ võetakse vastavalt punktid $D$ ja $E$. 
+Sirged $BE$ ja $CD$ lõikuvad punktis $F$. Tõesta, et kui
+\[|BC|^2=|BD|\cdot |BA|+|CE|\cdot |CA|,\]
+siis punktid $A$, $D$, $F$, $E$ asuvad ühel ringjoonel.
+
+%In a triangle $ABC$, points $D$, $E$ lie on sides $AB$, $AC$ respectively.
+%The lines $BE$ and $CD$ intersect at $F$. Prove that if
+%\[BC^2=BD\cdot BA+CE\cdot CA,\]
+%then the points $A$, $D$, $F$, $E$ lie on a circle.
+
+\item 
+Sfäärpinnal märgitakse $2006$ punkti. Tõesta, et selle pinna saab lõigata $2006$ 
+võrdseks tükiks nii, et iga tüki sisepiirkonnas on täpselt üks märgitud 
+punkt.
+
+%There are 2006 points marked on the surface of a sphere. Prove
+%  that the surface can be cut into 2006 congruent  pieces so that
+%  each piece contains exactly one of these points inside it.
+
+\item 
+Olgu $M$ kolmnurga $ABC$ mediaanide lõikepunkt. Punkti $M$ läbiv sirge $t$ 
+lõikab kolmnurga $ABC$ ümberingjoont punktides $X$ ja $Y$, kusjuures $A$ 
+ja $C$ asuvad samal pool sirget $t$. Tõesta, et 
+$|BX|\cdot|BY|=|AX|\cdot |AY| + |CX|\cdot |CY|$.
+
+%Let the medians of the triangle $ABC$ intersect at point $M$. A  
+%line $t$ through $M$ intersects the circumcircle of $ABC$ at $X$ and $Y$ so  
+%that $A$ and $C$ lie on the same side of $t$. Prove that $BX\cdot  
+%BY=AX\cdot AY + CX\cdot CY$.
+
+\item 
+Kas leidub $4$ erinevat positiivset täisarvu, millest mistahes kahe korrutise
+ja arvu $2006$ summa on täisruut?
+
+%Are there 4 distinct positive integers such that
+%adding the product of
+%any two of them to 2006 yields a perfect square?
+
+\item  %PU7
+Leia kõik positiivsed täisarvud $n$, mille korral arv $3^n+1$ jagub arvuga $n^2$.
+
+%Determine all positive integers $n$ such that $3^n+1$ is divisible by $n^2$.
+
+\item 
+Iga positiivse täisarvu $n$ korral tähistagu $a_n$ arvu $n^{(n^n)}$ 
+viimast numbrit. Tõesta, et jada $(a_n)$ on perioodiline ja leia 
+tema lühima perioodi pikkus.
+
+%For a positive integer $n$ let $a_n$ denote the last digit of
+%$n^{(n^n)}$. Prove that the sequence $(a_n)$ is periodic and
+%determine the length of the minimal period.
+
+\item 
+Kas leidub selline positiivsete täisarvude jada $a_1,a_2,a_3,\ldots$, 
+et iga positiivse täisarvu $n$ korral jagub jada mistahes $n$ järjestikuse 
+elemendi summa arvuga $n^2$?
+%mille suvalise 
+%$n$ järjestikuse elemendi summa jagub arvuga $n^2$ iga positiivse täisarvu $n$ 
+%korral?
+
+%Does there exist a sequence $a_1,a_2,a_3,\ldots$ of positive integers such that
+%the sum of every $n$ consecutive elements is divisible by $n^2$ for every
+%positive integer $n$?
+
+\item 
+On antud $12$-kohaline $37$-ga jaguv arv, mis võib sisaldada ainult numbreid
+$1$, $5$, $9$. Tõesta, et selle arvu numbrite summa ei ole $76$.
+
+%A 12-digit positive integer consisting only of digits
+%  1, 5 and 9 is divisible by 37.
+%  Prove that the sum of its digits is not equal to 76.
+
+\end{problems}
+
+Lahendamisaega on $4\frac{1}{2}$ tundi. Iga ülesanne maksab $5$ punkti.
+
+\end{document}

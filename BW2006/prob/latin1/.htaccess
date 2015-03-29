@@ -1,0 +1,2 @@
+AddType text/plain .tex
+AddCharset ISO-8859-1 .tex
