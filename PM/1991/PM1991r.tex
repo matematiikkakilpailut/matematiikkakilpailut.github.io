@@ -1,0 +1,65 @@
+\input makrot
+\input def
+\input laskut
+
+\font\isosser=cmss12
+\centerline{\isosser Vuoden 1991 pohjoismaisen kilpailun ratkaisut}\bigskip
+
+\harj  Osoitetaan ensin, ett‰ kaikki luvut $2^{5^k}$ ovat
+muotoa $100p+32$. T‰m‰ n‰hd‰‰n induktiolla: kun $k=1$ asia on selv‰
+($2^5=32$). Oletetaan, ett‰ $2^{5^k}=100p+32$. Silloin
+$$2^{5^{k+1}}=\(2^{5^k}\)^5=(100p+32)^5=100q+32^5$$ ja $$(30+2)^5=30^5+5\cdot
+30^4\cdot 2+10\cdot 30^3\cdot 4+10\cdot 30^2\cdot 8+5\cdot 30\cdot
+16+32=100r+32.$$ Teht‰v‰n summan kaksi viimeist‰ numeroa ovat samat kuin
+luvun $1991\cdot 32$ kaksi viimeist‰ numeroa eli 12.
+ 
+ 
+ 
+\harj  Kolmion $ABF$ ala ei riipu pisteen $F$ valinnasta.
+Merkit‰‰n $DE$:n ja $AF$:n leikkauspistett‰ $P$:ll‰ ja $BF$:n ja $CE$:n
+leikkauspistett‰ $Q$:lla. Kysytty ala maksimoituu, kun kolmioiden $AEP$ ja
+$EBQ$ yhteenlaskettu ala minimoituu. Merkit‰‰n viel‰ puolisuunnikkaan
+korkeutta $h$:lla, kolmioiden $AEP$ ja $EBQ$ korkeuksia $h_1$:ll‰ ja
+$h_2$:lla sek‰ janojen $AE$, $EB$ ja $CD$ sek‰ $DF$ pituuksia $a$:lla,
+$b$:ll‰, $c$:ll‰ ja $x$:ll‰. Koska kolmiot $AEP$ ja $FDP$ ovat yhdenmuotoiset
+ja samoin $BQE$ ja $FQC$, saadaan $$\frac{h_1}a=\frac{h-h_1}x\qquad {\rm
+ja}\qquad\frac{h_2}b=\frac{h-h_2}{c-x}.$$ N‰ist‰ ratkaistaan
+$$h_1=\frac{ha}{a+x}\qquad {\rm ja}\qquad h_2=\frac{hb}{b+c-x}.$$
+Kolmioiden yhteenlaskettu ala on $$\frac{h}{2}\(\frac{a^2}{a+x}
++\frac{b^2}{b+c-x}\).$$ Teht‰v‰ on siten minimoida funktio
+$$f(x)=\frac{a^2}{a+x}+\frac{b^2}{b+c-x},$$ kun $0\le x\le c$. Lasketaan
+derivaatta  $$f'(x)=-\frac{a^2}{(a+x)^2}+\frac{b^2}{(b+c-x)^2}$$ ja toinen
+derivaatta $$f''(x)=\frac{2a^2}{(a+x)^3}+\frac{2b^2}{(b+c-x)^3}.$$ Koska
+toinen derivaatta on positiivinen, kun $0\le x\le c$, ensimm‰inen derivaatta
+kasvaa aidosti. $f'(x)=0$ vain, kun $x=\dfrac{ac}{a+b}=x_0$. T‰st‰ seuraa,
+ett‰ $f$ v‰henee, kun $x<x_0$, ja kasvaa, kun $x>x_0$, joten $f$:n minimi
+saavutetaan vain, kun $x=x_0$ eli kun $$\frac xc=\frac a{a+b}.$$ T‰m‰
+merkitsee, ett‰ teht‰v‰n ratkaisee se piste $F$, joka jakaa sivun $DC$
+samassa suhteessa kuin $E$ jakaa sivun $AB$.
+
+ 
+ 
+\harj   Koska $$\frac 1{j^2}<\frac1{j(j-1)}=\frac1{j-1}-
+\frac1j,$$ niin
+$$\displaylines{\sum_{j=k}^n\frac1{j^2}<\(\frac1{k-1}-\frac1k\)+\(\frac1k-
+\frac1{k+1}\)+\dots +\(\frac1{n-1}-\frac1n\)\cr=\frac1{k-1}-\frac1n<\frac1{k-
+1}.\cr}$$ T‰st‰ saadaan arvolla $k=6$ $$\frac1{2^2}+\frac1{3^2}+\dots
++\frac1{n^2}<\frac14+\frac19+\frac1{16}+\frac1{25}+\frac15=
+\frac{2389}{3600}<\frac23.$$
+ 
+ 
+ 
+\harj  Olkoon $f(x)=a_0x^d+a_1x^{d-1}+\dots +a_d$.
+Oletetaan, ett‰ $f$:ll‰ on jokin kokonainen nollakohta $m$. Silloin
+$f(x)=(x-m)g(x)$, miss‰ $g$ on polynomi. Jos
+$g(x)=b_0x^{d-1}+b_1x^{d-2}+\dots +b_{d-1}$, niin $a_0=b_0$ ja
+$a_k=b_k-mb_{k-1}$, $1\le k\le d-1$. Siten $b_0$ on kokonaisluku
+ja myˆs muut $b_k$:t ovat kokonaislukuja. Koska $f(j)$ on jaoton $k$:lla
+$k$:lla per‰kk‰isell‰ $j$:n arvolla, niin $k$ per‰kk‰ist‰ kokonaislukua $j-m$
+($j=n$, $n+1$, \dots , $n+k-1$) ovat myˆs $k$:lla jaottomia. T‰m‰ on
+ristiriita, sill‰ $k$:sta per‰kk‰isest‰ kokonaisluvusta aina tasan yksi on
+$k$:lla jaollinen! $f$:ll‰ ei voi olla kokonaislukunollakohtaa.
+
+
+
+\bye

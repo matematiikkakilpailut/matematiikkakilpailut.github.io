@@ -1,0 +1,84 @@
+\input makrot
+\input def
+\input laskut
+
+\font\isosser=cmss12
+\centerline{\isosser Vuoden 1999 pohjoismaisen kilpailun ratkaisut}\bigskip
+
+\harj  Jos $n\ge 2005$, niin $f(n)=n-5\ge 2000$. Olkoon
+$1\le k\le 4$. Silloin $$2000-k=f(2005-k)=f(f(2010-k))=f(1999-k)=f(f(2004-
+k))=f(1993-k).$$ Sijoitetaan $k=1$. Saadaan $1999=f(2004)=f(1998)=f(1992)$.
+Lis‰ksi $1995=f(2000)=f(f(2005))=f(1994)$ ja
+$f(1993)=f(f(2004))=f(1999)=f(f(2010))=f(2005)=2000$. On siis osoitettu, ett‰
+$2000-k=f(1999-k)$, kun $k=0$, 1, 2, 3, 4, 5 ja $2000-k=f(1993-k)$, kun
+$k=0$, 1, 2, 3, 4. Osoitetaan, ett‰ $f(6n+1-k)=2000-k$,kun $n\le 333$ ja
+$0\le k\le 5$. T‰m‰ on jo n‰ytetty toteen, kun $n=333$ ja $n=332$. Oletetaan,
+ett‰ v‰ite p‰tee, kun $n=m+2$ ja $n=m+1$. Silloin $f(6m+1-k)=f(f(6m+12-
+k))=f(f(6(m+2)+1-(k+1))= f(2000-k-1)=f(1999-k)=2000-k$, kun $k=0$, 1, 2, 3, 4
+ja $f(6m+1-5)=f(6m-4)=f(f(6m+7))=f(f(6(m+1)+1))=f(2000)=1995=2000-5$. Siis
+v‰ite p‰tee, kun $n=m$. Kaiken kaikkiaan siis $1999=2000-1=f(6n)$, jos ja
+vain jos $n=1$, 2, \dots, 334.
+
+
+
+\harj  On helppo antaa esimerkkej‰ vaaditunlaisista
+seitsenkulmioista $ABCDEFG$, joissa kaksi kulmaa on 120$\as$. N‰m‰ kaksi
+kulmaa eiv‰t kuitenkaan voi liitty‰ seitsenkulmion viereisiin k‰rkiin:
+t‰llainen konfiguraatio olisi symmetrinen k‰rkien v‰lisen sivun
+keskinormaalin suhteen, mik‰ on ristiriidassa sen kanssa, ett‰ seitsenkulmion
+kaikki sivut ovat eripituisia. Jos 120$\as$ kulmia olisi kolme, niiden tulisi
+sijaita (esim.) k‰rjiss‰ $A$, $C$ ja $E$. Koska $120\as$ keh‰kulmaa vastaa
+$240\as$ keskuskulma, kaaret $GAB$, $BCD$ ja $DEF$ ovat kukin $360\as-
+240\as=120\as$. Koska kaaret ovat erillisi‰, ne peitt‰v‰t koko ympyr‰n, joten
+$F=G$, ja seitsenkulmio surkastuu kuusikulmioksi. 120$\as$ kulmia voi siis
+olla enint‰‰n kaksi.
+
+
+
+
+\harj  Jos lukujen $a$ ja $b$ suurin yhteinen tekij‰ on
+$d$, niin origosta voidaan p‰‰st‰ vain pisteisiin, joiiden koordinaatit ovat
+jaollisia $d$:ll‰. On oltava $d=1$. Jos $a+b$ on parillinen, niin kaikki
+pisteet $(x,\,y)$, joihin orogosta p‰‰see, ovat sellaisia, ett‰ $x+y$ on
+parillinen. Osoitetaan, ett‰ jos $d=1$ ja $a+b\equiv 1\mod 2$, niin kaikkiin
+pisteisiin p‰‰see. Voidaan olettaa, ett‰ $a\ge 1$ ja $b\ge 1$, sill‰ jos
+$ab=0$, voi olla $d=1$ vain jos toinen luvuista $a$, $b$ on nolla ja toinen
+1. N‰ill‰ luvuilla kaikkiin pisteisiin p‰‰seminen onnistuu. Koska $d=1$, on
+olemassa positiiviset luvut $r$ ja $s$ siten, ett‰ joko $ra-sb=1$ tai $sb-
+ra=1$. Oletetaan, ett‰ $ra-sb=1$. Jos tehd‰‰n $r$ siirtoa
+$(x,\,y)\to(x+a,\,y+b)$ ja $r$ siirtoa $(x,\,y)\to (x+a,\,y-b)$, tullaan
+pisteest‰ $(x,\,y)$ pisteeseen $(x+2ra,\,y)$. Jos t‰m‰n j‰lkeen tehd‰‰n $s$
+siirtoa $(x,\,y)\to (x-b,\,a)$ ja $s$ siirtoa $(x,\,y)\to (x-b,\,-a)$,
+tullaan pisteeseen $(x+2ra-2sb,y)=(x+2,\,y)$. Samoin voidaan konstruoida
+siisrtosarjat pisteest‰ $(x,\,y)$ pisteisiin $(x-2,\,y)$, $(x,\,y+2)$,
+$(x,\,y-2)$. Origosta p‰‰st‰‰n siis kaikkiin pisteisiin, joiden molemmat
+koordinaatit ovat parillisia. Luvuista $a$, $b$ tasan toinen on pariton;
+olkoon $a=2k+1$, $b=2m$. Siirto $(x,\,y)\to (x+a,\,y+b)=(x+1+2k,\,y+2m)$,
+jota seuraa $k$ siirtosarjaa $(x,\,y)\to (x-2,\,y)$ ja $m$ siirtosarjaa
+$(x,\,y)\to (x,\,y-2)$ johtaa pisteeseen $(x+1,\,y)$. Samalla tavalla
+p‰‰st‰‰n pisteest‰ $(x,\,y)$ pisteisiin $(x-1,\,y)$ ja $(x,\,y\pm 1)$. N‰in
+ollen origosta p‰‰see kaikkiin pisteisiin. 
+
+
+
+\harj  Todistettava ep‰yht‰lˆ voidaan kirjoittaa muotoon
+$${1\over 1+a_1}+\cdots+{1\over 1+a_n}\le {n\(\displaystyle{1\over
+a_1}+\cdots+\displaystyle{1\over a_n}\)\over n+\displaystyle{1\over
+a_1}+\cdots+{1\over a_n}}.$$ T‰m‰ on edelleen yht‰pit‰v‰ ep‰yht‰lˆn $${1\over
+\displaystyle{1\over a_1^{-1}}+1}+\cdots+{1\over \displaystyle{1\over a_n^{-
+1}}+1}\le {n\over \displaystyle{1\over \displaystyle{a_1^{-1}+\cdots+a_n^{-
+1}\over n}}+1}eqno(1)$$ kanssa. Tarkastellaan funktiota $$f(x)={1\over
+\displaystyle{1\over x}+1}={x\over 1+x}.$$ Osoitetaan, ett‰ $f$ on ylˆsp‰in
+kupera eli ett‰ $$tf(x)+(1-t)f(y)<f(tx+(1-t)y)$$ kaikilla $t\in (0,\,1)$.
+Ep‰yht‰lˆ $$t{x\over 1+x}+(1-t){y\over 1+y}<{tx+(1-t)y\over 1+tx+(1-t)y}$$
+sievenee muotoon $$t^2(x-y)^2<t(x-y)^2,$$ koska $0<t<1$, j‰lkimm‰inen
+ep‰yht‰lˆ on tosi. [Toinen tapa: $$f'(x)={1\over (1+x)^2}, \quad f''(x)=-
+{2\over (1+x)^3}<0.$$  Jos toinen derivaatta on negatiivinen, funktion
+kuvaaja on ylˆsp‰in kupera.] Ylˆsp‰in kuperalle funktiolle p‰tee $${1\over
+n}(f(x_1)+f(x_2)+\cdots +f(x_n))\le f\({x_1+\cdots+x_n\over n}\),$$ ja t‰ss‰
+yht‰suuruus vain, jos $x_1=x_2=\dots=x_n$. N‰in ollen (1) on tosi, ja
+yht‰suuruus vallitsee, kun kaikki $a_i$:t ovat yht‰ suuria.
+
+
+
+\bye

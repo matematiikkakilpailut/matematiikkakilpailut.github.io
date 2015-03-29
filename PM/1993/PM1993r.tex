@@ -1,0 +1,90 @@
+\input makrot
+\input def
+\input laskut
+
+\font\isosser=cmss12
+\centerline{\isosser Vuoden 1993 pohjoismaisen kilpailun ratkaisut}\bigskip
+
+\harj  Ehdon (i) perusteella $F(0)=\displaystyle{1\over
+2}F(0)$, joten $F(0)=0$. Ehdon (ii) perusteella $F(1)=1-F(0)=1$. Edelleen
+$\displaystyle F\({1\over 3}\)={1\over 2}$ ja $\displaystyle F\({2\over
+3}\)=1-F\({1\over 3}\)={1\over 2}$. Koska $F$ on kasvava, tämä on mahdollista
+vain, jos $F(x)=\displaystyle{1\over 2}$ kaikilla $\displaystyle x\in
+\left[{1\over 3},\,{2\over 3}\right]$. Kysytyistä funktionarvoista
+ensimmäisen määrittämiseksi käytetään ehtoja (i) ja (ii) siten, että funktion
+argumentti saadaan yksikön keskimmäiseen kolmannekseen:
+$$\displaylines{F\({173\over 1993}\)={1\over 2}F\({519\over 1993}\)={1\over
+4}F\({1557\over 1993}\)={1\over 4}\(1-F\({436\over 1993}\)\)={1\over
+4}\(1-{1\over 2}F\({1308\over 1993}\)\)={1\over 4}\(1-{1\over 4}\)\cr={3\over
+16}.\cr}$$ Jälkimmäisen arvon laskemiseksi käytetään ehtoja (i) ja (ii)
+sellaisen yhtälön muodostamiseksi, josta tuntematon voidaan ratkaista.
+$$\displaylines{F\({1\over 13}\)=1-F\({12\over 13}\)=1-2F\({4\over 13}\)=1-
+2\(1-F\({9\over 13}\)\)\cr =2F\({9\over 13}\)-1=4F\({3\over 13}\)-
+1=8F\({1\over 13}\)-1.\cr}$$ Tästä ratkaistaan $$F\({1\over 13}\)={1\over
+7}.$$
+
+
+
+\harj  Yhdistetään kuusikulmion kärjet ympyrän
+keskipisteeseen. Tällöin syntyy kolmen kokoisia keskuskulmia $\alpha$,
+vastaamaan jänteitä, joiden pituus on 1, $\beta$ vastaamaan jänteitä, joiden
+pituus on 2 ja $\gamma$ vastaamaan jänteitä, joiden pituus on 3. Selvästi
+$\alpha+\beta+\gamma=180^{\circ}$. Siirretään kuusikulmion kolme eripituista
+sivua vierekkäin. Silloin syntyy nelikulmio $ABCD$, jossa $AB$ on ympyrän
+halkaisija $2r$, $BC=1$, $CD=2$ ja $DA=3$. Olkoon $O$ ympyrän keskipiste. Nyt
+$\angle COB=\alpha$ ja $\angle CAB=\displaystyle{\alpha\over 2}$. Lisäksi
+$\angle CDB=90^{\circ}+\displaystyle{\alpha\over 2}.$ Merkitään $AC=x$.
+Silloin $x^2+1=4r^2$ ja $$x^2=4+9-2\cdot 2\cdot
+3\cos\(90^{\circ}+{\alpha\over 2}\)=13+12\sin\({\alpha\over 2}\).$$ Toisaalta
+$$\sin\({\alpha\over 2}\)={1\over 2r}.$$ Kun tämä sijoitetaan $x^2$:n
+lausekkeeseen, saadaan $$4r^2=x^2+1=14+12\cdot {1\over 2r}$$ eli $$2r^3-7r-
+3=0.$$
+
+
+
+\harj  Ensimmäisen yhtälön perusteella $x\ge 2$ ja
+ensimmäisen sekä kolmannen perusteella $$s(z)=y-x-4.\eqno (1)$$ Täten $y\ge
+x+5\ge 7$. Kun (1) sijoitetaan toiseen yhtälöön, saadaan $z=2y-4$. Nyt
+$s(z)\le s(2y)\le s(y)+1$
+ja $s(x)\le s(y)$ joten viimeisen yhtälön perusteella $3s(y) +1\ge y-4$ eli
+$$y\le 3s(y)+5.$$ Koska $$10^{s(y)-1}\le y,$$ tämä epäyhtälö voi toteutua
+vain, jos $s(y)=1$ tai $s(y)=2$. Jos $s(y)=1$, niin $y\le 3+5=8$, joten $y=7$
+tai $y=8$. Jos olisi $y=7$, olisi $x=2$ ja $z=10$. Silloin olisi
+$x+y+s(z)=2+7+2=9\ne z$. Siis jos $s(y)=1$, niin $y=8$. Kolmikko
+$(x,\,y,\,z)=(2,\,8,\,12)$ toteuttaa kaikki yhtälöt. Jos $s(y)=2$, niin
+$y=10$ tai $y=11$. Jos $y=10$, niin $z=16$ ja $x\le 5$. Ei voi olla
+$s(x)+s(y)+s(z)=y-4=6$. Jos $y=11$, niin $x\le 6$ ja $z=18$. Nytkään kolmas
+tehtävän yhtälö ei toteudu. $(2,\,8,\,12)$ on ainoa ratkaisu.
+
+
+
+\harj  a) Jos $s$ on $n$-numeroinen luku ja
+$m=10^{n+r}s+s$, niin $T(km)$ on parillinen ainakin niin kauan, kun
+$ks<10^{n+r}$, koska luvussa $km$ esiintyvät samat numerot kahdesti (ja
+välissä on mahdollisesti nollia). Valitaan $N=5018300050183$ eli $s=50183$.
+Nyt $1992\cdot s=99964536$, joten $T(kN)$ on parillinen kaikilla $k\le 1992$.
+Mutta $1993\cdot s=100014719$,
+$1993\cdot N=10001472000017719$, ja $T(1993\cdot N)$ on pariton. 
+
+\smallbreak
+
+\noindent b) Oletetaan, että $N$ on positiivinen, kokonaisluku, jolla $T(kN)$
+on parillinen kaikilla $k$. Tarkastellaan ensin tapausta $N=2m$. Nyt
+$T(km)=T(10km)=T(5kN)$. Viimeinen luku on parillinen kaikilla $k$, joten
+$T(km)$ on parillinen kaikilla $k$. Toistamalla tarpeen mukaan päättely,
+todetaan, että on olemassa pariton $N$, jolle $T(kN)$ on parillinen kaikilla
+$k$. Oletetaan sitten, että $N=10r+5$. Silloin
+$T(k(2r+1))=T(10k(2r+1))=T(2kN)$, joten myös luvulla $\displaystyle{N\over
+5}=2r+1$ on väitetty ominaisuus. Päättelyä tarpeen mukaan toistamalla voidaan
+rajoittua tapaukseen, jossa $N$ on pariton ja jaoton viidellä. Olkoon nyt
+$N=10r+9$, $$N=a\underbrace{x\dots x}_{k\ {\rm kpl}}b9.$$
+Jos $b<9$, niin luvun $10^{n+2}N+N$ esitys on $ax\dots x(b+1)(a-1)x\dots x9$,
+joten $T(10^{n+2}N+N)=2T(N)-9$ eli pariton. Jos $N$ loppuu kahteen
+yhdeksikköön, niin $11N$ loppuu numeroihin $89$, ja siihen voidaan soveltaa
+edellistä päättelyä. Jos $N$ päättyy ykköseen, kolmoseen tai seitsemään, niin
+$9N$, $3N$ tai $7N$ päättyy 9:ään, ja edellistä päättelyä voidaan taas
+soveltaa.
+
+
+
+\bye

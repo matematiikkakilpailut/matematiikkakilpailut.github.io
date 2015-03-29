@@ -1,0 +1,76 @@
+\input makrot
+\input def
+\input laskut
+\input pictex
+
+\font\isosser=cmss12
+\centerline{\isosser 9. pohjoismainen kilpailu 15.\:3.\:1995}\bigskip
+
+\line{
+   \vtop{\hsize=0.63\hsize
+\harj  Olkoon $AB$ $O$-keskisen ympyr‰n halkai\-sija. 
+Valitaan ympyr‰n keh‰lt‰ piste $C$ siten,
+ett‰ $OC$ ja $AB$ ovat kohtisuorassa toisiaan vastaan. Olkoon $P$
+mielivaltainen (lyhemm‰n) kaaren $BC$ piste ja leikatkoot suorat $CP$ ja $AB$
+pisteess‰ $Q$. Valitaan $R$  $AP$:lt‰ niin, ett‰  $RQ$ ja $AB$ ovat
+kohtisuorassa toisiaan vastaan. Osoita, ett‰ $|BQ|=|QR|$.}
+   \qquad
+   \vtop{\hsize=0.35\hsize
+\beginpicture
+\setcoordinatesystem units <1.5truecm,1.5truecm> point at 0 2.7
+\setplotarea x from -1.2 to 1.2, y from -0.2 to 1.2
+\circulararc 200 degrees from 0.985 -0.174 center at 0 0
+\putrule from -1.2 0 to 2.3 0
+\putrule from 2 0 to 2 1
+\setlinear 
+\plot  -1 0 2.3 1.1 /
+\plot  2 0 0 1 /
+%\put {$\bullet$} at 0.8 0.6
+\put {$P$} [lb] <1truemm,2truemm> at 0.8 0.6
+\put {$\bullet$} at 0 0
+\put {$O$} [t] <0truemm,-2truemm> at 0 0
+%\put {$\bullet$} at -1 0
+\put {$A$} [tr] <-1truemm,-1truemm> at -1 0
+%\put {$\bullet$} at 1 0
+\put {$B$} [tl] <1truemm,-1truemm> at 1 0
+%\put {$\bullet$} at 0 1
+\put {$C$} [b] <0truemm,2truemm> at 0 1
+%\put {$\bullet$} at 2 0
+\put {$Q$} [tl] <1truemm,-1truemm> at 2 0
+%\put {$\bullet$} at 2 1
+\put {$R$} [bl] <1truemm,1truemm> at 2 1
+\endpicture}
+   \hfill}
+
+\medskip
+\hrjno=1
+\harj Viestit koodataan k‰ytt‰en vain nollista ja
+ykkˆsist‰ koostuvia jonoja. Vain sellaisia jonoja, joissa esiintyy enint‰‰n
+kaksi per‰kk‰ist‰ ykkˆst‰ tai nollaa saa k‰ytt‰‰.  (Esimerkiksi jono 011001
+on sallittu, mutta 011101 ei ole.) M‰‰rit‰ kaikkien tasan 12 merkist‰
+koostuvien jonojen lukum‰‰r‰.
+
+
+
+\harj  Olkoon $n\ge 2$ ja olkoot $x_1$, $x_2$, \dots $x_n$
+reaalilukuja, joille on voimassa $x_1+x_2+\dots + x_n\ge 0$ ja
+$x_1^2+x_2^2+\dots +x_n^2=1$. Olkoon $M=\max\{x_1,\,x_2,\,\dots,\,x_n\}$.
+Osoita, ett‰ $$M\ge {1\over \sqrt {n(n-1)}}.\eqno(1)$$
+Selvit‰, milloin (1):ss‰ vallitsee yht‰suuruus.
+
+
+
+\harj  Osoita, ett‰ on olemassa ‰‰rettˆm‰n monta kesken‰‰n
+ep‰yhtenev‰‰ kolmiota $T$, joille p‰tee 
+
+\smallbreak
+
+\item{(i)} Kolmion $T$ sivujen pituudet ovat per‰kk‰isi‰ kokonaislukuja.
+
+\smallbreak
+
+\item{(ii)} $T$:n pinta-ala on kokonaisluku.
+
+
+
+\bye
