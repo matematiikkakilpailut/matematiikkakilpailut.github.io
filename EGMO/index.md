@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Euroopan Tyttöjen Matematiikkaolympialaiset – EGMO
-link: /kilpailut/
-link2: /EGMO/
+url: /EGMO/
 ---
 {% include JB/setup %}

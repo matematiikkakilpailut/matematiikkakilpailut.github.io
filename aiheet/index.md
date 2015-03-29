@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Aiheet
-link: /
-link2: /aiheet/
+url: /aiheet/
 ---
 {% include JB/setup %}

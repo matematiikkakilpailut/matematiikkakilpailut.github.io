@@ -1,7 +1,7 @@
 ---
 layout: page
 title: In English
-link: /english/
+url: /english/
 lang: en
 ---
 {% include JB/setup %}

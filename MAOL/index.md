@@ -1,7 +1,6 @@
 ---
 layout: page
 title: MAOLin matematiikkakilpailut
-link: /kilpailut/
-link2: /MAOL/
+url: /MAOL/
 ---
 {% include JB/setup %}

@@ -1,6 +1,6 @@
 ---
 layout: page
 title: Kilpailut
-link: /kilpailut/
+url: /kilpailut/
 ---
 {% include JB/setup %}

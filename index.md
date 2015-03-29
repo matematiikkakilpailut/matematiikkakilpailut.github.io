@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Matematiikkakilpailut ja olympiavalmennus
-link: /
+url: /
 # Jekyll Quick Start: http://jekyllbootstrap.com/usage/jekyll-quick-start.html
 # Jekyll Bootstrap: http://jekyllbootstrap.com
 ---

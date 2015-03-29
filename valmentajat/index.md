@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Valmentajat
-link: /
-link2: /valmentajat/
+url: /valmentajat/
 ---
 {% include JB/setup %}

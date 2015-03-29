@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Aikataulu
-link: /
-link2: /aikataulu/
+url: /aikataulu/
 ---
 {% include JB/setup %}

@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Pohjoismainen matematiikkakilpailu
-link: /kilpailut/
-link2: /PM/
+url: /PM/
 ---
 {% include JB/setup %}

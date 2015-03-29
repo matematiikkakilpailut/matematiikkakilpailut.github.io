@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Käytännön asioita
-link: /
-link2: /kaytanto/
+url: /kaytanto/
 ---
 {% include JB/setup %}
 

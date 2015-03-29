@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Pythagoraan polku
-link: /kilpailut/
-links: /pythagoras/
+url: /pythagoras/
 ---
 {% include JB/setup %}

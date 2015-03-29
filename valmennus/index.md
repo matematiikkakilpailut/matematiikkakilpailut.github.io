@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Valmennustehtävät
-link: /
-link2: /valmennus/
+url: /valmennus/
 ---
 {% include JB/setup %}
