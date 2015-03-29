@@ -1,0 +1,39 @@
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{inputenc}
+
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{4pt plus4pt minus2pt}
+\relpenalty=10000
+\binoppenalty=10000
+\setlength{\mathsurround}{1pt}
+\setlength{\arraycolsep}{2pt}
+\renewcommand{\leq}{\leqslant}
+\renewcommand{\geq}{\geqslant}
+\renewcommand{\le}{\leqslant}
+\renewcommand{\ge}{\geqslant}
+\setlength{\leftmargin}{1em}
+
+\setlength{\topmargin}{-0.5cm}
+\setlength{\oddsidemargin}{-0.5cm}
+\setlength{\evensidemargin}{-0.5cm}
+\setlength{\textheight}{24cm}
+\setlength{\textwidth}{16.5cm}
+
+\newcommand{\setcyr}{\fontfamily{cyr}\selectfont%
+\input{cyracc.def}\cyracc%
+\def\x{\cprime}
+\def\X{\Cprime}
+\def\e{\`e}
+\def\E{\`E}
+\def\.{\cydot}
+\def\j{{\accent"24 i}}
+\def\J{{\accent"24 I}}
+}
+
+\newenvironment{prob}{\begin{enumerate}\addtolength{\leftskip}{-1em}}{\addtolength{\leftskip}{1em}\end{enumerate}}
+
+\everymath{\displaystyle}
+\pagestyle{plain}

@@ -1,0 +1,224 @@
+\input amssym
+\magnification1200
+\language2  %Ympäristöstä riippuva ratkaisu!!
+
+\font\tlustazupa=cmbx10 scaled\magstep2
+\font\zupa=cmr10 scaled\magstep1
+\font\upa=msbm10 scaled\magstep0
+\def\R{\hbox{\upa \char'122}}     % definition of reals
+\def\Q{\hbox{\upa \char'121}}     % rationals
+\def\Z{\hbox{\upa \char'132}}     % integers
+\def\C{\hbox{\upa \char'103}}     % complex numbers
+\def\N{\hbox{\upa \char'116}}     % natural numbers
+\def\frac#1#2{{#1\over #2}}
+\abovedisplayskip=4pt plus 2pt minus 2pt
+\belowdisplayskip=4pt plus 2pt minus 3pt
+\hsize=15cm
+\vsize=21cm
+\voffset=-1cm
+\hoffset=-1cm
+\overfullrule=0pt
+\let\angle=\measuredangle
+
+\centerline{\tlustazupa 9. Baltian Tie %joukkuekilpailu 1998
+}
+
+\medskip
+\centerline{\zupa Varsova, 8. marraskuuta 1998}
+
+\bigskip\noindent
+\line{Version: {\bf Finnish}\hfill Kilpailuaika:
+$4{1\over2}$ tuntia.}
+
+\bigskip
+\item{\bf 1.}
+Etsi kaikki kahden muuttujan funktiot $f$,
+joiden muuttujat $x$, $y$
+ja arvot  $f(x,y)$ ovat positiivisia kokonaislukuja ja 
+jotka toteuttavat seuraavat ehdot
+(kaikilla positiivisilla kokonaisluvuilla $x$ ja~$y$):
+$$\eqalign{f(x,x)&=x,\cr f(x,y)&=f(y,x),\cr
+(x+y)f(x,y)&=yf(x,x{+}y).\cr}$$
+
+\bigskip
+\item{\bf 2.}
+%\def\q{quasi-Pythagorean triple}%
+%\def\Q{Quasi-Pythagorean triple}%
+Positiivisten kokonaislukujen kolmikko $(a,b,c)$
+on {\it kvasipythagoralainen\/},
+jos on olemassa kolmio, jonka sivujen pituudet
+ovat $a$, $b$, $c$ 
+ja jonka sivun $c$ vastainen kulma on $120^\circ$.
+Todista, ett\"a jos $(a,b,c)$  on kvasipythagoralainen
+kolmikko, niin luvulla $c$ on lukua $5$ suurempi alkutekij\"a.
+
+\bigskip
+\item{\bf 3.}
+Etsi kaikki positiivisten kokonaislukuparit
+$x,\,y$, jotka toteuttavat yht\"al\"on
+$$2x^2+5y^2=11(xy-11).$$
+
+\bigskip
+\item{\bf 4.}
+Olkoon $P$ kokonaiskertoiminen polynomi.
+Oletetaan, ett\"a jokaisella $n=1,2,3,\ldots,1998$
+luku $P(n)$ on kolminumeroinen positiivinen kokonaisluku.
+Todista, ett\"a polynomilla $P$ ei ole koko\-nais\-lukujuuria.
+
+
+\bigskip
+\item{\bf 5.}
+Olkoon $a$ pariton ja  $b$ parillinen numero.
+Todista, ett\"a jokaista positiivista kokonaislukua~$n$
+kohti on olemassa luvulla $2^n$ jaollinen
+positiivinen kokonaisluku,
+jonka kymmenj\"arjestelm\"aesityksess\"a esiintyy
+vain numeroita $a$~and~$b$.
+
+\bigskip
+\item{\bf 6.}
+Olkoot $P$ kuudennen asteen polynomi ja $a$ ja $b$ reaalilukuja,
+joille $0<a<b$. Oletetaan, ett\"a $P(a)=P(-a)$,
+$P(b)=P(-b)$ ja $P'(0)=0$. Osoita, ett\"a $P(x)=P(-x)$ kaikille
+reaaliluvuille $x$.
+
+\bigskip
+\item{\bf 7.}
+Olkoon $\R$ reaalilukujen joukko. Etsi kaikki funktiot
+${f\colon\R\to\R}$, joille kaikilla ${x,y\in\R}$ p\"atee
+$\;f(x)+f(y)=f(f(x)f(y)).$
+
+\bigskip
+\item{\bf 8.} Olkoon ${P_k(x)=1+x+x^2+\cdots+x^{k-1}}$. Osoita,
+ett\"a
+$$\;\displaystyle{\sum_{k=1}^n{n\choose k}P_k(x)
+=2^{n-1}P_n\Bigl({1+x\over2}\Bigr)}\;$$
+kaikilla reaaliluvuilla $x$ ja kaikilla positiivisilla
+kokonaisluvuilla~$n$.
+
+\bigskip
+\item{\bf 9.}
+Reaaliluvuille $\alpha$, $\beta$ p\"atee $0<\alpha<\beta<\pi/2$
+ja luvut $\gamma$ ja $\delta$ m\"a\"aritell\"a\"an ehdoilla:
+\hfill\break (i) \ $0<\gamma<\pi/2$, ja $\tan\gamma$
+on lukujen $\tan\alpha$ ja
+$\tan\beta$ aritmeettinen keskiarvo;
+\hfill\break (ii) \ $0<\delta<\pi/2$, ja
+$\displaystyle{1\over\cos\delta}$ on lukujen
+$\displaystyle{1\over\cos\alpha}$ ja
+$\displaystyle{1\over\cos\beta}$ aritmeettinen keskiarvo.
+\hfill\break Osoita, ett\"a
+$\gamma<\delta$.
+
+\bigskip
+\item{\bf 10.}
+Olkoon ${n\ge4}$ parillinen kokonaisluku. S\"a\"ann\"ollinen
+$n$-kulmio ja s\"a\"ann\"ollinen
+${(n{-}1)}$-kulmio on piirretty yksikk\"oympyr\"an sis\"a\"an.
+Jokaisesta $n$-kulmion k\"arjest\"a mitataan et\"aisyys
+l\"ahimp\"a\"an ${(n{-}1)}$-kulmion k\"arkeen ympyr\"an keh\"a\"a
+pitkin. Olkoon $S$ n\"aiden $n$ et\"aisyyden summa. Osoita,
+ett\"a $S$ riippuu vain luvusta~$n$, ei monikulmioiden
+keskin\"aisest\"a sijainnista.
+
+\bigskip
+\item{\bf 11.}
+Olkoot $a$, $b$ ja $c$ kolmion sivujen pituudet.
+Olkoon $R$ kolmion
+ymp\"aripiirretyn ympyr\"an s\"ade. Osoita, ett\"a
+$$R\geq{{a^{2}+b^{2}}\over {2\,\sqrt{2a^{2}+2b^{2}-c^{2}}}}\ .$$
+Milloin yht\"asuuruus on voimassa$\,$?
+
+\bigskip
+\item{\bf 12.}
+Kolmiolle $ABC$ p\"atee $\angle BAC=90^\circ$. Piste $D$
+on sivulla $BC$ ja toteuttaa ehdon $\angle BDA=2\angle BAD$.
+Osoita, ett\"a
+$$\frac{1}{AD}=\frac{1}{2}\left(\frac{1}{BD}+\frac{1}{CD}\right).$$
+
+\bigskip
+\item{\bf 13.}
+Kuperan viisikulmion $ABCDE$ sivut $AE$ ja $BC$ ovat
+yhdensuuntaisia ja $\angle ADE=\angle BDC$. L\"avist\"aj\"at $AC$
+ja $BE$ leikkaavat pisteess\"a $P$. Osoita, ett\"a
+$\angle EAD=\angle
+BDP$ ja $\angle CBD=\angle ADP$.
+
+\bigskip
+\item{\bf 14.}
+Kolmiolle $ABC$ p\"atee $AB<AC$. Pisteen
+$B$ kautta kulkeva sivun $AC$ suuntainen suora
+leikkaa kulman $\angle BAC$ vieruskulman puolittajan
+pisteess\"a $D$. Pisteen $C$ kautta kulkeva sivun $AB$
+suuntainen suora kohtaa saman kulmanpuolittajan
+pisteess\"a $E$. Piste $F$ on sivulla $AC$ ja toteuttaa ehdon
+$FC=AB$. Osoita, ett\"a $DF=FE$.
+
+\bigskip
+\item{\bf 15.}
+Ter\"av\"akulmaisessa
+kolmiossa $ABC$ piste $D$ on pisteest\"a $A$ sivulle $BC$
+piirretyn korkeusjanan kantapiste. Piste $E$ on janalla $AD$
+ja toteuttaa ehdon $${AE\over ED}={CD\over DB}.$$ Piste
+$F$ on pisteest\"a $D$ sivulle $BE$ piirretyn korkeusjanan
+kantapiste. Osoita, ett\"a
+$\angle AFC=90^\circ$.
+
+\bigskip
+\item{\bf 16.}
+Voiko $13\times 13$-shakkilaudan peitt\"a\"a
+nelj\"all\"akymmenell\"akahdella $4\times 1$-nappulalla niin,
+ett\"a vain shakkilaudan keskiruutu j\"a\"a peitt\"am\"att\"a?
+(Oletetaan, ett\"a jokainen nappula peitt\"a\"a
+t\"asm\"alleen nelj\"a shakkilaudan ruutua.)
+
+\bigskip
+\item{\bf 17.}
+Olkoot $n$ ja $k$ positiivisia kokonaislukuja.
+K\"ayt\"oss\"a on $nk$ (samankokoista) esinett\"a
+ja $k$ laatikkoa, joista kuhunkin mahtuu $n$ esinett\"a.
+Jokainen esineist\"a v\"aritet\"a\"an yhdell\"a
+$k$:sta eri v\"arist\"a. Osoita, ett\"a esineet voidaan pakata
+laatikoihin niin, ett\"a jokaiseen laatikoista tulee enint\"a\"an
+kahden eri v\"arin esineit\"a.
+
+\bigskip
+\item{\bf 18.}
+M\"a\"arit\"a kaikki sellaiset positiiviset kokonaisluvut $n$,
+ett\"a on olemassa joukko $S$, jolla on seuraavat ominaisuudet:
+\hfill\break (i) $S$ koostuu
+$n$ positiivisesta kokonaisluvusta, jotka kaikki ovat
+pienempi\"a kuin $2^{n-1}$;
+\hfill\break
+(ii) Jos $A$ ja $B$ ovat joukon $S$ eri osajoukkoja, niin
+joukon $A$ alkioiden summa on eri kuin joukon $B$
+alkioiden summa.
+
+
+\bigskip
+\item{\bf 19.}
+Tarkastellaan kahden joukkueen v\"alist\"a
+p\"oyt\"atennisottelua; kummassakin joukkueessa oli
+1000 pelaajaa.  Jokainen pelaaja pelasi t\"asm\"alleen
+yhden pelin kutakin toisen joukkueen pelaajaa vastaan
+(p\"oyt\"atenniksess\"a ei ole tasapelej\"a).
+Todista, ett\"a on olemassa sellaiset kymmenen saman joukkueen
+j\"asent\"a, ett\"a jokainen toisen joukkueen j\"asenist\"a
+h\"avisi ainakin yhden pelin n\"ait\"a kymment\"a pelaajaa
+vastaan.
+
+
+\bigskip
+\item{\bf 20.}
+Positiivisen kokonaisluvun $m$ sanotaan {\it peitt\"av\"an\/}
+luvun 1998, jos 1, 9, 9, 8 esiintyv\"at, t\"ass\"a
+j\"arjestyksess\"a, luvun $m$ numeroina. (Esimerkiksi
+2{\bf 1}59{\bf 9}36{\bf 98} peitt\"a\"a luvun 1998,
+mutta \hfill\break 213326798 ei.) Olkoon $k(n)$ niiden
+positiivisten kokonaislukujen lukum\"a\"ar\"a, jotka
+peitt\"av\"at luvun 1998 ja joissa on tasan $n$
+nollasta poikkevaa numeroa ($n\geq 5$).
+Mik\"a on jakoj\"a\"ann\"os,
+kun luku $k(n)$ jaetaan luvulla $8$?
+
+\bye
