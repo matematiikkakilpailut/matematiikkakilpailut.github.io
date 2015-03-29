@@ -145,8 +145,8 @@ kilpailumatematiikkavalmennustilaisuuksia. Tarkemmin [tästä][oulu].
 [mathstat]: http://www.mathstat.helsinki.fi
 [summamutikka]: https://wiki.helsinki.fi/display/Summamutikka/Etusivu
 [tekijaryhma]: https://wiki.helsinki.fi/pages/viewpage.action?pageId=74230034
-[epsilonit]: http://solmu.math.helsinki.fi/olympia/kokoukset/epsilon
-[seiskat]: http://solmu.math.helsinki.fi/olympia/seiskat
+[epsilonit]: /kokoukset/epsilon
+[seiskat]: /seiskat
 [oulu]: http://ouluma.fi/2012/08/matematiikkavalmennus/
 
 
