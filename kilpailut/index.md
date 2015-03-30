@@ -52,8 +52,8 @@ päivänä kamppaillaan 4,5 tuntia kolmen tehtävän parissa.
 #### [Euroopan Tyttöjen Matematiikkaolympialaiset](/EGMO/)
 
 Euroopan Tyttöjen Matematiikkaolympialaiset, EGMO, on perustettu
-nna 2011. Kilpailun tarkoitus on korjata Kansainvälisissä
-ematiikkaolympialaisissa vallitsevaa sukupuolten epätasapainoa
-nustamalla tyttöjä pyrkimään Kansainvälisiin
-mpialaisiin. Kilpailu on kaksipäiväinen ja noudattaa muutenkin
-sainvälisten Matematiikkaolympialaisten muotoja.
+vuonna 2011. Kilpailun tarkoitus on korjata Kansainvälisissä
+matematiikkaolympialaisissa vallitsevaa sukupuolten epätasapainoa
+kannustamalla tyttöjä pyrkimään Kansainvälisiin
+olympialaisiin. Kilpailu on kaksipäiväinen ja noudattaa muutenkin
+Kansainvälisten Matematiikkaolympialaisten muotoja.
