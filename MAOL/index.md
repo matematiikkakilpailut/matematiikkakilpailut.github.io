@@ -1,23 +1,23 @@
 ---
 layout: page
-title: MAOLin matematiikkakilpailut
+title: MAOLin matematiikka&shy;kilpailut
 url: /MAOL/
 ---
-## Peruskoulun matematiikkakilpailu
+## Peruskoulun matematiikka&shy;kilpailu
 
-Peruskoulun matematiikkakilpailu on suunnattu ensi sijassa
+Peruskoulun matematiikka&shy;kilpailu on suunnattu ensi sijassa
 peruskoulun 9. luokan oppilaille, mutta ei osallistumista
 nuoremmiltakaan ole kielletty. Kilpailussa on kaksi kierrosta.
 Alkukilpailu pidetään kouluissa. Loppukilpailuun kutsutaan noin 20
 alkukilpailun parasta. Loppukilpailuun osallistuu yleensä kaksi
 virolaista vierailijaa, ja Peruskoulun kilpailun kaksi parasta on
 voinut osallistua Viron vastaavaan kilpailuun. Peruskoulun
-matematiikkakilpailun tehtäviä ja ratkaisuja löytyy
+matematiikka&shy;kilpailun tehtäviä ja ratkaisuja löytyy
 [MAOL:n kilpailusivulta][maolpk].
 
 [maolpk]: http://www.maol.fi/kilpailut/peruskoulun-matematiikkakilpailu/kilpailutehtaeviae/
 
-## Lukion matematiikkakilpailu
+## Lukion matematiikka&shy;kilpailu
 
 ### Yleistä
 
@@ -27,7 +27,7 @@ mukaan: *avoin*, *väli-* ja *perussarja*. Alkukilpailusta karsitaan
 kilpailijat *loppukilpailuun*, jossa on sarjoista huolimatta vain
 yhdet tehtävät.
 
-Jonkin verran MAOL:n Lukion matematiikkakilpailun alkukilpailutehtäviä
+Jonkin verran MAOL:n Lukion matematiikka&shy;kilpailun alkukilpailutehtäviä
 löytyy [MAOL:n kilpailusivuilta][maollukio].
 
 [maol]: http://www.maol.fi
@@ -35,7 +35,7 @@ löytyy [MAOL:n kilpailusivuilta][maollukio].
 
 ### Alkukilpailun tehtäviä ja ratkaisuja
 
-Lukion matematiikkakilpailun tehtäviä ja ratkaisuja muutamilta
+Lukion matematiikka&shy;kilpailun tehtäviä ja ratkaisuja muutamilta
 vuosilta löytyy pdf-muotoisina oheisesta taulukosta.
 
 <div class="row">
@@ -61,7 +61,7 @@ vuosilta löytyy pdf-muotoisina oheisesta taulukosta.
 
 ### Loppukilpailun tehtäviä ja ratkaisuja
 
-Lukion matematiikkakilpailun loppukilpailu on järjestetty vuodesta
+Lukion matematiikka&shy;kilpailun loppukilpailu on järjestetty vuodesta
 1997 alkaen. Tässä tehtäviä ja ratkaisuja sekä PostScript- (lyh. ps)
 että pdf-muodossa seuraavan taulukon mukaisesti.
 

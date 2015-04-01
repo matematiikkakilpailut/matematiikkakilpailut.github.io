@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Matematiikkakilpailut ja olympiavalmennus
+title: Matematiikka&shy;kilpailut ja olympia&shy;valmennus
 url: /
 # Jekyll Quick Start: http://jekyllbootstrap.com/usage/jekyll-quick-start.html
 # Jekyll Bootstrap: http://jekyllbootstrap.com
 ---
-[Matematiikkakilpailujen](kilpailut) tarkoituksena on
+[Matematiikka&shy;kilpailujen](kilpailut) tarkoituksena on
 kannustaa lahjakkaita nuoria harrastamaan matematiikkaa.  Tähän
 liittyvästä valmennuksesta Suomessa vastaa
 [Suomen matemaattisen yhdistyksen](http://www.math.helsinki.fi/~smy/)
@@ -15,7 +15,7 @@ Valmennusjaosto hoitaa myös Suomen kansainväliseen
 kilpailuosallistumiseen liittyviä käytännön asioita.
 
 Valmennus koostuu yleensä viikonloppuisin järjestettävistä
-**valmennustapahtumista** (ks. [aikataulua](aikataulu))
+**valmennustapahtumista** (ks. [aika&shy;taulua](aikataulu))
 [Päiv&ouml;län opistossa](#muuta) Valkeakoskella sekä
 [**kirjevalmennuksesta**](valmennus), joka on tarkoitettu
 kaikille, myös niille, jotka eivät voi osallistua
@@ -27,45 +27,45 @@ avoimia.
 
 
 Valmennusjaosto järjestää myös kilpailujoukkueiden valintaan ja
-valmennukseen liittyviä valmennustapahtumia, joihin osallistuminen
+valmennukseen liittyviä valmennus&shy;tapahtumia, joihin osallistuminen
 perustuu henkilökohtaisiin kutsuihin.
 
 ## <a name="kilpailut"></a>Kilpailut
 
 [Kilpailuja](/kilpailut/) on eri tasoilla kansallisesta alueellisten kautta
-Kansainvälisiin matematiikkaolympialaisiin.
+Kansainvälisiin matematiikka&shy;olympialaisiin.
 
 ## <a name="kilpailuvalmennus"></a>Valmennusviikonloput
 
 Suomen matemaattisen yhdistyksen Valmennusjaoston
-matematiikkakilpailuvalmennus koostuu valmennusviikonlopuista Päivölän
+matematiikka&shy;kilpailuvalmennus koostuu valmennus&shy;viikonlopuista Päivölän
 Opistossa Valkeakoskella ja kirjevalmennuksesta. Molempiin voi
 osallistua kuka hyvänsä. Päivölän Opisto perii
-valmennusviikonloppuihin osallistuvilta täysihoitomaksun (60
+valmennus&shy;viikonloppuihin osallistuvilta täysihoito&shy;maksun (60
 euroa/viikonloppu), mutta opetus on muuten maksutonta. Valmennusjaosto
-voi harkinnan mukaan tukea taloudellisesti valmennustilaisuuksiin
+voi harkinnan mukaan tukea taloudellisesti valmennus&shy;tilaisuuksiin
 osallistuvia.
 
-Valmennusviikonloppuja järjestetään syys- ja kevätlukukausien aikana
+Valmennusviikonloppuja järjestetään syys- ja kevät&shy;lukukausien aikana
 kolme. Tapahtumat alkavat perjantai-iltana kello 18.30 ja päättyvät
 sunnuntaina noin kello 13.30. Mahdollisuuksien mukaan osallistujat
 jakautuvat kahteen ryhmään taitojen ja kokemuksen
-mukaan. Viikonloppujen ohjelmassa on opetusta kilpailumatematiikan eri
+mukaan. Viikonloppujen ohjelmassa on opetusta kilpailu&shy;matematiikan eri
 osa-alueiden aloilta, tehtävänratkaisua ja pieniä
-harjoituskokeita. Valmennusviikonloppuihin liittyvistä käytännön
+harjoituskokeita. Valmennus&shy;viikonloppuihin liittyvistä käytännön
 kysymyksistä löytyy lisätietoa [täältä](kaytanto).
 
 ## <a name="uutisia"></a>Uutisia
 
-* Lukion matematiikkakilpailun loppukilpailu pidettiin 30.1.2015
+* Lukion matematiikka&shy;kilpailun loppukilpailu pidettiin 30.1.2015
   Ressun lukiossa Helsingissä. Kilpailun voitti **Ella Tamir**
-  Helsingin matematiikkalukiosta ja toisen sijan jakoivat **Ella
+  Helsingin matematiikka&shy;lukiosta ja toisen sijan jakoivat **Ella
   Anttila** samasta koulusta sekä **Kalle Luopajärvi** Seinäjoen
   lukiosta. [Täydellisempi tulosluettelo][lukio-tulokset]
   löytyy MAOLin sivuilta, tehtävät ja ratkaisut
   [täältä](/olympia/MAOL/2015/lukm2015r.pdf).
 
-* Vuoden 2014 Baltian Tie -joukkuematematiikkakilpailu pidettiin
+* Vuoden 2014 Baltian Tie -joukkuematematiikka&shy;kilpailu pidettiin
   Vilnassa Liettuassa 6.&ndash;10.11.2014. Kilpailun voitti Pietari,
   toiseksi tuli Saksa ja kolmanneksi Puola. Suomi oli
   sijalla 11. Suomen joukkueessa olivat Petteri Huuskonen, Qianyue
@@ -78,16 +78,16 @@ kysymyksistä löytyy lisätietoa [täältä](kaytanto).
   matematiikanopettajien kilpailu, [Kappa]. Tänä vuonna myös
   suomalaiset opettajat voivat osallistua. [Lue lisää!](kappa.html)
 
-* 55\. Kansainväliset matematiikkaolympialaiset pidettiin
+* 55\. Kansainväliset matematiikka&shy;olympialaiset pidettiin
   Kapkaupungissa Etelä-Afrikassa 6.&ndash;13. heinäkuuta 2014.
   Kilpailijoita oli 560 kaikkiaan 101 maasta. Parhaiten menestyivät
   Kiinan ja Yhdysvaltojen joukkueet. Suomen joukkue oli sijalla 70.
   Suomen Jakob Wartiovaara palkittiin pronssimitalilla, Riku Laakkonen
   ja Timo Takala kunniamaininnalla. Kilpailun tulokset ja tehtävät
   löytyvät
-  [matematiikkaolympialaisten virallisilta sivuilta][imo-tulokset]
+  [matematiikka&shy;olympialaisten virallisilta sivuilta][imo-tulokset]
 
-* 28\. Pohjoismainen matematiikkakilpailu pidettiin 31.3.2014
+* 28\. Pohjoismainen matematiikka&shy;kilpailu pidettiin 31.3.2014
   kotirataotteluna viidessä pohjoismaassa. Kilpailun järjestelyt ja
   arvostelu koordinoitiin Islannissa. Toukokuun 5. julkaistun
   [tulosluettelon](/PM/2014/NMC2014_Results.pdf) mukaan kilpailun
@@ -96,14 +96,14 @@ kysymyksistä löytyy lisätietoa [täältä](kaytanto).
   Penttala sijalla 11, Jakob Wartiovaara sijalla 13 ja Riku Laakkonen
   sijalla 17.
 
-* Vuoden 2014 Kansainvälisissä matematiikkaolympialaisissa Suomea
+* Vuoden 2014 Kansainvälisissä matematiikka&shy;olympialaisissa Suomea
   edustava joukkue valittiin Päivölän Opistossa viikolla 18 pidetyn
   valmennus- ja valintaleirin aikana. Joukkueessa ovat Jere Huovinen,
   Mirjam Kauppila, Riku Laakkonen, Timo Takala, Ella Tamir ja Jakob
   Wartiovaara. Joukkueen johtaja on Matti Lehtinen ja varajohtaja Joni
   Teräväinen.
 
-* Kolmannet Euroopan tyttöjen matematiikkaolympialaiset pidettiin
+* Kolmannet Euroopan tyttöjen matematiikka&shy;olympialaiset pidettiin
   Antalayassa Turkissa 10.&ndash;16. huhtikuuta 2014. Osallistujia oli
   110 29 maasta. Suomea edustivat Minna Hirvonen, Mirjam Kauppila,
   Ella Tamir ja Tara Vaittinen. Mirjam Kauppilan suoritys palkittiin
@@ -132,12 +132,12 @@ Valmennusjaosto järjesti 28.1.2012 Helsingin yliopistossa
 [työpajan Epsilonit kirjaa tutkimassa - matematiikka harrastuksena][epsilonit].
 
 Vuosittain järjestetään
-[alueelliset matematiikkakilpailut seitsemäsluokkalaisille][seiskat]
+[alueelliset matematiikka&shy;kilpailut seitsemäsluokkalaisille][seiskat]
 Helsingissä, Oulussa ja Turussa yhteistyössä paikallisten yliopistojen
 sekä Summamutikka- ja OuLUMA-keskusten kanssa.
 
 Oulussa LUMA-keskus ja Oulun yliopisto järjestävät
-kilpailumatematiikkavalmennustilaisuuksia. Tarkemmin [tästä][oulu].
+kilpailu&shy;matematiikka&shy;valmennus&shy;tilaisuuksia. Tarkemmin [tästä][oulu].
 
 [mathstat]: http://www.mathstat.helsinki.fi
 [summamutikka]: https://wiki.helsinki.fi/display/Summamutikka/Etusivu
@@ -152,7 +152,7 @@ kilpailumatematiikkavalmennustilaisuuksia. Tarkemmin [tästä][oulu].
 #### [Päivölän kansanopisto](http://www.paivola.fi/)
 
 Päivölässä toimii [matematiikkalinja](http://www.paivola.fi/?menu=2&amp;sivu=matematiikka),
-jonka yhteydessä järjestetään viikonloppuvalmennuksia.
+jonka yhteydessä järjestetään viikonloppu&shy;valmennuksia.
    
 #### [Solmu](http://solmu.math.helsinki.fi/)
 
