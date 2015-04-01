@@ -24,12 +24,12 @@ kilpailut:
 
 ### Yleistä
 
-Ensimmäiset [Euroopan Tyttöjen Matematiikkaolympialaiset](https://www.egmo.org/)
+Ensimmäiset [Euroopan Tyttöjen Matematiikka&shy;olympialaiset](https://www.egmo.org/)
 pidettiin vuonna 2012 Cambridgessä Englannissa. Aloite tällaisen
 kilpailun järjestämisestä oli tullut Englannista. Eräänä esikuvana
 ovat olleet Kiinassa jo pitkään järjestetyt tyttöjen
-matematiikkakilpailut. Tarkoitus on madaltaa tyttöjen kynnystä
-osallistua Kansainvälisiin Matematiikkaolympialaisiin. Mielipiteet
+matematiikka&shy;kilpailut. Tarkoitus on madaltaa tyttöjen kynnystä
+osallistua Kansainvälisiin Matematiikka&shy;llympialaisiin. Mielipiteet
 siitä, onko erityisesti tytöille järjestettävä kilpailu
 tarkoituksenmukainen, vaihtelevat.
 

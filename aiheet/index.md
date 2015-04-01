@@ -30,21 +30,21 @@ tasaisesti neljän pääteeman kesken.
 
 Materiaaliin kuuluu myös [tehtäväkokoelmia](#tehtavat) ja [muuta](#muita).
 
-## Valmennusmateriaalia
+## Valmennus&shy;materiaalia
 
 ### <a name="algebra"></a>Algebra
 
 *   [Algebran alkeita](/kirjallisuus/alg02.pdf)
     Kirjoittaja Matti Lehtinen, viimeisin versio keväältä 2002.
 *   [Kilpailumatematiikan perusalgebra.](/kirjallisuus/perusalgebra.pdf)
-     Perustietoja algebrallisista lausekkeista, kompleksiluvuista, polynomeista,
-	 epäyhtälöistä ja funktionaaliyhtälöistä sekä kilpailutehtäviä ratkaisuineen.
+     Perustietoja algebrallisista lausekkeista, kompleksi&shy;luvuista, polynomeista,
+	 epäyhtälöistä ja funktionaali&shy;yhtälöistä sekä kilpailutehtäviä ratkaisuineen.
 	 Matti Lehtisen kirjoittama.
 *   [Funktionaaliyhtälöistä](/kirjallisuus/fy.pdf)
     Kirjoittajat Kerkko Luosto ja Antti Honkela, viimeisin versio toukokuulta 2003.
 *   [Kompleksiluvut](/kirjallisuus/kompleksiluvut.pdf)
     Kirjoittaja Matti Lehtinen, viimeisin versio lokakuulta 2010.
-*   [Epäyhtälöoppia matematiikkaolympialaisten tehtäviin](/kirjallisuus/eykirja.pdf)
+*   [Epäyhtälöoppia matematiikka&shy;olympialaisten tehtäviin](/kirjallisuus/eykirja.pdf)
     Kirjoittajat Jari Lappalainen ja Anne-Maria Ernvall-Hytönen, viimeisin versio vuodelta 2011.
 *   [Cauchy-Schwarzin ja Hölderin epäyhtälöt](/kirjallisuus/Holderey.pdf)
     Turun yliopiston opiskelijan Noora Niemisen kirjoittama harjoitustyö.
@@ -54,12 +54,13 @@ Materiaaliin kuuluu myös [tehtäväkokoelmia](#tehtavat) ja [muuta](#muita).
     Suomennos Paul Vaderlindin tekstistä _The Undeniable Charm of Inequalities_.
 	Kääntänyt Esa Vesalainen.
 *   [Tehtäviä epäyhtälöistä](/kirjallisuus/inequalities.pdf)
-    Sekalainen valikoima epäyhtälötehtäviä[ratkaisuehdotuksin](/kirjallisuus/inequalities_solutions.pdf).
+    Sekalainen valikoima epäyhtälö&shy;tehtäviä
+    [ratkaisuehdotuksin](/kirjallisuus/inequalities_solutions.pdf).
 	Koonnut Esa Vesalainen.
 
 ### <a name="geometria"></a>Geometria
 
-*   Luettelo matematiikkakilpailuissa tarpeellisista tai hyödyllisistä
+*   Luettelo matematiikka&shy;kilpailuissa tarpeellisista tai hyödyllisistä
 	[geometrian tiedoista ja taidoista](/kirjallisuus/geompakko.pdf).
     Matti Lehtisen kirjoittama.
 *   [Geometrisen todistamisen perusharjoitus](/kirjallisuus/geomtodharj.pdf)
@@ -99,7 +100,7 @@ Materiaaliin kuuluu myös [tehtäväkokoelmia](#tehtavat) ja [muuta](#muita).
 	toisinaan hyödyllisiin projektiivisiin menetelmiin. Matti Lehtisen kirjoittama.
 *   [Geometriaa kuvauksin](/kirjallisuus/geomkuvteht.pdf)
     Johdatus geometrisiin kuvauksiin erittäin tiiviiden määritelmien ja noin 60 tehtävän
-	kautta. Tehtäviin löytyy myös lyhyet[ratkaisut](/kirjallisuus/geomkuvratk.pdf).
+	kautta. Tehtäviin löytyy myös lyhyet [ratkaisut](/kirjallisuus/geomkuvratk.pdf).
 *   [Epäeuklidisen geometrian alkeita](/kirjallisuus/eeukl.pdf)
     Geometriaa ilman paralleeliaksioomaa ja hyperbolisen geometrian Poincarén mallin
 	pääpiirteitä. Matti Lehtisen esitys valmennusviikonvaihteessa tammikuussa 2013.
@@ -145,31 +146,31 @@ Materiaaliin kuuluu myös [tehtäväkokoelmia](#tehtavat) ja [muuta](#muita).
 
 *   [Matti Lehtisen tehtäväarkisto](http://www.elisanet.fi/matti.t.lehtinen/tehtarkisto.pdf)
     Kohtalaisen laaja kokoelma vanhoja valmennustehtäviä. Tehtäviä ei ole järjestetty aiheen
-	eikä vaikeustason mukaan, joten ne sopivat mainiosti yleisvalmentautumiseen!
+	eikä vaikeustason mukaan, joten ne sopivat mainiosti yleis&shy;valmentautumiseen!
 	Arkiston tehtäviin on myös[ratkaisuja](http://www.elisanet.fi/matti.t.lehtinen/ratkarkisto.pdf).
 *   [Kilpailumatematiikan lajeja ja periaatteita](/kirjallisuus/kilpmatesitt.pdf)
 	20 näytetehtävää, jotka pyrkivät antamaan kuvaa kilpailumatematiikassa tavallisista
 	kysymystyypeistä. Tehtäviin on myös ratkaisut. Koonnut Matti Lehtinen.
-*   [Kansainvälisten matematiikkaolympialaisten tehtävät vuosilta 1995 – 2013](/IMO/imokaikki.pdf).
+*   [Kansainvälisten matematiikka&shy;olympialaisten tehtävät vuosilta 1995 – 2013](/IMO/imokaikki.pdf).
 	Kooste sisältää myös ratkaisut.
-*   [Kansainvälisten matematiikkaolympialaisten tehtävät vuosilta 1975 – 1994](/IMO/imot75_94.pdf).
+*   [Kansainvälisten matematiikka&shy;olympialaisten tehtävät vuosilta 1975 – 1994](/IMO/imot75_94.pdf).
 	Tehtäviin on myös [ratkaisut](/IMO/imor75_94.pdf).
-*   [Kansainvälisten matematiikkaolympialaisten tehtävät vuosilta 1959 – 1974](/IMO/imot59_74.pdf).
+*   [Kansainvälisten matematiikka&shy;olympialaisten tehtävät vuosilta 1959 – 1974](/IMO/imot59_74.pdf).
 	Tehtäviin on myös [ratkaisut](/IMO/imor59_74.pdf).
-*   [Pohjoismaisten matematiikkakilpailujen tehtävät vuosilta 1995 – 2014](/PM/nmckaikki.pdf).
+*   [Pohjoismaisten matematiikka&shy;kilpailujen tehtävät vuosilta 1995 – 2014](/PM/nmckaikki.pdf).
 	Kooste sisältää myös ratkaisut.
-*   [Pohjoismaisten matematiikkakilpailujen tehtävät vuosilta 1987 – 1994](/PM/nmct87_94.pdf).
+*   [Pohjoismaisten matematiikka&shy;kilpailujen tehtävät vuosilta 1987 – 1994](/PM/nmct87_94.pdf).
 	Tehtäviin on myös [ratkaisut](/PM/nmcr87_94.pdf).
 *   [Baltian Tie -kilpailun tehtävät vuosilta 1990 – 2012](/Baltian_tie/bwteht.pdf).
 	460 tehtävää. Ratkaisukokolmia löytyy vuosien [1990–99](/Baltian_tie/bwratk1990_99.pdf)
-	ja [2000–05](/Baltian_tie/bwratk2000_09.pdf) tehtäviin. Ratkaisukoosteita täydennetään.
+	ja [2000–05](/Baltian_tie/bwratk2000_09.pdf) tehtäviin. Ratkaisu&shy;koosteita täydennetään.
 *   [IMO-tason funktionaaliyhtälötehtäviä](/kirjallisuus/imoehdfnyht.pdf)
-    Matematiikkaolympialaisiin ehdolla olleita funktionaaliyhtälötehtäviä ratkaisuineen.
+    Matematiikka&shy;olympialaisiin ehdolla olleita funktionaali&shy;yhtälö&shy;tehtäviä ratkaisuineen.
 *   [IMO-tason geometrisia epäyhtälöitä](/kirjallisuus/imoehdgeomey.pdf)
-	Matematiikkaolympialaisiin ehdolla olleita tehtäviä, joiden aihe on geometrinen epäyhtälö.
+	Matematiikka&shy;olympialaisiin ehdolla olleita tehtäviä, joiden aihe on geometrinen epäyhtälö.
 	Tehtävät on esitetty ratkaisuineen.
 *   [IMO-ehdokastehtäväkokoelma](/kirjallisuus/imoehdteht.pdf)
-    138 matematiikkaolympialaisiin ehdolla ollutta tehtävää ryhmiteltyinä jaon
+    138 matematiikka&shy;olympialaisiin ehdolla ollutta tehtävää ryhmiteltyinä jaon
 	”algebra - geometria - kombinatoriikka - lukuteoria” mukaisesti. Tehtävät on toistaiseksi
 	esitetty ilman ratkaisuja.
 
@@ -183,9 +184,9 @@ Materiaaliin kuuluu myös [tehtäväkokoelmia](#tehtavat) ja [muuta](#muita).
     Lyhyempi kooste keskeisestä kilpailumatematiikasta: todistamisesta, epäyhtälöistä,
 	lukuteoriasta, algebrasta, geometriasta ja kombinatoriikasta. Jonkin verran laajennettu
 	versio Matti Lehtisen _Matematiikan olympiakirjassa_ julkaistusta ”Lyhyestä
-	olympiamatematiikan oppaasta”.
+	olympia&shy;matematiikan oppaasta”.
 *   [Käytännön ohjeita matematiikan olympiajoukkueeseen valitulle](/kirjallisuus/kaytannon_ohjeet.pdf)
      Anne-Maria Ernvall-Hytösen opas olympiajoukkueen jäsenille kilpailujen ja kilpailumatkan
 	 yhteydessä vastaan tulevista asioista.
 *   [Luettelo kilpailumatematiikkakirjallisuudesta](http://www.elisanet.fi/matti.t.Lehtinen/ongelmanratkaisu.html)
-    Luettelo englanninkielisestä kilpailumatematiikkakirjallisuudesta.
+    Luettelo englanninkielisestä kilpailu&shy;matematiikka&shy;kirjallisuudesta.

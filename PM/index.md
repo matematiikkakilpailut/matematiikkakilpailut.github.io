@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Pohjoismainen matematiikkakilpailu
+title: Pohjoismainen matematiikka&shy;kilpailu
 url: /PM/
 kilpailut:
   - vuosi: 2009
@@ -28,30 +28,30 @@ kilpailut:
     ratkaisut: "2014/NMC2014ratk.pdf"
     tulokset: "2014/NMC2014_Results.pdf"
 ---
-## Pohjoismainen matematiikkakilpailu
+## Pohjoismainen matematiikka&shy;kilpailu
 
 ### Yleistä
 
-Pohjoismainen matematiikkakilpailu on kouluesimerkki pohjoismaisesta
+Pohjoismainen matematiikka&shy;kilpailu on kouluesimerkki pohjoismaisesta
 joustavasta tavasta hoitaa asioita. Kilpailuja on käyty vuodesta 1987,
 kun todettiin, että kansallisten kilpailujen ja
-matematiikkaolympialaisten väliin tarvitaan sopivantasoinen kisa.
+matematiikka&shy;olympialaisten väliin tarvitaan sopivan&shy;tasoinen kisa.
 Järjestysvuoro kiertää käänteisessä ruotsinkielisen maannimen
 mukaisessa järjestyksessä osallistuvissa maissa, ja kilpailu
 järjestetään yht'aikaa kunkin kilpailijan omassa koulussa.
-Pohjoismaisessa matematiikkaolympialaisissa noudatetaan käytännössä
+Pohjoismaisessa matematiikka&shy;olympialaisissa noudatetaan käytännössä
 vakiintuneita [käytäntöjä ja sääntöjä](nmcrules.html).
 
-Suomen enintään 20 edustajaa Pohjoismaiseen matematiikkakilpailuun
-valitaan olympiavalmennukseen osallistuvien ja Lukion
-matematiikkakilpailussa menestyneiden joukosta. Valittuihin ja heidän
+Suomen enintään 20 edustajaa Pohjoismaiseen matematiikka&shy;kilpailuun
+valitaan olympia&shy;valmennukseen osallistuvien ja Lukion
+matematiikka&shy;kilpailussa menestyneiden joukosta. Valittuihin ja heidän
 kouluihinsa otetaan yhteyttä kirjeitse tai sähköposteitse joitakin
 vikkoja ennen kilpailua. Kilpailu on yksi tärkeä näyttö, kun valitaan
-joukkuetta kesän kansainvälisiin matematiikkaolympialaisiin ja
+joukkuetta kesän kansainvälisiin matematiikka&shy;olympialaisiin ja
 henkilöitä toukokuiselle joukkeen valinta- ja valmennusviikolle.
 
-Tanskan matematiikkaolympiavalmennus ylläpitää Pohjoismaisen
-matematiikkakilpailun[virallista kotisivua](http://www.georgmohr.dk/nmcperm/).
+Tanskan matematiikka&shy;olympia&shy;valmennus ylläpitää Pohjoismaisen
+matematiikka&shy;kilpailun [virallista kotisivua](http://www.georgmohr.dk/nmcperm/).
 Sieltä löytyvät mm. kaikki kilpailutehtävät ja ratkaisut
 englanninkielisinä ja useiden kilpailujen tehtävät eri pohjoismaisilla
 kielillä.

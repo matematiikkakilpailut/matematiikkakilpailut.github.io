@@ -7,7 +7,7 @@ url: /kilpailut/
 
 #### [MAOL:n kilpailu](/MAOL/)
 
-Suomen kansallinen matematiikkakilpailu. Lukion kilpailu jakautuu
+Suomen kansallinen matematiikka&shy;kilpailu. Lukion kilpailu jakautuu
 avoimeen sarjaan sekä lukiota aloittelevien perussarjaan; lisäksi
 peruskoululaisilla on oma kilpailunsa. Kansainvälisiin
 kilpailuihin pyrkiville suositellaan avointa sarjaa, jonka
@@ -23,7 +23,7 @@ joukkuekilpailu Baltian tie -kilpailun mallin mukaan. Kilpailuun
 osallistuminen on perustunut kutsuun. Osallistuvia lukioita on
 ollut kymmenkunta.
 
-#### [Pohjoismainen matematiikkakilpailu](/PM/)
+#### [Pohjoismainen matematiikka&shy;kilpailu](/PM/)
 
 Vaikeampi kuin MAOL, helpompi kuin IMO. Kilpailuun valitaan
 noin&nbsp;20 valmennettavaa, ja tuloksilla on suurehko merkitys
@@ -39,19 +39,19 @@ alueen joukkueella, ja Saksa, jonka joukkue edustaa
 hansakaupunkien aluetta.  Kilpailussa on peräti 20 tehtävää,
 joiden ratkaisemiseen on aikaa vain 4,5 tuntia.
 
-#### [Kansainväliset Matematiikkaolympialaiset](/IMO/)
+#### [Kansainväliset Matematiikka&shy;olympialaiset](/IMO/)
 
 <span lang="en">International Mathematical Olympiad</span>, IMO.
-IMO on lukiolaisten matematiikkakilpailujen hierarkian huipulla.
+IMO on lukiolaisten matematiikka&shy;kilpailujen hierarkian huipulla.
 Kukin kutsuttu maa voi lähettää kilpailuun kuusi osallistujaa.
 Tehtävät ovat vaikeita.  Kilpailu on kaksipäiväinen; kumpanakin
 päivänä kamppaillaan 4,5 tuntia kolmen tehtävän parissa.
 
-#### [Euroopan Tyttöjen Matematiikkaolympialaiset](/EGMO/)
+#### [Euroopan Tyttöjen Matematiikka&shy;olympialaiset](/EGMO/)
 
-Euroopan Tyttöjen Matematiikkaolympialaiset, EGMO, on perustettu
+Euroopan Tyttöjen Matematiikka&shy;olympialaiset, EGMO, on perustettu
 vuonna 2011. Kilpailun tarkoitus on korjata Kansainvälisissä
-matematiikkaolympialaisissa vallitsevaa sukupuolten epätasapainoa
+matematiikka&shy;olympialaisissa vallitsevaa sukupuolten epätasapainoa
 kannustamalla tyttöjä pyrkimään Kansainvälisiin
 olympialaisiin. Kilpailu on kaksipäiväinen ja noudattaa muutenkin
-Kansainvälisten Matematiikkaolympialaisten muotoja.
+Kansainvälisten Matematiikka&shy;olympialaisten muotoja.
