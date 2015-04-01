@@ -2,6 +2,23 @@
 layout: page
 title: Euroopan Tyttöjen Matematiikka&shy;olympialaiset – EGMO
 url: /EGMO/
+kilpailut:
+  - vuosi: "**Vuosi**"
+    paikka: "**Paikka**"
+    tehtavat: "**Tehtä&shy;vät**"
+    ratkaisut: "**Ratkai&shy;sut**"
+  - vuosi: "2012"
+    paikka: "[Cambridge](https://www.egmo.org/egmos/egmo1/)"
+    tehtavat: "[pdf](EGMO_2012_suom.pdf)"
+    ratkaisut: "[Solmu-lehdessä](http://solmu.math.helsinki.fi/2012/3/egmo.pdf)"
+  - vuosi: "2013"
+    paikka: "[Luxemburg](https://www.egmo.org/egmos/egmo2/)"
+    tehtavat: "[pdf](EGMO_2013_suom.pdf)"
+    ratkaisut: "[englanniksi](https://www.egmo.org/egmos/egmo2/solutions.pdf)"
+  - vuosi: "2014"
+    paikka: "[Antalya, Turkki](https://www.egmo.org/egmos/egmo3/)"
+    tehtavat: "[pdf](EGMO_2014teht.pdf)"
+    ratkaisut: "[englanniksi](EGMO_2014sol.pdf)"
 ---
 {% include JB/setup %}
 
@@ -24,36 +41,17 @@ kilpailuun nelihenkisellä joukkueella.
 
 ### Tehtävät ja ratkaisut
 
-<div class="row">
-<div class="col-xs-2 col-sm-1"><strong>Vuosi</strong></div>
-<div class="col-xs-4 col-sm-2"><strong>Paikka</strong></div>
-<div class="col-xs-2 col-sm-2"><strong>Tehtä&shy;vät</strong></div>
-<div class="col-xs-4 col-sm-3"><strong>Ratkai&shy;sut</strong></div>
+<style>
+  .kilpailu > div > p { display: inline; }
+</style>
+{% for k in page.kilpailut %}
+<div class="row kilpailu">
+<div class="col-xs-2 col-sm-1">{{ k['vuosi'] | markdownify }}</div>
+<div class="col-xs-4 col-sm-2">{{ k['paikka'] | markdownify }}</div>
+<div class="col-xs-2 col-sm-2">{{ k['tehtavat'] | markdownify }}</div>
+<div class="col-xs-4 col-sm-3">{{ k['ratkaisut'] | markdownify }}</div>
 </div>
-
-<div class="row">
-<div class="col-xs-2 col-sm-1">2012</div>
-<div class="col-xs-4 col-sm-2"><a href="https://www.egmo.org/egmos/egmo1/">Cambridge</a></div>
-<div class="col-xs-2 col-sm-2"><a href="EGMO_2012_suom.pdf">pdf</a></div>
-<div class="col-xs-4 col-sm-3"><a href="http://solmu.math.helsinki.fi/2012/3/egmo.pdf">Solmu-lehdessä</a></div>
-</div>
-
-<div class="row">
-<div class="col-xs-2 col-sm-1">2013</div>
-<div class="col-xs-4 col-sm-2"><a href="https://www.egmo.org/egmos/egmo2/">Luxemburg</a></div>
-<div class="col-xs-2 col-sm-2"><a href="EGMO_2013_suom.pdf">pdf</a></div>
-<div class="col-xs-4 col-sm-3"><a href="https://www.egmo.org/egmos/egmo2/solutions.pdf">englanniksi</a></div>
-</div>
-
-<div class="row">
-<div class="col-xs-2 col-sm-1">2014</div>
-<div class="col-xs-4 col-sm-2"><a href="https://www.egmo.org/egmos/egmo3/">Antalya, Turkki</a></div>
-<div class="col-xs-2 col-sm-2"><a href="EGMO_2014teht.pdf">pdf</a></div>
-<div class="col-xs-4 col-sm-3"><a href="EGMO_2014sol.pdf">englanniksi</a></div>
-</div>
-
-
-
+{% endfor %}
 
 ### Suomen joukkue
 
