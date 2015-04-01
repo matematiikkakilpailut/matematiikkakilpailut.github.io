@@ -82,8 +82,6 @@ aikataulu:
       [57. Kansainväliset matematiikkaolympialaiset](http://www.imohkc.org.hk/)
       Hongkongissa.
 ---
-{% include JB/setup %}
-
 <style>
 .vuodenaika > div {
     background: silver;

@@ -161,8 +161,6 @@ kilpailut:
     ratkaisut: "[eng&shy;lan&shy;niksi](http://mif.vu.lt/balticway2014/wp-content/uploads/2014/07/bw2014solu.pdf)"
     joukkue: "Petteri Huuskonen, Qianyue Jin, Iiro Kumpulainen, Kalle Luopajärvi, Ella Tamir"
 ---
-{% include JB/setup %}
-
 ## Baltian Tie -joukkuekilpailu
 
 ### Yleistä

@@ -3,8 +3,6 @@ layout: page
 title: Kilpailut
 url: /kilpailut/
 ---
-{% include JB/setup %}
-
 ## <a name="kilpailut"></a>Kilpailut
 
 #### [MAOL:n kilpailu](/MAOL/)

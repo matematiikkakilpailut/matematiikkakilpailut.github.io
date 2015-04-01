@@ -5,9 +5,6 @@ url: /
 # Jekyll Quick Start: http://jekyllbootstrap.com/usage/jekyll-quick-start.html
 # Jekyll Bootstrap: http://jekyllbootstrap.com
 ---
-{% include JB/setup %}
-
-
 [Matematiikkakilpailujen](kilpailut) tarkoituksena on
 kannustaa lahjakkaita nuoria harrastamaan matematiikkaa.  Tähän
 liittyvästä valmennuksesta Suomessa vastaa

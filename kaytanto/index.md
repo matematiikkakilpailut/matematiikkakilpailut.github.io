@@ -3,9 +3,6 @@ layout: page
 title: Käytännön asioita
 url: /kaytanto/
 ---
-{% include JB/setup %}
-
-
 ## Käytännön asioita
 
 Valmennusviikonloput järjestetään Päivölän Kansanopistolla, Päivölän

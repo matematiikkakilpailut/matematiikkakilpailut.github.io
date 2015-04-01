@@ -3,8 +3,6 @@ layout: page
 title: Valmentajat
 url: /valmentajat/
 ---
-{% include JB/setup %}
-
 ## Valmentajat
 
 Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
