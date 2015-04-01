@@ -3,8 +3,6 @@ layout: page
 title: Baltian tien tulokset 1997 - 2012
 url: /Baltian_tie/
 ---
-{% include JB/setup %}
-
 ## Joukkuekilpailu [Baltian tien](/Baltian_tie/) tulokset 1997 - 2012
 
 ### <a name="1997"></a>Kööpenhamina 1997

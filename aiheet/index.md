@@ -3,8 +3,6 @@ layout: page
 title: Aiheet
 url: /aiheet/
 ---
-{% include JB/setup %}
-
 ## <a name="teemat"></a>Aiheet
 
 Viikonloppujen ohjelmien jaksottelemiseksi matematiikka on jaoteltu

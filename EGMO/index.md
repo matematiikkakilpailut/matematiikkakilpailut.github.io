@@ -20,8 +20,6 @@ kilpailut:
     tehtavat: "[pdf](EGMO_2014teht.pdf)"
     ratkaisut: "[englanniksi](EGMO_2014sol.pdf)"
 ---
-{% include JB/setup %}
-
 ## Euroopan Tyttöjen Matematiikka&shy;olympialaiset – EGMO
 
 ### Yleistä

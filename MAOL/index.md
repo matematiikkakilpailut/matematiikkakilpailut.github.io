@@ -3,8 +3,6 @@ layout: page
 title: MAOLin matematiikkakilpailut
 url: /MAOL/
 ---
-{% include JB/setup %}
-
 ## Peruskoulun matematiikkakilpailu
 
 Peruskoulun matematiikkakilpailu on suunnattu ensi sijassa

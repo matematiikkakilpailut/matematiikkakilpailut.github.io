@@ -113,8 +113,6 @@ kilpailut:
     ratkaisut: "[pdf](2014/IMOratk2014.pdf)"
     muuta: "[tulosluettelo](http://official.imo2011.nl/year_country_r.aspx?year=2014)&nbsp;"
 ---
-{% include JB/setup %}
-
 ## Kansainväliset matematiikkaolympialaiset
 
 ### Yleistä

@@ -3,8 +3,6 @@ layout: page
 title: Kappa-kilpailu 2014
 url: /
 ---
-{% include JB/setup %}
-
 ## Opettajamaaottelu matematiikassa?
 
 Tukholman yliopisto on jo useana vuotena järjestänyt Kappa-nimisen

@@ -28,8 +28,6 @@ kilpailut:
     ratkaisut: "2014/NMC2014ratk.pdf"
     tulokset: "2014/NMC2014_Results.pdf"
 ---
-{% include JB/setup %}
-
 ## Pohjoismainen matematiikkakilpailu
 
 ### Yleistä

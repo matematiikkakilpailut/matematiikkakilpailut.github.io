@@ -4,8 +4,6 @@ title: In English
 url: /english/
 lang: en
 ---
-{% include JB/setup %}
-
 The Finnish Olympic Training in Mathematics is organized by the
 [Finnish Mathematical Society's](http://www.matemaattinenyhdistys.fi)
 Training division. Its purpose is to encourage and assist talented young to
