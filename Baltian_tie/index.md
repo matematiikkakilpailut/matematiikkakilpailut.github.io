@@ -2,6 +2,164 @@
 layout: page
 title: Baltian tie
 url: /Baltian_tie/
+kilpailut:
+  - vuosi: "**Vuosi**"
+    paikka: "**Paikka**"
+    sijoitus: "**Suomen tulos**"
+    tehtavat: "**Tehtävät**"
+    ratkaisut: "**Ratkaisut**"
+    joukkue: "**Suomen joukkue**"
+  - vuosi: "1990"
+    paikka: "Rii&shy;ka"
+    sijoitus: "-"
+    tehtavat: "[pdf](1990/Bt1990.pdf), [ps](1990/Bt1990.ps)"
+    ratkaisut: "[koko&shy;el&shy;massa](Btratk1990_99.pdf)"
+  - vuosi: "1991"
+    paikka: "Tart&shy;to"
+    sijoitus: "-"
+    tehtavat: "[pdf](1991/Bt1991.pdf), [ps](1991/Bt1991.ps)"
+    ratkaisut: "[koko&shy;el&shy;massa](Btratk1990_99.pdf)"
+  - vuosi: "1992"
+    paikka: "Vil&shy;na"
+    sijoitus: "-"
+    tehtavat: "[pdf](1992/Bt1992.pdf), [ps](1992/Bt1992.ps)"
+    ratkaisut: "[koko&shy;el&shy;massa](Btratk1990_99.pdf)"
+  - vuosi: "1993"
+    paikka: "Rii&shy;ka"
+    sijoitus: "48 (6.)"
+    tehtavat: "[pdf](1993/Bt1993.pdf), [ps](1993/Bt1993.ps)"
+    ratkaisut: "[koko&shy;el&shy;massa](Btratk1990_99.pdf)"
+    joukkue: "Ilkka Alasaarela, Jaakko Kangasharju, Juha Lemmetti, Simo Suhonen, Kaarlo Väisänen"
+  - vuosi: "1994"
+    paikka: "Tart&shy;to"
+    sijoitus: "58 (7.)"
+    tehtavat: "[pdf](1994/Bt1994.pdf), [ps](1994/Bt1994.ps)"
+    ratkaisut: "[koko&shy;el&shy;massa](Btratk1990_99.pdf)"
+    joukkue: "Heikki Hyyrö, Teemu Kalvas, Toni Leppäkorpi, Jouni Seppänen, Uoti Urpala"
+  - vuosi: "1995"
+    paikka: "Väs&shy;te&shy;rås"
+    sijoitus: "61 (6.)"
+    tehtavat: "[pdf](1995/Bt1995.pdf), [ps](1995/Bt1995.ps)"
+    ratkaisut: "[koko&shy;el&shy;massa](Btratk1990_99.pdf)"
+    joukkue: "Mikael Laitinen, Toni Leppäkorpi, Tapani Raiko, Mikko Vepsäläinen, Tomas Östman"
+  - vuosi: "1996"
+    paikka: "Valkea&shy;koski"
+    sijoitus: "63 (6.)"
+    tehtavat: "[pdf](1996/Bt1996.pdf), [ps](1996/Bt1996.ps) [tgz](1996/Bt1996.tgz)"
+    ratkaisut: "[koko&shy;el&shy;massa](Btratk1990_99.pdf)"
+    joukkue: "Lauri Hallila, Antti Honkela, Tuomo Hyyryläinen, Peter Hästö, Tomas Östman"
+  - vuosi: "1997"
+    paikka: "Kööpen&shy;hamina"
+    sijoitus: "[64 (7.)](tulokset.html#1997)"
+    tehtavat: "[pdf](1997/Bt1997.pdf), [ps](1997/Bt1997.ps); [tgz](1997/Bt1997.tgz)"
+    ratkaisut: "[koko&shy;el&shy;massa](Btratk1990_99.pdf)"
+    joukkue: "Tuomo Hyyryläinen, Riikka Kangaslampi, Hannu Niemistö, Eero Vitie, Tomas Östman"
+  - vuosi: "1998"
+    paikka: "Var&shy;so&shy;va"
+    sijoitus: "[67 (4.)](tulokset.html#1998)"
+    tehtavat: "[pdf](1998/Bt1998.pdf), [ps](1998/Bt1998.ps) [tgz](1998/Bt1998.tgz)"
+    ratkaisut: "[pdf](1998/Bt1998ratk.pdf), [koko&shy;el&shy;massa](Btratk1990_99.pdf)"
+    joukkue: "Mikko Harju, Tuomas Hytönen, Mikko Leppänen, Hannu Niemistö, Vesa Riihimäki"
+  - vuosi: "1999"
+    paikka: "Reyk&shy;ja&shy;vik"
+    sijoitus: "[76 (5.)](tulokset.html#1999)"
+    tehtavat: "[pdf](1999/Bt1999.pdf), [ps](1999/Bt1999.ps) [tgz](1999/Bt1999.tgz)"
+    ratkaisut: >-
+      [pdf](1999/Bt1999ratk.pdf), [ps](1999/Bt1999ratk.ps) [tgz](1999/Bt1999ratk.tgz);
+      [koko&shy;el&shy;massa](Btratk1990_99.pdf)
+    joukkue: "Anne-Maria Ernvall, Mikko Harju, Laura Koponen, Riikka Korte, Johanna Tikanmäki"
+  - vuosi: "2000"
+    paikka: "Oslo"
+    sijoitus: "[63 (6.)](tulokset.html#2000)"
+    tehtavat: "[pdf](2000/Bt2000.pdf), [ps](2000/Bt2000.ps) [tgz](2000/Bt2000.tgz)"
+    ratkaisut: "[pdf](2000/Bt2000ratk.pdf); [koko&shy;el&shy;massa](Btratk2000_09.pdf)"
+    joukkue: "Anne-Maria Ernvall, Tapio Helin, Riikka Korte, Ilkka Kudjoi, Teemu Murtola"
+  - vuosi: "2001"
+    paikka: "Ham&shy;puri"
+    sijoitus: "[51 (9.)](tulokset.html#2001)"
+    tehtavat: "[ps](2001/Bt2001.ps) [pdf](2001/Bt2001.pdf)"
+    ratkaisut: "[tgz](2001/Bt2001.tgz)[pdf](2001/Bt2001ratk.pdf); [koko&shy;el&shy;massa](Btratk2000_09.pdf)"
+    joukkue: "Miikka Heikkinen, Olli-Pekka Kahilakoski, Kaisa Matomäki, Markus Ojala, Veli Peltola"
+  - vuosi: "2002"
+    paikka: "[Tart&shy;to](http://www.ut.ee/bw2002/)"
+    sijoitus: "[57 (6.)](tulokset.html#2002)"
+    tehtavat: "[ps](2002/Bt2002.ps) [pdf](2002/Bt2002.pdf) [tgz](2002/Bt2002.tgz)"
+    ratkaisut: "[koko&shy;el&shy;massa](Btratk2000_09.pdf); [pdf](2002/bwr2002.pdf)"
+    joukkue: "Miikka Heikkinen, Kaisa Matomäki, Markus Ojala, Veli Peltola, Niko Vuokko"
+  - vuosi: "2003"
+    paikka: "Rii&shy;ka"
+    sijoitus: "[38 (8.)](tulokset.html#2003)"
+    tehtavat: "[ps](2003/Bt2003.ps), [pdf](2003/Bt2003.pdf)"
+    ratkaisut: "[koko&shy;el&shy;massa](Btratk2000_09.pdf); [pdf](2003/bwr2003.pdf)"
+    joukkue: "Lauri Ahlroth, Sami Kivistö, Iiris Kolu, Miika Nikula, Ville Pettersson"
+  - vuosi: "2004"
+    paikka: "Vil&shy;na"
+    sijoitus: "[73 (5.)](tulokset.html#2004)"
+    tehtavat: "[ps](2004/Bt2004.ps), [pdf](2004/Bt2004.pdf)"
+    ratkaisut: "[pdf](bwr2004.pdf); [koko&shy;el&shy;massa](Btratk2000_09.pdf)"
+    joukkue: "Sebastian Dumitrescu, Iiris Kolu, Sami Niemi, Ville Pettersson, Matti Åstrand"
+  - vuosi: "2005"
+    paikka: "[Tuk&shy;holma](http://www.math.su.se/bw2005/)"
+    sijoitus: "[75 (2.)](tulokset.html#2005)"
+    tehtavat: "[pdf](2005/Bt2005.pdf)"
+    ratkaisut: "[pdf](bwr2005.pdf); [koko&shy;el&shy;massa](Btratk2000_09.pdf)"
+    joukkue: "Eemeli Blåsten, Sebastian Dumitrescu, Janne Kokkala, Ville Pettersson, Esa Vesalainen"
+  - vuosi: "2006"
+    paikka: "[Tur&shy;ku](/BW2006/)"
+    sijoitus: "[50 (7.)](tulokset.html#2006)"
+    tehtavat: "[ps](2006/Bt2006.ps), [pdf](2006/Bt2006.pdf)"
+    ratkaisut: "[pdf](bwr2006.pdf); [koko&shy;el&shy;massa](Btratk2000_09.pdf)"
+    joukkue: "Sebastian Dumitrescu, Joel Kaasinen, Toni Lamberg, Tomas Soto, Esa Vesalainen"
+  - vuosi: "2007"
+    paikka: "[Kööpen&shy;hamina](http://www.balticway07.dk/)"
+    sijoitus: "[40 (9.)](tulokset.html#2007)"
+    tehtavat: "[ps](2007/Bt2007.ps), [pdf](2007/Bt2007.pdf)"
+    ratkaisut: "[pdf](2007/Bt2007r.pdf); [koko&shy;el&shy;massa](Btratk2000_09.pdf)"
+    joukkue: "Sylvester Eriksson-Bique, Janne Junnila, Jaakko Kulhia, Konsta Lensu, Aleksey Sofiev"
+  - vuosi: "2008"
+    paikka: "[Gdansk](http://mat.ug.edu.pl/balticway/)"
+    sijoitus: "[27 (10.)](tulokset.html#2008)"
+    tehtavat: "[ps](2008/Bt2008.ps), [pdf](2008/Bt2008.pdf)"
+    ratkaisut: "[pdf](2008/Bt2008ratk.pdf); [koko&shy;el&shy;massa](Btratk2000_09.pdf)"
+    joukkue: "Tuomas Kyheröinen, Konsta Lensu, Jouni Mäki, Heikki Pulkkinen, Lasse Vekama"
+  - vuosi: "2009"
+    paikka: "[Trond&shy;heim](http://bw09.no/)"
+    sijoitus: "[65 (3.)](tulokset.html#2009)"
+    tehtavat: "[ps](2009/Bt2009.ps), [pdf](2009/Bt2009.pdf)"
+    ratkaisut: "[pdf](Bt2009ratk.pdf); [koko&shy;el&shy;massa](Btratk2000_09.pdf)"
+    joukkue: "Olli Hirviniemi, Dimitri Kiritchenko, Aleksi Korpinen, Aleksis Koski, Kai Lindholm"
+  - vuosi: "2010"
+    paikka: "[Reyk&shy;ja&shy;vik](http://www.stae.is/bw10/)"
+    sijoitus: "[45 (9.)](tulokset.html#2010)"
+    tehtavat: "[ps](2010/Bt2010.ps), [pdf](2010/Bt2010.pdf)"
+    ratkaisut: "[pdf](2010/Bt2010ratk.pdf)"
+    joukkue: "Olli Hirviniemi, Ilmari Kangasniemi, Dimitri Kirichenko, Markus Pajarre, Felix Sjöblom"
+  - vuosi: "2011"
+    paikka: "[Greifs&shy;wald](http://www.balticway-2011.de/)"
+    sijoitus: "[50 (6.)](http://www.balticway-2011.de/wp-content/uploads/2011/11/resultsOnlyTable.pdf)"
+    tehtavat: "[pdf](2011/Bt2011.pdf), [ps](2011/Bt2011.ps)."
+    ratkaisut: >-
+      [pdf](2011/Bt2011ratk.pdf),
+      [eng&shy;lan&shy;niksi](http://www.balticway-2011.de/wp-content/uploads/2011/11/PSlist.pdf)
+    joukkue: "Otte Heinävaara, Markus Pajarre, Joni Teräväinen, Felix Vaura, Jiali Yan"
+  - vuosi: "2012"
+    paikka: "[Tart&shy;to](http://www.bw2012.ut.ee/)"
+    sijoitus: "[53 (6.)](/Baltian_tie/2012/Bt2012res.pdf)"
+    tehtavat: "[pdf](/Baltian_tie/2012/Bt2012teht.pdf)"
+    ratkaisut: "[eng&shy;lan&shy;niksi](http://www.bw2012.ut.ee/bw2012problems_solutions.pdf)"
+    joukkue: "Otte Heinävaara, Katja Kulmala, Neea Palojärvi, Eero Räty, Joni Teräväinen"
+  - vuosi: "2013"
+    paikka: "[Rii&shy;ka](http://www.bw2013.lu.lv)"
+    sijoitus: "[23 (11.)](http://www.bw2013.lu.lv/results/)"
+    tehtavat: "[pdf](/Baltian_tie/2013/Bt2013teht.pdf)"
+    ratkaisut: "[eng&shy;lan&shy;niksi](/Baltian_tie/2013/Bt2013rateng.pdf)"
+    joukkue: "Mirjam Kauppila, Timo Takala, Ella Tamir, Jakob Wartiovaara, Pyry Virtanen"
+  - vuosi: "2014"
+    paikka: "[Vil&shy;na](http://mif.vu.lt/balticway2014/)"
+    sijoitus: "[29 (11.)](http://mif.vu.lt/balticway2014/wp-content/uploads/2014/07/bw2014rez.pdf)"
+    tehtavat: "[pdf](/Baltian_tie/2014/BW2014teht.pdf)"
+    ratkaisut: "[eng&shy;lan&shy;niksi](http://mif.vu.lt/balticway2014/wp-content/uploads/2014/07/bw2014solu.pdf)"
+    joukkue: "Petteri Huuskonen, Qianyue Jin, Iiro Kumpulainen, Kalle Luopajärvi, Ella Tamir"
 ---
 {% include JB/setup %}
 
@@ -42,251 +200,23 @@ PostScript- (lyh. ps) että LaTeX/TeX-muodossa gtar-paketissa (lyh.
 tgz). Tulossarakkeen mahdolliset linkit ovat tulostaulukoihin.
 
 
-<div class="row">
-<div class="col-xs-1 col-md-1"><strong>Vuosi</strong></div>
-<div class="col-xs-2 col-md-2"><strong>Paikka</strong></div>
-<div class="col-xs-2 col-md-1"><strong>Suomen tulos</strong></div>
-<div class="col-xs-3 col-md-1"><strong>Tehtävät</strong></div>
-<div class="col-xs-4 col-md-2"><strong>Ratkaisut</strong></div>
-<div class="col-xs-11 col-xs-offset-1 col-md-5 col-md-offset-0"><strong>Suomen joukkue</strong></div>
-</div>
+<style>
+  .kilpailut > div > p { display: inline }
+</style>
 
-<div class="row">
-<div class="col-xs-1 col-md-1">1990</div>
-<div class="col-xs-2 col-md-2">Rii&shy;ka</div>
-<div class="col-xs-2 col-md-1">-</div>
-<div class="col-xs-3 col-md-1"><a href="1990/Bt1990.pdf">pdf</a>, <a href="1990/Bt1990.ps">ps</a></div>
-<div class="col-xs-4 col-md-2"><a href="Btratk1990_99.pdf">koko&shy;el&shy;massa</a></div>
+{% for k in page.kilpailut %}
+<div class="row kilpailut">
+<div class="col-xs-1 col-md-1">{% if k['vuosi'] != null %}{{ k['vuosi'] | markdownify }}{% endif %}</div>
+<div class="col-xs-2 col-md-2">{% if k['paikka'] != null %}{{ k['paikka'] | markdownify }}{% endif %}</div>
+<div class="col-xs-2 col-md-1">{% if k['sijoitus'] != null %}{{ k['sijoitus'] | markdownify }}{% endif %}</div>
+<div class="col-xs-3 col-md-1">{% if k['tehtavat'] != null %}{{ k['tehtavat'] | markdownify }}{% endif %}</div>
+<div class="col-xs-4 col-md-2">{% if k['ratkaisut'] != null %}{{ k['ratkaisut'] | markdownify }}{% endif %}</div>
+<div class="col-xs-11 col-xs-offset-1 col-md-5 col-md-offset-0">{% if k['joukkue'] != null %}{{ k['joukkue'] | markdownify }}{% endif %}</div>
 </div>
-
-<div class="row">
-<div class="col-xs-1 col-md-1">1991</div>
-<div class="col-xs-2 col-md-2">Tart&shy;to</div>
-<div class="col-xs-2 col-md-1">-</div>
-<div class="col-xs-3 col-md-1"><a href="1991/Bt1991.pdf">pdf</a>, <a href="1991/Bt1991.ps">ps</a></div>
-<div class="col-xs-4 col-md-2"><a href="Btratk1990_99.pdf">koko&shy;el&shy;massa</a></div>
-</div>
-
-<div class="row">
-<div class="col-xs-1 col-md-1">1992</div>
-<div class="col-xs-2 col-md-2">Vil&shy;na</div>
-<div class="col-xs-2 col-md-1">-</div>
-<div class="col-xs-3 col-md-1"><a href="1992/Bt1992.pdf">pdf</a>, <a href="1992/Bt1992.ps">ps</a></div>
-<div class="col-xs-4 col-md-2"><a href="Btratk1990_99.pdf">koko&shy;el&shy;massa</a></div>
-</div>
-
-<div class="row">
-<div class="col-xs-1 col-md-1">1993</div>
-<div class="col-xs-2 col-md-2">Rii&shy;ka</div>
-<div class="col-xs-2 col-md-1">48 (6.)</div>
-<div class="col-xs-3 col-md-1"><a href="1993/Bt1993.pdf">pdf</a>, <a href="1993/Bt1993.ps">ps</a></div>
-<div class="col-xs-4 col-md-2"><a href="Btratk1990_99.pdf">koko&shy;el&shy;massa</a></div>
-<div class="col-xs-11 col-xs-offset-1 col-md-5 col-md-offset-0">Ilkka Alasaarela, Jaakko Kangasharju, Juha Lemmetti, Simo Suhonen, Kaarlo Väisänen</div>
-</div>
-
-<div class="row">
-<div class="col-xs-1 col-md-1">1994</div>
-<div class="col-xs-2 col-md-2">Tart&shy;to</div>
-<div class="col-xs-2 col-md-1">58 (7.)</div>
-<div class="col-xs-3 col-md-1"><a href="1994/Bt1994.pdf">pdf</a>, <a href="1994/Bt1994.ps">ps</a></div>
-<div class="col-xs-4 col-md-2"><a href="Btratk1990_99.pdf">koko&shy;el&shy;massa</a></div>
-<div class="col-xs-11 col-xs-offset-1 col-md-5 col-md-offset-0">Heikki Hyyrö, Teemu Kalvas, Toni Leppäkorpi, Jouni Seppänen, Uoti Urpala</div>
-</div>
-
-<div class="row">
-<div class="col-xs-1 col-md-1">1995</div>
-<div class="col-xs-2 col-md-2">Väs&shy;te&shy;rås</div>
-<div class="col-xs-2 col-md-1">61 (6.)</div>
-<div class="col-xs-3 col-md-1"><a href="1995/Bt1995.pdf">pdf</a>, <a href="1995/Bt1995.ps">ps</a></div>
-<div class="col-xs-4 col-md-2"><a href="Btratk1990_99.pdf">koko&shy;el&shy;massa</a></div>
-<div class="col-xs-11 col-xs-offset-1 col-md-5 col-md-offset-0">Mikael Laitinen, Toni Leppäkorpi, Tapani Raiko, Mikko Vepsäläinen, Tomas Östman</div>
-</div>
-
-<div class="row">
-<div class="col-xs-1 col-md-1">1996</div>
-<div class="col-xs-2 col-md-2">Valkea&shy;koski</div>
-<div class="col-xs-2 col-md-1">63 (6.)</div>
-<div class="col-xs-3 col-md-1"><a href="1996/Bt1996.pdf">pdf</a>, 
-<a href="1996/Bt1996.ps">ps</a> <a href="1996/Bt1996.tgz">tgz</a>
-</div>
-<div class="col-xs-4 col-md-2"><a href="Btratk1990_99.pdf">koko&shy;el&shy;massa</a></div>
-<div class="col-xs-11 col-xs-offset-1 col-md-5 col-md-offset-0">Lauri Hallila, Antti Honkela, Tuomo Hyyryläinen, Peter Hästö, Tomas Östman</div>
-</div>
-
-<div class="row">
-<div class="col-xs-1 col-md-1">1997</div>
-<div class="col-xs-2 col-md-2">Kööpen&shy;hamina</div>
-<div class="col-xs-2 col-md-1"><a href="tulokset.html#1997">64 (7.)</a></div>
-<div class="col-xs-3 col-md-1"><a href="1997/Bt1997.pdf">pdf</a>, <a href="1997/Bt1997.ps">ps</a>; <a href="1997/Bt1997.tgz">tgz</a>
-</div>
-<div class="col-xs-4 col-md-2"><a href="Btratk1990_99.pdf">koko&shy;el&shy;massa</a></div>
-<div class="col-xs-11 col-xs-offset-1 col-md-5 col-md-offset-0">Tuomo Hyyryläinen, Riikka Kangaslampi, Hannu Niemistö, Eero Vitie, Tomas Östman</div>
-</div>
-
-<div class="row">
-<div class="col-xs-1 col-md-1">1998</div>
-<div class="col-xs-2 col-md-2">Var&shy;so&shy;va</div>
-<div class="col-xs-2 col-md-1"><a href="tulokset.html#1998">67 (4.)</a></div>
-<div class="col-xs-3 col-md-1"><a href="1998/Bt1998.pdf">pdf</a>, 
-<a href="1998/Bt1998.ps">ps</a> <a href="1998/Bt1998.tgz">tgz</a>
-</div>
-<div class="col-xs-4 col-md-2"><a href="1998/Bt1998ratk.pdf">pdf</a>, <a href="Btratk1990_99.pdf">koko&shy;el&shy;massa</a></div>
-<div class="col-xs-11 col-xs-offset-1 col-md-5 col-md-offset-0">Mikko Harju, Tuomas Hytönen, Mikko Leppänen, Hannu Niemistö, Vesa Riihimäki</div>
-</div>
-
-<div class="row">
-<div class="col-xs-1 col-md-1">1999</div>
-<div class="col-xs-2 col-md-2"><!--<a href="http://www.talnakonnun.is/Staerdfraedafelag/">-->Reyk&shy;ja&shy;vik</div>
-<div class="col-xs-2 col-md-1"><a href="tulokset.html#1999">76 (5.)</a></div>
-<div class="col-xs-3 col-md-1"><a href="1999/Bt1999.pdf">pdf</a>,
-<a href="1999/Bt1999.ps">ps</a>
-<a href="1999/Bt1999.tgz">tgz</a>
-</div>
-<div class="col-xs-4 col-md-2"><a href="1999/Bt1999ratk.pdf">pdf</a>, 
-<a href="1999/Bt1999ratk.ps">ps</a>
-<a href="1999/Bt1999ratk.tgz">tgz</a>; <a href="Btratk1990_99.pdf">koko&shy;el&shy;massa</a>
-</div>
-<div class="col-xs-11 col-xs-offset-1 col-md-5 col-md-offset-0">Anne-Maria Ernvall, Mikko Harju, Laura Koponen, Riikka Korte, Johanna Tikanmäki</div>
-</div>
-
-<div class="row">
-<div class="col-xs-1 col-md-1">2000</div>
-<div class="col-xs-2 col-md-2"><!--<a href="http://www.math.uio.no/~hermunn/abel/baltic.html">-->Oslo</div>
-<div class="col-xs-2 col-md-1"><a href="tulokset.html#2000">63 (6.)</a></div>
-<div class="col-xs-3 col-md-1"><a href="2000/Bt2000.pdf">pdf</a>, <a href="2000/Bt2000.ps">ps</a> <a href="2000/Bt2000.tgz">tgz</a></div>
-<div class="col-xs-4 col-md-2"><a href="2000/Bt2000ratk.pdf">pdf</a>; <a href="Btratk2000_09.pdf">koko&shy;el&shy;massa</a></div>
-<div class="col-xs-11 col-xs-offset-1 col-md-5 col-md-offset-0">Anne-Maria Ernvall, Tapio Helin, Riikka Korte, Ilkka Kudjoi, Teemu Murtola</div>
-</div>
-
-<div class="row">
-<div class="col-xs-1 col-md-1">2001</div>
-<div class="col-xs-2 col-md-2">Ham&shy;puri</div>
-<div class="col-xs-2 col-md-1"><a href="tulokset.html#2001">51 (9.)</a></div>
-<div class="col-xs-3 col-md-1"><a href="2001/Bt2001.ps">ps</a> <a href="2001/Bt2001.pdf">pdf</a>
- <a href="2001/Bt2001.tgz">tgz</a></div><div class="col-xs-4 col-md-2"><a href="2001/Bt2001ratk.pdf">pdf</a>; <a href="Btratk2000_09.pdf">koko&shy;el&shy;massa</a>
-</div>
-<div class="col-xs-11 col-xs-offset-1 col-md-5 col-md-offset-0">Miikka Heikkinen, Olli-Pekka Kahilakoski, Kaisa Matomäki, Markus Ojala, Veli Peltola</div>
-</div>
-
-<div class="row">
-<div class="col-xs-1 col-md-1">2002</div>
-<div class="col-xs-2 col-md-2"><a href="http://www.ut.ee/bw2002/">Tart&shy;to</a></div>
-<div class="col-xs-2 col-md-1"><a href="tulokset.html#2002">57 (6.)</a></div>
-<div class="col-xs-3 col-md-1"><a href="2002/Bt2002.ps">ps</a> <a href="2002/Bt2002.pdf">pdf</a>
- <a href="2002/Bt2002.tgz">tgz</a></div>
-<div class="col-xs-4 col-md-2"><a href="Btratk2000_09.pdf">koko&shy;el&shy;massa</a>; <a href="2002/bwr2002.pdf">pdf</a></div>
-<div class="col-xs-11 col-xs-offset-1 col-md-5 col-md-offset-0">Miikka Heikkinen, Kaisa Matomäki, Markus Ojala, Veli Peltola, Niko Vuokko</div>
-</div>
-
-<div class="row">
-<div class="col-xs-1 col-md-1">2003</div>
-<div class="col-xs-2 col-md-2">Rii&shy;ka</div>
-<div class="col-xs-2 col-md-1"><a href="tulokset.html#2003">38 (8.)</a></div>
-<div class="col-xs-3 col-md-1"><a href="2003/Bt2003.ps">ps</a>, <a href="2003/Bt2003.pdf">pdf</a></div>
-<div class="col-xs-4 col-md-2"><a href="Btratk2000_09.pdf">koko&shy;el&shy;massa</a>; <a href="2003/bwr2003.pdf">pdf</a></div>
-<div class="col-xs-11 col-xs-offset-1 col-md-5 col-md-offset-0">Lauri Ahlroth, Sami Kivistö, Iiris Kolu, Miika Nikula, Ville Pettersson</div>
-</div>
-
-<div class="row">
-<div class="col-xs-1 col-md-1">2004</div>
-<div class="col-xs-2 col-md-2">Vil&shy;na</div>
-<div class="col-xs-2 col-md-1"><a href="tulokset.html#2004">73 (5.)</a></div>
-<div class="col-xs-3 col-md-1"><a href="2004/Bt2004.ps">ps</a>, <a href="2004/Bt2004.pdf">pdf</a></div>
-<div class="col-xs-4 col-md-2"><a href="bwr2004.pdf">pdf</a>; <a href="Btratk2000_09.pdf">koko&shy;el&shy;massa</a></div>
-<div class="col-xs-11 col-xs-offset-1 col-md-5 col-md-offset-0">Sebastian Dumitrescu, Iiris Kolu, Sami Niemi, Ville Pettersson, Matti Åstrand</div>
-</div>
-
-<div class="row">
-<div class="col-xs-1 col-md-1">2005</div>
-<div class="col-xs-2 col-md-2"><a href="http://www.math.su.se/bw2005/">Tuk&shy;holma</a></div>
-<div class="col-xs-2 col-md-1"><a href="tulokset.html#2005">75 (2.)</a></div>
-<div class="col-xs-3 col-md-1"><a href="2005/Bt2005.pdf">pdf</a></div>
-<div class="col-xs-4 col-md-2"><a href="bwr2005.pdf">pdf</a>; <a href="Btratk2000_09.pdf">koko&shy;el&shy;massa</a></div>
-<div class="col-xs-11 col-xs-offset-1 col-md-5 col-md-offset-0">Eemeli Blåsten, Sebastian Dumitrescu, Janne Kokkala, Ville Pettersson, Esa Vesalainen</div>
-</div>
-
-<div class="row">
-<div class="col-xs-1 col-md-1">2006</div>
-<div class="col-xs-2 col-md-2"><a href="/BW2006/">Tur&shy;ku</a></div>
-<div class="col-xs-2 col-md-1"><a href="tulokset.html#2006">50 (7.)</a></div>
-<div class="col-xs-3 col-md-1"><a href="2006/Bt2006.ps">ps</a>, <a href="2006/Bt2006.pdf">pdf</a></div>
-<div class="col-xs-4 col-md-2"><a href="bwr2006.pdf">pdf</a>; <a href="Btratk2000_09.pdf">koko&shy;el&shy;massa</a></div>
-<div class="col-xs-11 col-xs-offset-1 col-md-5 col-md-offset-0">Sebastian Dumitrescu, Joel Kaasinen, Toni Lamberg, Tomas Soto, Esa Vesalainen</div>
-</div>
-
-<div class="row">
-<div class="col-xs-1 col-md-1">2007</div>
-<div class="col-xs-2 col-md-2"><a href="http://www.balticway07.dk/">Kööpen&shy;hamina</a></div>
-<div class="col-xs-2 col-md-1"><a href="tulokset.html#2007">40 (9.)</a></div>
-<div class="col-xs-3 col-md-1"><a href="2007/Bt2007.ps">ps</a>, <a href="2007/Bt2007.pdf">pdf</a></div>
-<div class="col-xs-4 col-md-2"><a href="2007/Bt2007r.pdf">pdf</a>; <a href="Btratk2000_09.pdf">koko&shy;el&shy;massa</a></div>
-<div class="col-xs-11 col-xs-offset-1 col-md-5 col-md-offset-0">Sylvester Eriksson-Bique, Janne Junnila, Jaakko Kulhia, Konsta Lensu, Aleksey Sofiev</div>
-</div>
-
-<div class="row">
-<div class="col-xs-1 col-md-1">2008</div>
-<div class="col-xs-2 col-md-2"><a href="http://mat.ug.edu.pl/balticway/">Gdansk</a></div>
-<div class="col-xs-2 col-md-1"><a href="tulokset.html#2008">27 (10.)</a></div>
-<div class="col-xs-3 col-md-1"><a href="2008/Bt2008.ps">ps</a>, <a href="2008/Bt2008.pdf">pdf</a></div>
-<div class="col-xs-4 col-md-2"><a href="2008/Bt2008ratk.pdf">pdf</a>; <a href="Btratk2000_09.pdf">koko&shy;el&shy;massa</a></div>
-<div class="col-xs-11 col-xs-offset-1 col-md-5 col-md-offset-0">Tuomas Kyheröinen, Konsta Lensu, Jouni Mäki, Heikki Pulkkinen, Lasse Vekama</div>
-</div>
-
-<div class="row">
-<div class="col-xs-1 col-md-1">2009</div>
-<div class="col-xs-2 col-md-2"><a href="http://bw09.no/">Trond&shy;heim</a></div>
-<div class="col-xs-2 col-md-1"><a href="tulokset.html#2009">65 (3.)</a></div>
-<div class="col-xs-3 col-md-1"><a href="2009/Bt2009.ps">ps</a>, <a href="2009/Bt2009.pdf">pdf</a></div>
-<div class="col-xs-4 col-md-2"><a href="Bt2009ratk.pdf">pdf</a>; <a href="Btratk2000_09.pdf">koko&shy;el&shy;massa</a></div>
-<div class="col-xs-11 col-xs-offset-1 col-md-5 col-md-offset-0">Olli Hirviniemi, Dimitri Kiritchenko, Aleksi Korpinen, Aleksis Koski, Kai Lindholm</div>
-</div>
-
-<div class="row">
-<div class="col-xs-1 col-md-1">2010</div>
-<div class="col-xs-2 col-md-2"><a href="http://www.stae.is/bw10/">Reyk&shy;ja&shy;vik</a></div>
-<div class="col-xs-2 col-md-1"><a href="tulokset.html#2010">45 (9.)</a></div>
-<div class="col-xs-3 col-md-1"><a href="2010/Bt2010.ps">ps</a>, <a href="2010/Bt2010.pdf">pdf</a></div>
-<div class="col-xs-4 col-md-2"><a href="2010/Bt2010ratk.pdf">pdf</a></div>
-<div class="col-xs-11 col-xs-offset-1 col-md-5 col-md-offset-0">Olli Hirviniemi, Ilmari Kangasniemi, Dimitri Kirichenko, Markus Pajarre, Felix Sjöblom</div>
-</div>
+{% endfor %}
 
 
 
-<div class="row">
-<div class="col-xs-1 col-md-1">2011</div>
-<div class="col-xs-2 col-md-2"><a href="http://www.balticway-2011.de/">Greifs&shy;wald</a></div>
-<div class="col-xs-2 col-md-1"><a href="http://www.balticway-2011.de/wp-content/uploads/2011/11/resultsOnlyTable.pdf">50 (6.)</a></div>
-<div class="col-xs-3 col-md-1"><a href="2011/Bt2011.pdf">pdf</a>, <a href="2011/Bt2011.ps">ps</a>.</div>
-<div class="col-xs-4 col-md-2"><a href="2011/Bt2011ratk.pdf">pdf</a>, <a href="http://www.balticway-2011.de/wp-content/uploads/2011/11/PSlist.pdf">eng&shy;lan&shy;niksi</a></div>
-<div class="col-xs-11 col-xs-offset-1 col-md-5 col-md-offset-0">Otte Heinävaara, Markus Pajarre, Joni Teräväinen, Felix Vaura, Jiali Yan</div>
-</div>
-
-<div class="row">
-<div class="col-xs-1 col-md-1">2012</div>
-<div class="col-xs-2 col-md-2"><a href="http://www.bw2012.ut.ee/">Tart&shy;to</a></div>
-<div class="col-xs-2 col-md-1"><a href="/Baltian_tie/2012/Bt2012res.pdf">53 (6.)</a></div>
-<div class="col-xs-3 col-md-1"><a href="/Baltian_tie/2012/Bt2012teht.pdf">pdf</a></div>
-<div class="col-xs-4 col-md-2"><a href="http://www.bw2012.ut.ee/bw2012problems_solutions.pdf">eng&shy;lan&shy;niksi</a></div>
-<div class="col-xs-11 col-xs-offset-1 col-md-5 col-md-offset-0">Otte Heinävaara, Katja Kulmala, Neea Palojärvi, Eero Räty, Joni Teräväinen</div>
-</div>
-
-<div class="row">
-<div class="col-xs-1 col-md-1">2013</div>
-<div class="col-xs-2 col-md-2"><a href="http://www.bw2013.lu.lv">Rii&shy;ka</a></div>
-<div class="col-xs-2 col-md-1"><a href="http://www.bw2013.lu.lv/results/">23 (11.)</a></div>
-<div class="col-xs-3 col-md-1"><a href="/Baltian_tie/2013/Bt2013teht.pdf">pdf</a></div>
-<div class="col-xs-4 col-md-2"><a href="/Baltian_tie/2013/Bt2013rateng.pdf">eng&shy;lan&shy;niksi</a></div>
-<div class="col-xs-11 col-xs-offset-1 col-md-5 col-md-offset-0">Mirjam Kauppila, Timo Takala, Ella Tamir, Jakob Wartiovaara, Pyry Virtanen</div></div>
-
-<div class="row">
-<div class="col-xs-1 col-md-1">2014</div>
-<div class="col-xs-2 col-md-2"><a href="http://mif.vu.lt/balticway2014/">Vil&shy;na</a></div>
-<div class="col-xs-2 col-md-1"><a href="http://mif.vu.lt/balticway2014/wp-content/uploads/2014/07/bw2014rez.pdf">29 (11.)</a>
-</div>
-<div class="col-xs-3 col-md-1"><a href="/Baltian_tie/2014/BW2014teht.pdf">pdf</a></div>
-<div class="col-xs-4 col-md-2"><a href="http://mif.vu.lt/balticway2014/wp-content/uploads/2014/07/bw2014solu.pdf">eng&shy;lan&shy;niksi</a></div>
-<div class="col-xs-11 col-xs-offset-1 col-md-5 col-md-offset-0">Petteri Huuskonen, Qianyue Jin, Iiro Kumpulainen, Kalle Luopajärvi, Ella Tamir</div>
-</div>
 
 ### Tulokset
 
