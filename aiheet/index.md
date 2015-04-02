@@ -162,8 +162,8 @@ Materiaaliin kuuluu myös [tehtäväkokoelmia](#tehtavat) ja [muuta](#muita).
 *   [Pohjoismaisten matematiikka&shy;kilpailujen tehtävät vuosilta 1987 – 1994](/PM/nmct87_94.pdf).
 	Tehtäviin on myös [ratkaisut](/PM/nmcr87_94.pdf).
 *   [Baltian Tie -kilpailun tehtävät vuosilta 1990 – 2012](/Baltian_tie/bwteht.pdf).
-	460 tehtävää. Ratkaisukokolmia löytyy vuosien [1990–99](/Baltian_tie/bwratk1990_99.pdf)
-	ja [2000–05](/Baltian_tie/bwratk2000_09.pdf) tehtäviin. Ratkaisu&shy;koosteita täydennetään.
+	460 tehtävää. Ratkaisukokolmia löytyy vuosien [1990–99](/Baltian_tie/Btratk1990_99.pdf)
+	ja [2000–05](/Baltian_tie/Btratk2000_09.pdf) tehtäviin. Ratkaisu&shy;koosteita täydennetään.
 *   [IMO-tason funktionaaliyhtälötehtäviä](/kirjallisuus/imoehdfnyht.pdf)
     Matematiikka&shy;olympialaisiin ehdolla olleita funktionaali&shy;yhtälö&shy;tehtäviä ratkaisuineen.
 *   [IMO-tason geometrisia epäyhtälöitä](/kirjallisuus/imoehdgeomey.pdf)
