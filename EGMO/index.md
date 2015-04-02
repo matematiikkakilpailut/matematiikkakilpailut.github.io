@@ -29,7 +29,7 @@ pidettiin vuonna 2012 Cambridgessä Englannissa. Aloite tällaisen
 kilpailun järjestämisestä oli tullut Englannista. Eräänä esikuvana
 ovat olleet Kiinassa jo pitkään järjestetyt tyttöjen
 matematiikka&shy;kilpailut. Tarkoitus on madaltaa tyttöjen kynnystä
-osallistua Kansainvälisiin Matematiikka&shy;llympialaisiin. Mielipiteet
+osallistua Kansainvälisiin Matematiikka&shy;olympialaisiin. Mielipiteet
 siitä, onko erityisesti tytöille järjestettävä kilpailu
 tarkoituksenmukainen, vaihtelevat.
 
