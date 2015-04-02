@@ -6,7 +6,7 @@ url: /
 [Matematiikka&shy;kilpailujen](kilpailut) tarkoituksena on
 kannustaa lahjakkaita nuoria harrastamaan matematiikkaa.  Tähän
 liittyvästä valmennuksesta Suomessa vastaa
-[Suomen matemaattisen yhdistyksen](http://www.math.helsinki.fi/~smy/)
+[Suomen matemaattisen yhdistyksen](http://www.matemaattinenyhdistys.fi/)
 [Valmennusjaosto](valmentajat).
 
 Valmennusjaosto hoitaa myös Suomen kansainväliseen
