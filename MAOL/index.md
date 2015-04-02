@@ -2,6 +2,13 @@
 layout: page
 title: MAOLin matematiikka&shy;kilpailut
 url: /MAOL/
+description: >-
+  Matemaattisten aineiden opettajien liitto MAOL järjestää
+  matematiikkakilpailuja peruskoululaisille ja lukiolaisille.
+  Kilpailussa menestyneitä kutsutaan kilpailuvalmennukseen,
+  jonka kautta valitaan joukkue matematiikkaolympialaisiin.
+  Tällä sivulla on lukiosarjojen loppukilpailun tehtäviä
+  ja ratkaisuja.
 ---
 ## Peruskoulun matematiikka&shy;kilpailu
 

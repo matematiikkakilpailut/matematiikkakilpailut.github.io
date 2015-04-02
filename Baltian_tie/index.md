@@ -2,6 +2,12 @@
 layout: page
 title: Baltian tie
 url: /Baltian_tie/
+description: >-
+  Baltian Tie on matematiikkakilpailu Itämeren alueen ja Pohjoismaiden
+  lukiolaisjoukkueille. Kilpailun nimi on muisto Baltian maissa vuonna
+  1989 järjestetystä suurestä itsenäisyysmielenosoituksesta. Suomi on
+  osallistunut vuodesta 1993 alkaen. Tällä sivulla on tehtävät ja
+  malliratkaisuja sekä Suomen tulostietoja.
 kilpailut:
   - vuosi: "**Vuosi**"
     paikka: "**Paikka**"

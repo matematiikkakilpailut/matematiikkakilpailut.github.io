@@ -1,6 +1,12 @@
 ---
 layout: page
 title: Matematiikka&shy;kilpailut ja olympia&shy;valmennus
+description: >-
+  Matematiikkakilpailujen tarkoituksena on kannustaa lahjakkaita nuoria
+  harrastamaan matematiikkaa. Kansainvälisiin kilpailuihin valmennetaan
+  halukkaita. Valmennus koostuu valmennusviikonlopuista ja kirjevalmennuksesta.
+  Valmennettavien joukosta valitaan edustajat kansainvälisiin kilpailuihin,
+  kuten Kansainvälisiin matematiikkaolympialaisiin.
 url: /
 ---
 [Matematiikka&shy;kilpailujen](kilpailut) tarkoituksena on
