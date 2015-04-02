@@ -61,7 +61,7 @@ kysymyksistä löytyy lisätietoa [täältä](kaytanto).
   Anttila** samasta koulusta sekä **Kalle Luopajärvi** Seinäjoen
   lukiosta. [Täydellisempi tulosluettelo][lukio-tulokset]
   löytyy MAOLin sivuilta, tehtävät ja ratkaisut
-  [täältä](/olympia/MAOL/2015/lukm2015r.pdf).
+  [täältä](/MAOL/2015/lukm2015r.pdf).
 
 * Vuoden 2014 Baltian Tie -joukkuematematiikka&shy;kilpailu pidettiin
   Vilnassa Liettuassa 6.&ndash;10.11.2014. Kilpailun voitti Pietari,
