@@ -113,6 +113,6 @@ ps) että pdf-muodossa seuraavan taulukon mukaisesti.
 <div {{ c }}>{{ k['vuosi'] }}</div>
 <div {{ c }}><a href="{{ k['tehtavat'] }}">pdf</a></div>
 <div {{ c }}><a href="{{ k['ratkaisut'] }}">pdf</a></div>
-<div {{ c }}><a href="{{ k['tulokset'] }}">pdf</a></div>
+<div {{ c }}>{% if k['tulokset'] != null %}<a href="{{ k['tulokset'] }}">pdf</a>{% endif %}</div>
 </div>
 {% endfor %}
