@@ -2,6 +2,12 @@
 layout: page
 title: Pohjoismainen matematiikka&shy;kilpailu
 url: /PM/
+description: >-
+  Pohjoismainen matematiikkakilpailu sijoittuu vaikeustasoltaan kansallisten
+  kilpailujen ja matematiikkaolympialaisten väliin. Osallistujat ratkovat
+  tehtäviä yhtä aikaa kukin omassa koulussaan. Kilpailu on yksi tärkeä näyttö
+  valittaessa joukkuetta matematiikkaolympialaisiin. Tällä sivulla on aiempien
+  kilpailujen tehtäviä, ratkaisuja ja tulostietoja.
 kilpailut:
   - vuosi: 2009
     tehtavat: 2009/PM2009.pdf

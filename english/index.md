@@ -1,6 +1,14 @@
 ---
 layout: page
 title: In English
+description: >-
+  The Finnish Olympic Training in Mathematics is organized by the
+  Finnish Mathematical Society's Training division. Its purpose is to
+  encourage and assist talented young to take interest in mathematics.
+  The training consists of correspondence training through regular
+  problem sets and various training events, in particular the training
+  weekends at Päivölä. All the training is open for all students in
+  secondary schools.
 url: /english/
 lang: en
 ---
