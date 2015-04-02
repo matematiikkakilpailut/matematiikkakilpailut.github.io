@@ -198,7 +198,8 @@ PostScript- (lyh. ps) että LaTeX/TeX-muodossa gtar-paketissa (lyh.
 tgz). Tulossarakkeen mahdolliset linkit ovat tulostaulukoihin.
 
 
-<style>
+<div>
+<style scoped>
   .kilpailut > div > p { display: inline }
 </style>
 
@@ -212,7 +213,7 @@ tgz). Tulossarakkeen mahdolliset linkit ovat tulostaulukoihin.
 <div class="col-xs-11 col-xs-offset-1 col-md-5 col-md-offset-0">{% if k['joukkue'] != null %}{{ k['joukkue'] | markdownify }}{% endif %}</div>
 </div>
 {% endfor %}
-
+</div>
 
 
 

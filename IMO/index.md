@@ -239,7 +239,8 @@ osa maista ei lähetä täyttä kuuden hengen joukkuetta, mikä heikentää
 hieman summien vertailukelpoisuutta ja siis sijaluvun mielekkyyttä.
 Joidenkin vuosien kohdalla taulukosta on linkkejä lisätietoihin.
 
-<style>
+<div>
+<style scoped>
   .kilpailut > div > p { display: inline }
 </style>
 
@@ -254,3 +255,4 @@ Joidenkin vuosien kohdalla taulukosta on linkkejä lisätietoihin.
 <div class="col-xs-4 col-sm-2">{% if k['muuta'] != null %}{{ k['muuta'] | markdownify }}{% endif %}</div>
 </div>
 {% endfor %}
+</div>

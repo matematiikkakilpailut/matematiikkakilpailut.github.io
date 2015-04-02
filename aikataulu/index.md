@@ -82,7 +82,8 @@ aikataulu:
       [57. Kansainväliset matematiikka&shy;olympialaiset](http://www.imohkc.org.hk/)
       Hongkongissa.
 ---
-<style>
+<div>
+<style scoped>
 .vuodenaika > div {
     background: silver;
     padding-top: 6px;
@@ -101,5 +102,6 @@ aikataulu:
 <div class="col-sm-9">{{ a['tapahtuma'] | markdownify }}</div>
 {% if a['luokka'] != null %}</div>{% endif %}
 {% endfor %}
+</div>
 
 

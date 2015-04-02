@@ -2,8 +2,6 @@
 layout: page
 title: Matematiikka&shy;kilpailut ja olympia&shy;valmennus
 url: /
-# Jekyll Quick Start: http://jekyllbootstrap.com/usage/jekyll-quick-start.html
-# Jekyll Bootstrap: http://jekyllbootstrap.com
 ---
 [Matematiikka&shy;kilpailujen](kilpailut) tarkoituksena on
 kannustaa lahjakkaita nuoria harrastamaan matematiikkaa.  Tähän
@@ -120,7 +118,7 @@ Vanhempia uutisia löytyy [uutisarkistosta](vanhaset.html).
 [egmo-tulokset]: https://www.egmo.org/egmos/egmo3/scoreboard/
 
 
-## <a name="muut aktiviteetit"></a>Muut aktiviteetit
+## <a name="muut-aktiviteetit"></a>Muut aktiviteetit
 
 Valmennusjaosto järjestää yhteistyössä
 [Helsingin yliopiston matematiikan ja tilastotieteen laitoksen][mathstat]
