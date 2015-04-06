@@ -243,13 +243,9 @@ osa maista ei lähetä täyttä kuuden hengen joukkuetta, mikä heikentää
 hieman summien vertailukelpoisuutta ja siis sijaluvun mielekkyyttä.
 Joidenkin vuosien kohdalla taulukosta on linkkejä lisätietoihin.
 
-<div>
-<style scoped>
-  .kilpailut > div > p { display: inline }
-</style>
-
+<div class="list-group">
 {% for k in page.kilpailut %}
-<div class="row kilpailut">
+<div class="row kilpailut list-group-item">
 <div class="col-xs-2 col-sm-1">{% if k['vuosi'] != null %}{{ k['vuosi'] | markdownify }}{% endif %}</div>
 <div class="col-xs-4 col-sm-2">{% if k['paikka'] != null %}{{ k['paikka'] | markdownify }}{% endif %}</div>
 <div class="col-xs-6 col-sm-2">{% if k['sijoitus'] != null %}{{ k['sijoitus'] | markdownify }}{% endif %}</div>

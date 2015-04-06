@@ -45,24 +45,26 @@ löytyy [MAOL:n kilpailusivuilta][maollukio].
 Lukion matematiikka&shy;kilpailun tehtäviä ja ratkaisuja muutamilta
 vuosilta löytyy pdf-muotoisina oheisesta taulukosta.
 
-<div class="row">
+<div class="list-group">
+<div class="row list-group-item">
 <div class="col-xs-3 col-sm-2 col-md-1"><strong>Vuosi</strong></div>
 <div class="col-xs-3 col-sm-2 col-md-1"><strong>Tehtävät</strong></div>
 <div class="col-xs-6"><strong>Ratkaisut</strong></div>
 </div>
 {% assign vt = "2009 2010 2011 2012 2013" | split: " " %}
 {% for v in vt %}
-<div class="row">
+<div class="row list-group-item">
 <div class="col-xs-3 col-sm-2 col-md-1">{{ v }}</div>
 <div class="col-xs-3 col-sm-2 col-md-1"><a href="{{ v }}/tehtalku{{ v }}.pdf">pdf</a></div>
 <div class="col-xs-6"><a href="{{ v }}/ratkalku{{ v }}.pdf">pdf</a></div>
 </div>
 {% endfor %}
-<div class="row">
+<div class="row list-group-item">
 <div class="col-xs-3 col-sm-2 col-md-1">2014</div>
 <div class="col-xs-3 col-sm-2 col-md-1"><a href="2014/alkukteht2014.pdf">pdf</a></div>
 <div class="col-xs-6"><a href="2014/alkukratk2014.pdf">pdf</a>,
    <a href="2014/avaratk.pdf">avoimen sarjan ratkaisuja</a></div>
+</div>
 </div>
 
 
@@ -72,14 +74,15 @@ Lukion matematiikka&shy;kilpailun loppukilpailu on järjestetty vuodesta
 1997 alkaen. Tässä tehtäviä ja ratkaisuja sekä PostScript- (lyh. ps)
 että pdf-muodossa seuraavan taulukon mukaisesti.
 
-<div class="row">
+<div class="list-group">
+<div class="row list-group-item">
 <div class="col-xs-3 col-sm-2 col-md-1"><strong>Vuosi</strong></div>
 <div class="col-xs-3 col-sm-2 col-md-1"><strong>Tehtävät</strong></div>
 <div class="col-xs-6"><strong>Ratkaisut</strong></div>
 </div>
 {% assign vt = "97 98 99" | split: " " %}
 {% for v in vt %}
-<div class="row">
+<div class="row list-group-item">
 <div class="col-xs-3 col-sm-2 col-md-1">19{{ v }}</div>
 <div class="col-xs-3 col-sm-2 col-md-1"><a href="19{{ v }}/lukm{{ v }}.ps">ps</a>
   <a href="19{{ v }}/lukm{{ v }}.pdf">pdf</a></div>
@@ -88,7 +91,7 @@ että pdf-muodossa seuraavan taulukon mukaisesti.
 {% endfor %}
 {% assign vt = "2000 2001 2002 2003 2004 2005 2006 2007 2008 2009" | split: " " %}
 {% for v in vt %}
-<div class="row">
+<div class="row list-group-item">
 <div class="col-xs-3 col-sm-2 col-md-1">{{ v }}</div>
 <div class="col-xs-3 col-sm-2 col-md-1"><a href="{{ v }}/lukm{{ v }}.ps">ps</a>
   <a href="{{ v }}/lukm{{ v }}.pdf">pdf</a></div>
@@ -97,7 +100,7 @@ että pdf-muodossa seuraavan taulukon mukaisesti.
 {% endfor %}
 {% assign vt = "2010 2011 2012 2013 2014 2015" | split: " " %}
 {% for v in vt %}
-<div class="row">
+<div class="row list-group-item">
 <div class="col-xs-3 col-sm-2 col-md-1">{{ v }}</div>
 <div class="col-xs-3 col-sm-2 col-md-1"><a href="{{ v }}/lukm{{ v }}.pdf">pdf</a></div>
 <div class="col-xs-6"><a href="{{ v }}/lukm{{ v }}r.pdf">pdf</a></div>

@@ -204,13 +204,9 @@ PostScript- (lyh. ps) että LaTeX/TeX-muodossa gtar-paketissa (lyh.
 tgz). Tulossarakkeen mahdolliset linkit ovat tulostaulukoihin.
 
 
-<div>
-<style scoped>
-  .kilpailut > div > p { display: inline }
-</style>
-
+<div class="list-group">
 {% for k in page.kilpailut %}
-<div class="row kilpailut">
+<div class="row list-group-item">
 <div class="col-xs-1 col-md-1">{% if k['vuosi'] != null %}{{ k['vuosi'] | markdownify }}{% endif %}</div>
 <div class="col-xs-2 col-md-2">{% if k['paikka'] != null %}{{ k['paikka'] | markdownify }}{% endif %}</div>
 <div class="col-xs-2 col-md-1">{% if k['sijoitus'] != null %}{{ k['sijoitus'] | markdownify }}{% endif %}</div>
