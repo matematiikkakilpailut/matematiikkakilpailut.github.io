@@ -77,8 +77,9 @@ ladattavissa yhtenä tiedostona pdf-muodossa. Vuodesta 1995 lähtien on
 tarjolla kunkin vuoden tehtäviä ja ratkaisuja sekä PostScript- (lyh.
 ps) että pdf-muodossa seuraavan taulukon mukaisesti.
 
+<div class="list-group">
 {% assign c = 'class="col-xs-3 col-sm-2 col-md-1"' %}
-<div class="row">
+<div class="row list-group-item">
 <div {{ c }}><strong>Vuosi</strong></div>
 <div {{ c }}><strong>Tehtävät</strong></div>
 <div {{ c }}><strong>Ratkaisut</strong></div>
@@ -86,7 +87,7 @@ ps) että pdf-muodossa seuraavan taulukon mukaisesti.
 </div>
 {% assign vt = "1995 1996 1997 1998 1999 2000 2001" | split: " " %}
 {% for v in vt %}
-<div class="row">
+<div class="row list-group-item">
 <div {{ c }}>{{ v }}</div>
 <div {{ c }}><a href="{{ v }}/PM{{ v }}.ps">ps</a> <a href="{{ v }}/PM{{ v }}.pdf">pdf</a></div>
 <div {{ c }}><a href="{{ v }}/PM{{ v }}r.ps">ps</a> <a href="{{ v }}/PM{{ v }}r.pdf">pdf</a></div>
@@ -94,12 +95,12 @@ ps) että pdf-muodossa seuraavan taulukon mukaisesti.
 {% endfor %}
 {% assign vt = "2002 2003 2004" | split: " " %}
 {% for v in vt %}
-<div class="row">
+<div class="row list-group-item">
 <div {{ c }}>{{ v }}</div>
 <div {{ c }}><a href="{{ v }}/PM{{ v }}.ps">ps</a> <a href="{{ v }}/PM{{ v }}.pdf">pdf</a></div>
 </div>
 {% endfor %}
-<div class="row">
+<div class="row list-group-item">
 <div {{ c }}>2005</div>
 <div {{ c }}><a href="2005/PM2005.ps">ps</a> <a href="2005/PM2005.pdf">pdf</a></div>
 <div {{ c }}></div>
@@ -107,7 +108,7 @@ ps) että pdf-muodossa seuraavan taulukon mukaisesti.
 </div>
 {% assign vt = "2006 2007 2008" | split: " " %}
 {% for v in vt %}
-<div class="row">
+<div class="row list-group-item">
 <div {{ c }}>{{ v }}</div>
 <div {{ c }}><a href="{{ v }}/PM{{ v }}.ps">ps</a> <a href="{{ v }}/PM{{ v }}.pdf">pdf</a></div>
 <div {{ c }}><a href="{{ v }}/PM{{ v }}r.pdf">pdf</a></div>
@@ -115,10 +116,11 @@ ps) että pdf-muodossa seuraavan taulukon mukaisesti.
 </div>
 {% endfor %}
 {% for k in page.kilpailut %}
-<div class="row">
+<div class="row list-group-item">
 <div {{ c }}>{{ k['vuosi'] }}</div>
 <div {{ c }}><a href="{{ k['tehtavat'] }}">pdf</a></div>
 <div {{ c }}><a href="{{ k['ratkaisut'] }}">pdf</a></div>
 <div {{ c }}>{% if k['tulokset'] != null %}<a href="{{ k['tulokset'] }}">pdf</a>{% endif %}</div>
 </div>
 {% endfor %}
+</div>

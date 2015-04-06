@@ -5,7 +5,7 @@ url: /aikataulu/
 aikataulu:
   - pvm: "2014"
     tapahtuma: "Syksy"
-    luokka: vuodenaika
+    otsikko: true
   - pvm: "5.–7.9. (viikko 36)"
     tapahtuma: >-
       Valmennus&shy;viikonvaihde Päivölässä.
@@ -24,7 +24,7 @@ aikataulu:
     tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä."
   - pvm: "2015"
     tapahtuma: "Kevät ja kesä"
-    luokka: vuodenaika
+    otsikko: true
   - pvm: "9.–11.1. (viikko 2)"
     tapahtuma: |
       Valmennus&shy;viikonvaihde Päivölässä. Alakerran ohjelmassa lukuteoriaa
@@ -76,32 +76,17 @@ aikataulu:
       Chiang Maissa Thaimaassa.
   - pvm: "2016"
     tapahtuma: "Kevät ja kesä"
-    luokka: vuodenaika
+    otsikko: true
   - pvm: "6.–16.7."
     tapahtuma: |
       [57. Kansainväliset matematiikka&shy;olympialaiset](http://www.imohkc.org.hk/)
       Hongkongissa.
 ---
-<div class="row">
-<style scoped>
-.vuodenaika > div {
-    background: silver;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    margin-top: 6px;
-    margin-bottom: 6px;
-}
-.col-sm-9 > p, .col-sm-3 > p {
-    display: inline;
-}
-</style>
-
+<div class="list-group">
 {% for a in page.aikataulu %}
-{% if a['luokka'] != null %}<div class="{{ a['luokka'] }}">{% endif %}
+{% if a['otsikko'] %}<div class="list-group-item-info row">{% else %}<div class="list-group-item row">{% endif %}
 <div class="col-sm-3">{{ a['pvm'] | markdownify }}</div>
 <div class="col-sm-9">{{ a['tapahtuma'] | markdownify }}</div>
-{% if a['luokka'] != null %}</div>{% endif %}
+</div>
 {% endfor %}
 </div>
-
-
