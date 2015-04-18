@@ -85,7 +85,7 @@ Materiaaliin kuuluu myös [tehtäväkokoelmia](#tehtavat) ja [muuta](#muita).
 	henkilönnimiin. Kilpailuissa näihin viittaamiseksi riittää, kun kertoo kyseisen nimen.
 	Ylioppilastutkinnossa tilanne on toinen, sillä perimätiedon mukaan esimerkiksi
 	Heronin kaavan käyttöä ei hyväksytä, ellei samalla johda kaavaa.
-	Johto löytyy sekin täältä. (Kokosi Matti Lehtinen; syyskuussa 2013 laajennettu versio.)
+	Johto löytyy sekin täältä. (Kokosi Matti Lehtinen; huhtikuussa 2015 päivitetty versio.)
 *   [Pickin lause ja kaava](/kirjallisuus/pick.pdf)
     Monikulmion alan laskeminen, kun kaikki kärkipisteet ovat hilapisteitä. Kirjoittaja Matti Lehtinen.
 *   [Avaruusgeometrian kysymyksiä](/kirjallisuus/avgeom.pdf)
