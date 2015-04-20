@@ -36,6 +36,7 @@ kilpailut:
   - vuosi: 2015
     tehtavat: "2015/NMC2015suom.pdf"
     ratkaisut: "2015/NMC2015ratk.pdf"
+    tulokset: "2015/NMC2015_Results.pdf"
 ---
 ## Pohjoismainen matematiikka&shy;kilpailu
 
