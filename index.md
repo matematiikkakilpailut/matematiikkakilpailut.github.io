@@ -61,6 +61,7 @@ kysymyksistä löytyy lisätietoa [täältä](kaytanto).
 
 ## <a name="uutisia"></a>Uutisia
 
+* 29. Pohjoismainen matematiikkakilpailu pidettiin 24. maaliskuuta 2015 kotirataotteluna kilpailijoiden kouluissa. Osallistujia oli yhteens&auml; 85 kaikista Pohjoismaista. Teht&auml;v&auml;t osoittautuivat suhteellisen helpoiksi, ja t&auml;ysiin pisteisiin ylsi kuusi kilpailijaa, kolme Ruotsista, kaksi Islannista ja yksi Tanskasta. Paras suomalainen oli **Kalle Luopaj&auml;rvi** jaetulla 12. sijalla.  
 * Lukion matematiikka&shy;kilpailun loppukilpailu pidettiin 30.1.2015
   Ressun lukiossa Helsingissä. Kilpailun voitti **Ella Tamir**
   Helsingin matematiikka&shy;lukiosta ja toisen sijan jakoivat **Ella
