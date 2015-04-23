@@ -30,15 +30,12 @@ mukana ovat lähettäjän yhteystiedot!
 
 Huhtikuun 2015 [valmennusteht&auml;v&auml;t](2015/vt2015_4.pdf).
 
-Helmikuun 2015 [helpommat](2015/vt2015_2h.pdf) ja
-[vaativammat](2015/vt2015_2v.pdf) valmennustehtävät. Tehtävissä
-käsitellään helmikuun valmennusviikonvaihteessa esillä olleita
-teemoja.
-– Helmikuun valmennusviikonlopun aikana jaetussa helpompien
-tehtävien monisteessa oli tehtävissä 3 ja 5 virheitä. Ne on korjattu
-edellisen linkin alta löytyvään tiedostoon.
 
-### Vanhempia tehtäväsarjoja ja ratkaisuita
+
+### Vanhempia tehtäväsarjoja ja ratkaisuja
+
+Helmikuun 2015 [helpommat](2015/vt2015_2h.pdf) ja
+[vaativammat](2015/vt2015_2v.pdf) valmennustehtävät. [Helpompien](2015/vt2015hrat.pdf) ja [vaativampien](2015/vt2015vrat.pdf) ratkaisuja. 
 
 Tammikuun 2015 [valmennustehtävät](2015/2015-tammikuu-lukio.pdf).
 
