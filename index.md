@@ -61,7 +61,7 @@ kysymyksistä löytyy lisätietoa [täältä](kaytanto).
 
 ## <a name="uutisia"></a>Uutisia
 
-* 29. Pohjoismainen matematiikkakilpailu pidettiin 24.
+* Vuoden 2015 Pohjoismainen matematiikkakilpailu pidettiin 24.
   maaliskuuta 2015 kotirataotteluna kilpailijoiden kouluissa.
  Osallistujia oli yhteens&auml; 85 kaikista Pohjoismaista.
  Teht&auml;v&auml;t osoittautuivat suhteellisen helpoiksi, ja
