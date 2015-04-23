@@ -134,7 +134,7 @@ Vanhempia uutisia löytyy [uutisarkistosta](vanhaset.html).
 [Kappa]: http://www.math.su.se/samverkan/kommun-skola/tävlingar/kappa
 [imo-tulokset]: http://www.imo-official.org/year_info.aspx?year=2014
 [egmo-tulokset]: https://www.egmo.org/egmos/egmo3/scoreboard/
-[EGMO-tulokset-minsk]:https://www.egmo.org/egmos/egmo4/scoreboard/
+[EGMO-tulokset-minsk]: https://www.egmo.org/egmos/egmo4/scoreboard/
 
 ## <a name="muut-aktiviteetit"></a>Muut aktiviteetit
 
