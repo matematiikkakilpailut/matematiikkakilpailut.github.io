@@ -65,7 +65,7 @@ kysymyksistä löytyy lisätietoa [täältä](kaytanto).
 j�rjestettiin 14.&ndash;20. huhtikuuta Minskiss�. Kilpailijoita
  oli 109 kaikkiaan 30 maasta. Suomea edustivat **Ella Tamir**,
  **Ella Anttila** ja **Tara Vaittinen**. 
-[Tulosluettelo](https://www.egmo.org/egmos/egmo4/scoreboard/).
+[Tulosluettelo][EGMO-tulokset-minsk].
 * Vuoden 2015   Pohjoismainen matematiikkakilpailu pidettiin 24.
   maaliskuuta 2015 kotirataotteluna kilpailijoiden kouluissa.
  Osallistujia oli yhteens&auml; 85 kaikista Pohjoismaista.
@@ -134,7 +134,7 @@ Vanhempia uutisia löytyy [uutisarkistosta](vanhaset.html).
 [Kappa]: http://www.math.su.se/samverkan/kommun-skola/tävlingar/kappa
 [imo-tulokset]: http://www.imo-official.org/year_info.aspx?year=2014
 [egmo-tulokset]: https://www.egmo.org/egmos/egmo3/scoreboard/
-
+[EGMO-tulokset-minsk]:https://www.egmo.org/egmos/egmo4/scoreboard/
 
 ## <a name="muut-aktiviteetit"></a>Muut aktiviteetit
 
