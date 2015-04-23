@@ -61,8 +61,8 @@ kysymyksistÃ¤ lÃ¶ytyy lisÃ¤tietoa [tÃ¤Ã¤ltÃ¤](kaytanto).
 
 ## <a name="uutisia"></a>Uutisia
 
-* Neljännet Euroopan Tyttöjen Matematiikkaolympialaiset 
-järjestettiin 14.&ndash;20. huhtikuuta Minskissä. Kilpailijoita
+* Nelj&auml;nnet Euroopan Tytt&ouml;jen Matematiikkaolympialaiset 
+j&auml;rjestettiin 14.&ndash;20. huhtikuuta Minskiss&auml;. Kilpailijoita
  oli 109 kaikkiaan 30 maasta. Suomea edustivat **Ella Tamir**,
  **Ella Anttila** ja **Tara Vaittinen**. 
 [Tulosluettelo][EGMO-tulokset-minsk].
