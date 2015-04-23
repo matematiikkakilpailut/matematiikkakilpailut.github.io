@@ -62,7 +62,10 @@ kysymyksist√§ l√∂ytyy lis√§tietoa [t√§√§lt√§](kaytanto).
 ## <a name="uutisia"></a>Uutisia
 
 * Nelj‰nnet Euroopan Tyttˆjen Matematiikkaolympialaiset 
-j‰rjestettiin 14.&ndash;20. huhtikuuta Minskiss‰. Kilpailijoita oli 109 kaikkiaan 30 maasta. Suomea edustivat **Ella Tamir**, **Ella Anttila** ja **Tara Vaittinen**. [Tulosluettelo](https://www.egmo.org/egmos/egmo4/scoreboard/).
+j‰rjestettiin 14.&ndash;20. huhtikuuta Minskiss‰. Kilpailijoita
+ oli 109 kaikkiaan 30 maasta. Suomea edustivat **Ella Tamir**,
+ **Ella Anttila** ja **Tara Vaittinen**. 
+[Tulosluettelo](https://www.egmo.org/egmos/egmo4/scoreboard/).
 * Vuoden 2015   Pohjoismainen matematiikkakilpailu pidettiin 24.
   maaliskuuta 2015 kotirataotteluna kilpailijoiden kouluissa.
  Osallistujia oli yhteens&auml; 85 kaikista Pohjoismaista.
