@@ -35,7 +35,7 @@ Huhtikuun 2015 [valmennusteht&auml;v&auml;t](2015/vt2015_4.pdf).
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
 
 Helmikuun 2015 [helpommat](2015/vt2015_2h.pdf) ja
-[vaativammat](2015/vt2015_2v.pdf) valmennustehtävät. [Helpompien](2015/vt2015_2hrat.pdf) ja [vaativampien](2015/vt2015_2vrat.pdf) ratkaisuja. 
+[vaativammat](2015/vt2015_2v.pdf) valmennustehtävät. [Helpompien](2015/vt2015_2hrat.pdf) ja [vaativampien](2015/vt2015_2vrat.pdf) teht&auml;vien ratkaisuja. 
 
 Tammikuun 2015 [valmennustehtävät](2015/2015-tammikuu-lukio.pdf).
 
@@ -58,7 +58,7 @@ Toukokuun 2014 [valmennustehtävät](2014/vt2014_5.pdf) ja niiden
 
 Huhtikuun 2014 [valmennustehtävät](2014/vt2014_4.pdf). Tehtävään 9 oli
 päässyt merkkivirhe, joka tähän versioon on korjattu.
-[Ratkaisuita](2014/vt2014_4r.pdf).
+[Ratkaisuja](2014/vt2014_4r.pdf).
 
 Helmikuun 2014
 [helpommat ja vaativammat valmennustehtävät](2014/vt2014_2.pdf).
