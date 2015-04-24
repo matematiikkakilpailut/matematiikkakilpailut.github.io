@@ -4563,3 +4563,286 @@ url: /Baltian_tie/
 	<td>28</td></tr>
 
 </table>
+### <a name="2013"></a>Riika 2013
+
+
+
+<table border="1">
+<tr>
+        <td style="width: 8%"><strong>Sijoitus</strong></td>
+        <td style="width: 10%"><strong>Maa</strong></td>
+        <th colspan="5" style="width: 18%">Algebra</th>
+        <th colspan="5" style="width: 18%">Kombinatoriikka</th>
+        <th colspan="5" style="width: 18%">Geometria</th>
+        <th colspan="5" style="width: 18%">Lukuteoria</th>
+        <td style="width: 10%"><strong>Yhteensä</strong></td>
+</tr>
+
+<tr>
+        <td>1.</td>
+	<td>Latvia</td>
+	<td>5</td>
+	<td>1</td>
+	<td>0</td>
+	<td>5</td>
+	<td>0</td>
+	<td>5</td>
+	<td>5</td>
+	<td>1</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>4</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>4</td>
+	<td>5</td>
+	<td>5</td>
+	<td>2</td>
+	<td>77</td></tr>
+<tr>
+        <td>2.</td>
+	<td>Pietari</td>
+	<td>5</td>
+	<td>2</td>
+	<td>0</td>
+	<td>5</td>
+	<td>0</td>
+	<td>5</td>
+	<td>5</td>
+	<td>1</td>
+	<td>5</td>
+	<td>2</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>4</td>
+	<td>5</td>
+	<td>2</td>
+	<td>76</td></tr>
+<tr>
+        <td>3.</td>
+	<td>Puola</td>
+	<td>5</td>
+	<td>5</td>
+	<td>2</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>0</td>
+	<td>4</td>
+	<td>4</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>0</td>
+	<td>2</td>
+	<td>4</td>
+	<td>5</td>
+	<td>5</td>
+	<td>0</td>
+	<td>76</td></tr>
+<tr>
+        <td>3.</td>
+	<td>Liettua</td>
+	<td>5</td>
+	<td>1</td>
+	<td>0</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>1</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>3</td>
+	<td>3</td>
+	<td>5</td>
+	<td>5</td>
+	<td>0</td>
+	<td>5</td>
+	<td>1</td>
+	<td>5</td>
+	<td>2</td>
+	<td>71</td></tr>
+<tr>
+        <td>5.</td>
+	<td>Saksa</td>
+	<td>5</td>
+	<td>2</td>
+	<td>1</td>
+	<td>5</td>
+	<td>0</td>
+	<td>5</td>
+	<td>5</td>
+	<td>0</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>3</td>
+	<td>4</td>
+	<td>5</td>
+	<td>0</td>
+	<td>1</td>
+	<td>5</td>
+	<td>4</td>
+	<td>5</td>
+	<td>0</td>
+	<td>65</td></tr>
+<tr>
+        <td>6.</td>
+	<td><em>Ruotsi</em></td>
+	<td>5</td>
+	<td>2</td>
+	<td>0</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>0</td>
+	<td>0</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>0</td>
+	<td>5</td>
+	<td>2</td>
+	<td>0</td>
+	<td>5</td>
+	<td>0</td>
+	<td>64</td></tr>
+<tr>
+        <td>7.</td>
+	<td>Viro</td>
+	<td>5</td>
+	<td>1</td>
+	<td>0</td>
+	<td>0</td>
+	<td>4</td>
+	<td>5</td>
+	<td>5</td>
+	<td>0</td>
+	<td>4</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>2</td>
+	<td>4</td>
+	<td>1</td>
+	<td>1</td>
+<td>1</td>
+	<td>2</td>
+	<td>5</td>
+	<td>1</td>
+	<td>56</td></tr>
+<tr>
+        <td>8.</td>
+	<td>Tanska</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>5</td>
+<td>4</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>0</td>
+<td>3</td>
+<td>5</td>
+<td>0</td>
+<td>4</td>
+<td>5</td>
+<td>0</td>
+<td>2</td>
+<td>4</td>
+<td>0</td>
+<td>5</td>
+<td>0</td>
+	<td>38</td></tr>
+<tr>
+        <td>9.</td>
+	<td>Islanti</td>
+	<td>2</td>
+	<td>1</td>
+	<td>0</td>
+	<td>5</td>
+	<td>0</td>
+	<td>0</td>
+	<td>1</td>
+	<td>0</td>
+	<td>0</td>
+	<td>1</td>
+	<td>5</td>
+	<td>5</td>
+	<td>1</td>
+	<td>5</td>
+	<td>2</td>
+	<td>1</td>
+	<td>1</td>
+	<td>0</td>
+	<td>5</td>
+	<td>0</td>
+	<td>35</td></tr>
+<tr>
+        <td>9.</td>
+	<td>Norja</td>
+	<td>5</td>
+	<td>3</td>
+	<td>1</td>
+	<td>1</td>
+	<td>0</td>
+	<td>5</td>
+	<td>5</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>3</td>
+	<td>0</td>
+	<td>0</td>
+	<td>2</td>
+	<td>1</td>
+	<td>3</td>
+	<td>5</td>
+	<td>1</td>
+	<td>35</td></tr>
+
+<tr>
+        <td>11.</td>
+	<td>Suomi</td>
+	<td>4</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>2</td>
+	<td>0</td>
+	<td>1</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>4</td>
+	<td>4</td>
+	<td>0</td>
+	<td>1</td>
+	<td>2</td>
+	<td>0</td>
+	<td>5</td>
+	<td>0</td>
+	<td>23</td></tr>
+
+</table>
+
