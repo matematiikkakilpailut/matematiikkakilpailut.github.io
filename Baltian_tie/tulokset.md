@@ -4563,7 +4563,8 @@ url: /Baltian_tie/
 	<td>28</td></tr>
 
 </table>
-### <a name="2013"></a>Riika 2013
+
+###<a name="2013"></a>Riika 2013
 
 
 
@@ -4700,7 +4701,7 @@ url: /Baltian_tie/
 	<td>65</td></tr>
 <tr>
         <td>6.</td>
-	<td><em>Ruotsi</em></td>
+	<td>Ruotsi</td>
 	<td>5</td>
 	<td>2</td>
 	<td>0</td>
@@ -4821,7 +4822,7 @@ url: /Baltian_tie/
 
 <tr>
         <td>11.</td>
-	<td>Suomi</td>
+	<td><em>Suomi</em></td>
 	<td>4</td>
 	<td>0</td>
 	<td>0</td>
