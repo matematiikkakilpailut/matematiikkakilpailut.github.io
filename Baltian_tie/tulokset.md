@@ -4847,3 +4847,324 @@ url: /Baltian_tie/
 
 </table>
 
+###<a name="2014"></a>Vilna 2014
+
+<table border="1">
+<tr>
+        <td style="width: 8%"><strong>Sijoitus</strong></td>
+        <td style="width: 10%"><strong>Maa</strong></td>
+        <th colspan="5" style="width: 18%">Algebra</th>
+        <th colspan="5" style="width: 18%">Kombinatoriikka</th>
+        <th colspan="5" style="width: 18%">Geometria</th>
+        <th colspan="5" style="width: 18%">Lukuteoria</th>
+        <td style="width: 10%"><strong>Yhteens√§</strong></td>
+</tr>
+
+<tr>
+        <td>1.</td>
+	<td>Pietari</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>4</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>0</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>2</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>0</td>
+	<td>5</td>
+	<td>5</td>
+	<td>86</td></tr>
+
+<tr>
+        <td>2.</td>
+	<td>Saksa</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>4</td>
+	<td>5</td>
+	<td>0</td>
+	<td>5</td>
+	<td>4</td>
+	<td>5</td>
+	<td>0</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>1</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>1</td>
+	<td>5</td>
+	<td>0</td>
+	<td>75</td></tr>
+
+<tr>
+        <td>3.</td>
+	<td>Puola</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>4</td>
+	<td>5</td>
+	<td>0</td>
+	<td>5</td>
+	<td>0</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>0</td>
+	<td>0</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>0</td>
+	<td>74</td></tr>
+
+<tr>
+        <td>4.</td>
+	<td>Liettua</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>3</td>
+	<td>5</td>
+	<td>0</td>
+	<td>0</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>0</td>
+	<td>5</td>
+	<td>5</td>
+	<td>0</td>
+	<td>5</td>
+	<td>0</td>
+	<td>73</td></tr>
+
+<tr>
+        <td>5.</td>
+	<td>Ruotsi</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>2</td>
+	<td>5</td>
+	<td>5</td>
+	<td>4</td>
+	<td>4</td>
+	<td>0</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>0</td>
+	<td>0</td>
+	<td>5</td>
+	<td>4</td>
+	<td>1</td>
+	<td>5</td>
+	<td>0</td>
+	<td>70</td></tr>
+
+<tr>
+        <td>6.</td>
+	<td>Valko-Ven‰j‰</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>4</td>
+	<td>5</td>
+	<td>1</td>
+	<td>5</td>
+	<td>0</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>0</td>
+	<td>0</td>
+	<td>1</td>
+	<td>4</td>
+	<td>2</td>
+	<td>2</td>
+	<td>0</td>
+	<td>64</td></tr>
+
+<tr>
+        <td>7.</td>
+	<td>Islanti</td>
+	<td>5</td>
+	<td>1</td>
+	<td>5</td>
+	<td>1</td>
+	<td>0</td>
+	<td>5</td>
+	<td>4</td>
+	<td>0</td>
+	<td>3</td>
+	<td>0</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>0</td>
+	<td>0</td>
+	<td>5</td>
+	<td>1</td>
+	<td>0</td>
+	<td>5</td>
+	<td>0</td>
+	<td>50</td></tr>
+
+<tr>
+        <td>8.</td>
+	<td>Latvia</td>
+	<td>0</td>
+	<td>5</td>
+	<td>0</td>
+	<td>0</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>5</td>
+	<td>0</td>
+	<td>0</td>
+	<td>5</td>
+	<td>5</td>
+	<td>0</td>
+	<td>0</td>
+	<td>1</td>
+	<td>1</td>
+	<td>0</td>
+	<td>5</td>
+	<td>0</td>
+	<td>47</td></tr>
+
+<tr>
+        <td>9.</td>
+	<td>Norja</td>
+	<td>5</td>
+	<td>5</td>
+	<td>0</td>
+	<td>5</td>
+	<td>0</td>
+	<td>5</td>
+	<td>5</td>
+	<td>4</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>5</td>
+	<td>0</td>
+	<td>0</td>
+	<td>5</td>
+	<td>2</td>
+	<td>0</td>
+	<td>5</td>
+	<td>0</td>
+	<td>46</td></tr>
+
+<tr>
+        <td>10.</td>
+	<td>Viro</td>
+	<td>1</td>
+	<td>5</td>
+	<td>0</td>
+	<td>0</td>
+	<td>1</td>
+	<td>5</td>
+	<td>4</td>
+	<td>3</td>
+	<td>5</td>
+	<td>0</td>
+	<td>0</td>
+	<td>5</td>
+	<td>1</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>5</td>
+	<td>0</td>
+	<td>5</td>
+	<td>0</td>
+	<td>40</td></tr>
+
+<tr>
+        <td>11.</td>
+	<td><em>Suomi</em></td>
+	<td>0</td>
+	<td>5</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>5</td>
+	<td>0</td>
+	<td>5</td>
+	<td>3</td>
+	<td>0</td>
+	<td>1</td>
+	<td>5</td>
+	<td>5</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>29</td></tr>
+
+<tr>
+        <td>12.</td>
+	<td>Tanska</td>
+	<td>0</td>
+	<td>5</td>
+	<td>0</td>
+	<td>1</td>
+	<td>0</td>
+	<td>4</td>
+	<td>5</td>
+	<td>5</td>
+	<td>0</td>
+	<td>0</td>
+	<td>5</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>25</td></tr>
+
+</table>
+
+</table>
+
+</table>
+
+
+</table>
