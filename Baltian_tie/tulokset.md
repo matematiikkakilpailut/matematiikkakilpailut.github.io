@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Baltian tien tulokset 1997 - 2012
+title: Baltian tien tulokset 1997 - 2014
 url: /Baltian_tie/
 ---
 ## Joukkuekilpailu [Baltian tien](/Baltian_tie/) tulokset 1997 - 2014
