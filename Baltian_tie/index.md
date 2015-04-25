@@ -224,7 +224,7 @@ tgz). Tulossarakkeen mahdolliset linkit ovat tulostaulukoihin.
 Vuonna 2014 Suomi oli 11. Kilpailun voitti Pietari, seuraavina olivat Saksa ja Puola.  
 
 Aikaisempien kilpailujen tuloksia löytyy yllä olevan taulukon linkeistä.
-Vuosien 1997–2013 kilpailujen maa- ja tehtäväkohtaiset pisteet löytyvät myös oheisesta
+Vuosien 1997–2014 kilpailujen maa- ja tehtäväkohtaiset pisteet löytyvät myös oheisesta
 [tuloskoosteesta](tulokset.html).
 
 ### Joukkue
