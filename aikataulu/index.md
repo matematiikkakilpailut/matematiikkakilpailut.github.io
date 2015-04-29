@@ -3,26 +3,7 @@ layout: page
 title: Aikataulu
 url: /aikataulu/
 aikataulu:
-  - pvm: "2014"
-    tapahtuma: "Syksy"
-    otsikko: true
-  - pvm: "5.–7.9. (viikko 36)"
-    tapahtuma: >-
-      Valmennus&shy;viikonvaihde Päivölässä.
-      Ohjelmassa aloitteleville kilpailu&shy;matematiikan yleis&shy;esittelyä, pikku testi ja
-      algebran perusteita, edistyneemmille kombinatoriikkaa, geometriaa ja lukuteoriaa
-      sekä syksyn Baltian Tie -kilpailun joukkueen valintaan tähtäävä koe.
-  - pvm: "17.–19.10. (viikko 42)"
-    tapahtuma: "Valmennusviikonvaihde Päivölässä."
-  - pvm: "5.11."
-    tapahtuma: "MAOL:n Peruskoulun matematiikka&shy;kilpailun alku&shy;kilpailu kouluissa."
-  - pvm: "6.–10.11."
-    tapahtuma: "[Baltian Tie -kilpailu](http://mif.vu.lt/balticway2014/) Vilnassa Liettuassa"
-  - pvm: "11.11.   "
-    tapahtuma: "MAOL:n Lukion matematiikka&shy;kilpailun alku&shy;kilpailu kouluissa."
-  - pvm: "28.–30.11. (viikko 48)   "
-    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä."
-  - pvm: "2015"
+    - pvm: "2015"
     tapahtuma: "Kevät ja kesä"
     otsikko: true
   - pvm: "9.–11.1. (viikko 2)"
