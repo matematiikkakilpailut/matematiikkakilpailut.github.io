@@ -74,10 +74,7 @@ aikataulu:
     tapahtuma: |
       [56. Kansainväliset matematiikka&shy;olympialaiset](http://www.imo2015.org/)
       Chiang Maissa Thaimaassa.
- - pvm: "5.–11.11."
-    tapahtuma: |
-      Baltian Tie -joukkuematematiikkakilpailu Ruotsissa.
- - pvm: "2016"
+  - pvm: "2016"
     tapahtuma: "Kevät ja kesä"
     otsikko: true
   - pvm: "6.–16.7."
