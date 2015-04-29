@@ -6,12 +6,6 @@ aikataulu:
   - pvm: "2014"
     tapahtuma: "Syksy"
     otsikko: true
-  - pvm: "5.–7.9. (viikko 36)"
-    tapahtuma: >-
-      Valmennus&shy;viikonvaihde Päivölässä.
-      Ohjelmassa aloitteleville kilpailu&shy;matematiikan yleis&shy;esittelyä, pikku testi ja
-      algebran perusteita, edistyneemmille kombinatoriikkaa, geometriaa ja lukuteoriaa
-      sekä syksyn Baltian Tie -kilpailun joukkueen valintaan tähtäävä koe.
   - pvm: "17.–19.10. (viikko 42)"
     tapahtuma: "Valmennusviikonvaihde Päivölässä."
   - pvm: "5.11."
