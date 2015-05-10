@@ -12,7 +12,7 @@ lisäksi osallistujille järjestetään matematiikkapitoista ohjelmaa.
 Ensimmäinen Pythagoraan polku -kilpailu järjestettiin Päivölän
 kansanopistossa 16.-18.4.2004.
 
-[Vuoden 2015 Pythagoraan polku](Pythagoras_kutsu_2015.pdf) -kilpailu järjestetään Päivölän Opistossa 17.–19\. huhtikuuta 2015.
+[Vuoden 2015 Pythagoraan polku](Pythagoras_kutsu_2015.pdf) -kilpailu järjestettiin Päivölän Opistossa 17.–19\. huhtikuuta 2015.
 
 [Vuoden 2014 Pythagoraan polku](Pythagoras-kutsu-2014.pdf) -kilpailu järjestettiin Päivölän Opistossa 11.–13\. huhtikuuta 2014.
 
@@ -29,6 +29,8 @@ kansanopistossa 16.-18.4.2004.
 [Vuoden 2008 Pythagoraan polku](Pythagoras-kutsu-2008.pdf) -kilpailu järjestettiin Päivölän Opistossa 5.–6\. huhtikuuta 2008\. Kilpailemassa oli 14 joukkuetta.
 
 ### Pythagoraan polku -kilpailun tehtäviä
+
+[Vuoden 2015 Pythagoras-tehtävät ja ratkaisut](Pyth_2015.pdf).
 
 [Vuoden 2012 Pythagoras-tehtävät](pp2012_teht.pdf) ja niiden [ratkaisuja](pp2012_ratk.pdf).
 
