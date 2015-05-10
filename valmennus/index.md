@@ -28,12 +28,12 @@ mukana ovat lähettäjän yhteystiedot!
 
 ### Ajankohtaiset tehtävät
 
-Huhtikuun 2015 [valmennusteht&auml;v&auml;t](2015/vt2015_4.pdf).
-
+Toukokuun 2015 [valmenusteht&auml;v&auml;t](2015/vt2015_5.pdf).
 
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
 
+Huhtikuun 2015 [valmennusteht&auml;v&auml;t](2015/vt2015_4.pdf) ja niiden [ratkaisut](2015/vt2015_4ratk.pdf).
 Helmikuun 2015 [helpommat](2015/vt2015_2h.pdf) ja
 [vaativammat](2015/vt2015_2v.pdf) valmennustehtävät. [Helpompien](2015/vt2015_2hrat.pdf) ja [vaativampien](2015/vt2015_2vrat.pdf) teht&auml;vien ratkaisuja. 
 
