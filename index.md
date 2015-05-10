@@ -61,18 +61,22 @@ kysymyksistä löytyy lisätietoa [täältä](kaytanto).
 
 ## <a name="uutisia"></a>Uutisia
 
+* Vuoden 2015 matematiikkaolympiajoukkueen valinta- ja valmennusviikko oli 3. &ndash; 8. toukokuuta P&auml;iv&ouml;l&auml; Opistossa Valkeakoskella. Olympiajoukkueeseen valittiin **Ella Anttila**, **Juuso Heinonen**, **Tuukka Korhonen**, **Iiro Kumpulainen**, **Kalle Luopaj&auml;rvi** ja **Ella Tamir**. Joukkueen johtaja on **Matti Lehtinen** ja varajohtaja **Joni Ter&auml;v&auml;inen.
+
 * Nelj&auml;nnet Euroopan Tytt&ouml;jen Matematiikkaolympialaiset 
 j&auml;rjestettiin 14.&ndash;20. huhtikuuta 2015 Minskiss&auml;. Kilpailijoita
  oli 109 kaikkiaan 30 maasta. Suomea edustivat **Ella Tamir**,
  **Ella Anttila** ja **Tara Vaittinen**. 
 [Tulosluettelo][EGMO-tulokset-minsk].
+
 * Vuoden 2015   Pohjoismainen matematiikkakilpailu pidettiin 24.
   maaliskuuta 2015 kotirataotteluna kilpailijoiden kouluissa.
  Osallistujia oli yhteens&auml; 85 kaikista Pohjoismaista.
  Teht&auml;v&auml;t osoittautuivat suhteellisen helpoiksi, ja
  t&auml;ysiin pisteisiin ylsi kuusi kilpailijaa, kolme Ruotsista,
  kaksi Islannista ja yksi Tanskasta. Paras suomalainen oli 
-**Kalle Luopaj&auml;rvi** jaetulla 12. sijalla.  
+**Kalle Luopaj&auml;rvi** jaetulla 12. sijalla.
+
 * Lukion matematiikka&shy;kilpailun loppukilpailu pidettiin 30.1.2015
   Ressun lukiossa Helsingissä. Kilpailun voitti **Ella Tamir**
   Helsingin matematiikka&shy;lukiosta ja toisen sijan jakoivat **Ella
@@ -112,20 +116,6 @@ j&auml;rjestettiin 14.&ndash;20. huhtikuuta 2015 Minskiss&auml;. Kilpailijoita
   Penttala sijalla 11, Jakob Wartiovaara sijalla 13 ja Riku Laakkonen
   sijalla 17.
 
-* Vuoden 2014 Kansainvälisissä matematiikka&shy;olympialaisissa Suomea
-  edustava joukkue valittiin Päivölän Opistossa viikolla 18 pidetyn
-  valmennus- ja valintaleirin aikana. Joukkueessa ovat Jere Huovinen,
-  Mirjam Kauppila, Riku Laakkonen, Timo Takala, Ella Tamir ja Jakob
-  Wartiovaara. Joukkueen johtaja on Matti Lehtinen ja varajohtaja Joni
-  Teräväinen.
-
-* Kolmannet Euroopan tyttöjen matematiikka&shy;olympialaiset pidettiin
-  Antalayassa Turkissa 10.&ndash;16. huhtikuuta 2014. Osallistujia oli
-  110 29 maasta. Suomea edustivat Minna Hirvonen, Mirjam Kauppila,
-  Ella Tamir ja Tara Vaittinen. Mirjam Kauppilan suoritys palkittiin
-  pronssimitalilla. [Tulosluettelo][egmo-tulokset]. Joukkeen
-  johtaja oli Anne-Maria Ernvall-Hytönen ja varajohtaja Esa
-  Vesalainen.
 
 Vanhempia uutisia löytyy [uutisarkistosta](vanhaset.html).
 
