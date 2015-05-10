@@ -5,6 +5,21 @@ title: Uutisarkisto
 
 ## Vanhoja uutisia
 
+* Vuoden 2014 Kansainvälisissä matematiikka&shy;olympialaisissa Suomea
+  edustava joukkue valittiin Päivölän Opistossa viikolla 18 pidetyn
+  valmennus- ja valintaleirin aikana. Joukkueessa ovat Jere Huovinen,
+  Mirjam Kauppila, Riku Laakkonen, Timo Takala, Ella Tamir ja Jakob
+  Wartiovaara. Joukkueen johtaja on Matti Lehtinen ja varajohtaja Joni
+  Teräväinen.
+
+* Kolmannet Euroopan tyttöjen matematiikka&shy;olympialaiset pidettiin
+  Antalayassa Turkissa 10.&ndash;16. huhtikuuta 2014. Osallistujia oli
+  110 29 maasta. Suomea edustivat Minna Hirvonen, Mirjam Kauppila,
+  Ella Tamir ja Tara Vaittinen. Mirjam Kauppilan suoritys palkittiin
+  pronssimitalilla. [Tulosluettelo][egmo-tulokset]. Joukkeen
+  johtaja oli Anne-Maria Ernvall-Hytönen ja varajohtaja Esa
+  Vesalainen.
+
 *   Lukion matematiikka&shy;kilpailun ensimmäinen kierros järjestettiin kouluissa 12.11.2013 ja loppukilpailu 21:lle alkukilpailun kolmen sarjan parhaalle pidettiin 31.1.2014 Ressun Lukiossa Helsingissä. Kilpailun voitti **Jere Huovinen** Kastellin lukiosta Oulusta, toiseksi tuli **Jakob Wartiovaara** Töölön yhteiskoulusta Helsingistä ja kolmanneksi **Juuso Heinonen** Tapiolan lukiosta Espoosta. Tehtävät ja ratkaisut löytyvät [MAOL-kilpailusivun linkeistä](/MAOL/).
 *   Vuoden 2013 Baltian Tie -joukkue&shy;matematiikka&shy;kilpailu pidettiin Riiassa Latviassa 7.–11.11.2013\. Kilpailun voitti Latvia, toisen sijan jakoivat Puola ja Pietari. Suomi oli 11\. Suomen joukkueessa olivat Mirjam Kauppila, Timo Takala, Ella Tamir, Jakob Wartiovaara ja Pyry Virtanen. Joukkueen johtaja oli Olli Hirviniemi ja varajohtaja Jesse Jääsaari.
 *   54\. Kansainväliset matematiikka&shy;olympialaiset pidettiin Santa Martassa Kolumbiassa 18.–28\. heinäkuuta 2013\. Parhaiten menestyivät Kiinan, Korean tasavallan ja Yhdysvaltojen joukkueet. Suomen joukkue oli sijalla 67, toiseksi parhaana Pohjoismaana. Suomen Otte Heinävaara palkittiin toistamiseen hopeamitalilla. Kilpailun tulokset ja tehtävät löytyvät [matematiikka&shy;olympialaisten virallisilta sivuilta](http://www.imo-official.org/year_info.aspx?year=2013).
