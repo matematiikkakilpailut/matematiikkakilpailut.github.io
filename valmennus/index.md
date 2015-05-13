@@ -28,7 +28,7 @@ mukana ovat lähettäjän yhteystiedot!
 
 ### Ajankohtaiset tehtävät
 
-Toukokuun 2015 [valmenusteht&auml;v&auml;t](2015/vt2015_5.pdf).
+Toukokuun 2015 [valmenusteht&auml;v&auml;t](2015/vt2015_5.pdf). Teht&auml;v&auml;ss&auml; 5 ollut virhe on korjattu.
 
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
