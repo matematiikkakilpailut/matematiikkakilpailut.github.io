@@ -134,6 +134,7 @@ Materiaaliin kuuluu myös [tehtäväkokoelmia](#tehtavat) ja [muuta](#muita).
 *   [Lyhyt johdatus alkeelliseen lukuteoriaan](/kirjallisuus/laajalukuteoriamoniste.pdf)
     Helsingin matematiikkalukiossa kahdesti pidetyn lukuteoriakurssin materiaali.
 	Esa Vesalaisen kirjoittama.
+*   [Primitiivijuurista](/kirjallisuus/primitiivijuuret.pdf) Pieni täydennys lukuteorian alkeiden esityksiin. Matti Lehtisen kirjoittama.
 *   [Kilpailuhenkisiä lukuteoriatehtäviä ratkaisuvihjein](/kirjallisuus/kilpailulukuteoriaa.pdf)
     Monipuolinen valikoima lukuteoriatehtäviä Yu Hong-Bingin teoksesta
 	_Problems of Number Theory in Mathematical Competitions_ vihjein varustettuna.
