@@ -48,9 +48,9 @@ aikataulu:
       Matematiikka&shy;olympiajoukkueen valinta- ja valmennusleiri Päivölässä
       erikseen kutsutuille. Muut kuin kutsutut voivat osallistua
       omakustanteisesti.
-  - pvm: "9.-12.6"
+  - pvm: "9.&ndash;12.6"
     tapahtuma: |
-      Kes&auml;valmennusta Helsingin yliopistolla Kumpulan kampuksella Exactumissa 9.-12.6 klo. 9-16.
+      Kes&auml;valmennusta Helsingin yliopistolla Kumpulan kampuksella Exactumissa 9.&ndash;12.6 klo. 9&ndash;16.
   - pvm: "2.–7.7."
     tapahtuma: |
       Yhteispohjoismainen matematiikka&shy;olympia&shy;joukkueiden valmennusleiri Sorøssä Tanskassa.
