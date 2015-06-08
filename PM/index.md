@@ -73,7 +73,7 @@ _Matti Lehtinen: Matematiikan olympiakirja._ Näiden
 vuosien [tehtävät](nmct87_94.pdf) ja [ratkaisut](nmcr87_94.pdf) saa myös
 oheisista linkeistä.
 
-[Vuosien 1995–2014 tehtävät ja ratkaisut](nmckaikki.pdf) ovat
+[Vuosien 1995–2015 tehtävät ja ratkaisut](nmckaikki.pdf) ovat
 ladattavissa yhtenä tiedostona pdf-muodossa. Vuodesta 1995 lähtien on
 tarjolla kunkin vuoden tehtäviä ja ratkaisuja sekä PostScript- (lyh.
 ps) että pdf-muodossa seuraavan taulukon mukaisesti.
