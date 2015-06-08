@@ -158,7 +158,7 @@ Materiaaliin kuuluu myös [tehtäväkokoelmia](#tehtavat) ja [muuta](#muita).
 	Tehtäviin on myös [ratkaisut](/IMO/imor75_94.pdf).
 *   [Kansainvälisten matematiikka&shy;olympialaisten tehtävät vuosilta 1959 – 1974](/IMO/imot59_74.pdf).
 	Tehtäviin on myös [ratkaisut](/IMO/imor59_74.pdf).
-*   [Pohjoismaisten matematiikka&shy;kilpailujen tehtävät vuosilta 1995 – 2014](/PM/nmckaikki.pdf).
+*   [Pohjoismaisten matematiikka&shy;kilpailujen tehtävät vuosilta 1995 – 2015](/PM/nmckaikki.pdf).
 	Kooste sisältää myös ratkaisut.
 *   [Pohjoismaisten matematiikka&shy;kilpailujen tehtävät vuosilta 1987 – 1994](/PM/nmct87_94.pdf).
 	Tehtäviin on myös [ratkaisut](/PM/nmcr87_94.pdf).
