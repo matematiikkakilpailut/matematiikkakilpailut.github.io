@@ -189,8 +189,8 @@ vierailevan maan. Vuonna 2001 kutsuttiin Israel, 2004 Valko-Venäjä ja
 
 ### Tehtävät ja ratkaisut
 
-Kaikkien Baltian Tie -kilpailujen tehtävät (460 kappaletta!) vuosilta
-1990–2012 voi ladata yhtenä [pdf-tiedostona tästä](bwteht.pdf).
+Kaikkien Baltian Tie -kilpailujen tehtävät (480 kappaletta!) vuosilta
+1990–2013 voi ladata yhtenä [pdf-tiedostona tästä](bwteht.pdf).
 Ratkaisukokoelmat ovat tällä hetkellä saatavina
 [vuosien 1990–99](Btratk1990_99.pdf) ja
 [vuosien 2000–09](Btratk2000_09.pdf) kilpailutehtäviin.
