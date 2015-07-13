@@ -116,7 +116,13 @@ kilpailut:
     tehtavat: "[pdf](2014/IMOteht2014.pdf)"
     ratkaisut: "[pdf](2014/IMOratk2014.pdf)"
     muuta: "[tulosluettelo](https://www.imo-official.org/year_country_r.aspx?year=2014)"
----
+  - vuosi: "2015"
+    paikka: Chiang Mai, Thaimaa
+    sijoitus: " "
+    tehtavat: "[pdf](2015/teht2015.pdf)"
+    ratkaisut: "[pdf](2015/ratk2015.pdf)"
+    muuta: " "
+   - ---
 ## Kansainväliset matematiikkaolympialaiset
 
 ### Yleistä
