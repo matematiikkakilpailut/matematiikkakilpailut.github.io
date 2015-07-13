@@ -64,10 +64,10 @@ aikataulu:
   - pvm: "2016"
     tapahtuma: "Kevät ja kesä"
     otsikko: true
-- pvm: "5.4."
+  - pvm: "5.4."
     tapahtuma:|
      Pohjoismainen matematiikkakilpailu.
-- pvm: "6.–16.7."
+  - pvm: "6.–16.7."
     tapahtuma: |
       [57. Kansainväliset matematiikka&shy;olympialaiset](http://www.imohkc.org.hk/)
       Hongkongissa.
