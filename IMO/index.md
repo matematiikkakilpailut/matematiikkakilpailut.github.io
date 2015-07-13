@@ -123,7 +123,7 @@ kilpailut:
     ratkaisut: "[pdf](2015/ratk2015.pdf)"
     muuta: " "
    
----
+ ---
 ## Kansainväliset matematiikkaolympialaiset
 
 ### Yleistä
