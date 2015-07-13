@@ -122,9 +122,7 @@ kilpailut:
     tehtavat: "[pdf](2015/teht2015.pdf)"
     ratkaisut: "[pdf](2015/ratk2015.pdf)"
     muuta: " "
-
-
- ---
+---
 ## Kansainväliset matematiikkaolympialaiset
 
 ### Yleistä
