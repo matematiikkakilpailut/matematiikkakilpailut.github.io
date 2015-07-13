@@ -117,7 +117,7 @@ kilpailut:
     ratkaisut: "[pdf](2014/IMOratk2014.pdf)"
     muuta: "[tulosluettelo](https://www.imo-official.org/year_country_r.aspx?year=2014)"
   - vuosi: "2015"
-    paikka: Chiang Mai, Thaimaa
+    paikka: "[Chiang Mai, Thaimaa](http://www.imo2015.org/)"
     sijoitus: " "
     tehtavat: "[pdf](2015/teht2015.pdf)"
     ratkaisut: "[pdf](2015/ratk2015.pdf)"
