@@ -65,7 +65,7 @@ aikataulu:
     tapahtuma: "Kevät ja kesä"
     otsikko: true
   - pvm: "5.4."
-    tapahtuma:|
+    tapahtuma: |
      Pohjoismainen matematiikkakilpailu.
   - pvm: "6.–16.7."
     tapahtuma: |
