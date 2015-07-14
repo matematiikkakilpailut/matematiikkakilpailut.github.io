@@ -118,7 +118,7 @@ kilpailut:
     muuta: "[tulosluettelo](https://www.imo-official.org/year_country_r.aspx?year=2014)"
   - vuosi: "2015"
     paikka: "[Chiang Mai, Thaimaa](http://www.imo2015.org/)"
-    sijoitus: " "
+    sijoitus: "26 p. (82/104) "
     tehtavat: "[pdf](2015/teht2015.pdf)"
     ratkaisut: "[pdf](2015/ratk2015.pdf)"
     muuta: " "
@@ -233,12 +233,15 @@ Kangasniemi, Dimitri Kirichenko, Joni Teräväinen ja Felix Vaura. Olli
 Hirviniemi palkittiin hopeamitalilla ja Ilmari Kangasniemi, Dimitri
 Kirichenko sekä Felix Vaura kunniamaininnalla.
 
-{% endcomment %}
 
 Vuonna 2014 Suomea edustivat Jere Huovinen, Mirjam Kauppila, Riku
 Laakkonen, Timo Takala, Ella Tamir ja Jakob Wartiovaara. Jakob
 Wartiovaara palkittiin pronssimitalilla, Riku Laakkonen ja Timo Takala
 kunniamaininnalla.
+
+{% endcomment %}
+
+Vuonna 2015 Suomea edustivat Ella Anttila, Juuso Heinonen, Tuukka Korhonen, Iiro Kumpulainen, Kalle Luopajärvi ja Ella Tamir. Kalle Luopajärvi palkittiin kunniamaininnalla.
 
 ### Tuloksia
 
