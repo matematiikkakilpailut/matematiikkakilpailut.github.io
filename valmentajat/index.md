@@ -40,4 +40,4 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
 [kluosto]: http://www.helsinki.fi/%7Ekluosto/
 [jks]: http://www.iki.fi/jks/
 [ntvuok]: http://www.cis.hut.fi/ntvuok/
-[evvesala]: http://www.helsinki.fi/~evvesala/
+[evvesala]: http://esavesalainen.fi
