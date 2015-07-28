@@ -58,6 +58,7 @@ aikataulu:
     tapahtuma: |
       [56. Kansainväliset matematiikka&shy;olympialaiset](http://www.imo2015.org/)
       Chiang Maissa Thaimaassa.
+  - pvm: "2015"
     tapahtuma: "Syksy"
     otsikko: true
   - pvm: "4.–6.9. (viikko 36)"
