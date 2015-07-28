@@ -58,10 +58,19 @@ aikataulu:
     tapahtuma: |
       [56. Kansainväliset matematiikka&shy;olympialaiset](http://www.imo2015.org/)
       Chiang Maissa Thaimaassa.
+  - pvm: "4.–6.9. (viikko 36)"
+    tapahtuma: |
+      Valmennusviikonvaihde Päivölässä.
+  - pvm: "16.&ndash;18.10. (viikko 42)"
+    tapahtuma: |
+      Valmennusviikonvaihde Päivölässä.
   - pvm: "5.–11.11."
     tapahtuma: |
       Baltian Tie -joukkuematematiikkakilpailu Tukholmassa.
-  - pvm: "2016"
+  - pvm: "27.&ndash;29.11. (viikko 48)"
+    tapahtuma: |
+      Valmennusviikonvaihde Päivölässä.  
+- pvm: "2016"
     tapahtuma: "Kevät ja kesä"
     otsikko: true
   - pvm: "5.4."
