@@ -50,7 +50,7 @@ aikataulu:
       omakustanteisesti.
   - pvm: "9.&ndash;12.6"
     tapahtuma: |
-      Kes&auml;valmennusta Helsingin yliopistolla Kumpulan kampuksella Exactumissa (sali B321) 9.&ndash;12.6 klo. 9&ndash;16.
+      Kes&auml;valmennusta Helsingin yliopistolla Kumpulan kampuksella Exactumissa (sali B321) 9.&ndash;12.6 klo.     9&ndash;16.
   - pvm: "2.–7.7."
     tapahtuma: |
       Yhteispohjoismainen matematiikka&shy;olympia&shy;joukkueiden valmennusleiri Sorøssä Tanskassa.
