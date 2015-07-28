@@ -55,7 +55,7 @@ aikataulu:
     tapahtuma: |
       Yhteispohjoismainen matematiikka&shy;olympia&shy;joukkueiden valmennusleiri Sorøssä Tanskassa.
   - pvm: "8.–16.7."
-    tapahtuma: |
+    tapahtuma:  |
       [56. Kansainväliset matematiikka&shy;olympialaiset](http://www.imo2015.org/)
       Chiang Maissa Thaimaassa.
   - pvm: "2015"
