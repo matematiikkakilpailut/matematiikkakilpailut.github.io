@@ -91,4 +91,4 @@ FHSMC [problems and solutions](/valmennus/English/maolkilp2011_12eng.pdf), 2011�
 
 FHSMC [problems and solutions, 2012–14](/valmennus/English/maolkilp2012_14eng.pdf).
 
-FHSMC and NMC [problems and solutions, 2014;&ndash;15](/valmennus/English/maol2014_15engl.pdf).
+FHSMC and NMC [problems and solutions, 2014–15](/valmennus/English/maol2014_15engl.pdf).
