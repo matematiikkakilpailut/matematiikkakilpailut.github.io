@@ -174,6 +174,7 @@ Materiaaliin kuuluu myös [tehtäväkokoelmia](#tehtavat) ja [muuta](#muita).
     138 matematiikka&shy;olympialaisiin ehdolla ollutta tehtävää ryhmiteltyinä jaon
 	”algebra - geometria - kombinatoriikka - lukuteoria” mukaisesti. Tehtävät on toistaiseksi
 	esitetty ilman ratkaisuja.
+*   [Kappa-kilpailun tehtävät 2014](/Kappa/Kappa_14_teht.pdf) Ruotsin opettajien matematiikkakilpailun tehtävät.
 
 ### <a name="muita"></a>Muita
 
