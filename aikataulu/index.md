@@ -67,9 +67,9 @@ aikataulu:
   - pvm: "16.&ndash;18.10. (viikko 42)"
     tapahtuma: |
       Valmennusviikonvaihde Päivölässä.
-  - pvm: "5.–11.11."
+  - pvm: "5.–9.11."
     tapahtuma: |
-      Baltian Tie -joukkuematematiikkakilpailu Tukholmassa.
+      [Baltian Tie -joukkuematematiikkakilpailu](http://bw15.math.su.se/) Tukholmassa.
   - pvm: "27.&ndash;29.11. (viikko 48)"
     tapahtuma: |
       Valmennusviikonvaihde Päivölässä.  
