@@ -63,10 +63,10 @@ aikataulu:
     otsikko: true
   - pvm: "4.–6.9. (viikko 36)"
     tapahtuma: |
-      Valmennusviikonvaihde Päivölässä.
+      Valmennusviikonvaihde Päivölässä. Aiheet: geometria ja lukuteoria.
   - pvm: "16.&ndash;18.10. (viikko 42)"
     tapahtuma: |
-      Valmennusviikonvaihde Päivölässä.
+      Valmennusviikonvaihde Päivölässä. Aiheet: algebra, kombinatoriikka ja epäyhtälöt.
   - pvm: "5.–9.11."
     tapahtuma: |
       [Baltian Tie -joukkuematematiikkakilpailu](http://bw15.math.su.se/) Tukholmassa.
