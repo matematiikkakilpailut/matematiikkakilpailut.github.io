@@ -1,0 +1,23 @@
+---
+- title: Baltic Way 2016
+  url: /BW2016/
+- title: About
+  url: /BW2016/about/
+  sub:
+  - title: Location
+    url: /BW2016/location/
+  - title: Regulations
+    url: /BW2016/regulations/
+  - title: Participants
+    url: /BW2016/participants/
+  - title: Programme
+    url: /BW2016/programme/
+- title: Contest
+  url: /BW2016/contest/
+  sub:
+  - title: Problems
+    url: /BW2016/problems/
+  - title: Results
+    url: /BW2016/results/
+  - title: Photo gallery
+    url: /BW2016/photos/
