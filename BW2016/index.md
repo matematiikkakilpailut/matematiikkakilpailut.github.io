@@ -5,6 +5,7 @@ description: >-
   Baltic Way 2016 will be organized in Oulu, Finland
 url: /BW2016/
 nonav: true
+sitemap: false
 ---
 
 <div class="jumbotron"><div class="container">

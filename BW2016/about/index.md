@@ -3,6 +3,7 @@ layout: bw2016page
 title: About Baltic Way 2016
 description: >-
   Baltic Way is a math contest for teams around the Baltic Sea
+sitemap: false
 url: /BW2016/about/
 ---
 
