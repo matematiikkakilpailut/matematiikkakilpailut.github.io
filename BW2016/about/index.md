@@ -24,5 +24,5 @@ it again in 2016.
 
 ## Organizers
 
-[Training Division](/english/) of the Finnish Mathematical Society, in cooperation with the University of Oulu and the Oulu chapter of the Association of Teachers of Mathematical Subjects (MAOL).
+The 2016 Baltic Way contest will be organized by the [Training Division](/english/) of the Finnish Mathematical Society, in cooperation with the University of Oulu and the Oulu chapter of the Association of Teachers of Mathematical Subjects (MAOL).
 
