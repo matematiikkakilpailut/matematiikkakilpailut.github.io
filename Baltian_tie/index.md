@@ -152,7 +152,7 @@ kilpailut:
     paikka: "[Tart&shy;to](http://www.bw2012.ut.ee/)"
     sijoitus: "[53 (6.)](/Baltian_tie/2012/Bt2012res.pdf)"
     tehtavat: "[pdf](/Baltian_tie/2012/Bt2012teht.pdf)"
-    ratkaisut: "[tehtävät ja ratkaisut, pdf](/Baltian_tie/2012/Bt2012ratk.pdf], [eng&shy;lan&shy;niksi](http://www.bw2012.ut.ee/bw2012problems_solutions.pdf)"
+    ratkaisut: "[tehtävät ja ratkaisut, pdf](/Baltian_tie/2012/Bt2012ratk.pdf), [eng&shy;lan&shy;niksi](http://www.bw2012.ut.ee/bw2012problems_solutions.pdf)"
     joukkue: "Otte Heinävaara, Katja Kulmala, Neea Palojärvi, Eero Räty, Joni Teräväinen"
   - vuosi: "2013"
     paikka: "[Rii&shy;ka](http://www.bw2013.lu.lv)"
