@@ -28,7 +28,7 @@ mukana ovat lähettäjän yhteystiedot!
 
 ### Ajankohtaiset tehtävät
 
-Lokakuun 2015 [valmennusteh&auml;v&auml;t](2015/vt2015_10.pdf).
+Lokakuun 2015 [valmennusteht&auml;v&auml;t](2015/vt2015_10.pdf).
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
 
