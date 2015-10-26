@@ -33,7 +33,7 @@ aikataulu:
   - pvm: "2016"
     tapahtuma: "Kevät ja kesä"
     otsikko: true
-  - pvm: "22. &ndash; 23.1."
+  - pvm: "22.&ndash;23.1."
     tapahtuma: |
      Matemaattisten Aineiden Opettajien Lukion matematiikkakilpailun loppukilpailu.
   - pvm: "5.4."
