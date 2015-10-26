@@ -33,6 +33,9 @@ aikataulu:
   - pvm: "5.4."
     tapahtuma: |
      Pohjoismainen matematiikkakilpailu.
+  - pvm: "3. &ndash; 8.7"
+    tapahtuma: |
+     Matematiikkaolympiajooukkueiden yhteispohjoismainen valmennusleiri Tanskan Sorøssä.
   - pvm: "6.–16.7."
     tapahtuma: |
       [57. Kansainväliset matematiikka&shy;olympialaiset](http://www.imohkc.org.hk/)
