@@ -23,7 +23,7 @@ aikataulu:
       [vaderlind]: /kirjallisuus/vaderlind.pdf
   - pvm: "27.10."
     tapahtuma: | 
-     Matemaattisten aineiden opettajien liiton lukion matematiikkakilpailun ensimmäinen kierros kouluissa.
+     Matemaattisten Aineiden Opettajien Liiton Lukion matematiikkakilpailun ensimmäinen kierros kouluissa.
   - pvm: "5.–9.11."
     tapahtuma: |
       [Baltian Tie -joukkuematematiikkakilpailu](http://bw15.math.su.se/) Tukholmassa.
@@ -33,6 +33,8 @@ aikataulu:
   - pvm: "2016"
     tapahtuma: "Kevät ja kesä"
     otsikko: true
+  - pvm: "22. &ndash; 23.1.
+    tapahtuma | Matemaattisten Aineiden Opettajien Liiton Lukion matematiikkakilpailun loppukilpailu.
   - pvm: "5.4."
     tapahtuma: |
      Pohjoismainen matematiikkakilpailu.
