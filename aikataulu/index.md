@@ -21,9 +21,6 @@ aikataulu:
       [v2]: /valmennus/2015/2015-lokakuu-epayht-verryttely.pdf
       [kombmon]: http://wiki.helsinki.fi/pages/viewpage.action?pageId=163490394&amp;preview=/163490394/164463088/kombinatoriikka.pdf
       [vaderlind]: /kirjallisuus/vaderlind.pdf
-  - pvm: "27.10." 
-    tapahtuma: | 
-     Matemaattisten Aineiden Opettajien Liiton Lukion matematiikkakilpailun ensimmäinen kierros kouluissa.
   - pvm: "5.–9.11."
     tapahtuma: |
       [Baltian Tie -joukkuematematiikkakilpailu](http://bw15.math.su.se/) Tukholmassa.
@@ -33,14 +30,9 @@ aikataulu:
   - pvm: "2016"
     tapahtuma: "Kevät ja kesä"
     otsikko: true
-  - pvm: "22. &ndash; 23.1.
-    tapahtuma | Matemaattisten Aineiden Opettajien Liiton Lukion matematiikkakilpailun loppukilpailu.
   - pvm: "5.4."
     tapahtuma: |
      Pohjoismainen matematiikkakilpailu.
-  - pvm: "3. &ndash; 8.7."
-    tapahtuma: |
-     Matematiikkaolympiajoukkueiden pohjoismainen valmennusleiri Tanskan Sorøssä.
   - pvm: "6.–16.7."
     tapahtuma: |
       [57. Kansainväliset matematiikka&shy;olympialaiset](http://www.imohkc.org.hk/)
@@ -82,7 +74,7 @@ vanhoja: # eivät tule sivulle näkyviin
       [4. Euroopan tyttöjen matematiikka&shy;olympialaiset](https://www.egmo.org/egmos/egmo4/)
       Minskissä Valko-Venäjällä.
   - pvm: "17.–19.4. (viikko 16)"
-    tapahtuma: | 
+    tapahtuma: |
       Valmennusviikonvaihde ja [Pythagoraan Polku -kilpailu][pp] Päivölässä.
 
       [pp]: /pythagoras/Pythagoras_kutsu_2015.pdf
