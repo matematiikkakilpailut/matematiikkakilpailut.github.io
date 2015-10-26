@@ -82,7 +82,7 @@ vanhoja: # eivät tule sivulle näkyviin
       [4. Euroopan tyttöjen matematiikka&shy;olympialaiset](https://www.egmo.org/egmos/egmo4/)
       Minskissä Valko-Venäjällä.
   - pvm: "17.–19.4. (viikko 16)"
-    tapahtuma: |
+    tapahtuma: | 
       Valmennusviikonvaihde ja [Pythagoraan Polku -kilpailu][pp] Päivölässä.
 
       [pp]: /pythagoras/Pythagoras_kutsu_2015.pdf
