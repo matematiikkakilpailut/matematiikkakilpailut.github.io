@@ -21,6 +21,9 @@ aikataulu:
       [v2]: /valmennus/2015/2015-lokakuu-epayht-verryttely.pdf
       [kombmon]: http://wiki.helsinki.fi/pages/viewpage.action?pageId=163490394&amp;preview=/163490394/164463088/kombinatoriikka.pdf
       [vaderlind]: /kirjallisuus/vaderlind.pdf
+  - pvm: "27.10."
+    tapahtuma: | 
+     Matemaattisten aineiden opettajien liiton lukion matematiikkakilpailun ensimmäinen kierros kouluissa.
   - pvm: "5.–9.11."
     tapahtuma: |
       [Baltian Tie -joukkuematematiikkakilpailu](http://bw15.math.su.se/) Tukholmassa.
@@ -33,7 +36,7 @@ aikataulu:
   - pvm: "5.4."
     tapahtuma: |
      Pohjoismainen matematiikkakilpailu.
-  - pvm: "3. &ndash; 8.7"
+  - pvm: "3. &ndash; 8.7."
     tapahtuma: |
      Matematiikkaolympiajoukkueiden yhteispohjoismainen valmennusleiri Tanskan Sorøssä.
   - pvm: "6.–16.7."
