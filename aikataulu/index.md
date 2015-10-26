@@ -41,7 +41,7 @@ aikataulu:
      Pohjoismainen matematiikkakilpailu.
   - pvm: "10.&ndash;16.4."
     tapahtuma: |
-      [5. Euroopan Tyttöjen Matematiikkaolympialaiset](http://egmo.ssmr.ro/) Bustenissa Romaniassa.
+      [5. Euroopan Tyttöjen Matematiikkaolympialaiset](http://egmo.ssmr.ro/) Bu&scedil;tenissa Romaniassa.
   - pvm: "3.&ndash;8.7."
     tapahtuma: |
      Matematiikkaolympiajoukkueiden pohjoismainen valmennusleiri Sorøssä Tanskassa.
