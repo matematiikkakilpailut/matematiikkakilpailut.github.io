@@ -28,11 +28,13 @@ mukana ovat lähettäjän yhteystiedot!
 
 ### Ajankohtaiset tehtävät
 
-Syyskuun 2015 [valmenusteht&auml;v&auml;t](2015/vt2015_9.pdf). Päivölässä jaettuun sarjaan on lisätty sunnuntain 6.9. joukkueharjoituksen yli jääneet tehtävät.
+Lokakuun 2015 [valmennusteht&auml;v&auml;t](2015/vt2015_10.pdf) 
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
 
-Toukokuun 2015 [valmenusteht&auml;v&auml;t](2015/vt2015_5.pdf). 
+Syyskuun 2015 [valmennusteht&auml;v&auml;t](2015/vt2015_9.pdf) ja niiden [ratkaisut](2015/vt2015_9ratk.pdf). Päivölässä jaettuun sarjaan on lisätty sunnuntain 6.9. joukkueharjoituksen yli jääneet tehtävät.
+
+Toukokuun 2015 [valmennusteht&auml;v&auml;t](2015/vt2015_5.pdf). 
  Tehtävien [ratkaisut](2015/vt2015_5ratk.pdf).
 
 Huhtikuun 2015 [valmennusteht&auml;v&auml;t](2015/vt2015_4.pdf) ja niiden [ratkaisut](2015/vt2015_4ratk.pdf).
