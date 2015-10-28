@@ -68,7 +68,7 @@ vuosilta löytyy pdf-muotoisina oheisesta taulukosta.
 <div class="col-xs-3 col-sm-2 col-md-1">2015</div>
 <div class="col-xs-3 col-sm-2 col-md-1"><a href="2015/teht2015.pdf">pdf</a></div>
 <div class="col-xs-6"><a href="2015/ala2015ratk.pdf">avoimen sarjan ratkaisuja</a>
-</div></div></div>
+</div></div>
 
 
 ### Loppukilpailun tehtäviä ja ratkaisuja
