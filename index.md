@@ -65,6 +65,8 @@ kysymyksistä löytyy lisätietoa [täältä](kaytanto).
 
 * Vuoden 2015 Baltian tie -joukkue on valittu: Suomea edustavat Ella Anttila, Petrus Asikainen, Iiro Kumpulainen, Kalle Luopaj&auml;rvi ja Jesse Nieminen.
 
+* Ennakkotiedoista poiketen Ruotsi ei järjestäkään vuonna 2015 opettajien Kappa-kilpailua.
+
 * Vuoden 2015 Kansainväliset matematiikkaolympialaiset järjestettiin Thaimaan Chiang Maissa 6. &ndash; 14. heinäkuuta. Kaikkiaan 104 maan joukkueet osallistuivat; kilpailijoita oli 577. Kilpailun tehtäväsarja muodostui aiottua vaikeammaksi, kun toisen päivän tehtävien vuodettua ne jouduttiin korvaamaan varatehtävillä. Kanadan **Alex Song** pääsi ainoana kilpailijana täysiin pisteisiin. Maiden välisen kilpailun paras oli Yhdysvallat. Suomi oli 82. Suomen **Kalle Luopajärvi** sai kunniamaininnan. 
 [Tulosluettelo](http://www.imo-official.org/year_individual_r.aspx?year=2015&column=total&order=desc).
 
