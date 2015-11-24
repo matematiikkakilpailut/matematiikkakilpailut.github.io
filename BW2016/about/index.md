@@ -50,12 +50,14 @@ The contest is sponsored by:
 
 * [Finnish Academy of Science and Letters][tiedeaka], Mathematics Fund
 * [Nokia][nokia], emphasis on supporting girls participating in the competition
+* [F-Secure][fsec]
 * [Aalto University Department of Mathematics and Systems Analysis][aalto]
 * [University of Turku Faculty of Mathematics and Natural Science][turku]
 * [University of Oulu Department of Mathematical Sciences][oulu]
 
 [aalto]: https://math.aalto.fi/
 [nokia]: http://www.nokia.com/
+[fsec]: https://www.f-secure.com/
 [turku]: http://www.utu.fi/en/units/sci/Pages/home.aspx
 [oulu]: http://www.oulu.fi/mathematics/
 [tiedeaka]: http://www.acadsci.fi/frontpage.htm
