@@ -166,6 +166,11 @@ kilpailut:
     tehtavat: "[pdf](/Baltian_tie/2014/BW2014teht.pdf)"
     ratkaisut: "[eng&shy;lan&shy;niksi](http://mif.vu.lt/balticway2014/wp-content/uploads/2014/07/bw2014solu.pdf)"
     joukkue: "Petteri Huuskonen, Qianyue Jin, Iiro Kumpulainen, Kalle Luopajärvi, Ella Tamir"
+  - vuosi: "2015"
+    paikka: "[Tuk&shy;hol&shy;ma](http://bw15.math.su.se/)"
+    sijoitus: "[40 (9.)](http://bw15.math.su.se/wp-content/uploads/2015/11/Results_BW2015.pdf)"
+    tehtavat: "[pdf](/Baltian_tie/2015/Bt2015teht.pdf)"
+    joukkue: "Ella Anttila, Petrus Asikainen, Iiro Kumpulainen, Kalle Luopajärvi, Jesse Nieminen"
 ---
 ## Baltian Tie -joukkuekilpailu
 

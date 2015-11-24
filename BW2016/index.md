@@ -25,7 +25,7 @@ including Finnair and Norwegian.
 </p></div>
 
 <div class="col-xs-12 col-sm-4 container">
-<h2>Dates <small>(preliminary)</small></h2>
+<h2>Dates</h2>
 <p>
 <b>Participant details:</b> to be defined<br>
 <b>Problem proposals:</b> to be defined<br>
@@ -34,9 +34,10 @@ including Finnair and Norwegian.
 
 <div class="container col-xs-12 col-sm-4">
 <h2>Sponsors</h2>
-<p>Multiple sponsorship tiers are available,
-including visibility on the web site and in written materials,
-and talk slots at the contest opening and ending ceremonies.</p>
+<p>The contest organization is looking for sponsors.
+Sponsors have a unique opportunity to reach a set of young people
+from all countries around the Baltic Sea
+who compete in mathematics at an international level.</p>
 </div>
 </div>
 
@@ -45,27 +46,3 @@ and talk slots at the contest opening and ending ceremonies.</p>
 <a href="about/" class="btn btn-primary">Read more</a>
 </div></div>
 
-
-{% comment %}
-## Organizers
-
-[Training Division](/english/) of the Finnish Mathematical Society
-
-
-<div class="alert alert-info" role="alert">
-<h2>Sponsors</h2>
-<p>
-To sponsor Baltic Way 2016, please <!-- a href="mailto:" -->contact the organizers<!-- /a -->.
-Multiple sponsorship tiers with different levels of visibility are available.</p>
-
-</div>
-
-
-## Regulations
-
-## Problems
-
-## Results
-
-## About Baltic Way
-{% endcomment %}
