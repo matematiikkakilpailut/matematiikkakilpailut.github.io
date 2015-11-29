@@ -28,7 +28,7 @@ mukana ovat lähettäjän yhteystiedot!
 
 ### Ajankohtaiset tehtävät
 
-Marras-joulukuun [valmennusteht&auml;v&auml;t](2015/vt2015_11.pdf). 
+Marras-joulukuun 2015 [valmennusteht&auml;v&auml;t](2015/vt2015_11.pdf). 
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
 
