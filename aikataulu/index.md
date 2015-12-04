@@ -35,7 +35,7 @@ aikataulu:
     otsikko: true
   - pvm: "22.&ndash;23.1."
     tapahtuma: |
-     Matemaattisten Aineiden Opettajien Lukion matematiikkakilpailun loppukilpailu.
+     Matemaattisten Aineiden Opettajien Lukion matematiikkakilpailun loppukilpailu Munkkiniemen yhteiskoulussa Helsingissä..
   - pvm: "5.4."
     tapahtuma: |
      Pohjoismainen matematiikkakilpailu.
