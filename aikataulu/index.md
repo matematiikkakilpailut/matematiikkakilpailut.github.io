@@ -49,6 +49,7 @@ aikataulu:
     tapahtuma: |
       [57. Kansainväliset matematiikka&shy;olympialaiset](http://www.imohkc.org.hk/)
       Hongkongissa.
+  - pvm: "2016"
     tapahtuma: "Syksy"
     otsikko: true
   - pvm: "3.&ndash;7.11."
