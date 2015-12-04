@@ -35,7 +35,7 @@ aikataulu:
     otsikko: true
   - pvm: "22.&ndash;23.1."
     tapahtuma: |
-     Matemaattisten Aineiden Opettajien Lukion matematiikkakilpailun loppukilpailu Munkkiniemen yhteiskoulussa Helsingissä..
+     Matemaattisten Aineiden Opettajien Liiton Lukion matematiikkakilpailun loppukilpailu Munkkiniemen yhteiskoulussa Helsingissä..
   - pvm: "5.4."
     tapahtuma: |
      Pohjoismainen matematiikkakilpailu.
@@ -49,6 +49,11 @@ aikataulu:
     tapahtuma: |
       [57. Kansainväliset matematiikka&shy;olympialaiset](http://www.imohkc.org.hk/)
       Hongkongissa.
+    tapahtuma: "Syksy"
+    otsikko: true
+  - pvm: "3.&ndash;7.11."
+    tapahtuma |
+     Kansainvälinen Baltian Tie -joukkuematematiikkakilpailu Oulussa.
 vanhoja: # eivät tule sivulle näkyviin
   - pvm: "2015"
     tapahtuma: "Kevät ja kesä"
