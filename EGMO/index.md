@@ -39,7 +39,7 @@ tarkoituksenmukainen, vaihtelevat.
 
 Vaikka kilpailu on nimensä mukaisesti tarkoitettu Euroopan maille,
 myös muita osallistujamaita on ollut mukana. Suomi on osallistunut
-kilpailuun nelihenkisellä joukkueella.
+kilpailuun enintään nelihenkisellä joukkueella.
 
 ### Tehtävät ja ratkaisut
 
