@@ -19,6 +19,10 @@ kilpailut:
     paikka: "[Antalya, Turkki](https://www.egmo.org/egmos/egmo3/)"
     tehtavat: "[pdf](EGMO_2014teht.pdf)"
     ratkaisut: "[englanniksi](EGMO_2014sol.pdf)"
+  - vuosi: "2015"
+    paikka: "[Minsk, Valko-Venäjä](https://www.egmo.org/egmos/egmo4/)"
+    tehtavat: "[pdf](EGMO_2015teht.pdf)"
+    ratkaisut: "[englanniksi](EGMO_2015sol.pdf)"
 ---
 ## Euroopan Tyttöjen Matematiikka&shy;olympialaiset – EGMO
 
@@ -51,6 +55,8 @@ kilpailuun nelihenkisellä joukkueella.
 </div>
 
 ### Suomen joukkue
+
+Vuoden 2015 joukkue: Ella Anttila, Ella Tamir, Tara Vaittinen. Joukkueen johtajana Esa Vesalainen ja varajohtajana Mirjam Kauppila.
 
 Vuoden 2014 joukkue: Minna Hirvonen, Mirjam Kauppila, Ella Tamir ja
 Tara Vaittinen. Joukkueen johtajana Anne-Maria Ernvall-Hytönen ja
