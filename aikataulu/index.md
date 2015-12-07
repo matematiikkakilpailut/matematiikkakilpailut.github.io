@@ -4,8 +4,8 @@ title: Aikataulu
 url: /aikataulu/ 
 ---
 aikataulu:
-  - pvm: "**pvm**" 
-    tapahtuma: "**tapahtuma**"
+  - pvm: "**Pvm**" 
+    tapahtuma: "**Tapahtuma**"
   - pvm: "2015"
     tapahtuma: "Syksy"
     otsikko: true
