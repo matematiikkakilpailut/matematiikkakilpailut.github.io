@@ -8,10 +8,10 @@ aikataulu:
     otsikko: true
   - pvm: "4.–6.9. (viikko 36)"
     tapahtuma: |
-      "Valmennusviikonvaihde Päivölässä. Aiheet: geometria ja lukuteoria."
+      Valmennusviikonvaihde Päivölässä. Aiheet: geometria ja lukuteoria.
   - pvm: "16.&ndash;18.10. (viikko 42)"
     tapahtuma: |
-     "Valmennusviikonvaihde Päivölässä.
+     Valmennusviikonvaihde Päivölässä.
       Aiheet: algebra, kombinatoriikka
       (johon alakerran [moniste][kombmon], luvut 1.1 ja 1.2,
       ja [ennakko&shy;tehtäviä][v1]) ja
@@ -19,7 +19,7 @@ aikataulu:
       [v1]: /valmennus/2015/2015-lokakuu-kombin-ennakko.pdf
       [v2]: /valmennus/2015/2015-lokakuu-epayht-verryttely.pdf
       [kombmon]: http://wiki.helsinki.fi/pages/viewpage.action?pageId=163490394&amp;preview=/163490394/164463088/kombinatoriikka.pdf
-      [vaderlind]: /kirjallisuus/vaderlind.pdf"
+      [vaderlind]: /kirjallisuus/vaderlind.pdf
   - pvm: "27.10."
     tapahtuma: |
       Matemaattisten Aineiden Opettajien Liiton Lukion matematiikkakilpailun alkukilpailu kouluissa.
