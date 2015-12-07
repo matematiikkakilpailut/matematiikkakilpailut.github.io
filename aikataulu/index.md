@@ -4,7 +4,7 @@ title: Aikataulu
 url: /aikataulu/ 
 ---
 aikataulu:
-- pvm: "2015"
+  - pvm: "2015"
     tapahtuma: "Syksy"
     otsikko: true
   - pvm: "4.–6.9. (viikko 36)"
@@ -31,7 +31,7 @@ aikataulu:
     tapahtuma: |
       Valmennusviikonvaihde  Päivölässä.
   
-- pvm: "2016"
+  - pvm: "2016"
     tapahtuma: "Kevät ja kesä"
     otsikko: true
   - pvm: "15.&ndash;17.1."
@@ -63,13 +63,14 @@ aikataulu:
     tapahtuma: |
       [57. Kansainväliset matematiikka&shy;olympialaiset](http://www.imohkc.org.hk/)
       Hongkongissa.
-- pvm: "2016"
+  - pvm: "2016"
     tapahtuma: "Syksy"
     otsikko: true
   - pvm: "3.&ndash;7.11."
     tapahtuma: |
      Kansainvälinen Baltian Tie -joukkuematematiikkakilpailu Oulussa.
-vanhoja: # eivät tule sivulle näkyviin
+
+ vanhoja: # eivät tule sivulle näkyviin
   - pvm: "2015"
     tapahtuma: "Kevät ja kesä"
     otsikko: true
