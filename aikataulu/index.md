@@ -46,7 +46,7 @@ aikataulu:
      Valmennusviikonvaihde Päivölässä.
   - pvm: "5.4."
     tapahtuma: |
-     Pohjoismainen matematiikkakilpailu.
+     Pohjoismainen matematiikkakilpailu erikseen kutsutuille.
   - pvm: "10.&ndash;16.4."
     tapahtuma: |
       [5. Euroopan Tyttöjen Matematiikkaolympialaiset](http://egmo.ssmr.ro/) Bustenissa Romaniassa.
