@@ -124,7 +124,6 @@ aikataulu:
     tapahtuma:  |
       [56. Kansainväliset matematiikka&shy;olympialaiset](http://www.imo2015.org/)
       Chiang Maissa Thaimaassa.
----
 <div class="list-group">
 {% for a in page.aikataulu %}
 {% if a['otsikko'] %}<div class="list-group-item-info row">{% else %}<div class="list-group-item row">{% endif %}
