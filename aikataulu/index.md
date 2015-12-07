@@ -7,13 +7,13 @@ aikataulu:
   - pvm: "2016"
     tapahtuma: "Kevät ja kesä"
     otsikko: true
-  - pvm: "15.ndash;17.1."
+  - pvm: "15.&ndash;17.1."
     tapahtuma: |
     Valmennusviikonvaihde Päivölässä.
   - pvm: "22.&ndash;23.1."
     tapahtuma: |
      Matemaattisten Aineiden Opettajien Liiton Lukion matematiikkakilpailun loppukilpailu Munkkiniemen yhteiskoulussa Helsingissä.
-  - pvm: "26.@ndash;28.2."
+  - pvm: "26.&ndash;28.2."
     tapahtuma: |
     Valmennusviikonvaihde Päivölässä.
   - pvm: "5.4."
@@ -22,16 +22,16 @@ aikataulu:
   - pvm: "10.&ndash;16.4."
     tapahtuma: |
       [5. Euroopan Tyttöjen Matematiikkaolympialaiset](http://egmo.ssmr.ro/) Bustenissa Romaniassa.
-  - pvm: "15@ndash;17.4."
+  - pvm: "15&ndash;17.4."
     tapahtuma: |
     Valmennusviikonvaihde Päivölässä.
-  - pvm: "9.@ndash;14.5."
+  - pvm: "9.&ndash;14.5."
     tapahtuma: |
     Matematiikkaolympiajoukkueen valinta- ja valmennusleiri Päivölässä erikseen kutsutuille. Muut kuin kutsutut voivat osallistua omakustanteisesti.
   - pvm: "3.&ndash;8.7."
     tapahtuma: |
      Matematiikkaolympiajoukkueiden pohjoismainen valmennusleiri Sorøssä Tanskassa.
-  - pvm: "6.–16.7."
+  - pvm: "6.&ndash;16.7."
     tapahtuma: |
       [57. Kansainväliset matematiikka&shy;olympialaiset](http://www.imohkc.org.hk/)
       Hongkongissa.
