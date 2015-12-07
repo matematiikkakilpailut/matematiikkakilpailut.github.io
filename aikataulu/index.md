@@ -68,7 +68,6 @@ aikataulu:
   - pvm: "3.&ndash;7.11."
     tapahtuma: |
      Kansainvälinen Baltian Tie -joukkuematematiikkakilpailu Oulussa.
----
  vanhoja: # eivät tule sivulle näkyviin
   - pvm: "2015"
     tapahtuma: "Kevät ja kesä"
