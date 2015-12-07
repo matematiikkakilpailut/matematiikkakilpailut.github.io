@@ -3,7 +3,7 @@ layout: page
 title: Aikataulu
 url: /aikataulu/
 aikataulu:
-    - pvm: "2016"
+  - pvm: "2016"
     tapahtuma: "Kevät ja kesä"
     otsikko: true
   - pvm: "15.&ndash;17.1."
@@ -71,7 +71,8 @@ vanhoja: # eivät tule sivulle näkyviin
       [v3]: /valmennus/2015/2015-helmikuu-alakerran-funktionaaliyhtaloverryttely.pdf
       [esi2]: /valmennus/2015/trigesi.pdf
   - pvm: "24.3."
-    tapahtuma: "Pohjoismainen matematiikka&shy;kilpailu."
+    tapahtuma: |
+    Pohjoismainen matematiikka&shy;kilpailu.
   - pvm: "14.–20.4."
     tapahtuma: |
       [4. Euroopan tyttöjen matematiikka&shy;olympialaiset](https://www.egmo.org/egmos/egmo4/)
