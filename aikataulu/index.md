@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Aikataulu
-url: /aikataulu/
+url: /aikataulu/ 
 aikataulu:
   - pvm: "2016"
     tapahtuma: "Kevät ja kesä"
@@ -11,7 +11,8 @@ aikataulu:
      Valmennusviikonvaihde Päivölässä.
   - pvm: "22.&ndash;23.1."
     tapahtuma: |
-     Matemaattisten Aineiden Opettajien Liiton Lukion matematiikkakilpailun loppukilpailu Munkkiniemen yhteiskoulussa Helsingissä.
+     Matemaattisten Aineiden Opettajien Liiton Lukion matematiikkakilpailun loppukilpailu Munkkiniemen 
+     yhteiskoulussa Helsingissä.
   - pvm: "26.&ndash;28.2."
     tapahtuma: |
      Valmennusviikonvaihde Päivölässä.
@@ -26,7 +27,7 @@ aikataulu:
      Valmennusviikonvaihde Päivölässä.
   - pvm: "9.&ndash;14.5."
     tapahtuma: |
-     Matematiikkaolympiajoukkueen valinta- ja valmennusleiri Päivölässä erikseen kutsutuille. Muut kuin kutsutut voivat osallistua omakustanteisesti.
+     Matematiikkaolympiajoukkueen valinta- ja valmennusleiri Päivölässä erikseen kutsutuille. Muut kuin kutsutut voivat            osallistua omakustanteisesti.
   - pvm: "3.&ndash;8.7."
     tapahtuma: |
      Matematiikkaolympiajoukkueiden pohjoismainen valmennusleiri Sorøssä Tanskassa.
