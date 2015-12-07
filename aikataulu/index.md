@@ -10,8 +10,8 @@ aikataulu:
     tapahtuma: "Syksy"
     otsikko: true
   - pvm: "4.–6.9. (viikko 36)"
-    tapahtuma: |
-      Valmennusviikonvaihde Päivölässä. Aiheet: geometria ja lukuteoria.
+    tapahtuma: 
+      ""Valmennusviikonvaihde Päivölässä. Aiheet: geometria ja lukuteoria.""
   - pvm: "16.&ndash;18.10. (viikko 42)"
     tapahtuma: |
       Valmennusviikonvaihde Päivölässä.
