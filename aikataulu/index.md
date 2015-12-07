@@ -15,7 +15,7 @@ aikataulu:
       Aiheet: algebra, kombinatoriikka
       (johon alakerran [moniste][kombmon], luvut 1.1 ja 1.2,
       ja [ennakko&shy;tehtäviä][v1]) ja
-      epäyhtälöt (johon [moniste][vaderlind] ja [verryttely&shy;tehtäviä][v2]).
+      epäyhtälöt (johon [moniste](/kirjallisuus/vaderlind.pdf) ja [verryttely&shy;tehtäviä][v2]).
 
       [v1]: /valmennus/2015/2015-lokakuu-kombin-ennakko.pdf
       [v2]: /valmennus/2015/2015-lokakuu-epayht-verryttely.pdf
