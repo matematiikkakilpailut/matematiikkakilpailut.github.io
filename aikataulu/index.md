@@ -2,6 +2,7 @@
 layout: page
 title: Aikataulu
 url: /aikataulu/ 
+---
 aikataulu:
 - pvm: "2015"
     tapahtuma: "Syksy"
