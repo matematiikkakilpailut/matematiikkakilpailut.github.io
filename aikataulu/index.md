@@ -3,8 +3,7 @@ layout: page
 title: Aikataulu
 url: /aikataulu/
 aikataulu:
-  
-  - pvm: "2016"
+    - pvm: "2016"
     tapahtuma: "Kevät ja kesä"
     otsikko: true
   - pvm: "15.&ndash;17.1."
