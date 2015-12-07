@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Aikataulu
-url: /aikataulu/ 
+url: /aikataulu/
+---
 aikataulu:
   - pvm: "2015"
     tapahtuma: "Syksy"
@@ -78,7 +79,6 @@ aikataulu:
       Valmennus&shy;viikonvaihde Päivölässä. Alakerran ohjelmassa lukuteoriaa
       (johon [verryttely&shy;tehtäviä][v1]) ja geometriaa, yläkerran ohjelmassa
       lukuteoriaa (johon [verryttely&shy;tehtäviä][v2]) ja kombinatoriikkaa.
-      
       [v1]: /valmennus/2015/2015-tammikuu-lukuteorian_verryttely.pdf
       [v2]: /valmennus/2015/2015-tammikuu-ylakerran-lukuteoriaverryttely.pdf
   - pvm: "30.–31.1."
@@ -93,7 +93,6 @@ aikataulu:
       vilkaista [esitietotoiveita][esi1]). Alakerrassa mm. funktionaali&shy;yhtälöitä
       (joihin [verryttelytehtäviä][v3]) ja trigonometrian perusasioita; kannattaa
       selvittää itselleen muutama [esitieto][esi2].
-
       [v1]: /valmennus/2015/2015-helmikuu-epayhtaloverryttely.pdf
       [v2]: /valmennus/2015/2015-helmikuu-ylakerran-funktionaaliyhtaloverryttely.pdf
       [esi1]: /valmennus/2015/avgeomesi.pdf
