@@ -122,7 +122,7 @@ vanhoja: # eivät tule sivulle näkyviin
       [Baltian Tie -joukkuematematiikkakilpailu](http://bw15.math.su.se/) Tukholmassa.
   - pvm: "27.&ndash;29.11. (viikko 48)"
     tapahtuma: |
-      Valmennusviikonvaihde Päivölässä.
+      Valmennusviikonvaihde  Päivölässä.
 ---
 <div class="list-group">
 {% for a in page.aikataulu %}
