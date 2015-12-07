@@ -11,7 +11,7 @@ aikataulu:
     Valmennusviikonvaihde Päivölässä.
   - pvm: "22.&ndash;23.1."
     tapahtuma: |
-     Matemaattisten Aineiden Opettajien Liiton Lukion matematiikkakilpailun loppukilpailu Munkkiniemen yhteiskoulussa Helsingissä.
+    Matemaattisten Aineiden Opettajien Liiton Lukion matematiikkakilpailun loppukilpailu Munkkiniemen yhteiskoulussa Helsingissä.
   - pvm: "26.&ndash;28.2."
     tapahtuma: |
     Valmennusviikonvaihde Päivölässä.
@@ -79,7 +79,6 @@ vanhoja: # eivät tule sivulle näkyviin
   - pvm: "17.–19.4. (viikko 16)"
     tapahtuma: |
       Valmennusviikonvaihde ja [Pythagoraan Polku -kilpailu][pp] Päivölässä.
-
       [pp]: /pythagoras/Pythagoras_kutsu_2015.pdf
   - pvm: "3.5. – 8.5. (viikko 19)"
     tapahtuma: |
@@ -109,7 +108,6 @@ vanhoja: # eivät tule sivulle näkyviin
       (johon alakerran [moniste][kombmon], luvut 1.1 ja 1.2,
       ja [ennakko&shy;tehtäviä][v1]) ja
       epäyhtälöt (johon [moniste][vaderlind] ja [verryttely&shy;tehtäviä][v2]).
-
       [v1]: /valmennus/2015/2015-lokakuu-kombin-ennakko.pdf
       [v2]: /valmennus/2015/2015-lokakuu-epayht-verryttely.pdf
       [kombmon]: http://wiki.helsinki.fi/pages/viewpage.action?pageId=163490394&amp;preview=/163490394/164463088/kombinatoriikka.pdf
