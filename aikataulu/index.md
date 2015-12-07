@@ -21,7 +21,7 @@ aikataulu:
   - pvm: "10.&ndash;16.4."
     tapahtuma: |
       [5. Euroopan Tyttöjen Matematiikkaolympialaiset](http://egmo.ssmr.ro/) Bustenissa Romaniassa.
-  - pvm: "15&ndash;17.4."
+  - pvm: "15.&ndash;17.4."
     tapahtuma: |
     Valmennusviikonvaihde Päivölässä.
   - pvm: "9.&ndash;14.5."
