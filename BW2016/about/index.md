@@ -54,6 +54,8 @@ The contest is sponsored by:
 * [Aalto University Department of Mathematics and Systems Analysis][aalto]
 * [University of Turku Faculty of Mathematics and Natural Science][turku]
 * [University of Oulu Department of Mathematical Sciences][oulu]
+* [University of Tampere][tampere]
+* [Painosalama][painosalama] provides printed materials for the contest
 
 [aalto]: https://math.aalto.fi/
 [nokia]: http://www.nokia.com/
@@ -61,6 +63,8 @@ The contest is sponsored by:
 [turku]: http://www.utu.fi/en/units/sci/Pages/home.aspx
 [oulu]: http://www.oulu.fi/mathematics/
 [tiedeaka]: http://www.acadsci.fi/frontpage.htm
+[tampere]: http://www.uta.fi
+[painosalama]: http://www.painosalama.fi/
 
 The organizing committee is looking for further sponsors. Sponsors
 have a unique opportunity to reach a set of talented pre-university
