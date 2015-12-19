@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: /BW2016/
+Allow: *
