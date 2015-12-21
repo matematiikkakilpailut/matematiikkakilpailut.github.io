@@ -36,14 +36,16 @@ aikataulu:
     otsikko: true
   - pvm: "15.&ndash;17.1. (viikko 2)"
     tapahtuma: |
-     Valmennusviikonvaihde Päivölässä.
+      Valmennusviikonvaihde Päivölässä.
+      Aiheet: alakerrassa geometria ja algebra, yläkerrassa geometria ja epäyhtälöt.
   - pvm: "22.&ndash;23.1."
     tapahtuma: |
      Matemaattisten Aineiden Opettajien Liiton Lukion matematiikkakilpailun loppukilpailu Munkkiniemen 
      yhteiskoulussa Helsingissä.
   - pvm: "26.&ndash;28.2. (viikko 8)"
     tapahtuma: |
-     Valmennusviikonvaihde Päivölässä.
+      Valmennusviikonvaihde Päivölässä.
+      Aiheet: alakerrassa geometria ja lukuteoria, yläkerrassa kombinatoriikka ja lukuteoria.
   - pvm: "5.4."
     tapahtuma: |
      Pohjoismainen matematiikkakilpailu erikseen kutsutuille.
