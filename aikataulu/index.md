@@ -37,7 +37,9 @@ aikataulu:
   - pvm: "15.&ndash;17.1. (viikko 2)"
     tapahtuma: |
       Valmennusviikonvaihde Päivölässä.
-      Aiheet: alakerrassa geometria ja algebra, yläkerrassa geometria ja epäyhtälöt.
+      Aiheet: alakerrassa geometria ja algebra (johon [ennakko&shy;tehtäviä][alg]), yläkerrassa geometria ja epäyhtälöt.
+
+      [alg]: /valmennus/2016/2016-01-polynomit-ennakko.pdf
   - pvm: "22.&ndash;23.1."
     tapahtuma: |
      Matemaattisten Aineiden Opettajien Liiton Lukion matematiikkakilpailun loppukilpailu Munkkiniemen 
