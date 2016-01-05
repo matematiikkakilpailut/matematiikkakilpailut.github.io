@@ -37,8 +37,12 @@ aikataulu:
   - pvm: "15.&ndash;17.1. (viikko 2)"
     tapahtuma: |
       Valmennusviikonvaihde Päivölässä.
-      Aiheet: alakerrassa geometria ja algebra (johon [ennakko&shy;tehtäviä][alg]), yläkerrassa geometria ja epäyhtälöt.
+      Aiheet: alakerrassa geometria (lue [peruspaketista][gpp] kohdat 6, 14, ja 29
+        ja [täydennysmateriaalista][gtd] kohdat 9-12) ja algebra (johon [ennakko&shy;tehtäviä][alg]),
+        yläkerrassa geometria ja epäyhtälöt.
 
+      [gpp]: /kirjallisuus/geomperusp.pdf
+      [gtd]: /kirjallisuus/geomlis13.pdf
       [alg]: /valmennus/2016/2016-01-polynomit-ennakko.pdf
   - pvm: "22.&ndash;23.1."
     tapahtuma: |
