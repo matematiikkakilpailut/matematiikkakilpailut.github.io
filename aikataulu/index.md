@@ -39,11 +39,14 @@ aikataulu:
       Valmennusviikonvaihde Päivölässä.
       Aiheet: alakerrassa geometria (lue [peruspaketista][gpp] kohdat 6, 14, ja 29
         ja [täydennysmateriaalista][gtd] kohdat 9-12) ja algebra (johon [ennakko&shy;tehtäviä][alg]),
-        yläkerrassa geometria ja epäyhtälöt.
+        yläkerrassa geometria ja
+        epäyhtälöt (lue monisteesta [Epäyhtälöoppia matematiikkaolympialaisten tehtäviin][eyh]:
+        Cauchyn epäyhtälö, aritmeettis-geometrinen epäyhtälö, Jensenin epäyhtälö, suuruus&shy;järjestys&shy;epäyhtälö).
 
       [gpp]: /kirjallisuus/geomperusp.pdf
       [gtd]: /kirjallisuus/geomlis13.pdf
       [alg]: /valmennus/2016/2016-01-polynomit-ennakko.pdf
+      [eyh]: /kirjallisuus/eykirja.pdf
   - pvm: "22.&ndash;23.1."
     tapahtuma: |
      Matemaattisten Aineiden Opettajien Liiton Lukion matematiikkakilpailun loppukilpailu Munkkiniemen 
