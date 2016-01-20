@@ -28,9 +28,11 @@ mukana ovat lähettäjän yhteystiedot!
 
 ### Ajankohtaiset tehtävät
 
-Marras-joulukuun 2015 [valmennusteht&auml;v&auml;t](2015/vt2015_11.pdf). 
+Tammikuun 2016 tehtävät julkaistaan pian.
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
+
+Marras-joulukuun 2015 [valmennusteht&auml;v&auml;t](2015/vt2015_11.pdf) ja niiden [ratkaisut](2015/vt2015_11ratk.pdf).
 
 Lokakuun 2015 [valmennusteht&auml;v&auml;t](2015/vt2015_10.pdf).
 
