@@ -170,6 +170,7 @@ kilpailut:
     paikka: "[Tuk&shy;hol&shy;ma](http://bw15.math.su.se/)"
     sijoitus: "[40 (9.)](http://bw15.math.su.se/wp-content/uploads/2015/11/Results_BW2015.pdf)"
     tehtavat: "[pdf](/Baltian_tie/2015/Bt2015teht.pdf)"
+    ratkaisut: "[englanniksi](http://bw15.math.su.se/wp-content/uploads/2015/02/Solutions_BW2015.pdf)"
     joukkue: "Ella Anttila, Petrus Asikainen, Iiro Kumpulainen, Kalle Luopajärvi, Jesse Nieminen"
 ---
 ## Baltian Tie -joukkuekilpailu
