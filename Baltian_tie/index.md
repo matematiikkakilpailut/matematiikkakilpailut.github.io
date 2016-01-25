@@ -226,14 +226,8 @@ tgz). Tulossarakkeen mahdolliset linkit ovat tulostaulukoihin.
 
 ### Tulokset
 
-Vuonna 2013 Suomi oli 11. Kilpailun voitti Pietari, seuraavina olivat Saksa ja Puola.
-Mukana oli tavanomaisten osallistujamaiden lisäksi Valko-Venäjä.
-
 Aikaisempien kilpailujen tuloksia löytyy yllä olevan taulukon linkeistä.
 Vuosien 1997–2012 kilpailujen maa- ja tehtäväkohtaiset pisteet löytyvät myös oheisesta
 [tuloskoosteesta](tulokset.html).
 
-### Joukkue
 
-Vuoden 2013 joukkueessa olivat Mirjam Kauppila, Timo Takala, Ella Tamir, Jakob Wartiovaara
-ja Pyry Virtanen. Joukkueen johtaja oli Olli Hirviniemi ja varajohtaja Jesse Jääsaari.
