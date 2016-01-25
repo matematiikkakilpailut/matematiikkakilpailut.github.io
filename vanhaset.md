@@ -102,3 +102,6 @@ title: Uutisarkisto
 *   Suomen joukkue vuoden 2005 matematiikka&shy;olympialaisiin valittiin 20.5\. Päivölässä. Joukkueessa ovat Samu Alanko, Eemeli Blåsten, Sebastian Dumitrescu, Janne Kokkala, Ville Pettersson ja Esa Vesalainen.
 *   Vuoden 2004 IMO:ssa suomalaiset saavuttivat yhden pronssimitalin (Lauri Ahlroth).
 *   Vuoden 2001 [matematiikka&shy;olympialaisissa](http://www.imo2001.org) Suomen Sampo Niskanen sai pronssimitalin.
+
+[imo-tulokset]: http://www.imo-official.org/year_info.aspx?year=2014
+[egmo-tulokset]: https://www.egmo.org/egmos/egmo3/scoreboard/
