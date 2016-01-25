@@ -93,7 +93,6 @@ j&auml;rjestettiin 14.&ndash;20. huhtikuuta 2015 Minskiss&auml;. Kilpailijoita
 
 Vanhempia uutisia löytyy [uutisarkistosta](vanhaset.html).
 
-[lukio-tulokset]: http://www.maol.fi/fileadmin/users/Kilpailut/4Tieteen2014-2015/Lukio_Mat15_loppukilp_tulokset.pdf
 [bt-tulokset]: http://mif.vu.lt/balticway2014/wp-content/uploads/2014/07/bw2014rez.pdf
 [Kappa]: http://www.math.su.se/samverkan/kommun-skola/tävlingar/kappa
 [imo-tulokset]: http://www.imo-official.org/year_info.aspx?year=2014
