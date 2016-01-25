@@ -9,7 +9,7 @@ title: Uutisarkisto
   Ressun lukiossa Helsingissä. Kilpailun voitti **Ella Tamir**
   Helsingin matematiikka&shy;lukiosta ja toisen sijan jakoivat **Ella
   Anttila** samasta koulusta sekä **Kalle Luopajärvi** Seinäjoen
-  lukiosta. [Täydellisempi tulosluettelo][lukio-tulokset]
+  lukiosta. [Täydellisempi tulosluettelo](http://www.maol.fi/kilpailut/4tieteenkisat/lukion-matematiikka/tulokset/)
   löytyy MAOLin sivuilta, tehtävät ja ratkaisut
   [täältä](/MAOL/2015/lukm2015r.pdf).
 
