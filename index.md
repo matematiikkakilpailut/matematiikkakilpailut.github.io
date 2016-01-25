@@ -90,15 +90,6 @@ j&auml;rjestettiin 14.&ndash;20. huhtikuuta 2015 Minskiss&auml;. Kilpailijoita
  kaksi Islannista ja yksi Tanskasta. Paras suomalainen oli 
 **Kalle Luopaj&auml;rvi** jaetulla 12. sijalla.
 
-* 28\. Pohjoismainen matematiikka&shy;kilpailu pidettiin 31.3.2014
-  kotirataotteluna viidessä pohjoismaassa. Kilpailun järjestelyt ja
-  arvostelu koordinoitiin Islannissa. Toukokuun 5. julkaistun
-  [tulosluettelon](/PM/2014/NMC2014_Results.pdf) mukaan kilpailun
-  voittivat tasapistein Norjan Johan Sokrates Wind ja Islannin
-  Sigur&eth;ur Jens Albertsson. Parhaat suomalaiset olivat Jani
-  Penttala sijalla 11, Jakob Wartiovaara sijalla 13 ja Riku Laakkonen
-  sijalla 17.
-
 
 Vanhempia uutisia löytyy [uutisarkistosta](vanhaset.html).
 
