@@ -54,7 +54,7 @@ title: Uutisarkisto
 * Kolmannet Euroopan tyttöjen matematiikka&shy;olympialaiset pidettiin
   Antalayassa Turkissa 10.&ndash;16. huhtikuuta 2014. Osallistujia oli
   110 29 maasta. Suomea edustivat Minna Hirvonen, Mirjam Kauppila,
-  Ella Tamir ja Tara Vaittinen. Mirjam Kauppilan suoritys palkittiin
+  Ella Tamir ja Tara Vaittinen. Mirjam Kauppilan suoritus palkittiin
   pronssimitalilla. [Tulosluettelo][egmo-tulokset]. Joukkeen
   johtaja oli Anne-Maria Ernvall-Hytönen ja varajohtaja Esa
   Vesalainen.
