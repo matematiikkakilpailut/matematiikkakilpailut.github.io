@@ -5,6 +5,45 @@ title: Uutisarkisto
 
 ## Vanhoja uutisia
 
+* Lukion matematiikka&shy;kilpailun loppukilpailu pidettiin 30.1.2015
+  Ressun lukiossa Helsingissä. Kilpailun voitti **Ella Tamir**
+  Helsingin matematiikka&shy;lukiosta ja toisen sijan jakoivat **Ella
+  Anttila** samasta koulusta sekä **Kalle Luopajärvi** Seinäjoen
+  lukiosta. [Täydellisempi tulosluettelo][lukio-tulokset]
+  löytyy MAOLin sivuilta, tehtävät ja ratkaisut
+  [täältä](/MAOL/2015/lukm2015r.pdf).
+
+* Vuoden 2014 Baltian Tie -joukkuematematiikka&shy;kilpailu pidettiin
+  Vilnassa Liettuassa 6.&ndash;10.11.2014. Kilpailun voitti Pietari,
+  toiseksi tuli Saksa ja kolmanneksi Puola. Suomi oli
+  sijalla 11. Suomen joukkueessa olivat Petteri Huuskonen, Qianyue
+  Jin, Iiro Kumpulainen, Kalle Luopajärvi ja Ella Tamir. Joukkueen
+  johtaja oli Anne-Maria Ernvall-Hytönen ja varajohtaja Esa
+  Vesalainen.
+  [Tulosluettelo.][bt-tulokset]
+
+* Ruotsissa on useana vuotena järjestetty peruskoulun ja lukion
+  matematiikanopettajien kilpailu, [Kappa]. Tänä vuonna myös
+  suomalaiset opettajat voivat osallistua. [Lue lisää!](kappa.html)
+
+* 55\. Kansainväliset matematiikka&shy;olympialaiset pidettiin
+  Kapkaupungissa Etelä-Afrikassa 6.&ndash;13. heinäkuuta 2014.
+  Kilpailijoita oli 560 kaikkiaan 101 maasta. Parhaiten menestyivät
+  Kiinan ja Yhdysvaltojen joukkueet. Suomen joukkue oli sijalla 70.
+  Suomen Jakob Wartiovaara palkittiin pronssimitalilla, Riku Laakkonen
+  ja Timo Takala kunniamaininnalla. Kilpailun tulokset ja tehtävät
+  löytyvät
+  [matematiikka&shy;olympialaisten virallisilta sivuilta][imo-tulokset]
+
+* 28\. Pohjoismainen matematiikka&shy;kilpailu pidettiin 31.3.2014
+  kotirataotteluna viidessä pohjoismaassa. Kilpailun järjestelyt ja
+  arvostelu koordinoitiin Islannissa. Toukokuun 5. julkaistun
+  [tulosluettelon](/PM/2014/NMC2014_Results.pdf) mukaan kilpailun
+  voittivat tasapistein Norjan Johan Sokrates Wind ja Islannin
+  Sigur&eth;ur Jens Albertsson. Parhaat suomalaiset olivat Jani
+  Penttala sijalla 11, Jakob Wartiovaara sijalla 13 ja Riku Laakkonen
+  sijalla 17.
+
 * Vuoden 2014 Kansainvälisissä matematiikka&shy;olympialaisissa Suomea
   edustava joukkue valittiin Päivölän Opistossa viikolla 18 pidetyn
   valmennus- ja valintaleirin aikana. Joukkueessa ovat Jere Huovinen,
