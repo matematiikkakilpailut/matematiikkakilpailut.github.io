@@ -20,11 +20,11 @@ title: Uutisarkisto
   Jin, Iiro Kumpulainen, Kalle Luopajärvi ja Ella Tamir. Joukkueen
   johtaja oli Anne-Maria Ernvall-Hytönen ja varajohtaja Esa
   Vesalainen.
-  [Tulosluettelo.][bt-tulokset]
+  [Tulosluettelo.](http://mif.vu.lt/balticway2014/wp-content/uploads/2014/07/bw2014rez.pdf)
 
 * Ruotsissa on useana vuotena järjestetty peruskoulun ja lukion
-  matematiikanopettajien kilpailu, [Kappa]. Tänä vuonna myös
-  suomalaiset opettajat voivat osallistua. [Lue lisää!](kappa.html)
+  matematiikanopettajien kilpailu, [Kappa]. Tänä vuonna (2014) myös
+  suomalaiset opettajat voivat osallistua. 
 
 * 55\. Kansainväliset matematiikka&shy;olympialaiset pidettiin
   Kapkaupungissa Etelä-Afrikassa 6.&ndash;13. heinäkuuta 2014.
