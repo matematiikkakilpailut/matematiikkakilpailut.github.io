@@ -3,33 +3,6 @@ layout: page
 title: Aikataulu
 url: /aikataulu/
 aikataulu:
-  - pvm: "2015"
-    tapahtuma: "Syksy"
-    otsikko: true
-  - pvm: "4.–6.9. (viikko 36)"
-    tapahtuma: |
-      Valmennusviikonvaihde Päivölässä. Aiheet: geometria ja lukuteoria.
-  - pvm: "16.&ndash;18.10. (viikko 42)"
-    tapahtuma: |
-     Valmennusviikonvaihde Päivölässä.
-      Aiheet: algebra, kombinatoriikka
-      (johon alakerran [moniste][kombmon], luvut 1.1 ja 1.2,
-      ja [ennakko&shy;tehtäviä][v1]) ja
-      epäyhtälöt (johon [moniste](/kirjallisuus/vaderlind.pdf) ja [verryttely&shy;tehtäviä][v2]).
-
-      [v1]: /valmennus/2015/2015-lokakuu-kombin-ennakko.pdf
-      [v2]: /valmennus/2015/2015-lokakuu-epayht-verryttely.pdf
-      [kombmon]: http://wiki.helsinki.fi/pages/viewpage.action?pageId=163490394&amp;preview=/163490394/164463088/kombinatoriikka.pdf
-      [vaderlind]: /kirjallisuus/vaderlind.pdf
-  - pvm: "27.10."
-    tapahtuma: |
-      Matemaattisten Aineiden Opettajien Liiton Lukion matematiikkakilpailun alkukilpailu kouluissa.
-  - pvm: "5.–9.11."
-    tapahtuma: |
-      [Baltian Tie -joukkuematematiikkakilpailu](http://bw15.math.su.se/) Tukholmassa.
-  - pvm: "27.&ndash;29.11. (viikko 48)"
-    tapahtuma: |
-      Valmennusviikonvaihde  Päivölässä.
   
   - pvm: "2016"
     tapahtuma: "Kevät ja kesä"
