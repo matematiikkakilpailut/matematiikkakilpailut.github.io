@@ -28,7 +28,7 @@ aikataulu:
     tapahtuma: |
       Valmennusviikonvaihde Päivölässä.
       Aiheet: alakerrassa geometria (käy läpi [geometrisen todistamisen perusharjoitus](/kirjallisuus/geomtodharj.pdf))
-      ja lukuteoria (lue [törmäyskurssin](/kirjallisuus/tormayskurssi.pdf) luvut 1 ja 2), yläkerrassa kombinatoriikka ja lukuteoria.
+      ja lukuteoria (lue [törmäyskurssin](/kirjallisuus/tormayskurssi.pdf) luvut 1 ja 2), yläkerrassa kombinatoriikka ja geometria.
   - pvm: "5.4."
     tapahtuma: |
      Pohjoismainen matematiikkakilpailu erikseen kutsutuille.
