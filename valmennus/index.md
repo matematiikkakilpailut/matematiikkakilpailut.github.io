@@ -28,11 +28,11 @@ mukana ovat lähettäjän yhteystiedot!
 
 ### Ajankohtaiset tehtävät
 
-Helmikuun 2016 [tehtävät](2016/vt2_2016.pdf).
-
-Tammikuun 2016 [helpommat](2016/vt1_2016he.pdf) ja [vaativammat](2016/vt1_2016va.pdf) teht&auml;v&auml;t.
+Helmikuun 2016 [tehtävät](2016/vt2_2016.pdf). Huom. Tehtävässä 4 on painovirhe: viimeisen CL:n tulee olla SL!
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
+
+Tammikuun 2016 [helpommat](2016/vt1_2016he.pdf) ja [vaativammat](2016/vt1_2016va.pdf) teht&auml;v&auml;t.
 
 Marras-joulukuun 2015 [valmennusteht&auml;v&auml;t](2015/vt2015_11.pdf) ja niiden [ratkaisut](2015/vt2015_11ratk.pdf).
 
