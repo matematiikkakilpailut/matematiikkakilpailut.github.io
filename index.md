@@ -61,6 +61,8 @@ kysymyksistä löytyy lisätietoa [täältä](kaytanto).
 
 ## <a name="uutisia"></a>Uutisia
 
+* Pohjoismainen matematiikkakilpailu pidettiin 5.4.2016. Suomesta kilpailuun osallistui 20 erikseen kutsuttua. Ratkaisut arvioidaan Tanskassa, ja tulokset kerrotaan, kun arviointi on suoritettu. [Tehtävät](PM/2016/NMC2016suom.pdf) ja niiden [ratkaisut](PM/2016/NMC2016ratk.pdf) löytyvät alasivulta [Pohjoismainen kilpailu](PM/index.md).
+
 * Lukion matematiikkakilpailun loppukilpailu pidettiin 22.1.2016 Munkkiniemen yhteiskoulussa Helsingissä. Kilpailun voitti **Akseli Antikainen** Kuopiosta. Jaetulle toiselle sijalle tulivat **Ella Anttila** Helsingistä ja **Jesse Nieminen** Nokialta. [Tulosluettelo](MAOL/2016/tulokset_2016.pdf).
 
 * Baltian Tie -joukkuematematiikkakilpailun vuonna 2015 voitti Pietarin joukkue, seuraavina Puola ja Viro. Vierailevana joukkueena mukana ollut Hollanti oli neljäs. Suomi oli 9.
@@ -82,13 +84,7 @@ j&auml;rjestettiin 14.&ndash;20. huhtikuuta 2015 Minskiss&auml;. Kilpailijoita
  **Ella Anttila** ja **Tara Vaittinen**. 
 [Tulosluettelo][EGMO-tulokset-minsk].
 
-* Vuoden 2015   Pohjoismainen matematiikkakilpailu pidettiin 24.
-  maaliskuuta 2015 kotirataotteluna kilpailijoiden kouluissa.
- Osallistujia oli yhteens&auml; 85 kaikista Pohjoismaista.
- Teht&auml;v&auml;t osoittautuivat suhteellisen helpoiksi, ja
- t&auml;ysiin pisteisiin ylsi kuusi kilpailijaa, kolme Ruotsista,
- kaksi Islannista ja yksi Tanskasta. Paras suomalainen oli 
-**Kalle Luopaj&auml;rvi** jaetulla 12. sijalla.
+
 
 
 Vanhempia uutisia löytyy [uutisarkistosta](vanhaset.html).
@@ -133,7 +129,7 @@ kilpailu&shy;matematiikka&shy;valmennus&shy;tilaisuuksia. Tarkemmin [tästä][ou
 Päivölässä toimii [matematiikkalinja](http://www.paivola.fi/?menu=2&amp;sivu=matematiikka),
 jonka yhteydessä järjestetään viikonloppu&shy;valmennuksia.
    
-#### [Solmu](http://solmu.math.helsinki.fi/)
+#### [Solmu](http://matematiikkalehtisolmu.fi/)
 
 Matematiikkalehti, johon sinäkin voisit kenties kirjoittaa jotain.
 
