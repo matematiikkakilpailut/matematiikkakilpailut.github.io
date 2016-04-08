@@ -61,7 +61,7 @@ kysymyksistä löytyy lisätietoa [täältä](kaytanto).
 
 ## <a name="uutisia"></a>Uutisia
 
-* Pohjoismainen matematiikkakilpailu pidettiin 5.4.2016. Suomesta kilpailuun osallistui 20 erikseen kutsuttua. Ratkaisut arvioidaan Tanskassa, ja tulokset kerrotaan, kun arviointi on suoritettu. [Tehtävät](PM/2016/NMC2016suom.pdf) ja niiden [ratkaisut](PM/2016/NMC2016ratk.pdf) löytyvät alasivulta [Pohjoismainen kilpailu](PM/index.md).
+* Pohjoismainen matematiikkakilpailu pidettiin 5.4.2016. Suomesta kilpailuun osallistui 20 erikseen kutsuttua. Ratkaisut arvioidaan Tanskassa, ja tulokset kerrotaan, kun arviointi on suoritettu. [Tehtävät](PM/2016/NMC2016suom.pdf) ja niiden [ratkaisut](PM/2016/NMC2016ratk.pdf) löytyvät alasivulta [Pohjoismainen kilpailu](PM/).
 
 * Lukion matematiikkakilpailun loppukilpailu pidettiin 22.1.2016 Munkkiniemen yhteiskoulussa Helsingissä. Kilpailun voitti **Akseli Antikainen** Kuopiosta. Jaetulle toiselle sijalle tulivat **Ella Anttila** Helsingistä ja **Jesse Nieminen** Nokialta. [Tulosluettelo](MAOL/2016/tulokset_2016.pdf).
 
