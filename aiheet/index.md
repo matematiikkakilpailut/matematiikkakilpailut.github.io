@@ -97,7 +97,7 @@ Materiaaliin kuuluu myös [tehtäväkokoelmia](#tehtavat) ja [muuta](#muita).
 	Laajennettu Matti Lehtisen esityksistä Päivölässä huhtikuussa 2009 ja helmikuussa 2011.
 *   [Projektiivisen geometrian alkeita](/kirjallisuus/projgeom.pdf)
 	Lyhyt ja melko konkreettinen katsaus geometrian tehtävien ratkaisemisessa
-	toisinaan hyödyllisiin projektiivisiin menetelmiin. Matti Lehtisen kirjoittama.
+	toisinaan hyödyllisiin projektiivisiin menetelmiin. Matti Lehtisen kirjoittama. Viimeksi täydennetty mm. tehtävien ratkaisuilla huhtikuussa 2016.
 *   [Geometriaa kuvauksin](/kirjallisuus/geomkuvteht.pdf)
     Johdatus geometrisiin kuvauksiin erittäin tiiviiden määritelmien ja noin 60 tehtävän
 	kautta. Tehtäviin löytyy myös lyhyet [ratkaisut](/kirjallisuus/geomkuvratk.pdf).
