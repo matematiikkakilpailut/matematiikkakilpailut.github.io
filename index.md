@@ -80,15 +80,6 @@ kysymyksistä löytyy lisätietoa [täältä](kaytanto).
 
 * Vuoden 2015 matematiikkaolympiajoukkueen valinta- ja valmennusviikko oli 3. &ndash; 8. toukokuuta P&auml;iv&ouml;l&auml; Opistossa Valkeakoskella. Olympiajoukkueeseen valittiin **Ella Anttila**, **Juuso Heinonen**, **Tuukka Korhonen**, **Iiro Kumpulainen**, **Kalle Luopaj&auml;rvi** ja **Ella Tamir**. Joukkueen johtaja on **Matti Lehtinen** ja varajohtaja **Joni Ter&auml;v&auml;inen**.
 
-* Nelj&auml;nnet Euroopan Tytt&ouml;jen Matematiikkaolympialaiset 
-j&auml;rjestettiin 14.&ndash;20. huhtikuuta 2015 Minskiss&auml;. Kilpailijoita
- oli 109 kaikkiaan 30 maasta. Suomea edustivat **Ella Tamir**,
- **Ella Anttila** ja **Tara Vaittinen**. 
-[Tulosluettelo][EGMO-tulokset-minsk].
-
-
-
-
 Vanhempia uutisia löytyy [uutisarkistosta](vanhaset.html).
 
 [bt-tulokset]: http://mif.vu.lt/balticway2014/wp-content/uploads/2014/07/bw2014rez.pdf
