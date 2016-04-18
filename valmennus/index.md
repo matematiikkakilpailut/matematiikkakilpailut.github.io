@@ -28,7 +28,7 @@ mukana ovat lähettäjän yhteystiedot!
 
 ### Ajankohtaiset tehtävät
 
-Huhtikuun 2016 [tehtävät](2016/tehtavasarja_huhtikuu2016.pdf). Olympiajoukkueeseen toivovien tulisi palauttaa tehtävät ajoissa, viimeistään toukokuun valmennusleirille.
+Huhtikuun 2016 [tehtävät](2016/tehtavasarja_huhtikuu2016.pdf). Olympiajoukkueeseen toivovien tulisi palauttaa tehtävät ajoissa, viimeistään toukokuun valmennusleirille. Huom! Vaativampien tehtävien numerossa 6 on painovirhe. Suorien GE ja BC leikkaukseksi määritellyn pisteen J tulee olla suorien GE ja AD leikkauspiste.
 
 Helmikuun 2016 [tehtävät](2016/vt2_2016.pdf). Huom. Tehtävässä 4 on painovirhe: viimeisen CL:n tulee olla SL!
 
