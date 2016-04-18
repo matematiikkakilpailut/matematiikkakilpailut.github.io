@@ -61,7 +61,7 @@ kilpailuun enintään nelihenkisellä joukkueella.
 
 Vuoden 2016 joukkue: Ella Anttila. Joukkueen johtajana Esa Vesalainen.
 
-Vuoden 2015 joukkue: Ella Anttila, Ella Tamir, Tara Vaittinen. Joukkueen johtajana Esa Vesalainen ja varajohtajana Mirjam Kauppila.
+Vuoden 2015 joukkue: Ella Anttila, Ella Tamir ja Tara Vaittinen. Joukkueen johtajana Esa Vesalainen ja varajohtajana Mirjam Kauppila.
 
 Vuoden 2014 joukkue: Minna Hirvonen, Mirjam Kauppila, Ella Tamir ja
 Tara Vaittinen. Joukkueen johtajana Anne-Maria Ernvall-Hytönen ja
