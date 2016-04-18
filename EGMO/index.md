@@ -26,8 +26,7 @@ kilpailut:
   - vuosi: "2016"
     paikka:"[Bu&scedil;teni, Romania](https://www.egmo.org/egmos/egmo5/)"
     tehtavat: "[pdf](EGMO_2016teht.pdf)"
-    ratkaisut: " "
-
+    ratkaisut: "-"
 ---
 ## Euroopan Tyttöjen Matematiikka&shy;olympialaiset – EGMO
 
