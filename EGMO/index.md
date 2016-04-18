@@ -23,9 +23,7 @@ kilpailut:
     paikka: "[Minsk, Valko-Venäjä](https://www.egmo.org/egmos/egmo4/)"
     tehtavat: "[pdf](EGMO_2015teht.pdf)"
     ratkaisut: "[englanniksi](EGMO_2015sol.pdf)"
-  - vuosi: "2016"
-    paikka: "[Busteni, Romania](https://www.egmo.org/egmos/egmo5/)"
-    tehtavat: "[pdf](EGMO_2016teht.pdf)"
+  
 ---
 ## Euroopan Tyttöjen Matematiikka&shy;olympialaiset – EGMO
 
