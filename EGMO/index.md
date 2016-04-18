@@ -59,7 +59,7 @@ kilpailuun enintään nelihenkisellä joukkueella.
 
 ### Suomen joukkue
 
-Vuoden 2016 joukkue: Ella Anttila. Joukkueen johtajana Esa Vesalainen.
+Vuoden 2016 joukkue: Ella Anttila. Joukkueen johtajana Esa Vesalainen. Ella Anttila palkittiin pronssimitalilla.
 
 Vuoden 2015 joukkue: Ella Anttila, Ella Tamir ja Tara Vaittinen. Joukkueen johtajana Esa Vesalainen ja varajohtajana Mirjam Kauppila.
 
