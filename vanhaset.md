@@ -9,7 +9,7 @@ title: Uutisarkisto
  j&auml;rjestettiin 14.&ndash;20. huhtikuuta 2015 Minskiss&auml;. Kilpailijoita
  oli 109 kaikkiaan 30 maasta. Suomea edustivat **Ella Tamir**,
  **Ella Anttila** ja **Tara Vaittinen**. 
-[Tulosluettelo][EGMO-tulokset-minsk].
+[Tulosluettelo](https://www.egmo.org/egmos/egmo4/scoreboard/).
 
 * Vuoden 2015   Pohjoismainen matematiikkakilpailu pidettiin 24.
   maaliskuuta 2015 kotirataotteluna kilpailijoiden kouluissa.
