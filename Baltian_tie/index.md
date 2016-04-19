@@ -141,7 +141,7 @@ kilpailut:
     ratkaisut: "[pdf](2010/Bt2010ratk.pdf)"
     joukkue: "Olli Hirviniemi, Ilmari Kangasniemi, Dimitri Kirichenko, Markus Pajarre, Felix Sjöblom"
   - vuosi: "2011"
-    paikka: "[Greifs&shy;wald](http://www.balticway-2011.de/)"
+    paikka: "Greifs&shy;wald"
     sijoitus: "[50 (6.)](2011/BW2011_lista.pdf)"
     tehtavat: "[pdf](2011/Bt2011.pdf), [ps](2011/Bt2011.ps)."
     ratkaisut: >-
