@@ -38,7 +38,7 @@ aikataulu:
   - pvm: "15.&ndash;17.4. (viikko 15)"
     tapahtuma: |
      Valmennusviikonvaihde Päivölässä.
-  - pvm: "9.&ndash;14.5. (viikko 19)"
+  - pvm: "9.&ndash;15.5. (viikko 19)"
     tapahtuma: |
      Matematiikkaolympiajoukkueen valinta- ja valmennusleiri Päivölässä erikseen kutsutuille. Muut kuin kutsutut voivat            osallistua omakustanteisesti.
   - pvm: "3.&ndash;8.7."
