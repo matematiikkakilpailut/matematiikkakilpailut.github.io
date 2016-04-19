@@ -142,7 +142,7 @@ kilpailut:
     joukkue: "Olli Hirviniemi, Ilmari Kangasniemi, Dimitri Kirichenko, Markus Pajarre, Felix Sjöblom"
   - vuosi: "2011"
     paikka: "[Greifs&shy;wald](http://www.balticway-2011.de/)"
-    sijoitus: "[50 (6.)](http://www.balticway-2011.de/wp-content/uploads/2011/11/resultsOnlyTable.pdf)"
+    sijoitus: "[50 (6.)](2011/BW2011_lista.pdf)"
     tehtavat: "[pdf](2011/Bt2011.pdf), [ps](2011/Bt2011.ps)."
     ratkaisut: >-
       [pdf](2011/Bt2011ratk.pdf),
@@ -190,8 +190,8 @@ vuonna 2005 Suomi oli toinen kahdentoista maan joukossa.
 Osallistuvia maita ovat Viro, Latvia, Liettua, Suomi, Ruotsi, Norja,
 Tanska, Islanti, Puola, Venäjä (Pietari) ja Saksa. Vuodesta 2001
 alkaen järjestäjämaa on voinut kutsua kilpailuun myös yhden
-vierailevan maan. Vuonna 2001 kutsuttiin Israel, 2004 Valko-Venäjä ja
-2005 Belgia.
+vierailevan maan. Vuonna 2001 kutsuttiin Israel, 2004 ja 2014 Valko-Venäjä,
+2005 Belgia, 2011 Etelä-Afrikka ja 2015 Hollanti.
 
 ### Tehtävät ja ratkaisut
 
