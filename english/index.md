@@ -79,6 +79,8 @@ too.
 
 [Problem compilation from years 1997-2008](/kirjallisuus/fhsmc.pdf)
 
+FHSMC [first round](/valmennus/English/2008alkueng.pdf) problems, 2008.
+
 [Problems of the FHSMC 2009–10 and Nordic Math Contest, 2010](/valmennus/English/MAOL2009_10.pdf)
 
 FHSMC [first round](/valmennus/English/alku2010eng.pdf) and
