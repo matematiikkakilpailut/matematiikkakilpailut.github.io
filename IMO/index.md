@@ -121,7 +121,7 @@ kilpailut:
     sijoitus: "26 p. (82/104) "
     tehtavat: "[pdf](2015/teht2015.pdf)"
     ratkaisut: "[pdf](2015/ratk2015.pdf)"
-    muuta: " "
+    muuta: "[tulosluettelo](https://www.imo-official.org/year_country_r.aspx?year=2015)"
 
 ---
 ## Kansainväliset matematiikkaolympialaiset
