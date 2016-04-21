@@ -46,7 +46,7 @@ aikataulu:
      Matematiikkaolympiajoukkueiden pohjoismainen valmennusleiri Sorøssä Tanskassa.
   - pvm: "9.&ndash;16.7."
     tapahtuma: |
-      [57. Kansainväliset matematiikka&shy;olympialaiset](http://www.imohkc.org.hk/)
+      [57. Kansainväliset matematiikka&shy;olympialaiset](http://www.imo2016.org/Home.php)
       Hongkongissa.
   - pvm: "2016"
     tapahtuma: "Syksy"
