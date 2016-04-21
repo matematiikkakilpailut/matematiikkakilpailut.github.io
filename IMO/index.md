@@ -176,7 +176,7 @@ vuosien 1959–74 [tehtävät](imot59_74.pdf) ja
 [tehtävät](imot75_94.pdf) ja [ratkaisut](imor75_94.pdf). Erityisesti
 matematiikkaolympialaisten ensimmäisten vuosien tehtävät ovat selvästi
 nykyisiä helpompia ja sopivat siis hyvin kilpailumatematiikan
-harjoitteluun. Vuosien 1995–2014 tehtävät ja ratkaisut voi ladata
+harjoitteluun. Vuosien 1995–2015 tehtävät ja ratkaisut voi ladata
 [tästä](imokaikki.pdf) (n. 960 kt). Myös tämän sivun lopussa oleva
 taulukko sisältää linkkejä eri vuosien tehtäviin ja niiden
 ratkaisuihin.
