@@ -162,7 +162,7 @@ kilpailut:
     paikka: "[Vil&shy;na](http://mif.vu.lt/balticway2014/)"
     sijoitus: "[29 (11.)](http://mif.vu.lt/balticway2014/wp-content/uploads/2014/07/bw2014rez.pdf)"
     tehtavat: "[pdf](/Baltian_tie/2014/BW2014teht.pdf)"
-    ratkaisut: "[eng&shy;lan&shy;niksi](/Baltian_tie/2014/Bt2014rateng.pdf)"
+    ratkaisut: "[tehtävät ja ratkaisut](/Baltian_tie/2014/Bt2014ratk.pdf), [eng&shy;lan&shy;niksi](/Baltian_tie/2014/Bt2014rateng.pdf)"
     joukkue: "Petteri Huuskonen, Qianyue Jin, Iiro Kumpulainen, Kalle Luopajärvi, Ella Tamir"
   - vuosi: "2015"
     paikka: "[Tuk&shy;hol&shy;ma](http://bw15.math.su.se/)"
