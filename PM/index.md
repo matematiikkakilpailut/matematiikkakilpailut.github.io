@@ -40,6 +40,7 @@ kilpailut:
   - vuosi: 2016
     tehtavat: "2016/NMC2016suom.pdf"
     ratkaisut: "2016/NMC2016ratk.pdf"
+    tulokset: "2016/NMC2016_tulokset.pdf"
 ---
 ## Pohjoismainen matematiikka&shy;kilpailu
 
