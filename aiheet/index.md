@@ -57,6 +57,8 @@ Materiaaliin kuuluu myös [tehtäväkokoelmia](#tehtavat) ja [muuta](#muita).
     Sekalainen valikoima epäyhtälö&shy;tehtäviä
     [ratkaisuehdotuksin](/kirjallisuus/inequalities_solutions.pdf).
 	Koonnut Esa Vesalainen.
+*   [IMO-tason funktionaaliyhtälötehtäviä](/kirjallisuus/imoehdfnyht.pdf)
+    Matematiikka&shy;olympialaisiin ehdolla olleita funktionaali&shy;yhtälö&shy;tehtäviä ratkaisuineen.
 
 ### <a name="geometria"></a>Geometria
 
@@ -104,6 +106,9 @@ Materiaaliin kuuluu myös [tehtäväkokoelmia](#tehtavat) ja [muuta](#muita).
 *   [Epäeuklidisen geometrian alkeita](/kirjallisuus/eeukl.pdf)
     Geometriaa ilman paralleeliaksioomaa ja hyperbolisen geometrian Poincarén mallin
 	pääpiirteitä. Matti Lehtisen esitys valmennusviikonvaihteessa tammikuussa 2013.
+*   [IMO-tason geometrisia epäyhtälöitä](/kirjallisuus/imoehdgeomey.pdf)
+	Matematiikka&shy;olympialaisiin ehdolla olleita tehtäviä, joiden aihe on geometrinen epäyhtälö.
+	Tehtävät on esitetty ratkaisuineen.
 
 ### <a name="kombinatoriikka"></a>Kombinatoriikka
 
@@ -165,11 +170,6 @@ Materiaaliin kuuluu myös [tehtäväkokoelmia](#tehtavat) ja [muuta](#muita).
 *   [Baltian Tie -kilpailun tehtävät vuosilta 1990 – 2012](/Baltian_tie/bwteht.pdf).
 	460 tehtävää. Ratkaisukokolmia löytyy vuosien [1990–99](/Baltian_tie/Btratk1990_99.pdf)
 	ja [2000–05](/Baltian_tie/Btratk2000_09.pdf) tehtäviin. Ratkaisu&shy;koosteita täydennetään.
-*   [IMO-tason funktionaaliyhtälötehtäviä](/kirjallisuus/imoehdfnyht.pdf)
-    Matematiikka&shy;olympialaisiin ehdolla olleita funktionaali&shy;yhtälö&shy;tehtäviä ratkaisuineen.
-*   [IMO-tason geometrisia epäyhtälöitä](/kirjallisuus/imoehdgeomey.pdf)
-	Matematiikka&shy;olympialaisiin ehdolla olleita tehtäviä, joiden aihe on geometrinen epäyhtälö.
-	Tehtävät on esitetty ratkaisuineen.
 *   [IMO-ehdokastehtäväkokoelma](/kirjallisuus/imoehdteht.pdf)
     138 matematiikka&shy;olympialaisiin ehdolla ollutta tehtävää ryhmiteltyinä jaon
 	”algebra - geometria - kombinatoriikka - lukuteoria” mukaisesti. Tehtävät on toistaiseksi
