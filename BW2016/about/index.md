@@ -49,6 +49,7 @@ advisory committee comprises [Docent Kerkko Luosto][kerkko],
 The contest is sponsored by:
 
 * [Finnish Academy of Science and Letters][tiedeaka], Mathematics Fund
+* [Technology Industries of Finland Centennial Foundation][100v]
 * [Nokia][nokia], emphasis on supporting girls participating in the competition
 * [F-Secure][fsec]
 * [Nordic Semiconductor][nordicsemi]
@@ -67,6 +68,7 @@ The contest is sponsored by:
 [tiedeaka]: http://www.acadsci.fi/frontpage.htm
 [tampere]: http://www.uta.fi
 [painosalama]: http://www.painosalama.fi/
+[100v]: http://100-vuotissaatio.teknologiateollisuus.fi/technology-industries-finland-centennial-foundation
 
 The organizing committee is looking for further sponsors. Sponsors
 have a unique opportunity to reach a set of talented pre-university
