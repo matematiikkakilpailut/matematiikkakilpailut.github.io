@@ -76,6 +76,6 @@ Kilpailu järjestetään Helsingissä, Oulussa ja Turussa.
 [Pohjoismainen matematiikkakilpailu](http://mathclasscomp.com/),
 johon Suomessa osallistuvat kahdeksas&shy;luokkalaiset.
 
-### Mattetäphlan
+#### Mattetäphlan
 
 Mattetäphlan on Aalto-yliopiston opiskelija&shy;killan [Teknologföreningenin](https://www.teknologforeningen.fi/) järjestämä matematiikka&shy;kilpailu kaikille ruotsin&shy;kielisten lukioiden abeille. Kilpailu järjestetään vuosittain ja siihen kuuluu alku&shy;kilpailu omassa koulussa ja loppu&shy;kilpailu Otaniemessä. 
