@@ -5,7 +5,7 @@ title: Uutisarkisto
 
 ## Vanhoja uutisia
 
-* Olympiavalmennus järjesti perinteisen kesävalmennuksen 9.&ndash;12.6 Helsingin yliopiston Kumpulan kampuksella Exactumissa. 
+* Olympiavalmennus järjesti perinteisen kesävalmennuksen 9.&ndash;12.6.2015 Helsingin yliopiston Kumpulan kampuksella Exactumissa. 
 
 * Vuoden 2015 matematiikkaolympiajoukkueen valinta- ja valmennusviikko oli 3. &ndash; 8. toukokuuta P&auml;iv&ouml;l&auml;n Opistossa Valkeakoskella. Olympiajoukkueeseen valittiin **Ella Anttila**, **Juuso Heinonen**, **Tuukka Korhonen**, **Iiro Kumpulainen**, **Kalle Luopaj&auml;rvi** ja **Ella Tamir**. Joukkueen johtaja on **Matti Lehtinen** ja varajohtaja **Joni Ter&auml;v&auml;inen**.
 * Nelj&auml;nnet Euroopan Tytt&ouml;jen Matematiikkaolympialaiset 
