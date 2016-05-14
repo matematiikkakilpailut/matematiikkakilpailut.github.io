@@ -61,7 +61,7 @@ kysymyksistä löytyy lisätietoa [täältä](kaytanto).
 
 ## <a name="uutisia"></a>Uutisia
 
-* Suomen joukkue heinäkuun 2016 Kansainvälisiin matematiikkaolympialaisiin Hongkongiin valittiin viikolla 19 Päivölän Opistossa pidetyn valmennus- ja valintaviikon aikana. Joukkueessa ovat **Ella Anttila**, **Hannes Ihalainen**, **Alvar Kallio**, **Iiro Kumpulainen**, **Joose Lehtinen** ja **Antti Röyskö**. Joukkueen johtaja on Esa Vesalainen ja varajohtaja Jesse Jääsaari.
+* Suomen joukkue heinäkuun 2016 Kansainvälisiin matematiikkaolympialaisiin Hongkongiin valittiin viikolla 19 Päivölän Opistossa pidetyn valmennus- ja valintaviikon aikana. Joukkueessa ovat **Ella Anttila**, **Hannes Ihalainen**, **Alvar Kallio**, **Iiro Kumpulainen**, **Joose Lehtinen** ja **Antti Röyskö**. Joukkueen johtaja on **Esa Vesalainen** ja varajohtaja **Jesse Jääsaari**.
 
 * Viidennet Euroopan Tyttöjen Matematiikkaolympialaiset pidettiin 10.-16. 4. 2016 Romanian Bustenissa. Suomen ainoa edustaja **Ella Anttila** palkittiin pronssimitalilla. [Tulokset](https://www.egmo.org/egmos/egmo5/scoreboard/).
 
@@ -78,9 +78,7 @@ kysymyksistä löytyy lisätietoa [täältä](kaytanto).
 * Vuoden 2015 Kansainväliset matematiikkaolympialaiset järjestettiin Thaimaan Chiang Maissa 6. &ndash; 14. heinäkuuta. Kaikkiaan 104 maan joukkueet osallistuivat; kilpailijoita oli 577. Kilpailun tehtäväsarja muodostui aiottua vaikeammaksi, kun toisen päivän tehtävien vuodettua ne jouduttiin korvaamaan varatehtävillä. Kanadan **Alex Song** pääsi ainoana kilpailijana täysiin pisteisiin. Maiden välisen kilpailun paras oli Yhdysvallat. Suomi oli 82. Suomen **Kalle Luopajärvi** sai kunniamaininnan. 
 [Tulosluettelo](http://www.imo-official.org/year_individual_r.aspx?year=2015&column=total&order=desc).
 
-* Olympiavalmennus järjestää perinteisen kesävalmennuksen 9.&ndash;12.6 Helsingin yliopiston Kumpulan kampuksella Exactumissa (sali B321), klo. 9&ndash;16. Tervetuloa!
 
-* Vuoden 2015 matematiikkaolympiajoukkueen valinta- ja valmennusviikko oli 3. &ndash; 8. toukokuuta P&auml;iv&ouml;l&auml; Opistossa Valkeakoskella. Olympiajoukkueeseen valittiin **Ella Anttila**, **Juuso Heinonen**, **Tuukka Korhonen**, **Iiro Kumpulainen**, **Kalle Luopaj&auml;rvi** ja **Ella Tamir**. Joukkueen johtaja on **Matti Lehtinen** ja varajohtaja **Joni Ter&auml;v&auml;inen**.
 
 Vanhempia uutisia löytyy [uutisarkistosta](vanhaset.html).
 
