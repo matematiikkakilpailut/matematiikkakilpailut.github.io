@@ -61,7 +61,7 @@ kysymyksistä löytyy lisätietoa [täältä](kaytanto).
 
 ## <a name="uutisia"></a>Uutisia
 
-* Suomen joukkue heinäkuun 2016 Kansainvälisiin matematiikkaolympialaisiin Hongkongiin valittiin viikolla 19 Päivölän Opistossa pidetyn valmennus- ja valintaviikon aikana. Joukkueessa ovat **Ella Anttila**, **Hannes Ihalainen**, **Alvar Kallio**, **Iiro Kumpulainen**, **Joose Lehtinen** ja **Antti Röyskö**. Joukkueen johtaja on **Esa Vesalainen** ja varajohtaja **Jesse Jääsaari**.
+* Suomen joukkue heinäkuun 2016 Kansainvälisiin matematiikkaolympialaisiin Hongkongiin valittiin viikolla 19 Päivölän Opistossa pidetyn valmennus- ja valintaviikon aikana. Joukkueessa ovat **Ella Anttila**, **Hannes Ihalainen**, **Alvar Kallio**, **Iiro Kumpulainen**, **Joose Lehtinen** ja **Antti Röyskö**. Joukkueen johtaja on **Esa Vesalainen** ja varajohtaja **Jesse Jääsaari**. (14.5.2016)
 
 * Viidennet Euroopan Tyttöjen Matematiikkaolympialaiset pidettiin 10.-16. 4. 2016 Romanian Bustenissa. Suomen ainoa edustaja **Ella Anttila** palkittiin pronssimitalilla. [Tulokset](https://www.egmo.org/egmos/egmo5/scoreboard/).
 
@@ -71,7 +71,7 @@ kysymyksistä löytyy lisätietoa [täältä](kaytanto).
 
 * Baltian Tie -joukkuematematiikkakilpailun vuonna 2015 voitti Pietarin joukkue, seuraavina Puola ja Viro. Vierailevana joukkueena mukana ollut Hollanti oli neljäs. Suomi oli 9.
 
-* Vuoden 2015 Baltian tie -joukkue on valittu: Suomea edustavat Ella Anttila, Petrus Asikainen, Iiro Kumpulainen, Kalle Luopaj&auml;rvi ja Jesse Nieminen.
+* Vuoden 2015 Baltian tie -joukkueeseen valittiin Suomea edustamaan **Ella Anttila**, **Petrus Asikainen**, **Iiro Kumpulainen**, **Kalle Luopaj&auml;rvi** ja **Jesse Nieminen**. Joukkueen johtaja on **Anne-Maria Ernvall-Hytönen** ja varajohtaja **Jari Lappalainen**.
 
 * Ennakkotiedoista poiketen Ruotsi ei järjestäkään vuonna 2015 opettajien Kappa-kilpailua.
 
