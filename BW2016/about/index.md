@@ -50,6 +50,7 @@ The contest is sponsored by:
 
 * [Finnish Academy of Science and Letters][tiedeaka], Mathematics Fund
 * [Technology Industries of Finland Centennial Foundation][100v]
+* [Oscar Öflunds stiftelse][oflund]
 * [Nokia][nokia], emphasis on supporting girls participating in the competition
 * [F-Secure][fsec]
 * [Nordic Semiconductor][nordicsemi]
@@ -69,6 +70,7 @@ The contest is sponsored by:
 [tampere]: http://www.uta.fi
 [painosalama]: http://www.painosalama.fi/
 [100v]: http://100-vuotissaatio.teknologiateollisuus.fi/technology-industries-finland-centennial-foundation
+[oflund]: http://oskaroflund.fi/
 
 The organizing committee is looking for further sponsors. Sponsors
 have a unique opportunity to reach a set of talented pre-university
