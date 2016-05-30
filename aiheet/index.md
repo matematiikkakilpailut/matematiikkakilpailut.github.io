@@ -172,8 +172,7 @@ Materiaaliin kuuluu myös [tehtäväkokoelmia](#tehtavat) ja [muuta](#muita).
 	ja [2000–05](/Baltian_tie/Btratk2000_09.pdf) tehtäviin. Ratkaisu&shy;koosteita täydennetään.
 *   [IMO-ehdokastehtäväkokoelma](/kirjallisuus/imoehdteht.pdf)
     138 matematiikka&shy;olympialaisiin ehdolla ollutta tehtävää ryhmiteltyinä jaon
-	”algebra - geometria - kombinatoriikka - lukuteoria” mukaisesti. Tehtävät on toistaiseksi
-	esitetty ilman ratkaisuja.
+	”algebra - geometria - kombinatoriikka - lukuteoria” mukaisesti. Muutamiin tehtäviin löytyy myös [ratkaisuja](/kirjallisuus/imoehdratk.pdf).
 *   [Kappa-kilpailun tehtävät 2014](/Kappa/Kappa_14_teht.pdf) Ruotsin opettajien matematiikkakilpailun tehtävät.
 
 ### <a name="muita"></a>Muita
