@@ -5,5 +5,5 @@ sitemap: false
 url: /BW2016/regulations/
 ---
 
-(work in progress)
+Baltic Way 2016 [regulations](BW16regulations.pdf) follow the already traditional pattern.
 
