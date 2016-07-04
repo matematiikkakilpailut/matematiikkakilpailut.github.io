@@ -10,7 +10,7 @@ sitemap: false
 
 <div class="jumbotron"><div class="container">
 <h1>Baltic Way 2016</h1>
-<p>Mathematical group contest</p>
+<p>Mathematical team contest</p>
 </div></div>
 
 <div class="container"><div class="row">
