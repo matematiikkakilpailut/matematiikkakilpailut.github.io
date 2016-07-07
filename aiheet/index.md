@@ -75,7 +75,7 @@ Materiaaliin kuuluu myös [tehtäväkokoelmia](#tehtavat) ja [muuta](#muita).
 *   [Geometrian täydennystä](/kirjallisuus/geomlis13.pdf).
 	Muutamia _Kilpailumatematiikan oppaan_ geometriaosuutta täydentäviä faktoja
 	lyhyine perusteluineen. Matti Lehtisen esitys toukokuussa 2013.
-*   [Geometrian pitempi oppimäärä](http://www.elisanet.fi/matti.t.lehtinen/geom13.pdf)
+*   [Geometrian pitempi oppimäärä](http://www.elisanet.fi/matti.t.lehtinen/Geom2016kaikki.pdf)
 	Matti Lehtisen geometrian luentokurssin uusin versio. Se kattaa kilpailuissa
 	tarvittavan klassisen geometrian ja vähän enemmänkin. Ratkaisut kurssin harjoitustehtäviin
 	löytyvät [tästä](http://www.elisanet.fi/matti.t.lehtinen/geom13_hr.pdf).
