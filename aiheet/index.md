@@ -77,8 +77,7 @@ Materiaaliin kuuluu myös [tehtäväkokoelmia](#tehtavat) ja [muuta](#muita).
 	lyhyine perusteluineen. Matti Lehtisen esitys toukokuussa 2013.
 *   [Geometrian pitempi oppimäärä](http://www.elisanet.fi/matti.t.lehtinen/Geom2016kaikki.pdf)
 	Matti Lehtisen geometrian luentokurssin uusin versio. Se kattaa kilpailuissa
-	tarvittavan klassisen geometrian ja vähän enemmänkin. Ratkaisut kurssin harjoitustehtäviin
-	löytyvät [tästä](http://www.elisanet.fi/matti.t.lehtinen/geom13_hr.pdf).
+	tarvittavan klassisen geometrian ja vähän enemmänkin. 
 *   [Analyyttistä geometriaa kilpailutehtävien kautta](/kirjallisuus/ag.pdf)
     Geometristen tehtävien ratkaisemisesta analyyttisen geometrian keinoin.
 	Jouni Seppäsen kirjoittama, viimeisin versio huhtikuulta 2014.
