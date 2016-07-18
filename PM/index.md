@@ -37,6 +37,9 @@ kilpailut:
     tehtavat: "2015/NMC2015suom.pdf"
     ratkaisut: "2015/NMC2015ratk.pdf"
     tulokset: "2015/NMC2015_Results.pdf"
+  - vuosi: 2016
+    tehtavat: "2016/NMC2016suom.pdf"
+    ratkaisut: "2016/NMC2016ratk.pdf"
 ---
 ## Pohjoismainen matematiikka&shy;kilpailu
 
@@ -73,7 +76,7 @@ _Matti Lehtinen: Matematiikan olympiakirja._ Näiden
 vuosien [tehtävät](nmct87_94.pdf) ja [ratkaisut](nmcr87_94.pdf) saa myös
 oheisista linkeistä.
 
-[Vuosien 1995–2015 tehtävät ja ratkaisut](nmckaikki.pdf) ovat
+[Vuosien 1995–2016 tehtävät ja ratkaisut](nmckaikki.pdf) ovat
 ladattavissa yhtenä tiedostona pdf-muodossa. Vuodesta 1995 lähtien on
 tarjolla kunkin vuoden tehtäviä ja ratkaisuja sekä PostScript- (lyh.
 ps) että pdf-muodossa seuraavan taulukon mukaisesti.

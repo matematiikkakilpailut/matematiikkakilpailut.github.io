@@ -5,6 +5,20 @@ title: Uutisarkisto
 
 ## Vanhoja uutisia
 
+* Nelj&auml;nnet Euroopan Tytt&ouml;jen Matematiikkaolympialaiset 
+ j&auml;rjestettiin 14.&ndash;20. huhtikuuta 2015 Minskiss&auml;. Kilpailijoita
+ oli 109 kaikkiaan 30 maasta. Suomea edustivat **Ella Tamir**,
+ **Ella Anttila** ja **Tara Vaittinen**. 
+[Tulosluettelo][EGMO-tulokset-minsk].
+
+* Vuoden 2015   Pohjoismainen matematiikkakilpailu pidettiin 24.
+  maaliskuuta 2015 kotirataotteluna kilpailijoiden kouluissa.
+ Osallistujia oli yhteens&auml; 85 kaikista Pohjoismaista.
+ Teht&auml;v&auml;t osoittautuivat suhteellisen helpoiksi, ja
+ t&auml;ysiin pisteisiin ylsi kuusi kilpailijaa, kolme Ruotsista,
+ kaksi Islannista ja yksi Tanskasta. Paras suomalainen oli 
+**Kalle Luopaj&auml;rvi** jaetulla 12. sijalla.
+
 * Lukion matematiikka&shy;kilpailun loppukilpailu pidettiin 30.1.2015
   Ressun lukiossa Helsingissä. Kilpailun voitti **Ella Tamir**
   Helsingin matematiikka&shy;lukiosta ja toisen sijan jakoivat **Ella
