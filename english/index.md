@@ -77,7 +77,11 @@ too.
 
 ### Finnish National High School Mathematics Competition (FHSMC)
 
-[Problem compilation from years 1997-2008](/kirjallisuus/fhsmc.pdf)
+[Problem compilation from years 1997-2008](/kirjallisuus/fhsmc.pdf). Problems of the final round.
+
+FHSM [first round, basic level](/valmennus/English/ps07eng.pdf) problems, 2007.
+
+FHSMC [first round](/valmennus/English/2008alkueng.pdf) problems, 2008.
 
 [Problems of the FHSMC 2009–10 and Nordic Math Contest, 2010](/valmennus/English/MAOL2009_10.pdf)
 

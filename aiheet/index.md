@@ -57,6 +57,8 @@ Materiaaliin kuuluu myös [tehtäväkokoelmia](#tehtavat) ja [muuta](#muita).
     Sekalainen valikoima epäyhtälö&shy;tehtäviä
     [ratkaisuehdotuksin](/kirjallisuus/inequalities_solutions.pdf).
 	Koonnut Esa Vesalainen.
+*   [IMO-tason funktionaaliyhtälötehtäviä](/kirjallisuus/imoehdfnyht.pdf)
+    Matematiikka&shy;olympialaisiin ehdolla olleita funktionaali&shy;yhtälö&shy;tehtäviä ratkaisuineen.
 
 ### <a name="geometria"></a>Geometria
 
@@ -73,10 +75,9 @@ Materiaaliin kuuluu myös [tehtäväkokoelmia](#tehtavat) ja [muuta](#muita).
 *   [Geometrian täydennystä](/kirjallisuus/geomlis13.pdf).
 	Muutamia _Kilpailumatematiikan oppaan_ geometriaosuutta täydentäviä faktoja
 	lyhyine perusteluineen. Matti Lehtisen esitys toukokuussa 2013.
-*   [Geometrian pitempi oppimäärä](http://www.elisanet.fi/matti.t.lehtinen/geom13.pdf)
+*   [Geometrian pitempi oppimäärä](http://www.elisanet.fi/matti.t.lehtinen/Geom2016kaikki.pdf)
 	Matti Lehtisen geometrian luentokurssin uusin versio. Se kattaa kilpailuissa
-	tarvittavan klassisen geometrian ja vähän enemmänkin. Ratkaisut kurssin harjoitustehtäviin
-	löytyvät [tästä](http://www.elisanet.fi/matti.t.lehtinen/geom13_hr.pdf).
+	tarvittavan klassisen geometrian ja vähän enemmänkin. 
 *   [Analyyttistä geometriaa kilpailutehtävien kautta](/kirjallisuus/ag.pdf)
     Geometristen tehtävien ratkaisemisesta analyyttisen geometrian keinoin.
 	Jouni Seppäsen kirjoittama, viimeisin versio huhtikuulta 2014.
@@ -104,6 +105,9 @@ Materiaaliin kuuluu myös [tehtäväkokoelmia](#tehtavat) ja [muuta](#muita).
 *   [Epäeuklidisen geometrian alkeita](/kirjallisuus/eeukl.pdf)
     Geometriaa ilman paralleeliaksioomaa ja hyperbolisen geometrian Poincarén mallin
 	pääpiirteitä. Matti Lehtisen esitys valmennusviikonvaihteessa tammikuussa 2013.
+*   [IMO-tason geometrisia epäyhtälöitä](/kirjallisuus/imoehdgeomey.pdf)
+	Matematiikka&shy;olympialaisiin ehdolla olleita tehtäviä, joiden aihe on geometrinen epäyhtälö.
+	Tehtävät on esitetty ratkaisuineen.
 
 ### <a name="kombinatoriikka"></a>Kombinatoriikka
 
@@ -162,18 +166,12 @@ Materiaaliin kuuluu myös [tehtäväkokoelmia](#tehtavat) ja [muuta](#muita).
 	Kooste sisältää myös ratkaisut.
 *   [Pohjoismaisten matematiikka&shy;kilpailujen tehtävät vuosilta 1987 – 1994](/PM/nmct87_94.pdf).
 	Tehtäviin on myös [ratkaisut](/PM/nmcr87_94.pdf).
-*   [Baltian Tie -kilpailun tehtävät vuosilta 1990 – 2012](/Baltian_tie/bwteht.pdf).
-	460 tehtävää. Ratkaisukokolmia löytyy vuosien [1990–99](/Baltian_tie/Btratk1990_99.pdf)
-	ja [2000–05](/Baltian_tie/Btratk2000_09.pdf) tehtäviin. Ratkaisu&shy;koosteita täydennetään.
-*   [IMO-tason funktionaaliyhtälötehtäviä](/kirjallisuus/imoehdfnyht.pdf)
-    Matematiikka&shy;olympialaisiin ehdolla olleita funktionaali&shy;yhtälö&shy;tehtäviä ratkaisuineen.
-*   [IMO-tason geometrisia epäyhtälöitä](/kirjallisuus/imoehdgeomey.pdf)
-	Matematiikka&shy;olympialaisiin ehdolla olleita tehtäviä, joiden aihe on geometrinen epäyhtälö.
-	Tehtävät on esitetty ratkaisuineen.
+*   [Baltian Tie -kilpailun tehtävät vuosilta 1990 – 2015](/Baltian_tie/bwteht.pdf). 
+	460 tehtävää. Ratkaisukokoelmia löytyy vuosien [1990–99](/Baltian_tie/Btratk1990_99.pdf)
+	ja [2000–09](/Baltian_tie/Btratk2000_09.pdf) tehtäviin. Ratkaisu&shy;koosteita täydennetään.
 *   [IMO-ehdokastehtäväkokoelma](/kirjallisuus/imoehdteht.pdf)
     138 matematiikka&shy;olympialaisiin ehdolla ollutta tehtävää ryhmiteltyinä jaon
-	”algebra - geometria - kombinatoriikka - lukuteoria” mukaisesti. Tehtävät on toistaiseksi
-	esitetty ilman ratkaisuja.
+	”algebra - geometria - kombinatoriikka - lukuteoria” mukaisesti. Koosteessa tähdellä merkittyihin tehtäviin löytyy myös [ratkaisuja](/kirjallisuus/imoehdratk.pdf).
 *   [Kappa-kilpailun tehtävät 2014](/Kappa/Kappa_14_teht.pdf) Ruotsin opettajien matematiikkakilpailun tehtävät.
 
 ### <a name="muita"></a>Muita

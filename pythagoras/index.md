@@ -7,10 +7,12 @@ url: /pythagoras/
 
 Pythagoraan polku on suomalaisten lukioiden välinen joukkuekilpailu,
 tyyliltään Baltian tie -kilpailua muistuttava. Kilpailun järjestää
-Päivölän Opisto. Kilpailu on kutsukilpailu. Varsinaisen kilpailun
+Päivölän Opisto. Tavallisesti kilpailu pidetään samaan aikaan kuin Valmennusjaoston kevätkauden viimeinen valmennusviikonloppu.  Kilpailu on kutsukilpailu. Varsinaisen kilpailun
 lisäksi osallistujille järjestetään matematiikkapitoista ohjelmaa.
 Ensimmäinen Pythagoraan polku -kilpailu järjestettiin Päivölän
 kansanopistossa 16.-18.4.2004.
+
+Vuoden 2016 Pythagoraan polku -kilpailu järjestettiin Päivölän Opistossa 15.–17. huhtikuuta 2016.
 
 [Vuoden 2015 Pythagoraan polku](Pythagoras_kutsu_2015.pdf) -kilpailu järjestettiin Päivölän Opistossa 17.–19\. huhtikuuta 2015.
 
@@ -31,6 +33,8 @@ kansanopistossa 16.-18.4.2004.
 ### Pythagoraan polku -kilpailun tehtäviä
 
 [Vuoden 2015 Pythagoras-tehtävät ja ratkaisut](Pyth_2015.pdf).
+
+[Vuoden 2013 Pythagoras tehtävät](pp2013_teht.pdf) ja niiden [ratkaisuja](pp2013_ratk.pdf).
 
 [Vuoden 2012 Pythagoras-tehtävät](pp2012_teht.pdf) ja niiden [ratkaisuja](pp2012_ratk.pdf).
 

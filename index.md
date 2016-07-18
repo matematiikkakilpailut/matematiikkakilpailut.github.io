@@ -61,24 +61,22 @@ kysymyksistä löytyy lisätietoa [täältä](kaytanto).
 
 ## <a name="uutisia"></a>Uutisia
 
-* Viidennet Euroopan Tyttöjen Matematiikkaolympialaiset pidettiin 10. &ndash; 16. 4. 2016 Romanian Bu&scedil;tenissa. Suomen ainoa edustaja **Ella Anttila** palkittiin pronssimitalilla. [Tulokset](https://www.egmo.org/egmos/egmo5/scoreboard/).
+* Vuoden 2016 Kansainväliset Matematiikkaolympialaiset pidettiin Hongkongissa 9.&ndash;16. heinäkuuta. Mukana oli 109 maata ja 602 kilpailijaa. Parhaiten menestyivät USA:n, Etelä-Korean ja Kiinan joukkueet. Täysiin pisteisiin pääsi 6 kilpailijaa. Suomen joukkue oli sijalla 71. Ella Anttila, Iiro Kumpulainen ja Alvar Kallio saivat kunniamaininnan. [Tulosluettelo](http://www.imo-official.org/year_info.aspx?year=2016).
 
-* Pohjoismainen matematiikkakilpailu pidettiin 5.4.2016. Suomesta kilpailuun osallistui 20 erikseen kutsuttua. Ratkaisut arvioidaan Tanskassa, ja tulokset kerrotaan, kun arviointi on suoritettu. [Tehtävät](PM/2016/NMC2016suom.pdf) ja niiden [ratkaisut](PM/2016/NMC2016ratk.pdf) löytyvät alasivulta [Pohjoismainen kilpailu](PM/).
+* Suomen joukkue heinäkuun 2016 Kansainvälisiin matematiikkaolympialaisiin Hongkongiin valittiin viikolla 19 Päivölän Opistossa pidetyn valmennus- ja valintaviikon aikana. Joukkueessa ovat **Ella Anttila**, **Hannes Ihalainen**, **Alvar Kallio**, **Iiro Kumpulainen**, **Joose Lehtinen** ja **Antti Röyskö**. Joukkueen johtaja on **Esa Vesalainen** ja varajohtaja **Jesse Jääsaari**. (14.5.2016)
+
+* Viidennet Euroopan Tyttöjen Matematiikkaolympialaiset pidettiin 10.-16. 4. 2016 Romanian Bustenissa. Suomen ainoa edustaja **Ella Anttila** palkittiin pronssimitalilla. [Tulokset](https://www.egmo.org/egmos/egmo5/scoreboard/).
+
+* Pohjoismainen matematiikkakilpailu pidettiin 5.4.2016. Suomesta kilpailuun osallistui 20 erikseen kutsuttua. Ratkaisut arvioitiin Tanskassa. Ruotsin **David Wärn** oli ainoa täydet pisteet saanut kilpailija.  [Tehtävät](PM/2016/NMC2016suom.pdf) ja niiden [ratkaisut](PM/2016/NMC2016ratk.pdf) sekä [tulosluettelo](PM/2016/NMC2016_tulokset.pdf) löytyvät alasivulta [Pohjoismainen kilpailu](PM/).
 
 * Lukion matematiikkakilpailun loppukilpailu pidettiin 22.1.2016 Munkkiniemen yhteiskoulussa Helsingissä. Kilpailun voitti **Akseli Antikainen** Kuopiosta. Jaetulle toiselle sijalle tulivat **Ella Anttila** Helsingistä ja **Jesse Nieminen** Nokialta. [Tulosluettelo](MAOL/2016/tulokset_2016.pdf).
 
 * Baltian Tie -joukkuematematiikkakilpailun vuonna 2015 voitti Pietarin joukkue, seuraavina Puola ja Viro. Vierailevana joukkueena mukana ollut Hollanti oli neljäs. Suomi oli 9.
 
-* Vuoden 2015 Baltian tie -joukkue on valittu: Suomea edustavat Ella Anttila, Petrus Asikainen, Iiro Kumpulainen, Kalle Luopaj&auml;rvi ja Jesse Nieminen.
+* Vuoden 2015 Baltian tie -joukkueeseen valittiin Suomea edustamaan **Ella Anttila**, **Petrus Asikainen**, **Iiro Kumpulainen**, **Kalle Luopaj&auml;rvi** ja **Jesse Nieminen**. Joukkueen johtaja on **Anne-Maria Ernvall-Hytönen** ja varajohtaja **Jari Lappalainen**.
 
-* Ennakkotiedoista poiketen Ruotsi ei järjestäkään vuonna 2015 opettajien Kappa-kilpailua.
 
-* Vuoden 2015 Kansainväliset matematiikkaolympialaiset järjestettiin Thaimaan Chiang Maissa 6. &ndash; 14. heinäkuuta. Kaikkiaan 104 maan joukkueet osallistuivat; kilpailijoita oli 577. Kilpailun tehtäväsarja muodostui aiottua vaikeammaksi, kun toisen päivän tehtävien vuodettua ne jouduttiin korvaamaan varatehtävillä. Kanadan **Alex Song** pääsi ainoana kilpailijana täysiin pisteisiin. Maiden välisen kilpailun paras oli Yhdysvallat. Suomi oli 82. Suomen **Kalle Luopajärvi** sai kunniamaininnan. 
-[Tulosluettelo](http://www.imo-official.org/year_individual_r.aspx?year=2015&column=total&order=desc).
 
-* Olympiavalmennus järjestää perinteisen kesävalmennuksen 9.&ndash;12.6 Helsingin yliopiston Kumpulan kampuksella Exactumissa (sali B321), klo. 9&ndash;16. Tervetuloa!
-
-* Vuoden 2015 matematiikkaolympiajoukkueen valinta- ja valmennusviikko oli 3. &ndash; 8. toukokuuta P&auml;iv&ouml;l&auml; Opistossa Valkeakoskella. Olympiajoukkueeseen valittiin **Ella Anttila**, **Juuso Heinonen**, **Tuukka Korhonen**, **Iiro Kumpulainen**, **Kalle Luopaj&auml;rvi** ja **Ella Tamir**. Joukkueen johtaja on **Matti Lehtinen** ja varajohtaja **Joni Ter&auml;v&auml;inen**.
 
 Vanhempia uutisia löytyy [uutisarkistosta](vanhaset.html).
 

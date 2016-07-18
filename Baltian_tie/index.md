@@ -141,30 +141,28 @@ kilpailut:
     ratkaisut: "[pdf](2010/Bt2010ratk.pdf)"
     joukkue: "Olli Hirviniemi, Ilmari Kangasniemi, Dimitri Kirichenko, Markus Pajarre, Felix Sjöblom"
   - vuosi: "2011"
-    paikka: "[Greifs&shy;wald](http://www.balticway-2011.de/)"
-    sijoitus: "[50 (6.)](http://www.balticway-2011.de/wp-content/uploads/2011/11/resultsOnlyTable.pdf)"
+    paikka: "Greifs&shy;wald"
+    sijoitus: "[50 (6.)](2011/BW2011_lista.pdf)"
     tehtavat: "[pdf](2011/Bt2011.pdf), [ps](2011/Bt2011.ps)."
-    ratkaisut: >-
-      [pdf](2011/Bt2011ratk.pdf),
-      [eng&shy;lan&shy;niksi](http://www.balticway-2011.de/wp-content/uploads/2011/11/PSlist.pdf)
+    ratkaisut: "[pdf](2011/Bt2011ratk.pdf)"
     joukkue: "Otte Heinävaara, Markus Pajarre, Joni Teräväinen, Felix Vaura, Jiali Yan"
   - vuosi: "2012"
     paikka: "[Tart&shy;to](http://www.bw2012.ut.ee/)"
     sijoitus: "[53 (6.)](/Baltian_tie/2012/Bt2012res.pdf)"
     tehtavat: "[pdf](/Baltian_tie/2012/Bt2012teht.pdf)"
-    ratkaisut: "[tehtävät ja ratkaisut, pdf](/Baltian_tie/2012/Bt2012ratk.pdf), [eng&shy;lan&shy;niksi](http://www.bw2012.ut.ee/bw2012problems_solutions.pdf)"
+    ratkaisut: "[tehtävät ja ratkaisut](/Baltian_tie/2012/Bt2012ratk.pdf), [eng&shy;lan&shy;niksi](http://www.bw2012.ut.ee/bw2012problems_solutions.pdf)"
     joukkue: "Otte Heinävaara, Katja Kulmala, Neea Palojärvi, Eero Räty, Joni Teräväinen"
   - vuosi: "2013"
     paikka: "[Rii&shy;ka](http://www.bw2013.lu.lv)"
     sijoitus: "[23 (11.)](http://www.bw2013.lu.lv/results/)"
     tehtavat: "[pdf](/Baltian_tie/2013/Bt2013teht.pdf)"
-    ratkaisut: "[eng&shy;lan&shy;niksi](/Baltian_tie/2013/Bt2013rateng.pdf)"
+    ratkaisut: "[tehtävät ja ratkaisut](/Baltian_tie/2013/Bt2013ratk.pdf), [eng&shy;lan&shy;niksi](/Baltian_tie/2013/Bt2013rateng.pdf)"
     joukkue: "Mirjam Kauppila, Timo Takala, Ella Tamir, Jakob Wartiovaara, Pyry Virtanen"
   - vuosi: "2014"
     paikka: "[Vil&shy;na](http://mif.vu.lt/balticway2014/)"
     sijoitus: "[29 (11.)](http://mif.vu.lt/balticway2014/wp-content/uploads/2014/07/bw2014rez.pdf)"
     tehtavat: "[pdf](/Baltian_tie/2014/BW2014teht.pdf)"
-    ratkaisut: "[eng&shy;lan&shy;niksi](http://mif.vu.lt/balticway2014/wp-content/uploads/2014/07/bw2014solu.pdf)"
+    ratkaisut: "[tehtävät ja ratkaisut](/Baltian_tie/2014/Bt2014ratk.pdf), [eng&shy;lan&shy;niksi](/Baltian_tie/2014/Bt2014rateng.pdf)"
     joukkue: "Petteri Huuskonen, Qianyue Jin, Iiro Kumpulainen, Kalle Luopajärvi, Ella Tamir"
   - vuosi: "2015"
     paikka: "[Tuk&shy;hol&shy;ma](http://bw15.math.su.se/)"
@@ -172,6 +170,9 @@ kilpailut:
     tehtavat: "[pdf](/Baltian_tie/2015/Bt2015teht.pdf)"
     ratkaisut: "[englanniksi](http://bw15.math.su.se/wp-content/uploads/2015/02/Solutions_BW2015.pdf)"
     joukkue: "Ella Anttila, Petrus Asikainen, Iiro Kumpulainen, Kalle Luopajärvi, Jesse Nieminen"
+  - vuosi: "2016"
+    paikka: "[Oulu](http://matematiikkakilpailut.fi/BW2016/)"
+  
 ---
 ## Baltian Tie -joukkuekilpailu
 
@@ -190,16 +191,16 @@ vuonna 2005 Suomi oli toinen kahdentoista maan joukossa.
 Osallistuvia maita ovat Viro, Latvia, Liettua, Suomi, Ruotsi, Norja,
 Tanska, Islanti, Puola, Venäjä (Pietari) ja Saksa. Vuodesta 2001
 alkaen järjestäjämaa on voinut kutsua kilpailuun myös yhden
-vierailevan maan. Vuonna 2001 kutsuttiin Israel, 2004 Valko-Venäjä ja
-2005 Belgia.
+vierailevan maan. Vuonna 2001 kutsuttiin Israel, 2004 ja 2014 Valko-Venäjä,
+2005 Belgia, 2011 Etelä-Afrikka ja 2015 Hollanti.
 
 ### Tehtävät ja ratkaisut
 
-Kaikkien Baltian Tie -kilpailujen tehtävät (500 kappaletta!) vuosilta
-1990–2014 voi ladata yhtenä [pdf-tiedostona tästä](bwteht.pdf).
+Kaikkien Baltian Tie -kilpailujen tehtävät (520 kappaletta!) vuosilta
+1990–2015 voi ladata yhtenä [pdf-tiedostona tästä](bwteht.pdf).
 Ratkaisukokoelmat ovat tällä hetkellä saatavina
 [vuosien 1990–99](Btratk1990_99.pdf) ja
-[vuosien 2000–09](Btratk2000_09.pdf) kilpailutehtäviin.
+[vuosien 2000–09](Btratk2000_09.pdf) kilpailutehtäviin. Linkkejä eri vuosien tehtävien ratkaisuihin löytyy alla olevasta taulukosta.
 
 Melkein kaikkien Baltian Tie -kilpailujen tehtävät ja ratkaisut
 löytyvät englanninkielisinä

@@ -24,8 +24,9 @@ kilpailut:
     tehtavat: "[pdf](EGMO_2015teht.pdf)"
     ratkaisut: "[englanniksi](EGMO_2015sol.pdf)"
   - vuosi: "2016"
-    paikka: "[Bu&scedil;teni, Romania](https://www.egmo.org/egmos/egmo5/)"
+    paikka: "[Busteni, Romania](https://www.egmo.org/egmos/egmo5/)"
     tehtavat: "[pdf](EGMO_2016teht.pdf)"
+    ratkaisut: "-"
 ---
 ## Euroopan Tyttöjen Matematiikka&shy;olympialaiset – EGMO
 
@@ -59,7 +60,7 @@ kilpailuun enintään nelihenkisellä joukkueella.
 
 ### Suomen joukkue
 
-Vuoden 2016 joukkue: Ella Anttila. Joukkueen johtajana Esa Vesalainen.
+Vuoden 2016 joukkue: Ella Anttila. Joukkueen johtajana Esa Vesalainen. Ella Anttila palkittiin pronssimitalilla.
 
 Vuoden 2015 joukkue: Ella Anttila, Ella Tamir ja Tara Vaittinen. Joukkueen johtajana Esa Vesalainen ja varajohtajana Mirjam Kauppila.
 
