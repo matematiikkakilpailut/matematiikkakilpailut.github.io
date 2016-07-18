@@ -122,6 +122,11 @@ kilpailut:
     tehtavat: "[pdf](2015/teht2015.pdf)"
     ratkaisut: "[pdf](2015/ratk2015.pdf)"
     muuta: "[tulosluettelo](https://www.imo-official.org/year_country_r.aspx?year=2015)"
+  - vuosi: "2016"
+    paikka: "[Hongkong](http://www.imo2016.org/Home.php)"
+    sijoitus: "55 p. (71/109)"
+    tehtavat: "[pdf](2016/teht2016.pdf)"
+    muuta: "[tulosluettelo](https://www.imo-official.org/year_country_r.aspx?year=2015)"
 
 ---
 ## Kansainväliset matematiikkaolympialaiset
@@ -241,7 +246,7 @@ kunniamaininnalla.
 
 {% endcomment %}
 
-Vuonna 2015 Suomea edustivat Ella Anttila, Juuso Heinonen, Tuukka Korhonen, Iiro Kumpulainen, Kalle Luopajärvi ja Ella Tamir. Kalle Luopajärvi palkittiin kunniamaininnalla.
+Vuonna 2016 Suomea edustivat Ella Anttila, Hannes Ihalainen, Iiro Kumpulainen, Alvar Kallio, Joose Lehtinen ja Antti Röyskö. Anttila, Kumpulainen ja Kallio palkittiin kunniamaininnalla.
 
 ### Tuloksia
 
