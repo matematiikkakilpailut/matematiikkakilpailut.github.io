@@ -61,6 +61,8 @@ kysymyksistä löytyy lisätietoa [täältä](kaytanto).
 
 ## <a name="uutisia"></a>Uutisia
 
+* Vuoden 2016 Kansainväliset Matematiikkaolympialaiset pidettiin Hongkongissa 9.&ndash;16. heinäkuuta. Mukana oli 109 maata ja 602 kilpailijaa. Parhaiten menestyivät USA:n, Etelä-Korean ja Kiinan joukkueet. Täysiin pisteisiin pääsi 6 kilpailijaa. Suomen joukkue oli sijalla 71. Ella Anttila, Iiro Kumpulainen ja Alvar Kallio saivat kunniamaininnan. [Tulosluettelo](http://www.imo-official.org/year_info.aspx?year=2016).
+
 * Suomen joukkue heinäkuun 2016 Kansainvälisiin matematiikkaolympialaisiin Hongkongiin valittiin viikolla 19 Päivölän Opistossa pidetyn valmennus- ja valintaviikon aikana. Joukkueessa ovat **Ella Anttila**, **Hannes Ihalainen**, **Alvar Kallio**, **Iiro Kumpulainen**, **Joose Lehtinen** ja **Antti Röyskö**. Joukkueen johtaja on **Esa Vesalainen** ja varajohtaja **Jesse Jääsaari**. (14.5.2016)
 
 * Viidennet Euroopan Tyttöjen Matematiikkaolympialaiset pidettiin 10.-16. 4. 2016 Romanian Bustenissa. Suomen ainoa edustaja **Ella Anttila** palkittiin pronssimitalilla. [Tulokset](https://www.egmo.org/egmos/egmo5/scoreboard/).
@@ -73,10 +75,6 @@ kysymyksistä löytyy lisätietoa [täältä](kaytanto).
 
 * Vuoden 2015 Baltian tie -joukkueeseen valittiin Suomea edustamaan **Ella Anttila**, **Petrus Asikainen**, **Iiro Kumpulainen**, **Kalle Luopaj&auml;rvi** ja **Jesse Nieminen**. Joukkueen johtaja on **Anne-Maria Ernvall-Hytönen** ja varajohtaja **Jari Lappalainen**.
 
-* Ennakkotiedoista poiketen Ruotsi ei järjestäkään vuonna 2015 opettajien Kappa-kilpailua.
-
-* Vuoden 2015 Kansainväliset matematiikkaolympialaiset järjestettiin Thaimaan Chiang Maissa 6. &ndash; 14. heinäkuuta. Kaikkiaan 104 maan joukkueet osallistuivat; kilpailijoita oli 577. Kilpailun tehtäväsarja muodostui aiottua vaikeammaksi, kun toisen päivän tehtävien vuodettua ne jouduttiin korvaamaan varatehtävillä. Kanadan **Alex Song** pääsi ainoana kilpailijana täysiin pisteisiin. Maiden välisen kilpailun paras oli Yhdysvallat. Suomi oli 82. Suomen **Kalle Luopajärvi** sai kunniamaininnan. 
-[Tulosluettelo](http://www.imo-official.org/year_individual_r.aspx?year=2015&column=total&order=desc).
 
 
 
