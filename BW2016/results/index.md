@@ -5,5 +5,5 @@ sitemap: false
 url: /BW2016/results/
 ---
 
-(work in progress)
+Results will be published here once the contest has been judged.
 
