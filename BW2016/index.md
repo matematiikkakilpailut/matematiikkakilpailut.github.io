@@ -27,9 +27,10 @@ including Finnair and Norwegian.
 <div class="col-xs-12 col-sm-4 container">
 <h2>Dates</h2>
 <p>
-<b>Participant details:</b> to be defined<br>
-<b>Problem proposals:</b> to be defined<br>
-<b>Contest:</b> 3rd to 7th November, 2016
+<b>Confirmation of participation:</b> August 31<br>
+<b>Participant details:</b> September 30<br>
+<b>Problem proposals:</b> September 30<br>
+<b>Contest:</b> November 3 to 7
 </p></div>
 
 <div class="container col-xs-12 col-sm-4">
