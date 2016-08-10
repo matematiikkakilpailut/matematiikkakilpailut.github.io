@@ -23,6 +23,9 @@ aikataulu:
   - pvm: "20.&ndash;21.1."
     tapahtuma: |
      Matemaattisten Aineiden Opettajien Liiton Lukion matematiikakkilpailun ja Peruskoulun matematiikkakilpailun loppukilpailut Helsingissä.
+  - pvm: "3.4."
+    tapahtuma: |
+     Pohjoismainen matematiikkakilpailu erikseen kutsutuille.
 ---
 <div class="list-group">
 {% for a in page.aikataulu %}
