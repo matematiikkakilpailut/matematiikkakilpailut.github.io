@@ -13,7 +13,7 @@ aikataulu:
      Matemaattisten Aineiden Opettajien Liiton Lukion matematiikkakilpailun alkukilpailu kouluissa.
   - pvm: "3.&ndash;7.11."
     tapahtuma: |
-     Kansainvälinen Baltian Tie -joukkuematematiikkakilpailu Oulussa.
+     Kansainvälinen [Baltian Tie -joukkuematematiikkakilpailu](http://matematiikkakilpailut.fi/BW2016/) Oulussa.
   - pvm: "8.11."
     tapahtuma: |
      Matemaattisten Aineiden Opettajien Liiton Peruskoulun matematiikkakilpailun alkukilpailu kouluissa.
@@ -22,13 +22,13 @@ aikataulu:
     otsikko: true
   - pvm: "20.&ndash;21.1."
     tapahtuma: |
-     Matemaattisten Aineiden Opettajien Liiton Lukion matematiikakkilpailun ja Peruskoulun matematiikkakilpailun loppukilpailut Helsingissä.
+     Matemaattisten Aineiden Opettajien Liiton Lukion matematiikkakilpailun ja Peruskoulun matematiikkakilpailun loppukilpailut Helsingissä.
   - pvm: "3.4."
     tapahtuma: |
-     Pohjoismainen matematiikkakilpailu erikseen kutsutuille.
+     Pohjoismainen matematiikkakilpailu erikseen kutsutuille. Pidetään kilpailijoiden kouluissa.
   - pvm: "6.&ndash;12.4."
     tapahtuma: |
-      Euroopan tyttöjen matematiikkaolympialaiset [EGMO](https://www.egmo2017.ch/) Z&uuml;richissä.
+     6. Euroopan tyttöjen matematiikkaolympialaiset [EGMO](https://www.egmo2017.ch/) Z&uuml;richissä.
   - pvm: "12&ndash;24.7."
     tapahtuma: |
      [58. Kansainväliset matematiikkaolympialaiset](http://www.imo2017.org.br) Rio de Janeirossa.
