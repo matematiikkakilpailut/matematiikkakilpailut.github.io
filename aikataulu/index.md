@@ -28,7 +28,7 @@ aikataulu:
      Pohjoismainen matematiikkakilpailu erikseen kutsutuille. Pidetään kilpailijoiden kouluissa.
   - pvm: "6.&ndash;12.4."
     tapahtuma: |
-     6. Euroopan tyttöjen matematiikkaolympialaiset [EGMO](https://www.egmo2017.ch/) Z&uuml;richissä.
+     Kuudennet Euroopan tyttöjen matematiikkaolympialaiset [EGMO](https://www.egmo2017.ch/) Z&uuml;richissä.
   - pvm: "12&ndash;24.7."
     tapahtuma: |
      [58. Kansainväliset matematiikkaolympialaiset](http://www.imo2017.org.br) Rio de Janeirossa.
