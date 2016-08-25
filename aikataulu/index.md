@@ -10,7 +10,7 @@ aikataulu:
     otsikko: true
   - pvm: "9.&ndash;11.9. (viikko 36)"
     tapahtuma: |
-     Valmennusviikonvaihde Päivölässä.
+     Valmennusviikonvaihde Päivölässä. Ohjelmassa mm. Baltian Tie -joukkueen valintakoe.
   - pvm: "21.&ndash;23.10. (viikko 42)"
     tapahtuma: |
      Valmennusviikonvaihde Päivölässä.
