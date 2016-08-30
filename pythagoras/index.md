@@ -32,6 +32,8 @@ Vuoden 2016 Pythagoraan polku -kilpailu järjestettiin Päivölän Opistossa 15.
 
 ### Pythagoraan polku -kilpailun tehtäviä
 
+[Vuoden 2016 Pythagoras-tehtävät ja ratkaisut](Pyth2016.pdf)
+
 [Vuoden 2015 Pythagoras-tehtävät ja ratkaisut](Pyth_2015.pdf).
 
 [Vuoden 2013 Pythagoras tehtävät](pp2013_teht.pdf) ja niiden [ratkaisuja](pp2013_ratk.pdf).
