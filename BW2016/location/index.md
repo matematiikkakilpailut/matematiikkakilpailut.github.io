@@ -18,7 +18,7 @@ Oulu has long Baltic traditions. The export of tar produced in the northern wood
 
 Oulu's traditions in education are as old as the city itself. Three of the 12 Presidents of Finland have received their school education in Oulu. Oulu University was founded in 1958. It is an all-round university with some 16000 students, the fourth largest university in Finland. 
 
-In early November, the temperature in Oulu usually is around zero, but can be much lower. Most likely there will not yet be snow on earth of ice on the sea. The Sun will rise around 8.30 and set again at about 15.30. This is in contrast to the very short nights at summer time. 
+In early November, the temperature in Oulu usually is around zero, but can be much lower. Most likely there will not yet be snow on earth of ice on the sea. The Sun will rise around 8.30 and set again at about 15.30. This is in contrast to the very short nights at summer time. Check [Oulu weather](http://en.ilmatieteenlaitos.fi/weather/oulu)!
 
 Oulu is a city of cyclists. The terrain is quite flat and the network of cycling paths is probably the best in Finland. 
 
