@@ -10,7 +10,7 @@ aikataulu:
     otsikko: true
   - pvm: "9.&ndash;11.9. (viikko 36)"
     tapahtuma: |
-     Valmennusviikonvaihde Päivölässä. Ohjelmassa mm. Baltian Tie -joukkueen valintakoe. Vähemmän kokeneiden eli alakerran ohjelmassa geometrian perusteita ja yleiskatsausta kilpailumatematiikkaan. Jälkimmäisen seuraamista voi helpottaa tutustuminen [Kilpailumatematiikan oppaan](http://matematiikkakilpailut.fi/kirjallisuus/kilpmatopas.pdf) sivuihin 8&nadash;18 ja tehtäväkokoelmaan [Kilpailumatematiikan lajeja ja periaatteita](http://matematiikkakilpailut.fi/kirjallisuus/kilpmatesitt.pdf).
+     Valmennusviikonvaihde Päivölässä. Ohjelmassa mm. Baltian Tie -joukkueen valintakoe. Vähemmän kokeneiden eli alakerran ohjelmassa geometrian perusteita ja yleiskatsausta kilpailumatematiikkaan. Jälkimmäisen seuraamista voi helpottaa tutustuminen [Kilpailumatematiikan oppaan](http://matematiikkakilpailut.fi/kirjallisuus/kilpmatopas.pdf) sivuihin 8&ndash;18 ja tehtäväkokoelmaan [Kilpailumatematiikan lajeja ja periaatteita](http://matematiikkakilpailut.fi/kirjallisuus/kilpmatesitt.pdf).
   - pvm: "21.&ndash;23.10. (viikko 42)"
     tapahtuma: |
      Valmennusviikonvaihde Päivölässä.
