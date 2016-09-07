@@ -23,28 +23,28 @@ any other equivalent post-secondary institution.
 
 (The list will be updated as soon as more information is available.)
 
-<h3>Denmark</h3>
+<h4>Denmark</h4>
 
-<h3>Estonia</h3>
+<h4>Estonia</h4>
 
-<h3>Germany</h3>
+<h4>Germany</h4>
 
 Kerrin Bielser,  Christoph Börger,  Male Hesse,  Silas Rathke,  Jonas Walter. Team leader: Uwe Leck. Deputy leader: Klaus Henning.
 
-<h3>Iceland</h3>
+<h4>Iceland</h4>
 
-<h3>Latvia</h3>
+<h4>Latvia</h4>
 
-<h3>Lithuania</h3>
+<h4>Lithuania</h4>
 
-<h3>Norway</h3>
+<h4>Norway</h4>
 
-<h3>Poland></h3>
+<h4>Poland</h4>
 
-<h3>St. Petersburg</h3>
+<h4>St. Petersburg</h4>
 
-<h3>Sweden</h3>
+<h4>Sweden</h4>
 
-<h3>Finland</h3>
+<h4>Finland</h4>
 
 Team leader: Lauri Hallila. Deputy leader: Otte Heinävaara.
