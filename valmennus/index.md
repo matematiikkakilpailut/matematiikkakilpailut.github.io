@@ -28,7 +28,7 @@ mukana ovat lähettäjän yhteystiedot!
 
 ### Ajankohtaiset tehtävät
 
-Syyskuun 2016 [helpommat](2016/vt9_2016he.pdf) ja [vaativammat](2016/vt9_2016va.pdf) tehtävät.
+Syyskuun 2016 [helpommat](2016/vt9_16he.pdf) ja [vaativammat](2016/vt9_16va.pdf) tehtävät. Syyskuun valmennustilaisuudessa jaetussa paperiversioissa olleet virheet (helpompien tehtävien numero 7 ja vaativampien numero 9) on korjattu oheisiin tiedostoihin.
 
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
