@@ -47,4 +47,4 @@ Kerrin Bielser,  Christoph Börger,  Male Hesse,  Silas Rathke,  Jonas Walter. T
 
 <h4>Finland</h4>
 
-Team leader: Lauri Hallila. Deputy leader: Otte Heinävaara.
+Ella Anttila, Olli Järviniemi, Joose Lehtinen, Jesse Nieminen, Antti Röyskö. Team leader: Lauri Hallila. Deputy leader: Otte Heinävaara.
