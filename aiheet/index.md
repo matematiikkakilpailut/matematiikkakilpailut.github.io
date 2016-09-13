@@ -155,7 +155,7 @@ Materiaaliin kuuluu myös [tehtäväkokoelmia](#tehtavat) ja [muuta](#muita).
 	Arkiston tehtäviin on myös[ratkaisuja](http://www.elisanet.fi/matti.t.lehtinen/ratkarkisto.pdf).
 *   [Kilpailumatematiikan lajeja ja periaatteita](/kirjallisuus/kilpmatesitt.pdf)
 	20 näytetehtävää, jotka pyrkivät antamaan kuvaa kilpailumatematiikassa tavallisista
-	kysymystyypeistä. Tehtäviin on myös ratkaisut. Koonnut Matti Lehtinen.
+	kysymystyypeistä. Tehtäviin on myös ratkaisut. Koonnut Matti Lehtinen, päivitetty syyskuussa 2016.
 *   [Kansainvälisten matematiikka&shy;olympialaisten tehtävät vuosilta 1995 – 2014](/IMO/imokaikki.pdf).
 	Kooste sisältää myös ratkaisut.
 *   [Kansainvälisten matematiikka&shy;olympialaisten tehtävät vuosilta 1975 – 1994](/IMO/imot75_94.pdf).
