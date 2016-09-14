@@ -61,6 +61,7 @@ The contest is sponsored by:
 * [University of Tampere][tampere]
 * [Painosalama][painosalama] provides printed materials for the contest
 * [Ruskon Betoni][betoni]
+
 [aalto]: https://math.aalto.fi/
 [nokia]: http://www.nokia.com/
 [fsec]: https://www.f-secure.com/
