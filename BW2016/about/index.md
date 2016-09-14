@@ -60,7 +60,7 @@ The contest is sponsored by:
 * [University of Oulu Department of Mathematical Sciences][oulu]
 * [University of Tampere][tampere]
 * [Painosalama][painosalama] provides printed materials for the contest
-
+* [Ruskon Betoni][betoni]
 [aalto]: https://math.aalto.fi/
 [nokia]: http://www.nokia.com/
 [fsec]: https://www.f-secure.com/
@@ -73,6 +73,7 @@ The contest is sponsored by:
 [100v]: http://100-vuotissaatio.teknologiateollisuus.fi/technology-industries-finland-centennial-foundation
 [oflund]: http://oskaroflund.fi/
 [tapiola]: http://www.lahitapiola.fi/tietoa-lahitapiolasta/yhtiot/pohjoinen
+[betoni]: http://www.ruskonbetoni.fi/
 
 The organizing committee is looking for further sponsors. Sponsors
 have a unique opportunity to reach a set of talented pre-university
