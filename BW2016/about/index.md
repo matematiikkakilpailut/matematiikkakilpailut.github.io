@@ -54,6 +54,7 @@ The contest is sponsored by:
 * [Nokia][nokia], emphasis on supporting girls participating in the competition
 * [F-Secure][fsec]
 * [Nordic Semiconductor][nordicsemi]
+* [Ilmarinen][ilmarinen]
 * [LähiTapiola Pohjoinen][tapiola]
 * [Aalto University Department of Mathematics and Systems Analysis][aalto]
 * [University of Turku Faculty of Mathematics and Natural Science][turku]
@@ -75,6 +76,7 @@ The contest is sponsored by:
 [oflund]: http://oskaroflund.fi/
 [tapiola]: http://www.lahitapiola.fi/tietoa-lahitapiolasta/yhtiot/pohjoinen
 [betoni]: http://www.ruskonbetoni.fi/
+[ilmarinen]:http://www.ilmarinen.fi/en/
 
 The organizing committee is looking for further sponsors. Sponsors
 have a unique opportunity to reach a set of talented pre-university
