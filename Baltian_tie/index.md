@@ -174,11 +174,11 @@ kilpailut:
     paikka: "[Oulu](http://matematiikkakilpailut.fi/BW2016/)"
   
 ---
-## Baltian Tie -joukkuekilpailu
+## Baltian Tie -joukkuematematiikkakilpailu
 
 ### Yleistä
 
-Baltian Tie -joukkuekilpailu pidettiin ensimmäisen kerran vuonna 1990
+Baltian Tie -joukkuematematiikkakilpailu pidettiin ensimmäisen kerran vuonna 1990
 Latviassa, Riiassa. Kilpailun nimi on muisto kaikissa Baltian maissa
 yhtäaikaisesti järjestetystä suurestä itsenäisyysmielenosoituksesta,
 kun vuonna 1989 yli miljoona Viron, Latvian ja Liettuan asukasta
@@ -193,6 +193,8 @@ Tanska, Islanti, Puola, Venäjä (Pietari) ja Saksa. Vuodesta 2001
 alkaen järjestäjämaa on voinut kutsua kilpailuun myös yhden
 vierailevan maan. Vuonna 2001 kutsuttiin Israel, 2004 ja 2014 Valko-Venäjä,
 2005 Belgia, 2011 Etelä-Afrikka ja 2015 Hollanti.
+
+Baltian Tie -kilpailussa viisihenkiset joukkueet toimivat yhteistyössä. Tehtäviä on 20, ja vaikka ne ovat ehkä hiukan helpompia kuin Kansainvälisten Matematiikkaolympialaisten tehtävät, niin niiden ratkaiseminen neljän ja puolen tunnin kilpailun aikana vaatii melkein välttämättä joukkueen työnjakoa. Joskus työnjako voi ilmetä niin, että toinen joukkueenjäsen jalostaa toisen keksimän idean valmiiksi ratkaisuksi.
 
 ### Tehtävät ja ratkaisut
 
