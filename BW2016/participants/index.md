@@ -25,6 +25,8 @@ any other equivalent post-secondary institution.
 
 <h4>Denmark</h4>
 
+Jonas Walter, Alex Villaro Kr&uuml;ger, Jonathan Tilling Niemann, Nicolai Sebastian Carstensen, Iustin Beldie, Marius Christian Fischer. Team leader: Jan Agentoft Nielsen, Deputy leader: Frederik Ravn Klausen.
+
 <h4>Estonia</h4>
 
 <h4>Germany</h4>
