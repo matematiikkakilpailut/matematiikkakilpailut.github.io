@@ -7,7 +7,7 @@ url: /BW2016/programme/
 
 The main features of the Baltic Way 2016 programme are as follows. More details will be added later.
 
-<b>Thursday, November 3.</b> Arrival of the teams. Accommodation. Leaders and deputy leaders receive the problem proposals.
+<b>Thursday, November 3.</b> Arrival of the teams. Accommodation in the [Nallikari Holiday Village & Camping](http://nallikari.fi/en/) (contestants) or in the [Pohto Institute](https://www.pohto.fi/index.php?sl=en) (leaders and deputy leaders). Leaders and deputy leaders receive the problem proposals.
 
 <b>Friday, November 4.</b> Leaders and deputy leaders select and translate the competition problems. Teams make a whole day excursion to [Rovaniemi](http://www.visitrovaniemi.fi/) to see the Polar Circle and [Santa Claus](http://www.santaclausvillage.info/), among other things.
 
