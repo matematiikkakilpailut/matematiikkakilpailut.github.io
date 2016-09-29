@@ -25,13 +25,13 @@ any other equivalent post-secondary institution.
 
 <h4>Denmark</h4>
 
-Jonas Walter, Alex Villaro Kr&uuml;ger, Jonathan Tilling Niemann, Nicolai Sebastian Carstensen, Iustin Beldie, Marius Christian Fischer. Team leader: Jan Agentoft Nielsen, Deputy leader: Frederik Ravn Klausen.
+Jonas Walter, Alex Villaro Kr&uuml;ger, Jonathan Tilling Niemann, Nicolai Sebastian Carstensen, Iustin Beldie, Marius Christian Fischer. <b>Team leader</b>: Jan Agentoft Nielsen, <b>Deputy leader</b>: Frederik Ravn Klausen.
 
 <h4>Estonia</h4>
 
 <h4>Germany</h4>
 
-Kerrin Bielser,  Christoph Börger,  Male Hesse,  Silas Rathke,  Jonas Walter. Team leader: Uwe Leck. Deputy leader: Klaus Henning.
+Kerrin Bielser,  Christoph Börger,  Male Hesse,  Silas Rathke,  Jonas Walter. <b>Team leader</b>: Uwe Leck. <b>Deputy leader</b>: Klaus Henning.
 
 <h4>Iceland</h4>
 
@@ -45,10 +45,10 @@ Kerrin Bielser,  Christoph Börger,  Male Hesse,  Silas Rathke,  Jonas Walter. T
 
 <h4>St. Petersburg</h4>
 
-Nikita Karagodin, Mikhail Ivanov, Arsenii Virachev, Kirill Tyshchuk, Victor Migrin. Team leader: Konstantin Kokhas. Deputy leader: Dmitrii Rostovskii. Observer: Maksim Pratusevich.
+Nikita Karagodin, Mikhail Ivanov, Arsenii Virachev, Kirill Tyshchuk, Victor Migrin. <b>Team leader</b>: Konstantin Kokhas. <b>Deputy leader</b>: Dmitrii Rostovskii. <b>Observer</b>: Maksim Pratusevich.
 
 <h4>Sweden</h4>
 
 <h4>Finland</h4>
 
-Ella Anttila, Olli Järviniemi, Joose Lehtinen, Jesse Nieminen, Antti Röyskö. Team leader: Lauri Hallila. Deputy leader: Otte Heinävaara.
+Ella Anttila, Olli Järviniemi, Joose Lehtinen, Jesse Nieminen, Antti Röyskö. <b>Team leader</b>: Lauri Hallila. <b>Deputy leader</b>: Otte Heinävaara.
