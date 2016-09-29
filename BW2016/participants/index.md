@@ -45,6 +45,8 @@ Kerrin Bielser,  Christoph Börger,  Male Hesse,  Silas Rathke,  Jonas Walter. T
 
 <h4>St. Petersburg</h4>
 
+Nikita Karagodin, Mikhail Ivanov, Arsenii Virachev, Kirill Tyshchuk, Victor Migrin. Team leader: Konstantin Kokhas. Deputy leader: Dmitrii Rostovskii. Observer: Maksim Pratusevich.
+
 <h4>Sweden</h4>
 
 <h4>Finland</h4>
