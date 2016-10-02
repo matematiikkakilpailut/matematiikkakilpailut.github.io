@@ -37,7 +37,7 @@ Kerrin Bielser,  Christoph Börger,  Male Hesse,  Silas Rathke,  Jonas Walter. <
 
 <h4>Latvia</h4>
 
-Art&umacr;rs Banga, Reinis Cirpons, Raitis R&umacr;si&ncedil;&scaron;, Ingus J&amacr;nis Pretkalni&ncedil;&scaron;, Aleksandrs Zajakins. <b>Team Leader</b>: M&amacr;ris Valdats. <b>Deputy leader</b>: Filips Je&lcedil;isejevs. 
+Art&#x016B;rs Banga, Reinis Cirpons, Raitis R&#x016b;si&#x0146;&scaron;, Ingus J&#x0101;nis Pretkalni&#x0146;&scaron;, Aleksandrs Zajakins. <b>Team Leader</b>: M&amacr;ris Valdats. <b>Deputy leader</b>: Filips Je&#x013C;isejevs. 
 
 <h4>Lithuania</h4>
 
