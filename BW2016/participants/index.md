@@ -37,11 +37,17 @@ Kerrin Bielser,  Christoph Börger,  Male Hesse,  Silas Rathke,  Jonas Walter. <
 
 <h4>Latvia</h4>
 
+Art&umacr;rs Banga, Reinis Cirpons, Raitis R&umacr;si&ncedil;&scaron;, Ingus J&amacr;nis Pretkalni&ncedil;&scaron;, Aleksandrs Zajakins. <b>Team Leader</b>: M&amacr;ris Valdats. <b>Deputy leader</b>: Filips Je&lcedil;isejevs. 
+
 <h4>Lithuania</h4>
+
+Zigmas Bitinas, Aurimas Klima&scaron;auskas, Neringa Levinskait&eacute;, Jonas Puk&scaron;ta, Ernestas Ramanauskas. <b>Team Leader</b>: Romualdas Ka&scaron;uba. <b>Deputy Leader</b>: Zina &Scaron;iaulin&eacute;.
 
 <h4>Norway</h4>
 
 <h4>Poland</h4>
+
+Damian Burczyk, Jan Fornal, Filip Gawron, Wojciech Mitros, Mariusz Trela. <b>Team Leader</b>: Tomasz Cie&sacute;la. <b>Deputy leader</b>: Filip Smentek. 
 
 <h4>St. Petersburg</h4>
 
