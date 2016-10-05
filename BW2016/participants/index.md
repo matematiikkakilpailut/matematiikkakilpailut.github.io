@@ -25,36 +25,38 @@ any other equivalent post-secondary institution.
 
 <h4>Denmark</h4>
 
-Jonas Walter, Alex Villaro Kr&uuml;ger, Jonathan Tilling Niemann, Nicolai Sebastian Carstensen, Iustin Beldie, Marius Christian Fischer. <b>Team leader</b>: Jan Agentoft Nielsen, <b>Deputy leader</b>: Frederik Ravn Klausen.
+<b>Contestants</b>: Jonas Walter, Alex Villaro Kr&uuml;ger, Jonathan Tilling Niemann, Nicolai Sebastian Carstensen, Iustin Beldie, Marius Christian Fischer. <b>Team leader</b>: Jan Agentoft Nielsen, <b>Deputy leader</b>: Frederik Ravn Klausen.
 
 <h4>Estonia</h4>
 
 <h4>Germany</h4>
 
-Kerrin Bielser,  Christoph Börger,  Male Hesse,  Silas Rathke,  Jonas Walter. <b>Team leader</b>: Uwe Leck. <b>Deputy leader</b>: Klaus Henning.
+<b>Contestants</b>: Kerrin Bielser,  Christoph Börger,  Male Hesse,  Silas Rathke,  Jonas Walter. <b>Team leader</b>: Uwe Leck. <b>Deputy leader</b>: Klaus Henning.
 
 <h4>Iceland</h4>
 
 <h4>Latvia</h4>
 
-Art&#x016B;rs Banga, Reinis Cirpons, Raitis R&#x016b;si&#x0146;&scaron;, Ingus J&#x0101;nis Pretkalni&#x0146;&scaron;, Aleksandrs Zajakins. <b>Team Leader</b>: M&amacr;ris Valdats. <b>Deputy leader</b>: Filips Je&#x013C;isejevs. 
+<b>Contestants</b>: Art&#x016B;rs Banga, Reinis Cirpons, Raitis R&#x016b;si&#x0146;&scaron;, Ingus J&#x0101;nis Pretkalni&#x0146;&scaron;, Aleksandrs Zajakins. <b>Team Leader</b>: M&amacr;ris Valdats. <b>Deputy leader</b>: Filips Je&#x013C;isejevs. 
 
 <h4>Lithuania</h4>
 
-Zigmas Bitinas, Aurimas Klima&scaron;auskas, Neringa Levinskait&eacute;, Jonas Puk&scaron;ta, Ernestas Ramanauskas. <b>Team Leader</b>: Romualdas Ka&scaron;uba. <b>Deputy Leader</b>: Zina &Scaron;iaulin&eacute;.
+<b>Contestants</b>: Zigmas Bitinas, Aurimas Klima&scaron;auskas, Neringa Levinskait&eacute;, Jonas Puk&scaron;ta, Ernestas Ramanauskas. <b>Team Leader</b>: Romualdas Ka&scaron;uba. <b>Deputy Leader</b>: Zina &Scaron;iaulin&eacute;. <b>Observer</b>: Aivaras Novikas.
 
 <h4>Norway</h4>
 
+<b>Contestants</b>: Anna Lyubarskaja, Erik Mingjun Ma, Marius Stensrud, Oskar Vikhammar-Sandberg, Fredrik Meringdal. <b>Team Leader</b>: D&aacute;vid Kunszenti-Kov&aacute;cs. <b>Deputy leader</b>: Pål Hermunn Johansen.
+
 <h4>Poland</h4>
 
-Damian Burczyk, Jan Fornal, Filip Gawron, Wojciech Mitros, Mariusz Trela. <b>Team Leader</b>: Tomasz Cie&sacute;la. <b>Deputy leader</b>: Filip Smentek. 
+<b>Contestants</b>: Damian Burczyk, Jan Fornal, Filip Gawron, Wojciech Mitros, Mariusz Trela. <b>Team Leader</b>: Tomasz Cie&sacute;la. <b>Deputy leader</b>: Filip Smentek. 
 
 <h4>St. Petersburg</h4>
 
-Nikita Karagodin, Mikhail Ivanov, Arsenii Virachev, Kirill Tyshchuk, Victor Migrin. <b>Team leader</b>: Konstantin Kokhas. <b>Deputy leader</b>: Dmitrii Rostovskii. <b>Observer</b>: Maksim Pratusevich.
+<b>Contestants</b>: Nikita Karagodin, Mikhail Ivanov, Arsenii Virachev, Kirill Tyshchuk, Victor Migrin. <b>Team leader</b>: Konstantin Kokhas. <b>Deputy leader</b>: Dmitrii Rostovskii. <b>Observer</b>: Maksim Pratusevich.
 
 <h4>Sweden</h4>
 
 <h4>Finland</h4>
 
-Ella Anttila, Olli Järviniemi, Joose Lehtinen, Jesse Nieminen, Antti Röyskö. <b>Team leader</b>: Lauri Hallila. <b>Deputy leader</b>: Otte Heinävaara.
+<b>Contestants</b>: Ella Anttila, Olli Järviniemi, Joose Lehtinen, Jesse Nieminen, Antti Röyskö. <b>Team leader</b>: Lauri Hallila. <b>Deputy leader</b>: Otte Heinävaara.
