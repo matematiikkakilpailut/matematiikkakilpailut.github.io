@@ -54,6 +54,7 @@ The contest is sponsored by:
 * [Nokia][nokia], emphasis on supporting girls participating in the competition
 * [F-Secure][fsec]
 * [Nordic Semiconductor][nordicsemi]
+* [Nordea Life Assurance][nordea life]
 * [Ilmarinen][ilmarinen]
 * [LähiTapiola Pohjoinen][tapiola]
 * [Aalto University Department of Mathematics and Systems Analysis][aalto]
@@ -77,6 +78,7 @@ The contest is sponsored by:
 [tapiola]: http://www.lahitapiola.fi/tietoa-lahitapiolasta/yhtiot/pohjoinen
 [betoni]: http://www.ruskonbetoni.fi/
 [ilmarinen]:http://www.ilmarinen.fi/en/
+[nordea life]:http://www.nordea.fi/en/personal-customers/insurance/henkilovakuutukset/nordea-life-assurance.html
 
 The organizing committee is looking for further sponsors. Sponsors
 have a unique opportunity to reach a set of talented pre-university
