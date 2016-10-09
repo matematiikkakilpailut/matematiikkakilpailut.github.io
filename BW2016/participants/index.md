@@ -41,7 +41,7 @@ any other equivalent post-secondary institution.
 
 <h4>Lithuania</h4>
 
-<b>Contestants</b>: Zigmas Bitinas, Aurimas Klima&scaron;auskas, Neringa Levinskait&#x0117;, Jonas Puk&scaron;ta, Ernestas Ramanauskas. <b>Team Leader</b>: Romualdas Ka&scaron;uba. <b>Deputy Leader</b>: Zina &Scaron;iaulin&#x0117;. <b>Observer</b>: Aivaras Novikas.
+<b>Contestants</b>: Zigmas Bitinas, Aurimas Klima&scaron;auskas, Neringa Levinskait&#x0117;, Jonas Puk&scaron;ta, Ernestas Ramanauskas. <b>Team Leader</b>: Romualdas Ka&scaron;uba. <b>Deputy Leader</b>: Zina &Scaron;iaulien&#x0117;. <b>Observer</b>: Aivaras Novikas.
 
 <h4>Norway</h4>
 
