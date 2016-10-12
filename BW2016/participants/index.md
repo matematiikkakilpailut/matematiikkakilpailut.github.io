@@ -28,7 +28,7 @@ any other equivalent post-secondary institution.
 <b>Contestants</b>: Jonas Walter, Alex Villaro Kr&uuml;ger, Jonathan Tilling Niemann, Nicolai Sebastian Carstensen, Iustin Beldie, Marius Christian Fischer. <b>Team leader</b>: Jan Agentoft Nielsen. <b>Deputy leader</b>: Frederik Ravn Klausen.
 
 <h4>Estonia</h4>
-<b>Contestants</b>: Kaarel Hänni, Taavet Kalda, Joonas Jürgen Kisel, Richard Luhtaru, Hendrik Vija. <b>Team Leader</b>: Oleg Ko&scaron;ik. <b>Deputy leader</b>: Janno Veeorg.
+<b>Contestants</b>: Kaarel Hänni, Taavet Kalda, Joonas Jürgen Kisel, Richard Luhtaru, Hendrik Vilja. <b>Team Leader</b>: Oleg Ko&scaron;ik. <b>Deputy leader</b>: Janno Veeorg.
 
 <h4>Germany</h4>
 
