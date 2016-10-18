@@ -40,6 +40,7 @@ marked with the country code and problem numbers. The envelopes will be collecte
 
 <h4>Excursions</h4>
 
+<img src="napap.JPG" width="233" height="300" align=right hspace=30>
 On Friday, November 4, the Jury will be busy working with the problem set for the contest. Meanwhile, the contestants 
 will make an excursion to Rovaniemi, the capital of Lapland. As distances here are long, the excursion will 
 start so early that breakfast will be consumed in the bus. Of the many interesting sights in Rovaniemi, the 
