@@ -5,10 +5,6 @@ sitemap: false
 url: /BW2016/practicalities/
 ---
 
-<h4>Contact</h4>
-
-For more information, contact the organizers. Email: matti.lehtinen'at'spangar.fi, phone +358405830678.
-
 <h4>Accommodation and Meals</h4>
 
 The contestants and leaders will be accommodated on the island Hietasaari. The distance to Oulu center is 3 km walking, 
@@ -31,10 +27,12 @@ Kaitoväylä 7, 90570 Oulu.
 
 <h4>Contest Instructions</h4> 
 
-Any material not permitted in the test, e.g. cell phones, will be collected before the test and returned afterwards. 
+Any material not permitted in the test, e.g. cell phones and calculating devices, will be collected from the teams before the test and returned afterwards. 
 
 Eventual questions pertaining to the problems (i.e. suspected errors, misprints etc) should be made in writing during 
-the first 30 minutes of the test. There will be messengers carrying the questions to the jury. 
+the first 30 minutes of the test. There will be messengers carrying the questions to the jury.
+
+There will be some refreshments in the working rooms.
 
 Answers to different problems should be written different sheets. Write your country code and problem number on 
 every answer sheet. Only write on one side of paper! Place the answers in the four envelopes provided and 
@@ -42,15 +40,20 @@ marked with the country code and problem numbers. The envelopes will be collecte
 
 <h4>Excursions</h4>
 
-On Friday, November 4, the Jury will set up the problem set for the contest. Meanwhile, the contestants 
+On Friday, November 4, the Jury will be busy working with the problem set for the contest. Meanwhile, the contestants 
 will make an excursion to Rovaniemi, the capital of Lapland. As distances here are long, the excursion will 
 start so early that breakfast will be consumed in the bus. Of the many interesting sights in Rovaniemi, the 
-contestants will visit the Arktikum science center and Santa Claus Village, just on the Arctic Circle.
+contestants will visit the [Arktikum](http://www.arktikum.fi/EN/home.html) science center and [Santa Claus Village](http://www.arktikum.fi/EN/home.html), just on the Arctic Circle.
 
-On Sunday morning, Nov. 6, the contestants and leaders will visit the Oulu premises  VTT, Technical 
-Research Centre of Finland  to see a glimpse of high-tech Oulu.
+On Sunday morning, Nov. 6, the contestants and leaders will visit the Oulu premises of [VTT, Technical 
+Research Centre of Finland](http://www.vttresearch.com/),  to see a glimpse of high-tech Oulu.
 
+<h4>Weather</h4>
 
+Weather is unpredictable. But anyway, it will be late autumn. We advice you to check the medium term [forecast](http://en.ilmatieteenlaitos.fi/weather/oulu?forecast=daily) of the Finnish Meteorological Institute before choosing the clothing. And those of you travelling to Rovaniemi may well find the ground covered with snow. 
 
+<h4>Contact</h4>
+
+For more information, contact the organizers. Email: matti.lehtinen'at'spangar.fi, phone +358405830678.
 
 
