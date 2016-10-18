@@ -1,31 +1,32 @@
 ---
 layout: bw2016page
-title: Baltic Way 2016 instructions
+title: Baltic Way 2016 Practical Information
 sitemap: false
 url: /BW2016/practicalities/
 ---
 
-<h3>Practical Information</h3>
+<h4>Contact</h4>
+
+For more information, contact the organizers. Email: matti.lehtinen'at'spangar.fi, phone +358405830678.
 
 <h4>Accommodation and Meals</h4>
 
 The contestants and leaders will be accommodated on the island Hietasaari. The distance to Oulu center is 3 km walking, 
-somewhat more by car. City bus n:o 15 connects Hietasaari to Oulu center. The service is not very frequent: 
-twice an hour on weekdays at daytime, once an hour on weekends and evenings.  
+somewhat more by car. [City bus n:o 15](http://www.oulunjoukkoliikenne.fi/english) connects Hietasaari to Oulu center. The service is not very frequent: twice an hour on weekdays at daytime, once an hour on weekends and evenings.  
 
-The contestants will be accommodated in the Nallikari Holiday Village, address Leiritie 10, FIN 90510 Oulu, Finland, 
-telephone +358 44 7031353. The reception and cafeteria are open from 11 to 19 on weekdays, 11 to 16 on holidays. 
-The leaders' accommodation is at Pohto Institute, Vellamontie 12, FIN 90510 Oulu, telephone +358 10 843 4500.  
-Walking distance between the places is about 800 m, using Leiritie, Holstinsalmentie and Vellamontie.
+The contestants will be accommodated in the [Nallikari Holiday Village](http://nallikari.fi/en/), 
+address Leiritie 10, FIN 90510 Oulu, Finland, telephone +358 44 7031353. The reception and cafeteria are open from 11 to 19 on weekdays, 11 to 16 on holidays. 
+The leaders' accommodation is at [Pohto Institute](https://www.pohto.fi/index.php?sl=en), Vellamontie 12, FIN 90510 Oulu, telephone +358 10 843 4500.  
+Walking distance between the places is about 800 m, using Leiritie, Holstinsalmentie and Vellamontie. Consult [map](https://www.fonecta.fi/kartat/Leiritie%2010,%2090510,%20OULU).
 
 Meals will be served at different restaurants, as indicated in the programme. Ruffi is the restaurant at Pohto 
-Institute, in the leaders' accommodation. Restaurant Nallikari is on the seashore 200 m from the western gate of 
+Institute, in the leaders' accommodation. [Restaurant Nallikari](http://www.ravintolanallikari.fi/en/) is on the seashore 200 m from the western gate of 
 the Nallikari Holiday Village. On Friday, the contestants will have their breakfast as breakfast packs in the bus 
 en route to Rovaniemi.
 
 <h4>Contest Site</h4>
 
-The contest will take place in the Oulu University Teacher Training School (Oulun normaalikoulu), 
+The contest will take place in the [Oulu University Teacher Training School](https://norssiportti.oulu.fi/index.php?id=3659&lang_id=1) (Oulun normaalikoulu), 
 Kaitoväylä 7, 90570 Oulu. 
 
 <h4>Contest Instructions</h4> 
