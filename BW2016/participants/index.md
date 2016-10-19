@@ -40,7 +40,7 @@ any other equivalent post-secondary institution.
 
 <h4>Latvia</h4>
 
-<b>Contestants</b>: Artem Ubaidullaev, Reinis Cirpons, Raitis R&#x016b;si&#x0146;&scaron;, Ingus J&#x0101;nis Pretkalni&#x0146;&scaron;, Aleksandrs Zajakins. <b>Team Leader</b>: M&amacr;ris Valdats. <b>Deputy leader</b>: Filips Je&#x013C;isejevs. 
+<b>Contestants</b>: Artem Ubaidullaev, Reinis Cirpons, Raitis R&#x016b;si&#x0146;&scaron;, Ingus J&#x0101;nis Pretkalni&#x0146;&scaron;, Aleksandrs Zajakins. <b>Team Leader</b>: M&#x0101;ris Valdats. <b>Deputy leader</b>: Filips Je&#x013C;isejevs. 
 
 <h4>Lithuania</h4>
 
