@@ -36,6 +36,8 @@ any other equivalent post-secondary institution.
 
 <h4>Iceland</h4>
 
+<b>Contestants</b>: Atli Fannar Frankl&#x00ED;n, Elvar Wang Atlason, Gar&#x00F0;ar Sigur&#x00F0;arson, Gu&#x00F0;j&#x00F3;n Helgi Au&#x00F0;unsson, Tómas Ingi Hr&#x00F3;lfsson. <b>Team leader</b>: Marteinn &#x00DE;&#x00F3;r Har&#x00F0;arson. <b>Deputy leader</b>: Sigur&#x00F0;ur Jens Albertsson.
+
 <h4>Latvia</h4>
 
 <b>Contestants</b>: Artem Ubaidullaev, Reinis Cirpons, Raitis R&#x016b;si&#x0146;&scaron;, Ingus J&#x0101;nis Pretkalni&#x0146;&scaron;, Aleksandrs Zajakins. <b>Team Leader</b>: M&amacr;ris Valdats. <b>Deputy leader</b>: Filips Je&#x013C;isejevs. 
