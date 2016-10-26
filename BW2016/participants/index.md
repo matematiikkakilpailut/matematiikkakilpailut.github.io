@@ -21,8 +21,6 @@ any other equivalent post-secondary institution.
 
 <h2>Baltic Way 2016 Participants</h2>
 
-(The list will be updated as soon as more information is available.)
-
 <h4>Denmark</h4>
 
 <b>Contestants</b>: Jonas Walter, Alex Villaro Kr&uuml;ger, Jonathan Tilling Niemann, Nicolai Sebastian Carstensen, Iustin Beldie, Marius Christian Fischer. <b>Team leader</b>: Jan Agentoft Nielsen. <b>Deputy leader</b>: Frederik Ravn Klausen.
@@ -59,6 +57,8 @@ any other equivalent post-secondary institution.
 <b>Contestants</b>: Nikita Karagodin, Mikhail Ivanov, Arsenii Virachev, Kirill Tyshchuk, Victor Migrin. <b>Team leader</b>: Konstantin Kokhas. <b>Deputy leader</b>: Dmitrii Rostovskii. <b>Observer</b>: Maksim Pratusevich.
 
 <h4>Sweden</h4>
+
+<b>Contestants</b>: Hugo Eberhard, Nicole Hedblom, Arvid Lunnemark, Björn Magnusson, David Wärn. <b>Team leader</b>: Qimh Xantcha. <b>Deputy leader</b>: Alex Loiko.
 
 <h4>Finland</h4>
 
