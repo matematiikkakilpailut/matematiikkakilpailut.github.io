@@ -1,9 +1,11 @@
 ---
-layout: bw2016page
+layout: bw2016
 title: Baltic Way 2016 Practical Information
-sitemap: false
 url: /BW2016/practicalities/
+nav: practicalities
 ---
+
+# Practical information
 
 <h4>Accommodation and Meals</h4>
 

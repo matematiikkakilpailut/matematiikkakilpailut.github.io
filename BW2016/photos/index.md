@@ -1,5 +1,5 @@
 ---
-layout: bw2016page
+layout: bw2016
 title: Baltic Way 2016 Photo Gallery
 sitemap: false
 url: /BW2016/photos/

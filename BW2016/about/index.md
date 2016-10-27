@@ -1,10 +1,10 @@
 ---
-layout: bw2016page
+layout: bw2016
 title: About Baltic Way 2016
 description: >-
   Baltic Way is a math contest for teams around the Baltic Sea
-sitemap: false
 url: /BW2016/about/
+nav: about
 ---
 
 ## About Baltic Way
@@ -80,16 +80,3 @@ The contest is sponsored by:
 [ilmarinen]:http://www.ilmarinen.fi/en/
 [nordea life]:http://www.nordea.fi/en/personal-customers/insurance/henkilovakuutukset/nordea-life-assurance.html
 
-The organizing committee is looking for further sponsors. Sponsors
-have a unique opportunity to reach a set of talented pre-university
-students from all countries around the Baltic Sea who are able to
-compete in mathematics at an international level. This is ideal for
-companies seeking mathematically talented interns or employees as well
-as educational institutions looking for students. Most participants
-are likely to be seeking a university-level education in mathematics,
-computer science or other fields where they can use their mathematical
-skills.
-
-Sponsors receive publicity on the web site and printed materials, and
-the competition site (e.g. posters at the reception desk). Depending
-on the sponsorship level, short invited talks may be accommodated.
