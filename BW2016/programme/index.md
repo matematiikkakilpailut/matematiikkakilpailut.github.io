@@ -5,7 +5,7 @@ sitemap: false
 url: /BW2016/programme/
 ---
 
-The main features of the Baltic Way 2016 programme are as follows. More details will be added later.
+The main features of the Baltic Way 2016 programme are as follows. 
 
 <b>Thursday, November 3.</b> Arrival of the teams. Accommodation in the [Nallikari Holiday Village & Camping](http://nallikari.fi/en/) (contestants) or in the [Pohto Institute](https://www.pohto.fi/index.php?sl=en) (leaders and deputy leaders). Leaders and deputy leaders receive the problem proposals.
 
@@ -16,4 +16,10 @@ The main features of the Baltic Way 2016 programme are as follows. More details 
 <b>Sunday, November 6.</b> A visit to the Oulu premises of [VTT Technical Research Centre of Finland](http://www.vttresearch.com/). Final Ceremony in Oulu City Hall and Final Dinner in Pohto Institute.
 
 <b>Monday, November 7.</b> Departure of the teams.
+
+The programme in more detail: 
+
+[Contestants](prgr_contestants.pdf)
+
+[Leaders](prgr_leaders.pdf)
 
