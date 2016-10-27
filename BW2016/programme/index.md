@@ -1,9 +1,11 @@
 ---
-layout: bw2016page
+layout: bw2016
 title: Baltic Way 2016 Programme
-sitemap: false
 url: /BW2016/programme/
+nav: programme
 ---
+
+# Programme
 
 The main features of the Baltic Way 2016 programme are as follows. 
 

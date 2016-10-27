@@ -1,9 +1,11 @@
 ---
-layout: bw2016page
+layout: bw2016
 title: Baltic Way 2016 Participants
-sitemap: false
 url: /BW2016/participants/
+nav: participants
 ---
+
+# Participants
 
 Participation is by invitation only.
 The following countries or regions have been invited
