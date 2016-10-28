@@ -42,10 +42,10 @@ marked with the country code and problem numbers. The envelopes will be collecte
 
 <h4>Excursions</h4>
 
-On Friday, November 4, the Jury will be busy working with the problem set for the contest. Meanwhile, the contestants 
+<img src="/BW2016/practicalities/napap.JPG" width="233" height="300" align="right" hspace="30">On Friday, November 4, the Jury will be busy working with the problem set for the contest. Meanwhile, the contestants 
 will make an excursion to Rovaniemi, the capital of Lapland. As distances here are long, the excursion will 
 start so early that breakfast will be consumed in the bus. Of the many interesting sights in Rovaniemi, the 
-contestants will visit the [Arktikum](http://www.arktikum.fi/EN/home.html) science center and [Santa Claus Village](http://www.arktikum.fi/EN/home.html), just on the [Arctic Circle](napap.JPG).
+contestants will visit the [Arktikum](http://www.arktikum.fi/EN/home.html) science center and [Santa Claus Village](http://www.arktikum.fi/EN/home.html), just on the Arctic Circle.
 
 On Sunday morning, Nov. 6, the contestants and leaders will visit the Oulu premises of [VTT, Technical 
 Research Centre of Finland](http://www.vttresearch.com/),  to see a glimpse of high-tech Oulu.
