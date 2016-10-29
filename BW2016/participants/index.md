@@ -52,7 +52,7 @@ any other equivalent post-secondary institution.
 
 <h4>Poland</h4>
 
-<b>Contestants</b>: Damian Burczyk, Jan Fornal, Filip Gawron, Wojciech Mitros, Mariusz Trela. <b>Team Leader</b>: Tomasz Cie&sacute;la. <b>Deputy leader</b>: Filip Smentek. 
+<b>Contestants</b>: Damian Burczyk, Jan Fornal, Filip Gawron, Wojciech Mitros, Mariusz Trela. <b>Team Leader</b>: Tomasz Cieśla. <b>Deputy leader</b>: Filip Smentek. 
 
 <h4>St. Petersburg</h4>
 
