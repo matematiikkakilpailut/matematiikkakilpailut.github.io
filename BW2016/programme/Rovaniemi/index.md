@@ -38,14 +38,12 @@ north of downtown Rovaniemi. And the place is indeed so comfortable that Santa h
 all year round. He likes to chat a bit with any visitor who likes to see him, and for a modest fee 
 one can purchase photos and even a video of the meeting. 
 
-<img src="Santa.jpg" height="133" width="200" hspace="30" align="right"> There may be some among us who doubt the existence of Santa, but seeing him in flesh and 
+<img src="Santa.jpg" height="200" width="300" hspace="30" align="right"> There may be some among us who doubt the existence of Santa, but seeing him in flesh and 
 blood will convince even the staunchest skeptic. The members of the BW Organizing Committee were fully convinced, anyway, as seen in the picture.
 
 Around Santa's quarters there is a village of shops, offering Christmas and Lapland related souvenirs, but 
 also real Finnish design. A special feature is Santa's Post Office. From there one can order a personal letter 
-from Santa to a relative or acquaintance, to be delivered at Christmas. (Nowadays this can be done also online, 
-of course, at [http://kampanja.posti.fi/joulupukinpaaposti/eng/##content_01|500.]
-(http://kampanja.posti.fi/joulupukinpaaposti/eng/##content_01|500.))
+from Santa to a relative or acquaintance, to be delivered at Christmas. (Nowadays this can be done also [online](http://kampanja.posti.fi/joulupukinpaaposti/eng/##content_01|500.), of course.)
 
 Santa's Village actually grew around a small log cabin called <i>Roosevelt's Cottage</i>. It got its name from 
 <i>Eleanor Roosevelt</i>, the widow of US President Franklin D. Roosevelt. Mrs. Roosevelt had been active in the 
