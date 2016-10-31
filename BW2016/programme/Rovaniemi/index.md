@@ -7,7 +7,7 @@ url: /BW2016/programme/
 nav: programme
 ---
 
-<h3>On Rovaniemi and Santa Claus</H3>
+<h3>On Rovaniemi and Santa Claus</h3>
 
 <h4>Why there are no old buildings in Rovaniemi</h4>
 
