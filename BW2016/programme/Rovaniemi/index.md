@@ -43,7 +43,7 @@ blood will convince even the staunchest skeptic. The members of the BW Organizin
 
 Around Santa's quarters there is a village of shops, offering Christmas and Lapland related souvenirs, but 
 also real Finnish design. A special feature is Santa's Post Office. From there one can order a personal letter 
-from Santa to a relative or acquaintance, to be delivered at Christmas. (Nowadays this can be done also [online](http://kampanja.posti.fi/joulupukinpaaposti/eng/##content_01|500.), of course.)
+from Santa to a relative or acquaintance, to be delivered at Christmas. (Nowadays this can be done also [online](http://kampanja.posti.fi/joulupukinpaaposti/eng/##content_01|500), of course.)
 
 Santa's Village actually grew around a small log cabin called <i>Roosevelt's Cottage</i>. It got its name from 
 <i>Eleanor Roosevelt</i>, the widow of US President Franklin D. Roosevelt. Mrs. Roosevelt had been active in the 
