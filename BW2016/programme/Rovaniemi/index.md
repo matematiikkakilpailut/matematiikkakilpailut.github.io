@@ -38,8 +38,8 @@ north of downtown Rovaniemi. And the place is indeed so comfortable that Santa h
 all year round. He likes to chat a bit with any visitor who likes to see him, and for a modest fee 
 one can purchase photos and even a video of the meeting. 
 
-There may be some among us who doubt the existence of Santa, but seeing him in flesh and 
-blood will convince even the staunchest skeptic.
+<img src="Santa.jpg" height="133" width="200" hspace="30" align="right"> There may be some among us who doubt the existence of Santa, but seeing him in flesh and 
+blood will convince even the staunchest skeptic. The members of the BW Organizing Committee were fully convinced, anyway, as seen in the picture.
 
 Around Santa's quarters there is a village of shops, offering Christmas and Lapland related souvenirs, but 
 also real Finnish design. A special feature is Santa's Post Office. From there one can order a personal letter 
