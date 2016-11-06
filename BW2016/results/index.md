@@ -7,7 +7,7 @@ nav: results
 
 # Results
 
-Results will be published here once the contest has been judged.
+The officially approved [results](BW2016_results.pdf) of Baltic Way 2016 are here.
 
 Results from previous years can be found at the
 corresponding contest sites:
