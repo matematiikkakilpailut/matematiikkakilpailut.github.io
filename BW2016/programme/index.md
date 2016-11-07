@@ -19,9 +19,9 @@ The main features of the Baltic Way 2016 programme are as follows.
 
 <b>Monday, November 7.</b> Departure of the teams.
 
-The programme in more detail: 
+[The Programme Booklet (pdf)](Booklet.pdf) 
 
-[Contestants](prgr_contestants.pdf)
 
-[Leaders](prgr_leaders.pdf)
+
+
 
