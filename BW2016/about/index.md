@@ -80,4 +80,4 @@ The contest is sponsored by:
 [betoni]: http://www.ruskonbetoni.fi/
 [ilmarinen]:http://www.ilmarinen.fi/en/
 [nordea life]:http://www.nordea.fi/en/personal-customers/insurance/henkilovakuutukset/nordea-life-assurance.html
-[vvt]:http://www.vttresearch.com/
+[vtt]:http://www.vttresearch.com/
