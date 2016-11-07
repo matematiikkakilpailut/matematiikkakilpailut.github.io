@@ -63,6 +63,7 @@ The contest is sponsored by:
 * [University of Tampere][tampere]
 * [Painosalama][painosalama] provides printed materials for the contest
 * [Ruskon Betoni][betoni]
+* [VTT Technical Research Centre of Finland][vtt]
 
 [aalto]: https://math.aalto.fi/
 [nokia]: http://www.nokia.com/
@@ -79,4 +80,4 @@ The contest is sponsored by:
 [betoni]: http://www.ruskonbetoni.fi/
 [ilmarinen]:http://www.ilmarinen.fi/en/
 [nordea life]:http://www.nordea.fi/en/personal-customers/insurance/henkilovakuutukset/nordea-life-assurance.html
-
+[vvt]:http://www.vttresearch.com/
