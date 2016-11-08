@@ -5,5 +5,6 @@ sitemap: false
 url: /BW2016/photos/
 ---
 
-(work in progress)
+Some photos from Baltic Way 2016 can be seen [here](http://www.elisanet.fi/~g625872/BW2016/).
+
 
