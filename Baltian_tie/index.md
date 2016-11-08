@@ -172,6 +172,9 @@ kilpailut:
     joukkue: "Ella Anttila, Petrus Asikainen, Iiro Kumpulainen, Kalle Luopajärvi, Jesse Nieminen"
   - vuosi: "2016"
     paikka: "[Oulu](http://matematiikkakilpailut.fi/BW2016/)"
+    sijoitus: "[45 (9.)](http://matematiikkakilpailut.fi/BW2016/results/BW2016_results.pdf)"
+    tehtavat: "[pdf](http://matematiikkakilpailut.fi/BW2016/problems/bw2016_fi.pdf)"
+    joukkue: "Ella Anttila, Olli Järviniemi, Joose Lehtinen, Jesse Nieminen, Antti Röyskö"
   
 ---
 ## Baltian Tie -joukkuematematiikkakilpailu
