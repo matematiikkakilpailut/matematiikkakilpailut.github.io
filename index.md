@@ -61,7 +61,9 @@ kysymyksistä löytyy lisätietoa [täältä](kaytanto).
 
 ## <a name="uutisia"></a>Uutisia
 
-* Vuoden 2016 Baltian Tie -joukkuematematiikkakilpailu pidettiin Oulussa 3.&ndash;7. marraskuuta. Ensimmäisen sijan jakoivat Puola ja Pietari. Kolmas oli Ruotsi. Suomi oli 9. [Kilpailutehtävät](http://matematiikkakilpailut.fi/BW2016/problems/bw2016_fi.pdf) ja [tulosluettelo](http://matematiikkakilpailut.fi/BW2016/results/BW2016_results.pdf).
+* Vuoden 2016 Baltian Tie -joukkuematematiikkakilpailu pidettiin Oulussa 3.&ndash;7. marraskuuta. Kilpailun järjesti Valmennusjaosto yhdessä MAOL-Oulun kerhon ja Oulun yliopiston OuLUMA-keskuksen kanssa. Ensimmäisen sijan jakoivat Puola ja Pietari. Kolmas oli Ruotsi. Suomi oli 9. [Kilpailutehtävät](http://matematiikkakilpailut.fi/BW2016/problems/bw2016_fi.pdf) ja [tulosluettelo](http://matematiikkakilpailut.fi/BW2016/results/BW2016_results.pdf).
+
+* Matemaattisten aineiden opettajien liiton valtakunnallisen lukion matematiikkakilpailun alkukilpailu järjestettiin 30.10.2016. [Tehtävät](http://matematiikkakilpailut.fi/MAOL/2016/al2016.pdf) ja niiden [ratkaisut](http://matematiikkakilpailut.fi/MAOL/2016/al2016ratk.pdf).
 
 * Suomea vuoden 2016 Baltian Tie -kilpailussa edustava joukkue valittiin viikon 36 valmennustapahtumassa Päivölässä. Joukkueen muodostavat Ella Anttila, Olli Järviniemi, Joose Lehtinen, Jesse Nieminen ja Antti Röyskö. Joukkueen johtaja on Lauri Hallila ja varajohtaja Otte Heinävaara. Valinta perustui osaksi 9.9. pidettyyn kaksituntiseen [kokeeseen](valmennus/2016/koe_9_9_16.pdf).
 
