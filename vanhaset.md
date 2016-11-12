@@ -5,6 +5,10 @@ title: Uutisarkisto
 
 ## Vanhoja uutisia
 
+* Baltian Tie -joukkuematematiikkakilpailun vuonna 2015 voitti Pietarin joukkue, seuraavina Puola ja Viro. Vierailevana joukkueena mukana ollut Hollanti oli neljäs. Suomi oli 9.
+
+* Vuoden 2015 Baltian tie -joukkueeseen valittiin Suomea edustamaan **Ella Anttila**, **Petrus Asikainen**, **Iiro Kumpulainen**, **Kalle Luopaj&auml;rvi** ja **Jesse Nieminen**. Joukkueen johtaja on **Anne-Maria Ernvall-Hytönen** ja varajohtaja **Jari Lappalainen**.
+
 * Ennakkotiedoista poiketen Ruotsi ei järjestäkään vuonna 2015 opettajien Kappa-kilpailua.
 
 * Vuoden 2015 Kansainväliset matematiikkaolympialaiset järjestettiin Thaimaan Chiang Maissa 6. &ndash; 14. heinäkuuta. Kaikkiaan 104 maan joukkueet osallistuivat; kilpailijoita oli 577. Kilpailun tehtäväsarja muodostui aiottua vaikeammaksi, kun toisen päivän tehtävien vuodettua ne jouduttiin korvaamaan varatehtävillä. Kanadan **Alex Song** pääsi ainoana kilpailijana täysiin pisteisiin. Maiden välisen kilpailun paras oli Yhdysvallat. Suomi oli 82. Suomen **Kalle Luopajärvi** sai kunniamaininnan. 
