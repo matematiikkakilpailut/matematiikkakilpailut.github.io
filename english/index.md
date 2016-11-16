@@ -30,12 +30,11 @@ The following persons take part in organizing the training:
 
 *   [Anne-Maria Ernvall-Hytönen](http://www.helsinki.fi/~ernvall)
 *   Lauri Hallila
-*   Olli Hirviniemi
+*   Otte Heinävaara
+    Olli Hirviniemi
 *   [Antti Honkela](http://www.iki.fi/ahonkela/)
 *   Jesse Jääsaari
 *   Alexey Kirichenko
-*   Aleksis Koski
-*   Katja Kulmala
 *   Jari Lappalainen
 *   [Matti Lehtinen](http://www.elisanet.fi/matti.t.Lehtinen)
 *   [Kerkko Luosto](http://www.helsinki.fi/%7Ekluosto/)
@@ -98,3 +97,5 @@ FHSMC [problems and solutions, 2012–14](/valmennus/English/maolkilp2012_14eng.
 FHSMC  and NMC [problems and solutions, 2014–15](/valmennus/English/maol2014_15engl.pdf).
 
 FHSMC [first round problems, 2015](/valmennus/English/alku2015eng.pdf).
+
+FHSMC [first round problems, 2016](/valmennus/English/alkuk2016_eng.pdf).
