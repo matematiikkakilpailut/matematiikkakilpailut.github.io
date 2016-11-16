@@ -175,7 +175,8 @@ kilpailut:
     sijoitus: "[45 (9.)](http://matematiikkakilpailut.fi/BW2016/results/BW2016_results.pdf)"
     tehtavat: "[pdf](http://matematiikkakilpailut.fi/BW2016/problems/bw2016_fi.pdf)"
     joukkue: "Ella Anttila, Olli Järviniemi, Joose Lehtinen, Jesse Nieminen, Antti Röyskö"
-  
+    ratkaisut: "[englanniksi](http://matematiikkakilpailut.fi/BW2016/problems/BW2016sol.pdf)"
+    
 ---
 ## Baltian Tie -joukkuematematiikkakilpailu
 
