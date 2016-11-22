@@ -121,6 +121,10 @@ kilpailu&shy;matematiikka&shy;valmennus&shy;tilaisuuksia. Tarkemmin [tästä][ou
 
 ## <a name="muuta"></a>Muuta
 
+#### [Po-Shen Lohin haastattelu](/kirjallisuus/Loh.pdf)
+
+USA:n olympiavalmennuksen johtajan syyskuussa 2016 julkaistu haastattelu, joka voi olla opettavaa luettavaa.
+
 #### [Päivölän kansanopisto](http://www.paivola.fi/)
 
 Päivölässä toimii [matematiikkalinja](http://www.paivola.fi/?menu=2&amp;sivu=matematiikka),
