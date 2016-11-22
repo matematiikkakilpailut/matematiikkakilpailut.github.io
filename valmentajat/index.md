@@ -21,8 +21,8 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
 *  Katja Kulmala<br/> Olympiaedustaja vuonna 2013.
 *  Jari Lappalainen<br/> Olympiaedustaja vuosina 1990 ja 1991.
 *  [Matti Lehtinen][matti]<br/>
-   Olympiaedustaja vuonna 1965. Valmennusjaoston johtoryhmän jäsen.
-   Pitää huolta erityisesti valmennettavien geometrian taidoista.
+   Olympiaedustaja vuonna 1965. Jättäytynyt eläkkeelle valmennustoiminnasta, mutta saattaa joskus ilmaantua näkyviin.
+   PitI huolta erityisesti valmennettavien geometrian taidoista.
 *  [Kerkko Luosto][kluosto]<br/>
    Filosofian tohtori, matematiikan dosentti (HY), yliopistonlehtori (TaY).
    Olympiaedustaja vuonna 1983. Valmennusjaoston johtoryhmän jäsen.
