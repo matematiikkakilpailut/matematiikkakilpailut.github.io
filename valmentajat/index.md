@@ -12,17 +12,16 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
    Filosofian tohtori, olympiaedustaja 1999, 2000, 2001.
    Valmennusjaoston johtoryhmän jäsen. Kantaa huolta lukuteorian ja epäyhtälöiden osaamisesta.
 *  Lauri Hallila<br/> Olympiaedustaja vuosina 1996 ja 1997.
+*  Otte Heinävaara<br/> Olympiaedustaja vuosina 2012 ja 2013.
 *  Olli Hirviniemi<br/>Olympiaedustaja vuosina 2010 ja 2011.
 *  [Antti Honkela][ahonkela]<br/> Olympiaedustaja vuonna 1997.
 *  Jesse Jääsaari<br/>Olympiaedustaja vuonna 2011.
 *  Alexey Kirichenko<br/>
    Kokemusta mm. maineikkaista Leningradin matematiikkaolympialaisista.
-*  Aleksis Koski<br/> Olympiaedustaja vuosina 2009 ja 2010.
-*  Katja Kulmala<br/> Olympiaedustaja vuonna 2013.
 *  Jari Lappalainen<br/> Olympiaedustaja vuosina 1990 ja 1991.
 *  [Matti Lehtinen][matti]<br/>
    Olympiaedustaja vuonna 1965. Jättäytynyt eläkkeelle valmennustoiminnasta, mutta saattaa joskus ilmaantua näkyviin.
-   PitI huolta erityisesti valmennettavien geometrian taidoista.
+   Yritti pitää huolta erityisesti valmennettavien geometrian taidoista.
 *  [Kerkko Luosto][kluosto]<br/>
    Filosofian tohtori, matematiikan dosentti (HY), yliopistonlehtori (TaY).
    Olympiaedustaja vuonna 1983. Valmennusjaoston johtoryhmän jäsen.
