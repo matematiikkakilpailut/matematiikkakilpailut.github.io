@@ -28,7 +28,7 @@ mukana ovat lähettäjän yhteystiedot!
 
 ### Ajankohtaiset tehtävät
 
-Joulukuun 2016 [helpommat](2016/vt12_16.pdf) ja [vaativammat](2016/vt12_16va.pdf) tehtävät.
+Joulukuun 2016 [helpommat](2016/vt12_16he.pdf) ja [vaativammat](2016/vt12_16va.pdf) tehtävät.
 
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
