@@ -33,9 +33,15 @@ aikataulu:
   - pvm: "2017"
     tapahtuma: "Kevät ja kesä"
     otsikko: true
+  - pvm: "13.&ndash;15.1. (viikko 2)"
+    tapahtuma: |
+     Valmennusviikonvaihde Päivölässä.
   - pvm: "20.&ndash;21.1."
     tapahtuma: |
      Matemaattisten Aineiden Opettajien Liiton Lukion matematiikkakilpailun ja Peruskoulun matematiikkakilpailun loppukilpailut Helsingissä.
+  - pvm: "24.&ndash;26.2. (viikko 8)"
+    tapahtuma: |
+     Valmennusviikonvaihde Päivölässä.
   - pvm: "3.4."
     tapahtuma: |
      Pohjoismainen matematiikkakilpailu erikseen kutsutuille. Pidetään kilpailijoiden kouluissa.
