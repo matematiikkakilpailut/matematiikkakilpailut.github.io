@@ -160,7 +160,7 @@ materiaalia.
 [official]: http://www.imo-official.org/
 [compendium]: http://www.imomath.com/
 [aops]: http://www.artofproblemsolving.com/Forum/viewforum.php?f=87
-[viro]: http://www.math.ut.ee/olympiaadid/
+[viro]: http://www.math.olympiaadid.ut.ee
 
 Matematiikkaolympialaisten kulkua valottaa myös kilpailijoille tarkoitettu
 [käytännön opas](/kirjallisuus/kaytannon_ohjeet.pdf).
