@@ -126,6 +126,7 @@ kilpailut:
     paikka: "[Hongkong](http://www.imo2016.org/Home.php)"
     sijoitus: "55 p. (71./109), ei mitaleja"
     tehtavat: "[pdf](2016/teht2016.pdf)"
+    ratkaisut: "[pdf](2016/ratk2016.pdf)"
     muuta: "[tulosluettelo](https://www.imo-official.org/year_country_r.aspx?year=2015)"
 
 ---
@@ -181,8 +182,8 @@ vuosien 1959–74 [tehtävät](imot59_74.pdf) ja
 [tehtävät](imot75_94.pdf) ja [ratkaisut](imor75_94.pdf). Erityisesti
 matematiikkaolympialaisten ensimmäisten vuosien tehtävät ovat selvästi
 nykyisiä helpompia ja sopivat siis hyvin kilpailumatematiikan
-harjoitteluun. Vuosien 1995–2015 tehtävät ja ratkaisut voi ladata
-[tästä](imokaikki.pdf) (n. 960 kt). Myös tämän sivun lopussa oleva
+harjoitteluun. Vuosien 1995–2016 tehtävät ja ratkaisut voi ladata
+[tästä](imokaikki.pdf) (n. 1 Mt). Myös tämän sivun lopussa oleva
 taulukko sisältää linkkejä eri vuosien tehtäviin ja niiden
 ratkaisuihin.
 
