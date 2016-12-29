@@ -3,33 +3,6 @@ layout: page
 title: Aikataulu
 url: /aikataulu/
 aikataulu:
-  
-  
-  - pvm: "2016"
-    tapahtuma: "Syksy"
-    otsikko: true
-  - pvm: "9.&ndash;11.9. (viikko 36)"
-    tapahtuma: |
-     Valmennusviikonvaihde Päivölässä. Ohjelmassa mm. Baltian Tie -joukkueen valintakoe.
-     
-     Vähemmän kokeneiden eli alakerran ohjelmassa geometrian perusteita ja yleiskatsausta kilpailumatematiikkaan. Jälkimmäisen seuraamista voi helpottaa tutustuminen [Kilpailumatematiikan oppaan](http://matematiikkakilpailut.fi/kirjallisuus/kilpmatopas.pdf) sivuihin 8&ndash;18 ja tehtäväkokoelmaan [Kilpailumatematiikan lajeja ja periaatteita](http://matematiikkakilpailut.fi/kirjallisuus/kilpmatesitt.pdf).
-     
-     Yläkerran ohjelmassa ainakin [epäyhtälöitä](http://matematiikkakilpailut.fi/kirjallisuus/eykirja.pdf).
-  - pvm: "21.&ndash;23.10. (viikko 42)"
-    tapahtuma: |
-     Valmennusviikonvaihde Päivölässä.
-  - pvm: "31.10."
-    tapahtuma: |
-     Matemaattisten Aineiden Opettajien Liiton Lukion matematiikkakilpailun alkukilpailu kouluissa.
-  - pvm: "3.&ndash;7.11."
-    tapahtuma: |
-     Kansainvälinen [Baltian Tie -joukkuematematiikkakilpailu](http://matematiikkakilpailut.fi/BW2016/) Oulussa.
-  - pvm: "8.11."
-    tapahtuma: |
-     Matemaattisten Aineiden Opettajien Liiton Peruskoulun matematiikkakilpailun alkukilpailu kouluissa.
-  - pvm: "2.&ndash;4.12. (viikko 48)"
-    tapahtuma: |
-     Valmennusviikonvaihde Päivölässä.
   - pvm: "2017"
     tapahtuma: "Kevät ja kesä"
     otsikko: true
