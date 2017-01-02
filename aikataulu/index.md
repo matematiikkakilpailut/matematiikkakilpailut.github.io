@@ -27,9 +27,18 @@ aikataulu:
   - pvm: "5.&ndash;10.5.(*)"
     tapahtuma: |
      Valmennusviikko ja joukkueen valintaleiri Päivölässä.
+  - pvm: "Kesäkuussa(*)"
+    tapahtuma: Valmennusleiri valitulle joukkueelle.
+  - pvm: "10.&ndash;15.7."
+    tapahtuma: Matematiikkaolympiajoukkueiden [pohjoismainen valmennusleiri](http://www.georgmohr.dk/soroe.html) Sorøssä Tanskassa.
   - pvm: "12&ndash;24.7."
     tapahtuma: |
      [58. Kansainväliset matematiikkaolympialaiset](http://www.imo2017.org.br) Rio de Janeirossa.
+  - pvm: "2017"
+    tapahtuma: "Syksy"
+    otsikko: true
+  - pvm: "9.&ndash;13.11."
+    tapahtuma: [Baltian Tie -joukkuematematiikkakilpailu](http://www.balticway17.dk/) Sorøssä Tanskassa.
 ---
 <div class="list-group">
 {% for a in page.aikataulu %}
