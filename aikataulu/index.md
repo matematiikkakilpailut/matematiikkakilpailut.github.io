@@ -9,6 +9,8 @@ aikataulu:
   - pvm: "13.&ndash;15.1. (viikko 2)"
     tapahtuma: |
      Valmennusviikonvaihde Päivölässä. Aiheina geometria ja kombinatoriikka.
+     Valmistautumismateriaalia: alakerran geometrian ohjelmaan kohdat 1&ndash;6, 7, 10, 13, 14, 17, ja 18
+     [Geometrian peruspaketista](/kirjallisuus/geomperusp.pdf).
   - pvm: "20.&ndash;21.1."
     tapahtuma: |
      Matemaattisten Aineiden Opettajien Liiton Lukion matematiikkakilpailun ja Peruskoulun matematiikkakilpailun loppukilpailut Helsingissä.
