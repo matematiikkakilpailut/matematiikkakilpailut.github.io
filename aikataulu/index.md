@@ -13,7 +13,8 @@ aikataulu:
      [Geometrian peruspaketista](/kirjallisuus/geomperusp.pdf).
   - pvm: "20.&ndash;21.1."
     tapahtuma: |
-     Matemaattisten Aineiden Opettajien Liiton Lukion matematiikkakilpailun ja Peruskoulun matematiikkakilpailun loppukilpailut Helsingissä.
+     Matemaattisten Aineiden Opettajien Liiton Lukion matematiikkakilpailun ja Peruskoulun matematiikkakilpailun loppukilpailut 
+     Ressun lukiossa Helsingissä.
   - pvm: "24.&ndash;26.2. (viikko 8)"
     tapahtuma: |
      Valmennusviikonvaihde Päivölässä. Aiheina lukuteoria ja kombinatoriikka.
