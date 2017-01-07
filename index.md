@@ -127,7 +127,7 @@ USA:n olympiavalmennuksen johtajan syyskuussa 2016 julkaistu haastattelu, joka v
 
 #### [Päivölän kansanopisto](http://www.paivola.fi/)
 
-Päivölässä toimii [matematiikkalinja](http://www.paivola.fi/?menu=2&amp;sivu=matematiikka),
+Päivölässä toimii [matematiikkalinja](https://www.matematiikkalinja.fi/),
 jonka yhteydessä järjestetään viikonloppu&shy;valmennuksia.
    
 #### [Solmu](http://matematiikkalehtisolmu.fi/)
