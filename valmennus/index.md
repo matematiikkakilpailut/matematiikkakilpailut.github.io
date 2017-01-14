@@ -28,10 +28,15 @@ mukana ovat lähettäjän yhteystiedot!
 
 ### Ajankohtaiset tehtävät
 
-Joulukuun 2016 [helpommat](2016/vt12_16he.pdf) ja [vaativammat](2016/vt12_16va.pdf) tehtävät.
+
+Tammi- ja helmikuun 2017 [tehtävät](2017/2017tammi-helmi.pdf).
 
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
+
+
+Joulukuun 2016 [helpommat](2016/vt12_16he.pdf) ja [vaativammat](2016/vt12_16va.pdf) tehtävät.
+
 
 Lokakuun 2016 [tehtävät](2016/valmennussarja_loka_2016.pdf).
 
