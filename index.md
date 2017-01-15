@@ -45,7 +45,7 @@ Suomen matemaattisen yhdistyksen Valmennusjaoston
 matematiikka&shy;kilpailuvalmennus koostuu valmennus&shy;viikonlopuista Päivölän
 Opistossa Valkeakoskella ja kirjevalmennuksesta. Molempiin voi
 osallistua kuka hyvänsä. Päivölän Opisto perii
-valmennus&shy;viikonloppuihin osallistuvilta täysihoito&shy;maksun (60
+valmennus&shy;viikonloppuihin osallistuvilta täysihoito&shy;maksun (70
 euroa/viikonloppu), mutta opetus on muuten maksutonta. Valmennusjaosto
 voi harkinnan mukaan tukea taloudellisesti valmennus&shy;tilaisuuksiin
 osallistuvia.
