@@ -81,7 +81,7 @@ Materiaaliin kuuluu myös [tehtäväkokoelmia](#tehtavat) ja [muuta](#muita).
 *   [Analyyttistä geometriaa kilpailutehtävien kautta](/kirjallisuus/ag.pdf)
     Geometristen tehtävien ratkaisemisesta analyyttisen geometrian keinoin.
 	Jouni Seppäsen kirjoittama, viimeisin versio huhtikuulta 2014.
-*   [Nimekästä geometriaa](/kirjallisuus/nimigeom.pdf)
+*   [Nimekästä geometriaa](/kirjallisuus/nimgeom.pdf)
     Kolmattakymmentä geometrian lausetta ja käsitettä, jotka liittyvät tiettyihin
 	henkilönnimiin. Kilpailuissa näihin viittaamiseksi riittää, kun kertoo kyseisen nimen.
 	Ylioppilastutkinnossa tilanne on toinen, sillä perimätiedon mukaan esimerkiksi
