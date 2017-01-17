@@ -24,9 +24,9 @@ aikataulu:
   - pvm: "6.&ndash;12.4."
     tapahtuma: |
      Kuudennet Euroopan tyttöjen matematiikkaolympialaiset ([EGMO](https://www.egmo2017.ch/)) Z&uuml;richissä.
-  - pvm: "21.&ndash;23.4.(*)"
+  - pvm: "21.&ndash;23.4."
     tapahtuma: |
-     Valmennusviikonvaihde Päivölässä. Aiheena ainakin algebra.
+     Valmennusviikonvaihde ja Pythagoraan polku -kilpailu Päivölässä. Valmennuksen aiheena ainakin algebra. 
   - pvm: "5.&ndash;10.5.(*)"
     tapahtuma: |
      Valmennusviikko ja joukkueen valintaleiri Päivölässä.
