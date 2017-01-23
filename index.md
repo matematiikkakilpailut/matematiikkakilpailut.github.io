@@ -69,7 +69,7 @@ kysymyksistä löytyy lisätietoa [täältä](kaytanto).
 
 * Suomea vuoden 2016 Baltian Tie -kilpailussa edustava joukkue valittiin viikon 36 valmennustapahtumassa Päivölässä. Joukkueen muodostavat **Ella Anttila**, **Olli Järviniemi**, **Joose Lehtinen**, **Jesse Nieminen** ja **Antti Röyskö**. Joukkueen johtaja on Lauri Hallila ja varajohtaja Otte Heinävaara. Valinta perustui osaksi 9.9. pidettyyn kaksituntiseen [kokeeseen](valmennus/2016/koe_9_9_16.pdf).
 
-* Vuoden 2016 Kansainväliset Matematiikkaolympialaiset pidettiin Hongkongissa 9.&ndash;16. heinäkuuta. Mukana oli 109 maata ja 602 kilpailijaa. Parhaiten menestyivät USA:n, Etelä-Korean ja Kiinan joukkueet. Täysiin pisteisiin pääsi 6 kilpailijaa. Suomen joukkue oli sijalla 71. Ella Anttila, Iiro Kumpulainen ja Alvar Kallio saivat kunniamaininnan. [Tulosluettelo](http://www.imo-official.org/year_info.aspx?year=2016).
+* Vuoden 2016 Kansainväliset Matematiikkaolympialaiset pidettiin Hongkongissa 9.&ndash;16. heinäkuuta. Mukana oli 109 maata ja 602 kilpailijaa. Parhaiten menestyivät USA:n, Etelä-Korean ja Kiinan joukkueet. Täysiin pisteisiin pääsi 6 kilpailijaa. Suomen joukkue oli sijalla 71. **Ella Anttila**, **Iiro Kumpulainen** ja **Alvar Kallio** saivat kunniamaininnan. [Tulosluettelo](http://www.imo-official.org/year_info.aspx?year=2016).
 
 * Suomen joukkue heinäkuun 2016 Kansainvälisiin matematiikkaolympialaisiin Hongkongiin valittiin viikolla 19 Päivölän Opistossa pidetyn valmennus- ja valintaviikon aikana. Joukkueessa ovat **Ella Anttila**, **Hannes Ihalainen**, **Alvar Kallio**, **Iiro Kumpulainen**, **Joose Lehtinen** ja **Antti Röyskö**. Joukkueen johtaja on **Esa Vesalainen** ja varajohtaja **Jesse Jääsaari**. (14.5.2016)
 
