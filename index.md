@@ -61,11 +61,13 @@ kysymyksistä löytyy lisätietoa [täältä](kaytanto).
 
 ## <a name="uutisia"></a>Uutisia
 
+* Lukion matematiikkakilpailun loppukilpailu pidettiin 20.1.2017 Ressun lukiossa Helsingissä. Kutsuttuina oli alkukilpailun eri sarjojen parhaita, yhteensä 21 kilpailijaa. Tasaisen kilpailun paras oli Päivölän Opiston **Antti Röyskö**. [Tehtävät](MAOL/2017/lukm2017.pdf). [tehtävien ratkaisut](MAOL/2017/lukm2017r.pdf) ja [tulokset](MAOL/2017/lukmat2017tul.pdf) löytyvät oheisista linkeistä.
+
 * Vuoden 2016 Baltian Tie -joukkuematematiikkakilpailu pidettiin Oulussa 3.&ndash;7. marraskuuta. Kilpailun järjesti Valmennusjaosto yhdessä MAOL-Oulun kerhon ja Oulun yliopiston OuLUMA-keskuksen kanssa. Ensimmäisen sijan jakoivat Puola ja Pietari. Kolmas oli Ruotsi. Suomi oli 9. [Kilpailutehtävät](http://matematiikkakilpailut.fi/BW2016/problems/bw2016_fi.pdf) ja [tulosluettelo](http://matematiikkakilpailut.fi/BW2016/results/BW2016_results.pdf).
 
 * Matemaattisten aineiden opettajien liiton valtakunnallisen lukion matematiikkakilpailun alkukilpailu järjestettiin 30.10.2016. [Tehtävät](http://matematiikkakilpailut.fi/MAOL/2016/al2016.pdf) ja niiden [ratkaisut](http://matematiikkakilpailut.fi/MAOL/2016/al2016ratk.pdf).
 
-* Suomea vuoden 2016 Baltian Tie -kilpailussa edustava joukkue valittiin viikon 36 valmennustapahtumassa Päivölässä. Joukkueen muodostavat Ella Anttila, Olli Järviniemi, Joose Lehtinen, Jesse Nieminen ja Antti Röyskö. Joukkueen johtaja on Lauri Hallila ja varajohtaja Otte Heinävaara. Valinta perustui osaksi 9.9. pidettyyn kaksituntiseen [kokeeseen](valmennus/2016/koe_9_9_16.pdf).
+* Suomea vuoden 2016 Baltian Tie -kilpailussa edustava joukkue valittiin viikon 36 valmennustapahtumassa Päivölässä. Joukkueen muodostavat **Ella Anttila**, **Olli Järviniemi**, **Joose Lehtinen**, **Jesse Nieminen** ja **Antti Röyskö**. Joukkueen johtaja on Lauri Hallila ja varajohtaja Otte Heinävaara. Valinta perustui osaksi 9.9. pidettyyn kaksituntiseen [kokeeseen](valmennus/2016/koe_9_9_16.pdf).
 
 * Vuoden 2016 Kansainväliset Matematiikkaolympialaiset pidettiin Hongkongissa 9.&ndash;16. heinäkuuta. Mukana oli 109 maata ja 602 kilpailijaa. Parhaiten menestyivät USA:n, Etelä-Korean ja Kiinan joukkueet. Täysiin pisteisiin pääsi 6 kilpailijaa. Suomen joukkue oli sijalla 71. Ella Anttila, Iiro Kumpulainen ja Alvar Kallio saivat kunniamaininnan. [Tulosluettelo](http://www.imo-official.org/year_info.aspx?year=2016).
 
