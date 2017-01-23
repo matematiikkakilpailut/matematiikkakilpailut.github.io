@@ -107,7 +107,7 @@ että pdf-muodossa seuraavan taulukon mukaisesti.
 <div class="col-xs-6"><a href="{{ v }}/lukm{{ v }}r.pdf">pdf</a></div>
 </div>
 {% endfor %}
-{% assign vt = "2010 2011 2012 2013 2014 2015 2016" | split: " " %}
+{% assign vt = "2010 2011 2012 2013 2014 2015 2016 2017" | split: " " %}
 {% for v in vt %}
 <div class="row list-group-item">
 <div class="col-xs-3 col-sm-2 col-md-1">{{ v }}</div>
