@@ -35,7 +35,7 @@ Tammi- ja helmikuun 2017 [tehtävät](2017/2017tammi-helmi.pdf).
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
 
 
-Joulukuun 2016 [helpommat](2016/vt12_16he.pdf) ja [vaativammat](2016/vt12_16va.pdf) tehtävät.
+Joulukuun 2016 [helpommat](2016/vt12_16he.pdf) ja [vaativammat](2016/vt12_16va.pdf) tehtävät. Vaativampien tehtävien [ratkaisut](2016/vt12_16va_ra.pdf).
 
 
 Lokakuun 2016 [tehtävät](2016/valmennussarja_loka_2016.pdf).
