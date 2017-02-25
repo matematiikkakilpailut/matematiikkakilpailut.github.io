@@ -1,2 +1,13 @@
 User-agent: *
 Disallow: /cdn-cgi/
+Disallow: /valmennus/2010/
+Disallow: /valmennus/2011/
+Disallow: /valmennus/2012/
+Disallow: /valmennus/2013/
+Disallow: /valmennus/2014/
+Disallow: /valmennus/2015/
+Disallow: /valmennus/2016/
+Disallow: /valmennus/2017/
+Disallow: /valmennus/2018/
+Disallow: /valmennus/2019/
+Disallow: /valmennus/2020/
