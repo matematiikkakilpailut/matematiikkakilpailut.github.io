@@ -28,7 +28,8 @@ mukana ovat lähettäjän yhteystiedot!
 
 ### Ajankohtaiset tehtävät
 
-Maalis- ja huhtikuun 2017 [tehtävät](2017/2017maalis-huhti.pdf).
+Maalis- ja huhtikuun 2017 [tehtävät](2017/2017maalis-huhti.pdf)
+(tehtävä 2 korjattu 9.3.2017).
 
 Tammi- ja helmikuun 2017 [tehtävät](2017/2017tammi-helmi.pdf).
 
