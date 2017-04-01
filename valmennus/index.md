@@ -31,7 +31,7 @@ mukana ovat lähettäjän yhteystiedot!
 Maalis- ja huhtikuun 2017 [tehtävät](2017/2017maalis-huhti.pdf)
 (tehtävä 2 korjattu 9.3.2017).
 
-Tammi- ja helmikuun 2017 [tehtävät](2017/2017tammi-helmi.pdf).
+Tammi- ja helmikuun 2017 [tehtävät](2017/2017tammi-helmi.pdf). Ratkaisut [tehtäviin](2017/2017tammi-helmi-ratkaisut.pdf).
 
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
