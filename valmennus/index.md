@@ -12,7 +12,7 @@ valmennustapahtumiin, mutta jotka haluavat tulla otetuiksi huomioon
 eri kilpailujoukkueita valittaessa, on syytä pitää yllä kosketusta
 Valmennusjaostoon lähettämällä vastauksia kirjevalmennustehtäviin.
 **Kilpailujoukkueisiin valinnan välttämätön (muttei riittävä) ehto on,
-että asianomainen on kilpailua edeltävänä aikana suorittanut puolet
+että asianomainen on kilpailua edeltävänä aikana suorittanut merkittävän osan
 annetuista tehtävistä!**
 
 Kirjevalmennustehtäviä jaetaan valmennusviikonloppuina ja ne pyritään
