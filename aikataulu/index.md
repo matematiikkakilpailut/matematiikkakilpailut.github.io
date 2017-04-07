@@ -27,19 +27,25 @@ aikataulu:
   - pvm: "21.&ndash;23.4."
     tapahtuma: |
      Valmennusviikonvaihde ja Pythagoraan polku -kilpailu Päivölässä. Valmennuksen aiheena ainakin algebra. 
-  - pvm: "5.&ndash;10.5.(*)"
+  - pvm: "5.&ndash;10.5."
     tapahtuma: |
      Valmennusviikko ja joukkueen valintaleiri Päivölässä.
-  - pvm: "Kesäkuussa(*)"
+  - pvm: "19.&ndash;22.6."
     tapahtuma: "Valmennusleiri valitulle joukkueelle."
   - pvm: "10.&ndash;15.7."
     tapahtuma: "Matematiikkaolympiajoukkueiden [pohjoismainen valmennusleiri](http://www.georgmohr.dk/soroe.html) Sorøssä Tanskassa."
-  - pvm: "12&ndash;24.7."
+  - pvm: "12.&ndash;24.7."
     tapahtuma: |
      [58. Kansainväliset matematiikkaolympialaiset](http://www.imo2017.org.br) Rio de Janeirossa.
   - pvm: "2017"
     tapahtuma: "Syksy"
     otsikko: true
+  - pvm: "8.&ndash;10.9. (viikko 36)"
+    tapahtuma: "Valmennusviikonvaihde Päivölässä."
+  - pvm: "20.&ndash;22.10. (viikko 42)"
+    tapahtuma: "Valmennusviikonvaihde Päivölässä."
+  - pvm: "1.&ndash;3.12. (viikko 48)"
+    tapahtuma: "Valmennusviikonvaihde Päivölässä."
   - pvm: "9.&ndash;13.11."
     tapahtuma: "[Baltian Tie -joukkuematematiikkakilpailu](http://www.balticway17.dk/) Sorøssä Tanskassa."
 ---
@@ -50,5 +56,4 @@ aikataulu:
 <div class="col-sm-9">{{ a['tapahtuma'] | markdownify }}</div>
 </div>
 {% endfor %}
-<p>(*) Päivämäärä vahvistamatta</p>
 </div>
