@@ -28,14 +28,14 @@ mukana ovat lähettäjän yhteystiedot!
 
 ### Ajankohtaiset tehtävät
 
+Huhti- ja toukokuun 2017 [tehtävät](2017/2017huhti-touko.pdf).
+
 Maalis- ja huhtikuun 2017 [tehtävät](2017/2017maalis-huhti.pdf)
 (tehtävä 2 korjattu 9.3.2017).
 
-Tammi- ja helmikuun 2017 [tehtävät](2017/2017tammi-helmi.pdf). Ratkaisut [tehtäviin](2017/2017tammi-helmi-ratkaisut.pdf).
-
-
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
 
+Tammi- ja helmikuun 2017 [tehtävät](2017/2017tammi-helmi.pdf). Ratkaisut [tehtäviin](2017/2017tammi-helmi-ratkaisut.pdf).
 
 Joulukuun 2016 [helpommat](2016/vt12_16he.pdf) ja [vaativammat](2016/vt12_16va.pdf) tehtävät. Ratkaisut [helpompiin](2016/vt12_16he_ra.pdf) ja [vaativampiin](2016/vt12_16va_ra.pdf) tehtäviin.
 
