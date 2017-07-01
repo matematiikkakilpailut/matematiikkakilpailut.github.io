@@ -43,8 +43,6 @@ kilpailut:
     tulokset: "2016/NMC2016_tulokset.pdf"
   - vuosi: 2017
     tehtavat: "2017/NMC2017suom.pdf"
-    ratkaisut: ""
-    tulokset: ""
 ---
 ## Pohjoismainen matematiikka&shy;kilpailu
 
@@ -127,8 +125,8 @@ ps) että pdf-muodossa seuraavan taulukon mukaisesti.
 {% for k in page.kilpailut %}
 <div class="row list-group-item">
 <div {{ c }}>{{ k['vuosi'] }}</div>
-<div {{ c }}><a href="{{ k['tehtavat'] }}">pdf</a></div>
-<div {{ c }}><a href="{{ k['ratkaisut'] }}">pdf</a></div>
+<div {{ c }}>{% if k['tehtavat'] != null %}<a href="{{ k['tehtavat'] }}">pdf</a>{% endif %}</div>
+<div {{ c }}>{% if k['ratkaisut'] != null %}<a href="{{ k['ratkaisut'] }}">pdf</a>{% endif %}</div>
 <div {{ c }}>{% if k['tulokset'] != null %}<a href="{{ k['tulokset'] }}">pdf</a>{% endif %}</div>
 </div>
 {% endfor %}
