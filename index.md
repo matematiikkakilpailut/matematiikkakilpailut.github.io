@@ -61,6 +61,12 @@ kysymyksistä löytyy lisätietoa [täältä](kaytanto).
 
 ## <a name="uutisia"></a>Uutisia
 
+* Suomen joukkue heinäkuun 2017 Kansainvälisiin matematiikkaolympialaisiin Rio de Janeiroon valittiin toukokuun alun valmennustapahtumassa Päivölässä. Joukkueen muodostavat **Hermanni Huhtamäki**, **Olli Järviniemi**, **Joose Lehtinen**, **Jesse    Nieminen**, **Antti Röyskö** ja **Tarmo Taipale**. Joukkueen johtaja on **Lauri Hallila** ja varajohtaja **Otte Heinävaara**.
+
+* Euroopan Tyttöjen Matematiikkaolympialaiset järjestettiin 6.–12. huhtikuuta 2017 Zürichissä. Kilpailijoita oli 168 kaikkiaan 44 maasta. Suomea edustivat Pinja Pessi ja Essi Vilhonen. [Tulosluettelo](https://www.egmo.org/egmos/egmo6/scoreboard/).
+
+* Pohjoismainen matematiikkakilpailu pidettiin 3.4.2017. Suomesta kilpailuun osallistui 20 erikseen kutsuttua. Ratkaisut arvioitiin Ruotsissa. Vaikean kilpailun parhaan tuloksen sai ruotsalainen **Björn Magnusson**.
+
 * Lukion matematiikkakilpailun loppukilpailu pidettiin 20.1.2017 Ressun lukiossa Helsingissä. Kutsuttuina oli alkukilpailun eri sarjojen parhaita, yhteensä 21 kilpailijaa. Tasaisen kilpailun paras oli Päivölän Opiston **Antti Röyskö**. [Tehtävät](MAOL/2017/lukm2017.pdf). [tehtävien ratkaisut](MAOL/2017/lukm2017r.pdf) ja [tulokset](MAOL/2017/lukmat2017tul.pdf) löytyvät oheisista linkeistä.
 
 * Vuoden 2016 Baltian Tie -joukkuematematiikkakilpailu pidettiin Oulussa 3.&ndash;7. marraskuuta. Kilpailun järjesti Valmennusjaosto yhdessä MAOL-Oulun kerhon ja Oulun yliopiston OuLUMA-keskuksen kanssa. Ensimmäisen sijan jakoivat Puola ja Pietari. Kolmas oli Ruotsi. Suomi oli 9. [Kilpailutehtävät](http://matematiikkakilpailut.fi/BW2016/problems/bw2016_fi.pdf) ja [tulosluettelo](http://matematiikkakilpailut.fi/BW2016/results/BW2016_results.pdf).
@@ -73,15 +79,6 @@ kysymyksistä löytyy lisätietoa [täältä](kaytanto).
 
 * Suomen joukkue heinäkuun 2016 Kansainvälisiin matematiikkaolympialaisiin Hongkongiin valittiin viikolla 19 Päivölän Opistossa pidetyn valmennus- ja valintaviikon aikana. Joukkueessa ovat **Ella Anttila**, **Hannes Ihalainen**, **Alvar Kallio**, **Iiro Kumpulainen**, **Joose Lehtinen** ja **Antti Röyskö**. Joukkueen johtaja on **Esa Vesalainen** ja varajohtaja **Jesse Jääsaari**. (14.5.2016)
 
-* Viidennet Euroopan Tyttöjen Matematiikkaolympialaiset pidettiin 10.-16. 4. 2016 Romanian Bustenissa. Suomen ainoa edustaja **Ella Anttila** palkittiin pronssimitalilla. [Tulokset](https://www.egmo.org/egmos/egmo5/scoreboard/).
-
-* Pohjoismainen matematiikkakilpailu pidettiin 5.4.2016. Suomesta kilpailuun osallistui 20 erikseen kutsuttua. Ratkaisut arvioitiin Tanskassa. Ruotsin **David Wärn** oli ainoa täydet pisteet saanut kilpailija.  [Tehtävät](PM/2016/NMC2016suom.pdf) ja niiden [ratkaisut](PM/2016/NMC2016ratk.pdf) sekä [tulosluettelo](PM/2016/NMC2016_tulokset.pdf) löytyvät alasivulta [Pohjoismainen kilpailu](PM/).
-
-* Lukion matematiikkakilpailun loppukilpailu pidettiin 22.1.2016 Munkkiniemen yhteiskoulussa Helsingissä. Kilpailun voitti **Akseli Antikainen** Kuopiosta. Jaetulle toiselle sijalle tulivat **Ella Anttila** Helsingistä ja **Jesse Nieminen** Nokialta. [Tulosluettelo](MAOL/2016/tulokset_2016.pdf).
-
-* Baltian Tie -joukkuematematiikkakilpailun vuonna 2015 voitti Pietarin joukkue, seuraavina Puola ja Viro. Vierailevana joukkueena mukana ollut Hollanti oli neljäs. Suomi oli 9.
-
-* Vuoden 2015 Baltian tie -joukkueeseen valittiin Suomea edustamaan **Ella Anttila**, **Petrus Asikainen**, **Iiro Kumpulainen**, **Kalle Luopaj&auml;rvi** ja **Jesse Nieminen**. Joukkueen johtaja on **Anne-Maria Ernvall-Hytönen** ja varajohtaja **Jari Lappalainen**.
 
 
 
