@@ -5,6 +5,12 @@ title: Uutisarkisto
 
 ## Vanhoja uutisia
 
+* Viidennet Euroopan Tyttöjen Matematiikkaolympialaiset pidettiin 10.-16. 4. 2016 Romanian Bustenissa. Suomen ainoa edustaja **Ella Anttila** palkittiin pronssimitalilla. [Tulokset](https://www.egmo.org/egmos/egmo5/scoreboard/).
+
+* Pohjoismainen matematiikkakilpailu pidettiin 5.4.2016. Suomesta kilpailuun osallistui 20 erikseen kutsuttua. Ratkaisut arvioitiin Tanskassa. Ruotsin **David Wärn** oli ainoa täydet pisteet saanut kilpailija.  [Tehtävät](PM/2016/NMC2016suom.pdf) ja niiden [ratkaisut](PM/2016/NMC2016ratk.pdf) sekä [tulosluettelo](PM/2016/NMC2016_tulokset.pdf) löytyvät alasivulta [Pohjoismainen kilpailu](PM/).
+
+* Lukion matematiikkakilpailun loppukilpailu pidettiin 22.1.2016 Munkkiniemen yhteiskoulussa Helsingissä. Kilpailun voitti **Akseli Antikainen** Kuopiosta. Jaetulle toiselle sijalle tulivat **Ella Anttila** Helsingistä ja **Jesse Nieminen** Nokialta. [Tulosluettelo](MAOL/2016/tulokset_2016.pdf).
+
 * Baltian Tie -joukkuematematiikkakilpailun vuonna 2015 voitti Pietarin joukkue, seuraavina Puola ja Viro. Vierailevana joukkueena mukana ollut Hollanti oli neljäs. Suomi oli 9.
 
 * Vuoden 2015 Baltian tie -joukkueeseen valittiin Suomea edustamaan **Ella Anttila**, **Petrus Asikainen**, **Iiro Kumpulainen**, **Kalle Luopaj&auml;rvi** ja **Jesse Nieminen**. Joukkueen johtaja on **Anne-Maria Ernvall-Hytönen** ja varajohtaja **Jari Lappalainen**.
