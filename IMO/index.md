@@ -128,6 +128,12 @@ kilpailut:
     tehtavat: "[pdf](2016/teht2016.pdf)"
     ratkaisut: "[pdf](2016/ratk2016.pdf)"
     muuta: "[tulosluettelo](https://www.imo-official.org/year_country_r.aspx?year=2015)"
+  - vuosi: "2017"
+    paikka: "[Rio de Janeiro, Brasilia](https://www.imo2017.org.br/)"
+    sijoitus: ""
+    tehtavat: ""
+    ratkaisut: ""
+    muuta: ""
 
 ---
 ## Kansainväliset matematiikkaolympialaiset
