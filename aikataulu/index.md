@@ -7,13 +7,24 @@ aikataulu:
     tapahtuma: "Syksy"
     otsikko: true
   - pvm: "8.&ndash;10.9. (viikko 36)"
-    tapahtuma: "Valmennusviikonvaihde Päivölässä."
+    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä. Ohjelmassa mm. Baltian tie -joukkueen valintakoe."
   - pvm: "20.&ndash;22.10. (viikko 42)"
-    tapahtuma: "Valmennusviikonvaihde Päivölässä."
+    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä."
+  - pvm: "23.10.&ndash;-3.11."
+    tapahtuma: "MAOLin perus&shy;koulun matematiikka&shy;kilpailu"
+  - pvm: "30.10."
+    tapahtuma: "MAOLin lukion matematiikka&shy;kilpailu"
   - pvm: "9.&ndash;13.11."
-    tapahtuma: "[Baltian Tie -joukkuematematiikkakilpailu](http://www.balticway17.dk/) Sorøssä Tanskassa."
+    tapahtuma: "[Baltian Tie -joukkue&shy;matematiikka&shy;kilpailu](http://www.balticway17.dk/) Sorøssä Tanskassa."
   - pvm: "1.&ndash;3.12. (viikko 48)"
-    tapahtuma: "Valmennusviikonvaihde Päivölässä."
+    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä."
+  - pvm: "2018"
+    tapahtuma: "Kevät ja kesä"
+    otsikko: true
+  - pvm: "19.&ndash;20.1."
+    tapahtuma: "MAOLin matematiikka&shy;kilpailun loppu&shy;kilpailut Helsingissä"
+  - pvm: "3.&ndash;14.7."
+    tapahtuma: "[59. Kansain&shy;väliset matematiikka&shy;olympialaiset](http://www.imo2018.org/) Cluj-Napocassa Romaniassa"
 ---
 <div class="list-group">
 {% for a in page.aikataulu %}
