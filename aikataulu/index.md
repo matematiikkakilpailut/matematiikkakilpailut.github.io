@@ -10,7 +10,7 @@ aikataulu:
     tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä. Ohjelmassa mm. Baltian tie -joukkueen valintakoe."
   - pvm: "20.&ndash;22.10. (viikko 42)"
     tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä."
-  - pvm: "23.10.&ndash;-3.11."
+  - pvm: "23.10.&ndash;3.11."
     tapahtuma: "MAOLin perus&shy;koulun matematiikka&shy;kilpailu"
   - pvm: "30.10."
     tapahtuma: "MAOLin lukion matematiikka&shy;kilpailu"
