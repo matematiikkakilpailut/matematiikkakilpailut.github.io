@@ -18,10 +18,10 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
 *  Jesse Jääsaari<br/>Olympiaedustaja vuonna 2011.
 *  Alexey Kirichenko<br/>
    Kokemusta mm. maineikkaista Leningradin matematiikkaolympialaisista.
+*  Jari Lappalainen<br/> Olympiaedustaja vuosina 1990 ja 1991.
 *  Merikki Lappi, FM<br/>
    Merikki.Lappi@paivola.fi, 0400534139.
    Käytännön asiat koskien Päivölän valmennusviikonloppuja.
-*  Jari Lappalainen<br/> Olympiaedustaja vuosina 1990 ja 1991.
 *  [Matti Lehtinen][matti]<br/>
    Olympiaedustaja vuonna 1965. Jättäytynyt eläkkeelle valmennustoiminnasta, mutta saattaa joskus ilmaantua näkyviin.
    Yritti pitää huolta erityisesti valmennettavien geometrian taidoista.
