@@ -19,7 +19,7 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
 *  Alexey Kirichenko<br/>
    Kokemusta mm. maineikkaista Leningradin matematiikkaolympialaisista.
 *  Jari Lappalainen<br/> Olympiaedustaja vuosina 1990 ja 1991.
-*  Merikki Lappi, FM<br/>
+*  Merikki Lappi, filosofian maisteri<br/>
    Merikki.Lappi@paivola.fi, 0400534139.
    Käytännön asiat koskien Päivölän valmennusviikonloppuja.
 *  [Matti Lehtinen][matti]<br/>
@@ -30,7 +30,8 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
    Olympiaedustaja vuonna 1983. Valmennusjaoston johtoryhmän jäsen.
    Sommittelee kombinatoriikan valmennusta.
 *  Neea Palojärvi
-*  Jaakko Seppälä
+*  Jaakko Seppälä<br/>
+   Filosofian maisteri, edustaja Pohjoismaisessa matematiikkakilpailussa 2007
 *  [Jouni Seppänen][jks]<br/> Tekniikan tohtori, olympiaedustaja vuosina 1994 ja 1995.
 *  Joni Teräväinen<br/> Olympiaedustaja vuosina 2011, 2012 ja 2013.
 *  [Niko Vuokko][ntvuok]<br/> Olympiaedustaja vuosina 2002 ja 2003.
