@@ -21,10 +21,16 @@ aikataulu:
   - pvm: "2018"
     tapahtuma: "Kevät ja kesä"
     otsikko: true
+  - pvm: "12.&ndash;14.1. (viikko 2)"
+    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä."
   - pvm: "19.&ndash;20.1."
     tapahtuma: "MAOLin matematiikka&shy;kilpailun loppu&shy;kilpailut Helsingissä"
+  - pvm: "23.&ndash;25.2. (viikko 8)"
+    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä."
   - pvm: "helmi&ndash;maalis&shy;kuussa paikka&shy;kunta&shy;kohtaisesti"
     tapahtuma: "[Seitsemäs&shy;luokkalaisten matematiikka&shy;kilpailu](http://matematiikkakilpailut.fi/seiskat/)"
+  - pvm: "6.&ndash;8.4. (viikko 14) &dagger;"
+    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä."
   - pvm: "9.&ndash;15.4."
     tapahtuma: "[Euroopan tyttöjen matematiikka&shy;olympialaiset](https://www.egmo.org/egmos/egmo7/) Firenzessä"
   - pvm: "3.&ndash;14.7."
@@ -38,3 +44,5 @@ aikataulu:
 </div>
 {% endfor %}
 </div>
+
+<p>&dagger; Alustava päivämäärä</p>
