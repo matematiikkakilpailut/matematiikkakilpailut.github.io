@@ -28,7 +28,7 @@ mukana ovat lähettäjän yhteystiedot!
 
 ### Ajankohtaiset tehtävät
 
-Syys- ja lokakuun 2017 [tehtävät](2017/2017syys-touko.pdf).
+Syys- ja lokakuun 2017 [tehtävät](2017/2017syys-loka.pdf).
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
 
