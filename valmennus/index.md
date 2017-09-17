@@ -32,7 +32,7 @@ Syys- ja lokakuun 2017 [tehtävät](2017/2017syys-loka.pdf).
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
 
-Huhti- ja toukokuun 2017 [tehtävät](2017/2017huhti-touko.pdf).
+Huhti- ja toukokuun 2017 [tehtävät](2017/2017huhti-touko.pdf). [Ratkaisut tehtäviin](2017/2017huhti-touko-ratkaisut.pdf).
 
 Maalis- ja huhtikuun 2017 [tehtävät](2017/2017maalis-huhti.pdf)
 (tehtävä 2 korjattu 9.3.2017).
