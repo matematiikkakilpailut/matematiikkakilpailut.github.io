@@ -32,12 +32,12 @@ Syys- ja lokakuun 2017 [tehtävät](2017/2017syys-loka.pdf).
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
 
-Huhti- ja toukokuun 2017 [tehtävät](2017/2017huhti-touko.pdf). [Ratkaisut tehtäviin](2017/2017huhti-touko-ratkaisut.pdf).
+Huhti- ja toukokuun 2017 [tehtävät](2017/2017huhti-touko.pdf) ja niiden [ratkaisut](2017/2017huhti-touko-ratkaisut.pdf).
 
 Maalis- ja huhtikuun 2017 [tehtävät](2017/2017maalis-huhti.pdf)
 (tehtävä 2 korjattu 9.3.2017).
 
-Tammi- ja helmikuun 2017 [tehtävät](2017/2017tammi-helmi.pdf). Ratkaisut [tehtäviin](2017/2017tammi-helmi-ratkaisut.pdf).
+Tammi- ja helmikuun 2017 [tehtävät](2017/2017tammi-helmi.pdf) ja niiden [ratkaisut](2017/2017tammi-helmi-ratkaisut.pdf).
 
 Joulukuun 2016 [helpommat](2016/vt12_16he.pdf) ja [vaativammat](2016/vt12_16va.pdf) tehtävät. Ratkaisut [helpompiin](2016/vt12_16he_ra.pdf) ja [vaativampiin](2016/vt12_16va_ra.pdf) tehtäviin.
 
