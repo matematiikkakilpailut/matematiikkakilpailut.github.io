@@ -10,7 +10,10 @@
     <title>{{ page.title }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.4/flatly/bootstrap.min.css" rel="stylesheet" />
-    <link rel="prefetch" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic" />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic" />
+    <link rel="preload" as="font" href="https://fonts.gstatic.com/s/lato/v14/MDadn8DQ_3oT6kvnUq_2r_esZW2xOQ-xsNqO47m55DA.woff2" crossorigin />
+    <link rel="preload" as="font" href="https://fonts.gstatic.com/s/lato/v14/8qcEw_nrk_5HEcCpYdJu8BTbgVql8nDJpwnrE27mub0.woff2" crossorigin />
+    <link rel="preload" as="font" href="https://fonts.gstatic.com/s/lato/v14/MgNNr5y1C_tIEuLEmicLmwLUuEpTyoUstqEm5AMlJo4.woff2" crossorigin />
     <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script>
