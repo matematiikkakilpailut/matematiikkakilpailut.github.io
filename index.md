@@ -48,7 +48,7 @@ osallistua kuka hyvänsä. Päivölän Opisto perii
 valmennus&shy;viikonloppuihin osallistuvilta täysihoito&shy;maksun (70
 euroa/viikonloppu), mutta opetus on muuten maksutonta. Valmennusjaosto
 voi harkinnan mukaan tukea taloudellisesti valmennus&shy;tilaisuuksiin
-osallistuvia.
+osallistuvia ([ohjeet](/kaytanto/#taloudellinen-tuki)).
 
 Valmennusviikonloppuja järjestetään syys- ja kevät&shy;lukukausien aikana
 kolme. Tapahtumat alkavat perjantai-iltana kello 18.30 ja päättyvät
