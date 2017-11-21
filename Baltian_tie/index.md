@@ -179,9 +179,9 @@ kilpailut:
   - vuosi: "2017"
     paikka: "[Sorø](http://www.balticway17.dk/)"
     sijoitus: "[41 (9.)](http://www.balticway17.dk/results.html)"
-    tehtavat: "[pdf](http://www.balticway17.dk/BW17_FIN.pdf)"
+    tehtavat: "[pdf](/Baltian_tie/2017/BW17_FIN.pdf)"
     joukkue: "Akseli Jussin&shy;mäki, Her&shy;man&shy;ni Huhta&shy;mäki, Joona&shy;tan Honka&shy;maa, Neris&shy;sa Shakes&shy;peare, Olli Järvi&shy;niemi"
-    ratkaisut: "[englanniksi](http://www.balticway17.dk/BW17sol.pdf)"
+    ratkaisut: "[englanniksi](/Baltian_tie/2017/BW17sol.pdf)"
     
 ---
 ## Baltian Tie -joukkuematematiikkakilpailu
