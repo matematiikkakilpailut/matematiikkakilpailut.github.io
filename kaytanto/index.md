@@ -45,3 +45,19 @@ ilmoittautumisen yhteydessä!
 ### Maksut
 
 Laskut lähetetään annettuun laskutusosoitteeseen viikonlopun jälkeen.
+
+### Taloudellinen tuki
+
+Valmennusjaosto voi harkintansa mukaan tukea osallistujia.
+Rahaa on käytettävissä välillä enemmän ja välillä vähemmän, joten tukea
+toivotaan hakevan pääasiassa sellaisten, joille valmennukseen osallistuminen
+on merkittävä taloudellinen rasite.
+Tuki voi yleensä kattaa enintään Päivölän Opiston perimän osallistumismaksun
+ja kohtuulliset matkakulut. Vapaamuotoiset hakemukset pyydetään osoittamaan
+Suomen matemaattisen yhdistyksen Valmennusjaostolle ja lähettämään
+[Anne-Maria Ernvall-Hytöselle](http://www.abo.fi/fakultet/Content/Document/document/34743).
+Vaikka Anne-Marian kotisivu on ruotsinkielinen, hakemuksen voi kirjoittaa
+myös suomeksi tai englanniksi.
+
+Kilpailumatkojen kulut korvataan tietysti kaikille joukkueisiin valituille.
+Vapaamuotoiset matkalaskut voi toimittaa joukkueen johtajalle.
