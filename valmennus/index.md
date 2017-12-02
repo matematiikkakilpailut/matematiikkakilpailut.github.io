@@ -28,11 +28,13 @@ mukana ovat lähettäjän yhteystiedot!
 
 ### Ajankohtaiset tehtävät
 
+Joulukuun 2017 [tehtävät](2017/2017_joulu.pdf).
+
 Loka- ja marraskuun 2017 [tehtävät](2017/2017loka-marras.pdf).
 
-Syys- ja lokakuun 2017 [tehtävät](2017/2017syys-loka.pdf).
-
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
+
+Syys- ja lokakuun 2017 [tehtävät](2017/2017syys-loka.pdf).
 
 Huhti- ja toukokuun 2017 [tehtävät](2017/2017huhti-touko.pdf) ja niiden [ratkaisut](2017/2017huhti-touko-ratkaisut.pdf).
 
