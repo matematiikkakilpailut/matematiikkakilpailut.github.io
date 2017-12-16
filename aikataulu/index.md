@@ -29,8 +29,10 @@ aikataulu:
     tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä."
   - pvm: "helmi&ndash;maalis&shy;kuussa paikka&shy;kunta&shy;kohtaisesti"
     tapahtuma: "[Seitsemäs&shy;luokkalaisten matematiikka&shy;kilpailu](http://matematiikkakilpailut.fi/seiskat/)"
-  - pvm: "6.&ndash;8.4. (viikko 14) &dagger;"
+  - pvm: "6.&ndash;8.4. (viikko 14)"
     tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä."
+  - pvm: "9.4."
+    tapahtuma: "Pohjoismainen matematiikkakilpailu"
   - pvm: "9.&ndash;15.4."
     tapahtuma: "[Euroopan tyttöjen matematiikka&shy;olympialaiset](https://www.egmo.org/egmos/egmo7/) Firenzessä"
   - pvm: "3.&ndash;14.7."
@@ -44,5 +46,3 @@ aikataulu:
 </div>
 {% endfor %}
 </div>
-
-<p>&dagger; Alustava päivämäärä</p>
