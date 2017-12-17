@@ -61,7 +61,7 @@ kysymyksistä löytyy lisätietoa [täältä](kaytanto).
 
 ## <a name="uutisia"></a>Uutisia
 
-* Vuoden 2017 Baltian Tie -joukkuematematiikkakilpailu pidettiin Tanskan Sorøssä 9.&ndash;13.11.2017. Ensimmäisen sijan otti Pietarin joukkue 85 pisteellä, Suomi oli yhdestoista 41 pisteellä. [Kilpailutehtävät](/Baltian_tie/2017/BW17_FIN.pdf) ja [tulosluettelo](http://www.balticway17.dk/results.html).
+* Vuoden 2017 Baltian Tie -joukkuematematiikkakilpailu pidettiin Tanskan Sorøssä 9.&ndash;13.11.2017. Ensimmäisen sijan otti Pietarin joukkue 85 pisteellä, Suomi oli yhdeksäs yhdestätoista 41 pisteellä. [Kilpailutehtävät](/Baltian_tie/2017/BW17_FIN.pdf) ja [tulosluettelo](http://www.balticway17.dk/results.html).
 
 * Vuoden 2017 Kansainväliset Matematiikkaolympialaiset pidettiin Rio de Janeirossa 12.&ndash;23.7.2017. Mukana oli 111 maata ja 615 kilpailijaa. Parhaiten menestyivät Etelä-Korea, Kiina ja Vietnam. Kukaan kilpailija ei saanut täysiä pisteitä; vaikeimmaksi osoittautui tehtävä 3, jonka ratkaisi täysin oikein vain kaksi kilpailijaa. Suomen sijoitus oli 84. ja kaikki Suomen kilpailijat saivat kunniamaininnan yhdestä täysin pistein ratkaistusta tehtävästä. [Tulosluettelo](https://www.imo-official.org/year_individual_r.aspx?year=2017&column=total&order=desc&gender=hide&nameform=western).
 
