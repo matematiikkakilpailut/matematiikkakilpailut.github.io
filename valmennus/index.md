@@ -28,7 +28,7 @@ mukana ovat lähettäjän yhteystiedot!
 
 ### Ajankohtaiset tehtävät
 
-Vuodenvaihteen 2017&ndash;2018 [tehtävät peruskoululaisille](2017/2017joulu-peruskoulu.pdf).
+Vuodenvaihteen 2017&ndash;2018 [erikoistehtäväsarja](2017/2017joulu-erikois.pdf), sopii lämmittelyyn vanhoille osallistujille ja uusille vakavaan pohdintaan.
 
 Joulukuun 2017 [tehtävät](2017/2017_joulu.pdf). Korjattu 3.12.: tehtävässä 8 on kyse reaali- eikä kokonaisluvuista.
 
