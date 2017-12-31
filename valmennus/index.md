@@ -30,7 +30,7 @@ mukana ovat lähettäjän yhteystiedot!
 
 Vuodenvaihteen 2017&ndash;2018 [erikoistehtäväsarja](2017/2017joulu-erikois.pdf), sopii lämmittelyyn vanhoille osallistujille ja uusille vakavaan pohdintaan.
 
-Joulukuun 2017 [tehtävät](2017/2017_joulu.pdf). Korjattu 3.12.: tehtävässä 8 on kyse reaali- eikä kokonaisluvuista.
+Joulukuun 2017 [tehtävät](2017/2017_joulu.pdf). Korjattu 3.12.: tehtävässä 8 on kyse reaali- eikä kokonaisluvuista.  &mdash;Kirjeeseen on palautuspäivämääräksi merkitty optimistisesti loppiainen, mutta ratkaisuja ehtii palauttaa tammikuun puolenvälin valmennusviikonloppuun mennessä.
 
 Loka- ja marraskuun 2017 [tehtävät](2017/2017loka-marras.pdf).
 
