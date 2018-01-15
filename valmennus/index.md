@@ -28,6 +28,9 @@ mukana ovat lähettäjän yhteystiedot!
 
 ### Ajankohtaiset tehtävät
 
+Tammikuun 2018 [tehtävät](2018/kirje_2018_01.pdf),
+<span lang="en">January 2018 [homework](2018/letter_2018_01.pdf)</span>.
+
 Vuodenvaihteen 2017&ndash;2018 [erikoistehtäväsarja](2017/2017joulu-erikois.pdf), sopii lämmittelyyn vanhoille osallistujille ja uusille vakavaan pohdintaan.
 
 Joulukuun 2017 [tehtävät](2017/2017_joulu.pdf). Korjattu 3.12.: tehtävässä 8 on kyse reaali- eikä kokonaisluvuista.  &mdash;Kirjeeseen on palautuspäivämääräksi merkitty optimistisesti loppiainen, mutta ratkaisuja ehtii palauttaa tammikuun puolenvälin valmennusviikonloppuun mennessä.
