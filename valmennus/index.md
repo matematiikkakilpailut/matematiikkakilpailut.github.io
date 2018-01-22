@@ -30,6 +30,10 @@ mukana ovat lähettäjän yhteystiedot!
 
 Tammikuun 2018 [tehtävät](2018/kirje_2018_01.pdf),
 <span lang="en">January 2018 [homework](2018/letter_2018_01.pdf)</span>.
+<strong>Korjattu 22.1. tehtäviä 1 ja 9:</strong> tehtävässä 1 on kyse tasakylkisestä, ei tasasivuisesta kolmiosta,
+ja tehtävässä 9 täytyy olettaa että n>0.
+<span lang="en"><strong>Erratum January 22nd:</strong> in problem 9 we must assume that n>0.
+(Problem 1 had a mistake in the Finnish version.)</span>
 
 Vuodenvaihteen 2017&ndash;2018 [erikoistehtäväsarja](2017/2017joulu-erikois.pdf), sopii lämmittelyyn vanhoille osallistujille ja uusille vakavaan pohdintaan.
 
