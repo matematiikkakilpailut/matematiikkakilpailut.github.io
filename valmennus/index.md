@@ -28,6 +28,10 @@ mukana ovat lähettäjän yhteystiedot!
 
 ### Ajankohtaiset tehtävät
 
+Tammikuun 2018 [erikoistehtäväsarja](2018/kirje_2018_01_helpot.pdf), sopii lämmittelyyn vanhoille osallistujille ja uusille vakavaan pohdintaan.
+<span lang="en">January 2018 [special problems](2018/letter_2018_01_easy.pdf), suitable as a warm-up for experienced contestants and serious training
+for new participants.</span>
+
 Tammikuun 2018 [tehtävät](2018/kirje_2018_01.pdf),
 <span lang="en">January 2018 [homework](2018/letter_2018_01.pdf)</span>.
 <strong>Korjattu 22.1. tehtäviä 1 ja 9:</strong> tehtävässä 1 on kyse tasakylkisestä, ei tasasivuisesta kolmiosta,
