@@ -42,10 +42,12 @@ Tammikuun 2018 [tehtävät](2018/kirje_2018_01.pdf),
 
 <div lang="en"> <strong>Errata:</strong>
 <ul>
-<li> Fixed on January 22nd: in problem 9 we must assume that n>0 (Problem 1 had a mistake in the Finnish version.)
+<li> Fixed on January 22nd: in problem 9 we must assume that n>0 (Problem 1 had a mistake in the Finnish version.)</li>
 <li> Fixed on January 28th: in problem 11 we must assume that the numbers are odd primes, not arbitrary integers
-  (this mistake was accidentally added when fixing the previous error)
+  (this mistake was accidentally added when fixing the previous error)</li>
+
 </ul></div>
+
 
 Vuodenvaihteen 2017&ndash;2018 [erikoistehtäväsarja](2017/2017joulu-erikois.pdf), sopii lämmittelyyn vanhoille osallistujille ja uusille vakavaan pohdintaan.
 
