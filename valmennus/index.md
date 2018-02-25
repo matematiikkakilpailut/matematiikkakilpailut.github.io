@@ -28,6 +28,9 @@ mukana ovat lähettäjän yhteystiedot!
 
 ### Ajankohtaiset tehtävät
 
+Helmikuun 2018 [[tehtävät](2018/kirje_2018_02.pdf),
+<span lang="en">February 2018 [homework](2018/letter_2018_02.pdf)</span>.
+
 Tammikuun 2018 [erikoistehtäväsarja](2018/kirje_2018_01_helpot.pdf), sopii lämmittelyyn vanhoille osallistujille ja uusille vakavaan pohdintaan.
 <span lang="en">January 2018 [special problems](2018/letter_2018_01_easy.pdf), suitable as a warm-up for experienced contestants and serious training
 for new participants.</span>
