@@ -3,21 +3,6 @@ layout: page
 title: Aikataulu
 url: /aikataulu/
 aikataulu:
-  - pvm: "2017"
-    tapahtuma: "Syksy"
-    otsikko: true
-  - pvm: "8.&ndash;10.9. (viikko 36)"
-    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä. Ohjelmassa mm. [iranilainen geometria&shy;kilpailu](http://igo-official.ir/?lang=en) erikseen kutsutuille pe 8.9. klo 12 ja Baltian tie -joukkueen valintakoe, johon kaikki voivat osallistua."
-  - pvm: "20.&ndash;22.10. (viikko 42)"
-    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä."
-  - pvm: "23.10.&ndash;3.11."
-    tapahtuma: "[MAOLin perus&shy;koulun matematiikka&shy;kilpailu](http://www.maol.fi/kilpailut/4tieteenkisat/peruskoulun-matematiikkakilpailu/)"
-  - pvm: "30.10."
-    tapahtuma: "[MAOLin lukion matematiikka&shy;kilpailu](http://www.maol.fi/kilpailut/4tieteenkisat/lukion-matematiikka/)"
-  - pvm: "9.&ndash;13.11."
-    tapahtuma: "[Baltian Tie -joukkue&shy;matematiikka&shy;kilpailu](http://www.balticway17.dk/) Sorøssä Tanskassa."
-  - pvm: "1.&ndash;3.12. (viikko 48)"
-    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä."
   - pvm: "2018"
     tapahtuma: "Kevät ja kesä"
     otsikko: true
