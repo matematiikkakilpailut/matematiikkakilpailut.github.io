@@ -37,19 +37,7 @@ for new participants.</span>
 
 Tammikuun 2018 [tehtävät](2018/kirje_2018_01.pdf),
 <span lang="en">January 2018 [homework](2018/letter_2018_01.pdf)</span>.
-
-**Havaittuja virheitä:**
-
-  * korjattu 22.1. tehtäviä 1 ja 9: tehtävässä 1 on kyse tasakylkisestä, ei tasasivuisesta kolmiosta, ja tehtävässä 9 täytyy olettaa että n>0.
-  * korjattu 28.1. tehtävää 11: kyse on parittomista alkuluvuista (tämä virhe ilmestyi tiedostoon edellisen korjauksen yhteydessä)
-
-<div lang="en"> <strong>Errata:</strong>
-<ul>
-<li> Fixed on January 22nd: in problem 9 we must assume that n>0 (Problem 1 had a mistake in the Finnish version.)</li>
-<li> Fixed on January 28th: in problem 11 we must assume that the numbers are odd primes, not arbitrary integers
-  (this mistake was accidentally added when fixing the previous error)</li>
-
-</ul></div>
+&mdash;[Ratkaisut](2018/ratk_2018_01.pdf).
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
 
