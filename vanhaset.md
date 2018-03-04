@@ -5,6 +5,17 @@ title: Uutisarkisto
 
 ## Vanhoja uutisia
 
+* Vuoden 2016 Baltian Tie -joukkuematematiikkakilpailu pidettiin Oulussa 3.&ndash;7. marraskuuta. Kilpailun järjesti Valmennusjaosto yhdessä MAOL-Oulun kerhon ja Oulun yliopiston OuLUMA-keskuksen kanssa. Ensimmäisen sijan jakoivat Puola ja Pietari. Kolmas oli Ruotsi. Suomi oli 9. [Kilpailutehtävät](http://matematiikkakilpailut.fi/BW2016/problems/bw2016_fi.pdf) ja [tulosluettelo](http://matematiikkakilpailut.fi/BW2016/results/BW2016_results.pdf).
+
+* Matemaattisten aineiden opettajien liiton valtakunnallisen lukion matematiikkakilpailun alkukilpailu järjestettiin 30.10.2016. [Tehtävät](http://matematiikkakilpailut.fi/MAOL/2016/al2016.pdf) ja niiden [ratkaisut](http://matematiikkakilpailut.fi/MAOL/2016/al2016ratk.pdf).
+
+* Suomea vuoden 2016 Baltian Tie -kilpailussa edustava joukkue valittiin viikon 36 valmennustapahtumassa Päivölässä. Joukkueen muodostavat **Ella Anttila**, **Olli Järviniemi**, **Joose Lehtinen**, **Jesse Nieminen** ja **Antti Röyskö**. Joukkueen johtaja on Lauri Hallila ja varajohtaja Otte Heinävaara. Valinta perustui osaksi 9.9. pidettyyn kaksituntiseen [kokeeseen](valmennus/2016/koe_9_9_16.pdf).
+
+* Vuoden 2016 Kansainväliset Matematiikkaolympialaiset pidettiin Hongkongissa 9.&ndash;16. heinäkuuta. Mukana oli 109 maata ja 602 kilpailijaa. Parhaiten menestyivät USA:n, Etelä-Korean ja Kiinan joukkueet. Täysiin pisteisiin pääsi 6 kilpailijaa. Suomen joukkue oli sijalla 71. **Ella Anttila**, **Iiro Kumpulainen** ja **Alvar Kallio** saivat kunniamaininnan. [Tulosluettelo](http://www.imo-official.org/year_info.aspx?year=2016).
+
+* Suomen joukkue heinäkuun 2016 Kansainvälisiin matematiikkaolympialaisiin Hongkongiin valittiin viikolla 19 Päivölän Opistossa pidetyn valmennus- ja valintaviikon aikana. Joukkueessa ovat **Ella Anttila**, **Hannes Ihalainen**, **Alvar Kallio**, **Iiro Kumpulainen**, **Joose Lehtinen** ja **Antti Röyskö**. Joukkueen johtaja on **Esa Vesalainen** ja varajohtaja **Jesse Jääsaari**. (14.5.2016)
+
+
 * Viidennet Euroopan Tyttöjen Matematiikkaolympialaiset pidettiin 10.-16. 4. 2016 Romanian Bustenissa. Suomen ainoa edustaja **Ella Anttila** palkittiin pronssimitalilla. [Tulokset](https://www.egmo.org/egmos/egmo5/scoreboard/).
 
 * Pohjoismainen matematiikkakilpailu pidettiin 5.4.2016. Suomesta kilpailuun osallistui 20 erikseen kutsuttua. Ratkaisut arvioitiin Tanskassa. Ruotsin **David Wärn** oli ainoa täydet pisteet saanut kilpailija.  [Tehtävät](PM/2016/NMC2016suom.pdf) ja niiden [ratkaisut](PM/2016/NMC2016ratk.pdf) sekä [tulosluettelo](PM/2016/NMC2016_tulokset.pdf) löytyvät alasivulta [Pohjoismainen kilpailu](PM/).
