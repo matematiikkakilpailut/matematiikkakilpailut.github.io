@@ -20,6 +20,8 @@ aikataulu:
     tapahtuma: "Pohjoismainen matematiikkakilpailu"
   - pvm: "9.&ndash;15.4."
     tapahtuma: "[Euroopan tyttöjen matematiikka&shy;olympialaiset](https://www.egmo.org/egmos/egmo7/) Firenzessä"
+  - pvm: "noin 7.-12.5."
+    tapahtuma: "Valmennus&shy;viikko Päivölässä."
   - pvm: "3.&ndash;14.7."
     tapahtuma: "[59. Kansain&shy;väliset matematiikka&shy;olympialaiset](http://www.imo2018.org/) Cluj-Napocassa Romaniassa"
 ---
