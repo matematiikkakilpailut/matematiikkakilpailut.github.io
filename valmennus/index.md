@@ -28,8 +28,12 @@ mukana ovat lähettäjän yhteystiedot!
 
 ### Ajankohtaiset tehtävät
 
+Huhtikuun 2018 [tehtävät](2018/kirje_2018_04.pdf).
+
 Helmikuun 2018 [tehtävät](2018/kirje_2018_02.pdf),
 <span lang="en">February 2018 [homework](2018/letter_2018_02.pdf)</span>.
+
+### Vanhempia tehtäväsarjoja ja ratkaisuja
 
 Tammikuun 2018 [erikoistehtäväsarja](2018/kirje_2018_01_helpot.pdf), sopii lämmittelyyn vanhoille osallistujille ja uusille vakavaan pohdintaan.
 <span lang="en">January 2018 [special problems](2018/letter_2018_01_easy.pdf), suitable as a warm-up for experienced contestants and serious training
@@ -39,7 +43,6 @@ Tammikuun 2018 [tehtävät](2018/kirje_2018_01.pdf),
 <span lang="en">January 2018 [homework](2018/letter_2018_01.pdf)</span>.
 &mdash;[Ratkaisut](2018/ratk_2018_01.pdf).
 
-### Vanhempia tehtäväsarjoja ja ratkaisuja
 
 Vuodenvaihteen 2017&ndash;2018 [erikoistehtäväsarja](2017/2017joulu-erikois.pdf), sopii lämmittelyyn vanhoille osallistujille ja uusille vakavaan pohdintaan.
 
