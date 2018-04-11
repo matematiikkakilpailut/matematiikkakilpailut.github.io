@@ -86,6 +86,8 @@ Vanhempia uutisia löytyy [uutisarkistosta](vanhaset.html).
 
 ## <a name="muut-aktiviteetit"></a>Muut aktiviteetit
 
+Eräät valmennettavat perustivat [blogin][blog].
+
 Valmennusjaosto järjestää yhteistyössä
 [Helsingin yliopiston matematiikan ja tilastotieteen laitoksen][mathstat]
 ja [Summamutikka-keskuksen][summamutikka] kanssa
@@ -103,6 +105,7 @@ sekä Summamutikka- ja OuLUMA-keskusten kanssa.
 Oulussa LUMA-keskus ja Oulun yliopisto järjestävät
 kilpailu&shy;matematiikka&shy;valmennus&shy;tilaisuuksia. Tarkemmin [tästä][oulu].
 
+[blog]: https://blog.matematiikkakilpailut.fi
 [mathstat]: http://www.mathstat.helsinki.fi
 [summamutikka]: https://wiki.helsinki.fi/display/Summamutikka/Etusivu
 [tekijaryhma]: https://wiki.helsinki.fi/pages/viewpage.action?pageId=74230034
