@@ -29,9 +29,9 @@ mukana ovat lähettäjän yhteystiedot!
 ### Ajankohtaiset tehtävät
 
 Huhtikuun 2018 [tehtävät](2018/kirje_2018_04.pdf).
-Korjattu 25.4.: tehtävässä 2 on puhe janan AB keskinormaalista, ei janan BC keskinormaalista.
+Korjattu 25.4.: tehtävän 2 ensimmäisessä virkkeessä on puhe janan AB keskinormaalista, ei janan BC keskinormaalista.
 
-Helmikuun 2018 [tehtävät](2018/kirje_2018_02.pdf),
+Helmikuun 2018 [tehtävät](2018/kirje_2018_02.pdf) ja [ratkaisut](2018/ratk_2018_02.pdf),
 <span lang="en">February 2018 [homework](2018/letter_2018_02.pdf)</span>.
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
