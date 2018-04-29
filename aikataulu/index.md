@@ -22,12 +22,23 @@ aikataulu:
     tapahtuma: "[Euroopan tyttöjen matematiikka&shy;olympialaiset](https://www.egmo.org/egmos/egmo7/) Firenzessä"
   - pvm: "7.-12.5."
     tapahtuma: "Valmennus&shy;viikko Päivölässä."
+  - pvm: "4.-8.6.&dagger;"
+    tapahtuma: "Kesäleiri yläaste&shy;ikäisille Päivölässä"
   - pvm: "11.-15.6."
-    tapahtuma: "Kesävalmennusleiri, paikka tarkentuu"
+    tapahtuma: "Kesä&shy;valmennus&shy;leiri joukkueelle ja muille kiinnos&shy;tuneille Turussa"
   - pvm: "noin 2.-7.7."
-    tapahtuma: "Olympiajoukkueen leiri Sorøssä, Tanskassa (josta siirtymä suoraan Romaniaan)"
+    tapahtuma: "Olympia&shy;joukkueen leiri Sorøssä, Tanskassa (josta siirtymä suoraan Romaniaan)"
   - pvm: "3.&ndash;14.7."
     tapahtuma: "[59. Kansain&shy;väliset matematiikka&shy;olympialaiset](http://www.imo2018.org/) Cluj-Napocassa Romaniassa"
+  - pvm: "2018"
+    tapahtuma: "Syksy"
+    otsikko: true
+  - pvm: "31.8.-2.9. (viikko 36)&dagger;"
+    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä"
+  - pvm: "19.-21.10. (viikko 42)&dagger;"
+    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä"
+  - pvm: "30.11.-2.12. (viikko 48)&dagger;"
+    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä"
 ---
 <div class="list-group">
 {% for a in page.aikataulu %}
@@ -37,3 +48,4 @@ aikataulu:
 </div>
 {% endfor %}
 </div>
+  <p>&dagger; Ajankohtaa ei ole vahvistettu</p>
