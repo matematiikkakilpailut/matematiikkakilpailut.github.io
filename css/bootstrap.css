@@ -1899,17 +1899,6 @@ a.label:hover,a.label:focus {
   margin-top: 5px;
 }
 
-.alert-dismissible {
-  padding-right: 35px;
-}
-
-.alert-dismissible .close {
-  position: relative;
-  top: -2px;
-  right: -21px;
-  color: inherit;
-}
-
 .alert-info {
   background-color: #3498db;
   border-color: #3498db;
