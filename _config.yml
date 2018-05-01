@@ -17,5 +17,5 @@ author :
 production_url : http://matematiikkakilpailut.fi
 url: http://matematiikkakilpailut.fi
   
-gems:
+plugins:
   - jekyll-sitemap
