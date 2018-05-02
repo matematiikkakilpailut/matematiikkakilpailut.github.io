@@ -55,7 +55,7 @@ on merkittävä taloudellinen rasite.
 Tuki voi yleensä kattaa enintään Päivölän Opiston perimän osallistumismaksun
 ja kohtuulliset matkakulut. Vapaamuotoiset hakemukset pyydetään osoittamaan
 Suomen matemaattisen yhdistyksen Valmennusjaostolle ja lähettämään
-[Anne-Maria Ernvall-Hytöselle](http://www.abo.fi/fakultet/Content/Document/document/34743).
+[Anne-Maria Ernvall-Hytöselle](https://www.abo.fi/kontakt/anne-maria-ernvall-hytonen/).
 Vaikka Anne-Marian kotisivu on ruotsinkielinen, hakemuksen voi kirjoittaa
 myös suomeksi tai englanniksi.
 
