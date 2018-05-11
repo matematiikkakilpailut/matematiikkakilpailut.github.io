@@ -28,13 +28,15 @@ mukana ovat lähettäjän yhteystiedot!
 
 ### Ajankohtaiset tehtävät
 
+Kesäkauden 2018 [tehtävät](2018/kirje_2018_05.pdf).
+
 Huhtikuun 2018 [tehtävät](2018/kirje_2018_04.pdf).
 Korjattu 25.4.: tehtävän 2 ensimmäisessä virkkeessä on puhe janan AB keskinormaalista, ei janan BC keskinormaalista.
 
+### Vanhempia tehtäväsarjoja ja ratkaisuja
+
 Helmikuun 2018 [tehtävät](2018/kirje_2018_02.pdf) ja [ratkaisut](2018/ratk_2018_02.pdf),
 <span lang="en">February 2018 [homework](2018/letter_2018_02.pdf)</span>.
-
-### Vanhempia tehtäväsarjoja ja ratkaisuja
 
 Tammikuun 2018 [erikoistehtäväsarja](2018/kirje_2018_01_helpot.pdf), sopii lämmittelyyn vanhoille osallistujille ja uusille vakavaan pohdintaan.
 <span lang="en">January 2018 [special problems](2018/letter_2018_01_easy.pdf), suitable as a warm-up for experienced contestants and serious training
