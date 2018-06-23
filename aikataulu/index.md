@@ -14,9 +14,13 @@ aikataulu:
     tapahtuma: "Syksy"
     otsikko: true
   - pvm: "7.-9.9. (viikko 36)"
-    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä"
+    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä. Ohjelmassa mm. [iranilainen geometria&shy;kilpailu](http://igo-official.ir/?lang=en) erikseen kutsutuille ja Baltian tie -joukkueen valinta&shy;koe, johon kaikki voivat osallistua."
   - pvm: "19.-21.10. (viikko 42)&dagger;"
     tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä"
+  - pvm: "29.10-9.11."
+    tapahtuma: "[MAOLin perus&shy;koulun matematiikka&shy;kilpailu](https://peda.net/yhdistykset/maol-ry/kilpailut/ntk/pm)"
+  - pvm: "31.10."
+    tapahtuma: "[MAOLin lukion matematiikka&shy;kilpailu](https://peda.net/yhdistykset/maol-ry/kilpailut/ntk/lm)"
   - pvm: "30.11.-2.12. (viikko 48)&dagger;"
     tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä"
 ---
