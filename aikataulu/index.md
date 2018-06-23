@@ -33,7 +33,7 @@ aikataulu:
   - pvm: "2018"
     tapahtuma: "Syksy"
     otsikko: true
-  - pvm: "31.8.-2.9. (viikko 36)&dagger;"
+  - pvm: "7.-9.9. (viikko 36)"
     tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä"
   - pvm: "19.-21.10. (viikko 42)&dagger;"
     tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä"
