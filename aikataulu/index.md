@@ -14,9 +14,11 @@ aikataulu:
     tapahtuma: "Syksy"
     otsikko: true
   - pvm: "7.-9.9. (viikko 36)"
-    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä. Ohjelmassa mm. [iranilainen geometria&shy;kilpailu](http://igo-official.ir/?lang=en) erikseen kutsutuille ja Baltian tie -joukkueen valinta&shy;koe, johon kaikki voivat osallistua."
+    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä. Ohjelmassa mm. [iranilainen geometria&shy;kilpailu](http://igo-official.ir/?lang=en) erikseen kutsutuille ja Baltian tie -joukkueen valinta&shy;koe, johon kaikki voivat osallistua. Baltian tie on tänä vuonna Venäjällä, jonne matkustamiseen tarvitaan viisumi. Jos koet olevasi ehdolla joukkueeseen, ota viikon&shy;vaihteeseen mukaan passi, joka on voimassa vähintään 6 kk Baltian tien päättymisestä, 7.5.2019 asti."
   - pvm: "19.-21.10. (viikko 42)"
     tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä"
+  - pvm: 3.-7.11."
+    tapahtuma: "[Baltian tie -kilpailu Pietarissa](http://www.pdmi.ras.ru/EIMI/2018/Baltic_way/index.html)"
   - pvm: "29.10-9.11."
     tapahtuma: "[MAOLin perus&shy;koulun matematiikka&shy;kilpailu](https://peda.net/yhdistykset/maol-ry/kilpailut/ntk/pm)"
   - pvm: "31.10."
