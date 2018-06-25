@@ -34,5 +34,3 @@ aikataulu:
 </div>
 {% endfor %}
 </div>
-  
-[//] #  <p>&dagger; Ajankohtaa ei ole vahvistettu</p>
