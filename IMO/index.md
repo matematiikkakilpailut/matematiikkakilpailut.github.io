@@ -127,13 +127,19 @@ kilpailut:
     sijoitus: "55 p. (71./109), ei mitaleja"
     tehtavat: "[pdf](2016/teht2016.pdf)"
     ratkaisut: "[pdf](2016/ratk2016.pdf)"
-    muuta: "[tulosluettelo](https://www.imo-official.org/year_country_r.aspx?year=2015)"
+    muuta: "[tulosluettelo](https://www.imo-official.org/year_country_r.aspx?year=2016)"
   - vuosi: "2017"
     paikka: "[Rio de Janeiro, Brasilia](https://www.imo2017.org.br/)"
-    sijoitus: ""
-    tehtavat: ""
+    sijoitus: "56 p. (84./110), ei mitaleja"
+    tehtavat: "[pdf](2017/teht2017.pdf)"
     ratkaisut: ""
-    muuta: ""
+    muuta: "[tulosluettelo](https://www.imo-official.org/year_country_r.aspx?year=2017)"
+  - vuosi: "2018"
+    paikka: "[Cluj-Napoca, Romania](http://www.imo2018.org/)"
+    sijoitus: "70 p. (59./107), 2 pronssia"
+    tehtavat: "[pdf](2018/teht2018.pdf)"
+    ratkaisut: ""
+    muuta: "[tulosluettelo](https://www.imo-official.org/year_country_r.aspx?year=2018)"
 
 ---
 ## Kansainväliset matematiikkaolympialaiset
