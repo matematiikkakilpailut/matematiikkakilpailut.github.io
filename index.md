@@ -61,7 +61,9 @@ kysymyksistä löytyy lisätietoa [täältä](kaytanto).
 
 ## <a name="uutisia"></a>Uutisia
 
-* Vuoden 2018 [Euroopan tyttöjen matematiikkaolympialaisiin](http://www.egmo2018.org/) valittiin Suomen edustajiksi **Milja Krés**, **Veera Nurmela**, **Nerissa Shakespeare** ja **Essi Vilhonen**.
+* Vuoden 2018 [Kansainväliset Matematiikkaolympialaiset](http://www.imo2018.org/) pidettiin Cluj-Napocassa Romaniassa 3.&ndash;14.7. Suomea edustivat **Joonatan Honkamaa**, **Hermanni Huhtamäki**, **Akseli Jussinmäki**, **Olli Järviniemi**, **Nerissa Shakespeare** ja **Selim Virtanen**. Honkamaa ja Järviniemi saivat pronssimitalit, Jussinmäki ja Virtanen kunniamaininnat. [Tulosluettelo](http://imo-official.org/year_country_r.aspx?year=2018).
+
+* Vuoden 2018 [Euroopan tyttöjen matematiikka&shy;olympialaisissa](http://www.egmo2018.org/) Suomea edustivat **Milja Krés**, **Veera Nurmela**, **Nerissa Shakespeare** ja **Essi Vilhonen**.
 
 * Vuoden 2017 Baltian Tie -joukkuematematiikkakilpailu pidettiin Tanskan Sorøssä 9.&ndash;13.11.2017. Ensimmäisen sijan otti Pietarin joukkue 85 pisteellä, Suomi oli yhdeksäs yhdestätoista 41 pisteellä. [Kilpailutehtävät](/Baltian_tie/2017/BW17_FIN.pdf) ja [tulosluettelo](http://www.balticway17.dk/results.html).
 
