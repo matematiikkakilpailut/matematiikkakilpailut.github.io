@@ -29,7 +29,7 @@ aikataulu:
     tapahtuma: "Kevät ja kesä"
     otsikko: true
   - pvm: "18.&ndash;19.1."
-	tapahtuma: "MAOLin lukion loppu&shy;kilpailu Helsingissä"
+    tapahtuma: "MAOLin lukion loppu&shy;kilpailu Helsingissä"
   - pvm: "1.4."
     tapahtuma: "Pohjois&shy;mainen matematiikka&shy;kilpailu"
   - pvm: "10.&ndash;22.7."
