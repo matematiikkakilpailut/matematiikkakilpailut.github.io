@@ -67,9 +67,9 @@ ilmoittaa koulunsa kilpailun järjestäjille.
 
 Kilpailu Espoon koulujen kuudes&shy;luokkalaisille.
 
-#### [Seitsemäsluokkalaisten alueellinen matematiikka&shy;kilpailu](/seiskat/)
+#### [Seitsemäs&shy;luokkalaisten alueellinen matematiikka&shy;kilpailu](/seiskat/)
 
-Kilpailu järjestetään Helsingissä, Oulussa ja Turussa.
+Kilpailu järjestetään Helsingissä, Oulussa, Turussa ja Satakunnassa.
 
 #### [MatCup](http://matcup.edublogs.org/)
 
