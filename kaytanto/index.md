@@ -33,14 +33,9 @@ viikonlopun aikana on saunamahdollisuus.
 ### Ilmoittautuminen
 
 Viikonloppuun pitää ilmoittautua **viikkoa aikaisemmin**
-(Päivölässä on nykyään hiukan tungosta!) joko osoitteeseen
-`toimisto (ät) paivola.fi` tai
-`merikki.lappi (ät) paivola.fi`.
-Puhelimitsekin voi ilmoittautua, yhteystiedot saa kotisivuilta. Jos haluat
-samalla kysyä jotain, ilmoittaudu suoraan Merikille.
+[sähköisen lomakkeen](https://www.paivola.fi/fi/matematiikkakilpailuvalmennukseen-ilmoittautuminen/)
+kautta. Ilmoittautumisen yhteydessä voit esittää mahdollisia lisäkysymyksiä. Jos noudatat jotain **erityisruokavaliota** tai sinulla on allergioita, niin kerro myös niistä ilmoittautumisen yhteydessä.
 
-Jos noudatat jotain **erityisruokavaliota**, niin kerro siitä
-ilmoittautumisen yhteydessä!
 
 ### Maksut
 
