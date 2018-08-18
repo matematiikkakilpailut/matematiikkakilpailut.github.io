@@ -26,12 +26,32 @@ aloittaville ja pidemmälle ehtineille.
 Valmennusvastauksista voidaan antaa palautetta vain, jos vastausten
 mukana ovat lähettäjän yhteystiedot!
 
-### Ajankohtaiset tehtävät
+### Ajankohtaiset tehtävät (lukiolaisille tai kaikille koululaisille)
 
 Kesäkauden 2018 [tehtävät](2018/kirje_2018_05.pdf).
 
 Huhtikuun 2018 [tehtävät](2018/kirje_2018_04.pdf).
 Korjattu 25.4.: tehtävän 2 ensimmäisessä virkkeessä on puhe janan AB keskinormaalista, ei janan BC keskinormaalista.
+
+### Peruskoululaisten tehtävät
+
+Peruskoululaisten kirjevalmennustehtävät on nimensä mukaan suunnattu  
+peruskoululaisille. Ensimmäinen tehtäväsarja on suunniteltu  
+aloitettavan noin seitsemännen luokan puolivälissä, mutta tehtävien  
+ratkomisen voi aloittaa myös aiemmin tai myöhemmin. Tehtävien  
+ratkaiseminen edellyttää usein perehtymistä koulumatematiikan  
+ulkopuoliseen matematiikkaan ja niiden on tarkoitus olla haastavia. Ei  
+siis kannata säikähtää tehtävien vaikeustasoa.
+
+Ensimmäinen tehtäväsarja löytyy alta. Kun olet palauttanut  
+ratkaisujasi siihen, saat uuden tehtäväsarjan ratkottavaksi.  
+Valmennusvastauksista voidaan antaa palautetta ja uusi tehtäväsarja  
+lähettää vain, jos mukana ovat yhteystiedot!
+
+Peruskoululaiset voivat halutessaan ratkoa myös haastavampia, kaikille  
+koululaisille tarkoitettuja kirjevalmennustehtäviä (yllä).
+
+[Peruskoululaisten ensimmäinen valmennuskirje](2018/kirje_pk_1.pdf)
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
 
