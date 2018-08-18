@@ -30,7 +30,7 @@ mukana ovat lähettäjän yhteystiedot!
 
 Kesäkauden 2018 [tehtävät](2018/kirje_2018_05.pdf).
 
-Huhtikuun 2018 [tehtävät](2018/kirje_2018_04.pdf).
+Huhtikuun 2018 [tehtävät](2018/kirje_2018_04.pdf) ja [ratkaisut](2018/ratk_2018_04.pdf).
 Korjattu 25.4.: tehtävän 2 ensimmäisessä virkkeessä on puhe janan AB keskinormaalista, ei janan BC keskinormaalista.
 
 ### Peruskoululaisten tehtävät
