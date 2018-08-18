@@ -52,7 +52,7 @@ Käytämme tietojen käsittelyyn Googlen pilvipalveluita. Luotamme siihen, että
 ## Rekisterinpitäjä ja käsittelyyn liittyvät oikeudet
 
 Henkilörekisteriä ylläpitää Suomen matemaattisen yhdistyksen valmennusjaos. Sinulla on oikeus 
-vaatia tietojesi tarkastamista tai niiden poistamista, tai peruuttaa antamasi suostumus milloin 
+vaatia tietojesi tarkastamista tai niiden poistamista milloin
 tahansa. Nämä vaatimukset ja peruutukset voit tehdä vapaamuotoisesti, mutta mielellään 
 kirjallisesti ja niin, että pystymme riittävästi varmistumaan siitä että olet todella se henkilö, jonka 
 tiedoista on kyse, tai edustat tätä henkilöä. Pyynnöt ja kysymykset voit osoittaa valmennusjaoksen 
