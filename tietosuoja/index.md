@@ -11,8 +11,7 @@ Tämä tietosuojalauseke käsittelee valmennettavien henkilötietojen käyttöä
 
 ## Käsiteltävät henkilötiedot, niiden lähteet ja päätöksenteko
 
-Käsittelemme seuraavia henkilötietoja, jotta voimme toteuttaa matematiikan kilpailuvalmennusta ja 
-joukkueiden valintaa.
+Käsittelemme seuraavia henkilötietoja, jotta voimme toteuttaa matematiikan kilpailuvalmennusta ja joukkueiden valintaa.
 
 - nimi ja yhteystiedot (osoite, sähköpostiosoite, puhelinnumero, mahdolliset muut viestintäkeinot)
 - valmennettavan koulu ja sen yhteystiedot
@@ -32,14 +31,12 @@ joukkueiden valintaa.
   - valmennuksen yhteydessä järjestetyt kokeet
   - valmennuksen kotitehtäväkirjeet
   - osallistuminen valmennustapahtumiin
-  
-Saamme valmennettavia koskevia kilpailutuloksia kilpailujen järjestäjiltä. Emme tee  päätöksiä automaattisesti, vaan mm. kaikki joukkuevalinnat 
-perustuvat valmentajien suorittamaan kokonaisharkintaan.
+
+Saamme valmennettavia koskevia kilpailutuloksia kilpailujen järjestäjiltä. Emme tee  päätöksiä automaattisesti, vaan mm. kaikki joukkuevalinnat perustuvat valmentajien suorittamaan kokonaisharkintaan.
 
 ## Tietojen säilytysaika
 
-Hävitämme valmennettavaa koskevat tiedot, kun hän ei varmasti ole enää kelpoinen osallistumaan mihinkään  valmennuksen piiriin kuuluvaan kilpailuun. Tämän rajana on yleensä toisen asteen koulutuksen 
-päättyminen, eli käytännössä lukiolaiset ja ammattikoululaiset ovat yleensä osallistumiskelpoisia  mutta  korkeakouluopiskelijat eivät.
+Hävitämme valmennettavaa koskevat tiedot, kun hän ei varmasti ole enää kelpoinen osallistumaan mihinkään  valmennuksen piiriin kuuluvaan kilpailuun. Tämän rajana on yleensä toisen asteen koulutuksen päättyminen, eli käytännössä lukiolaiset ja ammattikoululaiset ovat yleensä osallistumiskelpoisia  mutta  korkeakouluopiskelijat eivät.
 
 ## Tietojen luovutukset
 
@@ -51,12 +48,5 @@ Käytämme tietojen käsittelyyn Googlen pilvipalveluita. Luotamme siihen, että
 
 ## Rekisterinpitäjä ja käsittelyyn liittyvät oikeudet
 
-Henkilörekisteriä ylläpitää Suomen matemaattisen yhdistyksen valmennusjaos. Sinulla on oikeus 
-vaatia tietojesi tarkastamista tai niiden poistamista milloin
-tahansa. Nämä vaatimukset ja peruutukset voit tehdä vapaamuotoisesti, mutta mielellään 
-kirjallisesti ja niin, että pystymme riittävästi varmistumaan siitä että olet todella se henkilö, jonka 
-tiedoista on kyse, tai edustat tätä henkilöä. Pyynnöt ja kysymykset voit osoittaa valmennusjaoksen 
-jäsenille, esimerkiksi Jouni Seppäselle (`jks at iki.fi`) tai Anne-Maria Ernvall-Hytöselle (`aernvall at 
-abo.fi`). Jos et ole tyytyväinen siihen miten käsittelemme henkilötietojasi, sinulla on oikeus tehdä 
-valitus viranomaiselle; lähinnä kysymykseen tulisi luultavasti [tietosuojavaltuutettu](http://www.tietosuoja.fi/).
+Henkilörekisteriä ylläpitää Suomen matemaattisen yhdistyksen valmennusjaos. Sinulla on oikeus vaatia tietojesi tarkastamista tai niiden poistamista milloin tahansa. Nämä vaatimukset voit tehdä vapaamuotoisesti, mutta mielellään kirjallisesti ja niin, että pystymme riittävästi varmistumaan siitä että olet todella se henkilö, jonka tiedoista on kyse, tai edustat tätä henkilöä. Pyynnöt ja kysymykset voit osoittaa valmennusjaoksen jäsenille, esimerkiksi Jouni Seppäselle (`jks at iki.fi`) tai Anne-Maria Ernvall-Hytöselle (`aernvall at abo.fi`). Jos et ole tyytyväinen siihen miten käsittelemme henkilötietojasi, sinulla on oikeus tehdä valitus viranomaiselle; lähinnä kysymykseen tulisi luultavasti [tietosuojavaltuutettu](http://www.tietosuoja.fi/).
 
