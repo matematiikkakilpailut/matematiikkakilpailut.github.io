@@ -2,9 +2,10 @@
 layout: page
 title: Tietosuoja
 url: /tietosuoja/
+description: >-
+  Suomen matemaattisen yhdistyksen valmennusjaos käsittelee valmennettavien henkilötietoja tässä tietosuojalausekkeessa kuvatulla tavalla.
 ---
 
-# Tietosuoja
 
 Tämä tietosuojalauseke käsittelee valmennettavien henkilötietojen käyttöä matematiikkavalmennuksessa.
 
