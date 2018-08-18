@@ -21,7 +21,7 @@ Käsittelemme seuraavia henkilötietoja, jotta voimme toteuttaa matematiikan kil
   - useimpien kilpailujen osallistumiskelpoisuus riippuu näistä
   - silloin kun eri-ikäisten valmennettavien näytöt ovat samalla tasolla, saatetaan joukkueeseen valita näistä nuorempi, jolla on mahdollisuus pidempään kilpailu-uraan
 - sukupuoli
-- vain naispuoliset valmennettavat ovat kelpoisia EGMO-kilpailuun (European Girls’ Mathematical Olympiad)
+  - vain naispuoliset valmennettavat ovat kelpoisia EGMO-kilpailuun (European Girls’ Mathematical Olympiad)
 - tulokset eri kilpailuista ja kokeista, kuten seuraavista:
   - MAOLin kilpailut
   - Iranin geometriakilpailut (IGO)
