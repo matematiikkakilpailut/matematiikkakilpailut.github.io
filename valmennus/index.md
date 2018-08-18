@@ -35,23 +35,13 @@ Korjattu 25.4.: tehtävän 2 ensimmäisessä virkkeessä on puhe janan AB keskin
 
 ### Peruskoululaisten tehtävät
 
-Peruskoululaisten kirjevalmennustehtävät on nimensä mukaan suunnattu  
-peruskoululaisille. Ensimmäinen tehtäväsarja on suunniteltu  
-aloitettavan noin seitsemännen luokan puolivälissä, mutta tehtävien  
-ratkomisen voi aloittaa myös aiemmin tai myöhemmin. Tehtävien  
-ratkaiseminen edellyttää usein perehtymistä koulumatematiikan  
-ulkopuoliseen matematiikkaan ja niiden on tarkoitus olla haastavia. Ei  
-siis kannata säikähtää tehtävien vaikeustasoa.
+Peruskoululaisten kirjevalmennustehtävät on nimensä mukaan suunnattu  peruskoululaisille. Ensimmäinen tehtäväsarja on suunniteltu  aloitettavan noin seitsemännen luokan puolivälissä, mutta tehtävien  ratkomisen voi aloittaa myös aiemmin tai myöhemmin. Tehtävien  ratkaiseminen edellyttää usein perehtymistä koulumatematiikan  ulkopuoliseen matematiikkaan ja niiden on tarkoitus olla haastavia. Ei  siis kannata säikähtää tehtävien vaikeustasoa.
 
-Ensimmäinen tehtäväsarja löytyy alta. Kun olet palauttanut  
-ratkaisujasi siihen, saat uuden tehtäväsarjan ratkottavaksi.  
-Valmennusvastauksista voidaan antaa palautetta ja uusi tehtäväsarja  
-lähettää vain, jos mukana ovat yhteystiedot!
+Ensimmäinen tehtäväsarja löytyy alta. Kun olet palauttanut  ratkaisujasi siihen, saat uuden tehtäväsarjan ratkottavaksi.  Valmennusvastauksista voidaan antaa palautetta ja uusi tehtäväsarja  lähettää vain, jos mukana ovat yhteystiedot!
 
-Peruskoululaiset voivat halutessaan ratkoa myös haastavampia, kaikille  
-koululaisille tarkoitettuja kirjevalmennustehtäviä (yllä).
+Peruskoululaiset voivat halutessaan ratkoa myös haastavampia, kaikille  koululaisille tarkoitettuja kirjevalmennustehtäviä (yllä).
 
-[Peruskoululaisten ensimmäinen valmennuskirje](2018/kirje_pk_1.pdf)
+[Peruskoululaisten ensimmäinen valmennuskirje (kausi 2018-2019)](2018/kirje_pk_1.pdf)
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
 
