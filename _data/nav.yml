@@ -6,12 +6,14 @@
       url: /aikataulu/
     - title: Käytännön asioita
       url: /kaytanto/
-    - title: Valmennustehtävät
+    - title: Tehtävät
       url: /valmennus/
-    - title: Aiheet ja materiaalit
+    - title: Materiaalit
       url: /aiheet/
     - title: Valmentajat
       url: /valmentajat/
+    - title: Tietosuoja
+      url: /tietosuoja/
 - title: Kilpailuja
   url: /kilpailut/
   sub:
