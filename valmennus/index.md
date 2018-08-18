@@ -26,7 +26,7 @@ aloittaville ja pidemmälle ehtineille.
 Valmennusvastauksista voidaan antaa palautetta vain, jos vastausten
 mukana ovat lähettäjän yhteystiedot!
 
-### Ajankohtaiset tehtävät (lukiolaisille tai kaikille koululaisille)
+### Tehtävät lukiolaisille tai kaikille koululaisille
 
 Kesäkauden 2018 [tehtävät](2018/kirje_2018_05.pdf).
 
