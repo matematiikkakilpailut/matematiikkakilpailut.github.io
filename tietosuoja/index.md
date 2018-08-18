@@ -6,15 +6,7 @@ url: /tietosuoja/
 
 # Tietosuoja
 
-Tämä tietosuojalauseke käsittelee valmennettavien henkilötietojen käyttöä matematiikkavalmennuksessa.\
-
-Tässä kirjeessä kuvaamme, miten käsittelemme henkilötietojasi, ja pyydämme suostumustasi 
-tähän käsittelyyn. Samalla pyydämme joitakin perustietoja Sinulta itseltäsi. Suostumuksen voit 
-jättää antamatta, tai jos annat sen, voit myös peruuttaa sen milloin tahansa. Ilman suostumusta 
-emme pysty pitämään kirjaa osallistumisestasi ja saavutuksistasi emmekä näin ollen valitsemaan 
-Sinua kilpailujoukkueisiin. Valmennustapahtumiin osallistuminen on siinäkin tapauksessa 
-mahdollista, joskin niissä yöpymiseksi voit joutua luovuttamaan joitakin henkilötietojasi 
-majoittavalle taholle.
+Tämä tietosuojalauseke käsittelee valmennettavien henkilötietojen käyttöä matematiikkavalmennuksessa.
 
 ## Käsiteltävät henkilötiedot, niiden lähteet ja päätöksenteko
 
