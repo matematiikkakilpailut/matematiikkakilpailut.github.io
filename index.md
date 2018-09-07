@@ -61,6 +61,8 @@ kysymyksistä löytyy lisätietoa [täältä](kaytanto).
 
 ## <a name="uutisia"></a>Uutisia
 
+* Uutena kokeiluna on otettu käyttöön valmennuskirjeitä nopeampitempoinen [viikkotehtävä](https://keskustelu.matematiikkakilpailut.fi/c/viikkotehtavat).
+
 * Vuoden 2018 [Kansainväliset Matematiikkaolympialaiset](http://www.imo2018.org/) pidettiin Cluj-Napocassa Romaniassa 3.&ndash;14.7. Suomea edustivat **Joonatan Honkamaa**, **Hermanni Huhtamäki**, **Akseli Jussinmäki**, **Olli Järviniemi**, **Nerissa Shakespeare** ja **Selim Virtanen**. Honkamaa ja Järviniemi saivat pronssimitalit, Jussinmäki ja Virtanen kunniamaininnat. [Tulosluettelo](http://imo-official.org/year_country_r.aspx?year=2018).
 
 * Vuoden 2018 [Euroopan tyttöjen matematiikka&shy;olympialaisissa](http://www.egmo2018.org/) Suomea edustivat **Milja Krés**, **Veera Nurmela**, **Nerissa Shakespeare** ja **Essi Vilhonen**.
