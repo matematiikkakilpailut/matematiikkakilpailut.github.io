@@ -31,7 +31,7 @@ mukana ovat lähettäjän yhteystiedot!
 Kesäkauden 2018 [tehtävät](2018/kirje_2018_05.pdf).
 
 Huhtikuun 2018 [tehtävät](2018/kirje_2018_04.pdf) ja [ratkaisut](2018/ratk_2018_04.pdf).
-Korjattu 25.4.: tehtävän 2 ensimmäisessä virkkeessä on puhe janan AB keskinormaalista, ei janan BC keskinormaalista.
+Korjattu 25.4.: tehtävän 2 ensimmäisessä virkkeessä on puhe janan AB keskinormaalista, ei janan BC keskinormaalista.  Korjattu 7.9.: linkki ratkaisuihin toimii nyt.
 
 ### Peruskoululaisten tehtävät
 
@@ -42,6 +42,16 @@ Ensimmäinen tehtäväsarja löytyy alta. Kun olet palauttanut  ratkaisujasi sii
 Peruskoululaiset voivat halutessaan ratkoa myös haastavampia, kaikille  koululaisille tarkoitettuja kirjevalmennustehtäviä (yllä).
 
 [Peruskoululaisten ensimmäinen valmennuskirje (kausi 2018-2019)](2018/kirje_pk_1.pdf)
+
+### Uutuus: viikkotehtävät
+
+Kirjevalmennus toimii hitaalla tempolla, joten palaute tehtävistä tulee pitkän ajan päästä.
+Palautuksen aikarajoista joustetaan usein, joten ajoissakaan palauttaneille ei anneta
+heti malliratkaisuja. Kirjeformaatti ei myöskään innosta keskustelemaan tehtävistä muuten
+kuin ehkä yksityisesti kaverin kanssa.
+Kokeiluna syksyllä 2018 on uusi [viikkotehtävä](https://keskustelu.matematiikkakilpailut.fi/c/viikkotehtavat)
+jonka palautus tapahtuu viestinä keskustelupalstalla, jolla tehtävästä saa keskustella
+heti aikarajan umpeuduttua.
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
 
