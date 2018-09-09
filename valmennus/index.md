@@ -28,6 +28,8 @@ mukana ovat lähettäjän yhteystiedot!
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
+Syyskuun 2018 [tehtävät](2018/kirje_2018_09.pdf).
+
 Kesäkauden 2018 [tehtävät](2018/kirje_2018_05.pdf).
 
 Huhtikuun 2018 [tehtävät](2018/kirje_2018_04.pdf) ja [ratkaisut](2018/ratk_2018_04.pdf).
