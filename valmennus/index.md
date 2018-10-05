@@ -29,6 +29,9 @@ mukana ovat lähettäjän yhteystiedot!
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
 Syyskuun 2018 [tehtävät](2018/kirje_2018_09.pdf).
+**Korjattu 5.10.:** tehtävästä 10 puuttui ±-symboli,
+tehtävässä 19 puhuttiin suorakulmiosta vaikka kyse on mielivaltaisista 
+nelikulmioista.
 
 Kesäkauden 2018 [tehtävät](2018/kirje_2018_05.pdf).
 
