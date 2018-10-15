@@ -149,10 +149,6 @@ Materiaaliin kuuluu myös [tehtäväkokoelmia](#tehtavat) ja [muuta](#muita).
 
 ### <a name="tehtavat"></a>Tehtäviä
 
-*   [Matti Lehtisen tehtäväarkisto](http://www.elisanet.fi/matti.t.lehtinen/tehtarkisto.pdf)
-    Kohtalaisen laaja kokoelma vanhoja valmennustehtäviä. Tehtäviä ei ole järjestetty aiheen
-	eikä vaikeustason mukaan, joten ne sopivat mainiosti yleis&shy;valmentautumiseen!
-	Arkiston tehtäviin on myös[ratkaisuja](http://www.elisanet.fi/matti.t.lehtinen/ratkarkisto.pdf).
 *   [Kilpailumatematiikan lajeja ja periaatteita](/kirjallisuus/kilpmatesitt.pdf)
 	20 näytetehtävää, jotka pyrkivät antamaan kuvaa kilpailumatematiikassa tavallisista
 	kysymystyypeistä. Tehtäviin on myös ratkaisut. Koonnut Matti Lehtinen, päivitetty syyskuussa 2016.
