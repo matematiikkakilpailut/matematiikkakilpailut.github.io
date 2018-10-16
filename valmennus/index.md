@@ -2,6 +2,7 @@
 layout: page
 title: Valmennustehtävät
 url: /valmennus/
+robots: index,nofollow
 ---
 ## Kirjevalmennus
 
