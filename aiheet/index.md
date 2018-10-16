@@ -149,6 +149,9 @@ Materiaaliin kuuluu myös [tehtäväkokoelmia](#tehtavat) ja [muuta](#muita).
 
 ### <a name="tehtavat"></a>Tehtäviä
 
+*   [Kilpailumatematiikan harjoituksia I ja II](http://eukleideskirjat.fi/harjI.html).
+    Vanha kilpailutehtäväkokoelma on nyt järjestetty, siitä on korjattu lukuisia virheitä
+    ja se on julkaistu kahtena niteenä.
 *   [Kilpailumatematiikan lajeja ja periaatteita](/kirjallisuus/kilpmatesitt.pdf)
 	20 näytetehtävää, jotka pyrkivät antamaan kuvaa kilpailumatematiikassa tavallisista
 	kysymystyypeistä. Tehtäviin on myös ratkaisut. Koonnut Matti Lehtinen, päivitetty syyskuussa 2016.
