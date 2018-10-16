@@ -19,3 +19,9 @@ url: http://matematiikkakilpailut.fi
   
 plugins:
   - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: "valmennus/20*/*.pdf"
+    values:
+      sitemap: false
