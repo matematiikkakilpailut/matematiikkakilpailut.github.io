@@ -25,3 +25,23 @@ defaults:
       path: "valmennus/20*/*.pdf"
     values:
       sitemap: false
+  - scope:
+      path: "seiskat/*"
+    values:
+      layout: "seiskat"
+      title: "Seitsem&auml;sluokkalaisten kilpailu"
+      h1: "7. luokkalaisten alueellinen matematiikkakilpailu"
+  - scope:
+      path: "seiskat/sv/*"
+    values:
+      layout: "seiskat"
+      title: "Sjunde klassens t&auml;vling"
+      h1: "Matematikt&auml;vling f&ouml;r elever p&aring; 7:e &aring;rsklassen"
+      lang: "sv-FI"
+  - scope:
+      path: "seiskat/en/*"
+    values:
+      layout: "seiskat"
+      title: "7th Graders' Competition"
+      h1: "7th Graders' Regional Mathematics Competition"
+      lang: "en"
