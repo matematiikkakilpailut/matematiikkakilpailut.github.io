@@ -1,24 +1,207 @@
-body{font-family: Fixedsys, Courier;
-color: #0000ff}
+html, body, h1, h2, h3, nav, main, div, ul, li, p, a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
 
-a{color: #ff0000;
-text-decoration: none}
+nav, main {
+  display: block;
+}
 
-a:hover{color: #ffffff;
-background-color: #ff0000}
+html {
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Fixedsys, Courier, Inconsolata, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, monospace;
+  font-size: 16px;
+  background-color: #ffffff;
+}
 
-.toni{color: #00cc00;
-font-size: 36px}
+body {
+  color: #0000ff;
+  margin: 45px auto auto 45px;
+  line-height: 1.1;
 
-.logo{color: #00ccff;
-font-size: 72px}
+  display: -ms-grid;
+  -ms-grid-rows: 150px auto;
+  -ms-grid-columns: 260px auto;
 
-.vali{color: #00cc00;
-font-weight: bold}
+  display: grid;
+  grid-template:
+    "logo otsikko"     auto
+    "menu leipateksti" auto
+    / minmax(150px, 1fr) 3fr;
+  max-width: 1100px;
+}
 
-.tav{color: 0000ff;
-font-weight: bold}
+#logo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: logo;
+  max-width: 200px;
+  width: 18vw;
+  justify-self: center;
+}
 
-.tav:hover{color: ffffff;
-background-color: 0000ff;
-font-weight: bold}
+h1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: otsikko;
+  color: #00cc00;
+  font-size: 2.2em;
+  align-self: center;
+}
+
+h2 {
+  color: #00cc00;
+  font-weight: bold;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+h3 {
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+nav {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: menu;
+  display: flex;
+  flex-direction: column;
+}
+
+nav > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 1em 1.7em 0 auto;
+}
+
+nav > ul > li {
+  margin-left: auto;
+  text-align: end;
+}
+
+main {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: leipateksti;
+  margin: 1em 0 0 0;
+}
+
+main > *:first-child {
+  margin-top: 0;
+}
+
+main ul {
+  margin: 1em 0 1em 2em;
+}
+
+p + p {
+  margin-top: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a, main a[href$=".pdf" i] {
+  color: #ff0000;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+nav a:hover, main a[href$=".pdf" i]:hover {
+  color: #ffffff;
+  background-color: #ff0000
+}
+
+.logo {
+  color: #00ccff;
+  font-size: 5em;
+}
+
+
+main a {
+  color: #0000ff;
+  font-weight: bold;
+}
+
+main a:hover {
+  color: #ffffff;
+  background-color: #0000ff;
+  font-weight: bold;
+}
+
+main dd + dt {
+  margin-top: 1em;
+}
+
+main dt {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    margin: 10px;
+    line-height: 1.2;
+    grid-template:
+    "logo        otsikko"       auto
+    "leipateksti leipateksti"   auto
+    "menu        menu"          auto
+    / 1fr 3fr;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  #logo > img {
+    margin: auto;
+    width: 123px;
+    height: 100px;
+  }
+  
+  nav > ul {
+    margin: 1em auto auto auto;
+  }
+
+  nav > ul > li {
+    margin: auto;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 1.5em;
+    margin-left: 0.5em;
+  }
+
+  #logo > img {
+    margin: auto;
+    width: 100px;
+    height: 81px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  body {
+    grid-template:
+    "logo"        auto
+    "otsikko"     auto
+    "leipateksti" auto
+    "menu"        auto
+    / 1fr;
+  }
+
+  h1 {
+    font-size: 1em;
+    margin-left: 0.5em;
+    margin-top: 1em;
+  }
+}
