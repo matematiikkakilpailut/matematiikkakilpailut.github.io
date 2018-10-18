@@ -27,6 +27,11 @@ seiskat_pages:
   - { fi: "tulokset"   , sv: "resultat"  , en: "results" }
   - { fi: "yhteys"     , sv: "kontakt"   , en: "contact" }
   - { fi: "index"      , sv: "index"     , en: "index" }
+
+seiskat_menu:
+  fi: "Valikko"
+  sv: "Meny"
+  en: "Menu"
   
 defaults:
   - scope:

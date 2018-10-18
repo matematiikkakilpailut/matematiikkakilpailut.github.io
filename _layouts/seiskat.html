@@ -14,7 +14,7 @@
     <link rel="sitemap" href="/sitemap.xml" />
     <title>{{ page.title }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-    <link href="/seiskat/tyyli.css?v=4" rel="stylesheet" />
+    <link href="/seiskat/tyyli.css?v=5" rel="stylesheet" />
     <base href="/seiskat/">
     <!--[if lt IE 9]>
       <script src="/js/html5shiv.min.js"></script>
@@ -36,17 +36,19 @@
       </div><![endif]-->
     <img id="logo" alt="[logo]" src="logo.png" />
     <h1>{{ page.h1 }}</h1>
+    {%- assign lang = page.lang | replace: "-FI", "" %}
+    <div id="pikamenu"><a href="#nav">🠇 {{ site.seiskat_menu[lang] }} 🠇</a></div>
     
-    <nav>
+    <nav id="nav">
       <ul>
-	{%- if page.lang == "sv-FI" %}
+	{%- if lang == "sv" %}
 	<li><a href="sv/index.html">Hem</a></li>
 	<li><a href="sv/regler.html">Regler</a></li>
 	<li><a href="sv/arrangorer.html">Arrang&ouml;rer</a></li>
 	<li><a href="sv/problem.html">Problem och l&ouml;sningar</a></li>
 	<li><a href="sv/resultat.html">Resultat</a></li>
 	<li><a href="sv/kontakt.html">Kontakta oss</a></li>
-	{% elsif page.lang == "en" %}
+	{% elsif lang == "en" %}
 	<li><a href="en/index.html">Home</a></li>
 	<li><a href="en/details.html">Details</a></li>
 	<li><a href="en/organizers.html">Organizers</a></li>
@@ -64,7 +66,6 @@
       </ul>
       {%- assign urlpath = page.url | split: "/" %}
       {%- assign leaf = urlpath.last | replace: ".html", "" %}
-      {%- assign lang = page.lang | replace: "-FI", "" %}
       {%- assign match = site.seiskat_pages | where: lang, leaf %}
       {%- assign record = match[0] %}
       {%- if lang == "fi" %}
