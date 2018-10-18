@@ -66,6 +66,11 @@ h3 {
   margin-bottom: 1em;
 }
 
+#pikamenu {
+  display: none;
+  grid-area: pikamenu;
+}
+
 nav {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
@@ -109,13 +114,13 @@ a {
   text-decoration: none;
 }
 
-nav a, main a[href$=".pdf" i] {
+nav a, main a[href$=".pdf" i], #pikamenu a, #pikamenu a:visited {
   color: #ff0000;
   text-decoration: none;
   font-weight: normal;
 }
 
-nav a:hover, main a[href$=".pdf" i]:hover {
+nav a:hover, main a[href$=".pdf" i]:hover, #pikamenu a:hover {
   color: #ffffff;
   background-color: #ff0000
 }
@@ -150,7 +155,8 @@ main dt {
     margin: 10px;
     line-height: 1.2;
     grid-template:
-    "logo        otsikko"       auto
+      "logo        otsikko"       auto
+    "pikamenu    pikamenu"      auto
     "leipateksti leipateksti"   auto
     "menu        menu"          auto
     / 1fr 3fr;
@@ -160,14 +166,28 @@ main dt {
     font-size: 2em;
   }
 
+  #pikamenu {
+    display: flex;
+    grid-area: pikamenu;
+    margin-top: 1em;
+  }
+
+  #pikamenu > a {
+    margin: auto;
+  }
+
   #logo > img {
     margin: auto;
     width: 123px;
     height: 100px;
   }
+
+  nav {
+    min-height: 75vh;
+  }
   
   nav > ul {
-    margin: 1em auto auto auto;
+    margin: 1em auto 1em auto;
   }
 
   nav > ul > li {
@@ -194,6 +214,7 @@ main dt {
     grid-template:
     "logo"        auto
     "otsikko"     auto
+    "pikamenu"    auto
     "leipateksti" auto
     "menu"        auto
     / 1fr;
@@ -206,8 +227,8 @@ main dt {
   }
 }
 
-@media (-moz-touch-enabled: 1), (pointer:coarse) {
+@media (-moz-touch-enabled: 1), (pointer:coarse), screen and (max-width: 450px) {
   a {
-    line-height: 1.75;
+    line-height: 1.5;
   }
 }
