@@ -1,4 +1,5 @@
 ---
+url: "/seiskat/index.html"
 ---
 Helsingiss&auml;, Oulussa, Satakunnassa ja Turussa 
 j&auml;rjestet&auml;&auml;n seitsem&auml;sluokkalaisille

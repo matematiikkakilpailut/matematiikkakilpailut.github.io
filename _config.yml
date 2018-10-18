@@ -20,6 +20,14 @@ url: http://matematiikkakilpailut.fi
 plugins:
   - jekyll-sitemap
 
+seiskat_pages:
+  - { fi: "ohjeet"     , sv: "regler"    , en: "details" }
+  - { fi: "jarjestajat", sv: "arrangorer", en: "organizers" }
+  - { fi: "tehtavat"   , sv: "problem"   , en: "problems" }
+  - { fi: "tulokset"   , sv: "resultat"  , en: "results" }
+  - { fi: "yhteys"     , sv: "kontakt"   , en: "contact" }
+  - { fi: "index"      , sv: "index"     , en: "index" }
+  
 defaults:
   - scope:
       path: "valmennus/20*/*.pdf"
@@ -31,6 +39,7 @@ defaults:
       layout: "seiskat"
       title: "Seitsem&auml;sluokkalaisten kilpailu"
       h1: "7. luokkalaisten alueellinen matematiikkakilpailu"
+      lang: "fi"
   - scope:
       path: "seiskat/sv/*"
     values:
