@@ -14,7 +14,7 @@
     <link rel="sitemap" href="/sitemap.xml" />
     <title>{{ page.title }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-    <link href="/seiskat/tyyli.css?v=5" rel="stylesheet" />
+    <link href="/seiskat/tyyli.css?v=6" rel="stylesheet" />
     <base href="/seiskat/">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="apple-touch-icon" sizes="57x57" href="kuvake/apple-icon-57x57.png">
@@ -55,7 +55,6 @@
     <img id="logo" alt="[logo]" src="logo.png" />
     <h1>{{ page.h1 }}</h1>
     {%- assign lang = page.lang | replace: "-FI", "" %}
-    <div id="pikamenu"><a href="#nav">↓ {{ site.seiskat_menu[lang] }} ↓</a></div>
     
     <nav id="nav">
       <ul>
