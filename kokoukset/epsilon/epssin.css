@@ -6,7 +6,7 @@ margin-right:auto;
 margin-left:auto;
 margin-bottom:0px;
 margin-top:0px;
-width:900px;
+max-width:900px;
 padding:0px;
 height:100%;}
 DIV {background-color: rgb(220,220,255);
@@ -72,13 +72,27 @@ TD.lomake { background-color: rgb(220,220,255);
             border: 0;
             border-spacing: 0;}
 TR  {background-color: rgb(220,220,255);}
-TABLE.nappi  {background-color: rgb(220,220,255);
-color: rgb(30,30,90);
-              padding: 1px;
-              border-spacing: 10px;
-              text-align: center; }
-TD  {background-color: rgb(220,220,255);}
-TD.nappi {background-color: rgb(220,220,255);
-          font-family: Verdana,Arial,Helvetica,sans-serif;
-          padding: 6px; color: rgb(0,0,0);}
-SPAN.nappi {padding: 10px; border-width: 1px}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 700px) {
+  nav > ul {
+    flex-direction: column;
+  }
+}
+
+  TABLE.nappi  {background-color: rgb(220,220,255);
+    color: rgb(30,30,90);
+    padding: 1px;
+    border-spacing: 10px;
+    text-align: center; }
+  TD  {background-color: rgb(220,220,255);}
+  TD.nappi {background-color: rgb(220,220,255);
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    padding: 6px; color: rgb(0,0,0);}
+  SPAN.nappi {padding: 10px; border-width: 1px}
