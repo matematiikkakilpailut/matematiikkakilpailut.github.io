@@ -1,4 +1,5 @@
 ---
+url: "/seiskat/en/index.html"
 ---
 
 In each of Helsinki, Oulu, Satakunta and Turku, a regional mathematics

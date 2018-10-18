@@ -1,4 +1,5 @@
 ---
+url: "/seiskat/sv/index.html"
 ---
 
 Lokala matematikt&auml;vlingar f&ouml;r elever p&aring; sjunde

@@ -14,7 +14,7 @@
     <link rel="sitemap" href="/sitemap.xml" />
     <title>{{ page.title }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-    <link href="/seiskat/tyyli.css?v=2" rel="stylesheet" />
+    <link href="/seiskat/tyyli.css?v=3" rel="stylesheet" />
     <base href="/seiskat/">
     <!--[if lt IE 9]>
       <script src="/js/html5shiv.min.js"></script>
@@ -34,7 +34,7 @@
 	</ul>
       </p>
       </div><![endif]-->
-    <img id="logo" src="logo.png"/>
+    <img id="logo" alt="[logo]" src="logo.png" />
     <h1>{{ page.h1 }}</h1>
     
     <nav>
@@ -62,11 +62,31 @@
 	<li><a href="yhteys.html">Yhteystiedot</a></li>
 	{% endif %}
       </ul>
+      {%- assign urlpath = page.url | split: "/" %}
+      {%- assign leaf = urlpath.last | replace: ".html", "" %}
+      {%- assign lang = page.lang | replace: "-FI", "" %}
+      {%- assign match = site.seiskat_pages | where: lang, leaf %}
+      {%- assign record = match[0] %}
+      {%- if lang == "fi" %}
       <ul>
-	<li><a href="index.html" lang="fi" hreflang="fi">Suomeksi</a></li>
-	<li><a href="sv/index.html" lang="sv-FI" hreflang="sv-FI">P&aring; svenska</a></li>
-	<li><a href="en/index.html" lang="en" hreflang="en">In English</a></li>
+	<li><a href="{{ record.fi | default: "index" }}.html" rel="canonical" lang="fi" hreflang="fi">Suomeksi</a></li>
+	<li><a href="sv/{{ record.sv | default: "index" }}.html" rel="alternate" lang="sv-FI" hreflang="sv-FI">P&aring; svenska</a></li>
+	<li><a href="en/{{ record.en | default: "index" }}.html" rel="alternate" lang="en" hreflang="en">In English</a></li>
       </ul>
+      {%- elsif lang == "sv" %}
+      <ul>
+	<li><a href="{{ record.fi | default: "index" }}.html" rel="alternate" lang="fi" hreflang="fi">Suomeksi</a></li>
+	<li><a href="sv/{{ record.sv | default: "index" }}.html" rel="canonical" lang="sv-FI" hreflang="sv-FI">P&aring; svenska</a></li>
+	<li><a href="en/{{ record.en | default: "index" }}.html" rel="alternate" lang="en" hreflang="en">In English</a></li>
+      </ul>
+      {%- else %}
+      <ul>
+	<li><a href="{{ record.fi | default: "index" }}.html" rel="alternate" lang="fi" hreflang="fi">Suomeksi</a></li>
+	<li><a href="sv/{{ record.sv | default: "index" }}.html" rel="alternate" lang="sv-FI" hreflang="sv-FI">P&aring; svenska</a></li>
+	<li><a href="en/{{ record.en | default: "index" }}.html" rel="canonical" lang="en" hreflang="en">In English</a></li>
+      </ul>
+      {%- endif %}
+
     </nav>
     
     <main>

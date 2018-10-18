@@ -205,3 +205,9 @@ main dt {
     margin-top: 1em;
   }
 }
+
+@media (-moz-touch-enabled: 1), (pointer:coarse) {
+  a {
+    line-height: 1.5;
+  }
+}
