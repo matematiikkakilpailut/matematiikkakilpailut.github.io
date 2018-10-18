@@ -208,6 +208,6 @@ main dt {
 
 @media (-moz-touch-enabled: 1), (pointer:coarse) {
   a {
-    line-height: 1.5;
+    line-height: 1.75;
   }
 }
