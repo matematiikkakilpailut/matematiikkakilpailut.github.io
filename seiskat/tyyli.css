@@ -13,7 +13,7 @@ nav, main {
 }
 
 html {
-  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Fixedsys, Courier, Inconsolata, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, monospace;
+  font-family: Fixedsys, Courier, Consolas, "Andale Mono WT", "Andale Mono", "Liberation Mono", "Nimbus Mono L", monospace;
   font-size: 16px;
   background-color: #ffffff;
 }
@@ -114,13 +114,13 @@ a {
   text-decoration: none;
 }
 
-nav a, main a[href$=".pdf" i], #pikamenu a, #pikamenu a:visited {
+nav a, main a[href$=".pdf" i] {
   color: #ff0000;
   text-decoration: none;
   font-weight: normal;
 }
 
-nav a:hover, main a[href$=".pdf" i]:hover, #pikamenu a:hover {
+nav a:hover, main a[href$=".pdf" i]:hover {
   color: #ffffff;
   background-color: #ff0000
 }
@@ -150,30 +150,25 @@ main dt {
   font-weight: bold;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (max-width: 620px) {
   body {
     margin: 10px;
     line-height: 1.2;
     grid-template:
       "logo        otsikko"       auto
-    "pikamenu    pikamenu"      auto
-    "leipateksti leipateksti"   auto
-    "menu        menu"          auto
-    / 1fr 3fr;
+      "menu        menu"          auto
+      "leipateksti leipateksti"   auto
+      / 1fr 3fr;
   }
 
   h1 {
-    font-size: 2em;
-  }
-
-  #pikamenu {
-    display: flex;
-    grid-area: pikamenu;
-    margin-top: 1em;
-  }
-
-  #pikamenu > a {
-    margin: auto;
+    font-size: 1.7em;
   }
 
   #logo > img {
@@ -181,19 +176,27 @@ main dt {
     width: 123px;
     height: 100px;
   }
-
-  nav {
-    min-height: 75vh;
-  }
   
   nav > ul {
-    margin: 1em auto 1em auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0.5em;
   }
 
   nav > ul > li {
-    margin: auto;
+    flex: 0 0 auto;
+    padding: 1px;
+    margin: 0.2em 1em;
+    text-align: left;
   }
 
+}
+
+@media screen and (max-width: 560px) {
+  h1 {
+    font-size: 1.6em;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -214,9 +217,8 @@ main dt {
     grid-template:
     "logo"        auto
     "otsikko"     auto
-    "pikamenu"    auto
-    "leipateksti" auto
     "menu"        auto
+    "leipateksti" auto
     / 1fr;
   }
 
