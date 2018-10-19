@@ -36,10 +36,8 @@ Syyskuun 2018 [tehtävät](2018/kirje_2018_09.pdf).
 tehtävässä 19 puhuttiin suorakulmiosta vaikka kyse on mielivaltaisista 
 nelikulmioista.
 
-Kesäkauden 2018 [tehtävät](2018/kirje_2018_05.pdf).
+Kesäkauden 2018 [tehtävät](2018/kirje_2018_05.pdf) ja [ratkaisut](2018/ratk_2018_05.pdf).
 
-Huhtikuun 2018 [tehtävät](2018/kirje_2018_04.pdf) ja [ratkaisut](2018/ratk_2018_04.pdf).
-Korjattu 25.4.: tehtävän 2 ensimmäisessä virkkeessä on puhe janan AB keskinormaalista, ei janan BC keskinormaalista.  Korjattu 7.9.: linkki ratkaisuihin toimii nyt.
 
 ### Peruskoululaisten tehtävät
 
@@ -62,6 +60,9 @@ jonka palautus tapahtuu viestinä keskustelupalstalla, jolla tehtävästä saa k
 heti aikarajan umpeuduttua.
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
+
+Huhtikuun 2018 [tehtävät](2018/kirje_2018_04.pdf) ja [ratkaisut](2018/ratk_2018_04.pdf).
+Korjattu 25.4.: tehtävän 2 ensimmäisessä virkkeessä on puhe janan AB keskinormaalista, ei janan BC keskinormaalista.  Korjattu 7.9.: linkki ratkaisuihin toimii nyt.
 
 Helmikuun 2018 [tehtävät](2018/kirje_2018_02.pdf) ja [ratkaisut](2018/ratk_2018_02.pdf),
 <span lang="en">February 2018 [homework](2018/letter_2018_02.pdf)</span>.
