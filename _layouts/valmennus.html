@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<div class="page-header">
+  <h1>{{ page.title }}</h1>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    {{ content | replace: '<a href="/valmennus', '<a rel="nofollow" href="/valmennus' }}
+  </div>
+</div>
