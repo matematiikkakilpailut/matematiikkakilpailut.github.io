@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: valmennus
 title: Valmennustehtävät
 url: /valmennus/
 robots: index,nofollow
