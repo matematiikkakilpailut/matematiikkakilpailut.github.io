@@ -29,14 +29,12 @@ mukana ovat lähettäjän yhteystiedot!
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
+Joulukuun 2018 [tehtävät](2018/kirje_2018_12.pdf).
+
 Lokakuun 2018 [tehtävät](2018/kirje_2018_10.pdf).
 
-Syyskuun 2018 [tehtävät](2018/kirje_2018_09.pdf).
-**Korjattu 5.10.:** tehtävästä 10 puuttui ±-symboli,
-tehtävässä 19 puhuttiin suorakulmiosta vaikka kyse on mielivaltaisista 
-nelikulmioista.
+Syyskuun 2018 [tehtävät](2018/kirje_2018_09.pdf) ja [ratkaisut](2018/ratk_2018_09.pdf).
 
-Kesäkauden 2018 [tehtävät](2018/kirje_2018_05.pdf) ja [ratkaisut](2018/ratk_2018_05.pdf).
 
 
 ### Peruskoululaisten tehtävät
@@ -60,6 +58,8 @@ jonka palautus tapahtuu viestinä keskustelupalstalla, jolla tehtävästä saa k
 heti aikarajan umpeuduttua.
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
+
+Kesäkauden 2018 [tehtävät](2018/kirje_2018_05.pdf) ja [ratkaisut](2018/ratk_2018_05.pdf).
 
 Huhtikuun 2018 [tehtävät](2018/kirje_2018_04.pdf) ja [ratkaisut](2018/ratk_2018_04.pdf).
 Korjattu 25.4.: tehtävän 2 ensimmäisessä virkkeessä on puhe janan AB keskinormaalista, ei janan BC keskinormaalista.  Korjattu 7.9.: linkki ratkaisuihin toimii nyt.
