@@ -71,7 +71,7 @@ heid&auml;t kutsutaan jatkovalmennukseen.
     90014 Oulun yliopisto.
   * Satakunnassa: Nadja Eckhardt, Satakunnan ammattikorkeakoulu, PL
     1001, 28101 PORI.
-  * Turussa: Anne-Maria Ernvall-Hyt&ouml;nen, Matematik och statistik,
+  * Turussa: Matematiikan olympia&shy;valmennus, Matematik och statistik,
     &Aring;bo Akademi, Domkyrkotorget 1, 20500 &Aring;bo.
 * Pyyd&auml;mme l&auml;hett&auml;m&auml;&auml;n vastauslomakkeet mahdollisimman pian alkukilpailun j&auml;lkeen.
 
