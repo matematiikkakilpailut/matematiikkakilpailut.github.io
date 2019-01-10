@@ -19,5 +19,5 @@ participate in mathematics training.
 <dd>first round 4-8.3.2019</dd> <dd>final round 25.4.2019</dd>
 <dt>Turku</dt> 
 <dd>first round 4-8.3.2019</dd>
-<dd>final round 25.4.2019</dd>
+<dd>final round 27.4.2019</dd>
 </dl>
