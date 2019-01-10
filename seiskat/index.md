@@ -12,15 +12,15 @@ Parhaat kutsutaan jatkovalmennukseen.
 
 <dl>
   <dt><strong>Helsinki</strong></dt>
-  <dd>alkukilpailu 5-9.3.2018</dd>
-  <dd>finaali 26.4.2018</dd>
+  <dd>alkukilpailu ?.-?.?.2019</dd>
+  <dd>finaali ?.?.2019</dd>
   <dt><strong>Oulu</strong></dt>
-  <dd>alkukilpailu 19-23.2.2018</dd>
-  <dd>finaali 21.4.2018</dd>
+  <dd>alkukilpailu 18-22.2.2019</dd>
+  <dd>finaali 6.4.2019</dd>
   <dt><strong>Satakunta</strong></dt>
-  <dd>alkukilpailu 5-9.3.2018</dd>
-  <dd>finaali 25.4.2018</dd>
+  <dd>alkukilpailu 4-8.3.2019</dd>
+  <dd>finaali 25.4.2019</dd>
   <dt><strong>Turku</strong></dt>
-  <dd>alkukilpailu 5-9.3.2018</dd>
-  <dd>finaali 21.4.2018</dd>
+  <dd>alkukilpailu 4-8.3.2019</dd>
+  <dd>finaali 25.4.2019</dd>
 </dl>

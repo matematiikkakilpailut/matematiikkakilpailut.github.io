@@ -12,12 +12,12 @@ participate in mathematics training.
 ## Schedule
 
 <dl><dt>Helsinki</dt> 
-<dd>first round 5-9.3.2018</dd> <dd>final round 26.4.2018</dd>
+<dd>first round ?-?.?.2019</dd> <dd>final round ?.?.2019</dd>
 <dt>Oulu</dt> 
-<dd>first round 19-23.2.2018</dd> <dd>final round 21.4.2018</dd>
+<dd>first round 18-22.3.2019</dd> <dd>final round 6.4.2019</dd>
 <dt>Satakunta</dt>
-<dd>first round 5-9.3.2018</dd> <dd>final round 25.4.2018</dd>
+<dd>first round 4-8.3.2019</dd> <dd>final round 25.4.2019</dd>
 <dt>Turku</dt> 
-<dd>first round 5-9.3.2018</dd>
-<dd>final round 21.4.2018</dd>
+<dd>first round 4-8.3.2019</dd>
+<dd>final round 25.4.2019</dd>
 </dl>

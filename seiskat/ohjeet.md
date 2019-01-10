@@ -67,7 +67,7 @@ heid&auml;t kutsutaan jatkovalmennukseen.
   vastauslomakkeet ja postittaa ne osoitteeseen:
   * Helsingiss&auml;: Ilmari Kangasniemi, Matematiikan ja tilastotieteen
     laitos, PL 68, 00014 Helsingin yliopisto.
-  * Oulussa: Kati Kyll&ouml;nen &sol; HR335, Koulutuspalvelut, PL 8000,
+  * Oulussa: Kati Kyll&ouml;nen / HR335, Koulutuspalvelut, PL 8000,
     90014 Oulun yliopisto.
   * Satakunnassa: Nadja Eckhardt, Satakunnan ammattikorkeakoulu, PL
     1001, 28101 PORI.
