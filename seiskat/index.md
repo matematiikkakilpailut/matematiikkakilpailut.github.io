@@ -22,5 +22,5 @@ Parhaat kutsutaan jatkovalmennukseen.
   <dd>finaali 25.4.2019</dd>
   <dt><strong>Turku</strong></dt>
   <dd>alkukilpailu 4-8.3.2019</dd>
-  <dd>finaali 25.4.2019</dd>
+  <dd>finaali 27.4.2019</dd>
 </dl>
