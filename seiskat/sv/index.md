@@ -11,15 +11,15 @@ uppmuntra elever att ha matematik som hobby.  De b&auml;sta eleverna
 ## Tidtabell
 
 <dl><dt>Helsingfors</dt>
-<dd>f&ouml;rsta omg&aring;ngen 5-9.3.2018</dd>
-<dd>final 26.4.2018</dd>
+<dd>f&ouml;rsta omg&aring;ngen ?-?.?.2019</dd>
+<dd>final ?.?.2019</dd>
 <dt>Satakunta</dt>
-<dd>f&ouml;rsta omg&aring;ngen 5-9.3.2018</dd>
-<dd>final 25.4.2018</dd>
+<dd>f&ouml;rsta omg&aring;ngen 4-8.3.2019</dd>
+<dd>final 25.4.2019</dd>
 <dt>Ule&aring;borg</dt>
-<dd>f&ouml;rsta omg&aring;ngen 19-23.2.2018</dd>
-<dd>final 21.4.2018</dd>
+<dd>f&ouml;rsta omg&aring;ngen 18-22.2.2019</dd>
+<dd>final 6.4.2019</dd>
 <dt>&Aring;bo</dt>
-<dd>f&ouml;rsta omg&aring;ngen 5-9.3.2018</dd>
-<dd>final 21.4.2018</dd>
+<dd>f&ouml;rsta omg&aring;ngen 4.-8.3.2019</dd>
+<dd>final 27.4.2019</dd>
 </dl>

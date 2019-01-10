@@ -16,4 +16,6 @@ Toni Ernvall<br>
 Matti M&auml;&auml;tt&auml;<br>
 <a class="tav" href="https://matematiikkalehtisolmu.fi">Solmu</a><br>
 &Aring;sa Hirvonen<br>
-Christer Glader
+Christer Glader<br>
+[Ulla Tuomisen säätiölle](http://ullatuominen.fi/) stipendien
+lahjoittamisesta
