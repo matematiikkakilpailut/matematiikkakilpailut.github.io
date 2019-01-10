@@ -22,7 +22,7 @@ aikataulu:
     tapahtuma: "[60. Kansain&shy;väliset matematiikka&shy;olympialaiset](https://www.imo2019.uk/) Bathissa, Yhdisty&shy;neessä Kuningas&shy;kunnassa"
   - pvm: "2019"
     tapahtuma: "Syksy"
-	otsikko: true
+    otsikko: true
   - pvm: "noin viikko 36"
     tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä"
   - pvm: "noin viikko 42"
