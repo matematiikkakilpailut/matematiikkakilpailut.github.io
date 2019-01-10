@@ -47,5 +47,5 @@ Den f&ouml;rsta omg&aring;ngen av t&auml;vlingen organiseras i skolorna, och den
   * i Helsingfors: Ilmari Kangasniemi, Avdelningen för matematik och statistik, PB 68, 00014 Helsingfors universitet.
   * i Satakunta: Nadja Eckhardt, Satakunnan ammattikorkeakoulu, PB 1001, 28101 Bj&ouml;rneborg.
   * i Ule&aring;borg: Kati Kyll&ouml;nen / HR335, Koulutuspalvelut, PB 8000, 90014 Ule&aring;borgs universitet.
-  * i &Aring;bo: Anne-Maria Ernvall-Hyt&ouml;nen, Matematik och statistik, &Aring;bo Akademi, Domkyrkotorget 1, 20500 &Aring;bo.
+  * i &Aring;bo: Matematiikan olympia&shy;valmennus, Matematik och statistik, &Aring;bo Akademi, Domkyrkotorget 1, 20500 &Aring;bo.
 * Vi ber att Ni g&ouml;r det s&aring; snart som m&ouml;jligt.
