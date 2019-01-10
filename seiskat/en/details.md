@@ -59,7 +59,7 @@ are invited to participate in mathematics training.
     90014 Oulun yliopisto.
   * in Satakunta: Nadja Eckhardt, Satakunnan ammattikorkeakoulu, PL
     1001, 28101 PORI.
-  * in Turku: Anne-Maria Ernvall-Hyt&ouml;nen, Matematik och
+  * in Turku: Matematiikan olympia&shy;valmennus, Matematik och
     statistik, &Aring;bo Akademi, Domkyrkotorget 1, 20500 &Aring;bo.
 * It is prudent to mail the answer sheets as soon as possible after
   the first round.
