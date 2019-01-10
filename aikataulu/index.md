@@ -3,19 +3,6 @@ layout: page
 title: Aikataulu
 url: /aikataulu/
 aikataulu:
-  - pvm: "2018"
-    tapahtuma: "Syksy"
-    otsikko: true
-  - pvm: "19.&ndash;21.10. (viikko 42)"
-    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä"
-  - pvm: "3.&ndash;7.11."
-    tapahtuma: "[Baltian tie -kilpailu Pietarissa](http://www.pdmi.ras.ru/EIMI/2018/Baltic_way/index.html)"
-  - pvm: "29.10&ndash;9.11."
-    tapahtuma: "[MAOLin perus&shy;koulun matematiikka&shy;kilpailu](https://peda.net/yhdistykset/maol-ry/kilpailut/ntk/pm)"
-  - pvm: "31.10."
-    tapahtuma: "[MAOLin lukion matematiikka&shy;kilpailu](https://peda.net/yhdistykset/maol-ry/kilpailut/ntk/lm)"
-  - pvm: "30.11.&ndash;2.12. (viikko 48)"
-    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä"
   - pvm: "2019"
     tapahtuma: "Kevät ja kesä"
     otsikko: true
@@ -33,6 +20,19 @@ aikataulu:
     tapahtuma: "Euroopan tyttöjen matematiikka&shy;olympialaiset [EGMO](https://www.egmo.org/egmos/egmo8/) Kiovassa"
   - pvm: "10.&ndash;22.7."
     tapahtuma: "[60. Kansain&shy;väliset matematiikka&shy;olympialaiset](https://www.imo2019.uk/) Bathissa, Yhdisty&shy;neessä Kuningas&shy;kunnassa"
+  - pvm: "2019"
+    tapahtuma: "Syksy"
+	otsikko: true
+  - pvm: "noin viikko 36"
+    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä"
+  - pvm: "noin viikko 42"
+    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä"
+  - pvm: "noin loka-marraskuussa"
+    tapahtuma: "MAOLin peruskoulun ja lukion matematiikka&shy;kilpailut"
+  - pvm: "marraskuun alkupuolella"
+    tapahtuma: "Baltian tie -kilpailu Szczecinissä, Puolassa"
+  - pvm: "noin viikko 48"
+    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä"
 ---
 <div class="list-group">
 {% for a in page.aikataulu %}
