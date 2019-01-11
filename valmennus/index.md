@@ -12,9 +12,6 @@ syystä tai toisesta eivät halua tai voi osallistua
 valmennustapahtumiin, mutta jotka haluavat tulla otetuiksi huomioon
 eri kilpailujoukkueita valittaessa, on syytä pitää yllä kosketusta
 Valmennusjaostoon lähettämällä vastauksia kirjevalmennustehtäviin.
-**Tehtävien ratkominen on paras tapa kehittyä kilpailijana, joten
-palautetuilla tehtävillä on myös huomattava paino kilpailujoukkueisiin
-valittaessa!**
 
 Kirjevalmennustehtäviä jaetaan valmennusviikonloppuina ja ne pyritään
 julkaisemaan verkossa samaan aikaan. Tarkoitus on, että valmennukseen
@@ -26,6 +23,18 @@ aloittaville ja pidemmälle ehtineille.
 
 Valmennusvastauksista voidaan antaa palautetta vain, jos vastausten
 mukana ovat lähettäjän yhteystiedot!
+
+Netissä on monenlaisia lähteitä,
+joista ratkaisuja voi löytää tai pyytää&nbsp;&ndash; https://aops.com ja
+https://math.stackexchange.com lienevät tunnetuimpia. Näiden
+käyttäminen ei ole haitaksi ja niistä voi oppia paljonkin, mutta
+suosittelemme yrittämään ratkaisua ensin itse. Samaten tehtävien pohtiminen
+yhdessä muiden valmennettavien kanssa, jos siihen tarjoutuu tilaisuus,
+voi olla opettavaista.
+
+Joukkuevalinnat perustuvat kokonaisharkintaan, jossa
+otetaan huomioon palautetut tehtävät ja menestyminen kilpailuissa ja
+valintakokeissa.
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
