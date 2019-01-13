@@ -38,7 +38,7 @@ valintakokeissa.
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
-Tammikuun 2019 [tehtävät](2019/kirje_2019_1.pdf).
+Tammikuun 2019 [tehtävät](2019/kirje_2019_01.pdf).
 
 Joulukuun 2018 [tehtävät](2018/kirje_2018_12.pdf).
 
