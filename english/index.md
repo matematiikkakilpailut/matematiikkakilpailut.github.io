@@ -28,12 +28,11 @@ provide them with general mathematical knowledge.
 
 The following persons take part in organizing the training:
 
-*   [Anne-Maria Ernvall-Hytönen](http://www.helsinki.fi/~ernvall)
+*   [Anne-Maria Ernvall-Hytönen](http://users.abo.fi/aernvall/)
 *   Lauri Hallila
 *   Otte Heinävaara
     Olli Hirviniemi
 *   [Antti Honkela](http://www.iki.fi/ahonkela/)
-*   Jesse Jääsaari
 *   Alexey Kirichenko
 *   Jari Lappalainen
 *   [Matti Lehtinen](http://www.elisanet.fi/matti.t.Lehtinen)

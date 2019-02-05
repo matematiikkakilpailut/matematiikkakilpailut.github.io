@@ -92,9 +92,8 @@ Vanhempia uutisia löytyy [uutisarkistosta](vanhaset.html).
 
 Eräät valmennettavat perustivat [blogin][blog].
 
-Valmennusjaosto järjestää yhteistyössä
-[Helsingin yliopiston matematiikan ja tilastotieteen laitoksen][mathstat]
-ja [Summamutikka-keskuksen][summamutikka] kanssa
+[Helsingin yliopiston matematiikan ja tilastotieteen osasto][mathstat]
+ja [tiedekasvatuskeskus][tiedekasvatus] järjestävät
 [Tekijäryhmä-nimistä matematiikkakerhoa][tekijaryhma] jonka tarkoitus
 on tarjota haasteita matematiikasta innostuneille lukiolaisille.
 
@@ -111,8 +110,8 @@ kilpailu&shy;matematiikka&shy;valmennus&shy;tilaisuuksia. Tarkemmin [tästä][ou
 
 [blog]: https://blog.matematiikkakilpailut.fi
 [mathstat]: http://www.mathstat.helsinki.fi
-[summamutikka]: https://wiki.helsinki.fi/display/Summamutikka/Etusivu
-[tekijaryhma]: https://wiki.helsinki.fi/pages/viewpage.action?pageId=74230034
+[tiedekasvatus]: https://www.helsinki.fi/fi/tiedekasvatus
+[tekijaryhma]: https://www.helsinki.fi/fi/tiedekasvatus/tekijaryhma
 [epsilonit]: /kokoukset/epsilon
 [seiskat]: /seiskat
 [oulu]: http://ouluma.fi/2012/08/matematiikkavalmennus/
