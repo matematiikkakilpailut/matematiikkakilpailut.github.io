@@ -15,7 +15,6 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
 *  Otte Heinävaara<br/> Olympiaedustaja vuosina 2012 ja 2013.
 *  Olli Hirviniemi<br/>Olympiaedustaja vuosina 2010 ja 2011.
 *  [Antti Honkela][ahonkela]<br/> Olympiaedustaja vuonna 1997.
-*  Jesse Jääsaari<br/>Olympiaedustaja vuonna 2011.
 *  Alexey Kirichenko<br/>
    Kokemusta mm. maineikkaista Leningradin matematiikkaolympialaisista.
 *  Jari Lappalainen<br/> Olympiaedustaja vuosina 1990 ja 1991.
@@ -39,7 +38,7 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
    Olympiaedustaja vuosina 2005, 2006 ja 2007. Valmennusjaoston johtoryhmän jäsen.
 
 [smy]: http://www.matemaattinenyhdistys.fi/
-[ameh]: http://www.helsinki.fi/~ernvall/
+[ameh]: http://users.abo.fi/aernvall/
 [ahonkela]: http://www.iki.fi/ahonkela/
 [matti]: http://www.elisanet.fi/matti.t.Lehtinen
 [kluosto]: http://www.helsinki.fi/%7Ekluosto/
