@@ -18,7 +18,7 @@ aikataulu:
     tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä"
   - pvm: "7.&ndash;13.4."
     tapahtuma: "Euroopan tyttöjen matematiikka&shy;olympialaiset [EGMO](https://www.egmo.org/egmos/egmo8/) Kiovassa"
-  - pvm: "10.-14.5."
+  - pvm: "10.&ndash;14.5."
     tapahtuma: "Olympia&shy;joukkueen valinta- ja valmennus&shy;viikko Päivölässä"
   - pvm: "10.&ndash;22.7."
     tapahtuma: "[60. Kansain&shy;väliset matematiikka&shy;olympialaiset](https://www.imo2019.uk/) Bathissa, Yhdisty&shy;neessä Kuningas&shy;kunnassa"
