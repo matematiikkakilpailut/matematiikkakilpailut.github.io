@@ -182,6 +182,12 @@ kilpailut:
     tehtavat: "[pdf](/Baltian_tie/2017/BW17_FIN.pdf)"
     joukkue: "Akseli Jussin&shy;mäki, Her&shy;man&shy;ni Huhta&shy;mäki, Joona&shy;tan Honka&shy;maa, Neris&shy;sa Shakes&shy;peare, Olli Järvi&shy;niemi"
     ratkaisut: "[englanniksi](/Baltian_tie/2017/BW17sol.pdf)"
+  - vuosi: "2018"
+    paikka: "[Pietari](http://www.pdmi.ras.ru/EIMI/2018/Baltic_way/)"
+	sijoitus: "[57 (8.)](http://www.pdmi.ras.ru/EIMI/2018/Baltic_way/res18.pdf)"
+	tehtavat: "[pdf](http://www.pdmi.ras.ru/EIMI/2018/Baltic_way/BW18_FIN.pdf)"
+	joukkue: "Hermannu Huhtam&auml;ki, Akseli Jussinm&auml;ki, Olli J&auml;rviniemi, Roope Salmi, Nerissa Shakespeare"
+	ratkaisut: "[englanniksi](http://www.pdmi.ras.ru/EIMI/2018/Baltic_way/bw18coord.pdf)"
     
 ---
 ## Baltian Tie -joukkuematematiikkakilpailu
