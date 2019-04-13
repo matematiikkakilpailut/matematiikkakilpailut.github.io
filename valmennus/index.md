@@ -42,7 +42,7 @@ Huhtikuun 2019 [tehtävät](2019/kirje_2019_04.pdf).
 
 Helmikuun 2019 [tehtävät](2019/kirje_2019_02.pdf).
 
-Tammikuun 2019 [tehtävät](2019/kirje_2019_01.pdf).
+Tammikuun 2019 [tehtävät](2019/kirje_2019_01.pdf) ja [ratkaisut](2019/ratk_2019_01.pdf).
 
 Joulukuun 2018 [tehtävät](2018/kirje_2018_12.pdf) ja [ratkaisut](2018/ratk_2018_12.pdf).
 
