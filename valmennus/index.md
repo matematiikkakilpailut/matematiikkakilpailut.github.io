@@ -39,6 +39,8 @@ valintakokeissa.
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
 Huhtikuun 2019 [tehtävät](2019/kirje_2019_04.pdf).
+**Korjaus 20.4.2019:** lisätään tehtävien 20&ndash;22 oletuksiin,
+että verkon solmujen lukumäärä ei ole kaksi.
 
 Helmikuun 2019 [tehtävät](2019/kirje_2019_02.pdf).
 
