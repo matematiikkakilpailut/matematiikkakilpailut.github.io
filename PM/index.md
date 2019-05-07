@@ -24,25 +24,32 @@ kilpailut:
   - vuosi: 2012
     tehtavat: 2012/PM2012.pdf
     ratkaisut: 2012/PM2012r.pdf
-    tulokset: 2012/nmc2012res.pdf
+    tulokset: 2012/NMC2012res.pdf
   - vuosi: 2013
     tehtavat: 2013/PM2013.pdf
-    ratkaisut: 2013/PM2013rat.pdf
-    tulokset: 2013/PM2013tul.pdf
+    ratkaisut: 2013/PM2013r.pdf
+    tulokset: 2013/NMC2013res.pdf
   - vuosi: 2014
-    tehtavat: "2014/nmc2014_Fin.pdf"
-    ratkaisut: "2014/NMC2014ratk.pdf"
-    tulokset: "2014/NMC2014_Results.pdf"
+    tehtavat: "2014/PM2014.pdf"
+    ratkaisut: "2014/PM2014r.pdf"
+    tulokset: "2014/NMC2014res.pdf"
   - vuosi: 2015
-    tehtavat: "2015/NMC2015suom.pdf"
-    ratkaisut: "2015/NMC2015ratk.pdf"
-    tulokset: "2015/NMC2015_Results.pdf"
+    tehtavat: "2015/PM2015.pdf"
+    ratkaisut: "2015/PM2015r.pdf"
+    tulokset: "2015/NMC2015res.pdf"
   - vuosi: 2016
-    tehtavat: "2016/NMC2016suom.pdf"
-    ratkaisut: "2016/NMC2016ratk.pdf"
-    tulokset: "2016/NMC2016_tulokset.pdf"
+    tehtavat: "2016/PM2016.pdf"
+    ratkaisut: "2016/PM2016r.pdf"
+    tulokset: "2016/NMC2016res.pdf"
   - vuosi: 2017
-    tehtavat: "2017/NMC2017suom.pdf"
+    tehtavat: "2017/PM2017.pdf"
+    tulokset: "2017/PM2017tul.pdf"
+  - vuosi: 2018
+    tehtavat: "2018/PM2018.pdf"
+    tulokset: "2018/PM2018tul.pdf"
+  - vuosi: 2019
+    tehtavat: "2019/PM2019.pdf"
+    ratkaisut: "2019/PM2019r.pdf"
 ---
 ## Pohjoismainen matematiikka&shy;kilpailu
 
