@@ -114,13 +114,7 @@ ps) että pdf-muodossa seuraavan taulukon mukaisesti.
 <div {{ c }}><a href="{{ v }}/PM{{ v }}.ps">ps</a> <a href="{{ v }}/PM{{ v }}.pdf">pdf</a></div>
 </div>
 {% endfor %}
-<div class="row list-group-item">
-<div {{ c }}>2005</div>
-<div {{ c }}><a href="2005/PM2005.ps">ps</a> <a href="2005/PM2005.pdf">pdf</a></div>
-<div {{ c }}></div>
-<div {{ c }}><a href="2005/PM2005tul.html">html</a></div>
-</div>
-{% assign vt = "2006 2007 2008" | split: " " %}
+{% assign vt = "2005 2006 2007 2008" | split: " " %}
 {% for v in vt %}
 <div class="row list-group-item">
 <div {{ c }}>{{ v }}</div>
