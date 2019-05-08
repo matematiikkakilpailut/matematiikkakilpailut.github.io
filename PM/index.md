@@ -12,7 +12,7 @@ kilpailut:
   - vuosi: 2009
     tehtavat: 2009/PM2009.pdf
     ratkaisut: 2009/PM2009r.pdf
-    tulokset: 2009/nmc2009results.pdf
+    tulokset: 2009/NMC2009res.pdf
   - vuosi: 2010
     tehtavat: 2010/PM2010.pdf
     ratkaisut: 2010/PM2010r.pdf
