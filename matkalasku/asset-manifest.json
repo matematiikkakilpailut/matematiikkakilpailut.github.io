@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "./static/css/main.13ae57cf.chunk.css",
+    "main.js": "./static/js/main.e2fdda8f.chunk.js",
+    "main.js.map": "./static/js/main.e2fdda8f.chunk.js.map",
+    "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
+    "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
+    "static/css/2.c7bb94bc.chunk.css": "./static/css/2.c7bb94bc.chunk.css",
+    "static/js/2.6fca718b.chunk.js": "./static/js/2.6fca718b.chunk.js",
+    "static/js/2.6fca718b.chunk.js.map": "./static/js/2.6fca718b.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.c02ea10e50d9d52f60644483d9b162cd.js": "./precache-manifest.c02ea10e50d9d52f60644483d9b162cd.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.c7bb94bc.chunk.css.map": "./static/css/2.c7bb94bc.chunk.css.map",
+    "static/css/main.13ae57cf.chunk.css.map": "./static/css/main.13ae57cf.chunk.css.map",
+    "static/media/index.css": "./static/media/PublicSans-SemiBold.626e4f2a.ttf",
+    "static/media/baseline-add-24px.9e421250.svg": "./static/media/baseline-add-24px.9e421250.svg",
+    "static/media/baseline-delete_forever-24px.bf808ebb.svg": "./static/media/baseline-delete_forever-24px.bf808ebb.svg"
+  }
+}

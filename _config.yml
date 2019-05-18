@@ -59,3 +59,7 @@ defaults:
       title: "7th Graders' Competition"
       h1: "7th Graders' Regional Mathematics Competition"
       lang: "en"
+  - scope:
+      path: "matkalasku"
+    values:
+      sitemap: false
