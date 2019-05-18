@@ -11,3 +11,4 @@ Disallow: /valmennus/2017/
 Disallow: /valmennus/2018/
 Disallow: /valmennus/2019/
 Disallow: /valmennus/2020/
+Disallow: /matkalasku/
