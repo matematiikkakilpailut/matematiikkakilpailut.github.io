@@ -39,16 +39,13 @@ valintakokeissa.
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
 Kesäkauden 2019 [tehtävät](2019/kirje_2019_05.pdf).
+<span lang="sv">[Svensk översättning av den enklare problemuppsättningen](https://matteverkstaden.wordpress.com/2019/06/15/sommarutmaning/).</span>
 
 Huhtikuun 2019 [tehtävät](2019/kirje_2019_04.pdf).
 **Korjaus 20.4.2019:** lisätään tehtävien 20&ndash;22 oletuksiin,
 että verkon solmujen lukumäärä ei ole kaksi.
 
 Helmikuun 2019 [tehtävät](2019/kirje_2019_02.pdf).
-
-Tammikuun 2019 [tehtävät](2019/kirje_2019_01.pdf) ja [ratkaisut](2019/ratk_2019_01.pdf).
-
-Joulukuun 2018 [tehtävät](2018/kirje_2018_12.pdf) ja [ratkaisut](2018/ratk_2018_12.pdf).
 
 
 ### Peruskoululaisten tehtävät
@@ -72,6 +69,10 @@ jonka palautus tapahtuu viestinä keskustelupalstalla, jolla tehtävästä saa k
 heti aikarajan umpeuduttua.
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
+
+Tammikuun 2019 [tehtävät](2019/kirje_2019_01.pdf) ja [ratkaisut](2019/ratk_2019_01.pdf).
+
+Joulukuun 2018 [tehtävät](2018/kirje_2018_12.pdf) ja [ratkaisut](2018/ratk_2018_12.pdf).
 
 Lokakuun 2018 [tehtävät](2018/kirje_2018_10.pdf) ja [ratkaisut](2018/ratk_2018_10.pdf).
 
