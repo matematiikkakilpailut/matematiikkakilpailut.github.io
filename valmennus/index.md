@@ -39,7 +39,8 @@ valintakokeissa.
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
 Kesäkauden 2019 [tehtävät](2019/kirje_2019_05.pdf).
-<span lang="sv">[Svensk översättning av den enklare problemuppsättningen](https://matteverkstaden.wordpress.com/2019/06/15/sommarutmaning/).</span>
+&emdash;<span lang="sv">[Den enklare problemuppsättningen på svenska](https://matteverkstaden.wordpress.com/2019/06/15/sommarutmaning/),
+översatt av Edward Krogius.</span>
 
 Huhtikuun 2019 [tehtävät](2019/kirje_2019_04.pdf).
 **Korjaus 20.4.2019:** lisätään tehtävien 20&ndash;22 oletuksiin,
