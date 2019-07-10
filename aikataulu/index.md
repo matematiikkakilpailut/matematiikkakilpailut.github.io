@@ -28,7 +28,7 @@ aikataulu:
     tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä"
   - pvm: "noin tammikuussa"
     tapahtuma: "MAOLin lukion loppu&shy;kilpailu Helsingissä"
-  - pvm: "21.&ndash;23.1. (viikko 8)"
+  - pvm: "21.&ndash;23.2. (viikko 8)"
     tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä"
   - pvm: "noin huhtikuun alussa"
     tapahtuma: "Pohjois&shy;mainen matematiikka&shy;kilpailu"
