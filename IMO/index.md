@@ -140,6 +140,12 @@ kilpailut:
     tehtavat: "[pdf](2018/teht2018.pdf)"
     ratkaisut: ""
     muuta: "[tulosluettelo](https://www.imo-official.org/year_country_r.aspx?year=2018)"
+  - vuosi: "2019"
+    paikka: "[Bath, Yh­dis­ty­nyt kuningas­kunta](https://www.imo2019.uk/)"
+    sijoitus: "78 p. (65./112), 1 hopea, 1 pronssi"
+    tehtavat: "[pdf](2019/teht2019.pdf)"
+    ratkaisut: ""
+    muuta: "[tulosluettelo](https://www.imo-official.org/year_country_r.aspx?year=2019)"
 
 ---
 ## Kansainväliset matematiikkaolympialaiset
