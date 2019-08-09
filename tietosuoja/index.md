@@ -45,7 +45,7 @@ Valmennustapahtumat järjestetään [Päivölän opistossa](https://www.paivola.
 
 Tiedot useiden kilpailujen joukkueista ja tuloksista tulevat julkisiksi samaan tapaan kuin  urheilukilpailuissa, mm. IMO-tulokset ovat nähtävissä sivustolla https://www.imo-official.org/ ja niitä on saatettu painaa mm. lehtiuutisiin. Jos et halua osallistumis- tai tulostietojasi julkistettavan,  pyydämme esittämään tästä erikseen vapaamuotoisen kiellon hyvissä ajoin etukäteen, koska  uutisten vetäminen pois jälkikäteen voi olla vaikeaa tai  mahdotonta. Yleensä tällainen uutisointi kuulunee sananvapauden piiriin.
 
-Käytämme tietojen käsittelyyn Googlen pilvipalveluita. Luotamme siihen, että Google pitää tiedoista hyvää huolta, mutta teknisesti ottaen tiedot saattavat sijaita EU:n ulkopuolella.
+Käytämme tietojen käsittelyyn Googlen ja Dropboxin pilvipalveluita. Luotamme siihen, että nämä palvelut pitävät tiedoista hyvää huolta, mutta teknisesti ottaen tiedot saattavat sijaita EU:n ulkopuolella.
 
 ## Rekisterinpitäjä ja käsittelyyn liittyvät oikeudet
 
