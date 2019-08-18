@@ -20,7 +20,7 @@ aikataulu:
   - pvm: "noin loka-marraskuussa"
     tapahtuma: "MAOLin peruskoulun ja lukion matematiikka&shy;kilpailut"
   - pvm: "9.11."
-    tapahtuma:
+    tapahtuma: >-
       [Harppi 2019](https://www.mayk.fi/matematiikka-ja-tiedefestarit-9-11-2019/) &ndash;
       matematiikka- ja tiede&shy;festarit Maunulassa
   - pvm: "14.&ndash;19.11."
