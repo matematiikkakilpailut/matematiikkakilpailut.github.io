@@ -14,7 +14,7 @@ aikataulu:
   - pvm: "6.&ndash;8.9. (viikko 36)"
     tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä"
   - pvm: "13.9."
-    tapahtuma: "Iranin geometria&ndash;kilpailu Päivölässä"
+    tapahtuma: "Iranin geometria&shy;kilpailu Päivölässä"
   - pvm: "18.&ndash;20.10. (viikko 42)"
     tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä"
   - pvm: "noin loka-marraskuussa"
