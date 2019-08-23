@@ -4,11 +4,6 @@ title: Aikataulu
 url: /aikataulu/
 aikataulu:
   - pvm: "2019"
-    tapahtuma: "Kevät ja kesä"
-    otsikko: true
-  - pvm: "10.&ndash;22.7."
-    tapahtuma: "[60. Kansain&shy;väliset matematiikka&shy;olympialaiset](https://www.imo2019.uk/) Bathissa, Yhdisty&shy;neessä Kuningas&shy;kunnassa"
-  - pvm: "2019"
     tapahtuma: "Syksy"
     otsikko: true
   - pvm: "6.&ndash;8.9. (viikko 36)"
@@ -45,13 +40,13 @@ aikataulu:
   - pvm: "noin viikko 14"
     tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä"
   - pvm: "15.&ndash;21.4."
-    tapahtuma: "[Euroopan tyttöjen matematiikka&shy;olympialaiset EGMO Egmond aan Zeessä](https://egmo2020.nl)"
+    tapahtuma: "[Euroopan tyttöjen matematiikka&shy;olympialaiset <abbr>EGMO</abbr> Egmond aan Zeessä](https://egmo2020.nl)"
   - pvm: "noin toukokuussa"
     tapahtuma: "Olympia&shy;joukkueen valinta- ja valmennus&shy;viikko Päivölässä"
   - pvm: "noin kesäkuun alussa"
     tapahtuma: "Perus&shy;koululaisten valmennus&shy;leiri Päivölässä"
   - pvm: "8.&ndash;18.7."
-    tapahtuma: "[61. Kansain&shy;väliset matematiikka&shy;olympialaiset](http://www.imo-official.org/year_info.aspx?year=2020) Pietarissa"
+    tapahtuma: "[61. Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr>](http://www.imo-official.org/year_info.aspx?year=2020) Pietarissa"
 ---
 <div class="list-group">
 {% for a in page.aikataulu %}
