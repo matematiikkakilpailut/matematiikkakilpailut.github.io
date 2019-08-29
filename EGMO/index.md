@@ -45,6 +45,8 @@ Vaikka kilpailu on nimensä mukaisesti tarkoitettu Euroopan maille,
 myös muita osallistujamaita on joka vuosi ollut mukana. Suomi on osallistunut
 kilpailuun enintään nelihenkisellä joukkueella kilpailuun.
 
+Seuraavat Euroopan tyttöjen matematiikkaolympialaiset järjestetään 15.-21.4.2019 Egmond aan Zee -kylässä Alankomaissa.
+
 ### Menneiden kilpailuiden tehtäviä ja ratkaisuja
 
 <div class="list-group">
