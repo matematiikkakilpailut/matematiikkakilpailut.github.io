@@ -60,6 +60,12 @@ kilpailuun enintään nelihenkisellä joukkueella.
 
 ### Suomen joukkue
 
+Vuoden 2019 joukkue: Joukkueeseen kuuluivat Idaliina Kuusisto, Veera Nurmela, Nerissa Shakespeare ja Hilma Tillqvist. Anne-Maria Ernvall-Hytönen toimi joukkueen johtajana ja Neea Palojärvi varajohtajana.
+
+Vuoden 2018 joukkue: Joukkueeseen kuuluivat Milja Krés, Veera Nurmela, Nerissa Shakespeare ja Essi Vilhonen. Anne-Maria Ernvall-Hytönen toimi joukkueen johtajana ja Neea Palojärvi varajohtajana. Nerissa Shakespeare ja Essi Vilhonen palkittiin kunniamaininnoilla.
+
+Vuoden 2017 joukkue: Joukkueeseen kuuluivat Pinja Pessi ja Essi Vilhonen. Neea Palojärvi toimi joukkueen johtajana.
+
 Vuoden 2016 joukkue: Ella Anttila. Joukkueen johtajana Esa Vesalainen. Ella Anttila palkittiin pronssimitalilla.
 
 Vuoden 2015 joukkue: Ella Anttila, Ella Tamir ja Tara Vaittinen. Joukkueen johtajana Esa Vesalainen ja varajohtajana Mirjam Kauppila.
