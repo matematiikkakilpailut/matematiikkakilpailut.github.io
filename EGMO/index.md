@@ -32,18 +32,18 @@ kilpailut:
 
 ### Yleistä
 
+Euroopan tyttöjen matematiikkaolympialaisten tavoitteena on houkutella lisää 
+tyttöjä kilpamatematiikan pariin sekä madaltaa tyttöjen kynnystä
+osallistua Kansainvälisiin Matematiikka&shy;olympialaisiin.
+
 Ensimmäiset [Euroopan Tyttöjen Matematiikka&shy;olympialaiset](https://www.egmo.org/)
-pidettiin vuonna 2012 Cambridgessä Englannissa. Aloite tällaisen
-kilpailun järjestämisestä oli tullut Englannista. Eräänä esikuvana
-ovat olleet Kiinassa jo pitkään järjestetyt tyttöjen
-matematiikka&shy;kilpailut. Tarkoitus on madaltaa tyttöjen kynnystä
-osallistua Kansainvälisiin Matematiikka&shy;olympialaisiin. Mielipiteet
-siitä, onko erityisesti tytöille järjestettävä kilpailu
-tarkoituksenmukainen, vaihtelevat.
+pidettiin vuonna 2012 Cambridgessä Englannissa, josta olikin tullut aloite kilpailun järjestämisestä. 
+Eräänä esikuvana ovat olleet Kiinassa jo pitkään järjestetyt tyttöjen
+matematiikka&shy;kilpailut.
 
 Vaikka kilpailu on nimensä mukaisesti tarkoitettu Euroopan maille,
 myös muita osallistujamaita on ollut mukana. Suomi on osallistunut
-kilpailuun enintään nelihenkisellä joukkueella.
+kilpailuun enintään nelihenkisellä joukkueella jokaisena vuonna.
 
 ### Tehtävät ja ratkaisut
 
