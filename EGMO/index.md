@@ -37,15 +37,15 @@ tyttöjä kilpamatematiikan pariin sekä madaltaa tyttöjen kynnystä
 osallistua Kansainvälisiin Matematiikka&shy;olympialaisiin.
 
 Ensimmäiset [Euroopan Tyttöjen Matematiikka&shy;olympialaiset](https://www.egmo.org/)
-pidettiin vuonna 2012 Cambridgessä Englannissa, josta olikin tullut aloite kilpailun järjestämisestä. 
-Eräänä esikuvana ovat olleet Kiinassa jo pitkään järjestetyt tyttöjen
+pidettiin vuonna 2012 Cambridgessä Englannissa, josta olikin tullut aloite kilpailun järjestämiseen. 
+Eräänä esikuvana kilpailulle ovat olleet Kiinassa jo pitkään järjestetyt tyttöjen
 matematiikka&shy;kilpailut.
 
 Vaikka kilpailu on nimensä mukaisesti tarkoitettu Euroopan maille,
-myös muita osallistujamaita on ollut mukana. Suomi on osallistunut
-kilpailuun enintään nelihenkisellä joukkueella jokaisena vuonna.
+myös muita osallistujamaita on joka vuosi ollut mukana. Suomi on osallistunut
+kilpailuun enintään nelihenkisellä joukkueella kilpailuun.
 
-### Tehtävät ja ratkaisut
+### Menneiden kilpailuiden tehtäviä ja ratkaisuja
 
 <div class="list-group">
 {% for k in page.kilpailut %}
