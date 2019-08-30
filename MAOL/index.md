@@ -22,7 +22,7 @@ voinut osallistua Viron vastaavaan kilpailuun. Peruskoulun
 matematiikka&shy;kilpailun tehtäviä ja ratkaisuja löytyy
 [MAOL:n kilpailusivulta][maolpk].
 
-[maolpk]: http://www.maol.fi/kilpailut/peruskoulun-matematiikkakilpailu/kilpailutehtaeviae/
+[maolpk]: https://maol.fi/neljan-tieteen-kisat/vanhat-kilpailutehtavat/
 
 ## Lukion matematiikka&shy;kilpailu
 
@@ -35,10 +35,10 @@ kilpailijat *loppukilpailuun*, jossa on sarjoista huolimatta vain
 yhdet tehtävät.
 
 Jonkin verran MAOL:n Lukion matematiikka&shy;kilpailun alkukilpailutehtäviä
-löytyy [MAOL:n kilpailusivuilta][maollukio].
+löytyy [MAOL:n kilpailusivuilta][].
 
 [maol]: http://www.maol.fi
-[maollukio]: http://www.maol.fi/kilpailut/4tieteenkisat/lukion-matematiikka/tehtaeviae/
+[maollukio]: https://maol.fi/neljan-tieteen-kisat/vanhat-kilpailutehtavat/
 
 ### Alkukilpailun tehtäviä ja ratkaisuja
 
@@ -67,7 +67,7 @@ vuosilta löytyy pdf-muotoisina oheisesta taulukosta.
    <a href="2014/avaratk.pdf">lisää avoimen sarjan ratkaisuja</a></div>
 </div>
 </div>
-{% assign vt = "2013 2012 2011 2010 2009 2009" | split: " " %}
+{% assign vt = "2013 2012 2011 2010 2009" | split: " " %}
 {% for v in vt %}
 <div class="row list-group-item">
 <div class="col-xs-3 col-sm-2 col-md-1">{{ v }}</div>
