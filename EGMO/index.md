@@ -8,7 +8,7 @@ kilpailut:
     tehtavat: "**Tehtä&shy;vät**"
     ratkaisut: "**Ratkai&shy;sut**"
   - vuosi: "2012"
-    paikka: "[Cambridge](https://www.egmo.org/egmos/egmo1/)"
+    paikka: "[Cambridge, Iso-Britannia](https://www.egmo.org/egmos/egmo1/)"
     tehtavat: "[pdf](EGMO_2012_suom.pdf)"
     ratkaisut: "[Solmu-lehdessä](http://solmu.math.helsinki.fi/2012/3/egmo.pdf)"
   - vuosi: "2013"
@@ -34,11 +34,12 @@ kilpailut:
   - vuosi: "2018"
     paikka: "[Firenze, Italia](https://www.egmo.org/egmos/egmo7/)"
     tehtavat: "[pdf](EGMO_2018teht.pdf)"
-    ratkaisut: "[t.1 suomeksi Solmu-lehdestä,](https://matematiikkalehtisolmu.fi/2018/2/egmo2018_matkakertomus.pdf)             [kaikki englanniksi](https://www.egmo.org/egmos/egmo7/solutions.pdf)"
+    ratkaisut: "[t.1 suomeksi Solmu-lehdessä,](https://matematiikkalehtisolmu.fi/2018/2/egmo2018_matkakertomus.pdf)
+    [kaikki englanniksi](https://www.egmo.org/egmos/egmo7/solutions.pdf)"
   - vuosi: "2019"
     paikka: "[Kiova, Ukraina](https://www.egmo.org/egmos/egmo8/)"
     tehtavat: "[pdf](EGMO_2019teht.pdf)"
-    ratkaisut: "[t.1,4,5 suomeksi Solmu-lehdestä,](https://matematiikkalehtisolmu.fi/2019/2/egmo2019.pdf)
+    ratkaisut: "[t.1,4,5 suomeksi Solmu-lehdessä,](https://matematiikkalehtisolmu.fi/2019/2/egmo2019.pdf)
     [kaikki englanniksi](EGMO_2019sol.pdf)"
 ---
 ## Euroopan Tyttöjen Matematiikka&shy;olympialaiset – EGMO
@@ -55,7 +56,7 @@ ja toisiin kilpailijoihin. Vaikka kilpailu onkin nimensä mukaisesti tarkoitettu
 on joka vuosi mukana vierailijoita myös muista maanosista ja osallistujakunta on varsin kansainvälistä.
 Suomi on osallistunut kilpailuun enintään nelihenkisellä joukkueella.
 
-Seuraavat Euroopan tyttöjen matematiikkaolympialaiset järjestetään 15.-21.4.2020 Egmond aan Zee -kylässä Alankomaissa.
+[Seuraavat](https://egmo2020.nl/) Euroopan tyttöjen matematiikkaolympialaiset järjestetään 15.-21.4.2020 Egmond aan Zee -kylässä Alankomaissa.
 
 ### Menneiden kilpailuiden tehtäviä ja ratkaisuja
 
