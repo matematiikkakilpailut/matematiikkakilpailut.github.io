@@ -45,11 +45,16 @@ löytyy [MAOL:n kilpailusivuilta][maollukio].
 Lukion matematiikka&shy;kilpailun tehtäviä ja ratkaisuja muutamilta
 vuosilta löytyy pdf-muotoisina oheisesta taulukosta.
 
+<div class="list-group">
+<div class="row list-group-item">
+<div class="col-xs-3 col-sm-2 col-md-1"><strong>Vuosi</strong></div>
+<div class="col-xs-3 col-sm-2 col-md-1"><strong>Tehtävät</strong></div>
+<div class="col-xs-6"><strong>Ratkaisut</strong></div>
 <div class="row list-group-item">
 <div class="col-xs-3 col-sm-2 col-md-1">2016</div>
 <div class="col-xs-3 col-sm-2 col-md-1"><a href="2016/al2016.pdf">pdf</a></div>
 <div class="col-xs-6"><a href="2016/al2016ratk.pdf">pdf</a>
-</div></div></div>
+</div></div>
 <div class="row list-group-item">
 <div class="col-xs-3 col-sm-2 col-md-1">2015</div>
 <div class="col-xs-3 col-sm-2 col-md-1"><a href="2015/teht2015.pdf">pdf</a></div>
@@ -61,11 +66,6 @@ vuosilta löytyy pdf-muotoisina oheisesta taulukosta.
 <div class="col-xs-6"><a href="2014/alkukratk2014.pdf">pdf</a>, 
    <a href="2014/avaratk.pdf">lisää avoimen sarjan ratkaisuja</a></div>
 </div>
-<div class="list-group">
-<div class="row list-group-item">
-<div class="col-xs-3 col-sm-2 col-md-1"><strong>Vuosi</strong></div>
-<div class="col-xs-3 col-sm-2 col-md-1"><strong>Tehtävät</strong></div>
-<div class="col-xs-6"><strong>Ratkaisut</strong></div>
 </div>
 {% assign vt = "2013 2012 2011 2010 2009 2009" | split: " " %}
 {% for v in vt %}
@@ -75,6 +75,7 @@ vuosilta löytyy pdf-muotoisina oheisesta taulukosta.
 <div class="col-xs-6"><a href="{{ v }}/ratkalku{{ v }}.pdf">pdf</a></div>
 </div>
 {% endfor %}
+</div>  
 
 
 
