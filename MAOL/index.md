@@ -66,6 +66,7 @@ vuosilta löytyy pdf-muotoisina oheisesta taulukosta.
 <div class="col-xs-6"><a href="2014/alkukratk2014.pdf">pdf</a>, 
   <a href="2014/avaratk.pdf">lisää avoimen sarjan ratkaisuja</a></div>
   </div>
+  </div>
 {% assign vt = "2013 2012 2011 2010 2009" | split: " " %}
 {% for v in vt %}
 <div class="row list-group-item">
@@ -73,8 +74,8 @@ vuosilta löytyy pdf-muotoisina oheisesta taulukosta.
 <div class="col-xs-3 col-sm-2 col-md-1"><a href="{{ v }}/tehtalku{{ v }}.pdf">pdf</a></div>
 <div class="col-xs-6"><a href="{{ v }}/ratkalku{{ v }}.pdf">pdf</a></div>
 </div>
-  </div>
 {% endfor %} 
+  
   
 
 
