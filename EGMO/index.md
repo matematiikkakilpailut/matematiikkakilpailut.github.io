@@ -8,7 +8,7 @@ kilpailut:
     tehtavat: "**Tehtä&shy;vät**"
     ratkaisut: "**Ratkai&shy;sut**"
     edustajat: "**Suomen joukkue**"
-   - vuosi: "2019"
+  - vuosi: "2019"
     paikka: "[Kiova, Ukraina](https://www.egmo.org/egmos/egmo8/)"
     tehtavat: "[pdf](EGMO_2019teht.pdf)"
     ratkaisut: "[t.1,4,5 suomeksi Solmu-lehdessä,](https://matematiikkalehtisolmu.fi/2019/2/egmo2019.pdf)
