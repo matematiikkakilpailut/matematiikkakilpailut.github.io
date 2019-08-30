@@ -92,7 +92,7 @@ Valmennusjaosto järjesti 28.1.2012 Helsingin yliopistossa
 
 Vuosittain järjestetään
 [alueelliset matematiikka&shy;kilpailut seitsemäsluokkalaisille][seiskat]
-Helsingissä, Oulussa ja Turussa yhteistyössä paikallisten yliopistojen
+Helsingissä, Oulussa, Satakunnassa ja Turussa yhteistyössä paikallisten korkeakoulujen
 sekä Summamutikka- ja OuLUMA-keskusten kanssa.
 
 Oulussa LUMA-keskus ja Oulun yliopisto järjestävät
