@@ -37,19 +37,19 @@ kilpailut:
     paikka: "[Zürich, Sveitsi](https://www.egmo.org/egmos/egmo6/)"
     tehtavat: "[pdf](EGMO_2017teht.pdf)"
     ratkaisut: "[englanniksi](https://www.egmo.org/egmos/egmo6/solutions.pdf)"
-    edustajat: "**Pinja Pessi** ja **Essi Vilhonen**"
+    edustajat: "**Pinja Pessi, Essi Vilhonen**"
   - vuosi: "2018"
     paikka: "[Firenze, Italia](https://www.egmo.org/egmos/egmo7/)"
     tehtavat: "[pdf](EGMO_2018teht.pdf)"
     ratkaisut: "[t.1 suomeksi Solmu-lehdessä,](https://matematiikkalehtisolmu.fi/2018/2/egmo2018_matkakertomus.pdf)
     [kaikki englanniksi](https://www.egmo.org/egmos/egmo7/solutions.pdf)"
-    edustajat: "**Milja Krés, Veera Nurmela, Nerissa Shakespeare**(kunniamaininta) ja **Essi Vilhonen**(kunniamaininta)"
+    edustajat: "**Milja Krés, Veera Nurmela, Nerissa Shakespeare**(kunniamaininta), **Essi Vilhonen**(kunniamaininta)"
   - vuosi: "2019"
     paikka: "[Kiova, Ukraina](https://www.egmo.org/egmos/egmo8/)"
     tehtavat: "[pdf](EGMO_2019teht.pdf)"
     ratkaisut: "[t.1,4,5 suomeksi Solmu-lehdessä,](https://matematiikkalehtisolmu.fi/2019/2/egmo2019.pdf)
     [kaikki englanniksi](EGMO_2019sol.pdf)"
-    edustajat: "**Idaliina Kuusisto, Veera Nurmela, Nerissa Shakespeare** ja **Hilma Tillqvist**"
+    edustajat: "**Idaliina Kuusisto, Veera Nurmela, Nerissa Shakespeare, Hilma Tillqvist**"
 ---
 ## Euroopan Tyttöjen Matematiikka&shy;olympialaiset – EGMO
 
@@ -76,6 +76,7 @@ Suomi on osallistunut kilpailuun enintään nelihenkisellä joukkueella.
 <div class="col-xs-4 col-sm-2">{{ k['paikka'] | markdownify }}</div>
 <div class="col-xs-2">{{ k['tehtavat'] | markdownify }}</div>
 <div class="col-xs-4 col-sm-3">{{ k['ratkaisut'] | markdownify }}</div>
+<div class="col-xs-4 col-sm-4">{{ k['edustajat'] | markdownify }}</div>  
 </div>
 {% endfor %}
 </div>
