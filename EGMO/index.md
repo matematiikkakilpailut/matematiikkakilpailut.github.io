@@ -27,25 +27,26 @@ kilpailut:
     paikka: "[Busteni, Romania](https://www.egmo.org/egmos/egmo5/)"
     tehtavat: "[pdf](EGMO_2016teht.pdf)"
     ratkaisut: "[englanniksi](https://www.egmo.org/egmos/egmo5/solutions.pdf)"
+  - vuosi: "2017"
+    paikka: "[Zürich, Sveitsi](https://www.egmo.org/egmos/egmo6/)"
+    tehtavat: "[pdf](EGMO_2017teht.pdf)"
+    ratkaisut: "[englanniksi](https://www.egmo.org/egmos/egmo6/solutions.pdf)"
 ---
 ## Euroopan Tyttöjen Matematiikka&shy;olympialaiset – EGMO
 
 ### Yleistä
 
-Euroopan tyttöjen matematiikkaolympialaisten tavoitteena on houkutella lisää 
-tyttöjä kilpamatematiikan pariin sekä madaltaa tyttöjen kynnystä
-osallistua Kansainvälisiin Matematiikka&shy;olympialaisiin.
-
 Ensimmäiset [Euroopan Tyttöjen Matematiikka&shy;olympialaiset](https://www.egmo.org/)
 pidettiin vuonna 2012 Cambridgessä Englannissa, josta olikin tullut aloite kilpailun järjestämiseen. 
-Eräänä esikuvana kilpailulle ovat olleet Kiinassa jo pitkään järjestetyt tyttöjen
-matematiikka&shy;kilpailut.
+Kilpailun tavoitteena on houkutella lisää tyttöjä kilpamatematiikan pariin sekä madaltaa tyttöjen kynnystä
+osallistua Kansainvälisiin Matematiikka&shy;olympialaisiin. 
 
-Vaikka kilpailu on nimensä mukaisesti tarkoitettu Euroopan maille,
-myös muita osallistujamaita on joka vuosi ollut mukana. Suomi on osallistunut
-kilpailuun enintään nelihenkisellä joukkueella kilpailuun.
+Viikon mittaisen tapahtuman aikana kilpailijat ehtivät kokeiden lisäksi tutustumaan nähtävyyksiin
+ja toisiin kilpailijoihin. Vaikka kilpailu onkin nimensä mukaisesti tarkoitettu Euroopan maille,
+on joka vuosi mukana vierailijoita myös muista maanosista ja osallistujakunta on varsin kansainvälistä.
+Suomi on osallistunut kilpailuun enintään nelihenkisellä joukkueella.
 
-Seuraavat Euroopan tyttöjen matematiikkaolympialaiset järjestetään 15.-21.4.2019 Egmond aan Zee -kylässä Alankomaissa.
+Seuraavat Euroopan tyttöjen matematiikkaolympialaiset järjestetään 15.-21.4.2020 Egmond aan Zee -kylässä Alankomaissa.
 
 ### Menneiden kilpailuiden tehtäviä ja ratkaisuja
 
