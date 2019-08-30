@@ -12,12 +12,12 @@ kilpailut:
     paikka: "[Cambridge, Iso-Britannia](https://www.egmo.org/egmos/egmo1/)"
     tehtavat: "[pdf](EGMO_2012_suom.pdf)"
     ratkaisut: "[Solmu-lehdessä](http://solmu.math.helsinki.fi/2012/3/egmo.pdf)"
-    edustajat: ""
+    edustajat: "**Pihla Karanko, Katja Kulmala, Neea Palojärvi** (kunniamaininta), **Jiali Yan** (pronssi)"
   - vuosi: "2013"
     paikka: "[Luxemburg](https://www.egmo.org/egmos/egmo2/)"
     tehtavat: "[pdf](EGMO_2013_suom.pdf)"
     ratkaisut: "[Solmu-lehdessä](https://matematiikkalehtisolmu.fi/2013/3/egmo2013.pdf)"
-    edustajat: ""
+    edustajat: "**Pihla Karanko** (kunniamaininta), **Katja Kulmala** (kunniamaininta), **Neea Palojärvi, Ella Tamir**"
   - vuosi: "2014"
     paikka: "[Antalya, Turkki](https://www.egmo.org/egmos/egmo3/)"
     tehtavat: "[pdf](EGMO_2014teht.pdf)"
@@ -67,7 +67,7 @@ Suomi on osallistunut kilpailuun enintään nelihenkisellä joukkueella.
 
 [Seuraavat](https://egmo2020.nl/) Euroopan tyttöjen matematiikkaolympialaiset järjestetään 15.-21.4.2020 Egmond aan Zee -kylässä Alankomaissa.
 
-### Menneiden kilpailuiden tehtäviä ja ratkaisuja
+### Menneet kilpailut
 
 <div class="list-group">
 {% for k in page.kilpailut %}
@@ -80,14 +80,3 @@ Suomi on osallistunut kilpailuun enintään nelihenkisellä joukkueella.
 </div>
 {% endfor %}
 </div>
-
-### Suomen joukkue
-
-Vuoden 2013 joukkue: Pihla Karanko, Katja Kulmala, Neea Palojärvi,
-Ella Tamir. Joukkueen johtaja oli Esa Vesalainen ja varajohtaja Jesse
-Jääsaari. Pihla Karanko ja Katja Kulmala saivat kunniamaininnan.
-
-Vuoden 2012 joukkue: Pihla Karanko, Katja Kulmala, Neea Palojärvi,
-Jiali Yan. Joukkueen johtaja oli Anne-Maria Ernvall-Hytönen ja
-varajohtaja Esa Vesalainen. Jiali Yan palkittiin pronssimitalilla ja
-Neea Palojärvi kunniamaininnalla.
