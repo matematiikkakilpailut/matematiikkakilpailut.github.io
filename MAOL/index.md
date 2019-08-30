@@ -73,7 +73,9 @@ vuosilta löytyy pdf-muotoisina oheisesta taulukosta.
 <div class="col-xs-3 col-sm-2 col-md-1"><a href="{{ v }}/tehtalku{{ v }}.pdf">pdf</a></div>
 <div class="col-xs-6"><a href="{{ v }}/ratkalku{{ v }}.pdf">pdf</a></div>
 </div>
+  </div>
 {% endfor %} 
+  
 
 
 
