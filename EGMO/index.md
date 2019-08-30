@@ -12,26 +12,32 @@ kilpailut:
     paikka: "[Cambridge, Iso-Britannia](https://www.egmo.org/egmos/egmo1/)"
     tehtavat: "[pdf](EGMO_2012_suom.pdf)"
     ratkaisut: "[Solmu-lehdessä](http://solmu.math.helsinki.fi/2012/3/egmo.pdf)"
+    edustajat: ""
   - vuosi: "2013"
     paikka: "[Luxemburg](https://www.egmo.org/egmos/egmo2/)"
     tehtavat: "[pdf](EGMO_2013_suom.pdf)"
     ratkaisut: "[Solmu-lehdessä](https://matematiikkalehtisolmu.fi/2013/3/egmo2013.pdf)"
+    edustajat: ""
   - vuosi: "2014"
     paikka: "[Antalya, Turkki](https://www.egmo.org/egmos/egmo3/)"
     tehtavat: "[pdf](EGMO_2014teht.pdf)"
     ratkaisut: "[Solmu-lehdessä](https://matematiikkalehtisolmu.fi/2014/3/egmo14.pdf)"
+    edustajat: ""
   - vuosi: "2015"
     paikka: "[Minsk, Valko-Venäjä](https://www.egmo.org/egmos/egmo4/)"
     tehtavat: "[pdf](EGMO_2015teht.pdf)"
     ratkaisut: "[Solmu-lehdessä](https://matematiikkalehtisolmu.fi/2015/3/egmo2015.pdf)"
+    edustajat: ""
   - vuosi: "2016"
     paikka: "[Busteni, Romania](https://www.egmo.org/egmos/egmo5/)"
     tehtavat: "[pdf](EGMO_2016teht.pdf)"
     ratkaisut: "[englanniksi](https://www.egmo.org/egmos/egmo5/solutions.pdf)"
+    edustajat: ""
   - vuosi: "2017"
     paikka: "[Zürich, Sveitsi](https://www.egmo.org/egmos/egmo6/)"
     tehtavat: "[pdf](EGMO_2017teht.pdf)"
     ratkaisut: "[englanniksi](https://www.egmo.org/egmos/egmo6/solutions.pdf)"
+    edustajat: "**Pinja Pessi** ja **Essi Vilhonen**"
   - vuosi: "2018"
     paikka: "[Firenze, Italia](https://www.egmo.org/egmos/egmo7/)"
     tehtavat: "[pdf](EGMO_2018teht.pdf)"
@@ -76,7 +82,6 @@ Suomi on osallistunut kilpailuun enintään nelihenkisellä joukkueella.
 
 ### Suomen joukkue
 
-Vuoden 2018 joukkue: Joukkueeseen kuuluivat Milja Krés, Veera Nurmela, Nerissa Shakespeare ja Essi Vilhonen. Anne-Maria Ernvall-Hytönen toimi joukkueen johtajana ja Neea Palojärvi varajohtajana. Nerissa Shakespeare ja Essi Vilhonen palkittiin kunniamaininnoilla.
 
 Vuoden 2017 joukkue: Joukkueeseen kuuluivat Pinja Pessi ja Essi Vilhonen. Neea Palojärvi toimi joukkueen johtajana.
 
