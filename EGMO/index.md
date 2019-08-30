@@ -22,17 +22,17 @@ kilpailut:
     paikka: "[Antalya, Turkki](https://www.egmo.org/egmos/egmo3/)"
     tehtavat: "[pdf](EGMO_2014teht.pdf)"
     ratkaisut: "[Solmu-lehdessä](https://matematiikkalehtisolmu.fi/2014/3/egmo14.pdf)"
-    edustajat: ""
+    edustajat: "**Minna Hirvonen, Mirjam Kauppila** (pronssi), **Ella Tamir, Tara Vaittinen**"
   - vuosi: "2015"
     paikka: "[Minsk, Valko-Venäjä](https://www.egmo.org/egmos/egmo4/)"
     tehtavat: "[pdf](EGMO_2015teht.pdf)"
     ratkaisut: "[Solmu-lehdessä](https://matematiikkalehtisolmu.fi/2015/3/egmo2015.pdf)"
-    edustajat: ""
+    edustajat: "**Ella Anttila, Ella Tamir,Tara Vaittinen**"
   - vuosi: "2016"
     paikka: "[Busteni, Romania](https://www.egmo.org/egmos/egmo5/)"
     tehtavat: "[pdf](EGMO_2016teht.pdf)"
     ratkaisut: "[englanniksi](https://www.egmo.org/egmos/egmo5/solutions.pdf)"
-    edustajat: ""
+    edustajat: "**Ella Anttila** (pronssi)"
   - vuosi: "2017"
     paikka: "[Zürich, Sveitsi](https://www.egmo.org/egmos/egmo6/)"
     tehtavat: "[pdf](EGMO_2017teht.pdf)"
@@ -76,24 +76,12 @@ Suomi on osallistunut kilpailuun enintään nelihenkisellä joukkueella.
 <div class="col-xs-4 col-sm-2">{{ k['paikka'] | markdownify }}</div>
 <div class="col-xs-2">{{ k['tehtavat'] | markdownify }}</div>
 <div class="col-xs-4 col-sm-3">{{ k['ratkaisut'] | markdownify }}</div>
-<div class="col-xs-11 col-xs-offset-1 col-md-5 col-md-offset-0">{% if k['edustajat'] != null %}{{ k['edustajat'] | markdownify }}{% endif %}</div>
+<div class="col-xs-4 col-sm-4">{{ k['edustajat'] | markdownify }}</div>
 </div>
 {% endfor %}
 </div>
 
 ### Suomen joukkue
-
-
-Vuoden 2017 joukkue: Joukkueeseen kuuluivat Pinja Pessi ja Essi Vilhonen. Neea Palojärvi toimi joukkueen johtajana.
-
-Vuoden 2016 joukkue: Ella Anttila. Joukkueen johtajana Esa Vesalainen. Ella Anttila palkittiin pronssimitalilla.
-
-Vuoden 2015 joukkue: Ella Anttila, Ella Tamir ja Tara Vaittinen. Joukkueen johtajana Esa Vesalainen ja varajohtajana Mirjam Kauppila.
-
-Vuoden 2014 joukkue: Minna Hirvonen, Mirjam Kauppila, Ella Tamir ja
-Tara Vaittinen. Joukkueen johtajana Anne-Maria Ernvall-Hytönen ja
-varajohtajana Esa Vesalainen. Mirjam Kauppila palkittiin
-pronssimitalilla.
 
 Vuoden 2013 joukkue: Pihla Karanko, Katja Kulmala, Neea Palojärvi,
 Ella Tamir. Joukkueen johtaja oli Esa Vesalainen ja varajohtaja Jesse
