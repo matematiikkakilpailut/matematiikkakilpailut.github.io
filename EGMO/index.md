@@ -7,6 +7,7 @@ kilpailut:
     paikka: "**Paikka**"
     tehtavat: "**Tehtä&shy;vät**"
     ratkaisut: "**Ratkai&shy;sut**"
+    edustajat: "**Suomen joukkue**"
   - vuosi: "2012"
     paikka: "[Cambridge, Iso-Britannia](https://www.egmo.org/egmos/egmo1/)"
     tehtavat: "[pdf](EGMO_2012_suom.pdf)"
@@ -36,11 +37,13 @@ kilpailut:
     tehtavat: "[pdf](EGMO_2018teht.pdf)"
     ratkaisut: "[t.1 suomeksi Solmu-lehdessä,](https://matematiikkalehtisolmu.fi/2018/2/egmo2018_matkakertomus.pdf)
     [kaikki englanniksi](https://www.egmo.org/egmos/egmo7/solutions.pdf)"
+    edustajat: "**Milja Krés, Veera Nurmela, Nerissa Shakespeare**(kunniamaininta) ja **Essi Vilhonen**(kunniamaininta)"
   - vuosi: "2019"
     paikka: "[Kiova, Ukraina](https://www.egmo.org/egmos/egmo8/)"
     tehtavat: "[pdf](EGMO_2019teht.pdf)"
     ratkaisut: "[t.1,4,5 suomeksi Solmu-lehdessä,](https://matematiikkalehtisolmu.fi/2019/2/egmo2019.pdf)
     [kaikki englanniksi](EGMO_2019sol.pdf)"
+    edustajat: "**Idaliina Kuusisto, Veera Nurmela, Nerissa Shakespeare** ja **Hilma Tillqvist**"
 ---
 ## Euroopan Tyttöjen Matematiikka&shy;olympialaiset – EGMO
 
@@ -72,8 +75,6 @@ Suomi on osallistunut kilpailuun enintään nelihenkisellä joukkueella.
 </div>
 
 ### Suomen joukkue
-
-Vuoden 2019 joukkue: Joukkueeseen kuuluivat Idaliina Kuusisto, Veera Nurmela, Nerissa Shakespeare ja Hilma Tillqvist. Anne-Maria Ernvall-Hytönen toimi joukkueen johtajana ja Neea Palojärvi varajohtajana.
 
 Vuoden 2018 joukkue: Joukkueeseen kuuluivat Milja Krés, Veera Nurmela, Nerissa Shakespeare ja Essi Vilhonen. Anne-Maria Ernvall-Hytönen toimi joukkueen johtajana ja Neea Palojärvi varajohtajana. Nerissa Shakespeare ja Essi Vilhonen palkittiin kunniamaininnoilla.
 
