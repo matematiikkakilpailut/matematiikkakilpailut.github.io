@@ -62,7 +62,7 @@ osallistua Kansainvälisiin Matematiikka&shy;olympialaisiin.
 
 Viikon mittaisen tapahtuman aikana kilpailijat ehtivät kokeiden lisäksi tutustumaan nähtävyyksiin
 ja toisiin kilpailijoihin. Vaikka kilpailu onkin nimensä mukaisesti tarkoitettu Euroopan maille,
-on joka vuosi ollut mukana vierailijoita myös muista maanosista, joten osallistujakunta on varsin kansainvälistä.
+on joka vuosi mukana ollut vierailijoita myös muista maanosista, joten osallistujakunta on varsin kansainvälistä.
 Suomi osallistuu kilpailuun vuosittain enintään nelihenkisellä joukkueella.
 
 [Seuraavat](https://egmo2020.nl/) Euroopan tyttöjen matematiikkaolympialaiset järjestetään 15.-21.4.2020 Egmond aan Zee -kylässä Alankomaissa.
