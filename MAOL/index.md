@@ -35,7 +35,7 @@ kilpailijat *loppukilpailuun*, jossa on sarjoista huolimatta vain
 yhdet tehtävät.
 
 Jonkin verran MAOL:n Lukion matematiikka&shy;kilpailun alkukilpailutehtäviä
-löytyy [MAOL:n kilpailusivuilta][].
+löytyy [MAOL:n kilpailusivuilta][maollukio].
 
 [maol]: http://www.maol.fi
 [maollukio]: https://maol.fi/neljan-tieteen-kisat/vanhat-kilpailutehtavat/
@@ -65,7 +65,6 @@ vuosilta löytyy pdf-muotoisina oheisesta taulukosta.
 <div class="col-xs-3 col-sm-2 col-md-1"><a href="2014/alkukteht2014.pdf">pdf</a></div>
 <div class="col-xs-6"><a href="2014/alkukratk2014.pdf">pdf</a>, 
    <a href="2014/avaratk.pdf">lisää avoimen sarjan ratkaisuja</a></div>
-</div>
 </div>
 {% assign vt = "2013 2012 2011 2010 2009" | split: " " %}
 {% for v in vt %}
