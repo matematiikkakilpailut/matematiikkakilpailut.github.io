@@ -31,6 +31,10 @@ kilpailut:
     paikka: "[Zürich, Sveitsi](https://www.egmo.org/egmos/egmo6/)"
     tehtavat: "[pdf](EGMO_2017teht.pdf)"
     ratkaisut: "[englanniksi](https://www.egmo.org/egmos/egmo6/solutions.pdf)"
+  - vuosi: "2018"
+    paikka: "[Firenze, Italia](https://www.egmo.org/egmos/egmo7/)"
+    tehtavat: "[pdf](EGMO_2018teht.pdf)"
+    ratkaisut: "[t.1 suomeksi Solmu-lehdestä,](https://matematiikkalehtisolmu.fi/2018/2/egmo2018_matkakertomus.pdf)             [englanniksi](https://www.egmo.org/egmos/egmo7/solutions.pdf)"
 ---
 ## Euroopan Tyttöjen Matematiikka&shy;olympialaiset – EGMO
 
