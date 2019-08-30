@@ -43,7 +43,7 @@ kilpailut:
     tehtavat: "[pdf](EGMO_2018teht.pdf)"
     ratkaisut: "[t.1 suomeksi Solmu-lehdessä,](https://matematiikkalehtisolmu.fi/2018/2/egmo2018_matkakertomus.pdf)
     [kaikki englanniksi](https://www.egmo.org/egmos/egmo7/solutions.pdf)"
-    edustajat: "**Milja Krés, Veera Nurmela, Nerissa Shakespeare**(kunniamaininta), **Essi Vilhonen**(kunniamaininta)"
+    edustajat: "**Milja Krés, Veera Nurmela, Nerissa Shakespeare** (kunniamaininta), **Essi Vilhonen** (kunniamaininta)"
   - vuosi: "2019"
     paikka: "[Kiova, Ukraina](https://www.egmo.org/egmos/egmo8/)"
     tehtavat: "[pdf](EGMO_2019teht.pdf)"
@@ -76,7 +76,7 @@ Suomi on osallistunut kilpailuun enintään nelihenkisellä joukkueella.
 <div class="col-xs-4 col-sm-2">{{ k['paikka'] | markdownify }}</div>
 <div class="col-xs-2">{{ k['tehtavat'] | markdownify }}</div>
 <div class="col-xs-4 col-sm-3">{{ k['ratkaisut'] | markdownify }}</div>
-<div class="col-xs-4 col-sm-4">{{ k['edustajat'] | markdownify }}</div>  
+<div class="col-xs-11 col-xs-offset-1 col-md-5 col-md-offset-0">{% if k['edustajat'] != null %}{{ k['edustajat'] | markdownify }}{% endif %}</div>
 </div>
 {% endfor %}
 </div>
