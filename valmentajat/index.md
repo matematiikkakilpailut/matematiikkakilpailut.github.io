@@ -28,7 +28,7 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
    Filosofian tohtori, matematiikan dosentti (HY), yliopistonlehtori (TaY).
    Olympiaedustaja vuonna 1983. Valmennusjaoston johtoryhmän jäsen.
    Sommittelee kombinatoriikan valmennusta.
-*  Neea Palojärvi
+*  Neea Palojärvi<br/> Olympiaedustaja vuonna 2013.
 *  Jaakko Seppälä<br/>
    Filosofian maisteri, edustaja Pohjoismaisessa matematiikkakilpailussa 2007
 *  [Jouni Seppänen][jks]<br/> Tekniikan tohtori, olympiaedustaja vuosina 1994 ja 1995.
