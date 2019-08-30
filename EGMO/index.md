@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Euroopan Tyttöjen Matematiikka&shy;olympialaiset – EGMO
+title: Euroopan tyttöjen matematiikka&shy;olympialaiset – EGMO
 url: /EGMO/
 kilpailut:
   - vuosi: "**Vuosi**"
@@ -27,7 +27,7 @@ kilpailut:
     paikka: "[Minsk, Valko-Venäjä](https://www.egmo.org/egmos/egmo4/)"
     tehtavat: "[pdf](EGMO_2015teht.pdf)"
     ratkaisut: "[Solmu-lehdessä](https://matematiikkalehtisolmu.fi/2015/3/egmo2015.pdf)"
-    edustajat: "**Ella Anttila, Ella Tamir,Tara Vaittinen**"
+    edustajat: "**Ella Anttila, Ella Tamir, Tara Vaittinen**"
   - vuosi: "2016"
     paikka: "[Busteni, Romania](https://www.egmo.org/egmos/egmo5/)"
     tehtavat: "[pdf](EGMO_2016teht.pdf)"
@@ -51,23 +51,25 @@ kilpailut:
     [kaikki englanniksi](EGMO_2019sol.pdf)"
     edustajat: "**Idaliina Kuusisto, Veera Nurmela, Nerissa Shakespeare, Hilma Tillqvist**"
 ---
-## Euroopan Tyttöjen Matematiikka&shy;olympialaiset – EGMO
+## Euroopan tyttöjen matematiikka&shy;olympialaiset – EGMO
 
 ### Yleistä
 
-Ensimmäiset [Euroopan Tyttöjen Matematiikka&shy;olympialaiset](https://www.egmo.org/)
+Ensimmäiset [Euroopan tyttöjen matematiikka&shy;olympialaiset](https://www.egmo.org/)
 pidettiin vuonna 2012 Cambridgessä Englannissa, josta olikin tullut aloite kilpailun järjestämiseen. 
 Kilpailun tavoitteena on houkutella lisää tyttöjä kilpamatematiikan pariin sekä madaltaa tyttöjen kynnystä
 osallistua Kansainvälisiin Matematiikka&shy;olympialaisiin. 
 
 Viikon mittaisen tapahtuman aikana kilpailijat ehtivät kokeiden lisäksi tutustumaan nähtävyyksiin
 ja toisiin kilpailijoihin. Vaikka kilpailu onkin nimensä mukaisesti tarkoitettu Euroopan maille,
-on joka vuosi mukana vierailijoita myös muista maanosista ja osallistujakunta on varsin kansainvälistä.
-Suomi on osallistunut kilpailuun enintään nelihenkisellä joukkueella.
+on joka vuosi ollut mukana vierailijoita myös muista maanosista, joten osallistujakunta on varsin kansainvälistä.
+Suomi osallistuu kilpailuun vuosittain enintään nelihenkisellä joukkueella.
 
 [Seuraavat](https://egmo2020.nl/) Euroopan tyttöjen matematiikkaolympialaiset järjestetään 15.-21.4.2020 Egmond aan Zee -kylässä Alankomaissa.
 
 ### Menneet kilpailut
+
+Lue kilpailijoiden ja joukkueenjohdon mietteitä kilpailusta [Dimensio-lehdestä](https://www.dimensiolehti.fi/mika-on-egmo-ja-mita-siella-tehdaan/)!
 
 <div class="list-group">
 {% for k in page.kilpailut %}
