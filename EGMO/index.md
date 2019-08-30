@@ -39,7 +39,7 @@ kilpailut:
     paikka: "[Kiova, Ukraina](https://www.egmo.org/egmos/egmo8/)"
     tehtavat: "[pdf](EGMO_2019teht.pdf)"
     ratkaisut: "[t.1,4,5 suomeksi Solmu-lehdestä,](https://matematiikkalehtisolmu.fi/2019/2/egmo2019.pdf)
-    [kaikki englanniksi](https://www.egmo.org/egmos/egmo7/solutions.pdf)"
+    [kaikki englanniksi](EGMO_2019sol.pdf)"
 ---
 ## Euroopan Tyttöjen Matematiikka&shy;olympialaiset – EGMO
 
