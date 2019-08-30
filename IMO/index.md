@@ -132,8 +132,9 @@ kilpailut:
     paikka: "[Rio de Janeiro, Brasilia](https://www.imo2017.org.br/)"
     sijoitus: "56 p. (84./110), ei mitaleja"
     tehtavat: "[pdf](2017/teht2017.pdf)"
-    ratkaisut: ""
-    muuta: "[tulosluettelo](https://www.imo-official.org/year_country_r.aspx?year=2017)"
+    ratkaisut: "[Solmu-lehdessä](https://matematiikkalehtisolmu.fi/2017/3/imo2017.pdf)"
+    muuta: "[tulosluettelo](https://www.imo-official.org/year_country_r.aspx?year=2017),
+    [matkakertomus](https://matematiikkalehtisolmu.fi/2017/3/imo2017.pdf)"
   - vuosi: "2018"
     paikka: "[Cluj-Napoca, Romania](http://www.imo2018.org/)"
     sijoitus: "70 p. (59./107), 2 pronssia"
