@@ -138,8 +138,10 @@ kilpailut:
     paikka: "[Cluj-Napoca, Romania](http://www.imo2018.org/)"
     sijoitus: "70 p. (59./107), 2 pronssia"
     tehtavat: "[pdf](2018/teht2018.pdf)"
-    ratkaisut: ""
-    muuta: "[tulosluettelo](https://www.imo-official.org/year_country_r.aspx?year=2018)"
+    ratkaisut: "[Solmu-lehdessä](https://matematiikkalehtisolmu.fi/2018/3/IMO18.pdf)"
+    muuta: "[tulosluettelo,](https://www.imo-official.org/year_country_r.aspx?year=2018)
+    [matkakertomus Solmu-lehdessä](https://matematiikkalehtisolmu.fi/2018/3/IMO18.pdf) ja
+    [Dimensiossa](https://www.dimensiolehti.fi/suomelle-kaksi-pronssia-matematiikkaolympialaisista/)"
   - vuosi: "2019"
     paikka: "[Bath, Yh­dis­ty­nyt kuningas­kunta](https://www.imo2019.uk/)"
     sijoitus: "78 p. (65./112), 1 hopea, 1 pronssi"
@@ -265,7 +267,9 @@ kunniamaininnalla.
 
 {% endcomment %}
 
-Vuonna 2016 Suomea edustivat Ella Anttila, Hannes Ihalainen, Iiro Kumpulainen, Alvar Kallio, Joose Lehtinen ja Antti Röyskö. Anttila, Kumpulainen ja Kallio palkittiin kunniamaininnalla.
+Vuonna 2019 Suomea edustivat Juho Arala, Hermanni Huhtamäki, Akseli Jussinmäki, 
+Olli Järviniemi, Roope Salmi ja Nerissa Shakespeare. Järviniemi palkittiin 
+hopeamitalilla, Salmi pronssimitalilla sekä Arala ja Jussinmäki kunniamaininnoilla.
 
 ### Tuloksia
 
