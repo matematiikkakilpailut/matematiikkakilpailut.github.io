@@ -51,7 +51,7 @@ kilpailut:
     tehtavat: "[pdf](/Baltian_tie/2013/Bt2013teht.pdf)"
     ratkaisut: "[tehtävät ja ratkaisut](/Baltian_tie/2013/Bt2013ratk.pdf), ratkaisut [eng&shy;lan&shy;niksi](/Baltian_tie/2013/Bt2013rateng.pdf)"
     joukkue: "Mirjam Kauppila, Timo Takala, Ella Tamir, Jakob Wartiovaara, Pyry Virtanen"
-   - vuosi: "2012"
+  - vuosi: "2012"
     paikka: "[Tart&shy;to](http://www.bw2012.ut.ee/)"
     sijoitus: "[53 (6.)](/Baltian_tie/2012/Bt2012res.pdf)"
     tehtavat: "[pdf](/Baltian_tie/2012/Bt2012teht.pdf)"
