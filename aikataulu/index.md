@@ -9,7 +9,7 @@ aikataulu:
   - pvm: "6.&ndash;8.9. (viikko 36)"
     tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä"
   - pvm: "13.9."
-    tapahtuma: "Iranin geometria&shy;kilpailu Päivölässä"
+    tapahtuma: "[Iranin geometria&shy;kilpailu](https://igo-official.ir/) kutsutuille Päivölässä"
   - pvm: "30.9.&ndash;13.10."
     tapahtuma: "[MAOLin peruskoulun matematiikka&shy;kilpailu](https://peda.net/yhdistykset/maol-ry/kilpailut/ntk/pm)"
   - pvm: "9.10."
