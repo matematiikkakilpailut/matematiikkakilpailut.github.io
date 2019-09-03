@@ -91,16 +91,15 @@ että pdf-muodossa seuraavan taulukon mukaisesti.
 <div class="col-xs-3 col-sm-2 col-md-1"><strong>Tehtävät</strong></div>
 <div class="col-xs-6"><strong>Ratkaisut</strong></div>
 </div>
-{% assign vt = "97 98 99" | split: " " %}
-{% for v in vt %}
+{% assign vt = "2019 2018 2017 2016 2015 2014 2013 2012 2011 2010" | split: " " %}
+  {% for v in vt %}
 <div class="row list-group-item">
-<div class="col-xs-3 col-sm-2 col-md-1">19{{ v }}</div>
-<div class="col-xs-3 col-sm-2 col-md-1"><a href="19{{ v }}/lukm{{ v }}.ps">ps</a>
-  <a href="19{{ v }}/lukm{{ v }}.pdf">pdf</a></div>
-<div class="col-xs-6"><a href="19{{ v }}/lukm19{{ v }}r.pdf">pdf</a></div>
+<div class="col-xs-3 col-sm-2 col-md-1">{{ v }}</div>
+<div class="col-xs-3 col-sm-2 col-md-1"><a href="{{ v }}/lukm{{ v }}.pdf">pdf</a></div>
+<div class="col-xs-6"><a href="{{ v }}/lukm{{ v }}r.pdf">pdf</a></div>
 </div>
 {% endfor %}
-{% assign vt = "2000 2001 2002 2003 2004 2005 2006 2007 2008 2009" | split: " " %}
+{% assign vt = "2009 2008 2007 2006 2005 2004 2003 2002 2001 2000" | split: " " %}
 {% for v in vt %}
 <div class="row list-group-item">
 <div class="col-xs-3 col-sm-2 col-md-1">{{ v }}</div>
@@ -109,11 +108,14 @@ että pdf-muodossa seuraavan taulukon mukaisesti.
 <div class="col-xs-6"><a href="{{ v }}/lukm{{ v }}r.pdf">pdf</a></div>
 </div>
 {% endfor %}
-{% assign vt = "2010 2011 2012 2013 2014 2015 2016 2017 2018 2019" | split: " " %}
+{% assign vt = "99 98 97" | split: " " %}
 {% for v in vt %}
 <div class="row list-group-item">
-<div class="col-xs-3 col-sm-2 col-md-1">{{ v }}</div>
-<div class="col-xs-3 col-sm-2 col-md-1"><a href="{{ v }}/lukm{{ v }}.pdf">pdf</a></div>
-<div class="col-xs-6"><a href="{{ v }}/lukm{{ v }}r.pdf">pdf</a></div>
+<div class="col-xs-3 col-sm-2 col-md-1">19{{ v }}</div>
+<div class="col-xs-3 col-sm-2 col-md-1"><a href="19{{ v }}/lukm{{ v }}.ps">ps</a>
+  <a href="19{{ v }}/lukm{{ v }}.pdf">pdf</a></div>
+<div class="col-xs-6"><a href="19{{ v }}/lukm19{{ v }}r.pdf">pdf</a></div>
 </div>
 {% endfor %}
+
+
