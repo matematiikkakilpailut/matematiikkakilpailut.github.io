@@ -14,7 +14,7 @@ Matemaattisten aineiden opettajien liitto [MAOL](https://maol.fi/)
 järjestää vuosittain 
 [matematiikkakilpailuja](https://maol.fi/neljan-tieteen-kisat/) 
 peruskoululaisille ja lukiolaisille. Alkukilpailut pidetään
-omissa kouluissa syksyllä. Alkukilpailun parhaat pääsevät
+omissa kouluissa syksyisin. Alkukilpailun parhaat pääsevät
 seuraavan vuoden alussa pidettävään loppukilpailuun. 
 Kilpailuihin voi päästä mukaan kertomalla matematiikan 
 opettajalleen osallistumishalustaan hyvissä ajoin ennen
@@ -24,9 +24,7 @@ kilpailua.
 
 Peruskoulun matematiikka&shy;kilpailu on suunnattu ensi sijassa
 peruskoulun 9. luokan oppilaille, mutta myös nuoremmat oppilaat
-voivat mainiosti osallistua. Kilpailussa on kaksi kierrosta.
-Alkukilpailu pidetään kouluissa. Loppukilpailuun kutsutaan noin 20
-alkukilpailun parasta. Loppukilpailuun osallistuu yleensä kaksi
+voivat mainiosti osallistua. Loppukilpailuun osallistuu yleensä kaksi
 virolaista vierailijaa, ja peruskoulun kilpailun kaksi parasta on
 voinut osallistua Viron vastaavaan kilpailuun. Peruskoulun
 matematiikka&shy;kilpailun tehtäviä ja ratkaisuja löytyy
@@ -61,7 +59,17 @@ vuosilta löytyy pdf-muotoisina oheisesta taulukosta.
 <div class="col-xs-3 col-sm-2 col-md-1"><strong>Vuosi</strong></div>
 <div class="col-xs-3 col-sm-2 col-md-1"><strong>Tehtävät</strong></div>
 <div class="col-xs-6"><strong>Ratkaisut</strong></div>
-</div>   
+</div>  
+<div class="row list-group-item">
+<div class="col-xs-3 col-sm-2 col-md-1">2018</div>
+<div class="col-xs-3 col-sm-2 col-md-1"><a href="2018/alkuteht2018.pdf">pdf</a></div>
+<div class="col-xs-6"><a href="2018/alkuratk2018.pdf">pdf</a></div>
+</div>
+<div class="row list-group-item">
+<div class="col-xs-3 col-sm-2 col-md-1">2017</div>
+<div class="col-xs-3 col-sm-2 col-md-1"><a href="2017/alkuteht2017.pdf">pdf</a></div>
+<div class="col-xs-6"><a href="2017/alkuratk2017.pdf">pdf</a></div>
+</div>
 <div class="row list-group-item">
 <div class="col-xs-3 col-sm-2 col-md-1">2016</div>
 <div class="col-xs-3 col-sm-2 col-md-1"><a href="2016/al2016.pdf">pdf</a></div>
