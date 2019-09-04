@@ -195,7 +195,7 @@ kilpailut:
     
 ---
 
-### Yleistä
+## Yleistä
 
 Baltian Tie -joukkuematematiikkakilpailu pidettiin ensimmäisen kerran vuonna 1990
 Latviassa, Riiassa. Kilpailun nimi on muisto kaikissa Baltian maissa
@@ -215,7 +215,7 @@ vierailevan maan. Vuonna 2001 kutsuttiin Israel, 2004 ja 2014 Valko-Venäjä,
 
 Baltian Tie -kilpailussa viisihenkiset joukkueet toimivat yhteistyössä. Tehtäviä on 20, ja vaikka ne ovat ehkä hiukan helpompia kuin Kansainvälisten Matematiikkaolympialaisten tehtävät, niin niiden ratkaiseminen neljän ja puolen tunnin kilpailun aikana vaatii melkein välttämättä joukkueen työnjakoa. Joskus työnjako voi ilmetä niin, että toinen joukkueenjäsen jalostaa toisen keksimän idean valmiiksi ratkaisuksi.
 
-### Tehtävät ja ratkaisut
+## Tehtävät ja ratkaisut
 
 Kaikkien Baltian Tie -kilpailujen tehtävät (540 kappaletta!) vuosilta
 1999-2016 voi ladata yhtenä [pdf-tiedostona tästä](bwteht.pdf).
