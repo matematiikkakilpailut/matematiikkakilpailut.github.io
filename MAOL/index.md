@@ -14,16 +14,17 @@ Matemaattisten aineiden opettajien liitto [MAOL](https://maol.fi/)
 järjestää vuosittain 
 [matematiikkakilpailuja](https://maol.fi/neljan-tieteen-kisat/) 
 peruskoululaisille ja lukiolaisille. Alkukilpailut pidetään
-omissa kouluissa loppusyksystä. Alkukilpailun parhaat pääsevät
+omissa kouluissa syksyllä. Alkukilpailun parhaat pääsevät
 seuraavan vuoden alussa pidettävään loppukilpailuun. 
 Kilpailuihin voi päästä mukaan kertomalla matematiikan 
-opettajalleen osallistumishalustaan syksyllä.
+opettajalleen osallistumishalustaan hyvissä ajoin ennen
+kilpailua.
 
 ## Peruskoulun matematiikka&shy;kilpailu
 
 Peruskoulun matematiikka&shy;kilpailu on suunnattu ensi sijassa
-peruskoulun 9. luokan oppilaille, mutta ei osallistumista
-nuoremmiltakaan ole kielletty. Kilpailussa on kaksi kierrosta.
+peruskoulun 9. luokan oppilaille, mutta myös nuoremmat oppilaat
+voivat mainiosti osallistua. Kilpailussa on kaksi kierrosta.
 Alkukilpailu pidetään kouluissa. Loppukilpailuun kutsutaan noin 20
 alkukilpailun parasta. Loppukilpailuun osallistuu yleensä kaksi
 virolaista vierailijaa, ja peruskoulun kilpailun kaksi parasta on
@@ -42,7 +43,7 @@ mukaan: *avoin*, *väli-* ja *perussarja*. Näistä avoin sarja
 on vaikein. Kunkin sarjan parhaat pääsevät loppukilpailuun, 
 jossa on sarjoista huolimatta vain yhdet tehtävät.
 
-Peruskoululaiset voivat halutessaan osallistua myös lukion
+Peruskoululaiset voivat halutessaan osallistua lukion
 kilpailuun.
 
 Jonkin verran MAOL:n Lukion matematiikka&shy;kilpailun alkukilpailutehtäviä
