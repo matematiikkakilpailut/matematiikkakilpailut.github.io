@@ -152,7 +152,7 @@ kilpailut:
 
 ---
 
-### Yleistä
+## Yleistä
 
 <abbr>IMO</abbr> (<span lang="en">International Mathematical
 Olympiad</span>) sai alkunsa vuonna 1959 Romaniassa. Se on järjestetty
@@ -186,7 +186,7 @@ materiaalia.
 Matematiikkaolympialaisten kulkua valottaa myös kilpailijoille tarkoitettu
 [käytännön opas](/kirjallisuus/kaytannon_ohjeet.pdf).
 
-### Tehtävät ja ratkaisut
+## Tehtävät ja ratkaisut
 
 Vuosien 1959-1974 tehtävät ja ratkaisut ovat (vaikeasti) saatavilla
 kirjasena Matti Lehtinen (toim.):
@@ -271,7 +271,7 @@ Vuonna 2019 Suomea edustivat Juho Arala, Hermanni Huhtamäki, Akseli Jussinmäki
 Olli Järviniemi, Roope Salmi ja Nerissa Shakespeare. Järviniemi palkittiin 
 hopeamitalilla, Salmi pronssimitalilla sekä Arala ja Jussinmäki kunniamaininnoilla.
 
-### Menneet kilpailut
+## Menneet kilpailut
 
 {% comment %}
 Seuraavan taulukon sarakkeessa "Suomen tulos" kerrotaan Suomen
