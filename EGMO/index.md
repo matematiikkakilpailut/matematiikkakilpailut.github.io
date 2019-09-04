@@ -51,7 +51,6 @@ kilpailut:
     ratkaisut: "[Solmu-lehdessä](http://solmu.math.helsinki.fi/2012/3/egmo.pdf)"
     edustajat: "**Pihla Karanko, Katja Kulmala, Neea Palojärvi** (kunniamaininta), **Jiali Yan** (pronssi)"
 ---
-## Euroopan tyttöjen matematiikka&shy;olympialaiset – EGMO
 
 ### Yleistä
 
