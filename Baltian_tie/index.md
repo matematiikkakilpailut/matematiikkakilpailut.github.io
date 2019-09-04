@@ -194,7 +194,6 @@ kilpailut:
   
     
 ---
-## Baltian Tie -joukkuematematiikkakilpailu
 
 ### Yleistä
 
@@ -247,11 +246,5 @@ tgz). Tulossarakkeen mahdolliset linkit ovat tulostaulukoihin.
 </div>
 
 
-
-### Tulokset
-
-Aikaisempien kilpailujen tuloksia löytyy yllä olevan taulukon linkeistä.
-Vuosien 1997-2012 kilpailujen maa- ja tehtäväkohtaiset pisteet löytyvät myös oheisesta
-[tuloskoosteesta](tulokset.html).
 
 
