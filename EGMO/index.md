@@ -52,7 +52,7 @@ kilpailut:
     edustajat: "**Pihla Karanko, Katja Kulmala, Neea Palojärvi** (kunniamaininta), **Jiali Yan** (pronssi)"
 ---
 
-### Yleistä
+## Yleistä
 
 Ensimmäiset [Euroopan tyttöjen matematiikka&shy;olympialaiset](https://www.egmo.org/)
 pidettiin vuonna 2012 Cambridgessä Englannissa, josta olikin tullut aloite kilpailun järjestämiseen. 
@@ -66,7 +66,7 @@ Suomi osallistuu kilpailuun vuosittain enintään nelihenkisellä joukkueella.
 
 [Seuraavat](https://egmo2020.nl/) Euroopan tyttöjen matematiikkaolympialaiset järjestetään 15.-21.4.2020 Egmond aan Zee -kylässä Alankomaissa.
 
-### Menneet kilpailut
+## Menneet kilpailut
 
 Lue kilpailijoiden ja joukkueenjohdon mietteitä kilpailusta [Dimensio-lehdestä](https://www.dimensiolehti.fi/mika-on-egmo-ja-mita-siella-tehdaan/)!
 
