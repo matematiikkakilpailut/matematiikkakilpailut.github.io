@@ -162,7 +162,8 @@ kilpailut:
     paikka: Taipei, Taiwan
     sijoitus: "[30 p. (60./76)](https://www.imo-official.org/year_country_r.aspx?year=1998&column=total&order=desc), ei mitaleja"
     tehtavat: "[kokoelmassa](imokaikki.pdf)" 
-    ratkaisut: "[kokoelmassa](imokaikki.pdf)"   
+    ratkaisut: "[kokoelmassa](imokaikki.pdf)"  
+    muuta: "[Solmu-lehdessä](https://matematiikkalehtisolmu.fi/1998/2/kangaslampi.html)"
     edustajat: "Mikko Harju, Tuomas Hytönen, Tuomo Hyyryläinen, Riikka Kangaslampi, Hannu Niemistö, Tomas Östman"
   - vuosi: "1997"
     paikka: "[Mar del Plata, Argentiina](http://www.oma.org.ar/imo97/index_en.html)"
@@ -332,13 +333,13 @@ Joidenkin vuosien kohdalla taulukosta on linkkejä lisätietoihin.
 {% for k in page.kilpailut %}
 <div class="row kilpailut list-group-item">
 <div class="col-xs-2 col-sm-1">{% if k['vuosi'] != null %}{{ k['vuosi'] | markdownify }}{% endif %}</div>
-<div class="col-xs-4 col-sm-2">{% if k['paikka'] != null %}{{ k['paikka'] | markdownify }}{% endif %}</div>
+<div class="col-xs-4 col-sm-1">{% if k['paikka'] != null %}{{ k['paikka'] | markdownify }}{% endif %}</div>
 <div class="col-xs-6 col-sm-2">{% if k['sijoitus'] != null %}{{ k['sijoitus'] | markdownify }}{% endif %}</div>
 <div class="clearfix visible-xs"></div>
-<div class="col-xs-4 col-xs-offset-2 col-sm-2 col-sm-offset-0">{% if k['tehtavat'] != null %}{{ k['tehtavat'] | markdownify }}{% endif %}</div>
-<div class="col-xs-2">{% if k['ratkaisut'] != null %}{{ k['ratkaisut'] | markdownify }}{% endif %}</div>
+<div class="col-xs-4 col-xs-offset-2 col-sm-1 col-sm-offset-0">{% if k['tehtavat'] != null %}{{ k['tehtavat'] | markdownify }}{% endif %}</div>
+<div class="col-xs-1">{% if k['ratkaisut'] != null %}{{ k['ratkaisut'] | markdownify }}{% endif %}</div>
 <div class="col-xs-4 col-sm-2">{% if k['muuta'] != null %}{{ k['muuta'] | markdownify }}{% endif %}</div>
-<div class="col-xs-4 col-sm-4">{{ k['edustajat'] | markdownify }}</div>
+<div class="col-xs-4 col-sm-3">{{ k['edustajat'] | markdownify }}</div>
 </div>
 {% endfor %}
 </div>
