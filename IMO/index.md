@@ -58,7 +58,7 @@ kilpailut:
     muuta: "[Solmu-lehdessä](https://matematiikkalehtisolmu.fi/2014/3/imo14.pdf)"  
     edustajat: "Jere Huovinen, Mirjam Kauppila, Riku Laakkonen, Timo Takala, Ella Tamir, Jakob Wartiovaara" 
   - vuosi: "2013"
-    paikka: "[Santa Marta, Kolumbia]"
+    paikka: "Santa Marta, Kolumbia"
     sijoitus: "[46 p. (67./97)](https://www.imo-official.org/year_country_r.aspx?year=2013), 1 hopea"
     tehtavat: "[pdf](2013/teht2013.pdf)"
     ratkaisut: "[pdf](2013/ratk2013.pdf)"
@@ -333,12 +333,12 @@ Joidenkin vuosien kohdalla taulukosta on linkkejä lisätietoihin.
 {% for k in page.kilpailut %}
 <div class="row kilpailut list-group-item">
 <div class="col-xs-2 col-sm-1">{% if k['vuosi'] != null %}{{ k['vuosi'] | markdownify }}{% endif %}</div>
-<div class="col-xs-4 col-sm-1">{% if k['paikka'] != null %}{{ k['paikka'] | markdownify }}{% endif %}</div>
+<div class="col-xs-4 col-sm-2">{% if k['paikka'] != null %}{{ k['paikka'] | markdownify }}{% endif %}</div>
 <div class="col-xs-6 col-sm-2">{% if k['sijoitus'] != null %}{{ k['sijoitus'] | markdownify }}{% endif %}</div>
 <div class="clearfix visible-xs"></div>
 <div class="col-xs-4 col-xs-offset-2 col-sm-1 col-sm-offset-0">{% if k['tehtavat'] != null %}{{ k['tehtavat'] | markdownify }}{% endif %}</div>
 <div class="col-xs-1">{% if k['ratkaisut'] != null %}{{ k['ratkaisut'] | markdownify }}{% endif %}</div>
-<div class="col-xs-4 col-sm-2">{% if k['muuta'] != null %}{{ k['muuta'] | markdownify }}{% endif %}</div>
+<div class="col-xs-4 col-sm-1">{% if k['muuta'] != null %}{{ k['muuta'] | markdownify }}{% endif %}</div>
 <div class="col-xs-4 col-sm-3">{{ k['edustajat'] | markdownify }}</div>
 </div>
 {% endfor %}
