@@ -338,7 +338,7 @@ Joidenkin vuosien kohdalla taulukosta on linkkejä lisätietoihin.
 <div class="clearfix visible-xs"></div>
 <div class="col-xs-4 col-xs-offset-2 col-sm-1 col-sm-offset-0">{% if k['tehtavat'] != null %}{{ k['tehtavat'] | markdownify }}{% endif %}</div>
 <div class="col-xs-1">{% if k['ratkaisut'] != null %}{{ k['ratkaisut'] | markdownify }}{% endif %}</div>
-<div class="col-xs-4 col-sm-1">{% if k['muuta'] != null %}{{ k['muuta'] | markdownify }}{% endif %}</div>
+<div class="col-xs-4 col-sm-2">{% if k['muuta'] != null %}{{ k['muuta'] | markdownify }}{% endif %}</div>
 <div class="col-xs-4 col-sm-3">{{ k['edustajat'] | markdownify }}</div>
 </div>
 {% endfor %}
