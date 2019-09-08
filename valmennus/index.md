@@ -40,10 +40,9 @@ valintakokeissa.
 
 Syyskuun 2019 [tehtävät](2019/kirje_2019_09.pdf).
 
-Kesäkauden 2019 [tehtävät](2019/kirje_2019_05.pdf).
+Kesäkauden 2019 [tehtävät](2019/kirje_2019_05.pdf) ja niiden [ratkaisut](2019/ratk_2019_05.pdf).
 &mdash;<span lang="sv">[Den enklare problemuppsättningen på svenska](https://matteverkstaden.wordpress.com/2019/06/15/sommarutmaning/),
 översatt av Edward Krogius.</span>
-Teht&auml;vien [ratkaisut](2019/ratk_2019_05.pdf).
 
 Huhtikuun 2019 [tehtävät](2019/kirje_2019_04.pdf).
 **Korjaus 20.4.2019:** lisätään tehtävien 20&ndash;22 oletuksiin,
