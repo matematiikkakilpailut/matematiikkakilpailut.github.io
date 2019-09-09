@@ -4,10 +4,10 @@ title: Pohjoismainen matematiikka&shy;kilpailu
 url: /PM/
 description: >-
   Pohjoismainen matematiikkakilpailu sijoittuu vaikeustasoltaan kansallisten
-  kilpailujen ja matematiikkaolympialaisten väliin. Osallistujat ratkovat
-  tehtäviä yhtä aikaa kukin omassa koulussaan. Kilpailu on yksi tärkeä näyttö
-  valittaessa joukkuetta matematiikkaolympialaisiin. Tällä sivulla on aiempien
-  kilpailujen tehtäviä, ratkaisuja ja tulostietoja.
+  kilpailujen ja matematiikkaolympialaisten vÃ¤liin. Osallistujat ratkovat
+  tehtÃ¤viÃ¤ yhtÃ¤ aikaa kukin omassa koulussaan. Kilpailu on yksi tÃ¤rkeÃ¤ nÃ¤yttÃ¶
+  valittaessa joukkuetta matematiikkaolympialaisiin. TÃ¤llÃ¤ sivulla on aiempien
+  kilpailujen tehtÃ¤viÃ¤, ratkaisuja ja tulostietoja.
 kilpailut:
   - vuosi: 2019
     tehtavat: "2019/PM2019.pdf"
@@ -52,51 +52,51 @@ kilpailut:
     tulokset: 2009/NMC2009res.pdf
 ---
 
-## Yleistä
+## YleistÃ¤
 
 Pohjoismainen matematiikka&shy;kilpailu on kouluesimerkki pohjoismaisesta
-joustavasta tavasta hoitaa asioita. Kilpailuja on käyty vuodesta 1987,
-kun todettiin, että kansallisten kilpailujen ja
-matematiikka&shy;olympialaisten väliin tarvitaan sopivan&shy;tasoinen kisa.
-Järjestysvuoro kiertää käänteisessä ruotsinkielisen maannimen
-mukaisessa järjestyksessä osallistuvissa maissa, ja kilpailu
-järjestetään yht'aikaa kunkin kilpailijan omassa koulussa.
-Pohjoismaisessa matematiikka&shy;olympialaisissa noudatetaan käytännössä
-vakiintuneita [käytäntöjä ja sääntöjä](nmcrules.html).
+joustavasta tavasta hoitaa asioita. Kilpailuja on kÃ¤yty vuodesta 1987,
+kun todettiin, ettÃ¤ kansallisten kilpailujen ja
+matematiikka&shy;olympialaisten vÃ¤liin tarvitaan sopivan&shy;tasoinen kisa.
+JÃ¤rjestysvuoro kiertÃ¤Ã¤ kÃ¤Ã¤nteisessÃ¤ ruotsinkielisen maannimen
+mukaisessa jÃ¤rjestyksessÃ¤ osallistuvissa maissa, ja kilpailu
+jÃ¤rjestetÃ¤Ã¤n yht'aikaa kunkin kilpailijan omassa koulussa.
+Pohjoismaisessa matematiikka&shy;olympialaisissa noudatetaan kÃ¤ytÃ¤nnÃ¶ssÃ¤
+vakiintuneita [kÃ¤ytÃ¤ntÃ¶jÃ¤ ja sÃ¤Ã¤ntÃ¶jÃ¤](nmcrules.html).
 
-Suomen enintään 20 edustajaa Pohjoismaiseen matematiikka&shy;kilpailuun
+Suomen enintÃ¤Ã¤n 20 edustajaa Pohjoismaiseen matematiikka&shy;kilpailuun
 valitaan olympia&shy;valmennukseen osallistuvien ja Lukion
-matematiikka&shy;kilpailussa menestyneiden joukosta. Valittuihin ja heidän
-kouluihinsa otetaan yhteyttä kirjeitse tai sähköposteitse joitakin
-vikkoja ennen kilpailua. Kilpailu on yksi tärkeä näyttö, kun valitaan
-joukkuetta kesän kansainvälisiin matematiikka&shy;olympialaisiin ja
-henkilöitä toukokuiselle joukkeen valinta- ja valmennusviikolle.
+matematiikka&shy;kilpailussa menestyneiden joukosta. Valittuihin ja heidÃ¤n
+kouluihinsa otetaan yhteyttÃ¤ kirjeitse tai sÃ¤hkÃ¶posteitse joitakin
+vikkoja ennen kilpailua. Kilpailu on yksi tÃ¤rkeÃ¤ nÃ¤yttÃ¶, kun valitaan
+joukkuetta kesÃ¤n kansainvÃ¤lisiin matematiikka&shy;olympialaisiin ja
+henkilÃ¶itÃ¤ huhti-toukokuuss pidettÃ¤vÃ¤lle joukkeen valinta- ja valmennusviikolle.
 
-Tanskan matematiikka&shy;olympia&shy;valmennus ylläpitää Pohjoismaisen
+Tanskan matematiikka&shy;olympia&shy;valmennus yllÃ¤pitÃ¤Ã¤ Pohjoismaisen
 matematiikka&shy;kilpailun [virallista kotisivua](http://www.georgmohr.dk/nmcperm/).
-Sieltä löytyvät mm. kaikki kilpailutehtävät ja ratkaisut
-englanninkielisinä ja useiden kilpailujen tehtävät eri pohjoismaisilla
-kielillä.
+SieltÃ¤ lÃ¶ytyvÃ¤t mm. kaikki kilpailutehtÃ¤vÃ¤t ja ratkaisut
+englanninkielisinÃ¤ ja useiden kilpailujen tehtÃ¤vÃ¤t eri pohjoismaisilla
+kielillÃ¤.
 
-## Tehtävät ja ratkaisut
+## TehtÃ¤vÃ¤t ja ratkaisut
 
-Vuosien 1987-1994 tehtävät ja ratkaisut ovat tarjolla kirjassa
-_Matti Lehtinen: Matematiikan olympiakirja._ Näiden
-vuosien [tehtävät](nmct87_94.pdf) ja [ratkaisut](nmcr87_94.pdf) saa myös
-oheisista linkeistä.
+Vuosien 1987-1994 tehtÃ¤vÃ¤t ja ratkaisut ovat tarjolla kirjassa
+_Matti Lehtinen: Matematiikan olympiakirja._ NÃ¤iden
+vuosien [tehtÃ¤vÃ¤t](nmct87_94.pdf) ja [ratkaisut](nmcr87_94.pdf) saa myÃ¶s
+oheisista linkeistÃ¤.
 
-[Vuosien 1995-2016 tehtävät ja ratkaisut](nmckaikki.pdf) ovat
-ladattavissa yhtenä tiedostona pdf-muodossa. 
+[Vuosien 1995-2016 tehtÃ¤vÃ¤t ja ratkaisut](nmckaikki.pdf) ovat
+ladattavissa yhtenÃ¤ tiedostona pdf-muodossa. 
 
 ## Menneet kilpailut
 
-Alla olevassa taulukossa on tietoa menneistä kilpailuista vuodesta 1995 lähtien.
+Alla olevassa taulukossa on tietoa menneistÃ¤ kilpailuista vuodesta 1995 lÃ¤htien.
 
 <div class="list-group">
 {% assign c = 'class="col-xs-3 col-sm-2 col-md-1"' %}
 <div class="row list-group-item">
 <div {{ c }}><strong>Vuosi</strong></div>
-<div {{ c }}><strong>Tehtävät</strong></div>
+<div {{ c }}><strong>TehtÃ¤vÃ¤t</strong></div>
 <div {{ c }}><strong>Ratkaisut</strong></div>
 <div {{ c }}><strong>Tulokset</strong></div>
 </div>
