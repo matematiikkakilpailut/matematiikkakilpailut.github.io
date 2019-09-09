@@ -177,17 +177,20 @@ kilpailut:
     paikka: "Vil&shy;na"
     sijoitus: "-"
     tehtavat: "[pdf](1992/Bt1992.pdf), [ps](1992/Bt1992.ps)"
-    ratkaisut: "[koko&shy;el&shy;massa](Btratk1990_99.pdf)"      
+    ratkaisut: "[koko&shy;el&shy;massa](Btratk1990_99.pdf)"     
+    joukkue: "-"
   - vuosi: "1991"
     paikka: "Tart&shy;to"
     sijoitus: "-"
     tehtavat: "[pdf](1991/Bt1991.pdf), [ps](1991/Bt1991.ps)"
     ratkaisut: "[koko&shy;el&shy;massa](Btratk1990_99.pdf)"
+    joukkue: "-"
   - vuosi: "1990"
     paikka: "Rii&shy;ka"
     sijoitus: "-"
     tehtavat: "[pdf](1990/Bt1990.pdf), [ps](1990/Bt1990.ps)"
     ratkaisut: "[koko&shy;el&shy;massa](Btratk1990_99.pdf)"
+    joukkue: "-"
    
   
  
@@ -227,10 +230,8 @@ Melkein kaikkien Baltian Tie -kilpailujen tehtävät ja ratkaisut
 löytyvät englanninkielisinä
 [Viron matematiikkakilpailujen verkkosivuilta](http://www.math.olympiaadid.ut.ee/eng/html/?id=bw).
 
-Eri vuosien kilpatehtäviä ja ratkaisuja on tarjolla sekä pdf-,
-PostScript- (lyh. ps) että LaTeX/TeX-muodossa gtar-paketissa (lyh.
-tgz). Tulossarakkeen mahdolliset linkit ovat tulostaulukoihin.
 
+## Menneet kilpailut
 
 <div class="list-group">
 {% for k in page.kilpailut %}
