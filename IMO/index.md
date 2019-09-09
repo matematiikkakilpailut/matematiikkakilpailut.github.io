@@ -319,6 +319,8 @@ hopeamitalilla, Salmi pronssimitalilla sekä Arala ja Jussinmäki kunniamaininno
 
 ## Menneet kilpailut
 
+Alla on tietoa menneistä kilpailuista vuodesta 1993 lähtien.
+
 {% comment %}
 Seuraavan taulukon sarakkeessa "Suomen tulos" kerrotaan Suomen
 joukkueen yhteispisteet ja sijoitus muodossa **X p. (Y./Z.)**,
