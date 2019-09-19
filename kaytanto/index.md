@@ -14,8 +14,9 @@ Valmennusjaosto voi harkinnan mukaan
 tukea taloudellisesti valmennus­tapahtumiin osallistuvia, ks.
 <a href="#tuki">ohjeet</a>.
 
-Tutustu myös [kirjevalmennukseen](https://matematiikkakilpailut.fi/valmennus/) 
-ja valmennuksen [aikatauluun](https://matematiikkakilpailut.fi/aikataulu/).
+Tutustu myös [kirjevalmennukseen](https://matematiikkakilpailut.fi/valmennus/), 
+valmennuksen [aikatauluun](https://matematiikkakilpailut.fi/aikataulu/)
+ja <a href="#kaytantoa">käytännön asioihin</a>.
 
 ## Valmennusviikonloput
 
