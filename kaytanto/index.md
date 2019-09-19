@@ -89,9 +89,8 @@ Lue lisää leirin käytännön järjestelyistä <a href="#kaytantoa">alta</a>.
 Olympiajoukkueelle ja resurssien mukaan muille valmennuksessa
 menestyneimmille oppilaille järjestetään vuosittain kesäkuussa
 vajaan viikon mittainen *kesäleiri*. Leirin tavoitteena on ensisijaisesti
-harjoitella Kansainvälisiä Matematiikkaolympialaisia varten.
-
-Leirin jäsjestämispaikka vaihtelee vuosittain -viime vuosina se on 
+harjoitella Kansainvälisiä Matematiikkaolympialaisia varten. Järjestämispaikka 
+vaihtelee vuosittain -viime vuosina se on 
 järjestetty muun muassa Helsingissä, Tampereella ja Turussa.
 Osallistujien matka- ja täysihoitokulut maksetaan valmennusjaoston
 toimesta.
