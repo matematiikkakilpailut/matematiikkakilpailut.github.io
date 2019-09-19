@@ -113,7 +113,8 @@ Leirin yhteydessä järjestetään myös
 joukkueiden välillä.
 
 
-## <div id="kaytantoa">Käytännön asioita</div> 
+## Käytännön asioita
+<div id="kaytantoa"></div>
 
 ### Päivölän opistosta ja sen sijainnista
 
@@ -141,7 +142,8 @@ on yleensä tiistaisin, torstaisin ja lauantaisin sanamahdollisuus.
 
 Laskut lähetetään annettuun laskutusosoitteeseen valmennuksen jälkeen.
 
-### <div id="tuki">Taloudellinen tuki</div> 
+### Taloudellinen tuki
+<div id="tuki"></div>
 
 Valmennusjaosto voi harkintansa mukaan tukea valmennustapahtumiin
 osallistujia. Rahaa on käytettävissä välillä enemmän ja välillä vähemmän, joten tukea
@@ -155,3 +157,4 @@ Vaikka Anne-Marian kotisivu on ruotsinkielinen, hakemuksen voi kirjoittaa
 myös suomeksi tai englanniksi.
 
 Kilpailumatkojen kulut korvataan tietysti kaikille joukkueisiin valituille.
+
