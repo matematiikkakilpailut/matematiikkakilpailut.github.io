@@ -5,7 +5,7 @@ url: /kaytanto/
 ---
 
 Valmennusjaosto järjestää sekä **kaikille koululaisille avoimia** 
-valmennustapahtumia (ks. mm. valmennusviikonloput) että henkilökohtaiseen
+(ks. mm. valmennusviikonloput) että henkilökohtaiseen
 kutsuun perustuvia valmennustapahtumia. Valmennustapahtumat on suunnattu 
 tasoltaan lukiolaisille ja taitavimmille yläkoululaisille. 
 Niistä kerrotaan tarkemmin alla.
