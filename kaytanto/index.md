@@ -71,7 +71,7 @@ Lue lisää leirin käytännön järjestelyistä <a href="#kaytantoa">alta</a>.
 
 ## Peruskoululaisten kesäleiri
 
-Vuosittain kesäkuussa pidettävät *peruskoululaisten* nelipäiväinen *kesäleiri* 
+Vuosittain kesäkuussa pidettävä *peruskoululaisten* nelipäiväinen *kesäleiri* 
 on suunnattu yläkoululaisille. Ohjelmassa on kilpamatematiikan lisäksi
 hieman kevyempää harrastusmatematiikkaa ja yhdessäoloa samanhenkisessä
 seurassa matematiikan parissa. [Tästä](aikataulu_perus.pdf) voi lukea
