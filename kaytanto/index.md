@@ -23,9 +23,7 @@ ja valmennuksen [aikatauluun](https://matematiikkakilpailut.fi/aikataulu/).
 kestäviä valmennustapahtumia. Ne ovat
 **kaikille koululaisille avoimia**. Ohjelmassa on opetusta 
 kilpailumatematiikan eri osa-alueilta, tehtävänratkaisua ja 
-harjoituskokeita innostavassa seurassa.
-
-Valmennusviikonloppuja on vuoden aikana kuusi; 
+harjoituskokeita innostavassa seurassa. Valmennusviikonloppuja on vuoden aikana kuusi; 
 kolme keväisin ja kolme syksyisin. Valmennukseen osallistumisen
 voi aloittaa minä viikonloppuna tahansa. Seuraavan 
 valmennusviikonlopun ajankohta löytyy 
