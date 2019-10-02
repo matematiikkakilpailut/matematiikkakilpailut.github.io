@@ -19,7 +19,7 @@ kilpailut:
     sijoitus: "[78 p. (65./112)](https://www.imo-official.org/year_country_r.aspx?year=2019), 1 hopea, 1 pronssi"
     tehtavat: "[pdf](2019/teht2019.pdf)"
     ratkaisut: "[englanniksi](2019/sol2019.pdf)"
-    muuta: ""
+    muuta: "[Dimensiossa](https://www.dimensiolehti.fi/kansainvaliset-matematiikkaolympialaiset-imo-2019/)"
     edustajat: "Juho Arala, Hermanni Huhtamäki, Akseli Jussinmäki, Olli Järviniemi, Roope Salmi, Nerissa Shakespeare"  
   - vuosi: "2018"
     paikka: "[Cluj-Napoca, Romania](http://www.imo2018.org/)"
@@ -319,7 +319,10 @@ hopeamitalilla, Salmi pronssimitalilla sekä Arala ja Jussinmäki kunniamaininno
 
 ## Menneet kilpailut
 
-Alla on tietoa menneistä kilpailuista vuodesta 1993 lähtien.
+Lue olympialaisiin valmentautumisesta ja erityisesti vuoden
+2018 kilpailusta [Image-lehdestä](https://www.apu.fi/artikkelit/laske-kovempaa).
+
+Alla on tietoa menneistä kilpailuista vuodesta 1993 lähtien. 
 
 {% comment %}
 Seuraavan taulukon sarakkeessa "Suomen tulos" kerrotaan Suomen
