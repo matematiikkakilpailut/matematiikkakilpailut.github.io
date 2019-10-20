@@ -38,6 +38,8 @@ valintakokeissa.
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
+Lokakuun 2019 [tehtävät](2019/kirje_2019_10.pdf).
+
 Syyskuun 2019 [tehtävät](2019/kirje_2019_09.pdf).
 
 Kesäkauden 2019 [tehtävät](2019/kirje_2019_05.pdf) ja [ratkaisut](2019/ratk_2019_05.pdf).
