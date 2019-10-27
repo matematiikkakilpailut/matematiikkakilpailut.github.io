@@ -39,6 +39,7 @@ valintakokeissa.
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
 Lokakuun 2019 [tehtävät](2019/kirje_2019_10.pdf).
+**Korjaus 27.10.2019**: tehtävässä 12 on kyse kokonaislukujuurista.
 
 Syyskuun 2019 [tehtävät](2019/kirje_2019_09.pdf).
 
