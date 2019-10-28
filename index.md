@@ -9,6 +9,8 @@ description: >-
   kuten Kansainvälisiin matematiikkaolympialaisiin.
 url: /
 ---
+<img float="right" src="/OPH_rahoittaa_rgb.png" width="360" height="348" />
+
 [Matematiikka&shy;kilpailujen](kilpailut) tarkoituksena on
 kannustaa lahjakkaita nuoria harrastamaan matematiikkaa.  Tähän
 liittyvästä valmennuksesta Suomessa vastaa
