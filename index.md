@@ -9,7 +9,7 @@ description: >-
   kuten Kansainvälisiin matematiikkaolympialaisiin.
 url: /
 ---
-<p float="right"><img src="/OPH_rahoittaa_rgb.png" width="360" height="348" /></p>
+<p float="right"><img src="/OPH_rahoittaa_rgb.png" width="180" height="174" /></p>
 
 [Matematiikka&shy;kilpailujen](kilpailut) tarkoituksena on
 kannustaa lahjakkaita nuoria harrastamaan matematiikkaa.  Tähän
