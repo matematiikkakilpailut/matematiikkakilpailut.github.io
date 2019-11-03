@@ -20,8 +20,8 @@ aikataulu:
     tapahtuma: >-
       [Harppi 2019](https://www.mayk.fi/matematiikka-ja-tiedefestarit-9-11-2019/) &ndash;
       matematiikka- ja tiede&shy;festarit Maunulassa
-  - pvm: "14.&ndash;19.11."
-    tapahtuma: "Baltian tie -kilpailu Szczecinissä, Puolassa"
+  - pvm: "15.&ndash;19.11."
+    tapahtuma: "[Baltian tie -kilpailu](http://balticway19.mimuw.edu.pl/) Szczecinissä, Puolassa"
   - pvm: "29.11.&ndash;1.12. (viikko 48)"
     tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä"
   - pvm: "2020"
@@ -40,7 +40,7 @@ aikataulu:
   - pvm: "noin viikko 14"
     tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä"
   - pvm: "15.&ndash;21.4."
-    tapahtuma: "[Euroopan tyttöjen matematiikka&shy;olympialaiset <abbr>EGMO</abbr> Egmond aan Zeessä](https://egmo2020.nl)"
+    tapahtuma: "[Euroopan tyttöjen matematiikka&shy;olympialaiset <abbr>EGMO</abbr>](https://egmo2020.nl) Egmond aan Zeessä"
   - pvm: "noin toukokuussa"
     tapahtuma: "Olympia&shy;joukkueen valinta- ja valmennus&shy;viikko Päivölässä"
   - pvm: "noin kesäkuun alussa"
