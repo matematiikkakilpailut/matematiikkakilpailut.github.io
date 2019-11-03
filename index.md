@@ -11,6 +11,28 @@ url: /
 ---
 <p float="right"><img src="/OPH_rahoittaa_rgb.png" width="180" height="174" /></p>
 
+[Matematiikkakilpailuiden](kilpailut) tarkoituksena on kannustaa 
+lahjakkaita nuoria harrastamaan matematiikkaa. Tähän liittyvästä 
+valmennuksesta ja kilpailuihin osallistumisesta vastaa Suomessa 
+[Suomen matemaattisen yhdistyksen](http://www.matemaattinenyhdistys.fi/) 
+[Valmennusjaosto](valmentajat).
+
+Valmennus koostuu yleensä viikonloppuisin Päivölän opistolla 
+järjestettävistä [**valmennustapahtumista**](kaytanto) 
+(ks. [aikataulu](aikataulu)) sekä [**kirjevalmennuksesta**](valmennus), 
+joka on tarkoitettu kaikille, myös niille, jotka eivät voi 
+osallistua valmennustapahtumiin. **Tilaisuudet ovat kaikille 
+koululaisille avoimia** ja ne on suunnattu erityisesti 
+lukio- ja yläkouluikäisille.
+
+[Kilpailuja](kilpailut) on eri tasoilla kansallisista 
+alueellisista kilpailuista Kansainvälisiin Matematiikkaolympialaisiin.
+
+**[Ilmoittaudu](https://www.paivola.fi/fi/matematiikkakilpailuvalmennukseen-ilmoittautuminen/) 
+seuraavaan [valmennusviikonloppuun](aikataulu) vähintään 
+viikkoa etukäteen!**
+
+{% comment %}
 [Matematiikka&shy;kilpailujen](kilpailut) tarkoituksena on
 kannustaa lahjakkaita nuoria harrastamaan matematiikkaa.  Tähän
 liittyvästä valmennuksesta Suomessa vastaa
@@ -60,6 +82,8 @@ mukaan. Viikonloppujen ohjelmassa on opetusta kilpailu&shy;matematiikan eri
 osa-alueiden aloilta, tehtävänratkaisua ja pieniä
 harjoituskokeita. Valmennus&shy;viikonloppuihin liittyvistä käytännön
 kysymyksistä löytyy lisätietoa [täältä](kaytanto).
+
+{% endcomment %}
 
 ## <a name="uutisia"></a>Uutisia
 
