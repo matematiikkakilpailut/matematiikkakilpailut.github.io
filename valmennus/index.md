@@ -38,8 +38,9 @@ valintakokeissa.
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
-Lokakuun 2019 [tehtävät](2019/kirje_2019_10.pdf).
-**Korjaus 27.10.2019**: tehtävässä 12 on kyse kokonaislukujuurista.
+Lokakuun 2019 [tehtävät](2019/kirje_2019_10.pdf).<br>
+**Korjaus 27.10.2019**: tehtävässä 12 on kyse kokonaislukujuurista.<br>
+**Korjaus 10.11.2019**: tehtävässä 13 käännetään vain yhden lapun naapurit kerrallaan.
 
 Syyskuun 2019 [tehtävät](2019/kirje_2019_09.pdf).
 
