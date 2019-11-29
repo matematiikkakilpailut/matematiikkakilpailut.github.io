@@ -1,8 +1,58 @@
 ---
 layout: page
-title: Aiheet
+title: Valmennusmateriaalia
 url: /aiheet/
 ---
+
+Varoituksen sana aloitteleville kilpailijoille:
+matematiikkakilpailuihin liittyvää kirjallisuutta on sekä tällä sivulla että muualla varsin paljon
+ja se on yleensä selvästi lukiokurssia vaativampaa. Ei pidä lannistua, vaan kannattaa yrittää löytää
+jotain omiin pohjatietoihin ja kiinnostukseen sopivaa. Myös [valmennustapahtumissa](/kaytanto/)
+voi saada opetusta ja vinkkejä.
+
+## <a name="muita"></a>Yleistä
+
+*   [Kilpailumatematiikan opas](/kirjallisuus/kilpmatopas.pdf)
+    Kilpailumatematiikassa keskeisten todistamisen, algebran, geometrian, lukuteorian ja
+	kombinatoriikan tietojen 108-sivuinen kooste. Saatavissa myös paperisena.
+	– Tästä ladattavassa pdf-versiossa on korjattu joitakin paperiversion virheitä.
+*   [Pieni kilpailumatematiikan opas](/kirjallisuus/opas.pdf)
+    Lyhyempi kooste keskeisestä kilpailumatematiikasta: todistamisesta, epäyhtälöistä,
+	lukuteoriasta, algebrasta, geometriasta ja kombinatoriikasta. Jonkin verran laajennettu
+	versio Matti Lehtisen _Matematiikan olympiakirjassa_ julkaistusta ”Lyhyestä
+	olympia&shy;matematiikan oppaasta”.
+*   [Käytännön ohjeita matematiikan olympiajoukkueeseen valitulle](/kirjallisuus/kaytannon_ohjeet.pdf)
+     Anne-Maria Ernvall-Hytösen opas olympiajoukkueen jäsenille kilpailujen ja kilpailumatkan
+	 yhteydessä vastaan tulevista asioista.
+
+## <a name="tehtavat"></a>Tehtäviä
+
+*   [Kilpailumatematiikan harjoituksia I ja II](http://eukleideskirjat.fi/harjI.html).
+    Vanha kilpailutehtäväkokoelma on nyt järjestetty, siitä on korjattu lukuisia virheitä
+    ja se on julkaistu kahtena niteenä.
+*   [Kilpailumatematiikan lajeja ja periaatteita](/kirjallisuus/kilpmatesitt.pdf)
+	20 näytetehtävää, jotka pyrkivät antamaan kuvaa kilpailumatematiikassa tavallisista
+	kysymystyypeistä. Tehtäviin on myös ratkaisut. Koonnut Matti Lehtinen, päivitetty syyskuussa 2016.
+*   [Kansainvälisten matematiikka&shy;olympialaisten tehtävät vuosilta 1995 – 2014](/IMO/imokaikki.pdf).
+	Kooste sisältää myös ratkaisut.
+*   [Kansainvälisten matematiikka&shy;olympialaisten tehtävät vuosilta 1975 – 1994](/IMO/imot75_94.pdf).
+	Tehtäviin on myös [ratkaisut](/IMO/imor75_94.pdf).
+*   [Kansainvälisten matematiikka&shy;olympialaisten tehtävät vuosilta 1959 – 1974](/IMO/imot59_74.pdf).
+	Tehtäviin on myös [ratkaisut](/IMO/imor59_74.pdf).
+*   [Pohjoismaisten matematiikka&shy;kilpailujen tehtävät vuosilta 1995 – 2015](/PM/nmckaikki.pdf).
+	Kooste sisältää myös ratkaisut.
+*   [Pohjoismaisten matematiikka&shy;kilpailujen tehtävät vuosilta 1987 – 1994](/PM/nmct87_94.pdf).
+	Tehtäviin on myös [ratkaisut](/PM/nmcr87_94.pdf).
+*   [Baltian Tie -kilpailun tehtävät vuosilta 1990 – 2015](/Baltian_tie/bwteht.pdf). 
+	460 tehtävää. Ratkaisukokoelmia löytyy vuosien [1990–99](/Baltian_tie/Btratk1990_99.pdf)
+	ja [2000–09](/Baltian_tie/Btratk2000_09.pdf) tehtäviin. Ratkaisu&shy;koosteita täydennetään.
+*   [IMO-ehdokastehtäväkokoelma](/kirjallisuus/imoehdteht.pdf)
+    138 matematiikka&shy;olympialaisiin ehdolla ollutta tehtävää ryhmiteltyinä jaon
+	”algebra - geometria - kombinatoriikka - lukuteoria” mukaisesti. Koosteessa tähdellä merkittyihin tehtäviin löytyy myös [ratkaisuja](/kirjallisuus/imoehdratk.pdf).
+*   [Kappa-kilpailun tehtävät 2014](/Kappa/Kappa_14_teht.pdf) Ruotsin opettajien matematiikkakilpailun tehtävät.
+
+
+
 ## <a name="teemat"></a>Aiheet
 
 Viikonloppujen ohjelmien jaksottelemiseksi matematiikka on jaoteltu
@@ -27,10 +77,6 @@ tasaisesti neljän pääteeman kesken.
 4.  [Lukuteoria](#lukuteoria)
     *   Alkulukujen teoria
     *   Jaollisuus, kongruenssit
-
-Materiaaliin kuuluu myös [tehtäväkokoelmia](#tehtavat) ja [muuta](#muita).
-
-## Valmennus&shy;materiaalia
 
 ### <a name="algebra"></a>Algebra
 
@@ -147,45 +193,3 @@ Materiaaliin kuuluu myös [tehtäväkokoelmia](#tehtavat) ja [muuta](#muita).
     Lukuteoriatehtäviä, joissa monia hyödyllisiä ideoita. Tehtävät koonnut ja vihjeet
 	ja ratkaisut kirjoittanut Esa Vesalainen.
 
-### <a name="tehtavat"></a>Tehtäviä
-
-*   [Kilpailumatematiikan harjoituksia I ja II](http://eukleideskirjat.fi/harjI.html).
-    Vanha kilpailutehtäväkokoelma on nyt järjestetty, siitä on korjattu lukuisia virheitä
-    ja se on julkaistu kahtena niteenä.
-*   [Kilpailumatematiikan lajeja ja periaatteita](/kirjallisuus/kilpmatesitt.pdf)
-	20 näytetehtävää, jotka pyrkivät antamaan kuvaa kilpailumatematiikassa tavallisista
-	kysymystyypeistä. Tehtäviin on myös ratkaisut. Koonnut Matti Lehtinen, päivitetty syyskuussa 2016.
-*   [Kansainvälisten matematiikka&shy;olympialaisten tehtävät vuosilta 1995 – 2014](/IMO/imokaikki.pdf).
-	Kooste sisältää myös ratkaisut.
-*   [Kansainvälisten matematiikka&shy;olympialaisten tehtävät vuosilta 1975 – 1994](/IMO/imot75_94.pdf).
-	Tehtäviin on myös [ratkaisut](/IMO/imor75_94.pdf).
-*   [Kansainvälisten matematiikka&shy;olympialaisten tehtävät vuosilta 1959 – 1974](/IMO/imot59_74.pdf).
-	Tehtäviin on myös [ratkaisut](/IMO/imor59_74.pdf).
-*   [Pohjoismaisten matematiikka&shy;kilpailujen tehtävät vuosilta 1995 – 2015](/PM/nmckaikki.pdf).
-	Kooste sisältää myös ratkaisut.
-*   [Pohjoismaisten matematiikka&shy;kilpailujen tehtävät vuosilta 1987 – 1994](/PM/nmct87_94.pdf).
-	Tehtäviin on myös [ratkaisut](/PM/nmcr87_94.pdf).
-*   [Baltian Tie -kilpailun tehtävät vuosilta 1990 – 2015](/Baltian_tie/bwteht.pdf). 
-	460 tehtävää. Ratkaisukokoelmia löytyy vuosien [1990–99](/Baltian_tie/Btratk1990_99.pdf)
-	ja [2000–09](/Baltian_tie/Btratk2000_09.pdf) tehtäviin. Ratkaisu&shy;koosteita täydennetään.
-*   [IMO-ehdokastehtäväkokoelma](/kirjallisuus/imoehdteht.pdf)
-    138 matematiikka&shy;olympialaisiin ehdolla ollutta tehtävää ryhmiteltyinä jaon
-	”algebra - geometria - kombinatoriikka - lukuteoria” mukaisesti. Koosteessa tähdellä merkittyihin tehtäviin löytyy myös [ratkaisuja](/kirjallisuus/imoehdratk.pdf).
-*   [Kappa-kilpailun tehtävät 2014](/Kappa/Kappa_14_teht.pdf) Ruotsin opettajien matematiikkakilpailun tehtävät.
-
-### <a name="muita"></a>Muita
-
-*   [Kilpailumatematiikan opas](/kirjallisuus/kilpmatopas.pdf)
-    Kilpailumatematiikassa keskeisten todistamisen, algebran, geometrian, lukuteorian ja
-	kombinatoriikan tietojen 108-sivuinen kooste. Saatavissa myös paperisena.
-	– Tästä ladattavassa pdf-versiossa on korjattu joitakin paperiversion virheitä.
-*   [Pieni kilpailumatematiikan opas](/kirjallisuus/opas.pdf)
-    Lyhyempi kooste keskeisestä kilpailumatematiikasta: todistamisesta, epäyhtälöistä,
-	lukuteoriasta, algebrasta, geometriasta ja kombinatoriikasta. Jonkin verran laajennettu
-	versio Matti Lehtisen _Matematiikan olympiakirjassa_ julkaistusta ”Lyhyestä
-	olympia&shy;matematiikan oppaasta”.
-*   [Käytännön ohjeita matematiikan olympiajoukkueeseen valitulle](/kirjallisuus/kaytannon_ohjeet.pdf)
-     Anne-Maria Ernvall-Hytösen opas olympiajoukkueen jäsenille kilpailujen ja kilpailumatkan
-	 yhteydessä vastaan tulevista asioista.
-*   [Luettelo kilpailumatematiikkakirjallisuudesta](http://www.elisanet.fi/matti.t.Lehtinen/ongelmanratkaisu.html)
-    Luettelo englanninkielisestä kilpailu&shy;matematiikka&shy;kirjallisuudesta.
