@@ -87,6 +87,7 @@ kysymyksistä löytyy lisätietoa [täältä](kaytanto).
 
 ## <a name="uutisia"></a>Uutisia
 
+* Vuoden 2019 [Baltian Tie -joukkuematematiikkakilpailu](http://balticway19.mimuw.edu.pl/index.html) pidettiin Szczecinissä, Puolassa 15.&ndash;19.11. Ensimmäisen sijan otti Pietarin joukkue 90 pisteellä, Suomi oli seitsemäs yhdestätoista 48 pisteellä. 
 
 * Vuoden 2019 [Kansainväliset Matematiikkaolympialaiset](https://www.imo2019.uk/) pidettiin Bathissa 10.&ndash;22.7. Suomea edustivat **Juho Arala**, **Hermanni Huhtamäki**, **Akseli Jussinmäki**, **Olli Järviniemi**, **Roope Salmi** ja **Nerissa Shakespeare**. Järviniemi sai hopeamitalin, Salmi pronssimitalin, Arala ja Jussinmäki kunniamaininnat. [Tulosluettelo](http://imo-official.org/year_country_r.aspx?year=2019).
 
