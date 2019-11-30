@@ -56,7 +56,7 @@ Helmikuun 2019 [tehtävät](2019/kirje_2019_02.pdf)
 ja [ratkaisut](2019/ratk_2019_02.pdf).
 
 
-### Peruskoululaisten tehtävät
+### <a name="perus"></a>Peruskoululaisten tehtävät
 
 Peruskoululaisten kirjevalmennustehtävät on nimensä mukaan suunnattu peruskoululaisille. Ensimmäinen tehtäväsarja on suunniteltu aloitettavan seitsemännen luokan loppupuolella, mutta tehtävien ratkomisen voi aloittaa myös aiemmin tai myöhemmin. Tehtävien  ratkaiseminen edellyttää usein perehtymistä koulumatematiikan ulkopuoliseen matematiikkaan ja niiden on tarkoitus olla haastavia. Ei siis kannata säikähtää tehtävien vaikeustasoa.
 
