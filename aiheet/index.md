@@ -23,6 +23,8 @@ voi saada opetusta ja vinkkejä.
 
 ## <a name="muita"></a>Yleistä
 
+*   [OOOO: Ollin opas olympiatason ongelmanratkaisuun](/kirjallisuus/OOOO.pdf),
+    Olli Järviniemen kattava katsaus matematiikkakilpailujen ongelmanratkaisuun.
 *   [Kilpailumatematiikan opas](/kirjallisuus/kilpmatopas.pdf)
     Kilpailumatematiikassa keskeisten todistamisen, algebran, geometrian, lukuteorian ja
 	kombinatoriikan tietojen 108-sivuinen kooste. Saatavissa myös paperisena.
