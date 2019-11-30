@@ -10,6 +10,11 @@ ja se on yleensä selvästi lukiokurssia vaativampaa. Ei pidä lannistua, vaan k
 jotain omiin pohjatietoihin ja kiinnostukseen sopivaa. Myös [valmennustapahtumissa](/kaytanto/)
 voi saada opetusta ja vinkkejä.
 
+## <a name="alkuun"></a>Aloittelijoille
+
+*   [Harppi-projektin materiaalit](https://www.mayk.fi/matematiikkalukio/kehitys/syventavat-materiaalit/) täydentävät lukiokurssia
+*   [Seiskaluokkalaisten kilpailutehtävät](https://matematiikkakilpailut.fi/seiskat/tehtavat.html) eivät ole aina aivan helppoja
+
 ## <a name="muita"></a>Yleistä
 
 *   [Kilpailumatematiikan opas](/kirjallisuus/kilpmatopas.pdf)
