@@ -4,16 +4,22 @@ title: Valmennusmateriaalia
 url: /aiheet/
 ---
 
+
+## <a name="alkuun"></a>Aloittelijoille
+
 Varoituksen sana aloitteleville kilpailijoille:
 matematiikkakilpailuihin liittyvää kirjallisuutta on sekä tällä sivulla että muualla varsin paljon
 ja se on yleensä selvästi lukiokurssia vaativampaa. Ei pidä lannistua, vaan kannattaa yrittää löytää
 jotain omiin pohjatietoihin ja kiinnostukseen sopivaa. Myös [valmennustapahtumissa](/kaytanto/)
 voi saada opetusta ja vinkkejä.
 
-## <a name="alkuun"></a>Aloittelijoille
-
-*   [Harppi-projektin materiaalit](https://www.mayk.fi/matematiikkalukio/kehitys/syventavat-materiaalit/) täydentävät lukiokurssia
-*   [Seiskaluokkalaisten kilpailutehtävät](https://matematiikkakilpailut.fi/seiskat/tehtavat.html) eivät ole aina aivan helppoja
+*   [Peruskoululaisten valmennustehtävien](/valmennus/#perus) ensimmäinen kirje on julkisesti saatavilla,
+    lisää kirjeitä saa vastaamalla edellisiin. Myöhemmät kirjeet sisältävät tehtävien lisäksi niiden teemoihin
+    liittyvää lukemista.
+*   [Harppi-projektin materiaalit](https://www.mayk.fi/matematiikkalukio/kehitys/syventavat-materiaalit/)
+    täydentävät lukiokurssia.
+*   [Seiskaluokkalaisten kilpailutehtävät](/seiskat/tehtavat.html) eivät ole aina aivan helppoja mutta luultavasti
+    yleensä helpommasta päästä saatavilla olevia tehtäviä.
 
 ## <a name="muita"></a>Yleistä
 
