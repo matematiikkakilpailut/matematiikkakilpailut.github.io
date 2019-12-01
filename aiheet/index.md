@@ -19,7 +19,9 @@ voi saada opetusta ja vinkkejä.
 *   [Harppi-projektin materiaalit](https://www.mayk.fi/matematiikkalukio/kehitys/syventavat-materiaalit/)
     täydentävät lukiokurssia.
 *   [Seiskaluokkalaisten kilpailutehtävät](/seiskat/tehtavat.html) eivät ole aina aivan helppoja mutta luultavasti
-    yleensä helpommasta päästä saatavilla olevia tehtäviä.
+    helpompia kuin lukiolaiskilpailujen tehtävät.
+*   [Kenguru-kilpailun tehtäviä](https://www.mayk.fi/tietoa-meista/kenguru/vanhoja-kilpailuja-suomeksi/)
+    on monella tasolla alakoulusta lukioon.
 
 ## <a name="muita"></a>Yleistä
 
