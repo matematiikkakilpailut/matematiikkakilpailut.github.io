@@ -38,6 +38,10 @@ valintakokeissa.
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
+Joulukuun 2019 [tehtävät](2019/kirje_2019_12.pdf).<br>
+**Korjaus 1.12.2019**: Päivölässä jaetussa kirjeessä tehtävässä 18 on virhe.
+Kyse on peräkkäisten kokonaislukujen _neliöiden_ summasta, ei peräkkäisten kokonaislukujen summasta.
+
 Lokakuun 2019 [tehtävät](2019/kirje_2019_10.pdf).<br>
 **Korjaus 27.10.2019**: tehtävässä 12 on kyse kokonaislukujuurista.<br>
 **Korjaus 10.11.2019**: tehtävässä 13 käännetään vain yhden lapun naapurit kerrallaan.
