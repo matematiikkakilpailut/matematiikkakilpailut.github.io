@@ -70,6 +70,8 @@ Peruskoululaiset voivat halutessaan ratkoa myös haastavampia, kaikille koululai
 
 [Peruskoululaisten ensimmäinen valmennuskirje](2019/kirje1_internet.pdf)
 
+[På svenska](2019/brev1_internet.pdf)
+
 ### Uutuus: viikkotehtävät
 
 Kirjevalmennus toimii hitaalla tempolla, joten palaute tehtävistä tulee pitkän ajan päästä.
