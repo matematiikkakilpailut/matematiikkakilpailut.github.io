@@ -16,7 +16,7 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
 *  Olli Hirviniemi<br/>Olympiaedustaja vuosina 2010 ja 2011.
 *  [Antti Honkela][ahonkela]<br/> Olympiaedustaja vuonna 1997.
 *  Olli Järviniemi<br/> Olympiaedustaja vuosina 2017, 2018 ja 2019.
-*  Pihla Karanko <br/> Edustaja Euroopan tyttöjen matematiikkaolympialaisissa 2012 ja 2013. Vastaa peruskoululaisten kirjevalmennuksesta.
+*  Pihla Karanko <br/> Edustaja Euroopan tyttöjen matematiikkaolympialaisissa 2012 ja 2013. Vastaa peruskoululaisten kirjevalmennuksesta yhdessä Lounan kanssa.
 *  Alexey Kirichenko<br/>
    Kokemusta mm. maineikkaista Leningradin matematiikkaolympialaisista.
 *  Jari Lappalainen<br/> Olympiaedustaja vuosina 1990 ja 1991.
@@ -30,11 +30,14 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
    Filosofian tohtori, matematiikan dosentti (HY), yliopistonlehtori (TaY).
    Olympiaedustaja vuonna 1983. Valmennusjaoston johtoryhmän jäsen.
    Sommittelee kombinatoriikan valmennusta.
-*  Neea Palojärvi<br/> Olympiaedustaja vuonna 2013
+*  Neea Palojärvi<br/> Olympiaedustaja vuonna 2013.
 *  Jaakko Seppälä<br/>
-   Filosofian maisteri, edustaja Pohjoismaisessa matematiikkakilpailussa 2007
+   Filosofian maisteri, edustaja Pohjoismaisessa matematiikkakilpailussa 2007.
+*  Louna Seppälä<br/>
+   Filosofian tohtori, vastaa peruskoululaisten kirjevalmennuksesta yhdessä Pihlan kanssa.
 *  [Jouni Seppänen][jks]<br/> Tekniikan tohtori, olympiaedustaja vuosina 1994 ja 1995.
 *  Joni Teräväinen<br/> Olympiaedustaja vuosina 2011, 2012 ja 2013.
+*  Ville Tilvis
 *  [Niko Vuokko][ntvuok]<br/> Olympiaedustaja vuosina 2002 ja 2003.
 *  [Esa Vesalainen][evvesala]<br/>
    Olympiaedustaja vuosina 2005, 2006 ja 2007. Valmennusjaoston johtoryhmän jäsen.
