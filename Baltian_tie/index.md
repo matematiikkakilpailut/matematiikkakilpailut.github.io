@@ -18,7 +18,7 @@ kilpailut:
   - vuosi: "2019"
     paikka: "[Szczecin](http://balticway19.mimuw.edu.pl/index.html)"
     sijoitus: "[48 (7.)](http://balticway19.mimuw.edu.pl/BW19-results.pdf)"
-    tehtavat: "[pdf](2019/BW19_FIN)"
+    tehtavat: "[pdf](2019/BW19_FIN.pdf)"
     joukkue: "Juho Arala, Daniel Arone, Asla Heiskanen, Hermanni Huhtam&auml;ki, Roope Salmi"
     ratkaisut: ""  
   - vuosi: "2018"
