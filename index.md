@@ -27,63 +27,12 @@ lukio- ja yläkouluikäisille.
 
 [Kilpailuja](kilpailut) on eri tasoilla kansallisista 
 alueellisista kilpailuista Kansainvälisiin Matematiikkaolympialaisiin.
+Niihin pääsee mukaan ottamalla ahkerasti osaa valmennukseen
+ja tulemalla valituksi joukkueeseen.
 
 **[Ilmoittaudu](https://www.paivola.fi/fi/matematiikkakilpailuvalmennukseen-ilmoittautuminen/) 
-seuraavaan [valmennusviikonloppuun](aikataulu) vähintään 
+seuraavaan valmennusviikonloppuun vähintään 
 viikkoa etukäteen!**
-
-{% comment %}
-[Matematiikka&shy;kilpailujen](kilpailut) tarkoituksena on
-kannustaa lahjakkaita nuoria harrastamaan matematiikkaa.  Tähän
-liittyvästä valmennuksesta Suomessa vastaa
-[Suomen matemaattisen yhdistyksen](http://www.matemaattinenyhdistys.fi/)
-[Valmennusjaosto](valmentajat).
-
-Valmennusjaosto hoitaa myös Suomen kansainväliseen
-kilpailuosallistumiseen liittyviä käytännön asioita.
-
-Valmennus koostuu yleensä viikonloppuisin järjestettävistä
-**valmennustapahtumista** (ks. [aika&shy;taulua](aikataulu))
-[Päiv&ouml;län opistossa](#muuta) Valkeakoskella sekä
-[**kirjevalmennuksesta**](valmennus), joka on tarkoitettu
-kaikille, myös niille, jotka eivät voi osallistua
-valmennustapahtumiin.  Valmennustapahtumissa pidetään
-kilpailuharjoituksia ja esitetään myös muuta matematiikkaa, mistä saa
-jonkinlaisen käsityksen tutustumalla valmennuksen
-[teemoihin](aiheet).  Tilaisuudet ovat kaikille koululaisille
-avoimia.
-
-
-Valmennusjaosto järjestää myös kilpailujoukkueiden valintaan ja
-valmennukseen liittyviä valmennus&shy;tapahtumia, joihin osallistuminen
-perustuu henkilökohtaisiin kutsuihin.
-
-## <a name="kilpailut"></a>Kilpailut
-
-[Kilpailuja](/kilpailut/) on eri tasoilla kansallisesta alueellisten kautta
-Kansainvälisiin matematiikka&shy;olympialaisiin.
-
-## <a name="kilpailuvalmennus"></a>Valmennusviikonloput
-
-Suomen matemaattisen yhdistyksen Valmennusjaoston
-matematiikka&shy;kilpailuvalmennus koostuu valmennus&shy;viikonlopuista Päivölän
-Opistossa Valkeakoskella ja kirjevalmennuksesta. Molempiin voi
-osallistua kuka hyvänsä. Päivölän Opisto perii
-valmennus&shy;viikonloppuihin osallistuvilta täysihoito&shy;maksun (70
-euroa/viikonloppu), mutta opetus on muuten maksutonta. Valmennusjaosto
-voi harkinnan mukaan tukea taloudellisesti valmennus&shy;tilaisuuksiin
-osallistuvia ([ohjeet](/kaytanto/#taloudellinen-tuki)).
-
-Valmennusviikonloppuja järjestetään syys- ja kevät&shy;lukukausien aikana
-kolme. Tapahtumat alkavat perjantai-iltana kello 18.30 ja päättyvät
-sunnuntaina noin kello 13.30. Mahdollisuuksien mukaan osallistujat
-jakautuvat kahteen ryhmään taitojen ja kokemuksen
-mukaan. Viikonloppujen ohjelmassa on opetusta kilpailu&shy;matematiikan eri
-osa-alueiden aloilta, tehtävänratkaisua ja pieniä
-harjoituskokeita. Valmennus&shy;viikonloppuihin liittyvistä käytännön
-kysymyksistä löytyy lisätietoa [täältä](kaytanto).
-
-{% endcomment %}
 
 ## <a name="uutisia"></a>Uutisia
 
