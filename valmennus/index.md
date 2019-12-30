@@ -38,6 +38,8 @@ valintakokeissa.
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
+Vuodenvaihteen 2019-2020 [erikoistehtäväsarja](2019/kirje2019-2020.pdf), sopii lämmittelyyn vanhoille osallistujille ja uusille vakavaan pohdintaan.
+
 Joulukuun 2019 [tehtävät](2019/kirje_2019_12.pdf).<br>
 **Korjaus 1.12.2019**: Päivölässä jaetussa kirjeessä tehtävässä 18 on virhe.
 Kyse on peräkkäisten kokonaislukujen _neliöiden_ summasta, ei peräkkäisten kokonaislukujen summasta.
