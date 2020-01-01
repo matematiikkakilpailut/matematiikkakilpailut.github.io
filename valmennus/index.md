@@ -42,7 +42,9 @@ Vuodenvaihteen 2019-2020 [erikoistehtäväsarja](2019/kirje2019-2020.pdf), sopii
 
 Joulukuun 2019 [tehtävät](2019/kirje_2019_12.pdf).<br>
 **Korjaus 1.12.2019**: Päivölässä jaetussa kirjeessä tehtävässä 18 on virhe.
-Kyse on peräkkäisten kokonaislukujen _neliöiden_ summasta, ei peräkkäisten kokonaislukujen summasta.
+Kyse on peräkkäisten kokonaislukujen _neliöiden_ summasta, ei peräkkäisten kokonaislukujen summasta.<br>
+**Korjaus 1.1.2020**: Tehtävässä 3 piste E on diagonaalien AC ja BD leikkauspiste;
+AD ja BC eivät ole diagonaaleja vaan puolisuunnikkaan sivuja.
 
 Lokakuun 2019 [tehtävät](2019/kirje_2019_10.pdf) ja [ratkaisut](2019/ratk_2019_10.pdf).<br>
 **Korjaus 27.10.2019**: tehtävässä 12 on kyse kokonaislukujuurista.<br>
