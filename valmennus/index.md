@@ -38,9 +38,12 @@ valintakokeissa.
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
+Tammikuun 2020 [tehtävät](2020/kirje_2020_01.pdf).
+
 Vuodenvaihteen 2019-2020 [erikoistehtäväsarja](2019/kirje2019-2020.pdf), sopii lämmittelyyn vanhoille osallistujille ja uusille vakavaan pohdintaan.
 
-Joulukuun 2019 [tehtävät](2019/kirje_2019_12.pdf).<br>
+Joulukuun 2019 [tehtävät](2019/kirje_2019_12.pdf).
+Malliratkaisut saatavilla kirjeeseen vastanneille.<br>
 **Korjaus 1.12.2019**: Päivölässä jaetussa kirjeessä tehtävässä 18 on virhe.
 Kyse on peräkkäisten kokonaislukujen _neliöiden_ summasta, ei peräkkäisten kokonaislukujen summasta.<br>
 **Korjaus 1.1.2020**: Tehtävässä 3 piste E on diagonaalien AC ja BD leikkauspiste;
@@ -51,18 +54,8 @@ Lokakuun 2019 [tehtävät](2019/kirje_2019_10.pdf) ja [ratkaisut](2019/ratk_2019
 **Korjaus 27.10.2019**: tehtävässä 12 on kyse kokonaislukujuurista.<br>
 **Korjaus 10.11.2019**: tehtävässä 13 käännetään vain yhden lapun naapurit kerrallaan.
 
-Syyskuun 2019 [tehtävät](2019/kirje_2019_09.pdf).
+Syyskuun 2019 [tehtävät](2019/kirje_2019_09.pdf) ja [ratkaisut](2019/ratk_2019_09.pdf).
 
-Kesäkauden 2019 [tehtävät](2019/kirje_2019_05.pdf) ja [ratkaisut](2019/ratk_2019_05.pdf).
-&mdash;<span lang="sv">[Den enklare problemuppsättningen på svenska](https://matteverkstaden.wordpress.com/2019/06/15/sommarutmaning/),
-översatt av Edward Krogius.</span>
-
-Huhtikuun 2019 [tehtävät](2019/kirje_2019_04.pdf).
-**Korjaus 20.4.2019:** lisätään tehtävien 20&ndash;22 oletuksiin,
-että verkon solmujen lukumäärä ei ole kaksi.
-
-Helmikuun 2019 [tehtävät](2019/kirje_2019_02.pdf)
-ja [ratkaisut](2019/ratk_2019_02.pdf).
 
 
 ### <a name="perus"></a>Peruskoululaisten tehtävät
@@ -83,11 +76,23 @@ Kirjevalmennus toimii hitaalla tempolla, joten palaute tehtävistä tulee pitkä
 Palautuksen aikarajoista joustetaan usein, joten ajoissakaan palauttaneille ei anneta
 heti malliratkaisuja. Kirjeformaatti ei myöskään innosta keskustelemaan tehtävistä muuten
 kuin ehkä yksityisesti kaverin kanssa.
-Kokeiluna syksyllä 2018 on uusi [viikkotehtävä](https://keskustelu.matematiikkakilpailut.fi/c/viikkotehtavat)
-jonka palautus tapahtuu viestinä keskustelupalstalla, jolla tehtävästä saa keskustella
+Kokeiluna syksyllä 2018 oli [viikkotehtävä](https://keskustelu.matematiikkakilpailut.fi/c/viikkotehtavat)
+jonka palautus tapahtui viestinä keskustelupalstalla, jolla tehtävästä sai keskustella
 heti aikarajan umpeuduttua.
+Toistaiseksi viikkotehtävä on tauolla.
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
+
+Kesäkauden 2019 [tehtävät](2019/kirje_2019_05.pdf) ja [ratkaisut](2019/ratk_2019_05.pdf).
+&mdash;<span lang="sv">[Den enklare problemuppsättningen på svenska](https://matteverkstaden.wordpress.com/2019/06/15/sommarutmaning/),
+översatt av Edward Krogius.</span>
+
+Huhtikuun 2019 [tehtävät](2019/kirje_2019_04.pdf).
+**Korjaus 20.4.2019:** lisätään tehtävien 20&ndash;22 oletuksiin,
+että verkon solmujen lukumäärä ei ole kaksi.
+
+Helmikuun 2019 [tehtävät](2019/kirje_2019_02.pdf)
+ja [ratkaisut](2019/ratk_2019_02.pdf).
 
 Tammikuun 2019 [tehtävät](2019/kirje_2019_01.pdf) ja [ratkaisut](2019/ratk_2019_01.pdf).
 
