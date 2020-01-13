@@ -30,7 +30,7 @@ aikataulu:
     tapahtuma: "Syksy"
     otsikko: true
   - pvm: "4.&ndash;6.9. (viikko 36)"
-    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä, ohjelmassa ongelman&shy;ratkaisu&shy;harjoituksia, geometriaa, luku&shy;teoriaa ja Baltian tie -joukkueen valinta."
+    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä, ohjelmassa mm. Baltian tie -joukkueen valinta."
   - pvm: "syyskuussa?"
     tapahtuma: "[Iranin geometria&shy;kilpailu](https://igo-official.ir/) Päivölässä"
   - pvm: "syys&ndash;loka&shy;kuussa"
