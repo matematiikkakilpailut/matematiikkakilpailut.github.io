@@ -41,10 +41,12 @@ valintakokeissa.
 Tammikuun 2020 [tehtävät](2020/kirje_2020_01.pdf).<br>
 **Korjaus 13.1.2020**: Tehtävässä 6 on kyse tasakylkisestä eikä tasasivuisesta kolmiosta.
 
-Vuodenvaihteen 2019-2020 [erikoistehtäväsarja](2019/kirje2019-2020.pdf), sopii lämmittelyyn vanhoille osallistujille ja uusille vakavaan pohdintaan.
+Vuodenvaihteen 2019-2020 [erikoistehtäväsarja](2019/kirje2019-2020.pdf), sopii lämmittelyyn vanhoille osallistujille ja uusille vakavaan pohdintaan.<br>
+<span lang="sv">[Årsskiftets övningar](2019/erikoistehtavasarja_sv_19-20.pdf).</span>
 
 Joulukuun 2019 [tehtävät](2019/kirje_2019_12.pdf).
 Malliratkaisut saatavilla kirjeeseen vastanneille.<br>
+<span lang="sv">[Träningsuppgifter, december 2019](2019/kirje_2019_12-sv.pdf)</span><br>
 **Korjaus 1.12.2019**: Päivölässä jaetussa kirjeessä tehtävässä 18 on virhe.
 Kyse on peräkkäisten kokonaislukujen _neliöiden_ summasta, ei peräkkäisten kokonaislukujen summasta.<br>
 **Korjaus 1.1.2020**: Tehtävässä 3 piste E on diagonaalien AC ja BD leikkauspiste;
