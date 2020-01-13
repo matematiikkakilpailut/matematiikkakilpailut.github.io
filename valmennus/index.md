@@ -38,7 +38,8 @@ valintakokeissa.
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
-Tammikuun 2020 [tehtävät](2020/kirje_2020_01.pdf).
+Tammikuun 2020 [tehtävät](2020/kirje_2020_01.pdf).<br>
+**Korjaus 13.1.2020**: Tehtävässä 6 on kyse tasakylkisestä eikä tasasivuisesta kolmiosta.
 
 Vuodenvaihteen 2019-2020 [erikoistehtäväsarja](2019/kirje2019-2020.pdf), sopii lämmittelyyn vanhoille osallistujille ja uusille vakavaan pohdintaan.
 
