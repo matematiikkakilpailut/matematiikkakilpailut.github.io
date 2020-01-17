@@ -27,7 +27,7 @@ aikataulu:
   - pvm: "noin kesäkuussa"
     tapahtuma: "Kesän valmennusleiri kutsutuille" 
   - pvm: "6.&ndash;11.7."
-    tapahtuma: "Olympiajoukkueen yhteispohjoismainen valmennusleiri Sorøssa Tanskassa"  
+    tapahtuma: "Olympiajoukkueen yhteispohjoismainen valmennusleiri Sorøssa, Tanskassa"  
   - pvm: "8.&ndash;18.7."
     tapahtuma: "[61. Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr>](http://www.imo-official.org/year_info.aspx?year=2020) Pietarissa"
   - pvm: "2020"
