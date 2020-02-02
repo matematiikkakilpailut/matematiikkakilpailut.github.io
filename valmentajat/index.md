@@ -15,6 +15,7 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
 *  Otte Heinävaara<br/> Olympiaedustaja vuosina 2012 ja 2013.
 *  Olli Hirviniemi<br/>Olympiaedustaja vuosina 2010 ja 2011.
 *  [Antti Honkela][ahonkela]<br/> Olympiaedustaja vuonna 1997.
+*  Akseli Jussinmäki<br/> Olympiaedustaja vuosina 2018 ja 2019.
 *  Olli Järviniemi<br/> Olympiaedustaja vuosina 2017, 2018 ja 2019.
 *  Pihla Karanko <br/> Edustaja Euroopan tyttöjen matematiikkaolympialaisissa 2012 ja 2013. Vastaa peruskoululaisten kirjevalmennuksesta yhdessä Lounan kanssa.
 *  Alexey Kirichenko<br/>
