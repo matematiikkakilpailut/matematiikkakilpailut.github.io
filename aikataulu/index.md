@@ -17,7 +17,7 @@ aikataulu:
   - pvm: "30.3."
     tapahtuma: "Pohjois&shy;mainen matematiikka&shy;kilpailu kutsutuille omassa koulussa"
   - pvm: "3.&ndash;5.4. (viikko 14)"
-    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä"
+    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä. Pythagoraan polku -kilpailu halukkaille."
   - pvm: "15.&ndash;21.4."
     tapahtuma: "[Euroopan tyttöjen matematiikka&shy;olympialaiset <abbr>EGMO</abbr>](https://egmo2020.nl) Egmond aan Zeessä"
   - pvm: "noin toukokuussa"
