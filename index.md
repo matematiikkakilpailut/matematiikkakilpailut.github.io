@@ -11,7 +11,7 @@ url: /
 ---
 <img src="/OPH_rahoittaa_rgb.png" width="180" height="174" style="float:right;" />
 
-**Koronavirusepidemia** saattaa aiheuttaa muutoksia toimintaan, ks. [uutiset](#uutisia).
+## **Koronavirusepidemia** saattaa aiheuttaa muutoksia toimintaan, ks. [uutiset](#uutisia).
 
 [Matematiikkakilpailuiden](kilpailut) tarkoituksena on kannustaa 
 lahjakkaita nuoria harrastamaan matematiikkaa. Tähän liittyvästä 
