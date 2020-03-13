@@ -38,7 +38,7 @@ viikkoa etukäteen!**
 
 ## <a name="uutisia"></a>Uutisia
 
-* Vuoden 2020 koronavirusepidemia saattaa aiheuttaa rajoituksia matkustamiseen ja valmennustapahtumien ja kilpailujen perumisia. **Huhtikuun alun valmennusviikonloppu on peruutettu**, samoin matematiikkaolympialaisten järjestäjä on ilmoittanut, että epidemian jatkuessa heinäkuulle kilpailu saatetaan toteuttaa jonkinlaisen etäosallistumisen kautta. EGMO-kilpailun tilanne on vielä epäselvä.
+* Vuoden 2020 koronavirusepidemia saattaa aiheuttaa rajoituksia matkustamiseen ja valmennustapahtumien ja kilpailujen perumisia. **Huhtikuun alun valmennusviikonloppu on peruutettu**, samoin matematiikkaolympialaisten järjestäjä on ilmoittanut, että epidemian jatkuessa heinäkuulle kilpailu saatetaan toteuttaa jonkinlaisen etäosallistumisen kautta. **EGMO-kilpailu peruuntuu** tai mahdollisesti siirtyy myöhemmäksi tai korvataan etäosallistumisella.
 
 * Vuoden 2019 [Baltian Tie -joukkuematematiikkakilpailu](http://balticway19.mimuw.edu.pl/index.html) pidettiin Szczecinissä, Puolassa 15.&ndash;19.11. Ensimmäisen sijan otti Pietarin joukkue 90 pisteellä, Suomi oli seitsemäs yhdestätoista 48 pisteellä. [Kilpailutehtävät](/Baltian_tie/2019/BW19_FIN.pdf) ja [tulosluettelo](http://balticway19.mimuw.edu.pl/BW19-results.pdf)
 
