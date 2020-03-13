@@ -19,7 +19,7 @@ aikataulu:
   - pvm: "3.&ndash;5.4. (viikko 14)"
     tapahtuma: "**PERUUTETTU**: ~~Valmennus&shy;viikonvaihde Päivölässä. Pythagoraan polku -kilpailu halukkaille.~~"
   - pvm: "15.&ndash;21.4."
-    tapahtuma: "**MAHDOLLISESTI PERUTAAN**: [Euroopan tyttöjen matematiikka&shy;olympialaiset <abbr>EGMO</abbr>](https://egmo2020.nl) Egmond aan Zeessä"
+    tapahtuma: "**PERUUTETTU**, saatetaan siirtää myöhemmäksi tai korvata etäosallistumisella: ~~[Euroopan tyttöjen matematiikka&shy;olympialaiset <abbr>EGMO</abbr>](https://egmo2020.nl) Egmond aan Zeessä~~"
   - pvm: "noin toukokuussa"
     tapahtuma: "Olympia&shy;joukkueen valinta- ja valmennus&shy;viikko Päivölässä"
   - pvm: "noin kesäkuun alussa"
