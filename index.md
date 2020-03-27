@@ -36,9 +36,12 @@ ja tulemalla valituksi joukkueeseen.
 seuraavaan valmennusviikonloppuun vähintään 
 viikkoa etukäteen!**
 
+
 ## <a name="uutisia"></a>Uutisia
 
-* Vuoden 2020 koronavirusepidemia saattaa aiheuttaa rajoituksia matkustamiseen ja valmennustapahtumien ja kilpailujen perumisia. **Huhtikuun alun valmennusviikonloppu on peruutettu**, samoin matematiikkaolympialaisten järjestäjä on ilmoittanut, että epidemian jatkuessa heinäkuulle kilpailu saatetaan toteuttaa jonkinlaisen etäosallistumisen kautta. **EGMO-kilpailu peruuntuu** tai mahdollisesti siirtyy myöhemmäksi tai korvataan etäosallistumisella.
+* **Huhtikuun valmennus toteutetaan etänä. Valmennusta on tarjolla ainakin la 4.4.2020 klo 9:55-12:30 ja 14:00-16:30. Ilmoittautumiset ja kysymykset voi osoittaa alakerran (helpompi taso) osalta Pihla Karangolle (pihla.karanko@aalto.fi) ja yläkerran (haastavampi taso) osalta Olli Järviniemelle (olli.jarviniemi@gmail.com). Ilmoittaudu viimeistään ke 1.4.2020 klo 18:00.** Opetus on maksutonta.
+
+* Vuoden 2020 koronavirusepidemia saattaa aiheuttaa rajoituksia matkustamiseen ja valmennustapahtumien ja kilpailujen perumisia. **Huhtikuun alun valmennusviikonloppu toteutetaan etänä**, samoin matematiikkaolympialaisten järjestäjä on ilmoittanut, että epidemian jatkuessa heinäkuulle kilpailu saatetaan toteuttaa jonkinlaisen etäosallistumisen kautta. **EGMO-kilpailu on muutettu virtuaaliseksi**.
 
 * Vuoden 2019 [Baltian Tie -joukkuematematiikkakilpailu](http://balticway19.mimuw.edu.pl/index.html) pidettiin Szczecinissä, Puolassa 15.&ndash;19.11. Ensimmäisen sijan otti Pietarin joukkue 90 pisteellä, Suomi oli seitsemäs yhdestätoista 48 pisteellä. [Kilpailutehtävät](/Baltian_tie/2019/BW19_FIN.pdf) ja [tulosluettelo](http://balticway19.mimuw.edu.pl/BW19-results.pdf)
 
