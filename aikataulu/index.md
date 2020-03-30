@@ -9,7 +9,7 @@ aikataulu:
   - pvm: "10.&ndash;12.1. (viikko 2)"
     tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä"
   - pvm: "helmi&ndash;huhti&shy;kuussa"
-    tapahtuma: "[Seitsemäs&shy;luokkalaisten alueel&shy;linen matematiikka&shy;kilpailu](/seiskat/) Helsingissä, Oulussa, Sata&shy;kunnassa ja Turussa"
+    tapahtuma: "[Seitsemäs&shy;luokkalaisten alueel&shy;linen matematiikka&shy;kilpailu](/seiskat/) Helsingissä, Oulussa, Sata&shy;kunnassa ja Turussa **Finaalit pidetään etänä tai siirretään syksylle 2020**"
   - pvm: "7.&ndash;8.2."
     tapahtuma: "MAOLin perus&shy;koulun ja lukion loppu&shy;kilpailu Helsingissä"
   - pvm: "21.&ndash;23.2. (viikko 8)"
@@ -29,7 +29,7 @@ aikataulu:
   - pvm: "6.&ndash;11.7."
     tapahtuma: "Olympiajoukkueen yhteispohjoismainen valmennusleiri Sorøssa, Tanskassa"  
   - pvm: "8.&ndash;18.7."
-    tapahtuma: "**Todennäköisesti siirtyy 16.-26.10.**: [61. Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr>](http://www.imo-official.org/year_info.aspx?year=2020) Pietarissa"
+    tapahtuma: "**Todennäköisesti siirtyy 16.-26.9.**: [61. Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr>](http://www.imo-official.org/year_info.aspx?year=2020) Pietarissa"
   - pvm: "2020"
     tapahtuma: "Syksy"
     otsikko: true
