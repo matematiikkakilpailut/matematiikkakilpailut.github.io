@@ -41,6 +41,7 @@ valintakokeissa.
 Helmikuun 2020 [tehtävät](2020/kirje_2020_02.pdf).<br>
 
 Tammikuun 2020 [tehtävät](2020/kirje_2020_01.pdf).<br>
+<span lang="sv">[Träningsuppgifter, januari 2020](2020/kirje_2020_01_sv.pdf)</span><br>
 **Korjaus 13.1.2020**: Tehtävässä 6 on kyse tasakylkisestä eikä tasasivuisesta kolmiosta.<br>
 Malliratkaisut saatavilla kirjeeseen vastanneille.
 
