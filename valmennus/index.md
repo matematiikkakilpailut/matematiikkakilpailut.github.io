@@ -77,16 +77,6 @@ Peruskoululaiset voivat halutessaan ratkoa myös haastavampia, kaikille koululai
 
 [På svenska](2019/brev1_internet.pdf)
 
-### Uutuus: viikkotehtävät
-
-Kirjevalmennus toimii hitaalla tempolla, joten palaute tehtävistä tulee pitkän ajan päästä.
-Palautuksen aikarajoista joustetaan usein, joten ajoissakaan palauttaneille ei anneta
-heti malliratkaisuja. Kirjeformaatti ei myöskään innosta keskustelemaan tehtävistä muuten
-kuin ehkä yksityisesti kaverin kanssa.
-Kokeiluna syksyllä 2018 oli [viikkotehtävä](https://keskustelu.matematiikkakilpailut.fi/c/viikkotehtavat)
-jonka palautus tapahtui viestinä keskustelupalstalla, jolla tehtävästä sai keskustella
-heti aikarajan umpeuduttua.
-Toistaiseksi viikkotehtävä on tauolla.
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
 
