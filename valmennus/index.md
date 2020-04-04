@@ -38,6 +38,8 @@ valintakokeissa.
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
+Huhtikuun 2020 [tehtävät](2020/kirje_2020_04.pdf).<br>
+
 Helmikuun 2020 [tehtävät](2020/kirje_2020_02.pdf).<br>
 
 Tammikuun 2020 [tehtävät](2020/kirje_2020_01.pdf).<br>
