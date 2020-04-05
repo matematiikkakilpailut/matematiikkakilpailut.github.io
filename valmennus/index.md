@@ -39,6 +39,7 @@ valintakokeissa.
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
 Huhtikuun 2020 [tehtävät](2020/kirje_2020_04.pdf).<br>
+**Korjaus 5.4.2020**: Tehtävän 15 epäyhtälössä vasemmalla puolella on murtolausekkeiden tulo, ei summaa.
 
 Helmikuun 2020 [tehtävät](2020/kirje_2020_02.pdf).<br>
 
