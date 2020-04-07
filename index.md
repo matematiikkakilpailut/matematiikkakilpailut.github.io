@@ -13,6 +13,8 @@ url: /
 
 ## **Koronavirusepidemia** aiheuttaa muutoksia toimintaan, ks. [uutiset](#uutisia).
 
+## **Viikkokisoja** järjestetään taas, ks. [ilmoitus](https://keskustelu.matematiikkakilpailut.fi/t/viikkokisat/322) ja [viikon 6.-12.4. kisa](https://keskustelu.matematiikkakilpailut.fi/t/viikkokisa-6-12-4/323).
+
 [Matematiikkakilpailuiden](kilpailut) tarkoituksena on kannustaa 
 lahjakkaita nuoria harrastamaan matematiikkaa. Tähän liittyvästä 
 valmennuksesta ja kilpailuihin osallistumisesta vastaa Suomessa 
@@ -38,6 +40,8 @@ viikkoa etukäteen!**
 
 
 ## <a name="uutisia"></a>Uutisia
+
+* **Viikkokisoja** järjestetään taas, ks. [ilmoitus](https://keskustelu.matematiikkakilpailut.fi/t/viikkokisat/322) ja [viikon 6.-12.4. kisa](https://keskustelu.matematiikkakilpailut.fi/t/viikkokisa-6-12-4/323).
 
 * **Huhtikuun valmennusviikonloppu toteutetaan etänä. Valmennusta on tarjolla ainakin la 4.4.2020 klo 9:55-12:30 ja 14:00-16:30. Ilmoittautumiset ja kysymykset voi osoittaa alakerran (helpompi taso) osalta Pihla Karangolle (pihla.karanko@aalto.fi) ja yläkerran (haastavampi taso) osalta Olli Järviniemelle (olli.jarviniemi@gmail.com). Ilmoittaudu viimeistään ke 1.4.2020 klo 18:00.** Opetus on maksutonta.
 
