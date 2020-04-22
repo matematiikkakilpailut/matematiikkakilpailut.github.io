@@ -41,17 +41,19 @@ viikkoa etukäteen!**
 
 ## <a name="uutisia"></a>Uutisia
 
+* Vuoden 2020 [Euroopan tyttöjen matematiikkaolympialaiset](https://egmo2020.nl/) toteutettiin virtuaalisesti 15.&ndash;12.4. koronaviruspandemian takia. Alankomaat toimi järjestäjämaana. Suomea edustivat **Ulrika Kaara**, **Idaliina Kuusisto**, **Veera Nurmela** ja **Anni Tapionlinna**. [Kilpailutehtävät ja ratkaisut](https://www.egmo.org/egmos/egmo9/) sekä [tulosluettelo](https://www.egmo.org/egmos/egmo9/scoreboard/). 
+
 * **Viikkokisoja** järjestetään taas, ks. [ilmoitus](https://keskustelu.matematiikkakilpailut.fi/t/viikkokisat/322) ja [viikon 6.-12.4. kisa](https://keskustelu.matematiikkakilpailut.fi/t/viikkokisa-6-12-4/323).
 
-* **Huhtikuun valmennusviikonloppu toteutetaan etänä. Valmennusta on tarjolla ainakin la 4.4.2020 klo 9:55-12:30 ja 14:00-16:30. Ilmoittautumiset ja kysymykset voi osoittaa alakerran (helpompi taso) osalta Pihla Karangolle (pihla.karanko@aalto.fi) ja yläkerran (haastavampi taso) osalta Olli Järviniemelle (olli.jarviniemi@gmail.com). Ilmoittaudu viimeistään ke 1.4.2020 klo 18:00.** Opetus on maksutonta.
+* Huhtikuun valmennusviikonloppu toteutetaan etänä. Valmennusta on tarjolla ainakin la 4.4.2020 klo 9:55-12:30 ja 14:00-16:30. Ilmoittautumiset ja kysymykset voi osoittaa alakerran (helpompi taso) osalta Pihla Karangolle (pihla.karanko@aalto.fi) ja yläkerran (haastavampi taso) osalta Olli Järviniemelle (olli.jarviniemi@gmail.com). Ilmoittaudu viimeistään ke 1.4.2020 klo 18:00. Opetus on maksutonta.
 
-* Vuoden 2020 koronavirusepidemia saattaa aiheuttaa rajoituksia matkustamiseen ja valmennustapahtumien ja kilpailujen perumisia. **Huhtikuun alun valmennusviikonloppu toteutetaan etänä**. Matematiikkaolympialaisten järjestäjä on ilmoittanut, että epidemian jatkuessa heinäkuulle kilpailu saatetaan toteuttaa jonkinlaisen etäosallistumisen kautta tai siirtää. **EGMO-kilpailu on muutettu virtuaaliseksi**.
+* **Vuoden 2020 koronavirusepidemia saattaa aiheuttaa rajoituksia matkustamiseen ja valmennustapahtumien ja kilpailujen perumisia ja siirtämisiä**. Huhtikuun alun valmennusviikonloppu toteutetaan etänä. Matematiikkaolympialaisten järjestäjä on ilmoittanut, että epidemian jatkuessa heinäkuulle kilpailu saatetaan toteuttaa jonkinlaisen etäosallistumisen kautta tai siirtää. EGMO-kilpailu on muutettu virtuaaliseksi.
 
 * Vuoden 2019 [Baltian Tie -joukkuematematiikkakilpailu](http://balticway19.mimuw.edu.pl/index.html) pidettiin Szczecinissä, Puolassa 15.&ndash;19.11. Ensimmäisen sijan otti Pietarin joukkue 90 pisteellä, Suomi oli seitsemäs yhdestätoista 48 pisteellä. [Kilpailutehtävät](/Baltian_tie/2019/BW19_FIN.pdf) ja [tulosluettelo](http://balticway19.mimuw.edu.pl/BW19-results.pdf)
 
 * Vuoden 2019 [Kansainväliset Matematiikkaolympialaiset](https://www.imo2019.uk/) pidettiin Bathissa 10.&ndash;22.7. Suomea edustivat **Juho Arala**, **Hermanni Huhtamäki**, **Akseli Jussinmäki**, **Olli Järviniemi**, **Roope Salmi** ja **Nerissa Shakespeare**. Järviniemi sai hopeamitalin, Salmi pronssimitalin, Arala ja Jussinmäki kunniamaininnat. [Tulosluettelo](http://imo-official.org/year_country_r.aspx?year=2019).
 
-* Vuoden 2019 [Euroopan tyttöjen matematiikka&shy;olympialaisissa](https://egmo2019.org/) Suomea edustivat **Idaliina Kuusisto**, **Veera Nurmela**, **Nerissa Shakespeare** ja **Hilma Tillqvist**.
+* Vuoden 2019 [Euroopan tyttöjen matematiikka&shy;olympialaisissa](https://egmo2019.org/) Suomea edustivat **Idaliina Kuusisto**, **Veera Nurmela**, **Nerissa Shakespeare** ja **Hilma Tillqvist**. [Kilpailutehtävät ja ratkaisut](https://www.egmo.org/egmos/egmo8/) sekä [tulosluettelo](https://www.egmo.org/egmos/egmo8/scoreboard/). 
 
 * Vuoden 2018 Baltian Tie -joukkuematematiikkakilpailu pidettiin Pietarissa 9.&ndash;13.11. Ensimmäisen sijan otti Saksan joukkue 83 pisteellä, Suomi oli kahdeksas yhdestätoista 57 pisteellä. [Kilpailutehtävät](/Baltian_tie/2018/BW18_FIN.pdf) ja [tulosluettelo](https://web.archive.org/web/20190517060205/http://www.pdmi.ras.ru/EIMI/2018/Baltic_way/res18.pdf).
 
