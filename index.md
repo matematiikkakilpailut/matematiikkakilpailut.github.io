@@ -13,7 +13,7 @@ url: /
 
 ## **Koronavirusepidemia** aiheuttaa muutoksia toimintaan, ks. [uutiset](#uutisia).
 
-## **Viikkokisoja** järjestetään taas, ks. [ilmoitus](https://keskustelu.matematiikkakilpailut.fi/t/viikkokisat/322) ja [viikon 6.-12.4. kisa](https://keskustelu.matematiikkakilpailut.fi/t/viikkokisa-6-12-4/323).
+## **Viikkokisoja** järjestetään taas, ks. [ilmoitus](https://keskustelu.matematiikkakilpailut.fi/t/viikkokisat/322) ja [viikon 20.-26.4. kisa](https://keskustelu.matematiikkakilpailut.fi/t/viikkokisa-20-26-4/327).
 
 [Matematiikkakilpailuiden](kilpailut) tarkoituksena on kannustaa 
 lahjakkaita nuoria harrastamaan matematiikkaa. Tähän liittyvästä 
@@ -41,7 +41,7 @@ viikkoa etukäteen!**
 
 ## <a name="uutisia"></a>Uutisia
 
-* Vuoden 2020 [Euroopan tyttöjen matematiikkaolympialaiset](https://egmo2020.nl/) toteutettiin virtuaalisesti 15.&ndash;21.4. koronaviruspandemian takia. Alankomaat toimi järjestäjämaana. Suomea edustivat **Ulrika Kaara**, **Idaliina Kuusisto**, **Veera Nurmela** ja **Anni Tapionlinna**. Suomi oli 42. osallistuneista 53 joukkueesta sekä 39 Euroopan maan joukossa 30.[Kilpailutehtävät ja ratkaisut](https://www.egmo.org/egmos/egmo9/) sekä [tulosluettelo](https://www.egmo.org/egmos/egmo9/scoreboard/). 
+* Vuoden 2020 [Euroopan tyttöjen matematiikkaolympialaiset](https://egmo2020.nl/) toteutettiin virtuaalisesti 15.&ndash;21.4. koronaviruspandemian takia. Alankomaat toimi järjestäjämaana. Suomea edustivat **Ulrika Kaara**, **Idaliina Kuusisto**, **Veera Nurmela** ja **Anni Tapionlinna**. Suomi oli 42. osallistuneista 53 joukkueesta sekä 39 Euroopan maan joukossa 30. [Kilpailutehtävät ja ratkaisut](https://www.egmo.org/egmos/egmo9/) sekä [tulosluettelo](https://www.egmo.org/egmos/egmo9/scoreboard/). 
 
 * **Viikkokisoja** järjestetään taas, ks. [ilmoitus](https://keskustelu.matematiikkakilpailut.fi/t/viikkokisat/322) ja [viikon 6.-12.4. kisa](https://keskustelu.matematiikkakilpailut.fi/t/viikkokisa-6-12-4/323).
 
