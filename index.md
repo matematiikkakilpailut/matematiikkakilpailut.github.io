@@ -11,7 +11,7 @@ url: /
 ---
 <img src="/OPH_rahoittaa_rgb.png" width="180" height="174" style="float:right;" />
 
-## **Koronavirusepidemia** aiheuttaa muutoksia toimintaan, ks. [uutiset](#uutisia).
+## **Koronavirusepidemia** aiheuttaa muutoksia toimintaan, ks. [uutiset](#uutisia) ja [aikataulu](https://matematiikkakilpailut.fi/aikataulu/).
 
 ## **Viikkokisoja** järjestetään taas, ks. [ilmoitus](https://keskustelu.matematiikkakilpailut.fi/t/viikkokisat/322) ja [viikon 20.-26.4. kisa](https://keskustelu.matematiikkakilpailut.fi/t/viikkokisa-20-26-4/327).
 
