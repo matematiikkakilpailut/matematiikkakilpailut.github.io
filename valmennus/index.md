@@ -42,17 +42,18 @@ Huhtikuun 2020 [tehtävät](2020/kirje_2020_04.pdf).<br>
 **Korjaus 5.4.2020**: Tehtävän 15 epäyhtälössä vasemmalla puolella on murtolausekkeiden tulo, ei summaa.
 
 Helmikuun 2020 [tehtävät](2020/kirje_2020_02.pdf).<br>
+Malliratkaisut saatavilla kirjeeseen vastanneille.<br>
 
 Tammikuun 2020 [tehtävät](2020/kirje_2020_01.pdf).<br>
 <span lang="sv">[Träningsuppgifter, januari 2020](2020/kirje_2020_01_sv.pdf)</span><br>
+Malliratkaisut saatavilla kirjeeseen vastanneille.<br>
 **Korjaus 13.1.2020**: Tehtävässä 6 on kyse tasakylkisestä eikä tasasivuisesta kolmiosta.<br>
 Malliratkaisut saatavilla kirjeeseen vastanneille.
 
 Vuodenvaihteen 2019-2020 [erikoistehtäväsarja](2019/kirje2019-2020.pdf), sopii lämmittelyyn vanhoille osallistujille ja uusille vakavaan pohdintaan.<br>
 <span lang="sv">[Årsskiftets övningar](2019/erikoistehtavasarja_sv_19-20.pdf).</span>
 
-Joulukuun 2019 [tehtävät](2019/kirje_2019_12.pdf).
-Malliratkaisut saatavilla kirjeeseen vastanneille.<br>
+Joulukuun 2019 [tehtävät](2019/kirje_2019_12.pdf) ja [ratkaisut](2019/ratk_2019_12.pdf).
 <span lang="sv">[Träningsuppgifter, december 2019](2019/kirje_2019_12-sv.pdf)</span><br>
 **Korjaus 1.12.2019**: Päivölässä jaetussa kirjeessä tehtävässä 18 on virhe.
 Kyse on peräkkäisten kokonaislukujen _neliöiden_ summasta, ei peräkkäisten kokonaislukujen summasta.<br>
