@@ -13,7 +13,7 @@ url: /
 
 ## **Koronavirusepidemia** aiheuttaa muutoksia toimintaan, ks. [uutiset](#uutisia) ja [aikataulu](https://matematiikkakilpailut.fi/aikataulu/).
 
-## **Viikkokisoja** järjestetään taas, ks. [ilmoitus](https://keskustelu.matematiikkakilpailut.fi/t/viikkokisat/322) ja [viikon 20.-26.4. kisa](https://keskustelu.matematiikkakilpailut.fi/t/viikkokisa-20-26-4/327).
+## **Viikkokisoja** järjestetään taas, ks. [ilmoitus](https://keskustelu.matematiikkakilpailut.fi/t/viikkokisat/322).
 
 [Matematiikkakilpailuiden](kilpailut) tarkoituksena on kannustaa 
 lahjakkaita nuoria harrastamaan matematiikkaa. Tähän liittyvästä 
