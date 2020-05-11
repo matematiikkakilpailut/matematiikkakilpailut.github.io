@@ -20,7 +20,7 @@ aikataulu:
     tapahtuma: "**Toteutetaan etänä ks. [uutiset](https://matematiikkakilpailut.fi/#uutisia)** ~~Valmennus&shy;viikonvaihde Päivölässä. Pythagoraan polku -kilpailu halukkaille.~~"
   - pvm: "15.&ndash;21.4."
     tapahtuma: "**Tapahtuu virtuaalisesti:** [Euroopan tyttöjen matematiikka&shy;olympialaiset <abbr>EGMO</abbr>](https://egmo2020.nl)"
-  - pvm: "noin ~~toukokuussa~~ **13.-16.6.**"
+  - pvm: "~~noin toukokuussa~~ **13.-16.6.**"
     tapahtuma: "~~Olympia&shy;joukkueen valinta- ja valmennus&shy;viikko Päivölässä~~ **Virtuaalivalmennusta ~~kutsutuille~~       halukkaille**"
   - pvm: "9.-11.6."
     tapahtuma: "Perus&shy;koululaisten valmennus&shy;leiri ~~Päivölässä~~ **virtuaalisesti**"
