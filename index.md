@@ -41,7 +41,7 @@ viikkoa etukäteen!**
 
 ## <a name="uutisia"></a>Uutisia
 
-* Kesäkuussa järjestetään virtuaalisesti valmennusta 8.-11.6. peruskoululaisille ja 13.-16.6. koululaisille yleisesti. Peruskoulun osalta valmennusta on ma ja to klo 10-12 ja 14-16 sekä ti ja ke klo 10-12 ja 18-20. Aikavälillä 13.-16.6. tapahtuvassa valmennuksessa opetusta on päivittäin klo 10-13, 14-17 ja 18-20. Lisätiedot ja ilmoittautuminen Neea Palojärvelle (neea.palojarvi@abo.fi) viimeistään 5.6.2020.
+* Kesäkuussa järjestetään virtuaalisesti valmennusta 8.-11.6. peruskoululaisille ja 13.-16.6. koululaisille yleisesti. Peruskoulun osalta valmennusta on ma ja to klo 10-12 ja 14-16 sekä ti ja ke klo 10-12 ja 18-20. Aikavälillä 13.-16.6. tapahtuvassa valmennuksessa opetusta on päivittäin klo 10-13, 14-17 ja 18-20. Lisätiedot ja ilmoittautuminen Neea Palojärvelle (neea.palojarvi@abo.fi) viimeistään 1.6.2020 peruskoulun leirin osalta ja 5.6.2020 muuten.
 
 * **Vuoden 2020 [Kansainväliset Matematiikkaolympialaiset](https://imo2020.ru/) on siirretty pidettäväksi 16.-26.9.2020 koronaviruspandemian takia.** Mikäli matkustaminen ei vielä tällöinkään onnistu, niin kilpailu saatetaan järjestää virtuaalisena. Kaikki kilpailijat, jotka olisivat olleet oikeutettuja osallistumaan heinäkuussa pidettyihin olympialaisiin, ovat sitä myös syyskuussa.
  
