@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Kesävalmennus 2020
-url: /aikataulu/2020-kesavalmennus/
+url: /aikataulu/
 jsonld: >-
   {
   "@context": "https://schema.org",
@@ -57,7 +57,7 @@ lähettämällä sähköpostia [Neea Palojärvelle](mailto:neea.palojarvi@abo.fi
 Valmennus järjestetään, mikäli siihen on vähintään viisi ilmoittautunutta.
 
 Tarkemmat lisätiedot valmennuksen toteutuksesta lähetetään
-ilmoittautuneille ilmoittautumisajan päätyttyä.
+ilmoittautuneille sähköpostitse ilmoittautumisajan päätyttyä.
 
 On huomattava, että tämä kesäleiri ei vastaa matematiikkavalmennuksen
 tavallisesti toukokuussa järjestämää olympiajoukkueen valintaviikkoa.
@@ -86,4 +86,4 @@ Sunnuntai 14.6. klo 14-17 ja 18-20<br>
 Maanantai 15.6. klo 14-17<br>
 Tiistai 16.6. klo 10-13, 14-17 ja 18-20
 
-Aikataulumuutokset ovat mahdollisia.
+Aikataulumuutokset ovat mahdollisia. Tarkkaile sähköpostiasi!
