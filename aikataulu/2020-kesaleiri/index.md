@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Peruskoululaisten kesäleiri 2020
-url: /aikataulu/2020-leiri/
+url: /aikataulu/
 jsonld: >-
   {
     "@context": "https://schema.org",
@@ -64,4 +64,5 @@ mikäli ilmoittautuneita on vähintään viisi. Olet tervetullut
 ilmoittautumaan leirille, vaikka et olisi saanut kutsua.
 
 Tarkemmat lisätiedot leirin toteutuksesta lähetetään ilmoittautuneille
-ilmoittautumisajan päätyttyä.
+sähköpostitse ilmoittautumisajan päätyttyä. Muutoksia saattaa tapahtua vielä
+lähellä leirin ajankohtaa, joten tarkkaile sähköpostiasi.
