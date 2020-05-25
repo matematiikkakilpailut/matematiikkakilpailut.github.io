@@ -17,11 +17,20 @@ jsonld: >-
       "url": "https://matematiikkakilpailut.fi/aikataulu/2020-kesaleiri/"
     },
     "description": "Matematiikan olympiavalmennus kutsuu valmennuksessa menestyneitä ja aktiivisia oppilaita peruskoululaisten kesälerille. Opetus koostuu luennoista, harjoitustehtävistä ja ryhmätyöskentelystä. Valmentajina toimivat matematiikka- ja tietotekniikkavalmennusten valmentajat.",
-    "organizer": {
+    "performer": {
       "@type": "Organization",
       "name": "Suomen matemaattisen yhdistyksen valmennusjaosto",
       "url": "https://matematiikkakilpailut.fi/valmentajat/"
     },
+    "offers": [{
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "EUR",
+      "url": "mailto:neea.palojarvi@abo.fi",
+      "availability": "http://schema.org/InStock",
+      "validFrom": "2020-05-20",
+      "validThrough": "2020-06-01"
+    }],
     "isAccessibleForFree": true
   }
 ---
