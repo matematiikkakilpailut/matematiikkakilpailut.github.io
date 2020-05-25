@@ -22,6 +22,11 @@ jsonld: >-
       "name": "Suomen matemaattisen yhdistyksen valmennusjaosto",
       "url": "https://matematiikkakilpailut.fi/valmentajat/"
     },
+    "organizer": {
+      "@type": "Organization",
+      "name": "Suomen matemaattisen yhdistyksen valmennusjaosto",
+      "url": "https://matematiikkakilpailut.fi/valmentajat/"
+    },
     "offers": [{
       "@type": "Offer",
       "price": "0",
