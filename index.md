@@ -15,37 +15,45 @@ url: /
 
 ## **Viikkokisoja** järjestetään taas, ks. [ilmoitus](https://keskustelu.matematiikkakilpailut.fi/t/viikkokisat/322).
 
-[Matematiikkakilpailuiden](kilpailut) tarkoituksena on kannustaa 
-lahjakkaita nuoria harrastamaan matematiikkaa. Tähän liittyvästä 
+[Matematiikkakilpailuiden](kilpailut) tarkoituksena on kannustaa
+lahjakkaita nuoria harrastamaan matematiikkaa. Tähän liittyvästä
 valmennuksesta ja kilpailuihin osallistumisesta vastaa Suomessa 
 [Suomen matemaattisen yhdistyksen](http://www.matemaattinenyhdistys.fi/) 
 [Valmennusjaosto](valmentajat).
 
-Valmennus koostuu yleensä viikonloppuisin Päivölän opistolla 
+Valmennus koostuu yleensä viikonloppuisin Päivölän opistolla
 järjestettävistä [**valmennustapahtumista**](kaytanto) 
-(ks. [aikataulu](aikataulu)) sekä [**kirjevalmennuksesta**](valmennus), 
-joka on tarkoitettu kaikille, myös niille, jotka eivät voi 
-osallistua valmennustapahtumiin. **Tilaisuudet ovat kaikille 
-koululaisille avoimia** ja ne on suunnattu erityisesti 
+(ks. [aikataulu](aikataulu)) sekä [**kirjevalmennuksesta**](valmennus),
+joka on tarkoitettu kaikille, myös niille, jotka eivät voi
+osallistua valmennustapahtumiin. **Tilaisuudet ovat kaikille
+koululaisille avoimia** ja ne on suunnattu erityisesti
 lukio- ja yläkouluikäisille.
 
-[Kilpailuja](kilpailut) on eri tasoilla kansallisista 
+[Kilpailuja](kilpailut) on eri tasoilla kansallisista
 alueellisista kilpailuista Kansainvälisiin Matematiikkaolympialaisiin.
 Niihin pääsee mukaan ottamalla ahkerasti osaa valmennukseen
 ja tulemalla valituksi joukkueeseen.
 
-**[Ilmoittaudu](https://www.paivola.fi/fi/matematiikkakilpailuvalmennukseen-ilmoittautuminen/) 
-seuraavaan valmennusviikonloppuun vähintään 
+**[Ilmoittaudu](https://www.paivola.fi/fi/matematiikkakilpailuvalmennukseen-ilmoittautuminen/)
+seuraavaan valmennusviikonloppuun vähintään
 viikkoa etukäteen!**
 
 
 ## <a name="uutisia"></a>Uutisia
 
-* Kesäkuussa järjestetään virtuaalisesti valmennusta 8.-11.6. peruskoululaisille ja 13.-16.6. koululaisille yleisesti. Peruskoulun osalta valmennusta on ma ja to klo 10-12 ja 14-16 sekä ti ja ke klo 10-12 ja 18-20. Aikavälillä 13.-16.6. tapahtuvassa valmennuksessa opetusta on päivittäin klo 10-13, 14-17 ja 18-20. Lisätiedot ja ilmoittautuminen Neea Palojärvelle (neea.palojarvi@abo.fi) viimeistään 1.6.2020 peruskoulun leirin osalta ja 5.6.2020 muuten.
+* Kesäkuussa järjestetään virtuaalisesti valmennusta
+  [8.-11.6. peruskoululaisille](aikataulu/2020-kesaleiri/) ja
+  [13.-16.6. koululaisille yleisesti](aikataulu/2020-kesavalmennus/).
+  Peruskoulun osalta valmennusta on ma ja to klo 10-12 ja 14-16 sekä
+  ti ja ke klo 10-12 ja 18-20. Aikavälillä 13.-16.6. tapahtuvassa
+  valmennuksessa opetusta on päivittäin klo 10-13, 14-17 ja
+  18-20. Lisätiedot ja ilmoittautuminen Neea Palojärvelle
+  ([neea.palojarvi@abo.fi]()) viimeistään 1.6.2020 peruskoulun leirin
+  osalta ja 5.6.2020 muuten.
 
 * **Vuoden 2020 [Kansainväliset Matematiikkaolympialaiset](https://imo2020.ru/) on siirretty pidettäväksi 16.-26.9.2020 koronaviruspandemian takia.** Mikäli matkustaminen ei vielä tällöinkään onnistu, niin kilpailu saatetaan järjestää virtuaalisena. Kaikki kilpailijat, jotka olisivat olleet oikeutettuja osallistumaan heinäkuussa pidettyihin olympialaisiin, ovat sitä myös syyskuussa.
- 
-* Vuoden 2020 [Euroopan tyttöjen matematiikkaolympialaiset](https://egmo2020.nl/) toteutettiin virtuaalisesti 15.&ndash;21.4. koronaviruspandemian takia. Alankomaat toimi järjestäjämaana. Suomea edustivat **Ulrika Kaara**, **Idaliina Kuusisto**, **Veera Nurmela** ja **Anni Tapionlinna**. Suomi oli 42. osallistuneista 53 joukkueesta sekä 39 Euroopan maan joukossa 30. [Kilpailutehtävät ja ratkaisut](https://www.egmo.org/egmos/egmo9/) sekä [tulosluettelo](https://www.egmo.org/egmos/egmo9/scoreboard/). 
+
+* Vuoden 2020 [Euroopan tyttöjen matematiikkaolympialaiset](https://egmo2020.nl/) toteutettiin virtuaalisesti 15.&ndash;21.4. koronaviruspandemian takia. Alankomaat toimi järjestäjämaana. Suomea edustivat **Ulrika Kaara**, **Idaliina Kuusisto**, **Veera Nurmela** ja **Anni Tapionlinna**. Suomi oli 42. osallistuneista 53 joukkueesta sekä 39 Euroopan maan joukossa 30. [Kilpailutehtävät ja ratkaisut](https://www.egmo.org/egmos/egmo9/) sekä [tulosluettelo](https://www.egmo.org/egmos/egmo9/scoreboard/).
 
 * **Viikkokisoja** järjestetään taas, ks. [ilmoitus](https://keskustelu.matematiikkakilpailut.fi/t/viikkokisat/322) ja [viikon 6.-12.4. kisa](https://keskustelu.matematiikkakilpailut.fi/t/viikkokisa-6-12-4/323).
 
@@ -59,7 +67,7 @@ viikkoa etukäteen!**
 
 * Vuoden 2019 [Kansainväliset Matematiikkaolympialaiset](https://www.imo2019.uk/) pidettiin Bathissa 10.&ndash;22.7. Suomea edustivat **Juho Arala**, **Hermanni Huhtamäki**, **Akseli Jussinmäki**, **Olli Järviniemi**, **Roope Salmi** ja **Nerissa Shakespeare**. Järviniemi sai hopeamitalin, Salmi pronssimitalin, Arala ja Jussinmäki kunniamaininnat. [Tulosluettelo](http://imo-official.org/year_country_r.aspx?year=2019).
 
-* Vuoden 2019 [Euroopan tyttöjen matematiikka&shy;olympialaisissa](https://egmo2019.org/) Suomea edustivat **Idaliina Kuusisto**, **Veera Nurmela**, **Nerissa Shakespeare** ja **Hilma Tillqvist**. Kilpailut pidettiin Kiovassa, Ukrainassa. [Kilpailutehtävät ja ratkaisut](https://www.egmo.org/egmos/egmo8/) sekä [tulosluettelo](https://www.egmo.org/egmos/egmo8/scoreboard/). 
+* Vuoden 2019 [Euroopan tyttöjen matematiikka&shy;olympialaisissa](https://egmo2019.org/) Suomea edustivat **Idaliina Kuusisto**, **Veera Nurmela**, **Nerissa Shakespeare** ja **Hilma Tillqvist**. Kilpailut pidettiin Kiovassa, Ukrainassa. [Kilpailutehtävät ja ratkaisut](https://www.egmo.org/egmos/egmo8/) sekä [tulosluettelo](https://www.egmo.org/egmos/egmo8/scoreboard/).
 
 * Vuoden 2018 Baltian Tie -joukkuematematiikkakilpailu pidettiin Pietarissa 9.&ndash;13.11. Ensimmäisen sijan otti Saksan joukkue 83 pisteellä, Suomi oli kahdeksas yhdestätoista 57 pisteellä. [Kilpailutehtävät](/Baltian_tie/2018/BW18_FIN.pdf) ja [tulosluettelo](https://web.archive.org/web/20190517060205/http://www.pdmi.ras.ru/EIMI/2018/Baltic_way/res18.pdf).
 
@@ -112,8 +120,7 @@ USA:n olympiavalmennuksen johtajan syyskuussa 2016 julkaistu haastattelu, joka v
 
 Päivölässä toimii [matematiikkalinja](https://www.matematiikkalinja.fi/),
 jonka yhteydessä järjestetään viikonloppu&shy;valmennuksia.
-   
+
 #### [Solmu](http://matematiikkalehtisolmu.fi/)
 
 Matematiikkalehti, johon sinäkin voisit kenties kirjoittaa jotain.
-
