@@ -4,25 +4,34 @@ title: Kesävalmennus 2020
 url: /aikataulu/2020-kesavalmennus/
 jsonld: >-
   {
-    "@context": "https://schema.org",
-    "@type": "Event",
-    "description": "Matematiikan olympiavalmennus järjestää kesävalmennusta virtuaalisesti. Valmennus koostuu niin aloitteleville valmennettaville suunnatusta helpommasta opetuksesta edistyneemmille suunnatusta opetuksesta että molemmille ryhmille suunnatuista oppitunneista. Valmennus koostuu luennoista, harjoitustehtävistä ja ryhmätyöskentelystä. Se on maksutonta.",
-    "endDate": "2020-06-16T17:00+03:00",
-    "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-    "eventStatus": "https://schema.org/EventScheduled",
-    "image": "https://keskustelu.matematiikkakilpailut.fi/uploads/default/original/1X/903d26f2a2a48285467275e06546a35b2f203482.png",
-    "isAccessibleForFree": true,
-    "location": {
-      "@type": "VirtualLocation",
-      "url": "https://matematiikkakilpailut.fi/aikataulu/2020-kesavalmennus/"
-    },
-    "name": "Matematiikkavalmennuksen kesävalmennus",
-    "organizer": {
-      "@type": "Organization",
-      "name": "Suomen matemaattisen yhdistyksen valmennusjaosto",
-      "url": "https://matematiikkakilpailut.fi/valmentajat/"
-    },
-    "startDate": "2020-06-13T10:00+03:00"
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "description": "Matematiikan olympiavalmennus järjestää kesävalmennusta virtuaalisesti. Valmennus koostuu niin aloitteleville valmennettaville suunnatusta helpommasta opetuksesta edistyneemmille suunnatusta opetuksesta että molemmille ryhmille suunnatuista oppitunneista. Valmennus koostuu luennoista, harjoitustehtävistä ja ryhmätyöskentelystä. Se on maksutonta.",
+  "endDate": "2020-06-16T17:00+03:00",
+  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "image": "https://keskustelu.matematiikkakilpailut.fi/uploads/default/original/1X/903d26f2a2a48285467275e06546a35b2f203482.png",
+  "isAccessibleForFree": true,
+  "location": {
+    "@type": "VirtualLocation",
+    "url": "https://matematiikkakilpailut.fi/aikataulu/2020-kesavalmennus/"
+  },
+  "name": "Matematiikkavalmennuksen kesävalmennus",
+  "performer": {
+    "@type": "Organization",
+    "name": "Suomen matemaattisen yhdistyksen valmennusjaosto",
+    "url": "https://matematiikkakilpailut.fi/"
+  },
+  "offers": [{
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR",
+    "url": "mailto:neea.palojarvi@abo.fi",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2020-05-20",
+    "validThrough": "2020-06-05"
+  }],
+  "startDate": "2020-06-13T10:00+03:00"
   }
 ---
 
