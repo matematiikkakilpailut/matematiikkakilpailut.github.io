@@ -59,7 +59,12 @@ vuosilta löytyy pdf-muotoisina oheisesta taulukosta.
 <div class="col-xs-3 col-sm-2 col-md-1"><strong>Vuosi</strong></div>
 <div class="col-xs-3 col-sm-2 col-md-1"><strong>Tehtävät</strong></div>
 <div class="col-xs-6"><strong>Ratkaisut</strong></div>
-</div>  
+</div> 
+<div class="row list-group-item">
+<div class="col-xs-3 col-sm-2 col-md-1">2019</div>
+<div class="col-xs-3 col-sm-2 col-md-1"><a href="2019/alkuteht2019.pdf">pdf</a></div>
+<div class="col-xs-6"><a href="2019/alkuratk2019.pdf">pdf</a></div>
+</div>
 <div class="row list-group-item">
 <div class="col-xs-3 col-sm-2 col-md-1">2018</div>
 <div class="col-xs-3 col-sm-2 col-md-1"><a href="2018/alkuteht2018.pdf">pdf</a></div>
