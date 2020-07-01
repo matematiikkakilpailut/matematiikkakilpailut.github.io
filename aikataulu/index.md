@@ -26,10 +26,13 @@ aikataulu:
     tapahtuma: "[**Virtuaalivalmennusta** halukkaille](2020-kesavalmennus/)"
   - pvm: "noin ~~kesäkuussa~~ **kesällä**"
     tapahtuma: "~~Kesän valmennusleiri kutsutuille~~ Olympiajoukkueen valinta- ja valmennusleiri"
-  - pvm: "6.&ndash;11.7."
-    tapahtuma: "Olympiajoukkueen yhteispohjoismainen valmennusleiri Sorøssa, Tanskassa"
+  - pvm: "~~6.&ndash;11.7.~~"
+    tapahtuma: "~~Olympiajoukkueen yhteispohjoismainen valmennusleiri Sorøssa, Tanskassa~~ **PERUTTU**"
+  - pvm: "13.&ndash;14.7."
+    tapahtuma: "[CMC-kilpailu](https://artofproblemsolving.com/contests/cmc) kutsutuille"
   - pvm: "~~8.&ndash;18.7.~~ **16.-26.9.**"
-    tapahtuma: "[61. Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr>](http://www.imo-official.org/year_info.aspx?year=2020) Pietarissa"
+    tapahtuma: "[61. Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr>](http://www.imo-official.org/year_info.aspx?year=2020) ~~Pietarissa~~
+    **ETÄNÄ**"
   - pvm: "2020"
     tapahtuma: "Syksy"
     otsikko: true
