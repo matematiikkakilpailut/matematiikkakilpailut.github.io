@@ -13,8 +13,6 @@ url: /
 
 ## **Koronavirusepidemia** aiheuttaa muutoksia toimintaan, ks. [uutiset](#uutisia) ja [aikataulu](https://matematiikkakilpailut.fi/aikataulu/).
 
-## **Viikkokisoja** järjestetään taas, ks. [ilmoitus](https://keskustelu.matematiikkakilpailut.fi/t/viikkokisat/322).
-
 [Matematiikkakilpailuiden](kilpailut) tarkoituksena on kannustaa
 lahjakkaita nuoria harrastamaan matematiikkaa. Tähän liittyvästä
 valmennuksesta ja kilpailuihin osallistumisesta vastaa Suomessa 
@@ -40,6 +38,8 @@ viikkoa etukäteen!**
 
 
 ## <a name="uutisia"></a>Uutisia
+
+* Vuoden 2020 [Pohjoismainen matematiikkakilpailu](http://www.georgmohr.dk/nmcperm/) pidettiin 30.3.2020. Suomi toimi tänä vuonna järjestäjämaana. Kilpailun voiton vei Norjan **Andreas Alberg** täysin pistein. Parhaitein suomalaisista menestyi **Juho Arala** sijoittuen yhdeksänneksi. [Kilpailutehtävät](http://www.georgmohr.dk/nmcperm/probl/2020/fi.pdf) ja [parhaiden tulokset](http://www.georgmohr.dk/nmcperm/res/2020.html).
 
 * Kesäkuussa järjestetään virtuaalisesti valmennusta
   [8.-11.6. peruskoululaisille](aikataulu/2020-kesaleiri/) ja
