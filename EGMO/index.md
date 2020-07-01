@@ -8,6 +8,11 @@ kilpailut:
     tehtavat: "**Tehtä&shy;vät**"
     ratkaisut: "**Ratkai&shy;sut**"
     edustajat: "**Suomen joukkue**"
+  - vuosi: "2020"
+    paikka: "[Virtuaalinen (Alankomaat)](https://www.egmo.org/egmos/egmo9/)"
+    tehtavat: "[pdf](EGMO_2020teht.pdf)"
+    ratkaisut: "[englanniksi](EGMO_2020sol.pdf)"
+    edustajat: "**Ulrika Kaara, Idaliina Kuusisto, Veera Nurmela, Anni Tapionlinna**" 
   - vuosi: "2019"
     paikka: "[Kiova, Ukraina](https://www.egmo.org/egmos/egmo8/)"
     tehtavat: "[pdf](EGMO_2019teht.pdf)"
@@ -64,7 +69,7 @@ ja toisiin kilpailijoihin. Vaikka kilpailu onkin nimensä mukaisesti tarkoitettu
 on joka vuosi mukana ollut vierailijoita myös muista maanosista, joten osallistujakunta on varsin kansainvälistä.
 Suomi osallistuu kilpailuun vuosittain enintään nelihenkisellä joukkueella.
 
-[Seuraavat](https://egmo2020.nl/) Euroopan tyttöjen matematiikkaolympialaiset järjestetään 15.-21.4.2020 Egmond aan Zee -kylässä Alankomaissa.
+[Seuraavat](https://egmo2021.atsu.edu.ge/) Euroopan tyttöjen matematiikkaolympialaiset järjestetään 9.-15.4.2021 Kutaisissa, Georgiassa.
 
 ## Menneet kilpailut
 
