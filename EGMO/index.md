@@ -92,8 +92,8 @@ Lue kilpailijoiden ja joukkueenjohdon mietteitä kilpailusta [Dimensio-lehdestä
 <div class="col-xs-1 col-sm-1">{{ k['paikka'] | markdownify }}</div>
 <div class="col-xs-1">{{ k['tehtavat'] | markdownify }}</div>
 <div class="col-xs-2 col-sm-2">{{ k['ratkaisut'] | markdownify }}</div>
+<div class="col-xs-3 col-sm-3">{{ k['kertomus'] | markdownify }}</div>  
 <div class="col-xs-3 col-sm-3">{{ k['edustajat'] | markdownify }}</div>
-<div class="col-xs-2 col-sm-2">{{ k['kertomus'] | markdownify }}</div>  
 </div>
 {% endfor %}
 </div>
