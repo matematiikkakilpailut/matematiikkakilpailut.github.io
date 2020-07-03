@@ -25,7 +25,7 @@ kilpailut:
   - vuosi: "2018"
     paikka: "[Firenze, Italia](https://www.egmo.org/egmos/egmo7/)"
     tehtavat: "[pdf](EGMO_2018teht.pdf)"
-    ratkaisut: "[t.1 suomeksi Solmussa,](https://matematiikkalehtisolmu.fi/2018/2/egmo2018_matkakertomus.pdf)
+    ratkaisut: "[t.1 suomeksi Solmussa](https://matematiikkalehtisolmu.fi/2018/2/egmo2018_matkakertomus.pdf),
     [kaikki englanniksi](https://www.egmo.org/egmos/egmo7/solutions.pdf)"
     edustajat: "**Milja Krés, Veera Nurmela, Nerissa Shakespeare** (kunniamaininta), **Essi Vilhonen** (kunniamaininta)"
     kertomus: "[Solmussa](https://matematiikkalehtisolmu.fi/2018/2/egmo2018_matkakertomus.pdf)"
@@ -88,12 +88,12 @@ Lue kilpailijoiden ja joukkueenjohdon mietteitä kilpailusta [Dimensio-lehdestä
 <div class="list-group">
 {% for k in page.kilpailut %}
 <div class="row list-group-item">
-<div class="col-xs-2 col-sm-1">{{ k['vuosi'] | markdownify }}</div>
-<div class="col-xs-3 col-sm-2">{{ k['paikka'] | markdownify }}</div>
+<div class="col-xs-1 col-sm-1">{{ k['vuosi'] | markdownify }}</div>
+<div class="col-xs-1 col-sm-2">{{ k['paikka'] | markdownify }}</div>
 <div class="col-xs-2">{{ k['tehtavat'] | markdownify }}</div>
-<div class="col-xs-3 col-sm-2">{{ k['ratkaisut'] | markdownify }}</div>
-<div class="col-xs-4 col-sm-4">{{ k['edustajat'] | markdownify }}</div>
-<div class="col-xs-2 col-sm-2">{{ k['kertomus'] | markdownify }}</div>  
+<div class="col-xs-2 col-sm-2">{{ k['ratkaisut'] | markdownify }}</div>
+<div class="col-xs-2 col-sm-4">{{ k['edustajat'] | markdownify }}</div>
+<div class="col-xs-2">{{ k['kertomus'] | markdownify }}</div>  
 </div>
 {% endfor %}
 </div>
