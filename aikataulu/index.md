@@ -30,7 +30,7 @@ aikataulu:
     tapahtuma: "~~Olympiajoukkueen yhteispohjoismainen valmennusleiri Sorøssa, Tanskassa~~ **PERUTTU**"
   - pvm: "13.&ndash;14.7."
     tapahtuma: "[CMC-kilpailu](https://artofproblemsolving.com/contests/cmc) kutsutuille"
-  - pvm: "~~8.&ndash;18.7.~~ **16.-26.9.**"
+  - pvm: "~~8.&ndash;18.7.~~ **19.-28.9.**"
     tapahtuma: "[61. Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr>](http://www.imo-official.org/year_info.aspx?year=2020) ~~Pietarissa~~
     **ETÄNÄ**"
   - pvm: "2020"
