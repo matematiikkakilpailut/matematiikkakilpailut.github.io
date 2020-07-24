@@ -39,6 +39,8 @@ viikkoa etukäteen!**
 
 ## <a name="uutisia"></a>Uutisia
 
+* Ensimmäistä kertaa järjestetyssä [The Cyberspace Mathematical Competition](https://artofproblemsolving.com/contests/cmc)-kilpailussa Suomea edustivat **Juho Arala**, **Daniel Arone**, **Asla Heiskanen**, **Hermanni Huhtamäki**, **Idaliina Kuusisto**, **Veera Nurmela**, **Roope Salmi** ja **Sampo Siitonen**. Arala, Arone ja Siitonen palkittiin pronssimitalein sekä Heiskanen, Huhtamäki ja Salmi kunniamaininnoin. [Kilpailutehtävät](https://data.artofproblemsolving.com/images/contests/CMC_brochure.pdf) ja [tulosluettelo](https://artofproblemsolving.com/contests/cmc/leaderboards).
+
 * Vuoden 2020 [Pohjoismainen matematiikkakilpailu](http://www.georgmohr.dk/nmcperm/) pidettiin 30.3.2020. Suomi toimi tänä vuonna järjestäjämaana. Kilpailun voiton vei Norjan **Andreas Alberg** täysin pistein. Parhaitein suomalaisista menestyi **Juho Arala** sijoittuen yhdeksänneksi. [Kilpailutehtävät](http://www.georgmohr.dk/nmcperm/probl/2020/fi.pdf) ja [parhaiden tulokset](http://www.georgmohr.dk/nmcperm/res/2020.html).
 
 * Kesäkuussa järjestetään virtuaalisesti valmennusta
@@ -61,7 +63,7 @@ viikkoa etukäteen!**
 
 * **Vuoden 2020 koronavirusepidemia saattaa aiheuttaa rajoituksia matkustamiseen ja valmennustapahtumien ja kilpailujen perumisia ja siirtämisiä**. Huhtikuun alun valmennusviikonloppu toteutetaan etänä. Matematiikkaolympialaisten järjestäjä on ilmoittanut, että epidemian jatkuessa heinäkuulle kilpailu saatetaan toteuttaa jonkinlaisen etäosallistumisen kautta tai siirtää. EGMO-kilpailu on muutettu virtuaaliseksi.
 
-* Suomen Daniel Arone osallistui kovatasoiseen Romanian Master of Mathematics -kutsukilpailuun osana Pohjoismaiden joukkuetta. Kilpailu pidettiin 26.2.&ndash;2.3.2020 Bukarestissa, Romaniassa. Arone menestyi kilpailussa hyvin saavuttaen kunniamaininnan. [Tulosluettelo](http://rmms.lbi.ro/rmm2020/index.php?id=results_math).
+* Suomen **Daniel Arone** osallistui kovatasoiseen Romanian Master of Mathematics -kutsukilpailuun osana Pohjoismaiden joukkuetta. Kilpailu pidettiin 26.2.&ndash;2.3.2020 Bukarestissa, Romaniassa. Arone menestyi kilpailussa hyvin saavuttaen kunniamaininnan. [Tulosluettelo](http://rmms.lbi.ro/rmm2020/index.php?id=results_math).
 
 * Vuoden 2019 [Baltian Tie -joukkuematematiikkakilpailu](http://balticway19.mimuw.edu.pl/index.html) pidettiin Szczecinissä, Puolassa 15.&ndash;19.11. Ensimmäisen sijan otti Pietarin joukkue 90 pisteellä, Suomi oli seitsemäs yhdestätoista 48 pisteellä. [Kilpailutehtävät](/Baltian_tie/2019/BW19_FIN.pdf) ja [tulosluettelo](http://balticway19.mimuw.edu.pl/BW19-results.pdf)
 
