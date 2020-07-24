@@ -39,7 +39,7 @@ viikkoa etukäteen!**
 
 ## <a name="uutisia"></a>Uutisia
 
-* Ensimmäistä kertaa järjestetyssä [The Cyberspace Mathematical Competition](https://artofproblemsolving.com/contests/cmc)-kilpailussa Suomea edustivat **Juho Arala**, **Daniel Arone**, **Asla Heiskanen**, **Hermanni Huhtamäki**, **Idaliina Kuusisto**, **Veera Nurmela**, **Roope Salmi** ja **Sampo Siitonen**. Arala, Arone ja Siitonen palkittiin pronssimitalein sekä Heiskanen, Huhtamäki ja Salmi kunniamaininnoin. [Kilpailutehtävät](https://data.artofproblemsolving.com/images/contests/CMC_brochure.pdf) ja [tulosluettelo](https://artofproblemsolving.com/contests/cmc/leaderboards).
+* Ensimmäistä kertaa järjestetyssä [The Cyberspace Mathematical Competition](https://artofproblemsolving.com/contests/cmc) -kilpailussa Suomea edustivat **Juho Arala**, **Daniel Arone**, **Asla Heiskanen**, **Hermanni Huhtamäki**, **Idaliina Kuusisto**, **Veera Nurmela**, **Roope Salmi** ja **Sampo Siitonen**. Arala, Arone ja Siitonen palkittiin pronssimitalein sekä Heiskanen, Huhtamäki ja Salmi kunniamaininnoin. [Kilpailutehtävät](https://data.artofproblemsolving.com/images/contests/CMC_brochure.pdf) ja [tulosluettelo](https://artofproblemsolving.com/contests/cmc/leaderboards).
 
 * Vuoden 2020 [Pohjoismainen matematiikkakilpailu](http://www.georgmohr.dk/nmcperm/) pidettiin 30.3.2020. Suomi toimi tänä vuonna järjestäjämaana. Kilpailun voiton vei Norjan **Andreas Alberg** täysin pistein. Parhaitein suomalaisista menestyi **Juho Arala** sijoittuen yhdeksänneksi. [Kilpailutehtävät](http://www.georgmohr.dk/nmcperm/probl/2020/fi.pdf) ja [parhaiden tulokset](http://www.georgmohr.dk/nmcperm/res/2020.html).
 
