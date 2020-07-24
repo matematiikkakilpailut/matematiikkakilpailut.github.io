@@ -24,7 +24,7 @@ aikataulu:
     tapahtuma: "[Perus&shy;koululaisten valmennus&shy;leiri ~~Päivölässä~~ **virtuaalisesti**](2020-kesaleiri/)"
   - pvm: "13.-16.6."
     tapahtuma: "[**Virtuaalivalmennusta** halukkaille](2020-kesavalmennus/)"
-  - pvm: "noin ~~kesäkuussa~~ **kesällä**"
+  - pvm: "noin ~~kesäkuussa~~ **kesällä: 6.-9.8.**"
     tapahtuma: "~~Kesän valmennusleiri kutsutuille~~ Olympiajoukkueen valinta- ja valmennusleiri"
   - pvm: "~~6.&ndash;11.7.~~"
     tapahtuma: "~~Olympiajoukkueen yhteispohjoismainen valmennusleiri Sorøssa, Tanskassa~~ **PERUTTU**"
