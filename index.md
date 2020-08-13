@@ -53,7 +53,7 @@ viikkoa etukäteen!**
   ([neea.palojarvi@abo.fi](mailto:neea.palojarvi@abo.fi)) viimeistään
   1.6.2020 peruskoulun leirin osalta ja 5.6.2020 muuten.
 
-* **Vuoden 2020 [Kansainväliset Matematiikkaolympialaiset](https://imo2020.ru/) on siirretty pidettäväksi 16.-26.9.2020 koronaviruspandemian takia.** Mikäli matkustaminen ei vielä tällöinkään onnistu, niin kilpailu saatetaan järjestää virtuaalisena. Kaikki kilpailijat, jotka olisivat olleet oikeutettuja osallistumaan heinäkuussa pidettyihin olympialaisiin, ovat sitä myös syyskuussa.
+* **Vuoden 2020 [Kansainväliset Matematiikkaolympialaiset](https://imo2020.ru/) on siirretty pidettäväksi 20.-28.9.2020 koronaviruspandemian takia.** Mikäli matkustaminen ei vielä tällöinkään onnistu, niin kilpailu saatetaan järjestää virtuaalisena. Kaikki kilpailijat, jotka olisivat olleet oikeutettuja osallistumaan heinäkuussa pidettyihin olympialaisiin, ovat sitä myös syyskuussa.
 
 * Vuoden 2020 [Euroopan tyttöjen matematiikkaolympialaiset](https://egmo2020.nl/) toteutettiin virtuaalisesti 15.&ndash;21.4. koronaviruspandemian takia. Alankomaat toimi järjestäjämaana. Suomea edustivat **Ulrika Kaara**, **Idaliina Kuusisto**, **Veera Nurmela** ja **Anni Tapionlinna**. Suomi oli 42. osallistuneista 53 joukkueesta sekä 39 Euroopan maan joukossa 30. [Kilpailutehtävät ja ratkaisut](https://www.egmo.org/egmos/egmo9/) sekä [tulosluettelo](https://www.egmo.org/egmos/egmo9/scoreboard/).
 
