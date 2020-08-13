@@ -37,7 +37,7 @@ aikataulu:
     tapahtuma: "Syksy"
     otsikko: true
   - pvm: "4.&ndash;6.9. (viikko 36)"
-    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä, ohjelmassa mm. Baltian tie -joukkueen valinta."
+    tapahtuma: "Valmennus&shy;viikonvaihde ~~Päivölässä, ohjelmassa mm. Baltian tie -joukkueen valinta.~~ mahdollisesti etänä."
   - pvm: "23.9.&ndash;6.10."
     tapahtuma: "[MAOLin peruskoulun matematiikka&shy;kilpailu](https://maol.fi/neljan-tieteen-kisat/)"
   - pvm: "5.10."
@@ -45,7 +45,7 @@ aikataulu:
   - pvm: "16.&ndash;18.10. (viikko 42)"
     tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä"
   - pvm: "30.10."
-    tapahtuma: "[Iranin geometria&shy;kilpailu](https://igo-official.ir/) Päivölässä(?)"
+    tapahtuma: "[Iranin geometria&shy;kilpailu](https://igo-official.ir/), mahdollisesti Päivölässä."
   - pvm: "12.&ndash;16.11."
     tapahtuma: "Baltian tie -kilpailu Reykjavikissa"
   - pvm: "27.&ndash;29.11. (viikko 48)"
