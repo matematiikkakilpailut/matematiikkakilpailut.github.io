@@ -37,7 +37,7 @@ aikataulu:
     tapahtuma: "Syksy"
     otsikko: true
   - pvm: "4.&ndash;6.9. (viikko 36)"
-    tapahtuma: "Valmennus&shy;viikonvaihde ~~Päivölässä, ohjelmassa mm. Baltian tie -joukkueen valinta.~~ **mahdollisesti etänä**. Lisätietoja lähiaikoina."
+    tapahtuma: "Valmennus&shy;viikonvaihde ~~Päivölässä, ohjelmassa mm. Baltian tie -joukkueen valinta.~~ **ETÄNÄ**. Lisätietoja lähiaikoina."
   - pvm: "23.9.&ndash;6.10."
     tapahtuma: "[MAOLin peruskoulun matematiikka&shy;kilpailu](https://maol.fi/neljan-tieteen-kisat/)"
   - pvm: "5.10."
