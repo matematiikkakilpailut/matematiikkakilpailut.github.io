@@ -39,6 +39,8 @@ viikkoa etukäteen!**
 
 ## <a name="uutisia"></a>Uutisia
 
+* Syyskuun valmennusviikonloppu 4.9.-6.9. järjestetään etänä. Lisätietoja lähiaikoina.
+
 * Vuoden 2020 [Kansainvälisiin Matematiikkaolympialaisiin](https://imo2020.ru/) valittiin Suomea edustamaan **Juho Arala**, **Daniel Arone**, **Asla Heiskanen**, **Hermanni Huhtamäki**, **Roope Salmi** ja **Sampo Siitonen**.
 
 * Ensimmäistä kertaa järjestetyssä [The Cyberspace Mathematical Competition](https://artofproblemsolving.com/contests/cmc) -kilpailussa Suomea edustivat **Juho Arala**, **Daniel Arone**, **Asla Heiskanen**, **Hermanni Huhtamäki**, **Idaliina Kuusisto**, **Veera Nurmela**, **Roope Salmi** ja **Sampo Siitonen**. Arala, Arone ja Siitonen palkittiin pronssimitalein sekä Heiskanen, Huhtamäki ja Salmi kunniamaininnoin. [Kilpailutehtävät](https://data.artofproblemsolving.com/images/contests/CMC_brochure.pdf) ja [tulosluettelo](https://artofproblemsolving.com/contests/cmc/leaderboards).
