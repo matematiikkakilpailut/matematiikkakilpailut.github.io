@@ -16,7 +16,7 @@ aikataulu:
   - pvm: "5.10."
     tapahtuma: "[MAOLin lukion matematiikka&shy;kilpailu](https://maol.fi/neljan-tieteen-kisat/)"
   - pvm: "16.&ndash;18.10. (viikko 42)"
-    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä tai etänä"
+    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä tai etänä. Baltian tie -joukkueen valinta."
   - pvm: "30.10."
     tapahtuma: "[Iranin geometria&shy;kilpailu](https://igo-official.ir/), mahdollisesti Päivölässä."
   - pvm: "12.&ndash;16.11."
