@@ -39,7 +39,7 @@ viikkoa etukäteen!**
 
 ## <a name="uutisia"></a>Uutisia
 
-* **Baltian tie 2020 on valitettavasti peruttu.**
+* **BALTIAN TIE 2020 ON VALITETTAVASTI PERUTTU.**
 
 * Syyskuun valmennusviikonloppu 4.9.-6.9. järjestetään etänä. Lisätietoja lähiaikoina.
 
