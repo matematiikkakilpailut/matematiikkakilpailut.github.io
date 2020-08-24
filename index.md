@@ -39,8 +39,6 @@ viikkoa etukäteen!**
 
 ## <a name="uutisia"></a>Uutisia
 
-* **BALTIAN TIE 2020 ON VALITETTAVASTI PERUTTU.**
-
 * Syyskuun valmennusviikonloppu 4.9.-6.9. järjestetään etänä. Lisätietoja lähiaikoina.
 
 * Vuoden 2020 [Kansainvälisiin Matematiikkaolympialaisiin](https://imo2020.ru/) valittiin Suomea edustamaan **Juho Arala**, **Daniel Arone**, **Asla Heiskanen**, **Hermanni Huhtamäki**, **Roope Salmi** ja **Sampo Siitonen**.
