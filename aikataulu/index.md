@@ -20,7 +20,7 @@ aikataulu:
   - pvm: "30.10."
     tapahtuma: "[Iranin geometria&shy;kilpailu](https://igo-official.ir/), mahdollisesti Päivölässä."
   - pvm: "~~12.&ndash;16.11.~~"
-    tapahtuma: "~~Baltian tie -kilpailu Reykjavikissa tai etänä~~ **BALTIAN TIE 2020 ON VALITETTAVASTI PERUTTU.**"
+    tapahtuma: "~~Baltian tie -kilpailu Reykjavikissa tai etänä~~ **BALTIAN TIE 2020 ON VALITETTAVASTI PERUTTU**"
   - pvm: "27.&ndash;29.11. (viikko 48)"
     tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä tai etänä"
 ---
