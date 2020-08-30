@@ -42,7 +42,7 @@ jsonld: >-
 
 Valmennusviikonloppu 36/2020 tapahtuu virtuaalisesti.
 Opetus alkaa perjantaina 4.9.2020 klo 19 perinteisellä
-monivalintakilpailulla.
+harjoituskokeella.
 Valmennus koostuu niin aloitteleville valmennettaville
 suunnatusta helpommasta opetuksesta (ns. alakerran opetus)
 kuin edistyneemmille suunnatusta opetuksesta (ns. yläkerran opetus).
@@ -60,12 +60,12 @@ takia julkaista avoimesti.
 
 ## Kaikille yhteinen ohjelma
 
-Perjantai 4.9. klo 19-21: monivalintakilpailu
+Perjantai 4.9. klo 19-21: harjoituskoe
 
 ## Alakerran opetus
 
-Lauantai 5.9. klo 10-13 ja 17-20: identiteettejä<br>
-Sunnuntai 6.9. klo 10-13: identiteettejä
+Lauantai 5.9. klo 10-14 ja 17-21: identiteettejä<br>
+Sunnuntai 6.9. klo 10-14: identiteettejä
 
 ## Yläkerran opetus
 
