@@ -49,8 +49,8 @@ kuin edistyneemmille suunnatusta opetuksesta (ns. yläkerran opetus).
 
 Valmennus koostuu luennoista, harjoitustehtävistä ja
 ryhmätyöskentelystä. Se on maksutonta ja toteutetaan Zoom-ohjelmistolla.
-Ilmoittaudu lähettämällä sähköpostia
-**[Esa Vesalaiselle](mailto:esavesalainen@gmail.com)**.
+Ilmoittaudu lähettämällä perjantaihin 4.9. mennessä sähköpostia
+[Esa Vesalaiselle](mailto:esavesalainen@gmail.com), `esavesalainen@gmail.com`.
 Valmennus järjestetään, mikäli siihen on vähintään viisi ilmoittautunutta.
 Tarkemmat lisätiedot valmennuksen toteutuksesta lähetetään
 ilmoittautuneille sähköpostitse, koska Zoom-linkkejä ei voi nettihäiriköiden
