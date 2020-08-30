@@ -9,7 +9,7 @@ jsonld: >-
   "name": "Valmennusviikonloppu 36/2020",
   "description": "Valmennusviikonloppu 36/2020 tapahtuu virtuaalisesti. Tilaisuus alkaa perjantaina 4.9.2020 klo 19 perinteisellä monivalintakilpailulla ja jatkuu lauantaina ja sunnuntaina. Valmennus on maksutonta.",
   "startDate": "2020-09-04T19:00+03:00",
-  "endDate": "2020-09-06T13:00+03:00",
+  "endDate": "2020-09-06T14:00+03:00",
   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
   "eventStatus": "https://schema.org/EventScheduled",
   "image": "https://keskustelu.matematiikkakilpailut.fi/uploads/default/original/1X/903d26f2a2a48285467275e06546a35b2f203482.png",
@@ -32,7 +32,7 @@ jsonld: >-
     "@type": "Offer",
     "price": "0",
     "priceCurrency": "EUR",
-    "url": "mailto:XXX",
+    "url": "mailto:esavesalainen@gmail.com",
     "availability": "http://schema.org/InStock",
     "validFrom": "2020-08-30",
     "validThrough": "2020-09-06"
@@ -50,7 +50,7 @@ kuin edistyneemmille suunnatusta opetuksesta (ns. yläkerran opetus).
 Valmennus koostuu luennoista, harjoitustehtävistä ja
 ryhmätyöskentelystä. Se on maksutonta ja toteutetaan Zoom-ohjelmistolla.
 Ilmoittaudu lähettämällä sähköpostia
-**[N.N.:lle](mailto:XXX)**.
+**[Esa Vesalaiselle](mailto:esavesalainen@gmail.com)**.
 Valmennus järjestetään, mikäli siihen on vähintään viisi ilmoittautunutta.
 Tarkemmat lisätiedot valmennuksen toteutuksesta lähetetään
 ilmoittautuneille sähköpostitse, koska Zoom-linkkejä ei voi nettihäiriköiden
