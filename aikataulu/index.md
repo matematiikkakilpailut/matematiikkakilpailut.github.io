@@ -7,7 +7,7 @@ aikataulu:
     tapahtuma: "Syksy"
     otsikko: true
   - pvm: "4.&ndash;6.9. (viikko 36)"
-    tapahtuma: "Valmennus&shy;viikonvaihde ~~Päivölässä, ohjelmassa mm. Baltian tie -joukkueen valinta.~~ **ETÄNÄ**. Lisätietoja lähiaikoina."
+    tapahtuma: "Valmennus&shy;viikonvaihde ~~Päivölässä, ohjelmassa mm. Baltian tie -joukkueen valinta.~~ **ETÄNÄ**. [Lisätietoja ja ilmoittautuminen: klikkaa tästä](2020W36/)"
   - pvm: "20.-28.9."
     tapahtuma: "[61. Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr>](http://www.imo-official.org/year_info.aspx?year=2020) ~~Pietarissa~~
     **ETÄNÄ**"
