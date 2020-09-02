@@ -69,6 +69,6 @@ Sunnuntai 6.9. klo 10-14: identiteettejä
 
 ## Yläkerran opetus
 
-**XXX needs to be filled in XXX**
+**Täydentyy vielä**
 
 Aikataulumuutokset ovat mahdollisia. Tarkkaile sähköpostiasi!
