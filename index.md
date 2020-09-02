@@ -39,7 +39,7 @@ viikkoa etukäteen!**
 
 ## <a name="uutisia"></a>Uutisia
 
-* Syyskuun valmennusviikonloppu 4.9.-6.9. järjestetään etänä. Lisätietoja lähiaikoina.
+* Syyskuun valmennusviikonloppu 4.9.-6.9. järjestetään etänä. [Lisätietoja ja ilmoittautuminen: klikkaa tästä](/aikataulu/2020W36/).
 
 * Vuoden 2020 [Kansainvälisiin Matematiikkaolympialaisiin](https://imo2020.ru/) valittiin Suomea edustamaan **Juho Arala**, **Daniel Arone**, **Asla Heiskanen**, **Hermanni Huhtamäki**, **Roope Salmi** ja **Sampo Siitonen**.
 
