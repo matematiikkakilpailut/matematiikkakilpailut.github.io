@@ -69,6 +69,9 @@ Sunnuntai 6.9. klo 10-14: identiteettejä
 
 ## Yläkerran opetus
 
-**Täydentyy vielä**
+Lauantai 5.9. klo 10:30-13:30, 15:30-18:00: invariant and semi-invariant techniques, permutations<br>
+Sunnuntai 6.9. klo 10:30-14:00: invariant and semi-invariant techniques, permutations
+
+Yläkerran opetus tapahtuu englanniksi.
 
 Aikataulumuutokset ovat mahdollisia. Tarkkaile sähköpostiasi!
