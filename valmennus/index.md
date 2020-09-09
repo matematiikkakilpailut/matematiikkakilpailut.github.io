@@ -80,9 +80,9 @@ Ensimmäinen tehtäväsarja löytyy alta. Kun olet palauttanut ratkaisujasi siih
 
 Peruskoululaiset voivat halutessaan ratkoa myös haastavampia, kaikille koululaisille tarkoitettuja kirjevalmennustehtäviä (yllä).
 
-[Peruskoululaisten ensimmäinen valmennuskirje](2019/kirje1_internet.pdf)
+[Peruskoululaisten ensimmäinen valmennuskirje](2020/kirje1_internet.pdf)
 
-[På svenska](2019/brev1_internet.pdf)
+[På svenska](2020/brev1_internet.pdf)
 
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
