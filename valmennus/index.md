@@ -41,11 +41,11 @@ valintakokeissa.
 Syyskuun 2020 [tehtävät](2020/kirje_2020_09.pdf).
 
 Kesän 2020 [tehtävät](2020/kirje_2020_06.pdf).<br>
-**Korjaus 21.4.2020**: Tehtävästä 11 puuttui oletus, että polynomin asteluku on neljä.
+**Korjaus 21.4.2020**: Tehtävästä 11 puuttui oletus, että polynomin asteluku on neljä.<br>
 Malliratkaisut saatavilla kirjeeseen vastanneille.<br>
 
 Huhtikuun 2020 [tehtävät](2020/kirje_2020_04.pdf).<br>
-**Korjaus 5.4.2020**: Tehtävän 15 epäyhtälössä vasemmalla puolella on murtolausekkeiden tulo, ei summaa.
+**Korjaus 5.4.2020**: Tehtävän 15 epäyhtälössä vasemmalla puolella on murtolausekkeiden tulo, ei summaa.<br>
 Malliratkaisut saatavilla kirjeeseen vastanneille.<br>
 
 Helmikuun 2020 [tehtävät](2020/kirje_2020_02.pdf).<br>
