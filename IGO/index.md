@@ -8,17 +8,17 @@ kilpailut:
     ratkaisut: "**Ratkai&shy;sut**"
     menestys: "**Suomen menestys**"
   - vuosi: "[2019](https://igo-official.ir/events/6/)"
-    tehtavat: ”[pdf](teht2019.pdf)”
-    ratkaisut: ”[englanniksi](https://igo-official.ir/media/IGO_2019_Booklet_en.pdf)”
-    menestys: ”**Vaativa taso:** 2 kunniamainintaa <br> **Keskitaso:** 1 pronssi <br>**Perustaso:** 2 kunniamainintaa”
-  - vuosi: ”[2018](https://igo-official.ir/events/5/)”
-    tehtavat: ”[pdf](teht2018.pdf)”
-    ratkaisut: ”[englanniksi](https://igo-official.ir/media/Solutions-en.pdf)”
-    menestys: ”**Vaativa taso:** 1 pronssi, 2 kunniamainintaa <br> **Keskitaso:** 2 kunniamainintaa”
-  - vuosi: ”[2017](https://igo-official.ir/events/4/)”
-    tehtavat: ”[pdf](teht2017.pdf)”
-    ratkaisut: ”[osa suomeksi](https://matematiikkalehtisolmu.fi/2018/2/IGO.pdf)”
-    menestys: ”**Vaativa taso:** 1 kunniamaininta <br> **Keskitaso:** 1 pronssi, 1 kunniamaininta <br>**Perustaso:** 1 kunniamaininta”
+    tehtavat: "[pdf](teht2019.pdf)"
+    ratkaisut: "[englanniksi](https://igo-official.ir/media/IGO_2019_Booklet_en.pdf)"
+    menestys: "**Vaativa taso:** 2 kunniamainintaa <br> **Keskitaso:** 1 pronssi <br>**Perustaso:** 2 kunniamainintaa"
+  - vuosi: "[2018](https://igo-official.ir/events/5/)"
+    tehtavat: "[pdf](teht2018.pdf)"
+    ratkaisut: "[englanniksi](https://igo-official.ir/media/Solutions-en.pdf)"
+    menestys: "**Vaativa taso:** 1 pronssi, 2 kunniamainintaa <br> **Keskitaso:** 2 kunniamainintaa"
+  - vuosi: "[2017](https://igo-official.ir/events/4/)"
+    tehtavat: "[pdf](teht2017.pdf)"
+    ratkaisut: "[osa suomeksi](https://matematiikkalehtisolmu.fi/2018/2/IGO.pdf)"
+    menestys: "**Vaativa taso:** 1 kunniamaininta <br> **Keskitaso:** 1 pronssi, 1 kunniamaininta <br>**Perustaso:** 1 kunniamaininta"
 ---
 
 ## Yleistä
