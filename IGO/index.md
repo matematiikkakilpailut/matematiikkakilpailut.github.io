@@ -23,7 +23,7 @@ kilpailut:
 
 ## Yleistä
 
-[Iranin geometriakilpailuissa](https://igo-official.ir) mitellään nimensä mukaisesti geometrian taidoista. Kukin osallistujamaa ottaa osaa omasta maasta käsin ja kilpailun yhtenä tavoitteena onkin lisätä geometriasta pitävien keskinäistä kommunikointia sekä kotimaissa että kansainvälisesti. Kilpailu järjestettiin ensimmäisen kerran vuonna 2014 ja Suomi on ottanut siihen osaa vuodesta 2017 lähtien. 
+[Iranin geometriakilpailussa](https://igo-official.ir) mitellään nimensä mukaisesti geometrian taidoista. Kukin osallistujamaa ottaa osaa omasta maasta käsin ja kilpailun yhtenä tavoitteena onkin lisätä geometriasta pitävien keskinäistä kommunikointia sekä kotimaissa että kansainvälisesti. Kilpailu järjestettiin ensimmäisen kerran vuonna 2014 ja Suomi on ottanut siihen osaa vuodesta 2017 lähtien. 
 
 Iranin geometriakilpailussa on tarjolla on neljä sarjaa: perustaso 7.-ja 8.-luokkalaisille, keskitaso 9.-luokkalaisille ja lukion ensimmäisen vuoden oppilaille, vaativa taso lukion 2. ja 3. luokan oppilaille sekä avoin sarja. Kilpailu tarjoaakin etenkin nuorimmille kilpailijoille hyvän mahdollisuuden ensimmäisiin kosketuksiin kansainvälisiin kilpailuihin. Kukin osallistujamaa voi osallistua kilpailuun niin monella kilpailijalla kuin haluaa, mutta vain neljä kilpailijaa/sarja otetaan huomioon virallisissa tuloksissa.
 
