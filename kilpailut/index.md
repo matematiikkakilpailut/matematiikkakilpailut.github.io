@@ -23,6 +23,13 @@ joukkuekilpailu Baltian tie -kilpailun mallin mukaan. Kilpailuun
 osallistuminen on perustunut kutsuun. Osallistuvia lukioita on
 ollut kymmenkunta.
 
+#### [Iranin geometriakilpailut](/IGO/)
+
+Iranin geometriakilpailussa, IGO, kilpailutehtävät koostuvat
+geometriasta. Kilpailussa on kolme luokka-asteisiin perustuvaa
+sarjaa sekä avoin sarja. Kilpailu onkin hyvä tapa aloittaa
+kansainvälinen kilpailu-ura.
+
 #### [Pohjoismainen matematiikka&shy;kilpailu](/PM/)
 
 Vaikeampi kuin MAOL, helpompi kuin IMO. Kilpailuun valitaan
@@ -39,14 +46,6 @@ alueen joukkueella, ja Saksa, jonka joukkue edustaa
 hansakaupunkien aluetta.  Kilpailussa on peräti 20 tehtävää,
 joiden ratkaisemiseen on aikaa vain 4,5 tuntia.
 
-#### [Kansainväliset Matematiikka&shy;olympialaiset](/IMO/)
-
-<span lang="en">International Mathematical Olympiad</span>, IMO.
-IMO on lukiolaisten matematiikka&shy;kilpailujen hierarkian huipulla.
-Kukin kutsuttu maa voi lähettää kilpailuun kuusi osallistujaa.
-Tehtävät ovat vaikeita.  Kilpailu on kaksi&shy;päiväinen; kumpanakin
-päivänä kamppaillaan 4,5 tuntia kolmen tehtävän parissa.
-
 #### [Euroopan Tyttöjen Matematiikka&shy;olympialaiset](/EGMO/)
 
 Euroopan Tyttöjen Matematiikka&shy;olympialaiset, EGMO, on perustettu
@@ -55,6 +54,15 @@ matematiikka&shy;olympialaisissa vallitsevaa sukupuolten epä&shy;tasa&shy;paino
 kannustamalla tyttöjä pyrkimään Kansainvälisiin
 olympialaisiin. Kilpailu on kaksi&shy;päiväinen ja noudattaa muutenkin
 Kansainvälisten Matematiikka&shy;olympialaisten muotoja.
+
+#### [Kansainväliset Matematiikka&shy;olympialaiset](/IMO/)
+
+<span lang="en">International Mathematical Olympiad</span>, IMO.
+IMO on lukiolaisten matematiikka&shy;kilpailujen hierarkian huipulla.
+Kukin kutsuttu maa voi lähettää kilpailuun kuusi osallistujaa.
+Tehtävät ovat vaikeita.  Kilpailu on kaksi&shy;päiväinen; kumpanakin
+päivänä kamppaillaan 4,5 tuntia kolmen tehtävän parissa.
+
 
 #### [Kenguru](https://www.mayk.fi/kenguru)
 
