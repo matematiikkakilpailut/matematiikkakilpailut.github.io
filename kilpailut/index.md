@@ -23,7 +23,7 @@ joukkuekilpailu Baltian tie -kilpailun mallin mukaan. Kilpailuun
 osallistuminen on perustunut kutsuun. Osallistuvia lukioita on
 ollut kymmenkunta.
 
-#### [Iranin geometriakilpailut](/IGO/)
+#### [Iranin geometriakilpailu](/IGO/)
 
 Iranin geometriakilpailussa, IGO, kilpailutehtävät koostuvat
 geometriasta. Kilpailussa on kolme luokka-asteisiin perustuvaa
