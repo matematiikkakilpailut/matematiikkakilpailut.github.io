@@ -7,7 +7,7 @@ kilpailut:
     tehtavat: "**Tehtä&shy;vät**"
     ratkaisut: "**Ratkai&shy;sut**"
     menestys: "**Suomen menestys**"
-  - vuosi: [2019](https://igo-official.ir/events/6/)
+  - vuosi: "[2019](https://igo-official.ir/events/6/)"
     tehtavat: ”[pdf](teht2019.pdf)”
     ratkaisut: ”[englanniksi](https://igo-official.ir/media/IGO_2019_Booklet_en.pdf)”
     menestys: ”**Vaativa taso:** 2 kunniamainintaa <br> **Keskitaso:** 1 pronssi <br>**Perustaso:** 2 kunniamainintaa”
@@ -25,7 +25,7 @@ kilpailut:
 
 [Iranin geometriakilpailuissa](https://igo-official.ir) mitellään nimensä mukaisesti geometrian taidoista. Kukin osallistujamaa ottaa osaa omasta maasta käsin ja kilpailun yhtenä tavoitteena onkin lisätä geometriasta pitävien keskinäistä kommunikointia sekä kotimaissa että kansainvälisesti. Kilpailu järjestettiin ensimmäisen kerran vuonna 2014 ja Suomi on ottanut siihen osaa vuodesta 2017 lähtien. 
 
-Iranin geometriakilpailussa on tarjolla on neljä sarjaa: perustaso 7.-ja 8.-luokkalaisille, keskitaso 9.-luokkalaisille ja lukion ensimmäisen vuoden oppilaille, vaativa taso lukion 2. ja 3. luokan oppilaille sekä avoin sarja. Kilpailu tarjoaakin etenkin nuorimmille kilpailijoille hyvän mahdollisuuden ensimmäisiin kosketuksiin kansainvälisiin kilpailuihin. Kunkin osallistujamaa voi osallistua kilpailuun niin monella kilpailijalla kuin haluaa, mutta vain neljä kilpailijaa/sarja otetaan huomioon virallisissa tuloksissa.
+Iranin geometriakilpailussa on tarjolla on neljä sarjaa: perustaso 7.-ja 8.-luokkalaisille, keskitaso 9.-luokkalaisille ja lukion ensimmäisen vuoden oppilaille, vaativa taso lukion 2. ja 3. luokan oppilaille sekä avoin sarja. Kilpailu tarjoaakin etenkin nuorimmille kilpailijoille hyvän mahdollisuuden ensimmäisiin kosketuksiin kansainvälisiin kilpailuihin. Kukin osallistujamaa voi osallistua kilpailuun niin monella kilpailijalla kuin haluaa, mutta vain neljä kilpailijaa/sarja otetaan huomioon virallisissa tuloksissa.
 
 Syksyisin pidettävään kilpailuun kutsutaan Suomessa edellisenä keväänä ja kesänä aktiivisia ja menestyneitä valmennettavia luokka-asteet huomioiden. Kutsuttavien ja osallistujien määrä vaihtelee vuosittain muun muassa ratkaisuiden tarkistamiseen käytössä olevista resursseista riippuen. Mikäli olet kiinnostunut ottamaan osaan kilpailuun, mutta et ole saanut kutsua, niin kysythän vapaista paikoista Lauri Hallilalta (laurihallila@gmail.com). Etenkin perustasosta saattaa löytyä vapaita paikkoja.
 
