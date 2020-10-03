@@ -21,13 +21,15 @@
       url: /MAOL/
     - title: Pythagoras
       url: /pythagoras/
+    - title: IGO
+      url: /IGO/
     - title: Pohjoismainen
       url: /PM/
     - title: Baltian tie
       url: /Baltian_tie/
-    - title: IMO
-      url: /IMO/
     - title: EGMO
       url: /EGMO/
+    - title: IMO
+      url: /IMO/
 - title: In English
   url: /english/
