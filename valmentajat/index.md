@@ -9,15 +9,16 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
 [Suomen matemaattisen yhdistyksen][smy] valmennusjaosto ja sen vapaaehtoiset:
 
 *  [Anne-Maria Ernvall-Hytönen][ameh]<br/>
-   Filosofian tohtori, olympiaedustaja 1999, 2000, 2001.
+   Filosofian tohtori, apulaisprofessori (HY), olympiaedustaja vuosina 1999, 2000 ja 2001.
    Valmennusjaoston johtoryhmän jäsen. Kantaa huolta lukuteorian ja epäyhtälöiden osaamisesta.
 *  Lauri Hallila<br/> Olympiaedustaja vuosina 1996 ja 1997.
 *  Otte Heinävaara<br/> Olympiaedustaja vuosina 2012 ja 2013.
+*  Asla Heiskanen<br/> Olympiaedustaja vuonna 2020.
 *  Olli Hirviniemi<br/>Olympiaedustaja vuosina 2010 ja 2011.
 *  [Antti Honkela][ahonkela]<br/> Olympiaedustaja vuonna 1997.
-*  Akseli Jussinmäki<br/> Olympiaedustaja vuosina 2018 ja 2019.
+*  Akseli Jussinmäki<br/> Olympiaedustaja vuosina 2018 ja 2019. Vastaa erityisesti peruskoululaisten kirjevalmennuksesta yhdessä Lounan ja Pihlan kanssa.
 *  Olli Järviniemi<br/> Olympiaedustaja vuosina 2017, 2018 ja 2019.
-*  Pihla Karanko <br/> Edustaja Euroopan tyttöjen matematiikkaolympialaisissa 2012 ja 2013. Vastaa peruskoululaisten kirjevalmennuksesta yhdessä Lounan kanssa.
+*  Pihla Karanko <br/> Edustaja Euroopan tyttöjen matematiikkaolympialaisissa 2012 ja 2013. Vastaa peruskoululaisten kirjevalmennuksesta yhdessä Akselin ja Lounan kanssa.
 *  Alexey Kirichenko<br/>
    Kokemusta mm. maineikkaista Leningradin matematiikkaolympialaisista.
 *  Jari Lappalainen<br/> Olympiaedustaja vuosina 1990 ja 1991.
@@ -31,13 +32,13 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
    Filosofian tohtori, matematiikan dosentti (HY), yliopistonlehtori (TaY).
    Olympiaedustaja vuonna 1983. Valmennusjaoston johtoryhmän jäsen.
    Sommittelee kombinatoriikan valmennusta.
-*  Neea Palojärvi<br/> Olympiaedustaja vuonna 2013.
+*  Neea Palojärvi<br/> Filosofian tohtori, olympiaedustaja vuonna 2013.
 *  Jaakko Seppälä<br/>
    Filosofian maisteri, edustaja Pohjoismaisessa matematiikkakilpailussa 2007.
 *  Louna Seppälä<br/>
-   Filosofian tohtori, vastaa peruskoululaisten kirjevalmennuksesta yhdessä Pihlan kanssa.
+   Filosofian tohtori, vastaa peruskoululaisten kirjevalmennuksesta yhdessä Akselin ja Pihlan kanssa.
 *  [Jouni Seppänen][jks]<br/> Tekniikan tohtori, olympiaedustaja vuosina 1994 ja 1995.
-*  Joni Teräväinen<br/> Olympiaedustaja vuosina 2011, 2012 ja 2013.
+*  Joni Teräväinen<br/> Filosofian tohtori, olympiaedustaja vuosina 2011, 2012 ja 2013.
 *  Ville Tilvis
 *  [Niko Vuokko][ntvuok]<br/> Olympiaedustaja vuosina 2002 ja 2003.
 *  [Esa Vesalainen][evvesala]<br/>
