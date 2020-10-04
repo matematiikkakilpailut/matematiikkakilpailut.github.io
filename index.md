@@ -41,6 +41,9 @@ viikkoa etukäteen!**
 
 ## <a name="uutisia"></a>Uutisia
 
+* Lokakuun valmennusviikonloppu 14.-16.10. järjestetään etänä. [Lisätietoja ja ilmoittautuminen: klikkaa tästä](/aikataulu/2020W42/).
+
+
 * Vuoden 2020 [Kansainvälisissä matematiikkaolympialaisissa](https://imo2020.ru/) Suomea edustivat hienosti **Juho Arala**, **Daniel Arone**, **Asla Heiskanen**, **Hermanni Huhtamäki**, **Roope Salmi** ja **Sampo Siitonen**. Heiskanen taituroi hopeaa yhdellä Suomen osallistumishistorian parhaisiin kuuluvalla suorituksella. Arala palkittiin pronssilla sekä Huhtamäki, Salmi ja Siitonen kunniamaininnoilla. Suomi oli 60. osallistuvien 105 maan joukossa. [Kilpailutehtävät](https://matematiikkakilpailut.fi/IMO/2020/teht2020.pdf) ja [tulosluettelo](https://www.imo-official.org/year_country_r.aspx?year=2020).
 
 * Syyskuun valmennusviikonloppu 4.9.-6.9. järjestetään etänä. [Lisätietoja ja ilmoittautuminen: klikkaa tästä](/aikataulu/2020W36/).
