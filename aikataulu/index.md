@@ -7,7 +7,7 @@ aikataulu:
     tapahtuma: "Syksy"
     otsikko: true
   - pvm: "4.&ndash;6.9. (viikko 36)"
-    tapahtuma: "Valmennus&shy;viikonvaihde ~~Päivölässä, ohjelmassa mm. Baltian tie -joukkueen valinta.~~ **ETÄNÄ**. [Lisätietoja ja ilmoittautuminen: klikkaa tästä](2020W36/)"
+    tapahtuma: "Valmennus&shy;viikonvaihde ~~Päivölässä, ohjelmassa mm. Baltian tie -joukkueen valinta.~~ **ETÄNÄ**. [Lisätietoja ja ilmoittautuminen](2020W36/)"
   - pvm: "20.-28.9."
     tapahtuma: "[61. Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr>](http://www.imo-official.org/year_info.aspx?year=2020) ~~Pietarissa~~
     **ETÄNÄ**"
@@ -16,7 +16,7 @@ aikataulu:
   - pvm: "5.10."
     tapahtuma: "[MAOLin lukion matematiikka&shy;kilpailu](https://maol.fi/neljan-tieteen-kisat/)"
   - pvm: "16.&ndash;18.10. (viikko 42)"
-    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä tai etänä."
+    tapahtuma: "Valmennus&shy;viikonvaihde ~~Päivölässä tai~~ **ETÄNÄ**. [Lisätietoja ja ilmoittautuminen](2020W42/)"
   - pvm: "30.10."
     tapahtuma: "[Iranin geometria&shy;kilpailu](https://igo-official.ir/), mahdollisesti Päivölässä."
   - pvm: "12.&ndash;16.11."
