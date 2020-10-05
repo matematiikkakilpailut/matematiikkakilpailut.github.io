@@ -68,16 +68,16 @@ Tarkentuu vielä
 
 ### Alakerran opetus
 
-- pe 14.9. klo 17-20: induktiotodistuksia
-- la 15.9. klo 9-12: harjoituskoe
-- la 15.9. klo 14-16
-- la 15.9. klo 17-20
-- sunnuntai 16.9. klo 9-12
+- pe 16.10. klo 17-20: induktiotodistuksia
+- la 17.10. klo 9-12: harjoituskoe
+- la 17.10. klo 14-16
+- la 17.10. klo 17-20
+- sunnuntai 18.10. klo 9-12
 
 ### Yläkerran opetus
 
-- pe 14.9. klo 17-20: ketjumurtolukuja yms.
-- la 15.9. klo 9-12: Baltian tie -valintakoe
-- la 15.9. klo 14-16: algebraa
-- la 15.9. klo 17-20: algebraa
-- sunnuntai 16.9. klo 9-12: ketjumurtolukuja yms.
+- pe 16.10. klo 17-20: ketjumurtolukuja yms.
+- la 17.10. klo 9-12: Baltian tie -valintakoe
+- la 17.10. klo 14-16: algebraa
+- la 17.10. klo 17-20: algebraa
+- sunnuntai 18.10. klo 9-12: ketjumurtolukuja yms.
