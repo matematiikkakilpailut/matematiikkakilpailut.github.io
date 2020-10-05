@@ -7,9 +7,9 @@ jsonld: >-
   "@context": "https://schema.org",
   "@type": "Event",
   "name": "Valmennusviikonloppu 42/2020",
-  "description": "Valmennusviikonloppu 42/2020 tapahtuu virtuaalisesti. Tilaisuus alkaa perjantaina 14.10.2020 klo 17 ja jatkuu lauantaina ja sunnuntaina. Valmennus on maksutonta.",
-  "startDate": "2020-10-14T17:00+03:00",
-  "endDate": "2020-10-16T12:00+03:00",
+  "description": "Valmennusviikonloppu 42/2020 tapahtuu virtuaalisesti. Tilaisuus alkaa perjantaina 16.10.2020 klo 17 ja jatkuu lauantaina ja sunnuntaina. Valmennus on maksutonta.",
+  "startDate": "2020-10-16T17:00+03:00",
+  "endDate": "2020-10-18T12:00+03:00",
   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
   "eventStatus": "https://schema.org/EventScheduled",
   "image": "https://keskustelu.matematiikkakilpailut.fi/uploads/default/original/1X/903d26f2a2a48285467275e06546a35b2f203482.png",
@@ -41,7 +41,7 @@ jsonld: >-
 ---
 
 Valmennusviikonloppu 42/2020 tapahtuu virtuaalisesti.
-Opetus alkaa perjantaina 14.10.2020 klo 17.
+Opetus alkaa perjantaina 16.10.2020 klo 17.
 Valmennus koostuu niin aloitteleville valmennettaville
 suunnatusta helpommasta opetuksesta (ns. alakerran opetus)
 kuin edistyneemmille suunnatusta opetuksesta (ns. yläkerran opetus).
@@ -54,7 +54,7 @@ kokonaan etäosallistumisen keinoin.
 
 Valmennus koostuu luennoista, harjoitustehtävistä ja
 ryhmätyöskentelystä. Se on maksutonta ja toteutetaan Zoom-ohjelmistolla.
-Ilmoittaudu lähettämällä perjantaihin 14.10. mennessä sähköpostia
+Ilmoittaudu lähettämällä perjantaihin 16.10. mennessä sähköpostia
 [Jouni Seppäselle](mailto:jks@iki.fi), `jks@iki.fi`.
 Valmennus järjestetään, mikäli siihen on vähintään viisi ilmoittautunutta.
 Tarkemmat lisätiedot valmennuksen toteutuksesta lähetetään
