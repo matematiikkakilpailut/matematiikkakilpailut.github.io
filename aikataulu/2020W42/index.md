@@ -53,6 +53,11 @@ kokonaan etäosallistumisen keinoin.
 
 Valmennus koostuu luennoista, harjoitustehtävistä ja
 ryhmätyöskentelystä. Se on maksutonta ja toteutetaan Zoom-ohjelmistolla.
+Tarvitset tavalliset kirjoitus- ja piirtämisvälineet (kynän, kumin, paperia, 
+viivaimen, joskus mahdollisesti harpin) ja jonkin tavan päästä mukaan
+Zoom-neuvotteluun. Tietokoneella useimmat tavalliset selaimet toimivat,
+älypuhelimiin tai tabletteihin täytyy asentaa [Zoom-sovellus](https://zoom.us/download).
+
 Ilmoittaudu lähettämällä perjantaihin 16.10. mennessä sähköpostia
 [Jouni Seppäselle](mailto:jks@iki.fi), `jks@iki.fi`.
 Valmennus järjestetään, mikäli siihen on vähintään viisi ilmoittautunutta.
