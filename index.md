@@ -41,8 +41,6 @@ viikkoa etukäteen!**
 
 ## <a name="uutisia"></a>Uutisia
 
-* Iranin Geometriaolympialaiset (IGO) pidetään 30.10. Suomen osalta Päivölässä. [Lisätietoja](/IGO/)
-
 * Lokakuun valmennusviikonloppu 16.-18.10. järjestetään etänä. [Lisätietoja ja ilmoittautuminen: klikkaa tästä](/aikataulu/2020W42/). Viikonlopun aikana järjestetään myös valintakoe Baltian tie -kilpailuun.
 
 
