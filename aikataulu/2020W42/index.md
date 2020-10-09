@@ -47,8 +47,7 @@ suunnatusta helpommasta opetuksesta (ns. alakerran opetus)
 kuin edistyneemmille suunnatusta opetuksesta (ns. yläkerran opetus).
 
 Viikonlopun aikana järjestetään myös valintakoe Baltian tie -kilpailuun.
-Tätä kirjoitettaessa on vielä epäselvää, järjestetäänkö Baltian tietä
-lainkaan, mutta jos järjestetään, se tapahtuu noin 12.-16. marraskuuta,
+Baltian tie luultavimmin järjestetään 14.11. 
 joko niin että kunkin maan joukkue kokoontuu samaan paikkaan tai
 kokonaan etäosallistumisen keinoin.
 
