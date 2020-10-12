@@ -19,7 +19,7 @@ aikataulu:
     tapahtuma: "Valmennus&shy;viikonvaihde ~~Päivölässä tai~~ **ETÄNÄ**. [Lisätietoja ja ilmoittautuminen](2020W42/)"
   - pvm: "30.10."
     tapahtuma: "[Iranin geometria&shy;kilpailu](/IGO/) Päivölässä."
-  - pvm: "12.&ndash;16.11."
+  - pvm: "13.&ndash;15.11."
     tapahtuma: "Baltian tie -kilpailu ~~Reykjavikissa tai~~ **ETÄNÄ**"
   - pvm: "27.&ndash;29.11. (viikko 48)"
     tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä tai etänä"
