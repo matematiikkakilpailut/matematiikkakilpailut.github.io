@@ -68,15 +68,15 @@ takia julkaista avoimesti.
 
 ## Aikataulu
 
-Tarkentuu vielä
+Muutokset mahdollisia!
 
 ### Alakerran opetus
 
 - pe 16.10. klo 17-20: induktiotodistuksia
 - la 17.10. klo 9-12: harjoituskoe
-- la 17.10. klo 14-16
-- la 17.10. klo 17-20
-- sunnuntai 18.10. klo 9-12
+- la 17.10. klo 14-16: harjoituskokeen läpikäyntiä
+- la 17.10. klo 17-20: lukuteorian alkeita
+- sunnuntai 18.10. klo 9-12: lukuteorian alkeita
 
 ### Yläkerran opetus
 
