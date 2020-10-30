@@ -20,7 +20,7 @@ aikataulu:
   - pvm: "30.10."
     tapahtuma: "[Iranin geometria&shy;kilpailu](/IGO/) Päivölässä."
   - pvm: "13.&ndash;15.11."
-    tapahtuma: "Baltian tie -kilpailu ~~Reykjavikissa tai~~ **ETÄNÄ**"
+    tapahtuma: "Baltian tie -kilpailu ~~Reykjavikissa tai~~ **Päivölässä**"
   - pvm: "27.&ndash;29.11. (viikko 48)"
     tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä tai etänä"
 ---
