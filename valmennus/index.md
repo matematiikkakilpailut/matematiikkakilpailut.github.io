@@ -41,7 +41,8 @@ valintakokeissa.
 Marraskuun 2020 [tehtävät](2020/kirje_2020_10.pdf).<br>
 **Korjaus 25.10.**: Palautuspäivä on sittenkin 29.11.
 
-Syyskuun 2020 [tehtävät](2020/kirje_2020_09.pdf).
+Syyskuun 2020 [tehtävät](2020/kirje_2020_09.pdf). <br>
+Malliratkaisut saatavilla kirjeeseen vastanneille.<br>
 
 Kesän 2020 [tehtävät](2020/kirje_2020_06.pdf).<br>
 **Korjaus 21.4.2020**: Tehtävästä 11 puuttui oletus, että polynomin asteluku on neljä.<br>
