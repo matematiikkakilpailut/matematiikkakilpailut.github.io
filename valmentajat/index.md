@@ -16,9 +16,9 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
 *  Asla Heiskanen<br/> Olympiaedustaja vuonna 2020.
 *  Olli Hirviniemi<br/>Olympiaedustaja vuosina 2010 ja 2011.
 *  [Antti Honkela][ahonkela]<br/> Olympiaedustaja vuonna 1997.
-*  Akseli Jussinmäki<br/> Olympiaedustaja vuosina 2018 ja 2019. Vastaa erityisesti peruskoululaisten kirjevalmennuksesta yhdessä Lounan ja Pihlan kanssa.
+*  Akseli Jussinmäki<br/> Olympiaedustaja vuosina 2018 ja 2019, erityisesti peruskoululaisten valmennus.
 *  Olli Järviniemi<br/> Olympiaedustaja vuosina 2017, 2018 ja 2019.
-*  Pihla Karanko <br/> Edustaja Euroopan tyttöjen matematiikkaolympialaisissa 2012 ja 2013. Vastaa peruskoululaisten kirjevalmennuksesta yhdessä Akselin ja Lounan kanssa.
+*  Pihla Karanko <br/> Edustaja Euroopan tyttöjen matematiikkaolympialaisissa 2012 ja 2013, erityisesti peruskoululaisten valmennus.
 *  Alexey Kirichenko<br/>
    Kokemusta mm. maineikkaista Leningradin matematiikkaolympialaisista.
 *  Jari Lappalainen<br/> Olympiaedustaja vuosina 1990 ja 1991.
@@ -36,7 +36,7 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
 *  Jaakko Seppälä<br/>
    Filosofian maisteri, edustaja Pohjoismaisessa matematiikkakilpailussa 2007.
 *  Louna Seppälä<br/>
-   Filosofian tohtori, vastaa peruskoululaisten kirjevalmennuksesta yhdessä Akselin ja Pihlan kanssa.
+   Filosofian tohtori, peruskoululaisten kirjevalmennus.
 *  [Jouni Seppänen][jks]<br/> Tekniikan tohtori, olympiaedustaja vuosina 1994 ja 1995.
 *  Joni Teräväinen<br/> Filosofian tohtori, olympiaedustaja vuosina 2011, 2012 ja 2013.
 *  Ville Tilvis
