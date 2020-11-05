@@ -12,7 +12,7 @@ kilpailut:
   - vuosi: "2020"
     paikka: "[Virtuaalinen (Alankomaat)](https://www.egmo.org/egmos/egmo9/)"
     tehtavat: "[pdf](EGMO_2020teht.pdf)"
-    ratkaisut: "[t.1, 4, 5 suomeksi Solmussa](https://matematiikkalehtisolmu.fi/2020/2/egmo2020.pdf),[englanniksi](EGMO_2020sol.pdf)"
+    ratkaisut: "[t.1, 4, 5 suomeksi Solmussa](https://matematiikkalehtisolmu.fi/2020/2/egmo2020.pdf), [kaikki englanniksi](EGMO_2020sol.pdf)"
     kertomus: "[Dimensiossa](https://www.dimensiolehti.fi/matematiikan-harrastaminen-ja-egmo-2020-kahden-kisaajan-silmin/), [haastattelu kilpailun nettisivuilla](https://www.nr4i.nl/interviews/interview-with-ulrika-kaara-and-anni-tapionlinna-finland/), [Solmussa](https://matematiikkalehtisolmu.fi/2020/2/egmo2020.pdf)"
     edustajat: "**Ulrika Kaara, Idaliina Kuusisto, Veera Nurmela, Anni Tapionlinna**" 
   - vuosi: "2019"
