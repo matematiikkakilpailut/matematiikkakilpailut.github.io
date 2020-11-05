@@ -12,13 +12,13 @@ kilpailut:
   - vuosi: "2020"
     paikka: "[Virtuaalinen (Alankomaat)](https://www.egmo.org/egmos/egmo9/)"
     tehtavat: "[pdf](EGMO_2020teht.pdf)"
-    ratkaisut: "[englanniksi](EGMO_2020sol.pdf)"
-    kertomus: "[Dimensiossa](https://www.dimensiolehti.fi/matematiikan-harrastaminen-ja-egmo-2020-kahden-kisaajan-silmin/), [haastattelu kilpailun nettisivuilla](https://www.nr4i.nl/interviews/interview-with-ulrika-kaara-and-anni-tapionlinna-finland/)"
+    ratkaisut: "[t.1, 4, 5 suomeksi Solmussa](https://matematiikkalehtisolmu.fi/2020/2/egmo2020.pdf),[englanniksi](EGMO_2020sol.pdf)"
+    kertomus: "[Dimensiossa](https://www.dimensiolehti.fi/matematiikan-harrastaminen-ja-egmo-2020-kahden-kisaajan-silmin/), [haastattelu kilpailun nettisivuilla](https://www.nr4i.nl/interviews/interview-with-ulrika-kaara-and-anni-tapionlinna-finland/), [Solmussa](https://matematiikkalehtisolmu.fi/2020/2/egmo2020.pdf)"
     edustajat: "**Ulrika Kaara, Idaliina Kuusisto, Veera Nurmela, Anni Tapionlinna**" 
   - vuosi: "2019"
     paikka: "[Kiova, Ukraina](https://www.egmo.org/egmos/egmo8/)"
     tehtavat: "[pdf](EGMO_2019teht.pdf)"
-    ratkaisut: "[t.1,4,5 suomeksi Solmussa,](https://matematiikkalehtisolmu.fi/2019/2/egmo2019.pdf)
+    ratkaisut: "[t.1,4,5 suomeksi Solmussa](https://matematiikkalehtisolmu.fi/2019/2/egmo2019.pdf),
     [kaikki englanniksi](EGMO_2019sol.pdf)"
     kertomus: "[Solmussa](https://matematiikkalehtisolmu.fi/2019/2/egmo2019.pdf)"
     edustajat: "**Idaliina Kuusisto, Veera Nurmela, Nerissa Shakespeare, Hilma Tillqvist**"  
