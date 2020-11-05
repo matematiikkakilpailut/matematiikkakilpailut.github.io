@@ -22,7 +22,7 @@ aikataulu:
   - pvm: "13.&ndash;15.11."
     tapahtuma: "Baltian tie -kilpailu ~~Reykjavikissa tai~~ **Päivölässä**"
   - pvm: "27.&ndash;29.11. (viikko 48)"
-    tapahtuma: "Valmennus&shy;viikonvaihde ~~Päivölässä tai~~ **ETÄNÄ**. Lisätietoja tulossa."
+    tapahtuma: "Valmennus&shy;viikonvaihde ~~Päivölässä tai~~ **ETÄNÄ**. [Lisätietoja ja ilmoittautuminen](2020W48/)."
 ---
 <div class="list-group">
 {% for a in page.aikataulu %}
