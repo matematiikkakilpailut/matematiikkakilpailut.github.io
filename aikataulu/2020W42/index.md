@@ -32,7 +32,7 @@ jsonld: >-
     "@type": "Offer",
     "price": "0",
     "priceCurrency": "EUR",
-    "url": "mailto:jks@iki.fi",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSd8ZiA409Uhf0slLyinwYhlB3RCoky6F4darN999Di_0MujIg/viewform?hl=fi",
     "availability": "http://schema.org/InStock",
     "validFrom": "2020-10-01",
     "validThrough": "2020-10-16"
@@ -47,23 +47,25 @@ suunnatusta helpommasta opetuksesta (ns. alakerran opetus)
 kuin edistyneemmille suunnatusta opetuksesta (ns. yläkerran opetus).
 
 Viikonlopun aikana järjestetään myös valintakoe Baltian tie -kilpailuun.
-Baltian tie luultavimmin järjestetään 14.11. 
+Baltian tie luultavimmin järjestetään 14.11.
 joko niin että kunkin maan joukkue kokoontuu samaan paikkaan tai
 kokonaan etäosallistumisen keinoin.
 
 Valmennus koostuu luennoista, harjoitustehtävistä ja
 ryhmätyöskentelystä. Se on maksutonta ja toteutetaan Zoom-ohjelmistolla.
-Tarvitset tavalliset kirjoitus- ja piirtämisvälineet (kynän, kumin, paperia, 
+Tarvitset tavalliset kirjoitus- ja piirtämisvälineet (kynän, kumin, paperia,
 viivaimen, joskus mahdollisesti harpin) ja jonkin tavan päästä mukaan
 Zoom-neuvotteluun. Tietokoneella useimmat tavalliset selaimet toimivat,
 älypuhelimiin tai tabletteihin täytyy asentaa [Zoom-sovellus](https://zoom.us/download).
 
-Ilmoittaudu lähettämällä perjantaihin 16.10. mennessä sähköpostia
-[Jouni Seppäselle](mailto:jks@iki.fi), `jks@iki.fi`.
+Ilmoittaudu [lomakkeella] perjantaihin 16.10. mennessä.
 Valmennus järjestetään, mikäli siihen on vähintään viisi ilmoittautunutta.
 Tarkemmat lisätiedot valmennuksen toteutuksesta lähetetään
 ilmoittautuneille sähköpostitse, koska Zoom-linkkejä ei voi nettihäiriköiden
 takia julkaista avoimesti.
+Lisätietoja voi kysyä [Jouni Seppäseltä](mailto:jks@iki.fi), `jks@iki.fi`.
+
+[lomakkeella]: https://docs.google.com/forms/d/e/1FAIpQLSd8ZiA409Uhf0slLyinwYhlB3RCoky6F4darN999Di_0MujIg/viewform?hl=fi
 
 
 ## Aikataulu
