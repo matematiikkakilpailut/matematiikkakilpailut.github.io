@@ -32,7 +32,7 @@ jsonld: >-
     "@type": "Offer",
     "price": "0",
     "priceCurrency": "EUR",
-    "url": "mailto:jks@iki.fi",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSd8ZiA409Uhf0slLyinwYhlB3RCoky6F4darN999Di_0MujIg/viewform?hl=fi",
     "availability": "http://schema.org/InStock",
     "validFrom": "2020-11-01",
     "validThrough": "2020-11-27"
@@ -53,13 +53,14 @@ viivaimen, joskus mahdollisesti harpin) ja jonkin tavan päästä mukaan
 Zoom-neuvotteluun. Tietokoneella useimmat tavalliset selaimet toimivat,
 älypuhelimiin tai tabletteihin täytyy asentaa [Zoom-sovellus](https://zoom.us/download).
 
-Ilmoittaudu lähettämällä perjantaihin 27.11. mennessä sähköpostia
-[Jouni Seppäselle](mailto:jks@iki.fi), `jks@iki.fi`.
+Ilmoittaudu [lomakkeella] perjantaihin 27.11. mennessä.
 Valmennus järjestetään, mikäli siihen on vähintään viisi ilmoittautunutta.
 Tarkemmat lisätiedot valmennuksen toteutuksesta lähetetään
 ilmoittautuneille sähköpostitse, koska Zoom-linkkejä ei voi nettihäiriköiden
 takia julkaista avoimesti.
+Lisätietoja voi kysyä [Jouni Seppäseltä](mailto:jks@iki.fi), `jks@iki.fi`.
 
+[lomakkeella]: https://docs.google.com/forms/d/e/1FAIpQLSd8ZiA409Uhf0slLyinwYhlB3RCoky6F4darN999Di_0MujIg/viewform?hl=fi
 
 ## Aikataulu
 
