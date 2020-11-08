@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Matematiikka&shy;kilpailut ja olympia&shy;valmennus
+alert: yes
 description: >-
   Matematiikkakilpailujen tarkoituksena on kannustaa lahjakkaita nuoria
   harrastamaan matematiikkaa. Kansainvälisiin kilpailuihin valmennetaan
@@ -10,9 +11,6 @@ description: >-
 url: /
 ---
 <img src="/OPH_rahoittaa_rgb.png" width="180" height="174" style="float:right;" />
-
-## **Koronavirusepidemia** aiheuttaa muutoksia toimintaan, ks. [uutiset](#uutisia) ja [aikataulu](https://matematiikkakilpailut.fi/aikataulu/).
-
 [Matematiikkakilpailuiden](kilpailut) tarkoituksena on kannustaa
 lahjakkaita nuoria harrastamaan matematiikkaa. Tähän liittyvästä
 valmennuksesta ja kilpailuihin osallistumisesta vastaa Suomessa 
