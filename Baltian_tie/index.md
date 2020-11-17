@@ -18,7 +18,7 @@ kilpailut:
   - vuosi: "2020"
     paikka: "[Internet](http://bw2020.olympiaadid.ut.ee/)"
     sijoitus: "[54 (jaettu 4.)](http://bw2020.olympiaadid.ut.ee/?page_id=43)"
-    tehtavat: "[pdf englanniksi](https://bw2020.olympiaadid.ut.ee/wp-content/uploads/2020/11/bw20eng.pdf)"
+    tehtavat: "[pdf](2020/bw20fin.pdf)"
     ratkaisut: "[pdf englanniksi](https://bw2020.olympiaadid.ut.ee/wp-content/uploads/2020/11/bw20sol.pdf)"
     joukkue: "Juho Arala, Daniel Arone, Veera Nurmela, Sampo Siitonen, Ville Uotila"
   - vuosi: "2019"
