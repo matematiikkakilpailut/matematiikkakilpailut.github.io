@@ -39,7 +39,7 @@ viikkoa etukäteen!**
 
 ## <a name="uutisia"></a>Uutisia
 
-* Vuoden 2020 Baltian tiehen valittiin Suomea edustamaan **Juho Arala**, **Daniel Arone**, **Veera Nurmela**, **Sampo Siitonen** ja **Ville Uotila**. Baltian tie pidetään tänä vuonna kussakin maassa erikseen.
+* Vuoden 2020 [Baltian tie -joukkuematematiikkakilpailu](https://bw2020.olympiaadid.ut.ee) pidettiin kussakin maassa erikseen, Suomen osalta Päivölässä, 13.&ndash;-15.11. Suomea edustivat **Juho Arala**, **Daniel Arone**, **Veera Nurmela**, **Sampo Siitonen** ja **Ville Uotila**. Saksa voitti 81 pisteellä, Suomi sai [jaetun 4. sijan](https://bw2020.olympiaadid.ut.ee/?page_id=43) 54 pisteellä.
 
 * Iranin Geometriaolympialaiset (IGO) pidetään 30.10. Suomen osalta Päivölässä. [Lisätietoja](/IGO/)
 
@@ -49,8 +49,6 @@ viikkoa etukäteen!**
 * Vuoden 2020 [Kansainvälisissä matematiikkaolympialaisissa](https://imo2020.ru/) Suomea edustivat hienosti **Juho Arala**, **Daniel Arone**, **Asla Heiskanen**, **Hermanni Huhtamäki**, **Roope Salmi** ja **Sampo Siitonen**. Heiskanen taituroi hopeaa yhdellä Suomen osallistumishistorian parhaisiin kuuluvalla suorituksella. Arala palkittiin pronssilla sekä Huhtamäki, Salmi ja Siitonen kunniamaininnoilla. Suomi oli 60. osallistuvien 105 maan joukossa. [Kilpailutehtävät](https://matematiikkakilpailut.fi/IMO/2020/teht2020.pdf) ja [tulosluettelo](https://www.imo-official.org/year_country_r.aspx?year=2020).
 
 * Syyskuun valmennusviikonloppu 4.9.-6.9. järjestetään etänä. [Lisätietoja ja ilmoittautuminen: klikkaa tästä](/aikataulu/2020W36/).
-
-* Vuoden 2020 [Kansainvälisiin Matematiikkaolympialaisiin](https://imo2020.ru/) valittiin Suomea edustamaan **Juho Arala**, **Daniel Arone**, **Asla Heiskanen**, **Hermanni Huhtamäki**, **Roope Salmi** ja **Sampo Siitonen**.
 
 * Ensimmäistä kertaa järjestetyssä [The Cyberspace Mathematical Competition](https://artofproblemsolving.com/contests/cmc) -kilpailussa Suomea edustivat **Juho Arala**, **Daniel Arone**, **Asla Heiskanen**, **Hermanni Huhtamäki**, **Idaliina Kuusisto**, **Veera Nurmela**, **Roope Salmi** ja **Sampo Siitonen**. Arala, Arone ja Siitonen palkittiin pronssimitalein sekä Heiskanen, Huhtamäki ja Salmi kunniamaininnoin. [Kilpailutehtävät](https://data.artofproblemsolving.com/images/contests/CMC_brochure.pdf) ja [tulosluettelo](https://artofproblemsolving.com/contests/cmc/leaderboards).
 
