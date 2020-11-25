@@ -39,6 +39,8 @@ viikkoa etukäteen!**
 
 ## <a name="uutisia"></a>Uutisia
 
+* Marraskuun valmennusviikonloppu 27.11.-29.11. järjestetään etänä. [Lisätietoja ja ilmoittautuminen: klikkaa tästä](/aikataulu/2020W48/).
+
 * Vuoden 2020 [Baltian tie -joukkuematematiikkakilpailu](https://bw2020.olympiaadid.ut.ee) pidettiin kussakin maassa erikseen, Suomen osalta Päivölässä, 13.&ndash;15.11. Suomea edustivat **Juho Arala**, **Daniel Arone**, **Veera Nurmela**, **Sampo Siitonen** ja **Ville Uotila**. Saksa voitti 81 pisteellä, Suomi sai [jaetun 4. sijan](https://bw2020.olympiaadid.ut.ee/?page_id=43) 54 pisteellä.
 
 * Iranin Geometriaolympialaiset (IGO) pidetään 30.10. Suomen osalta Päivölässä. [Lisätietoja](/IGO/)
