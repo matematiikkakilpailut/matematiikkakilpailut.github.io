@@ -76,8 +76,8 @@ Muutokset mahdollisia!
 
 ### Yläkerran opetus
 
-- pe 27.11. klo 18-20:
-- la 28.11. klo 10-12:
-- la 28.11. klo 14-16:
-- la 28.11. klo 18-20:
-- su 29.11. klo 10-13:
+- pe 27.11. klo 18-20: harjoituskoe
+- la 28.11. klo 10-12: geometriaa
+- la 28.11. klo 14-16: geometriaa
+- la 28.11. klo 18-20: kombinatoriikkaa
+- su 29.11. klo 10-13: verkkoja ja polynomeja (englanniksi)
