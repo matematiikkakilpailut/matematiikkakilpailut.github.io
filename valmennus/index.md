@@ -38,6 +38,9 @@ valintakokeissa.
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
+
+Joulukuun 2020 [tehtävät](2020/kirje_2020_12.pdf).
+
 Marraskuun 2020 [tehtävät](2020/kirje_2020_10.pdf).<br>
 **Korjaus 25.10.**: Palautuspäivä on sittenkin 29.11.
 
