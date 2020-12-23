@@ -3,26 +3,29 @@ layout: page
 title: Aikataulu
 url: /aikataulu/
 aikataulu:
-  - pvm: "2020"
-    tapahtuma: "Syksy"
+  - pvm: "2021"
+    tapahtuma: "Kevät ja kesä"
     otsikko: true
-  - pvm: "4.&ndash;6.9. (viikko 36)"
-    tapahtuma: "Valmennus&shy;viikonvaihde ~~Päivölässä, ohjelmassa mm. Baltian tie -joukkueen valinta.~~ **ETÄNÄ**. [Lisätietoja ja ilmoittautuminen](2020W36/)"
-  - pvm: "20.-28.9."
-    tapahtuma: "[61. Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr>](http://www.imo-official.org/year_info.aspx?year=2020) ~~Pietarissa~~
-    **ETÄNÄ**"
-  - pvm: "23.9.&ndash;6.10."
-    tapahtuma: "[MAOLin peruskoulun matematiikka&shy;kilpailu](https://maol.fi/neljan-tieteen-kisat/)"
-  - pvm: "5.10."
-    tapahtuma: "[MAOLin lukion matematiikka&shy;kilpailu](https://maol.fi/neljan-tieteen-kisat/)"
-  - pvm: "16.&ndash;18.10. (viikko 42)"
-    tapahtuma: "Valmennus&shy;viikonvaihde ~~Päivölässä tai~~ **ETÄNÄ**. [Lisätietoja ja ilmoittautuminen](2020W42/)"
-  - pvm: "30.10."
-    tapahtuma: "[Iranin geometria&shy;kilpailu](/IGO/) Päivölässä."
-  - pvm: "13.&ndash;15.11."
-    tapahtuma: "Baltian tie -kilpailu ~~Reykjavikissa tai~~ **Päivölässä**"
-  - pvm: "27.&ndash;29.11. (viikko 48)"
-    tapahtuma: "Valmennus&shy;viikonvaihde ~~Päivölässä tai~~ **ETÄNÄ**. [Lisätietoja ja ilmoittautuminen](2020W48/)."
+  - pvm: "15.&ndash;17.1. (viikko 2)"
+    tapahtuma: "Valmennus&shy;viikonvaihde luultavimmin etänä"
+  - tapahtuma: "MAOLin perus&shy;koulun ja lukion loppu&shy;kilpailu omassa koulussa"
+    pvm: "25.1."
+  - pvm: "n. helmikuussa"
+    tapahtuma: "[Seitsemäs&shy;luokkalaisten alueel&shy;linen matematiikka&shy;kilpailu](/seiskat/) Helsingissä, Oulussa, Sata&shy;kunnassa ja Turussa"
+  - pvm: "26.&ndash;28.2. (viikko 8)"
+    tapahtuma: "Valmennus&shy;viikonvaihde luultavimmin etänä"
+  - tapahtuma: "[Euroopan tyttöjen matematiikka&shy;olympialaiset <abbr>EGMO</abbr>](https://www.egmo.org/egmos/egmo10/)"
+    pvm: "9.&ndash;15.4."
+  - tapahtuma: "Pohjois&shy;mainen matematiikka&shy;kilpailu kutsutuille omassa koulussa"
+    pvm: "16.4."
+  - pvm: "n. 16.&ndash;18.4. (viikko 15)"
+    tapahtuma: "Valmennus&shy;viikonvaihde Päivölässä tai etänä"
+  - tapahtuma: "Olympia&shy;joukkueen valinta- ja valmennusleiri"
+    pvm: "n. touko- tai kesä&shy;kuussa"
+  - tapahtuma: "Olympia&shy;joukkueen yhteis&shy;pohjois&shy;mainen valmennus&shy;leiri Sorøssa, Tanskassa"
+    pvm: "olympiamatkan aluksi"
+  - tapahtuma: "[62. Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr> Pietarissa](http://www.imo-official.org/year_info.aspx?year=2021)"
+    pvm: "14.&ndash;24.7."
 ---
 <div class="list-group">
 {% for a in page.aikataulu %}
