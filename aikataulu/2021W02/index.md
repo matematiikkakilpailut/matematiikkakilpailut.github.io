@@ -68,18 +68,24 @@ Muutokset mahdollisia!
 
 ### Alakerran opetus
 
-- pe 15.1. klo 18-20
+- pe 15.1. klo 18-20: geometriaa
 - la 16.1. klo 10-12: harjoituskoe
-- la 16.1. klo 14-16
-- la 16.1. klo 18-20
-- su 17.1. klo 10-12
-- su 17.1. klo 12.30-14.30
+- la 16.1. klo 14-16: geometriaa
+- la 16.1. klo 18-20: kotitehtäväkirjeen läpikäyntiä
+- su 17.1. klo 10-12: geometriaa
+- su 17.1. klo 12.30-14.30: geometriaa
+
+Lauantaiaamuna on harjoituskoe, alakerran ryhmälle helpompi kuin yläkerran ryhmälle.
+
+Jäikö tehtäväkirjeestä jokin asia ihmetyttämään? Esitä kysymyksesi lauantai-illan opetussessiossa ja ihmetellään yhdessä. Keskitytään monivalinta- ja helpompiin tehtäviin.
 
 ### Yläkerran opetus
 
 - pe 15.1. klo 18-20
-- la 16.1. klo 10-12: harjoituskoe
+- la 16.1. klo 10-12: harjoitus- ja valintakoe
 - la 16.1. klo 14-16
 - la 16.1. klo 18-20
 - su 17.1. klo 10-12
 - su 17.1. klo 12.30-14.30
+
+Lauantaiaamuna on harjoituskoe, jonka tulokset ovat osana joukkueiden valintaa kevään kilpailuihin (Pohjoismainen kilpailu ja EGMO).
