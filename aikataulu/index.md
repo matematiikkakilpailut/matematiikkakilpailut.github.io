@@ -7,7 +7,7 @@ aikataulu:
     tapahtuma: "Kevät ja kesä"
     otsikko: true
   - pvm: "15.&ndash;17.1. (viikko 2)"
-    tapahtuma: "Valmennus&shy;viikonvaihde luultavimmin etänä"
+    tapahtuma: "Valmennus&shy;viikonvaihde etänä: [lisätietoa ja ilmoittautuminen](2021W02/)"
   - tapahtuma: "MAOLin perus&shy;koulun ja lukion loppu&shy;kilpailu omassa koulussa"
     pvm: "25.1."
   - pvm: "n. helmikuussa"
