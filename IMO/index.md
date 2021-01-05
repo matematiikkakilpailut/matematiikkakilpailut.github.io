@@ -19,7 +19,7 @@ kilpailut:
     sijoitus: "[81 p. (60./105)](https://www.imo-official.org/year_country_r.aspx?year=2020), 1 hopea, 1 pronssi"
     tehtavat: "[pdf](2020/teht2020.pdf)"
     ratkaisut: ""
-    muuta: ""
+    muuta: "[Solmussa](https://matematiikkalehtisolmu.fi/2020/3/IMO2020.pdf)"
     edustajat: "Juho Arala, Daniel Arone, Asla Heiskanen, Hermanni Huhtamäki, Roope Salmi, Sampo Siitonen" 
   - vuosi: "2019"
     paikka: "[Bath, Yh­dis­ty­nyt kuningas­kunta](https://www.imo2019.uk/)"
