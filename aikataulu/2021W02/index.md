@@ -69,7 +69,7 @@ Muutokset mahdollisia!
 ### Alakerran opetus
 
 - pe 15.1. klo 18-20: geometriaa
-- la 16.1. klo 10-12: harjoituskoe
+- la 16.1. klo 9.30-12.00: harjoitus- ja valintakoe
 - la 16.1. klo 14-16: geometriaa
 - la 16.1. klo 18-20: kotitehtäväkirjeen läpikäyntiä
 - su 17.1. klo 10-12: geometriaa
@@ -82,7 +82,7 @@ Jäikö tehtäväkirjeestä jokin asia ihmetyttämään? Esitä kysymyksesi laua
 ### Yläkerran opetus
 
 - pe 15.1. klo 18-20
-- la 16.1. klo 10-12: harjoitus- ja valintakoe
+- la 16.1. klo 9.30-12.00: harjoitus- ja valintakoe
 - la 16.1. klo 14-16
 - la 16.1. klo 18-20
 - su 17.1. klo 10-12
