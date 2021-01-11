@@ -81,11 +81,11 @@ Jäikö tehtäväkirjeestä jokin asia ihmetyttämään? Esitä kysymyksesi laua
 
 ### Yläkerran opetus
 
-- pe 15.1. klo 18-20
+- pe 15.1. klo 18-20: Diofantoksen yhtälöt
 - la 16.1. klo 9.30-12.00: harjoitus- ja valintakoe
-- la 16.1. klo 14-16
-- la 16.1. klo 18-20
-- su 17.1. klo 10-12
-- su 17.1. klo 12.30-14.30
+- la 16.1. klo 14-16: Diofantoksen yhtälöt
+- la 16.1. klo 18-20: Diofantoksen yhtälöt
+- su 17.1. klo 10-12: Euler’s number and prime numbers (in English)
+- su 17.1. klo 12.30-14.30: Euler’s number and prime numbers (in English)
 
 Lauantaiaamuna on harjoituskoe, jonka tulokset ovat osana joukkueiden valintaa kevään kilpailuihin (Pohjoismainen kilpailu ja EGMO).
