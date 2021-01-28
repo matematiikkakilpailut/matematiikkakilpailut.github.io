@@ -31,5 +31,10 @@
       url: /EGMO/
     - title: IMO
       url: /IMO/
+- title: Kerhot
+  url: /kerhot/
+  sub:
+  - title: Åbo Akademi
+    url: /kerhot/abo/
 - title: In English
   url: /english/
