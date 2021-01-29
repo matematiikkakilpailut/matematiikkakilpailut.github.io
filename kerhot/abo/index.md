@@ -24,7 +24,8 @@ Klubbens ledare: Mathias Wickholm, <mailto:mawickho@abo.fi> ([0440 475050](tel:0
 Ansvarig vid Åbo Akademi: Mikael Kurula, <mailto:mkurula@abo.fi> ([046 921 6792](tel:046-921-6792))
 
 [Här](https://matematikklubb.blankett.fi/) kan man meddela att man är intresserad (inte bindande).
-En plansch, som man kan hänga upp om man vill: <http://users.abo.fi/mkurula/Matteklubb.pdf>
+
+[En plansch](http://users.abo.fi/mkurula/Matteklubb.pdf), som man kan hänga upp om man vill.
 
 <p align="center">
 <img src="https://matematiikkakilpailut.fi/kerhot/abo/%C3%85A%20logo.svg" alt="ÅAs logo" height="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
