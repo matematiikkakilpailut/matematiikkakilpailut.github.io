@@ -6,7 +6,7 @@ lang: sv-FI
 ---
 **Hej!**
 
-I samarbete med finländska matematikolympiadträningen och MAOL startar ämnet matematik vid Åbo Akademi en matematik­klubb. Klubben riktar sig till elever i åk 7-9 och gymnasie­studerande i hela Svensk­finland. Åtminstone till en början sköts klubben helt som video­konferens (med Zoom). Också senare är det meningen att man ska kunna delta på distans. 
+I samarbete med finländska matematikolympiadträningen och MAOL startar ämnet matematik vid Åbo Akademi en matematik­klubb! Klubben riktar sig till elever i åk 7-9 och gymnasie­studerande i hela Svensk­finland. Åtminstone till en början sköts klubben helt som video­konferens (med Zoom). Också senare är det meningen att man ska kunna delta på distans. 
 
 Klubben träffas ungefär varannan vecka och du får bekanta dig med olika områden av matematikens fantastiska värld. Vi erbjuder roligt matematiskt pyssel åt dem, som vill ha mera och annorlunda matematik än det som undervisas i skolan. Samtidigt kommer man i kontakt med andra matematikintresserade. 
 
