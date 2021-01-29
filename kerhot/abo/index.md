@@ -4,6 +4,7 @@ title: Åbo Akademis matematikklubb
 url: /kerhot/abo/
 lang: sv-FI
 ---
+**Hej!**
 
 I samarbete med finländska matematikolympiadträningen och MAOL har ämnet matematik vid Åbo Akademi en matematik­klubb för elever i åk 7-9 och gymnasie­studerande i hela Svensk­finland! Åtminstone till en början sköts klubben helt som video­konferens (med Zoom). Också senare är det meningen att man ska kunna delta på distans. 
 
