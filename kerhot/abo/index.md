@@ -25,6 +25,6 @@ Klubbens ledare: Mathias Wickholm, <mailto:mawickho@abo.fi> ([0440 475050](tel:0
 
 Ansvarig vid Åbo Akademi: Mikael Kurula, <mailto:mkurula@abo.fi> ([046 921 6792](tel:046-921-6792))
 
-<img src="https://matematiikkakilpailut.fi/kerhot/abo/%C3%85A%20logo.png" alt="ÅAs logo" height="100"/>&nbsp;&nbsp;&nbsp;
-<img src="https://matematiikkakilpailut.fi/kerhot/abo/MAOL%20logo.png" alt="MAOLs logo" height="80"/> &nbsp;&nbsp;&nbsp;
-<img src="https://matematiikkakilpailut.fi/kerhot/abo/UBS%20logo.png" alt="Utbildningsstyrelens logo" height="80"/>
+<img src="https://matematiikkakilpailut.fi/kerhot/abo/%C3%85A%20logo.png" alt="ÅAs logo" height="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://matematiikkakilpailut.fi/kerhot/abo/MAOL%20logo.png" alt="MAOLs logo" height="70"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://matematiikkakilpailut.fi/kerhot/abo/UBS%20logo.png" alt="Utbildningsstyrelens logo" height="70"/>
