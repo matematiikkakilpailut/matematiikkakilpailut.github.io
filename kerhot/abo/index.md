@@ -5,9 +5,11 @@ url: /kerhot/abo/
 lang: sv-FI
 ---
 
-Ämnet matematik vid Åbo Akademi ordnar en matematik­klubb för dig som går iåk 7-9 eller gymnasiet. Åtminstone till en början sköts klubben helt som video­konferens (med Zoom), så det spelar ingen roll var man bor. Också senare är det meningen att man ska kunna delta på distans. 
+**Hej!**
 
-Klubben träffas ungefär varannan vecka och du får bekanta dig med olika områden av matematikens fantastiska värld. Vi erbjuder roligt matematiskt pyssel åt dem, som vill ha mera och annorlunda matematik än det som undervisas i skolan. Samtidigt kommer du i kontakt med andra matematikintresserade. 
+Goda nyheter! Äntligen ordnas en svenskspråkig matematik­klubb, för just dig som går iåk 7-9 eller gymnasiet! Åtminstone till en början sköts klubben helt som video­konferens (med Zoom), så det spelar ingen roll var du bor. Också senare är det meningen att man ska kunna delta i klubben på distans. 
+
+Klubben träffas ungefär varannan vecka och du får bekanta dig med olika områden av matematikens fantastiska värld. Vi erbjuder roligt mattepyssel åt dig, som vill ha mera och annorlunda matematik än det som undervisas i skolan. Samtidigt kommer du i kontakt med andra matematikintresserade. 
 
 Uppgifterna kräver inte så mycket förkunskaper, utan de handlar mera om logiskt tänkande och kreativ problem­lösning. Nyfikenhet är alltså viktigare än att man kan allt från förut. Det finns allt från lätta till mycket utmanande uppgifter att välja bland. 
 
@@ -26,7 +28,7 @@ Ansvarig vid Åbo Akademi: Mikael Kurula, <mailto:mkurula@abo.fi> ([046 921 6792
 
 [En plansch](http://users.abo.fi/mkurula/Matteklubb.pdf), som man kan hänga upp om man vill.
 
-Klubben ordnas i samarbete med finländska matematikolympiadträningen och MAOL startar ämnet m
+Klubben ordnas av ämnet matematik vid Åbo Akademi, i samarbete med finländska matematikolympiadträningen och MAOL.
 
 <p align="center">
 <img src="https://matematiikkakilpailut.fi/kerhot/abo/%C3%85A%20logo.svg" alt="ÅAs logo" height="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
