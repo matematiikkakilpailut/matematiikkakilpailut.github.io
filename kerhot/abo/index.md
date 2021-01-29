@@ -25,4 +25,4 @@ Klubbens ledare: Mathias Wickholm, <mailto:mawickho@abo.fi> ([0440 475050](tel:0
 
 Ansvarig vid Åbo Akademi: Mikael Kurula, <mailto:mkurula@abo.fi> ([046 921 6792](tel:046-921-6792))
 
-![image](ÅA logo.png) ![image](MAOL logo.png) ![image](UBS logo.png)
+![image](ÅA logo.png | height=100) ![image](MAOL logo.png | height=100) ![image](UBS logo.png | height=100)
