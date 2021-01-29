@@ -16,7 +16,7 @@ Klubben ger bra träning för den som vill delta i olika matematiktävlingar, oc
 
 Klubben drar igång vecka 6, och vi hoppas förstås att så många matematik­intresserade som möjligt hinner med till starten. Det går också bra att komma med senare -- ta med din kompis! Klubbens språk är huvudsakligen svenska, men vi gör vårt bästa för att välkomna alla intresserade. Om det finns många intresserade, så har vi möjligheten dela upp deltagarna i två grupper. 
 
-**Klubben är gratis**.
+**Klubben är gratis -- välkommen med!**.
 
 Kontakta oss gärna om du undrar över något!
 
