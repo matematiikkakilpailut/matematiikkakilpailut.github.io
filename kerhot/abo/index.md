@@ -19,6 +19,8 @@ Klubben drar igång vecka 6, och vi hoppas förstås att så många matematik­i
 
 **Klubben är gratis -- välkommen med!**
 
+[Här finns en film](https://aboakademi.zoom.us/rec/share/Tl52M6UWRaGYsKcBzoyUJVh7wYbE2wjjSh0nLm_KS5wJhhRjxgjTus8N6rCI8ZjE.u0LJwbJnYk4PHQXI?startTime=1612187986000), där vi visar litet hur det kan gå till i klubben.
+
 Kontakta oss gärna om du undrar över något!
 
 Klubbens ledare: Mathias Wickholm, <mailto:mawickho(KANELBULLE)abo.fi><br>
