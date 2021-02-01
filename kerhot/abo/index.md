@@ -7,7 +7,7 @@ lang: sv-FI
 
 **Hej!**
 
-Goda nyheter! Äntligen ordnas en svenskspråkig matematik­klubb, för just dig som går iåk 7-9 eller gymnasiet! Åtminstone till en början sköts klubben helt som video­konferens (med Zoom), så det spelar ingen roll var du bor. Också senare är det meningen att man ska kunna delta i klubben på distans. 
+Goda nyheter! Äntligen ordnas en svenskspråkig matematik­klubb, för just dig som går i åk 7-9 eller gymnasiet! Åtminstone till en början sköts klubben helt som video­konferens (med Zoom), så det spelar ingen roll var du bor. Också senare är det meningen att man ska kunna delta i klubben på distans. 
 
 Klubben träffas ungefär varannan vecka och du får bekanta dig med olika områden av matematikens fantastiska värld. Vi erbjuder roligt mattepyssel åt dig, som vill ha mera och annorlunda matematik än det som undervisas i skolan. Samtidigt kommer du i kontakt med andra matematikintresserade. 
 
@@ -21,8 +21,8 @@ Klubben drar igång vecka 6, och vi hoppas förstås att så många matematik­i
 
 Kontakta oss gärna om du undrar över något!
 
-Klubbens ledare: Mathias Wickholm, <mailto:mawickho@abo.fi> ([0440 475050](tel:0440-475050))<br>
-Ansvarig vid Åbo Akademi: Mikael Kurula, <mailto:mkurula@abo.fi> ([046 921 6792](tel:046-921-6792))
+Klubbens ledare: Mathias Wickholm, <mailto:mawickho(KANELBULLE)abo.fi><br>
+Ansvarig vid Åbo Akademi: Mikael Kurula, <mailto:mkurula(KANELBULLE)abo.fi>
 
 [Här](https://matematikklubb.blankett.fi/) kan man meddela att man är intresserad (inte bindande).
 
