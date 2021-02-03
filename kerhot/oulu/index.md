@@ -4,4 +4,4 @@ title: Oulun yliopiston matematiikkakerho
 url: /kerhot/oulu/
 ---
 
-![Oulun yliopiston logo](oulu.png)
+![Oulun yliopiston logo](oulu.png?v=2)
