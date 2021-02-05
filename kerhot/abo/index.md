@@ -30,7 +30,7 @@ Ansvarig vid Åbo Akademi: Mikael Kurula, <mailto:mkurula(KANELBULLE)abo.fi>
 
 [En plansch](http://users.abo.fi/mkurula/Matteklubb.pdf), som man kan hänga upp om man vill.
 
-Klubben ordnas av ämnet matematik vid Åbo Akademi, i samarbete med finländska matematikolympiadträningen och MAOL.
+Klubben ordnas av ämnet matematik vid Åbo Akademi, i samarbete med Finlands matematiska förening och MAOL.
 
 <p align="center">
 <img src="https://matematiikkakilpailut.fi/kerhot/abo/%C3%85A%20logo.svg" alt="ÅAs logo" height="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
