@@ -15,7 +15,7 @@ Uppgifterna kräver inte så mycket förkunskaper, utan de handlar mera om logis
 
 Klubben ger bra träning för den som vill delta i olika matematiktävlingar. Klubben ger information om nationella och internationella tävlingar, men det går lika bra att vara med utan att tävla, bara för att det är roligt!
 
-Klubben drar igång vecka 6, och vi hoppas förstås att så många matematik­intresserade som möjligt är med redan från starten. Det går också bra att komma med senare -- ta också med din kompis! Fastän klubbens språk är svenska, så gör vi vårt bästa för att välkomna alla intresserade oberoende av språk! Om det finns många intresserade, så har vi möjligheten dela upp deltagarna i två grupper. 
+Klubben drar igång vecka 6, och vi hoppas förstås att så många matematik­intresserade som möjligt är med redan från starten. Det går också bra att komma med senare -- ta också med din kompis! Fastän klubbens språk är svenska, så gör vi vårt bästa för att välkomna alla intresserade, oberoende av språk! Om det finns många intresserade, så har vi möjligheten dela upp deltagarna i två grupper. 
 
 **Klubben är gratis -- välkommen med!**
 
@@ -35,5 +35,5 @@ Klubben ordnas av ämnet matematik vid Åbo Akademi, i samarbete med finländska
 <p align="center">
 <img src="https://matematiikkakilpailut.fi/kerhot/abo/%C3%85A%20logo.svg" alt="ÅAs logo" height="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://matematiikkakilpailut.fi/kerhot/abo/MAOL%20logo.svg" alt="MAOLs logo" height="70"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://matematiikkakilpailut.fi/kerhot/abo/UBS%20logo.svg" alt="Utbildningsstyrelens logo" height="70"/>
+<img src="https://matematiikkakilpailut.fi/kerhot/abo/UBS%20finansierar.png" alt="Utbildningsstyrelens logo" height="70"/>
 </p>
