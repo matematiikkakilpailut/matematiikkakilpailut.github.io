@@ -9,3 +9,4 @@ yhteis­työssä yli­opistojen kanssa paikallista
 matematiikka­kerho­toimintaa. Kerhojen tiedot kerätään tänne.
 
 - <a href="abo/" lang="sv-FI" hreflang="sv-FI">Åbo Akademis matematikklubb</a>
+- [Oulun yliopiston matematiikkakerho](oulu/)
