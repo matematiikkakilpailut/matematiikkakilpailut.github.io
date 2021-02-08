@@ -28,8 +28,6 @@ Ansvarig vid Åbo Akademi: Mikael Kurula, <mailto:mkurula(KANELBULLE)abo.fi>
 
 [Här](https://matematikklubb.blankett.fi/) kan man meddela att man är intresserad (inte bindande).
 
-[En plansch](http://users.abo.fi/mkurula/Matteklubb.pdf), som man kan hänga upp om man vill.
-
 Klubben ordnas av ämnet matematik vid Åbo Akademi, i samarbete med Finlands matematiska förening och MAOL.
 
 <p align="center">
