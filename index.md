@@ -78,16 +78,6 @@ viikkoa etukäteen!**
 
 * Suomen **Daniel Arone** osallistui kovatasoiseen Romanian Master of Mathematics -kutsukilpailuun osana Pohjoismaiden joukkuetta. Kilpailu pidettiin 26.2.&ndash;2.3.2020 Bukarestissa, Romaniassa. Arone menestyi kilpailussa hyvin saavuttaen kunniamaininnan. [Tulosluettelo](http://rmms.lbi.ro/rmm2020/index.php?id=results_math).
 
-* Vuoden 2019 [Baltian Tie -joukkuematematiikkakilpailu](http://balticway19.mimuw.edu.pl/index.html) pidettiin Szczecinissä, Puolassa 15.&ndash;19.11. Ensimmäisen sijan otti Pietarin joukkue 90 pisteellä, Suomi oli seitsemäs yhdestätoista 48 pisteellä. [Kilpailutehtävät](/Baltian_tie/2019/BW19_FIN.pdf) ja [tulosluettelo](http://balticway19.mimuw.edu.pl/BW19-results.pdf)
-
-* Vuoden 2019 [Kansainväliset Matematiikkaolympialaiset](https://www.imo2019.uk/) pidettiin Bathissa 10.&ndash;22.7. Suomea edustivat **Juho Arala**, **Hermanni Huhtamäki**, **Akseli Jussinmäki**, **Olli Järviniemi**, **Roope Salmi** ja **Nerissa Shakespeare**. Järviniemi sai hopeamitalin, Salmi pronssimitalin, Arala ja Jussinmäki kunniamaininnat. [Tulosluettelo](http://imo-official.org/year_country_r.aspx?year=2019).
-
-* Vuoden 2019 [Euroopan tyttöjen matematiikka&shy;olympialaisissa](https://egmo2019.org/) Suomea edustivat **Idaliina Kuusisto**, **Veera Nurmela**, **Nerissa Shakespeare** ja **Hilma Tillqvist**. Kilpailut pidettiin Kiovassa, Ukrainassa. [Kilpailutehtävät ja ratkaisut](https://www.egmo.org/egmos/egmo8/) sekä [tulosluettelo](https://www.egmo.org/egmos/egmo8/scoreboard/).
-
-* Vuoden 2018 Baltian Tie -joukkuematematiikkakilpailu pidettiin Pietarissa 9.&ndash;13.11. Ensimmäisen sijan otti Saksan joukkue 83 pisteellä, Suomi oli kahdeksas yhdestätoista 57 pisteellä. [Kilpailutehtävät](/Baltian_tie/2018/BW18_FIN.pdf) ja [tulosluettelo](https://web.archive.org/web/20190517060205/http://www.pdmi.ras.ru/EIMI/2018/Baltic_way/res18.pdf).
-
-* Uutena kokeiluna on otettu käyttöön valmennuskirjeitä nopeampitempoinen [viikkotehtävä](https://keskustelu.matematiikkakilpailut.fi/c/viikkotehtavat).
-
 Vanhempia uutisia löytyy [uutisarkistosta](vanhaset.html).
 
 [bt-tulokset]: http://mif.vu.lt/balticway2014/wp-content/uploads/2014/07/bw2014rez.pdf
