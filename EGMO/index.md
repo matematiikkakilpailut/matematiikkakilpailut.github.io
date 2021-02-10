@@ -79,7 +79,7 @@ ja toisiin kilpailijoihin. Vaikka kilpailu onkin nimensä mukaisesti tarkoitettu
 on joka vuosi mukana ollut vierailijoita myös muista maanosista, joten osallistujakunta on varsin kansainvälistä.
 Suomi osallistuu kilpailuun vuosittain enintään nelihenkisellä joukkueella.
 
-[Seuraavat](https://egmo2021.atsu.edu.ge/) Euroopan tyttöjen matematiikkaolympialaiset järjestetään 9.-15.4.2021 Kutaisissa, Georgiassa.
+[Seuraavat](https://egmo2021.atsu.edu.ge/) Euroopan tyttöjen matematiikkaolympialaiset järjestetään 9.-15.4.2021 Kutaisissa, Georgiassa. Suomalaiset osallistuvat tapahtumaan etänä.
 
 ## Menneet kilpailut
 
