@@ -41,7 +41,8 @@ valintakokeissa.
 Tammikuun 2021 [tehtävät](2021/kirje_2021_01.pdf).
 [Monivalintojen palautus](https://tehtavat.matematiikkakilpailut.fi/2021-01/).
 
-Joulukuun 2020 [tehtävät](2020/kirje_2020_12.pdf).
+Joulukuun 2020 [tehtävät](2020/kirje_2020_12.pdf). <br>
+Malliratkaisut saatavilla kirjeeseen vastanneille.<br>
 
 Marraskuun 2020 [tehtävät](2020/kirje_2020_10.pdf).<br>
 **Korjaus 25.10.**: Palautuspäivä on sittenkin 29.11.
