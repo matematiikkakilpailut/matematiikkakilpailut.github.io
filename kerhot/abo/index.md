@@ -21,12 +21,10 @@ Klubben drar igång vecka 6, och vi hoppas förstås att så många matematik­i
 
 [Här finns en liten film](https://aboakademi.zoom.us/rec/share/Tl52M6UWRaGYsKcBzoyUJVh7wYbE2wjjSh0nLm_KS5wJhhRjxgjTus8N6rCI8ZjE.u0LJwbJnYk4PHQXI?startTime=1612187986000), där vi visar litet hur det kan gå till i klubben.
 
-Kontakta oss gärna om du undrar över något!
+Kontakta oss om du undrar över något eller om du vill komma med och prova på klubben!
 
 Klubbens ledare: Mathias Wickholm, <mailto:mawickho(KANELBULLE)abo.fi><br>
 Ansvarig vid Åbo Akademi: Mikael Kurula, <mailto:mkurula(KANELBULLE)abo.fi>
-
-[Här](https://matematikklubb.blankett.fi/) kan man meddela att man är intresserad (inte bindande).
 
 Klubben ordnas av ämnet matematik vid Åbo Akademi, i samarbete med Finlands matematiska förening och MAOL.
 
