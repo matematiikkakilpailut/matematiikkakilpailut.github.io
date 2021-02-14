@@ -58,7 +58,7 @@ tavallisia kilpailuja vastaavan kokeen, johon odotetaan perusteltuja ratkaisuja,
 lauantaiaamuna monivalintakokeen, jossa pitää vain valita oikeat vaihtoehdot.
 Kummassakin kokeessa on sekä helpompia että vaikeampia tehtäviä, ja niitä
 käytetään apuna valittaessa joukkueita kahteen lähiaikojen kilpailuun:
-[Pohjoismaiseen](PM/) ja [EGMOon](/EGMO/).
+[Pohjoismaiseen](/PM/) ja [EGMOon](/EGMO/).
 Kokeissa ei saa käyttää laskimia, taulukkokirjoja, Internet-hakuja
 eikä keskustella kenenkään kanssa.
 
