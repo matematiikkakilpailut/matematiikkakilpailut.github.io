@@ -17,7 +17,7 @@ Klubben ger bra träning för den som vill delta i olika matematiktävlingar. Kl
 
 Fastän klubbens språk är svenska, så gör vi vårt bästa för att välkomna alla intresserade, oberoende av språk!
 
-**Klubben är gratis -- välkommen med!**
+**Klubben är gratis -- välkommen med!** Ta med din kompis också, om du vill. :)
 
 [Här finns en liten film](https://aboakademi.zoom.us/rec/share/Tl52M6UWRaGYsKcBzoyUJVh7wYbE2wjjSh0nLm_KS5wJhhRjxgjTus8N6rCI8ZjE.u0LJwbJnYk4PHQXI?startTime=1612187986000), där vi visar litet hur det kan gå till i klubben.
 
