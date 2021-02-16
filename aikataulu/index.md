@@ -13,7 +13,7 @@ aikataulu:
   - pvm: "noin helmi-huhtikuussa"
     tapahtuma: "[Seitsemäs&shy;luokkalaisten alueel&shy;linen matematiikka&shy;kilpailu](/seiskat/) Helsingissä, Oulussa, Sata&shy;kunnassa ja Turussa"
   - pvm: "26.&ndash;28.2. (viikko 8)"
-    tapahtuma: "Valmennus&shy;viikonvaihde etänä"
+    tapahtuma: "Valmennus&shy;viikonvaihde etänä: [lisätietoa ja ilmoittautuminen](2021W08/)"
   - tapahtuma: "[Euroopan tyttöjen matematiikka&shy;olympialaiset <abbr>EGMO</abbr>](https://www.egmo.org/egmos/egmo10/) (suomalaisten osalta etänä)"
     pvm: "9.&ndash;15.4."
   - tapahtuma: "Pohjois&shy;mainen matematiikka&shy;kilpailu kutsutuille omassa koulussa"
