@@ -82,7 +82,7 @@ Muutokset mahdollisia!
 - la 27.2.  9.00-11.00: monivalintakoe
 - la 27.2. 12.30-14.30: kombinatoriikkaa
 - la 27.2. 15.00-17.00: monivalintakokeen läpikäyntiä
-- la 27.2. 18.30-20.00: kombinatoriikkaa
+- la 27.2. 18.30-20.00: kombinatoriikkaa ja tammikuun kirjevalmennustehtävien läpikäyntiä
 - su 28.2.  9.00-11.00: ongelmanratkaisuharjoituksia
 - su 28.2. 12.30-14.00: kombinatoriikkaa
 
