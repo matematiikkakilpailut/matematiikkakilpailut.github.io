@@ -32,7 +32,7 @@ jsonld: >-
     "@type": "Offer",
     "price": "0",
     "priceCurrency": "EUR",
-    "url": "https://docs.google.com/forms/d/e/1FAIpQLSdNHKqaCdiN6o362QsSGBU4i04pgyXDruRWH7wWxxQrt4-unw/viewform?hl=fi"
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSdNHKqaCdiN6o362QsSGBU4i04pgyXDruRWH7wWxxQrt4-unw/viewform?hl=fi",
     "availability": "http://schema.org/InStock",
     "validFrom": "2021-02-148",
     "validThrough": "2021-02-26"
