@@ -2,6 +2,14 @@
 layout: page
 title: Itä-Suomen yliopiston matematiikkakerho
 url: /kerhot/ita-suomi/
+style: |
+  #logopalkki {
+     margin-top: 6ex;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     align-content: center;
+  }
 ---
 
 Hellurei! <span lang="cs">Holá!</span> <span lang="sv">Hej!</span> <span lang="de">Hallo!</span> <span lang="ru">привет!</span>
@@ -41,7 +49,7 @@ kanssa.
 
 Nappaa kaverikin mukaan ja osallistu kerhoon! Tervetuloa!
 
-<div style="display: flex; justify-content: space-evenly; align-content: center; margin-top: 6ex;">
+<div id="logopalkki">
 <img src="uef.png" alt="Itä-Suomen Yliopisto" height="100"/>
 <img src="/kerhot/abo/MAOL%20logo.svg" alt="MAOL" height="60"/>
 <img src="/OPH_rahoittaa_rgb.png" alt="Opetushallitus rahoittaa hanketta" height="100"/>
