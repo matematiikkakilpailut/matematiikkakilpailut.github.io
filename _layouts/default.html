@@ -19,6 +19,7 @@
     <link rel="preload" href="/font/Lato-Bold.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
     <link rel="preload" href="/font/Lato-Italic.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
     {% if page.jsonld %}<script type="application/ld+json">{{ page.jsonld }}</script>{% endif %}
+    {% if page.style %}<style>{{ page.style }}</style>{% endif %}
     <!--[if lt IE 9]>
       <script src="/js/html5shiv.min.js"></script>
     <![endif]-->
