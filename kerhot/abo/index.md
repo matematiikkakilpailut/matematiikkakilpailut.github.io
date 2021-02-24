@@ -9,13 +9,19 @@ lang: sv-FI
 
 Goda nyheter! Äntligen ordnas en svenskspråkig matematik­klubb, för just dig som går i åk 7-9 eller gymnasiet! Åtminstone till en början sköts klubben helt som video­konferens (med Zoom), så det spelar ingen roll var du bor. Också senare är det meningen att man ska kunna delta i klubben på distans. 
 
-Klubben träffas ungefär varannan vecka och du får bekanta dig med olika områden av matematikens fantastiska värld. Vi erbjuder roligt mattepyssel åt dig, som vill ha mera och annorlunda matematik än det som undervisas i skolan. Samtidigt kommer du i kontakt med andra matematikintresserade. 
+Du får bekanta dig med olika områden av matematikens fantastiska värld. Vi erbjuder roligt mattepyssel åt dig, som vill ha mera och annorlunda matematik än det som undervisas i skolan. Samtidigt kommer du i kontakt med andra matematikintresserade. 
 
 Uppgifterna kräver inte så mycket förkunskaper, utan de handlar mera om logiskt tänkande och kreativ problem­lösning. Nyfikenhet och vilja att fundera på matematiska problem är alltså viktigare än att du kan allt från förut. Det finns allt från lätta till mycket utmanande uppgifter att välja bland. 
 
 Klubben ger bra träning för den som vill delta i olika matematiktävlingar. Klubben ger information om nationella och internationella tävlingar, men det går lika bra att vara med utan att tävla, bara för att det är roligt! 
 
 Fastän klubbens språk är svenska, så gör vi vårt bästa för att välkomna alla intresserade, oberoende av språk!
+
+Klubben träffas ungefär varannan vecka, på lördagar 16-17 och på måndagar 17-18. Man kan delta i båda träffarna om man vill och har möjlighet. Det går faktiskt också att vara med i klubben även om ingendera tiden passar, eftersom uppgifterna är tillgängliga hela tiden och man kan be om tips när som helst.  Träffarna våren 2021 är följande: 
+
+<p align="center">
+<img src="https://matematiikkakilpailut.fi/kerhot/abo/schema.png" alt="Klubbens schema våren 2021"/>
+</p>
 
 **Klubben är gratis -- välkommen med!** Ta med din kompis också, om du vill. :)
 
