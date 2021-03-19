@@ -15,3 +15,4 @@ ainakin tällä hetkellä niihin voi osallistua mistä tahansa.
 - [Oulun yliopiston matematiikkakerho](oulu/)
 - [Itä-Suomen yliopiston matematiikkakerho](ita-suomi/)
 - [Helsingin yliopiston matematiikkakerho](helsinki/)
+- [Tampereen yliopiston matematiikkakerho](tampere/)
