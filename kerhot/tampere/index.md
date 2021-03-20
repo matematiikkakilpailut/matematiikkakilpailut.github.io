@@ -2,6 +2,14 @@
 layout: page
 title: Tampereen yliopiston matematiikkakerho
 url: /kerhot/tampere/
+style: |
+  #logopalkki {
+     margin-top: 6ex;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     align-content: center;
+  }
 ---
 
 Moro!
@@ -39,3 +47,10 @@ Kerhon vetäjänä toimii Tampereen yliopistolla Reijo Jaakkola
 matemaattisen yhdistyksen valmennusjaoston ja MAOLin kanssa.
 
 Tervetuloa mukaan!
+
+<div id="logopalkki">
+<img src="/kuvat/tau-logo-fin.png" alt="Tampereen Yliopisto" height="120"/>
+<img src="/kuvat/oph.png" alt="Opetushallitus rahoittaa hanketta" height="100"/>
+<img src="/kuvat/maol.jpg" alt="MAOL" height="80"/>
+<img src="/kuvat/lumakeskus.jpg" alt="LUMA-keskus Suomi" height="100"/>
+</div>
