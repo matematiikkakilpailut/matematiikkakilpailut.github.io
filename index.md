@@ -39,6 +39,8 @@ viikkoa etukäteen!**
 
 ## <a name="uutisia"></a>Uutisia
 
+* Maaliskuun 2021 [valmennuskirje](/valmennus/2021/kirje_2021_03.pdf) on julkaistu.
+
 * **Aino Aulanko**, **Veera Nurmela**, **Tianyue Sun** ja **Anni Tapionlinna** valittiin edustamaan Suomea [kymmenensiin Euroopan tyttöjen matematiikkaolympialaisiin](https://egmo2021.atsu.edu.ge/). Kilpailut pidetään 9.-15.4.2021 virtuaalisesti pandemian takia. Georgia toimii järjestäjämaana.
 
 * Helmikuun valmennusviikonloppu 26.-28.2.2021. järjestetään etänä. [Lisätietoja ja ilmoittautuminen: klikkaa tästä](/aikataulu/2021W08/).
