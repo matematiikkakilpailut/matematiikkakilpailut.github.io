@@ -19,7 +19,7 @@ aikataulu:
   - tapahtuma: "Pohjois&shy;mainen matematiikka&shy;kilpailu kutsutuille omassa koulussa"
     pvm: "16.4."
   - pvm: "17.&ndash;18.4. (viikko 15)"
-    tapahtuma: "Valmennus&shy;viikonvaihde etänä"
+    tapahtuma: "Valmennus&shy;viikonvaihde etänä: [lisätietoa ja ilmoittautuminen](2021W15/)"
   - tapahtuma: "Romanian Master of Mathematics -valintakoe kutsutuille (Suomesta valitaan yksi edustaja yhteispohjoismaiseen joukkueeseen)"
     pvm: "25.4."
   - pvm: "20.-26.5."
