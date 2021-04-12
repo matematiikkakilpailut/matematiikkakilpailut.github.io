@@ -59,7 +59,7 @@ Kokeissa ei saa käyttää laskimia, taulukkokirjoja, Internet-hakuja
 eikä keskustella kenenkään kanssa.
 
 Ilmoittaudu [lomakkeella] perjantaihin 16.4. mennessä.
-Valmennus järjestetään, mikäli siihen on vähintään viisi ilmoittautunutta.
+<!--Valmennus järjestetään, mikäli siihen on vähintään viisi ilmoittautunutta.-->
 Tarkemmat lisätiedot valmennuksen toteutuksesta lähetetään
 ilmoittautuneille sähköpostitse, koska Zoom-linkkejä ei voi nettihäiriköiden
 takia julkaista avoimesti.
