@@ -84,7 +84,7 @@ Muutokset mahdollisia!
 ### Yläkerran opetus
 
 - la 17.4. 10.00-12.00: monivalintakoe
-- la 17.4. 13.00-15.00:
-- la 17.4. 16.00-18.00:
+- la 17.4. 13.00-15.00: <span lang="en">number theory, combinatorics (in English)</span>
+- la 17.4. 16.00-18.30: <span lang="en">number theory, combinatorics (in English)</span>
 - su 18.4. 10.00-12.00: geometriaa
 - su 18.4. 13.00-15.00: geometriaa
