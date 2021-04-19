@@ -39,6 +39,8 @@ viikkoa etukäteen!**
 
 ## <a name="uutisia"></a>Uutisia
 
+* Vuoden [2021 Euroopan tyttöjen matematiikkaolympialaisissa](https://egmo2021.atsu.edu.ge/) Suomea edustivat **Aino Aulanko**, **Veera Nurmela**, **Tianyue Sun** ja **Anni Tapionlinna**. Kilpailu pidettiin virtuaalisena ja järjestäjämaana toimi Georgia. Nurmela oli paras Pohjoismaiden edustajista, ja Suomi oli paras osallistuneista Pohjoismaista toista vuotta peräkkäin. Suomen joukkue oli 30. osallistuneista 37 Euroopan maasta ja 45. kaikista osallistuneista 55 joukkueesta. [Tehtävät ja ratkaisut](https://www.egmo.org/egmos/egmo10/) sekä [tulokset](https://www.egmo.org/egmos/egmo10/scoreboard/).
+
 * Huhtikuun valmennusviikonloppu 17.-18.4.2021. järjestetään etänä. [Lisätietoja ja ilmoittautuminen: klikkaa tästä](/aikataulu/2021W15/).
 
 * Maaliskuun 2021 [valmennuskirje](/valmennus/2021/kirje_2021_03.pdf) on julkaistu.
