@@ -22,6 +22,7 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
 *  Pihla Karanko <br/> Edustaja Euroopan tyttöjen matematiikkaolympialaisissa 2012 ja 2013, erityisesti peruskoululaisten valmennus.
 *  Alexey Kirichenko<br/>
    Kokemusta mm. maineikkaista Leningradin matematiikkaolympialaisista.
+*  Nirmal Krishnan
 *  Jari Lappalainen<br/> Olympiaedustaja vuosina 1990 ja 1991.
 *  Merikki Lappi, filosofian maisteri<br/>
    Merikki.Lappi@paivola.fi, 0400534139.
