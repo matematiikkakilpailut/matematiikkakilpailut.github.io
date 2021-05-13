@@ -11,7 +11,7 @@ aikataulu:
   - pvm: "20.&ndash;26.5."
     tapahtuma: "[Romanian Master of Mathematics](http://rmms.lbi.ro/rmm2021/index.php?id=home) etänä"
   - pvm: "11.&ndash;13.6."
-    tapahtuma: "Peruskoululaisten kesäleiri"
+    tapahtuma: "Yläkoululaisten kesäleiri"
   - pvm: "18.&ndash;20.6."
     tapahtuma: "Kaikkien kesäleiri"
   - tapahtuma: "Olympia&shy;joukkueen yhteis&shy;pohjois&shy;mainen valmennus&shy;leiri Sorøssa, Tanskassa (mahdollisesti)"
