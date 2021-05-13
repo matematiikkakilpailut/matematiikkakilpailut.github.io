@@ -17,15 +17,11 @@ Klubben ger bra träning för den som vill delta i olika matematiktävlingar. Kl
 
 Fastän klubbens språk är svenska, så gör vi vårt bästa för att välkomna alla intresserade, oberoende av språk!
 
-Klubben träffas ungefär varannan vecka, på lördagar 16-17 och på måndagar 17-18. Man kan delta i båda träffarna om man vill och har möjlighet. Det går faktiskt också att vara med i klubben även om ingendera tiden passar, eftersom uppgifterna är tillgängliga hela tiden och man kan be om tips när som helst.  Träffarna våren 2021 är följande tider: 
-
-<p align="center">
-<img src="https://matematiikkakilpailut.fi/kerhot/abo/schema.png" alt="Klubbens schema våren 2021"/>
-</p>
+Klubben träffades på våren 2021 varannan vecka, på lördagar 16-17 och på måndagar 17-18, och verksamheten drar igång igen i september 2021. Man kan delta i båda träffarna om man vill och har möjlighet. Det går faktiskt också att vara med i klubben även om ingendera tiden passar, eftersom uppgifterna är tillgängliga hela tiden och man kan be om tips när som helst.  Träffarna våren 2021 är följande tider: 
 
 **Klubben är gratis -- välkommen med!** Ta med din kompis också, om du vill. :)
 
-[Här finns en liten film](https://aboakademi.zoom.us/rec/share/Tl52M6UWRaGYsKcBzoyUJVh7wYbE2wjjSh0nLm_KS5wJhhRjxgjTus8N6rCI8ZjE.u0LJwbJnYk4PHQXI?startTime=1612187986000), där vi visar litet hur det kan gå till i klubben.
+[Här finns en liten film](https://panopto.abo.fi/Panopto/Pages/Viewer.aspx?id=4336b5ea-89b2-44c8-8e46-ad2700e11f33), där vi visar litet hur det kan gå till i klubben.
 
 Kontakta oss om du undrar över något eller om du vill komma med och prova på klubben!
 
