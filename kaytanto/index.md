@@ -87,14 +87,15 @@ Lue lisää leirin käytännön järjestelyistä <a href="#kaytantoa">alta</a>.
 ## Yläkoululaisten kesäleiri
 
 Vuosittain kesäkuussa pidettävä *yläkoululaisten* nelipäiväinen *kesäleiri*
-on suunnattu yläkoululaisille. Ohjelmassa on kilpamatematiikan lisäksi
+on suunnattu niille, jotka olivat edeltävänä keväänä yläkoulussa.
+Ohjelmassa on kilpamatematiikan lisäksi
 hieman kevyempää harrastusmatematiikkaa ja yhdessäoloa samanhenkisessä
 seurassa matematiikan parissa. [Tästä](aikataulu_perus.pdf) voi lukea
 esimerkkinä erään kesäleirin aikataulun. Leiri järjestetään Päivölän opistolla.
 
 Leirille kutsutaan edellisen kevään aikana valmennukseen aktiivisesti
-osallistuneita taitavia peruskoululaisia, joiden täysihoito Päivölässä
-kustannetaan. **Kaikki kiinnostuneet peruskoululaiset** ovat
+osallistuneita taitavia yläkoululaisia, joiden täysihoito Päivölässä
+kustannetaan. **Kaikki kiinnostuneet yläkoululaiset** ovat
 kuitenkin oikein tervetulleita leirille; ne, jotka eivät ole saaneet kutsua,
 omakustanteisesti.
 
