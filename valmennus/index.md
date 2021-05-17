@@ -42,7 +42,8 @@ Maaliskuun 2021 [tehtävät](2021/kirje_2021_03.pdf).
 [Monivalintojen palautus](https://tehtavat.matematiikkakilpailut.fi/2021-03/).
 
 Tammikuun 2021 [tehtävät](2021/kirje_2021_01.pdf).
-[Monivalintojen palautus](https://tehtavat.matematiikkakilpailut.fi/2021-01/).
+[Monivalintojen palautus](https://tehtavat.matematiikkakilpailut.fi/2021-01/).<br>
+Malliratkaisut saatavilla kirjeeseen vastanneille.<br>
 
 ### <a name="perus"></a>Peruskoululaisten tehtävät
 
