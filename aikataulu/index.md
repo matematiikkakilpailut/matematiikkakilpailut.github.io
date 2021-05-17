@@ -8,7 +8,7 @@ aikataulu:
     otsikko: true
   - tapahtuma: "Olympia&shy;joukkueen valinta- ja valmennusleiri etänä, lisätietoa myöhemmin"
     pvm: "13.&ndash;16.5."
-  - pvm: "20.&ndash;26.5."
+  - pvm: "<del>20.&ndash;26.5. </del> 11.-16.10.2021"
     tapahtuma: "[Romanian Master of Mathematics](http://rmms.lbi.ro/rmm2021/index.php?id=home) etänä"
   - pvm: "11.&ndash;13.6."
     tapahtuma: "Yläkoululaisten kesäleiri"
