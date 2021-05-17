@@ -44,6 +44,21 @@ Maaliskuun 2021 [tehtävät](2021/kirje_2021_03.pdf).
 Tammikuun 2021 [tehtävät](2021/kirje_2021_01.pdf).
 [Monivalintojen palautus](https://tehtavat.matematiikkakilpailut.fi/2021-01/).
 
+### <a name="perus"></a>Peruskoululaisten tehtävät
+
+Peruskoululaisten kirjevalmennustehtävät on nimensä mukaan suunnattu peruskoululaisille. Ensimmäinen tehtäväsarja on suunniteltu aloitettavan seitsemännen luokan loppupuolella, mutta tehtävien ratkomisen voi aloittaa myös aiemmin tai myöhemmin. Tehtävien  ratkaiseminen edellyttää usein perehtymistä koulumatematiikan ulkopuoliseen matematiikkaan ja niiden on tarkoitus olla haastavia. Ei siis kannata säikähtää tehtävien vaikeustasoa.
+
+Ensimmäinen tehtäväsarja löytyy alta. Kun olet palauttanut ratkaisujasi siihen, saat uuden tehtäväsarjan ratkottavaksi.  Valmennusvastauksista voidaan antaa palautetta ja uusi tehtäväsarja lähettää vain, jos mukana ovat yhteystiedot!
+
+Peruskoululaiset voivat halutessaan ratkoa myös haastavampia, kaikille koululaisille tarkoitettuja kirjevalmennustehtäviä (yllä).
+
+[Peruskoululaisten ensimmäinen valmennuskirje](2020/kirje1_internet.pdf)
+
+[På svenska](2020/brev1_internet.pdf)
+
+
+### Vanhempia tehtäväsarjoja ja ratkaisuja
+
 Joulukuun 2020 [tehtävät](2020/kirje_2020_12.pdf). <br>
 Malliratkaisut saatavilla kirjeeseen vastanneille.<br>
 
@@ -86,23 +101,6 @@ Lokakuun 2019 [tehtävät](2019/kirje_2019_10.pdf) ja [ratkaisut](2019/ratk_2019
 **Korjaus 10.11.2019**: tehtävässä 13 käännetään vain yhden lapun naapurit kerrallaan.
 
 Syyskuun 2019 [tehtävät](2019/kirje_2019_09.pdf) ja [ratkaisut](2019/ratk_2019_09.pdf).
-
-
-
-### <a name="perus"></a>Peruskoululaisten tehtävät
-
-Peruskoululaisten kirjevalmennustehtävät on nimensä mukaan suunnattu peruskoululaisille. Ensimmäinen tehtäväsarja on suunniteltu aloitettavan seitsemännen luokan loppupuolella, mutta tehtävien ratkomisen voi aloittaa myös aiemmin tai myöhemmin. Tehtävien  ratkaiseminen edellyttää usein perehtymistä koulumatematiikan ulkopuoliseen matematiikkaan ja niiden on tarkoitus olla haastavia. Ei siis kannata säikähtää tehtävien vaikeustasoa.
-
-Ensimmäinen tehtäväsarja löytyy alta. Kun olet palauttanut ratkaisujasi siihen, saat uuden tehtäväsarjan ratkottavaksi.  Valmennusvastauksista voidaan antaa palautetta ja uusi tehtäväsarja lähettää vain, jos mukana ovat yhteystiedot!
-
-Peruskoululaiset voivat halutessaan ratkoa myös haastavampia, kaikille koululaisille tarkoitettuja kirjevalmennustehtäviä (yllä).
-
-[Peruskoululaisten ensimmäinen valmennuskirje](2020/kirje1_internet.pdf)
-
-[På svenska](2020/brev1_internet.pdf)
-
-
-### Vanhempia tehtäväsarjoja ja ratkaisuja
 
 Kesäkauden 2019 [tehtävät](2019/kirje_2019_05.pdf) ja [ratkaisut](2019/ratk_2019_05.pdf).
 &mdash;<span lang="sv">[Den enklare problemuppsättningen på svenska](https://matteverkstaden.wordpress.com/2019/06/15/sommarutmaning/),
