@@ -5,6 +5,18 @@ title: Uutisarkisto
 
 ## Vanhoja uutisia
 
+* **Vuoden 2020 [Kansainväliset Matematiikkaolympialaiset](https://imo2020.ru/) on siirretty pidettäväksi 20.-28.9.2020 koronaviruspandemian takia.** Mikäli matkustaminen ei vielä tällöinkään onnistu, niin kilpailu saatetaan järjestää virtuaalisena. Kaikki kilpailijat, jotka olisivat olleet oikeutettuja osallistumaan heinäkuussa pidettyihin olympialaisiin, ovat sitä myös syyskuussa.
+
+* Vuoden 2020 [Euroopan tyttöjen matematiikkaolympialaiset](https://egmo2020.nl/) toteutettiin virtuaalisesti 15.&ndash;21.4. koronaviruspandemian takia. Alankomaat toimi järjestäjämaana. Suomea edustivat **Ulrika Kaara**, **Idaliina Kuusisto**, **Veera Nurmela** ja **Anni Tapionlinna**. Suomi oli 42. osallistuneista 53 joukkueesta sekä 39 Euroopan maan joukossa 30. [Kilpailutehtävät ja ratkaisut](https://www.egmo.org/egmos/egmo9/) sekä [tulosluettelo](https://www.egmo.org/egmos/egmo9/scoreboard/).
+
+* **Viikkokisoja** järjestetään taas, ks. [ilmoitus](https://keskustelu.matematiikkakilpailut.fi/t/viikkokisat/322) ja [viikon 6.-12.4. kisa](https://keskustelu.matematiikkakilpailut.fi/t/viikkokisa-6-12-4/323).
+
+* Huhtikuun valmennusviikonloppu toteutetaan etänä. Valmennusta on tarjolla ainakin la 4.4.2020 klo 9:55-12:30 ja 14:00-16:30. Ilmoittautumiset ja kysymykset voi osoittaa alakerran (helpompi taso) osalta Pihla Karangolle (pihla.karanko@aalto.fi) ja yläkerran (haastavampi taso) osalta Olli Järviniemelle (olli.jarviniemi@gmail.com). Ilmoittaudu viimeistään ke 1.4.2020 klo 18:00. Opetus on maksutonta.
+
+* **Vuoden 2020 koronavirusepidemia saattaa aiheuttaa rajoituksia matkustamiseen ja valmennustapahtumien ja kilpailujen perumisia ja siirtämisiä**. Huhtikuun alun valmennusviikonloppu toteutetaan etänä. Matematiikkaolympialaisten järjestäjä on ilmoittanut, että epidemian jatkuessa heinäkuulle kilpailu saatetaan toteuttaa jonkinlaisen etäosallistumisen kautta tai siirtää. EGMO-kilpailu on muutettu virtuaaliseksi.
+
+* Suomen **Daniel Arone** osallistui kovatasoiseen Romanian Master of Mathematics -kutsukilpailuun osana Pohjoismaiden joukkuetta. Kilpailu pidettiin 26.2.&ndash;2.3.2020 Bukarestissa, Romaniassa. Arone menestyi kilpailussa hyvin saavuttaen kunniamaininnan. [Tulosluettelo](http://rmms.lbi.ro/rmm2020/index.php?id=results_math).
+
 * Vuoden 2019 [Baltian Tie -joukkuematematiikkakilpailu](http://balticway19.mimuw.edu.pl/index.html) pidettiin Szczecinissä, Puolassa 15.&ndash;19.11. Ensimmäisen sijan otti Pietarin joukkue 90 pisteellä, Suomi oli seitsemäs yhdestätoista 48 pisteellä. [Kilpailutehtävät](/Baltian_tie/2019/BW19_FIN.pdf) ja [tulosluettelo](http://balticway19.mimuw.edu.pl/BW19-results.pdf)
 
 * Vuoden 2019 [Kansainväliset Matematiikkaolympialaiset](https://www.imo2019.uk/) pidettiin Bathissa 10.&ndash;22.7. Suomea edustivat **Juho Arala**, **Hermanni Huhtamäki**, **Akseli Jussinmäki**, **Olli Järviniemi**, **Roope Salmi** ja **Nerissa Shakespeare**. Järviniemi sai hopeamitalin, Salmi pronssimitalin, Arala ja Jussinmäki kunniamaininnat. [Tulosluettelo](http://imo-official.org/year_country_r.aspx?year=2019).
