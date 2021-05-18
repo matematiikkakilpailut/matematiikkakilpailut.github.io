@@ -13,7 +13,7 @@ aikataulu:
   - pvm: "11.&ndash;13.6."
     tapahtuma: "Yläkoululaisten kesäleiri"
   - pvm: "18.&ndash;20.6."
-    tapahtuma: "Kaikkien kesäleiri"
+    tapahtuma: "Olympiajoukkueelle suunnattu valmennusleiri, jonne muutkin innokkaat ovat tervetulleita"
   - tapahtuma: "Olympia&shy;joukkueen yhteis&shy;pohjois&shy;mainen valmennus&shy;leiri Sorøssa, Tanskassa (mahdollisesti)"
     pvm: "10.&ndash;17.7."
   - tapahtuma: "[62. Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr> Pietarissa](http://www.imo-official.org/year_info.aspx?year=2021), Suomen joukkue Suomessa tai mahdollisesti Tanskassa yhdessä muiden Pohjoismaiden kanssa"
