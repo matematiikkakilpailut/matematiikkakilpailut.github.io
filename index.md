@@ -39,6 +39,8 @@ viikkoa etukäteen!**
 
 ## <a name="uutisia"></a>Uutisia
 
+* Yläkoululaisten kesäleirin 11.-13.6.2021 ilmoittautuminen on nyt avattu! Leiri pidetään etänä ja on suunnattu kaikille keväällä 2021 yläkoulussa olleille. [Lisätiedot ja ilmoittautuminen](https://matematiikkakilpailut.fi/aikataulu/YlaKesa2021/).
+
 * Vuoden [2021 Euroopan tyttöjen matematiikkaolympialaisissa](https://egmo2021.atsu.edu.ge/) Suomea edustivat **Aino Aulanko**, **Veera Nurmela**, **Tianyue Sun** ja **Anni Tapionlinna**. Kilpailu pidettiin virtuaalisena ja järjestäjämaana toimi Georgia. Nurmela oli paras Pohjoismaiden edustajista, ja Suomi oli toista vuotta peräkkäin paras osallistuneista Pohjoismaista. Suomen joukkue oli 30. osallistuneista 37 Euroopan maasta ja 45. kaikista osallistuneista 55 joukkueesta. [Tehtävät ja ratkaisut](https://www.egmo.org/egmos/egmo10/) sekä [tulokset](https://www.egmo.org/egmos/egmo10/scoreboard/).
 
 * Huhtikuun valmennusviikonloppu 17.-18.4.2021. järjestetään etänä. [Lisätietoja ja ilmoittautuminen: klikkaa tästä](/aikataulu/2021W15/).
