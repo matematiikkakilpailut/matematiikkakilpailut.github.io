@@ -16,7 +16,7 @@ jsonld: >-
   "isAccessibleForFree": true,
   "location": {
     "@type": "VirtualLocation",
-    "url": "https://matematiikkakilpailut.fi/aikataulu/2021YlaKesa/"
+    "url": "https://matematiikkakilpailut.fi/aikataulu/YlaKesa2021/"
   },
   "performer": {
     "@type": "Organization",
