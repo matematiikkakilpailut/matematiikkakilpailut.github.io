@@ -82,6 +82,6 @@ Muutokset ovat mahdollisia.
 
 ### Sunnuntai 20.6.
 
-- 10:00-12:30: Kombinatoriikkaa
-- 13:30-16:00: Kombinatoriikkaa
+- 10:00-12:30: Kombinatoriikkaa (in English)
+- 13:30-16:00: Kombinatoriikkaa (in English)
 
