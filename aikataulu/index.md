@@ -19,10 +19,16 @@ aikataulu:
     otsikko: true
   - pvm: "10.&ndash;12.9. (viikko 36)"
     tapahtuma: "Valmennus&shy;viikon&shy;loppu Päivölässä (toivottavasti)"
+  - pvm: "22.9.&ndash;5.10."
+    tapahtuma: Perus&shy;koulun matematiikka&shy;kilpailu
+  - pvm: "ke 6.10."
+    tapahtuma: "Lukion matematiikka&shy;kilpailu, alku&shy;kilpailu"
   - pvm: "<del>20.&ndash;26.5. </del> 11.-16.10."
     tapahtuma: "[Romanian Master of Mathematics](http://rmms.lbi.ro/rmm2021/index.php?id=home) etänä"
   - pvm: "22.&ndash;24.10. (viikko 42)"
     tapahtuma: "Valmennus&shy;viikon&shy;loppu Päivölässä (toivottavasti)"
+  - pvm: "noin marraskuussa"
+    tapahtuma: "Baltian tie -joukkue&shy;kilpailu Reykjavikissa"
   - pvm: "3.&ndash;5.12. (viikko 48)"
     tapahtuma: "Valmennus&shy;viikon&shy;loppu Päivölässä (toivottavasti)"
 ---
