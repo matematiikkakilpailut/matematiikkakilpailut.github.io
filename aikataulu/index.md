@@ -17,8 +17,14 @@ aikataulu:
   - pvm: "2021"
     tapahtuma: "Syksy"
     otsikko: true
+  - pvm: "10.&ndash;12.9. (viikko 36)"
+    tapahtuma: "Valmennus&shy;viikon&shy;loppu Päivölässä (toivottavasti)"
   - pvm: "<del>20.&ndash;26.5. </del> 11.-16.10."
     tapahtuma: "[Romanian Master of Mathematics](http://rmms.lbi.ro/rmm2021/index.php?id=home) etänä"
+  - pvm: "22.&ndash;24.10. (viikko 42)"
+    tapahtuma: "Valmennus&shy;viikon&shy;loppu Päivölässä (toivottavasti)"
+  - pvm: "3.&ndash;5.12. (viikko 48)"
+    tapahtuma: "Valmennus&shy;viikon&shy;loppu Päivölässä (toivottavasti)"
 ---
 <div class="list-group">
 {% for a in page.aikataulu %}
