@@ -21,7 +21,7 @@ Klubben träffades på våren 2021 varannan vecka, på lördagar 16-17 och på m
 
 **Klubben är gratis -- välkommen med!** Ta med din kompis också, om du vill. :)
 
-[Här finns en liten film](https://panopto.abo.fi/Panopto/Pages/Viewer.aspx?id=4336b5ea-89b2-44c8-8e46-ad2700e11f33), där vi visar litet hur det kan gå till i klubben.
+[Här finns en liten film](https://panopto.abo.fi/Panopto/Pages/Viewer.aspx?id=4336b5ea-89b2-44c8-8e46-ad2700e11f33) och [här finns en artikel](https://dimensiolehti.fi/en-ny-matematikklubb-for-hela-svenskfinland/), där du kan bekanta dig med klubben.
 
 Kontakta oss om du undrar över något eller om du vill komma med och prova på klubben!
 
