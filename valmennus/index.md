@@ -38,6 +38,8 @@ valintakokeissa.
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
+Kesän 2021 [tehtävät](2021/kirje_2021_06.pdf).
+
 Maaliskuun 2021 [tehtävät](2021/kirje_2021_03.pdf).
 [Monivalintojen palautus](https://tehtavat.matematiikkakilpailut.fi/2021-03/).
 
