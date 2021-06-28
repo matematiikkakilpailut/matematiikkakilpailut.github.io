@@ -39,6 +39,8 @@ viikkoa etukäteen!**
 
 ## <a name="uutisia"></a>Uutisia
 
+* **Juho Arala**, **Daniel Arone** ja **Sampo Siitonen** toivat loistavan kolmoisvoiton Suomeen vuoden 2021 Pohjoismaisessa matematiikkakilpailussa. Myös **Ville Uotila** sijoittui kymmenen parhaan joukkoon tulemalla hienosti kahdeksanneksi. [Parhaiden tulokset](http://www.georgmohr.dk/nmcperm/res/2021.html) ja [tehtävät ratkaisuneen](http://www.georgmohr.dk/nmcperm/probl/).
+
 * Kesän 2021 [valmennuskirje](/valmennus/2021/kirje_2021_06.pdf) on julkaistu.
 
 * Yläkoululaisten kesäleirin 11.-13.6.2021 ilmoittautuminen on nyt avattu! Leiri pidetään etänä ja on suunnattu kaikille keväällä 2021 yläkoulussa olleille. [Lisätiedot ja ilmoittautuminen](https://matematiikkakilpailut.fi/aikataulu/YlaKesa2021/).
