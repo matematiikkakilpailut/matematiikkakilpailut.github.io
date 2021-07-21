@@ -42,15 +42,13 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
 *  [Jouni Seppänen][jks]<br/> Tekniikan tohtori, olympiaedustaja vuosina 1994 ja 1995.
 *  Joni Teräväinen<br/> Filosofian tohtori, olympiaedustaja vuosina 2011, 2012 ja 2013.
 *  Ville Tilvis
-*  [Niko Vuokko][ntvuok]<br/> Olympiaedustaja vuosina 2002 ja 2003.
 *  [Esa Vesalainen][evvesala]<br/>
    Olympiaedustaja vuosina 2005, 2006 ja 2007. Valmennusjaoston johtoryhmän jäsen.
 
 [smy]: http://www.matemaattinenyhdistys.fi/
 [ameh]: http://users.abo.fi/aernvall/
 [ahonkela]: http://www.iki.fi/ahonkela/
-[matti]: http://www.elisanet.fi/matti.t.Lehtinen
-[kluosto]: http://www.helsinki.fi/%7Ekluosto/
+[matti]: http://www.elisanet.fi/matti.t.lehtinen/
+[kluosto]: https://www.tuni.fi/fi/kerkko-luosto
 [jks]: http://www.iki.fi/jks/
-[ntvuok]: http://www.cis.hut.fi/ntvuok/
 [evvesala]: http://esavesalainen.fi
