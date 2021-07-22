@@ -1,0 +1,22 @@
+{
+  "name": "matematiikkakilpailut.github.io",
+  "version": "1.0.0",
+  "description": "Suomen matematiikan olympiavalmennuksen sivusto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matematiikkakilpailut/matematiikkakilpailut.github.io.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/matematiikkakilpailut/matematiikkakilpailut.github.io/issues"
+  },
+  "homepage": "https://github.com/matematiikkakilpailut/matematiikkakilpailut.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
