@@ -126,7 +126,7 @@ The following persons take part in organizing the training:
 *   Nirmal Krishnan
 *   Jari Lappalainen
 *   Merikki Lappi
-*   [Matti Lehtinen](http://www.elisanet.fi/matti.t.Lehtinen/)
+*   [Matti Lehtinen](http://www.elisanet.fi/matti.t.lehtinen/)
 *   [Kerkko Luosto](https://www.tuni.fi/fi/kerkko-luosto)
 *   Neea Palojärvi
 *   Jaakko Seppälä
