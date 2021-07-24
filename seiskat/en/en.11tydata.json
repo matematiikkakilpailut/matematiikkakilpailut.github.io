@@ -1,0 +1,8 @@
+{
+    "layout": "seiskat",
+    "title": "7th Graders' Competition",
+    "h1": "7th Graders' Regional Mathematics Competition",
+    "lang": "en",
+    "permalink": "seiskat/en/{{page.fileSlug if page.fileSlug != 'en' else 'index'}}.html"
+}
+    
