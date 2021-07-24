@@ -2,27 +2,10 @@
 layout: page
 title: Iranin geometriakilpailu– IGO
 url: /IGO/
-kilpailut:
-  - vuosi: "**Vuosi**"
-    tehtavat: "**Tehtä&shy;vät**"
-    ratkaisut: "**Ratkai&shy;sut**"
-    menestys: "**Suomen menestys**"
-  - vuosi: "[2020](https://igo-official.ir/events/7/)"
-    tehtavat: "[pdf](teht2020.pdf)"
-    ratkaisut: "[englanniksi](sol2021.pdf)"
-    menestys: "**Vaativa taso:** 3 kunniamainintaa <br> **Keskitaso:** 2 kunniamainintaa <br> **Perustaso:** 1 kunniamaininta"
-  - vuosi: "[2019](https://igo-official.ir/events/6/)"
-    tehtavat: "[pdf](teht2019.pdf)"
-    ratkaisut: "[englanniksi](https://igo-official.ir/media/IGO_2019_Booklet_en.pdf)"
-    menestys: "**Vaativa taso:** 2 kunniamainintaa <br> **Keskitaso:** 1 pronssi <br>**Perustaso:** 2 kunniamainintaa"
-  - vuosi: "[2018](https://igo-official.ir/events/5/)"
-    tehtavat: "[pdf](teht2018.pdf)"
-    ratkaisut: "[englanniksi](https://igo-official.ir/media/Solutions-en.pdf)"
-    menestys: "**Vaativa taso:** 1 pronssi, 2 kunniamainintaa <br> **Keskitaso:** 2 kunniamainintaa"
-  - vuosi: "[2017](https://igo-official.ir/events/4/)"
-    tehtavat: "[pdf](teht2017.pdf)"
-    ratkaisut: "[osa suomeksi](https://matematiikkalehtisolmu.fi/2018/2/IGO.pdf)"
-    menestys: "**Vaativa taso:** 1 kunniamaininta <br> **Keskitaso:** 1 pronssi, 1 kunniamaininta <br>**Perustaso:** 1 kunniamaininta"
+eleventyNavigation:
+  key: IGO
+  parent: kilpailut
+  order: 2
 ---
 
 ## Yleistä
@@ -40,12 +23,12 @@ Lisätietoa kilpailusta löytyy yllä mainitulta [kotisivulta](https://igo-offic
 Kilpailut vuodesta 2017 lähtien.
 
 <div class="list-group">
-{% for k in page.kilpailut %}
+{% for k in data %}
 <div class="row list-group-item">
-<div class="col-xs-2 col-sm-1">{{ k['vuosi'] | markdownify }}</div>
-<div class="col-xs-2">{{ k['tehtavat'] | markdownify }}</div>
-<div class="col-xs-2 col-sm-3">{{ k['ratkaisut'] | markdownify }}</div> 
-<div class="col-xs-4 col-sm-4">{{ k['menestys'] | markdownify }}</div>
+<div class="col-xs-2 col-sm-1">{{ k['vuosi'] | markdownify | safe }}</div>
+<div class="col-xs-2">{{ k['tehtavat'] | markdownify | safe }}</div>
+<div class="col-xs-2 col-sm-3">{{ k['ratkaisut'] | markdownify | safe }}</div> 
+<div class="col-xs-4 col-sm-4">{{ k['menestys'] | markdownify | safe }}</div>
 </div>
 {% endfor %}
 </div>

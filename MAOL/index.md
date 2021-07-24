@@ -1,7 +1,11 @@
 ---
 layout: page
-title: MAOLin matematiikka&shy;kilpailut
+title: MAOLin matematiikkakilpailut
 url: /MAOL/
+eleventyNavigation:
+  key: MAOL
+  parent: kilpailut
+  order: 0
 description: >-
   Matemaattisten aineiden opettajien liitto MAOL järjestää
   matematiikkakilpailuja peruskoululaisille ja lukiolaisille.
@@ -20,19 +24,19 @@ Kilpailuihin voi päästä mukaan kertomalla matematiikan
 opettajalleen osallistumishalustaan hyvissä ajoin ennen
 kilpailua.
 
-## Peruskoulun matematiikka&shy;kilpailu
+## Peruskoulun matematiikkakilpailu
 
-Peruskoulun matematiikka&shy;kilpailu on suunnattu ensi sijassa
+Peruskoulun matematiikkakilpailu on suunnattu ensi sijassa
 peruskoulun 9. luokan oppilaille, mutta myös nuoremmat oppilaat
 voivat mainiosti osallistua. Loppukilpailuun osallistuu yleensä kaksi
 virolaista vierailijaa, ja peruskoulun kilpailun kaksi parasta on
 voinut osallistua Viron vastaavaan kilpailuun. Peruskoulun
-matematiikka&shy;kilpailun tehtäviä ja ratkaisuja löytyy
+matematiikkakilpailun tehtäviä ja ratkaisuja löytyy
 [MAOL:n kilpailusivulta][maolpk].
 
 [maolpk]: https://maol.fi/neljan-tieteen-kisat/vanhat-kilpailutehtavat/
 
-## Lukion matematiikka&shy;kilpailu
+## Lukion matematiikkakilpailu
 
 ### Yleistä
 
@@ -44,7 +48,7 @@ jossa on sarjoista huolimatta vain yhdet tehtävät.
 Peruskoululaiset voivat halutessaan osallistua lukion
 kilpailuun.
 
-Jonkin verran MAOL:n Lukion matematiikka&shy;kilpailun alkukilpailutehtäviä
+Jonkin verran MAOL:n Lukion matematiikkakilpailun alkukilpailutehtäviä
 löytyy [MAOL:n kilpailusivuilta][maollukio].
 
 [maol]: http://www.maol.fi
@@ -52,61 +56,27 @@ löytyy [MAOL:n kilpailusivuilta][maollukio].
 
 ### Alkukilpailun tehtäviä ja ratkaisuja
 
-Lukion matematiikka&shy;kilpailun tehtäviä ja ratkaisuja muutamilta
+Lukion matematiikkakilpailun tehtäviä ja ratkaisuja muutamilta
 vuosilta löytyy pdf-muotoisina oheisesta taulukosta.
+
 <div class="list-group"></div>
 <div class="row list-group-item">
 <div class="col-xs-3 col-sm-2 col-md-1"><strong>Vuosi</strong></div>
 <div class="col-xs-3 col-sm-2 col-md-1"><strong>Tehtävät</strong></div>
 <div class="col-xs-6"><strong>Ratkaisut</strong></div>
 </div> 
+{% for v in alkukilpailu %}
 <div class="row list-group-item">
-<div class="col-xs-3 col-sm-2 col-md-1">2019</div>
-<div class="col-xs-3 col-sm-2 col-md-1"><a href="2019/alkuteht2019.pdf">pdf</a></div>
-<div class="col-xs-6"><a href="2019/alkuratk2019.pdf">pdf</a></div>
+<div class="col-xs-3 col-sm-2 col-md-1">{{ v.vuosi }}</div>
+<div class="col-xs-3 col-sm-2 col-md-1"><a href="{{ v.tehtavat }}">pdf</a></div>
+<div class="col-xs-6"><a href="{{ v.ratkaisut }}">pdf</a></div>
 </div>
-<div class="row list-group-item">
-<div class="col-xs-3 col-sm-2 col-md-1">2018</div>
-<div class="col-xs-3 col-sm-2 col-md-1"><a href="2018/alkuteht2018.pdf">pdf</a></div>
-<div class="col-xs-6"><a href="2018/alkuratk2018.pdf">pdf</a></div>
-</div>
-<div class="row list-group-item">
-<div class="col-xs-3 col-sm-2 col-md-1">2017</div>
-<div class="col-xs-3 col-sm-2 col-md-1"><a href="2017/alkuteht2017.pdf">pdf</a></div>
-<div class="col-xs-6"><a href="2017/alkuratk2017.pdf">pdf</a></div>
-</div>
-<div class="row list-group-item">
-<div class="col-xs-3 col-sm-2 col-md-1">2016</div>
-<div class="col-xs-3 col-sm-2 col-md-1"><a href="2016/al2016.pdf">pdf</a></div>
-<div class="col-xs-6"><a href="2016/al2016ratk.pdf">pdf</a></div>
-</div>
-<div class="row list-group-item">
-<div class="col-xs-3 col-sm-2 col-md-1">2015</div>
-<div class="col-xs-3 col-sm-2 col-md-1"><a href="2015/teht2015.pdf">pdf</a></div>
-<div class="col-xs-6"><a href="2015/ala2015ratk.pdf">avoimen sarjan tehtävät ja ratkaisuja</a></div>
-</div>
-<div class="row list-group-item">
-<div class="col-xs-3 col-sm-2 col-md-1">2014</div>
-<div class="col-xs-3 col-sm-2 col-md-1"><a href="2014/alkukteht2014.pdf">pdf</a></div>
-<div class="col-xs-6"><a href="2014/alkukratk2014.pdf">pdf</a>, 
-  <a href="2014/avaratk.pdf">lisää avoimen sarjan ratkaisuja</a></div>
-  </div>
-{% assign vt = "2013 2012 2011 2010 2009" | split: " " %}
-{% for v in vt %}
-<div class="row list-group-item">
-<div class="col-xs-3 col-sm-2 col-md-1">{{ v }}</div>
-<div class="col-xs-3 col-sm-2 col-md-1"><a href="{{ v }}/tehtalku{{ v }}.pdf">pdf</a></div>
-<div class="col-xs-6"><a href="{{ v }}/ratkalku{{ v }}.pdf">pdf</a></div>
-</div>
-{% endfor %} 
-  
-  
-
+{% endfor %}
 
 
 ### Loppukilpailun tehtäviä ja ratkaisuja
 
-Lukion matematiikka&shy;kilpailun loppukilpailu on järjestetty vuodesta
+Lukion matematiikkakilpailun loppukilpailu on järjestetty vuodesta
 1997 alkaen. Tässä tehtäviä ja ratkaisuja sekä PostScript- (lyh. ps)
 että pdf-muodossa seuraavan taulukon mukaisesti.
 
@@ -116,31 +86,11 @@ että pdf-muodossa seuraavan taulukon mukaisesti.
 <div class="col-xs-3 col-sm-2 col-md-1"><strong>Tehtävät</strong></div>
 <div class="col-xs-6"><strong>Ratkaisut</strong></div>
 </div>
-{% assign vt = "2019 2018 2017 2016 2015 2014 2013 2012 2011 2010" | split: " " %}
-  {% for v in vt %}
+{% for v in loppukilpailu %}
 <div class="row list-group-item">
-<div class="col-xs-3 col-sm-2 col-md-1">{{ v }}</div>
-<div class="col-xs-3 col-sm-2 col-md-1"><a href="{{ v }}/lukm{{ v }}.pdf">pdf</a></div>
-<div class="col-xs-6"><a href="{{ v }}/lukm{{ v }}r.pdf">pdf</a></div>
+<div class="col-xs-3 col-sm-2 col-md-1">{{ v.vuosi }}</div>
+<div class="col-xs-3 col-sm-2 col-md-1"><a href="{{ v.tehtavat }}">pdf</a></div>
+<div class="col-xs-6"><a href="{{ v.ratkaisut }}">pdf</a></div>
 </div>
 {% endfor %}
-{% assign vt = "2009 2008 2007 2006 2005 2004 2003 2002 2001 2000" | split: " " %}
-{% for v in vt %}
-<div class="row list-group-item">
-<div class="col-xs-3 col-sm-2 col-md-1">{{ v }}</div>
-<div class="col-xs-3 col-sm-2 col-md-1"><a href="{{ v }}/lukm{{ v }}.ps">ps</a>
-  <a href="{{ v }}/lukm{{ v }}.pdf">pdf</a></div>
-<div class="col-xs-6"><a href="{{ v }}/lukm{{ v }}r.pdf">pdf</a></div>
-</div>
-{% endfor %}
-{% assign vt = "99 98 97" | split: " " %}
-{% for v in vt %}
-<div class="row list-group-item">
-<div class="col-xs-3 col-sm-2 col-md-1">19{{ v }}</div>
-<div class="col-xs-3 col-sm-2 col-md-1"><a href="19{{ v }}/lukm{{ v }}.ps">ps</a>
-  <a href="19{{ v }}/lukm{{ v }}.pdf">pdf</a></div>
-<div class="col-xs-6"><a href="19{{ v }}/lukm19{{ v }}r.pdf">pdf</a></div>
-</div>
-{% endfor %}
-
 

@@ -1,20 +1,20 @@
 ---
 ---
 <!DOCTYPE html>
-<html lang="{% if page.lang == null %}fi{% else %}{{ page.lang }}{% endif %}">
+<html lang="{{ lang | default('fi') }}">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {%- if page.robots %}
+    {%- if robots %}
     <meta name="robots" content="{{ page.robots }}">
-    {% elsif page.sitemap == false %}
+    {% elif sitemap == false %}
     <meta name="robots" content="noindex,follow">
     {% endif %}
     <link rel="sitemap" href="/sitemap.xml" />
-    <title>{{ page.title }}</title>
-    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-    <link href="/seiskat/tyyli.css?v=6" rel="stylesheet" />
+    <title>{{ title }}</title>
+    {% if description %}<meta name="description" content="{{ description }}">{% endif %}
+    <link href="/seiskat/tyyli.css?v=0" rel="stylesheet" />
     <base href="/seiskat/">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="apple-touch-icon" sizes="57x57" href="kuvake/apple-icon-57x57.png">
@@ -53,19 +53,19 @@
       </p>
       </div><![endif]-->
     <img id="logo" alt="[logo]" src="logo.png" />
-    <h1>{{ page.h1 }}</h1>
-    {%- assign lang = page.lang | replace: "-FI", "" %}
+    <h1>{{ h1 }}</h1>
+    {%- set lang = lang | replace("-FI", "") %}
     
     <nav id="nav">
       <ul>
 	{%- if lang == "sv" %}
 	<li><a href="sv/index.html">Hem</a></li>
 	<li><a href="sv/regler.html">Regler</a></li>
-	<li><a href="sv/arrangorer.html">Arrang&ouml;rer</a></li>
-	<li><a href="sv/problem.html">Problem och l&ouml;sningar</a></li>
+	<li><a href="sv/arrangorer.html">Arrangörer</a></li>
+	<li><a href="sv/problem.html">Problem och lösningar</a></li>
 	<li><a href="sv/resultat.html">Resultat</a></li>
 	<li><a href="sv/kontakt.html">Kontakta oss</a></li>
-	{% elsif lang == "en" %}
+	{% elif lang == "en" %}
 	<li><a href="en/index.html">Home</a></li>
 	<li><a href="en/details.html">Details</a></li>
 	<li><a href="en/organizers.html">Organizers</a></li>
@@ -74,41 +74,37 @@
 	<li><a href="en/contact.html">Contact Information</a></li>
 	{% else %}
 	<li><a href="index.html">Alku</a></li>
-	<li><a href="ohjeet.html">Ohjeet ja s&auml;&auml;nn&ouml;t</a></li>
-	<li><a href="jarjestajat.html">J&auml;rjest&auml;j&auml;t</a></li>
-	<li><a href="tehtavat.html">Teht&auml;v&auml;t ja vastaukset</a></li>
+	<li><a href="ohjeet.html">Ohjeet ja säännöt</a></li>
+	<li><a href="jarjestajat.html">Järjestäjät</a></li>
+	<li><a href="tehtavat.html">Tehtävät ja vastaukset</a></li>
 	<li><a href="tulokset.html">Tulokset</a></li>
 	<li><a href="yhteys.html">Yhteystiedot</a></li>
 	{% endif %}
       </ul>
-      {%- assign urlpath = page.url | split: "/" %}
-      {%- assign leaf = urlpath.last | replace: ".html", "" %}
-      {%- assign match = site.seiskat_pages | where: lang, leaf %}
-      {%- assign record = match[0] %}
+      {%- set record = site.seiskat_pages_by_pair[lang][page.url] %}
       {%- if lang == "fi" %}
       <ul>
-	<li><a href="{{ record.fi | default: "index" }}.html" rel="canonical" lang="fi" hreflang="fi">Suomeksi</a></li>
-	<li><a href="sv/{{ record.sv | default: "index" }}.html" rel="alternate" lang="sv-FI" hreflang="sv-FI">P&aring; svenska</a></li>
-	<li><a href="en/{{ record.en | default: "index" }}.html" rel="alternate" lang="en" hreflang="en">In English</a></li>
+	<li><a href="{{ record.fi }}" rel="canonical" lang="fi" hreflang="fi">Suomeksi</a></li>
+	<li><a href="{{ record.sv }}" rel="alternate" lang="sv-FI" hreflang="sv-FI">På svenska</a></li>
+	<li><a href="{{ record.en }}" rel="alternate" lang="en" hreflang="en">In English</a></li>
       </ul>
-      {%- elsif lang == "sv" %}
+      {%- elif lang == "sv" %}
       <ul>
-	<li><a href="{{ record.fi | default: "index" }}.html" rel="alternate" lang="fi" hreflang="fi">Suomeksi</a></li>
-	<li><a href="sv/{{ record.sv | default: "index" }}.html" rel="canonical" lang="sv-FI" hreflang="sv-FI">P&aring; svenska</a></li>
-	<li><a href="en/{{ record.en | default: "index" }}.html" rel="alternate" lang="en" hreflang="en">In English</a></li>
+	<li><a href="{{ record.fi }}" rel="alternate" lang="fi" hreflang="fi">Suomeksi</a></li>
+	<li><a href="{{ record.sv }}" rel="canonical" lang="sv-FI" hreflang="sv-FI">På svenska</a></li>
+	<li><a href="{{ record.en }}" rel="alternate" lang="en" hreflang="en">In English</a></li>
       </ul>
       {%- else %}
       <ul>
-	<li><a href="{{ record.fi | default: "index" }}.html" rel="alternate" lang="fi" hreflang="fi">Suomeksi</a></li>
-	<li><a href="sv/{{ record.sv | default: "index" }}.html" rel="alternate" lang="sv-FI" hreflang="sv-FI">P&aring; svenska</a></li>
-	<li><a href="en/{{ record.en | default: "index" }}.html" rel="canonical" lang="en" hreflang="en">In English</a></li>
+	<li><a href="{{ record.fi }}" rel="alternate" lang="fi" hreflang="fi">Suomeksi</a></li>
+	<li><a href="{{ record.sv }}" rel="alternate" lang="sv-FI" hreflang="sv-FI">På svenska</a></li>
+	<li><a href="{{ record.en }}" rel="canonical" lang="en" hreflang="en">In English</a></li>
       </ul>
       {%- endif %}
-
     </nav>
     
     <main>
-      {{ content }}
+      {{ content | safe }}
     </main>
   </body>
 </html>

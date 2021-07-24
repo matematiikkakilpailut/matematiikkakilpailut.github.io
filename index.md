@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Matematiikka&shy;kilpailut ja olympia&shy;valmennus
+title: Matematiikkakilpailut ja olympiavalmennus
 alert: yes
 description: >-
   Matematiikkakilpailujen tarkoituksena on kannustaa lahjakkaita nuoria
@@ -9,8 +9,12 @@ description: >-
   Valmennettavien joukosta valitaan edustajat kansainvälisiin kilpailuihin,
   kuten Kansainvälisiin matematiikkaolympialaisiin.
 url: /
+eleventyNavigation:
+  key: root
+  title: Valmennus
 ---
 <img src="/OPH_rahoittaa_rgb.png" width="180" height="174" style="float:right;" />
+
 [Matematiikkakilpailuiden](kilpailut) tarkoituksena on kannustaa
 lahjakkaita nuoria harrastamaan matematiikkaa. Tähän liittyvästä
 valmennuksesta ja kilpailuihin osallistumisesta vastaa Suomessa 
@@ -30,11 +34,11 @@ alueellisista kilpailuista Kansainvälisiin Matematiikkaolympialaisiin.
 Niihin pääsee mukaan ottamalla ahkerasti osaa valmennukseen
 ja tulemalla valituksi joukkueeseen.
 
-{% comment %}
+{#
 **[Ilmoittaudu](https://www.paivola.fi/fi/matematiikkakilpailuvalmennukseen-ilmoittautuminen/)
 seuraavaan valmennusviikonloppuun vähintään
 viikkoa etukäteen!**
-{% endcomment %}
+#}
 
 
 ## <a name="uutisia"></a>Uutisia
@@ -102,12 +106,12 @@ Valmennusjaosto järjesti 28.1.2012 Helsingin yliopistossa
 [työpajan Epsilonit kirjaa tutkimassa - matematiikka harrastuksena][epsilonit].
 
 Vuosittain järjestetään
-[alueelliset matematiikka&shy;kilpailut seitsemäsluokkalaisille][seiskat]
+[alueelliset matematiikkakilpailut seitsemäsluokkalaisille][seiskat]
 Helsingissä, Oulussa, Satakunnassa ja Turussa yhteistyössä paikallisten korkeakoulujen
 sekä Summamutikka- ja OuLUMA-keskusten kanssa.
 
 Oulussa LUMA-keskus ja Oulun yliopisto järjestävät
-kilpailu&shy;matematiikka&shy;valmennus&shy;tilaisuuksia. Tarkemmin [tästä][oulu].
+kilpailumatematiikkavalmennustilaisuuksia. Tarkemmin [tästä][oulu].
 
 [blog]: https://blog.matematiikkakilpailut.fi
 [mathstat]: http://www.mathstat.helsinki.fi
@@ -129,7 +133,7 @@ USA:n olympiavalmennuksen johtajan syyskuussa 2016 julkaistu haastattelu, joka v
 #### [Päivölän kansanopisto](http://www.paivola.fi/)
 
 Päivölässä toimii [matematiikkalinja](https://www.matematiikkalinja.fi/),
-jonka yhteydessä järjestetään viikonloppu&shy;valmennuksia.
+jonka yhteydessä järjestetään viikonloppuvalmennuksia.
 
 #### [Solmu](http://matematiikkalehtisolmu.fi/)
 

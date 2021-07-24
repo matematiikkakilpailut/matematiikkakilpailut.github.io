@@ -2,6 +2,11 @@
 layout: page
 title: Valmennustapahtumat
 url: /kaytanto/
+eleventyNavigation:
+  key: kaytanto
+  title: Valmennustapahtumat
+  order: 1
+  parent: root
 ---
 
 Valmennusjaosto järjestää sekä **kaikille koululaisille avoimia**

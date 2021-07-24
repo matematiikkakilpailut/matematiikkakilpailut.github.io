@@ -2,6 +2,11 @@
 layout: page
 title: Pythagoraan polku
 url: /pythagoras/
+eleventyNavigation:
+  key: pythagoras
+  title: Pythagoras
+  order: 1
+  parent: kilpailut
 ---
 ## ![Logo](pythagorasLogo.png) Pythagoraan polku
 

@@ -2,6 +2,11 @@
 layout: page
 title: Itä-Suomen yliopiston matematiikkakerho
 url: /kerhot/ita-suomi/
+eleventyNavigation:
+  key: ita-suomi
+  parent: kerhot
+  order: 2
+  title: Itä-Suomi
 style: |
   #logopalkki {
      margin-top: 6ex;

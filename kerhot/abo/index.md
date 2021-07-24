@@ -2,6 +2,11 @@
 layout: page
 title: Åbo Akademis matematikklubb
 url: /kerhot/abo/
+eleventyNavigation:
+  key: abo
+  parent: kerhot
+  order: 0
+  title: Åbo Akademi
 lang: sv-FI
 ---
 

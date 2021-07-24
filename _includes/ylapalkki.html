@@ -11,51 +11,41 @@
   <div class="collapse navbar-collapse" id="navbar-collapse">
     <div class="container-fluid">
       <ul class="nav navbar-nav nav-pills">
-        {% capture dir %}{{ page.url | remove:'index.html' }}{% endcapture %}
-        {% assign this = null                   %}
-        {% assign this2 = null                  %}
-        {% for node in site.data.nav            %}
-        {%   assign active = false              %}
-        {%   if dir == node.url                 %}
-        {%     assign active = true             %}
-        {%     assign this = node               %}
-        {%   else                               %}
-        {%     if node.sub != null              %}
-        {%       for subnode in node.sub        %}
-        {%         if dir == subnode.url        %}
-        {%           assign active = true       %}
-        {%           assign this = node         %}
-        {%           assign this2 = subnode     %}
-        {%         endif                        %}
-        {%       endfor                         %}
-        {%     endif                            %}
-        {%   endif                              %}
-        <li {% if active %}class="active"{% endif %}>
-          <a {% if active %}class="active" {% endif %}
-             href="{{ BASE_PATH }}{{ node.url }}">{{ node.title }}</a></li>
-        {% endfor                               %}
+        {%- set navPages = collections.all | eleventyNavigation %}
+        {%- set active = []                                     %}
+        {%- set bottomrow = false                               %}
+        {%- for top in navPages                                 %}
+        {%-   if top.url == page.url                            %}
+        {%-     set active = [top.url]                          %}
+        {%-     set bottomrow = top.children                    %}
+        {%-   else                                              %}
+        {%-     for bottom in top.children                      %}
+        {%-       if bottom.url == page.url                     %}
+        {%-         set active = [top.url, bottom.url]          %}
+        {%-         set bottomrow = top.children                %}
+        {%-       endif                                         %}
+        {%-     endfor                                          %}
+        {%-   endif                                             %}
+        {%- endfor                                              %}
+        {%- for entry in navPages                               %}
+        <li{% if entry.url in active %} class="active"{% endif %}>
+          <a{% if entry.url in active %} class="active"{% endif %}
+               href="{{ entry.url | url }}">{{ entry.title }}</a>
+        </li>
+        {%- endfor %}
       </ul>
-      {% if this.sub != null %}
+      {%- if bottomrow %}
       <div class="clearfix"></div>
       <ul class="nav navbar-nav nav-pills">
-        {% for subnode in this.sub    %}
-        {%   assign active = false    %}
-        {%   if subnode == this2      %}
-        {%     assign active = true   %}
-        {%   endif                    %}
-        <li{% if active %} class="active"{% endif %}>
-          <a {% if active %}class="active" {% endif %}
-             href="{{ subnode.url }}">{{ subnode.title }}</a></li>
-        {% endfor                     %}
+        {%- for entry in bottomrow %}
+        <li{% if entry.url in active %} class="active"{% endif %}>
+          <a{% if entry.url in active %} class="active"{% endif %}
+               href="{{ entry.url }}">{{ entry.title }}
+          </a>
+        </li>
+        {%- endfor %}
       </ul>
-      {% endif %}
+      {%- endif %}
     </div>
   </div>
 </nav>
-{% comment %}
-Local variables:
-mode: web
-web-mode-markup-indent-offset: 2
-indent-tabs-mode: nil
-End:
-{% endcomment %}

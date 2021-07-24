@@ -6,6 +6,6 @@ layout: default
 </div>
 <div class="row">
   <div class="col-xs-12">
-    {{ content | replace: '<a href="/valmennus', '<a rel="nofollow" href="/valmennus' }}
+     {{ content | replace('<a href="/valmennus', '<a rel="nofollow" href="/valmennus') | safe }}
   </div>
 </div>
