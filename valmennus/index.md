@@ -2,6 +2,11 @@
 layout: valmennus
 title: Valmennustehtävät
 url: /valmennus/
+eleventyNavigation:
+  key: valmennus
+  title: Tehtävät
+  order: 2
+  parent: root
 robots: index,nofollow
 ---
 ## Kirjevalmennus

@@ -10,6 +10,10 @@ description: >-
   weekends at Päivölä. All the training is open for all students in
   secondary schools.
 url: /english/
+eleventyNavigation:
+  key: english
+  title: In English
+  order: 3
 lang: en
 ---
 The Finnish Olympic Training in Mathematics is organized by the

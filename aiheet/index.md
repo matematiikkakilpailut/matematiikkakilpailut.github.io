@@ -2,6 +2,11 @@
 layout: page
 title: Valmennusmateriaalia
 url: /aiheet/
+eleventyNavigation:
+  key: aiheet
+  title: Materiaalit
+  parent: root
+  order: 3
 ---
 
 
@@ -35,7 +40,7 @@ voi saada opetusta ja vinkkejä.
     Lyhyempi kooste keskeisestä kilpailumatematiikasta: todistamisesta, epäyhtälöistä,
 	lukuteoriasta, algebrasta, geometriasta ja kombinatoriikasta. Jonkin verran laajennettu
 	versio Matti Lehtisen _Matematiikan olympiakirjassa_ julkaistusta ”Lyhyestä
-	olympia&shy;matematiikan oppaasta”.
+	olympiamatematiikan oppaasta”.
 *   [Käytännön ohjeita matematiikan olympiajoukkueeseen valitulle](/kirjallisuus/kaytannon_ohjeet.pdf)
      Anne-Maria Ernvall-Hytösen opas olympiajoukkueen jäsenille kilpailujen ja kilpailumatkan
 	 yhteydessä vastaan tulevista asioista.
@@ -48,21 +53,21 @@ voi saada opetusta ja vinkkejä.
 *   [Kilpailumatematiikan lajeja ja periaatteita](/kirjallisuus/kilpmatesitt.pdf)
 	20 näytetehtävää, jotka pyrkivät antamaan kuvaa kilpailumatematiikassa tavallisista
 	kysymystyypeistä. Tehtäviin on myös ratkaisut. Koonnut Matti Lehtinen, päivitetty syyskuussa 2016.
-*   [Kansainvälisten matematiikka&shy;olympialaisten tehtävät vuosilta 1995 – 2014](/IMO/imokaikki.pdf).
+*   [Kansainvälisten matematiikkaolympialaisten tehtävät vuosilta 1995 – 2014](/IMO/imokaikki.pdf).
 	Kooste sisältää myös ratkaisut.
-*   [Kansainvälisten matematiikka&shy;olympialaisten tehtävät vuosilta 1975 – 1994](/IMO/imot75_94.pdf).
+*   [Kansainvälisten matematiikkaolympialaisten tehtävät vuosilta 1975 – 1994](/IMO/imot75_94.pdf).
 	Tehtäviin on myös [ratkaisut](/IMO/imor75_94.pdf).
-*   [Kansainvälisten matematiikka&shy;olympialaisten tehtävät vuosilta 1959 – 1974](/IMO/imot59_74.pdf).
+*   [Kansainvälisten matematiikkaolympialaisten tehtävät vuosilta 1959 – 1974](/IMO/imot59_74.pdf).
 	Tehtäviin on myös [ratkaisut](/IMO/imor59_74.pdf).
-*   [Pohjoismaisten matematiikka&shy;kilpailujen tehtävät vuosilta 1995 – 2015](/PM/nmckaikki.pdf).
+*   [Pohjoismaisten matematiikkakilpailujen tehtävät vuosilta 1995 – 2015](/PM/nmckaikki.pdf).
 	Kooste sisältää myös ratkaisut.
-*   [Pohjoismaisten matematiikka&shy;kilpailujen tehtävät vuosilta 1987 – 1994](/PM/nmct87_94.pdf).
+*   [Pohjoismaisten matematiikkakilpailujen tehtävät vuosilta 1987 – 1994](/PM/nmct87_94.pdf).
 	Tehtäviin on myös [ratkaisut](/PM/nmcr87_94.pdf).
 *   [Baltian Tie -kilpailun tehtävät vuosilta 1990 – 2015](/Baltian_tie/bwteht.pdf). 
 	460 tehtävää. Ratkaisukokoelmia löytyy vuosien [1990–99](/Baltian_tie/Btratk1990_99.pdf)
-	ja [2000–09](/Baltian_tie/Btratk2000_09.pdf) tehtäviin. Ratkaisu&shy;koosteita täydennetään.
+	ja [2000–09](/Baltian_tie/Btratk2000_09.pdf) tehtäviin. Ratkaisukoosteita täydennetään.
 *   [IMO-ehdokastehtäväkokoelma](/kirjallisuus/imoehdteht.pdf)
-    138 matematiikka&shy;olympialaisiin ehdolla ollutta tehtävää ryhmiteltyinä jaon
+    138 matematiikkaolympialaisiin ehdolla ollutta tehtävää ryhmiteltyinä jaon
 	”algebra - geometria - kombinatoriikka - lukuteoria” mukaisesti. Koosteessa tähdellä merkittyihin tehtäviin löytyy myös [ratkaisuja](/kirjallisuus/imoehdratk.pdf).
 *   [Kappa-kilpailun tehtävät 2014](/Kappa/Kappa_14_teht.pdf) Ruotsin opettajien matematiikkakilpailun tehtävät.
 
@@ -98,14 +103,14 @@ tasaisesti neljän pääteeman kesken.
 *   [Algebran alkeita](/kirjallisuus/alg02.pdf)
     Kirjoittaja Matti Lehtinen, viimeisin versio keväältä 2002.
 *   [Kilpailumatematiikan perusalgebra.](/kirjallisuus/perusalgebra.pdf)
-     Perustietoja algebrallisista lausekkeista, kompleksi&shy;luvuista, polynomeista,
-	 epäyhtälöistä ja funktionaali&shy;yhtälöistä sekä kilpailutehtäviä ratkaisuineen.
+     Perustietoja algebrallisista lausekkeista, kompleksiluvuista, polynomeista,
+	 epäyhtälöistä ja funktionaaliyhtälöistä sekä kilpailutehtäviä ratkaisuineen.
 	 Matti Lehtisen kirjoittama.
 *   [Funktionaaliyhtälöistä](/kirjallisuus/fy.pdf)
     Kirjoittajat Kerkko Luosto ja Antti Honkela, viimeisin versio toukokuulta 2003.
 *   [Kompleksiluvut](/kirjallisuus/kompleksiluvut.pdf)
     Kirjoittaja Matti Lehtinen, viimeisin versio lokakuulta 2010.
-*   [Epäyhtälöoppia matematiikka&shy;olympialaisten tehtäviin](/kirjallisuus/eykirja.pdf)
+*   [Epäyhtälöoppia matematiikkaolympialaisten tehtäviin](/kirjallisuus/eykirja.pdf)
     Kirjoittajat Jari Lappalainen ja Anne-Maria Ernvall-Hytönen, viimeisin versio vuodelta 2011.
 *   [Cauchy-Schwarzin ja Hölderin epäyhtälöt](/kirjallisuus/Holderey.pdf)
     Turun yliopiston opiskelijan Noora Niemisen kirjoittama harjoitustyö.
@@ -115,15 +120,15 @@ tasaisesti neljän pääteeman kesken.
     Suomennos Paul Vaderlindin tekstistä _The Undeniable Charm of Inequalities_.
 	Kääntänyt Esa Vesalainen.
 *   [Tehtäviä epäyhtälöistä](/kirjallisuus/inequalities.pdf)
-    Sekalainen valikoima epäyhtälö&shy;tehtäviä
+    Sekalainen valikoima epäyhtälötehtäviä
     [ratkaisuehdotuksin](/kirjallisuus/inequalities_solutions.pdf).
 	Koonnut Esa Vesalainen.
 *   [IMO-tason funktionaaliyhtälötehtäviä](/kirjallisuus/imoehdfnyht.pdf)
-    Matematiikka&shy;olympialaisiin ehdolla olleita funktionaali&shy;yhtälö&shy;tehtäviä ratkaisuineen.
+    Matematiikkaolympialaisiin ehdolla olleita funktionaaliyhtälötehtäviä ratkaisuineen.
 
 ### <a name="geometria"></a>Geometria
 
-*   Luettelo matematiikka&shy;kilpailuissa tarpeellisista tai hyödyllisistä
+*   Luettelo matematiikkakilpailuissa tarpeellisista tai hyödyllisistä
 	[geometrian tiedoista ja taidoista](/kirjallisuus/geompakko.pdf).
     Matti Lehtisen kirjoittama.
 *   [Geometrisen todistamisen perusharjoitus](/kirjallisuus/geomtodharj.pdf)
@@ -167,7 +172,7 @@ tasaisesti neljän pääteeman kesken.
     Geometriaa ilman paralleeliaksioomaa ja hyperbolisen geometrian Poincarén mallin
 	pääpiirteitä. Matti Lehtisen esitys valmennusviikonvaihteessa tammikuussa 2013.
 *   [IMO-tason geometrisia epäyhtälöitä](/kirjallisuus/imoehdgeomey.pdf)
-	Matematiikka&shy;olympialaisiin ehdolla olleita tehtäviä, joiden aihe on geometrinen epäyhtälö.
+	Matematiikkaolympialaisiin ehdolla olleita tehtäviä, joiden aihe on geometrinen epäyhtälö.
 	Tehtävät on esitetty ratkaisuineen.
 
 ### <a name="kombinatoriikka"></a>Kombinatoriikka

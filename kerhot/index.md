@@ -2,6 +2,10 @@
 layout: page
 title: Paikallistoiminta ja kerhot
 url: /kerhot/
+eleventyNavigation:
+  key: kerhot
+  title: Kerhot
+  order: 2
 ---
 
 Matematiikan kilpavalmennuksen lisäksi ollaan aloittamassa

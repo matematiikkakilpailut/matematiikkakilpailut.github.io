@@ -2,6 +2,11 @@
 layout: page
 title: Helsingin yliopiston matematiikkakerho
 url: /kerhot/helsinki/
+eleventyNavigation:
+  key: helsinki
+  parent: kerhot
+  order: 3
+  title: Helsinki
 style: |
   #logopalkki {
      margin-top: 6ex;

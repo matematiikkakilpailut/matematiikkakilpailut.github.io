@@ -2,6 +2,11 @@
 layout: page
 title: Valmentajat
 url: /valmentajat/
+eleventyNavigation:
+  key: valmentajat
+  title: Valmentajat
+  parent: root
+  order: 3
 ---
 ## Valmentajat
 

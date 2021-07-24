@@ -2,6 +2,7 @@
 layout: page
 title: Kappa-kilpailu 2014
 url: /
+permalink: /kappa.html
 ---
 ## Opettajamaaottelu matematiikassa?
 

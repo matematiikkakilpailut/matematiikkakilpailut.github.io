@@ -2,6 +2,11 @@
 layout: page
 title: Oulun yliopiston matematiikkakerho
 url: /kerhot/oulu/
+eleventyNavigation:
+  key: oulu
+  parent: kerhot
+  order: 1
+  title: Oulu
 ---
 **Hei!**
 

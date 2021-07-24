@@ -2,6 +2,11 @@
 layout: page
 title: Tampereen yliopiston matematiikkakerho
 url: /kerhot/tampere/
+eleventyNavigation:
+  key: tampere
+  parent: kerhot
+  order: 4
+  title: Tampere
 style: |
   #logopalkki {
      margin-top: 6ex;
