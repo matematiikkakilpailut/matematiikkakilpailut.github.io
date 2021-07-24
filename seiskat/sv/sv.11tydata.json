@@ -1,0 +1,7 @@
+{
+    "layout": "seiskat",
+    "title": "Sjunde klassens tävling",
+    "h1": "Matematiktävling för elever på 7:e årsklassen",
+    "lang": "sv-FI",
+    "permalink": "seiskat/sv/{{page.fileSlug if page.fileSlug != 'sv' else 'index'}}.html"
+}
