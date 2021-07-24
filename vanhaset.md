@@ -6,6 +6,29 @@ permalink: /vanhaset.html
 
 ## Vanhoja uutisia
 
+* Iranin Geometriaolympialaiset (IGO) pidetään 30.10. Suomen osalta Päivölässä. [Lisätietoja](/IGO/)
+
+* Lokakuun valmennusviikonloppu 16.-18.10. järjestetään etänä. [Lisätietoja ja ilmoittautuminen: klikkaa tästä](/aikataulu/2020W42/). Viikonlopun aikana järjestetään myös valintakoe Baltian tie -kilpailuun.
+
+
+* Vuoden 2020 [Kansainvälisissä matematiikkaolympialaisissa](https://imo2020.ru/) Suomea edustivat hienosti **Juho Arala**, **Daniel Arone**, **Asla Heiskanen**, **Hermanni Huhtamäki**, **Roope Salmi** ja **Sampo Siitonen**. Heiskanen taituroi hopeaa yhdellä Suomen osallistumishistorian parhaisiin kuuluvalla suorituksella. Arala palkittiin pronssilla sekä Huhtamäki, Salmi ja Siitonen kunniamaininnoilla. Suomi oli 60. osallistuvien 105 maan joukossa. [Kilpailutehtävät](https://matematiikkakilpailut.fi/IMO/2020/teht2020.pdf) ja [tulosluettelo](https://www.imo-official.org/year_country_r.aspx?year=2020).
+
+* Syyskuun valmennusviikonloppu 4.9.-6.9. järjestetään etänä. [Lisätietoja ja ilmoittautuminen: klikkaa tästä](/aikataulu/2020W36/).
+
+* Ensimmäistä kertaa järjestetyssä [The Cyberspace Mathematical Competition](https://artofproblemsolving.com/contests/cmc) -kilpailussa Suomea edustivat **Juho Arala**, **Daniel Arone**, **Asla Heiskanen**, **Hermanni Huhtamäki**, **Idaliina Kuusisto**, **Veera Nurmela**, **Roope Salmi** ja **Sampo Siitonen**. Arala, Arone ja Siitonen palkittiin pronssimitalein sekä Heiskanen, Huhtamäki ja Salmi kunniamaininnoin. [Kilpailutehtävät](https://data.artofproblemsolving.com/images/contests/CMC_brochure.pdf) ja [tulosluettelo](https://artofproblemsolving.com/contests/cmc/leaderboards).
+
+* Vuoden 2020 [Pohjoismainen matematiikkakilpailu](http://www.georgmohr.dk/nmcperm/) pidettiin 30.3.2020. Suomi toimi tänä vuonna järjestäjämaana. Kilpailun voiton vei Norjan **Andreas Alberg** täysin pistein. Parhaitein suomalaisista menestyi **Juho Arala** sijoittuen yhdeksänneksi. [Kilpailutehtävät](http://www.georgmohr.dk/nmcperm/probl/2020/fi.pdf) ja [parhaiden tulokset](http://www.georgmohr.dk/nmcperm/res/2020.html).
+
+* Kesäkuussa järjestetään virtuaalisesti valmennusta
+  [8.-11.6. peruskoululaisille](aikataulu/2020-kesaleiri/) ja
+  [13.-16.6. koululaisille yleisesti](aikataulu/2020-kesavalmennus/).
+  Peruskoulun osalta valmennusta on ma ja to klo 10-12 ja 14-16 sekä
+  ti ja ke klo 10-12 ja 18-20. Aikavälillä 13.-16.6. tapahtuvassa
+  valmennuksessa opetusta on päivittäin klo 10-13, 14-17 ja
+  18-20. Lisätiedot ja ilmoittautuminen Neea Palojärvelle
+  ([neea.palojarvi@abo.fi](mailto:neea.palojarvi@abo.fi)) viimeistään
+  1.6.2020 peruskoulun leirin osalta ja 5.6.2020 muuten.
+
 * **Vuoden 2020 [Kansainväliset Matematiikkaolympialaiset](https://imo2020.ru/) on siirretty pidettäväksi 20.-28.9.2020 koronaviruspandemian takia.** Mikäli matkustaminen ei vielä tällöinkään onnistu, niin kilpailu saatetaan järjestää virtuaalisena. Kaikki kilpailijat, jotka olisivat olleet oikeutettuja osallistumaan heinäkuussa pidettyihin olympialaisiin, ovat sitä myös syyskuussa.
 
 * Vuoden 2020 [Euroopan tyttöjen matematiikkaolympialaiset](https://egmo2020.nl/) toteutettiin virtuaalisesti 15.&ndash;21.4. koronaviruspandemian takia. Alankomaat toimi järjestäjämaana. Suomea edustivat **Ulrika Kaara**, **Idaliina Kuusisto**, **Veera Nurmela** ja **Anni Tapionlinna**. Suomi oli 42. osallistuneista 53 joukkueesta sekä 39 Euroopan maan joukossa 30. [Kilpailutehtävät ja ratkaisut](https://www.egmo.org/egmos/egmo9/) sekä [tulosluettelo](https://www.egmo.org/egmos/egmo9/scoreboard/).

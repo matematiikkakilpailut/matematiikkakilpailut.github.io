@@ -1,0 +1,22 @@
+Kirjoita uutinen tiedostoon, jonka nimi on
+
+YYYY-MM-DD-muutaman-sanan-tiivistelma.md
+
+missä YYYY on vuosi, MM kuukausi, DD päivä ja muutaman-sanan-tiivistelma
+URLiin sopiva tiivistelmä: sanoja erotettuna miinusmerkeillä ja ääkköset
+korvattuna aakkosilla.
+
+Tiedoston sisällöksi tulee
+
+---
+title: Sopiva otsikko uutiselle, ääkköset sallittu
+---
+
+Uutisen teksti, joka toimii myös ilman otsikkoa.
+Yleensä tulee [linkki lisätietoon](/osoite/sivuston/sisalla/).
+
+
+Muutama uusin uutinen näkyy etusivulla listassa ilman otsikoita, kaikki
+uutiset näkyvät uutissivulla. Sitten kun niitä alkaa olla tosi paljon,
+arkistoidaan jotenkin (ei siirtämällä vanhasiin vaan säilytetään niiden
+omat osoitteet).
