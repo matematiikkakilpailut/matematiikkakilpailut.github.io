@@ -130,7 +130,7 @@ kilpailumatematiikkavalmennustilaisuuksia. Tarkemmin [tästä][oulu].
 
 USA:n olympiavalmennuksen johtajan syyskuussa 2016 julkaistu haastattelu, joka voi olla opettavaa luettavaa.
 
-#### [Päivölän kansanopisto](http://www.paivola.fi/)
+#### [Päivölän kansanopisto](https://www.paivola.fi/)
 
 Päivölässä toimii [matematiikkalinja](https://www.matematiikkalinja.fi/),
 jonka yhteydessä järjestetään viikonloppuvalmennuksia.
