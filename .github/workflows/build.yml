@@ -1,0 +1,33 @@
+name: build
+on:
+  push:
+    branches: [ master ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Set up node
+        uses: actions/setup-node@v2.3.0
+        with:
+          always-auth: true
+          cache: npm
+          node-version: 16
+      - name: Install requirements
+        run: npm i
+      - name: Run eleventy
+        run: npx @11ty/eleventy
+      - name: Deploy to GitHub Pages
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v2.5.0
+        with:
+          allow_empty_commit: false
+          build_dir: _site
+          target_branch: gh-pages
+          fqdn: matematiikkakilpailut.fi
+          jekyll: false
+          dry_run: false
+          verbose: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
