@@ -41,7 +41,7 @@ module.exports = function (eleventyConfig) {
     "seiskat/manifest.json",
     "BW2006",
     "BW2016",
-    "{Baltian_tie,EGMO,IGO,IMO,Kappa,MAOL,PM,aiheet,aikataulu,english,kaytanto,kerhot,kilpailut,kirjallisuus,kokoukset,pythagoras,seiskat,tietosuoja,valmennus,valmentajat}/**/*.{pdf,png,svg,ico,ps,tex,dvi,sty,cls,tgz,css}",
+    "{Baltian_tie,EGMO,IGO,IMO,Kappa,MAOL,PM,aiheet,aikataulu,english,kaytanto,kerhot,kilpailut,kirjallisuus,kokoukset,pythagoras,seiskat,tietosuoja,valmennus,valmentajat}/**/*.{pdf,png,svg,ico,ps,tex,tex.gz,dvi,sty,cls,tgz,css}",
   ].map((file) => {
     eleventyConfig.addPassthroughCopy(file);
   });
