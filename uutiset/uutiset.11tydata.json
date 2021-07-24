@@ -1,0 +1,5 @@
+{
+    "layout": "page",
+    "tags": "uutinen",
+    "permalink": "uutiset/{{page.fileSlug}}.html"
+}

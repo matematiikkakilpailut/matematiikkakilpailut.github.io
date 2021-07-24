@@ -5,7 +5,7 @@ url: /kilpailut/
 eleventyNavigation:
   key: kilpailut
   title: Kilpailuja
-  order: 1
+  order: 20
 ---
 ## <a name="kilpailut"></a>Kilpailut
 

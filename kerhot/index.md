@@ -5,7 +5,7 @@ url: /kerhot/
 eleventyNavigation:
   key: kerhot
   title: Kerhot
-  order: 2
+  order: 30
 ---
 
 Matematiikan kilpavalmennuksen lisäksi ollaan aloittamassa
