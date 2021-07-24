@@ -87,7 +87,7 @@ viikkoa etukäteen!**
 
 Vanhempia uutisia löytyy [uutisarkistosta](vanhaset.html).
 
-[bt-tulokset]: http://mif.vu.lt/balticway2014/wp-content/uploads/2014/07/bw2014rez.pdf
+[bt-tulokset]: https://web.archive.org/web/20151215164341/http://mif.vu.lt/balticway2014/wp-content/uploads/2014/07/bw2014rez.pdf
 [Kappa]: http://www.math.su.se/samverkan/kommun-skola/tävlingar/kappa
 [imo-tulokset]: http://www.imo-official.org/year_info.aspx?year=2014
 [egmo-tulokset]: https://www.egmo.org/egmos/egmo3/scoreboard/
@@ -119,7 +119,7 @@ kilpailumatematiikkavalmennustilaisuuksia. Tarkemmin [tästä][oulu].
 [tekijaryhma]: https://www.helsinki.fi/fi/tiedekasvatus/tekijaryhma
 [epsilonit]: /kokoukset/epsilon
 [seiskat]: /seiskat
-[oulu]: http://ouluma.fi/2012/08/matematiikkavalmennus/
+[oulu]: https://ouluma.fi/2012/08/matematiikkavalmennus/
 
 
 ## <a name="muuta"></a>Muuta
