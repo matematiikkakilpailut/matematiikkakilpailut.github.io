@@ -141,7 +141,7 @@ tasaisesti neljän pääteeman kesken.
 *   [Geometrian täydennystä](/kirjallisuus/geomlis13.pdf).
 	Muutamia _Kilpailumatematiikan oppaan_ geometriaosuutta täydentäviä faktoja
 	lyhyine perusteluineen. Matti Lehtisen esitys toukokuussa 2013.
-*   [Geometrian pitempi oppimäärä](http://www.elisanet.fi/matti.t.lehtinen/Geom2016kaikki.pdf)
+*   [Geometrian pitempi oppimäärä](http://www.elisanet.fi/matti.t.lehtinen/kaikki.pdf)
 	Matti Lehtisen geometrian luentokurssin uusin versio. Se kattaa kilpailuissa
 	tarvittavan klassisen geometrian ja vähän enemmänkin. 
 *   [Analyyttistä geometriaa kilpailutehtävien kautta](/kirjallisuus/ag.pdf)
