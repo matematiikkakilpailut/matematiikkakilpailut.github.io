@@ -140,7 +140,7 @@ joukkueiden välillä.
 
 Valmennusviikonloput ja -viikko sekä peruskoululaisten
 kesäleiri järjestetään [Päivölän opistolla](https://www.paivola.fi/fi/),
-[Päivölän matematiikkalinjan](https://www.paivola.fi/fi/opintolinjat/matematiikka/)
+[Päivölän matematiikkalinjan](https://matematiikkalinja.fi/)
 tiloissa ja seurassa. Tämä onkin hyvä verkostoitumispaikka matematiikasta
 innostuneille. Juttuseuraa löytyy myös tietotekniikasta ja luonnontieteistä kiinnostuneille.
 
