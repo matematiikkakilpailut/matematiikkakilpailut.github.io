@@ -1,4 +1,5 @@
 User-agent: *
+Sitemap: https://matematiikkakilpailut.fi/sitemap.xml
 Disallow: /cdn-cgi/
 Disallow: /valmennus/2010/
 Disallow: /valmennus/2011/
@@ -11,4 +12,5 @@ Disallow: /valmennus/2017/
 Disallow: /valmennus/2018/
 Disallow: /valmennus/2019/
 Disallow: /valmennus/2020/
+Disallow: /valmennus/2021/
 Disallow: /matkalasku/
