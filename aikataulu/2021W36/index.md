@@ -83,7 +83,7 @@ Muutokset mahdollisia!
 - pe 10.9. 18:00-20:00 kombinatoriikkaa
 - la 11.9. 9:30-11:30: kombinatoriikkaa
 - la 11.9. 13:00-16:00: koe
-- la 11.9. 18:00-20:00: Mahdollisuus pohtia yhdessä [kesän kirjevalmennustehtäviä](https://matematiikkakilpailut.fi/valmennus/2021/kirje_2021_06.pdf) ja kysyä niihin apua (n. 1h) sekä kokeen ratkaisuiden läpikäyntiä (n. 1h). Tutustuthan etukäteen valmennustehtäviin!
+- la 11.9. 18:00-20:00: Mahdollisuus pohtia yhdessä [kesän helpompia kirjevalmennustehtäviä](https://matematiikkakilpailut.fi/valmennus/2021/kirje_2021_06.pdf) ja kysyä niihin apua (n. 1h) sekä kokeen ratkaisuiden läpikäyntiä (n. 1h). Tutustuthan etukäteen valmennustehtäviin!
 - su 12.9. 9:30-11:30: lukuteoriaa
 - su 12.9. 13:00-15:00: lukuteoriaa
 
