@@ -65,7 +65,7 @@ Baltian tie -joukkueeseen.
 Kokeessa ei saa käyttää laskimia, taulukkokirjoja, Internet-hakuja
 eikä keskustella kenenkään kanssa.
 
-Ilmoittaudu [lomakkeella] viimeistään torstaina 9.9. klo 20:00.
+**Ilmoittaudu [lomakkeella] viimeistään torstaina 9.9. klo 20:00.**
 
 Tarkemmat lisätiedot valmennuksen toteutuksesta lähetetään
 ilmoittautuneille sähköpostitse, koska Zoom-linkkejä ei voi nettihäiriköiden
