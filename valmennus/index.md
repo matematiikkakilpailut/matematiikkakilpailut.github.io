@@ -4,7 +4,7 @@ title: Valmennustehtävät
 url: /valmennus/
 eleventyNavigation:
   key: valmennus
-  title: Tehtävät
+  title: Kirjevalmennus
   order: 2
   parent: root
 robots: index,nofollow
