@@ -45,9 +45,10 @@ Opetus alkaa perjantaina 10.9.2021 klo 18:00.
 Valmennus koostuu niin aloitteleville valmennettaville
 suunnatusta helpommasta opetuksesta (ns. alakerran opetus)
 kuin edistyneemmille suunnatusta opetuksesta (ns. yläkerran opetus).
-Yläkerran geometrian osioihin osallistuvan toivotaan hallitsevan geometrian
-perusteet, ja kongruenssin olisi hyvä olla tuttuja yläkerran
-lukuteorian oppitunneille osallistuville.
+Yläkerran geometrian osioihin osallistuvan toivotaan olevan
+kohtuullisen sujuva kulmanjahtaamisessa, ja kongruenssin 
+olisi hyvä olla tuttuja yläkerran lukuteorian oppitunneille 
+osallistuville.
 
 Valmennus koostuu luennoista, harjoitustehtävistä ja
 ryhmätyöskentelystä. Se on maksutonta ja toteutetaan Zoom-ohjelmistolla.
