@@ -39,7 +39,7 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
    Filosofian tohtori, matematiikan dosentti (HY), yliopistonlehtori (TaY).
    Olympiaedustaja vuonna 1983. Valmennusjaoston johtoryhmän jäsen.
    Sommittelee kombinatoriikan valmennusta.
-*  Veera Nurmela<br/> Edustaja Euroopan tyttöjen matematiikkaolympialaisissa 2018, 2019, 2020 ja 2020, peruskoululaisten kirjevalmennus.
+*  Veera Nurmela<br/> Edustaja Euroopan tyttöjen matematiikkaolympialaisissa 2018, 2019, 2020 ja 2021, peruskoululaisten kirjevalmennus.
 *  Neea Palojärvi<br/> Filosofian tohtori, olympiaedustaja vuonna 2013.
 *  Jaakko Seppälä<br/>
    Filosofian maisteri, edustaja Pohjoismaisessa matematiikkakilpailussa 2007.
