@@ -22,7 +22,7 @@ Klubben ger bra träning för den som vill delta i olika matematiktävlingar. In
 
 Fastän klubbens språk är svenska, så gör vi vårt bästa för att välkomna alla intresserade, oberoende av språk!
 
-Klubben träffades på hösten 2021 varannan vecka, och **du kan ännu påverka vilka tider träffarna ordnas**. Man kan delta i båda träffarna om man vill och har möjlighet. Det går faktiskt också att vara med i klubben även om ingendera tiden passar, eftersom uppgifterna är tillgängliga hela tiden och man kan be om tips när som helst. **Schemat för träffarna publiceras här, sedan då det är fastslaget.**
+Klubben träffades på hösten 2021 varannan vecka, och **du kan ännu påverka vilka tider träffarna ordnas**. Man kan delta i båda träffarna om man vill och har möjlighet. Det går faktiskt också att vara med i klubben även om ingendera tiden passar, eftersom uppgifterna är tillgängliga hela tiden och man kan be om tips när som helst. **Anmälningsblankett och schemat för träffarna publiceras här, sedan då de är klara.**
 
 **Klubben är gratis -- välkommen med!** Ta med din kompis också, om du vill. :)
 
