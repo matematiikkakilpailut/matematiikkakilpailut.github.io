@@ -1,17 +1,6 @@
 ---
 aikataulu:
 - pvm: "2021"
-  tapahtuma: "Kevät ja kesä"
-  otsikko: true
-- pvm: "11.&ndash;13.6."
-  tapahtuma: "[Yläkoululaisten kesäleiri](https://matematiikkakilpailut.fi/aikataulu/YlaKesa2021/)"
-- pvm: "18.&ndash;20.6."
-  tapahtuma: "[Olympiajoukkueelle suunnattu valmennusleiri](https://matematiikkakilpailut.fi/aikataulu/2021-kesavalmennus/), jonne muutkin innokkaat ovat tervetulleita"
-- tapahtuma: "Olympiajoukkueen yhteispohjoismainen valmennusleiri Sorøssa, Tanskassa (mahdollisesti)"
-  pvm: "10.&ndash;17.7."
-- tapahtuma: "[62. Kansainväliset matematiikkaolympialaiset <abbr>IMO</abbr> Pietarissa](http://www.imo-official.org/year_info.aspx?year=2021), Suomen joukkue Suomessa tai mahdollisesti Tanskassa yhdessä muiden Pohjoismaiden kanssa"
-  pvm: "14.&ndash;24.7."
-- pvm: "2021"
   tapahtuma: "Syksy"
   otsikko: true
 - pvm: "10.&ndash;12.9. (viikko 36)"
@@ -30,3 +19,16 @@ aikataulu:
   tapahtuma: "[Baltian tie -joukkuekilpailu Reykjavikissa](https://sites.google.com/view/balticway2021/home) - huomaa [Islannin matkustusrajoitukset](https://www.covid.is/sub-categories/vaccination-and-antibodies), joiden takia joukkueeseen voidaan valita vain ajoissa rokotettuja tai Covid-19-taudin sairastaneita"
 - pvm: "3.&ndash;5.12. (viikko 48)"
   tapahtuma: "Valmennusviikonloppu Päivölässä (toivottavasti)"
+
+vanhoja:
+- pvm: "2021"
+  tapahtuma: "Kevät ja kesä"
+  otsikko: true
+- pvm: "11.&ndash;13.6."
+  tapahtuma: "[Yläkoululaisten kesäleiri](https://matematiikkakilpailut.fi/aikataulu/YlaKesa2021/)"
+- pvm: "18.&ndash;20.6."
+  tapahtuma: "[Olympiajoukkueelle suunnattu valmennusleiri](https://matematiikkakilpailut.fi/aikataulu/2021-kesavalmennus/), jonne muutkin innokkaat ovat tervetulleita"
+- tapahtuma: "Olympiajoukkueen yhteispohjoismainen valmennusleiri Sorøssa, Tanskassa (mahdollisesti)"
+  pvm: "10.&ndash;17.7."
+- tapahtuma: "[62. Kansainväliset matematiikkaolympialaiset <abbr>IMO</abbr> Pietarissa](http://www.imo-official.org/year_info.aspx?year=2021), Suomen joukkue Suomessa tai mahdollisesti Tanskassa yhdessä muiden Pohjoismaiden kanssa"
+  pvm: "14.&ndash;24.7."
