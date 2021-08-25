@@ -36,7 +36,7 @@ Ansvarig vid Åbo Akademi: Mikael Kurula, <mailto:mkurula(AT)abo.fi>, tel. +3584
 Klubben ordnas av ämnet matematik vid Åbo Akademi, i samarbete med Finlands matematiska förening och MAOL.
 
 <p align="center">
-<img src="https://matematiikkakilpailut.fi/kerhot/abo/%C3%85A%20logo.svg" alt="ÅAs logo" height="110"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.abo.fi/amnen/matematik/" style="text-decoration:none" target="_blank"><img src="https://matematiikkakilpailut.fi/kerhot/abo/%C3%85A%20logo.svg" alt="ÅAs logo" height="110"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://matematiikkakilpailut.fi/kerhot/abo/MAOL%20logo.svg" alt="MAOLs logo" height="70"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://matematiikkakilpailut.fi/kerhot/abo/UBS%20finansierar.png" alt="Utbildningsstyrelens logo" height="80"/>
 </p>
