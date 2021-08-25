@@ -12,7 +12,7 @@ lang: sv-FI
 
 **Matteklubben fortsätter i början av september 2021!**
 
-Välkommen till vår svenskspråkiga matematik­klubb, just du som går i åk 7-9 eller gymnasiet! Ännu på hösen 2021 sköts klubben helt som video­konferens (med Zoom), så det spelar ingen roll var du bor. Senare är det meningengen att man kan välja om man kommer till träffen i Åbo eller om man deltar hemifrån.
+Välkommen till vår svenskspråkiga matematik­klubb, just du som går i åk 7-9 eller gymnasiet! Du kan åtminstone delta per video­konferens (med Zoom), så det spelar ingen roll var du bor, men vi försöker också ordna så att du kan delta på plats (hösten 2021 ordnas i så fall hybridträffarna i Vasa).
 
 I klubben får bekanta dig med olika områden av matematikens fantastiska värld. Vi erbjuder roligt mattepyssel åt dig, som vill ha mera och annorlunda matematik än det som undervisas i skolan. Samtidigt kommer du i kontakt med andra matematikintresserade. 
 
@@ -22,7 +22,7 @@ Klubben ger bra träning för den som vill delta i olika matematiktävlingar. In
 
 Fastän klubbens språk är svenska, så gör vi vårt bästa för att välkomna alla intresserade, oberoende av språk!
 
-Klubben träffades på hösten 2021 varannan vecka, och **du kan ännu påverka vilka tider träffarna ordnas**. Man kan delta i båda träffarna om man vill och har möjlighet. Det går faktiskt också att vara med i klubben även om ingendera tiden passar, eftersom uppgifterna är tillgängliga hela tiden och man kan be om tips när som helst. **Anmälningsblankett och schemat för träffarna publiceras här, sedan då de är klara.**
+Klubben träffas på hösten 2021 varannan vecka, och **du kan ännu påverka vilka tider träffarna ordnas**. Man kan delta i båda träffarna om man vill och har möjlighet. Det går faktiskt också att vara med i klubben även om ingendera tiden passar, eftersom uppgifterna är tillgängliga hela tiden och man kan be om tips när som helst. **Anmälningsblankett och schemat för träffarna publiceras här, sedan då de är klara.**
 
 **Klubben är gratis -- välkommen med!** Ta med din kompis också, om du vill. :)
 
@@ -30,7 +30,7 @@ Klubben träffades på hösten 2021 varannan vecka, och **du kan ännu påverka 
 
 Kontakta oss om du undrar över något eller om du vill komma med och prova på klubben!
 
-Klubbens ledare: Mathias Wickholm, [mawickho(AT)abo.fi](mailto:mawickho(AT)abo.fi)<br>
+Klubbens ledare: Mathias Wickholm, [mawickho(AT)abo.fi](mailto:mawickho(AT)abo.fi), 044 047 5050<br>
 Ansvarig vid Åbo Akademi: Mikael Kurula, [mkurula(AT)abo.fi](mailto:mkurula(AT)abo.fi), 046 921 6792
 
 Klubben ordnas av ämnet matematik vid Åbo Akademi, i samarbete med Finlands matematiska förening och MAOL.
