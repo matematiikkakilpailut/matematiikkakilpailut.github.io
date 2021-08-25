@@ -26,12 +26,12 @@ Klubben träffades på hösten 2021 varannan vecka, och **du kan ännu påverka 
 
 **Klubben är gratis -- välkommen med!** Ta med din kompis också, om du vill. :)
 
-[Här finns en liten film](https://panopto.abo.fi/Panopto/Pages/Viewer.aspx?id=4336b5ea-89b2-44c8-8e46-ad2700e11f33) och [här finns en artikel](https://dimensiolehti.fi/en-ny-matematikklubb-for-hela-svenskfinland/), där du kan bekanta dig med klubben. ([Några exempel](https://abomatematiker.wordpress.com/) på hurudant jobb man kan få om man har studerat matematik.)
+[Här finns en liten film](https://panopto.abo.fi/Panopto/Pages/Viewer.aspx?id=4336b5ea-89b2-44c8-8e46-ad2700e11f33) från våren 2021, då klubben drog igång. Alla detaljer i filmen stämmer inte, men den ger en uppfattning om klubbens verksamhet. [Här finns en artikel](https://dimensiolehti.fi/en-ny-matematikklubb-for-hela-svenskfinland/) där du också kan bekanta dig med klubben. ([Några exempel](https://abomatematiker.wordpress.com/) på hurudant jobb man kan få om man har studerat matematik.)
 
 Kontakta oss om du undrar över något eller om du vill komma med och prova på klubben!
 
 Klubbens ledare: Mathias Wickholm, [mawickho(AT)abo.fi](mailto:mawickho(AT)abo.fi)<br>
-Ansvarig vid Åbo Akademi: Mikael Kurula, [mkurula(AT)abo.fi](mailto:mkurula(AT)abo.fi), +35846 921 6792
+Ansvarig vid Åbo Akademi: Mikael Kurula, [mkurula(AT)abo.fi](mailto:mkurula(AT)abo.fi), 046 921 6792
 
 Klubben ordnas av ämnet matematik vid Åbo Akademi, i samarbete med Finlands matematiska förening och MAOL.
 
