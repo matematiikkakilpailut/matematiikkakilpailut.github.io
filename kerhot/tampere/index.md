@@ -37,15 +37,7 @@ jokaiselle löytyy jotakin.  Tärkeintä on kiinnostus ongelmanratkaisuun,
 asioiden pohtimiseen, ja halu kehittää itseään.  Kerho antaa myös hyvää
 valmennusta matematiikkakilpailuihin, mikäli niihin osallistuminen kiinnostaa.
 
-Keväällä kerho kokoontuu 31.3. alkaen keskiviikkoisin kahden viikon välein
-parittomilla viikoilla  klo 17&ndash;19.  Viimeinen kokoontuminen on koulun
-juuri loputtua 9.6.; pandemian takia tapaamiset ovat keväällä etänä
-Zoomissa.  Linkki Zoomiin lähetetään sähköpostitse ilmoittautuneille,
-ilmoittautua voit
-[tällä lomakkeella](https://forms.office.com/r/LvTNh3uL2Y).
-Ensimmäisen kerran aiheena on väritysten hyödyntäminen
-laatoitustehtävissä. Kerhotoimintaan voi lähteä mukaan myöhemminkin
-eikä haittaa, vaikkei joka kerralle pääsisikään osallistumaan.
+Syksyllä kerho kokoontuu 15.9. alkaen keskiviikkoisin kahden viikon välein klo 17-19. Viimeinen kokoontuminen on siis 8.12. Tapaamiset järjestetään Tampereen yliopiston tiloissa, joissa pyrimme noudattamaan korona-ajan rajoituksia ja suosituksia. Osallistujille lähetetään tarkempaa tietoa sähköpostitse, ilmoittautua voit tällä [lomakkeella](https://forms.office.com/Pages/ResponsePage.aspx?id=r0Rp-nzM2EyRVMARMnmJEIF62OEBjZpNoceLiQDYoKdUNFpYVkhWTU5INVJUQUYzV0NTVVEzNjkzTS4u). Kerhotoimintaan voi lähteä mukaan myöhemminkin eikä haittaa, vaikkei joka kerralle pääsisikään osallistumaan.
 
 Kerhon vetäjänä toimii Tampereen yliopistolla Reijo Jaakkola
 (<mailto:reijo.jaakkola(at)tuni.fi>).  Kerho järjestetään yhteistyössä Suomen
