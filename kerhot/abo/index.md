@@ -22,9 +22,9 @@ Klubben ger bra träning för den som vill delta i olika matematiktävlingar. In
 
 Fastän klubbens språk är svenska, så gör vi vårt bästa för att välkomna alla intresserade, oberoende av språk!
 
-Klubben träffas på hösten 2021 varannan vecka, och **du kan ännu påverka vilka tider träffarna ordnas**. Man kan delta i båda träffarna om man vill och har möjlighet. Det går faktiskt också att vara med i klubben även om ingendera tiden passar, eftersom uppgifterna är tillgängliga hela tiden och man kan be om tips när som helst. **Anmälningsblankett och schemat för träffarna publiceras här, sedan då de är klara.**
+Klubben träffas ungefär varannan vecka, och **du kan ännu påverka vilka tider träffarna ordnas**. Det ordnas vanligen två träffar med samma tema, olika veckodagar, och man kan delta i båda träffarna om man vill och har möjlighet. Det går faktiskt också att vara med i klubben även om ingendera tiden passar, eftersom uppgifterna är tillgängliga hela tiden och man kan be om tips när som helst. **Anmälningsblankett och schemat för träffarna publiceras här, sedan då de är klara.**
 
-**Klubben är gratis -- välkommen med!** Ta med din kompis också, om du vill. :)
+**Klubben är gratis -- välkommen med!** Ta med din kompis också, om du vill. :) **Anmäl ditt intresse [här](https://matematikklubb.blankett.fi/)!**
 
 [Här finns en liten film](https://panopto.abo.fi/Panopto/Pages/Viewer.aspx?id=4336b5ea-89b2-44c8-8e46-ad2700e11f33) från våren 2021, då klubben drog igång. Alla detaljer i filmen stämmer inte, men den ger en uppfattning om klubbens verksamhet. [Här finns en artikel](https://dimensiolehti.fi/en-ny-matematikklubb-for-hela-svenskfinland/) där du också kan bekanta dig med klubben. ([Några exempel](https://abomatematiker.wordpress.com/) på hurudant jobb man kan få om man har studerat matematik.)
 
