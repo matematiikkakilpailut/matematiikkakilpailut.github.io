@@ -10,14 +10,14 @@ eleventyNavigation:
 ---
 **Hei!**
 
-Oulun yliopistolla alkaa keväällä 2021 matematiikkakerho yläkoululaisille ja lukiolaisille. Kerho on suunnattu nuorille, jotka haluavat 
+Oulun yliopiston matematiikkakerho on suunnattu yläkoululaisille ja lukiolaisille, jotka haluavat 
 - tutustua matematiikan kiehtovaan maailmaan myös koulumatematiikan ulkopuolelta, 
 - päästä ratkomaan erilaisia ja haastavia tehtäviä sekä 
 - tutustua muihin matematiikasta kiinnostuneisiin nuoriin. 
 
 Tapaamisissa tutustutaan erilaisiin matematiikan osa-alueisiin ja ratkotaan monentasoisia tehtäviä. Aiheet eivät vaadi paljoa esitietoja, joten ei ole väliä oletko seiskaluokkalainen vai lukion abi, jokaiselle löytyy jotakin. Tärkeintä on kiinnostus matemaattiseen ongelmanratkaisuun ja halu kehittää itseään. Kerho antaa myös hyvää valmennusta matematiikkakilpailuihin, mikäli niihin osallistuminen kiinnostaa.
 
-Kerhoa järjestetään kahden viikon välein keskiviikkoisin klo 17-19. Ensimmäinen kerta on 17.2., jolloin aiheena on väritysten hyödyntäminen laatoitustehtävissä. Kerhotoimintaan voi lähteä mukaan myöhemminkin eikä haittaa, vaikkei joka kerralle pääsisikään osallistumaan. Toistaiseksi kerho järjestetään etänä Zoomissa, joten voit osallistua mistä päin maailmaa tahansa. Linkki Zoomiin lähetetään sähköpostitse ilmoittautuneille. Kerhon sähköpostilistalle voit ilmoittautua [tästä](https://link.webropolsurveys.com/S/AEB66E369971B6E5).
+Kerhoa järjestetään syksyllä 2021 kahden viikon välein tiistaisin klo 17-19 21.9. alkaen. Kerhotoimintaan voi lähteä mukaan myöhemminkin eikä haittaa, vaikkei joka kerralle pääsisikään osallistumaan. Toistaiseksi kerho järjestetään etänä Zoomissa, joten voit osallistua mistä päin maailmaa tahansa. Linkki Zoomiin lähetetään sähköpostitse ilmoittautuneille. Kerhon sähköpostilistalle voit ilmoittautua [tästä](https://link.webropolsurveys.com/S/F7F4AD5367D6DF12).
 
 Kerhon vetäjänä toimii Oulun yliopiston matemaattisten tieteiden tutkimusyksikön yliopisto-opettaja Topi Törmä. Mikäli sinulla on kysyttävää kerhotoiminnasta, Topi vastaa mielellään kysymyksiin sähköpostitse (topi.torma(at)oulu.fi). Oulun yliopiston matemaattisten tieteiden tutkimusyksikkö järjestää kerhon yhteistyössä Suomen matemaattisen yhdistyksen valmennusjaoston ja MAOLin kanssa.
 
