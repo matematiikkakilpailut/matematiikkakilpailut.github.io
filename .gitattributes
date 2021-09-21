@@ -1,2 +1,3 @@
 *.ps	binary
 *.pdf	binary
+package-lock.json binary
