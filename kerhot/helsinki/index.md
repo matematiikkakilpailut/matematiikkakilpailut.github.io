@@ -19,9 +19,9 @@ style: |
 
 Haluatko lisää haasteita? Haluatko oppia koulukurssit ylittävää matematiikkaa? Haluatko oppia soveltamaan koulussa oppimaasi uusilla eri tavoilla? Haluatko viettää aikaa muiden matematiikasta innostuneiden kanssa ratkoen hauskoja ongelmia?
 
-Järjestämme Helsingin yliopistolla matematiikkakerhoa joka toinen torstai klo 17:30-19:30 alkaen 4.3 Zoomin välityksellä, eli voit osallistua riippumatta siitä missä olet. Tervetuloa!
+Järjestämme Helsingin yliopistolla matematiikkakerhoa joka toinen torstai klo 17:30-19:30 alkaen 23.9.2021 Zoomin välityksellä, eli voit osallistua riippumatta siitä missä olet. Mukaan ehtii hyvin myös sitä seuraavalla kerralla. Tervetuloa!
 
-[Ilmoittaudu lomakkeella.](https://forms.office.com/Pages/ResponsePage.aspx?id=WXWumNwQiEKOLkWT5i_j7nK1ra1Cs5BOpZcnfsgZiSpUNU1QRkNaQkdGUDUxOFNaWVUzSE80OTNMMS4u)
+[Ilmoittaudu lomakkeella.](https://forms.office.com/r/6SJZm4efym)
 
 Lisätietoa: <anne-maria.ernvall-hytonen@helsinki.fi> tai <nirmal.krishnan@helsinki.fi>
 
