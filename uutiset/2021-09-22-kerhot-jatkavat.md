@@ -4,8 +4,8 @@ title: Paikalliset matematiikkakerhot jatkavat syksyllä 2021
 
 Alueelliset matematiikkakerhot jatkavat syksyllä 2021. Lisätiedot kunkin kerhon sivulta:
 
-- [/kerhot/helsinki](Helsinki)
-- [/kerhot/abo](Åbo)
-- [/kerhot/ita-suomi/](Itä-Suomi)
-- [/kerhot/oulu/](Oulu)
-- [/kerhot/tampere/](Tampere)
+- [Helsinki](/kerhot/helsinki)
+- [Åbo](/kerhot/abo)
+- [Itä-Suomi](/kerhot/ita-suomi/)
+- [Oulu](/kerhot/oulu/)
+- [Tampere](/kerhot/tampere/)
