@@ -43,10 +43,14 @@ valintakokeissa.
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
+Syyskuun 2021 [tehtävät](2021/kirje_2021_09.pdf). <br> 
+[Träningsuppgifter, september 2021](2021/brev_2021_09.pdf)
+
 Kesän 2021 [tehtävät](2021/kirje_2021_06.pdf).
 
 Maaliskuun 2021 [tehtävät](2021/kirje_2021_03.pdf).
-[Monivalintojen palautus](https://tehtavat.matematiikkakilpailut.fi/2021-03/).
+[Monivalintojen palautus](https://tehtavat.matematiikkakilpailut.fi/2021-03/). <br>
+Malliratkaisut saatavilla kirjeeseen vastanneille.<br>
 
 Tammikuun 2021 [tehtävät](2021/kirje_2021_01.pdf).
 [Monivalintojen palautus](https://tehtavat.matematiikkakilpailut.fi/2021-01/).<br>
