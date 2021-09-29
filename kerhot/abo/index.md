@@ -10,7 +10,7 @@ eleventyNavigation:
 lang: sv-FI
 ---
 
-**Matteklubben fortsätter i början av september 2021!**
+**Matteklubben fortsätter!**
 
 Välkommen till vår svenskspråkiga matematik­klubb, just du som går i åk 7-9 eller gymnasiet! Du kan åtminstone delta per video­konferens (med Zoom), så det spelar ingen roll var du bor. Du som bor i närheten av Vasa kan också delta på plats i Academill!
 
