@@ -24,7 +24,7 @@ Klubben träffas ungefär varannan vecka. Det ordnas vanligen två träffar med 
 
 [Här finns en liten film](https://panopto.abo.fi/Panopto/Pages/Viewer.aspx?id=4336b5ea-89b2-44c8-8e46-ad2700e11f33) från våren 2021, då klubben drog igång. (vissa småsaker i filmen stämmer inte längre.) [Här finns en artikel](https://dimensiolehti.fi/en-ny-matematikklubb-for-hela-svenskfinland/) där du också kan bekanta dig med klubben. ([Några exempel](https://abomatematiker.wordpress.com/) på hurudant jobb man kan få om man har studerat matematik.)
 
-**Klubben är gratis -- välkommen med!** Ta med din kompis också, om du vill. :) **Anmäl ditt intresse [här](https://matematikklubb.blankett.fi/) och kontakta också ledare Mathias!**
+**Klubben är gratis -- välkommen med!** Ta med din kompis också, om du vill. :) **Anmäl ditt intresse [här](https://matematikklubb.blankett.fi/) och kontakta också klubbens ledare!**
 
 **Schemat för träffarna hösten 2021:**<br>
 <img src="https://github.com/matematiikkakilpailut/matematiikkakilpailut.github.io/blob/master/kerhot/abo/Schema%20h%C3%B6sten%202021.png" alt="Klubbens schema"/>
