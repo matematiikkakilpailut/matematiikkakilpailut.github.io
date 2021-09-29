@@ -27,7 +27,7 @@ Klubben träffas ungefär varannan vecka. Det ordnas vanligen två träffar med 
 **Klubben är gratis -- välkommen med!** Ta med din kompis också, om du vill. :) **Anmäl ditt intresse [här](https://matematikklubb.blankett.fi/) och kontakta också ledare Mathias!**
 
 **Schemat för träffarna hösten 2021:**
-<a href="https://www.abo.fi/amnen/matematik/" style="text-decoration:none" target="_blank"><img src="https://matematiikkakilpailut.fi/kerhot/abo/Schema%20hösten%202021.png" alt="Klubbens schema"</a>
+<img src="https://matematiikkakilpailut.fi/kerhot/abo/Schema%20hösten%202021.png" alt="Klubbens schema"/>
   
 Kontakta oss om du undrar över något -- hoppas vi ses! 
 
