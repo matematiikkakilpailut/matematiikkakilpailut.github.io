@@ -18,7 +18,7 @@ Asenna Node.js, sitten
 
 ```
 npm i
-npx run @11ty/eleventy --serve
+npx @11ty/eleventy --serve
 ```
 
 ja avaa http://localhost:8080 selaimessa.
