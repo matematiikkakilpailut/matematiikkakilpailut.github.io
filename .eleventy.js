@@ -34,6 +34,7 @@ module.exports = function (eleventyConfig) {
     "css",
     "font",
     "kuvat",
+    "favicon.ico",
     "robots.txt",
     "*.png",
     "*.pdf",
