@@ -13,7 +13,7 @@ eleventyNavigation:
   key: root
   title: Valmennus
 ---
-<img src="/OPH_rahoittaa_rgb.png" width="180" height="174" style="float:right;" />
+<img src="/OPH_rahoittaa_rgb.png" width="180" height="174" style="float:right;" alt="Opetushallitus rahoittaa hanketta" />
 
 [Matematiikkakilpailuiden](kilpailut) tarkoituksena on kannustaa
 lahjakkaita nuoria harrastamaan matematiikkaa. Tähän liittyvästä
