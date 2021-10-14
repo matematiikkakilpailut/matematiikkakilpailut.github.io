@@ -3,16 +3,10 @@ aikataulu:
 - pvm: "2021"
   tapahtuma: "Syksy"
   otsikko: true
-- pvm: "10.&ndash;12.9. (viikko 36)"
-  tapahtuma: "Valmennusviikonloppu etänä, Baltian tie -joukkueen valinta, [lisätiedot ja ilmoittautuminen](https://matematiikkakilpailut.fi/aikataulu/2021W36/)"
-- pvm: "22.9.&ndash;5.10."
-  tapahtuma: Peruskoulun matematiikkakilpailun alkukilpailu
-- pvm: "ke 6.10."
-  tapahtuma: "Lukion matematiikkakilpailu, alkukilpailu"
 - pvm: "<del>20.&ndash;26.5. </del> 11.-16.10."
   tapahtuma: "[Romanian Master of Mathematics](http://rmms.lbi.ro/rmm2021/index.php?id=home) etänä"
 - pvm: "22.&ndash;24.10. (viikko 42)"
-  tapahtuma: "Valmennusviikonloppu etänä"
+  tapahtuma: "Valmennusviikonloppu etänä: [ilmoittautuminen](https://www.eventbrite.com/e/matematiikan-valmennusviikonloppu-tickets-188248996817)"
 - pvm: "5.11."
   tapahtuma: "Iranin geometriaolympialaiset Päivölässä (toivottavasti)"
 - pvm: "11.-15.11."
@@ -32,3 +26,12 @@ vanhoja:
   pvm: "10.&ndash;17.7."
 - tapahtuma: "[62. Kansainväliset matematiikkaolympialaiset <abbr>IMO</abbr> Pietarissa](http://www.imo-official.org/year_info.aspx?year=2021), Suomen joukkue Suomessa tai mahdollisesti Tanskassa yhdessä muiden Pohjoismaiden kanssa"
   pvm: "14.&ndash;24.7."
+- pvm: "2021"
+  tapahtuma: "Syksy"
+  otsikko: true
+- pvm: "10.&ndash;12.9. (viikko 36)"
+  tapahtuma: "Valmennusviikonloppu etänä, Baltian tie -joukkueen valinta, [lisätiedot ja ilmoittautuminen](https://matematiikkakilpailut.fi/aikataulu/2021W36/)"
+- pvm: "22.9.&ndash;5.10."
+  tapahtuma: Peruskoulun matematiikkakilpailun alkukilpailu
+- pvm: "ke 6.10."
+  tapahtuma: "Lukion matematiikkakilpailu, alkukilpailu"
