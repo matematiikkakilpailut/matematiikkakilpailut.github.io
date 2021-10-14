@@ -12,7 +12,7 @@ lang: sv-FI
 
 **Matteklubben fortsätter!**
 
-Välkommen till vår svenskspråkiga matematik­klubb, just du som går i åk 7-9 eller gymnasiet! Du kan åtminstone delta per video­konferens (med Zoom), så det spelar ingen roll var du bor. Du som bor i närheten av Vasa kan också delta på plats Åbo Akademis utrymmen i [Academill](https://goo.gl/maps/yrVJsyLvBoNFKw5v8)!
+Välkommen till vår svenskspråkiga matematik­klubb, just du som går i åk 7-9 eller gymnasiet! Du kan delta per video­konferens (Zoom), så det spelar ingen roll var du bor. Du som bor i närheten av Åbo eller Vasa får gärna delta på plats Åbo Akademis utrymmen ([Aurum](https://goo.gl/maps/zhEhjtXCqMw8zhpZ8) eller [Academill](https://goo.gl/maps/fbQBgF9KkCWhTCPA9))!
 
 I klubben får du bekanta dig med olika områden av matematikens fantastiska värld. Vi erbjuder roligt mattepyssel åt dig, som vill ha mera och annorlunda matematik än det som undervisas i skolan. Samtidigt kommer du i kontakt med andra matematikintresserade. 
 
@@ -24,16 +24,20 @@ Klubben träffas ungefär varannan vecka. Det ordnas vanligen två träffar med 
 
 [Här finns en liten film](https://panopto.abo.fi/Panopto/Pages/Viewer.aspx?id=4336b5ea-89b2-44c8-8e46-ad2700e11f33) från våren 2021, då klubben drog igång. (vissa småsaker i filmen stämmer inte längre.) [Här finns en artikel](https://dimensiolehti.fi/en-ny-matematikklubb-for-hela-svenskfinland/) där du också kan bekanta dig med klubben. ([Några exempel](https://abomatematiker.wordpress.com/) på hurudant jobb man kan få om man har studerat matematik.)
 
-**Klubben är gratis -- välkommen med!** Ta med din kompis också, om du vill. :) **Anmäl ditt intresse [här](https://matematikklubb.blankett.fi/), så blir du kontaktad!**
+**Klubben är gratis -- välkommen med!** Ta med din kompis också, om du vill. :) 
 
-**Schemat för träffarna hösten 2021:**<br>
+
+**Anmäl ditt intresse [här](https://matematikklubb.blankett.fi/), så blir du kontaktad!**
+
+**Schemat för träffarna hösten 2021 i Zoom och Vasa :**<br>
 <img src="https://matematiikkakilpailut.fi/kerhot/abo/Schema%20h%C3%B6sten%202021.png" alt="Klubbens schema"/>
+<br>Åboträffarna har eget schema.
   
-Kontakta oss om du undrar över något -- hoppas vi ses! 
+Ta kontakt om du undrar över något -- hoppas vi ses! 
 
-Klubbens ledare: Mathias Wickholm, [mawickho(AT)abo.fi](mailto:mawickho(AT)abo.fi), 044 047 5050<br>
+Klubbansvarig: Mikael Kurula, [mkurula(AT)abo.fi](mailto:mkurula(AT)abo.fi), 046 921 6792<br>
 
-Klubben ordnas av ämnet matematik vid Åbo Akademi, i samarbete med Finlands matematiska förening och MAOL.
+Klubben ordnas av matematiken vid Åbo Akademi, i samarbete med Finlands matematiska förening och MAOL.
 
 <p align="center">
 <a href="https://www.abo.fi/amnen/matematik/" style="text-decoration:none" target="_blank"><img src="https://matematiikkakilpailut.fi/kerhot/abo/%C3%85A%20logo.svg" alt="ÅAs logo" height="120"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
