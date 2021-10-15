@@ -26,10 +26,9 @@ Klubben träffas ungefär varannan vecka. Det ordnas vanligen två träffar med 
 
 **Klubben är gratis -- välkommen med!** Ta med din kompis också, om du vill. :) 
 
-
 **Anmäl ditt intresse [här](https://matematikklubb.blankett.fi/), så blir du kontaktad!**
 
-**Schemat för träffarna hösten 2021 i Zoom och Vasa :**<br>
+**Schemat för träffarna hösten 2021 i Zoom och Vasa:**<br>
 <img src="https://matematiikkakilpailut.fi/kerhot/abo/Schema%20h%C3%B6sten%202021.png" alt="Klubbens schema"/>
 <br>Åboträffarna har eget schema.
   
