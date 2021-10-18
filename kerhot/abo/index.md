@@ -30,13 +30,13 @@ Klubben träffas ungefär varannan vecka. Det ordnas vanligen två träffar med 
 
 **Schemat för träffarna hösten 2021 i Zoom och Vasa:**<br>
 <img src="https://matematiikkakilpailut.fi/kerhot/abo/Schema%20h%C3%B6sten%202021.png" alt="Klubbens schema"/>
-<br>Åboträffarna har eget schema.
+<br><strong>Åbo</strong>träffarna har skilda grupper för grundskolan och gymnasiet, och de träffas enligt eget schema.
   
 Ta kontakt om du undrar över något -- hoppas vi ses! 
 
 Klubbansvarig: Mikael Kurula, [mkurula(AT)abo.fi](mailto:mkurula(AT)abo.fi), 046 921 6792<br>
 
-Klubben ordnas av matematiken vid Åbo Akademi, i samarbete med Finlands matematiska förening och MAOL.
+Klubben ordnas av matematiken vid Åbo Akademi, i samarbete med [Finlands matematiska förening](https://matematiikkakilpailut.fi/) och MAOL.
 
 <p align="center">
 <a href="https://www.abo.fi/amnen/matematik/" style="text-decoration:none" target="_blank"><img src="https://matematiikkakilpailut.fi/kerhot/abo/%C3%85A%20logo.svg" alt="ÅAs logo" height="120"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
