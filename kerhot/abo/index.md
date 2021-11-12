@@ -14,29 +14,26 @@ lang: sv-FI
 
 Välkommen till vår svenskspråkiga matematik­klubb, just du som går i åk 7-9 eller gymnasiet! Du kan delta per video­konferens (Zoom), så det spelar ingen roll var du bor. Du som bor i närheten av Åbo eller Vasa får gärna delta på plats Åbo Akademis utrymmen ([Aurum](https://goo.gl/maps/zhEhjtXCqMw8zhpZ8) eller [Academill](https://goo.gl/maps/fbQBgF9KkCWhTCPA9))!
 
-I klubben får du bekanta dig med olika områden av matematikens fantastiska värld. Vi erbjuder roligt mattepyssel åt dig, som vill ha mera och annorlunda matematik än det som undervisas i skolan. Samtidigt kommer du i kontakt med andra matematikintresserade. 
+I klubben får du bekanta dig med olika områden av matematikens fantastiska värld. Vi erbjuder roligt mattepyssel åt dig, som vill ha mera och annorlunda matematik än det som undervisas i skolan. Samtidigt kommer du i kontakt med andra matematikintresserade! 
 
 Uppgifterna kräver inte så mycket förkunskaper, utan de handlar mera om logiskt tänkande och kreativ problem­lösning. Nyfikenhet och vilja att fundera på matematiska problem är alltså viktigare än att du kan allt från förut. Det finns allt från ganska lätta till mycket utmanande uppgifter att välja bland. 
 
-Klubben ger bra träning för den som vill delta i olika matematiktävlingar. Information om nationella och internationella tävlingar delas, men det går lika bra att vara med utan att tävla, bara för att matematik är så roligt! 
-
-Klubben träffas ungefär varannan vecka. Det ordnas vanligen två träffar med samma tema, på olika veckodagar.
+Klubben ger bra träning för den som vill delta i olika matematiktävlingar, men det går lika bra att vara med utan att tävla, bara för att matematik är så roligt! Klubben träffas ungefär varannan vecka. 
 
 [Här finns en liten film](https://panopto.abo.fi/Panopto/Pages/Viewer.aspx?id=4336b5ea-89b2-44c8-8e46-ad2700e11f33) från våren 2021, då klubben drog igång. (Vissa detaljer i filmen stämmer inte längre.) [Här finns en artikel](https://dimensiolehti.fi/en-ny-matematikklubb-for-hela-svenskfinland/) där du också kan bekanta dig med klubben. ([Några exempel](https://abomatematiker.wordpress.com/) på hurudant jobb man kan få om man har studerat matematik.)
 
-**Klubben är gratis -- välkommen med!** Ta med din kompis också, om du vill. :) 
-
-**Anmäl ditt intresse [här](https://matematikklubb.blankett.fi/), så blir du kontaktad!**
-
 **Schemat för träffarna hösten 2021 i Zoom och Vasa:**<br>
 <img src="https://matematiikkakilpailut.fi/kerhot/abo/Schema%20h%C3%B6sten%202021.png" alt="Klubbens schema"/>
-<br><strong>Åbo</strong>träffarna har skilda grupper för grundskolan och gymnasiet, och de träffas enligt eget schema.
+Samma tema behandlas vanligen på två gånger efter varandra. [Karta](https://goo.gl/maps/fbQBgF9KkCWhTCPA9)
+
+**Åboklubben träffas kl. 16:00 varannan onsdag**
+Under 2021 hinner vi ännu träffas den 28.11 och 8.12. Grundskolegruppen håller på i 60 minuter och gymnasiegruppen i 90 minuter. [Karta](https://goo.gl/maps/zhEhjtXCqMw8zhpZ8)
   
-Ta kontakt om du undrar över något -- hoppas vi ses! 
+Ta kontakt om du vill med eller om du undrar över något -- hoppas vi ses! 
 
 Klubbansvarig: Mikael Kurula, [mkurula(AT)abo.fi](mailto:mkurula(AT)abo.fi), 046 921 6792<br>
 
-Klubben ordnas av matematiken vid Åbo Akademi, i samarbete med [Finlands matematiska förening](https://matematiikkakilpailut.fi/) och MAOL.
+Klubben ordnas av matematiken vid Åbo Akademi, i samarbete med [Finlands matematiska förening](https://matematiikkakilpailut.fi/), Harppi-projektet och MAOL.
 
 <p align="center">
 <a href="https://www.abo.fi/amnen/matematik/" style="text-decoration:none" target="_blank"><img src="https://matematiikkakilpailut.fi/kerhot/abo/%C3%85A%20logo.svg" alt="ÅAs logo" height="120"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
