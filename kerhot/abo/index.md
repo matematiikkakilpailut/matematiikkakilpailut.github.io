@@ -29,7 +29,7 @@ Samma tema behandlas vanligen på två gånger efter varandra. [Karta](https://g
 **Åboklubben träffas kl. 16:00 varannan onsdag**<br>
 Under 2021 hinner vi ännu träffas den 28.11 och 8.12. Grundskolegruppens träffar är 60 minuter långa och gymnasiegruppens 90 minuter. [Karta](https://goo.gl/maps/zhEhjtXCqMw8zhpZ8)
   
-Ta kontakt om du vill pröva på klubben eller om du undrar över något -- hoppas att vi ses! 
+Meddela [här](https://matteiaurum.blankett.fi/form/12032) om vill pröva på klubben, eller hör av dig om du undrar över något -- hoppas att vi ses! 
 
 Klubbansvarig: Mikael Kurula, [mkurula(AT)abo.fi](mailto:mkurula(AT)abo.fi), 046 921 6792<br>
 
