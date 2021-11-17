@@ -24,7 +24,7 @@ Klubben ger bra träning för den som vill delta i olika matematiktävlingar, me
 
 **Schemat för träffarna hösten 2021 i Zoom och Vasa:**<br>
 <img src="https://matematiikkakilpailut.fi/kerhot/abo/Schema%20h%C3%B6sten%202021.png" alt="Klubbens schema"/><br>
-Samma tema behandlas vanligen på två gånger efter varandra. [Karta](https://goo.gl/maps/fbQBgF9KkCWhTCPA9)
+Samma tema behandlas vanligen på två gånger efter varandra, de med samma färg. [Karta](https://goo.gl/maps/fbQBgF9KkCWhTCPA9)
 
 **Åboklubben träffas kl. 16:00 varannan onsdag**<br>
 Under 2021 hinner vi ännu träffas den 28.11 och 8.12. Grundskolegruppens träffar är 60 minuter långa och gymnasiegruppens 90 minuter. [Karta](https://goo.gl/maps/zhEhjtXCqMw8zhpZ8)
