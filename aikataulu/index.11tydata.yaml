@@ -3,16 +3,8 @@ aikataulu:
 - pvm: "2021"
   tapahtuma: "Syksy"
   otsikko: true
-- pvm: "<del>20.&ndash;26.5. </del> 11.-16.10."
-  tapahtuma: "[Romanian Master of Mathematics](http://rmms.lbi.ro/rmm2021/index.php?id=home) etänä"
-- pvm: "22.&ndash;24.10. (viikko 42)"
-  tapahtuma: "Valmennusviikonloppu etänä: [ilmoittautuminen](https://www.eventbrite.com/e/matematiikan-valmennusviikonloppu-tickets-188248996817)"
-- pvm: "5.11."
-  tapahtuma: "Iranin geometriaolympialaiset Päivölässä"
-- pvm: "11.-15.11."
-  tapahtuma: "[Baltian tie -joukkuekilpailu Reykjavikissa](https://sites.google.com/view/balticway2021/home) - huomaa [Islannin matkustusrajoitukset](https://www.covid.is/sub-categories/vaccination-and-antibodies), joiden takia joukkueeseen voidaan valita vain ajoissa rokotettuja tai Covid-19-taudin sairastaneita"
 - pvm: "3.&ndash;5.12. (viikko 48)"
-  tapahtuma: "Valmennusviikonloppu ~~Päivölässä~~ **ETÄNÄ**: ilmoittautuminen tulee näkyville, kun tiedämme aikataulun."
+  tapahtuma: "Valmennusviikonloppu ~~Päivölässä~~ **ETÄNÄ**: [ilmoittautuminen](https://www.eventbrite.fi/e/matematiikan-valmennusviikonloppu-3-5122021-tickets-221506801807)"
 
 vanhoja:
 - pvm: "2021"
@@ -35,3 +27,11 @@ vanhoja:
   tapahtuma: Peruskoulun matematiikkakilpailun alkukilpailu
 - pvm: "ke 6.10."
   tapahtuma: "Lukion matematiikkakilpailu, alkukilpailu"
+- pvm: "<del>20.&ndash;26.5. </del> 11.-16.10."
+  tapahtuma: "[Romanian Master of Mathematics](http://rmms.lbi.ro/rmm2021/index.php?id=home) etänä"
+- pvm: "22.&ndash;24.10. (viikko 42)"
+  tapahtuma: "Valmennusviikonloppu etänä: [ilmoittautuminen](https://www.eventbrite.com/e/matematiikan-valmennusviikonloppu-tickets-188248996817)"
+- pvm: "5.11."
+  tapahtuma: "Iranin geometriaolympialaiset Päivölässä"
+- pvm: "11.-15.11."
+  tapahtuma: "[Baltian tie -joukkuekilpailu Reykjavikissa](https://sites.google.com/view/balticway2021/home) - huomaa [Islannin matkustusrajoitukset](https://www.covid.is/sub-categories/vaccination-and-antibodies), joiden takia joukkueeseen voidaan valita vain ajoissa rokotettuja tai Covid-19-taudin sairastaneita"
