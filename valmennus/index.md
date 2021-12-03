@@ -43,8 +43,12 @@ valintakokeissa.
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
+Marraskuun 2021 [tehtävät](2021/kirje_2021_11.pdf). <br> 
+[Träningsuppgifter, november 2021](2021/brev_2021_11.pdf)
+
 Syyskuun 2021 [tehtävät](2021/kirje_2021_09.pdf). <br> 
-[Träningsuppgifter, september 2021](2021/brev_2021_09.pdf)
+[Träningsuppgifter, september 2021](2021/brev_2021_09.pdf)<br>
+Malliratkaisut saatavilla kirjeeseen vastanneille.<br>
 
 Kesän 2021 [tehtävät](2021/kirje_2021_06.pdf).
 
