@@ -12,7 +12,9 @@ lang: sv-FI
 
 **Matteklubben är nu på julpaus -- god jul! :)**
 
-Välkommen till vår svenskspråkiga matematik­klubb, just du som går i åk 7-9 eller gymnasiet! Du kan delta per video­konferens (Zoom), så det spelar ingen roll var du bor. Du som bor i närheten av Åbo eller Vasa får gärna delta på plats Åbo Akademis utrymmen ([Aurum](https://goo.gl/maps/zhEhjtXCqMw8zhpZ8) eller [Academill](https://goo.gl/maps/fbQBgF9KkCWhTCPA9))!
+Vi fortsätter i månadsskiftet januari-februari -- mera information kommer senare!
+
+Välkommen till vår svenskspråkiga matematik­klubb, just du som går i åk 7-9 eller gymnasiet! Du kan delta per video­konferens (Zoom), så det spelar ingen roll var du bor. Du som bor i närheten av Åbo eller Vasa får väldigt gärna delta på plats Åbo Akademis utrymmen ([Aurum](https://goo.gl/maps/zhEhjtXCqMw8zhpZ8) eller [Academill](https://goo.gl/maps/fbQBgF9KkCWhTCPA9))!
 
 I klubben får du bekanta dig med olika områden av matematikens fantastiska värld. Vi erbjuder roligt mattepyssel åt dig, som vill ha mera och annorlunda matematik än det som undervisas i skolan. Samtidigt kommer du i kontakt med andra matematikintresserade! 
 
