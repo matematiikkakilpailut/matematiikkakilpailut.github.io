@@ -1,10 +1,28 @@
 ---
 aikataulu:
-- pvm: "2021"
-  tapahtuma: "Syksy"
+- pvm: "2022"
+  tapahtuma: "Kevät ja kesä"
   otsikko: true
-- pvm: "3.&ndash;5.12. (viikko 48)"
-  tapahtuma: "Valmennusviikonloppu ~~Päivölässä~~ **ETÄNÄ**: [ilmoittautuminen](https://www.eventbrite.fi/e/matematiikan-valmennusviikonloppu-3-5122021-tickets-221506801807)"
+- pvm: "14.&ndash;16.1. (viikko 2)"
+  tapahtuma: "Valmennus&shy;viikon&shy;vaihde - luultavimmin etänä"
+- pvm: "21.&ndash;22.1."
+  tapahtuma: "[MAOLin loppu&shy;kilpailut](https://maol.fi/neljan-tieteen-kisat/)"
+- pvm: "n. helmikuussa"
+  tapahtuma: "[Seitsemäs&shy;luokkalaisten alueel&shy;linen matematiikka&shy;kilpailu](/seiskat/) Helsingissä, Oulussa, Sata&shy;kunnassa ja Turussa"
+- pvm: "25.&ndash;27.2. (viikko 8)"
+  tapahtuma: "Valmennus&shy;viikon&shy;vaihde - luultavimmin etänä"
+- tapahtuma: "Pohjois&shy;mainen matematiikka&shy;kilpailu kutsutuille omassa koulussa"
+  pvm: "noin huhtikuussa"
+- tapahtuma: "[Euroopan tyttöjen matematiikka&shy;olympialaiset <abbr>EGMO</abbr> Egerissä, Unkarissa](https://egmo2022.hu/)"
+  pvm: "6.&ndash;12.4."
+- pvm: "n. 7.&ndash;9.4. (viikko 14)"
+  tapahtuma: "Valmennus&shy;viikon&shy;vaihde Päivölässä tai etänä"
+- tapahtuma: "Olympia&shy;joukkueen valinta- ja valmennusleiri"
+  pvm: "n. touko- tai kesä&shy;kuussa"
+- tapahtuma: "Olympia&shy;joukkueen yhteis&shy;pohjois&shy;mainen valmennus&shy;leiri Sorøssa, Tanskassa"
+  pvm: "olympiamatkan aluksi"
+- tapahtuma: "[63. Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr> Oslossa](https://www.imo2022.org/)"
+  pvm: "6.&ndash;16.7."
 
 vanhoja:
 - pvm: "2021"
@@ -35,3 +53,5 @@ vanhoja:
   tapahtuma: "Iranin geometriaolympialaiset Päivölässä"
 - pvm: "11.-15.11."
   tapahtuma: "[Baltian tie -joukkuekilpailu Reykjavikissa](https://sites.google.com/view/balticway2021/home) - huomaa [Islannin matkustusrajoitukset](https://www.covid.is/sub-categories/vaccination-and-antibodies), joiden takia joukkueeseen voidaan valita vain ajoissa rokotettuja tai Covid-19-taudin sairastaneita"
+- pvm: "3.&ndash;5.12. (viikko 48)"
+  tapahtuma: "Valmennusviikonloppu ~~Päivölässä~~ **ETÄNÄ**: [ilmoittautuminen](https://www.eventbrite.fi/e/matematiikan-valmennusviikonloppu-3-5122021-tickets-221506801807)"
