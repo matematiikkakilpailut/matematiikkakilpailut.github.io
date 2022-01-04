@@ -4,7 +4,10 @@ aikataulu:
   tapahtuma: "Kevät ja kesä"
   otsikko: true
 - pvm: "14.&ndash;16.1. (viikko 2)"
-  tapahtuma: "Valmennus&shy;viikon&shy;vaihde etänä"
+  tapahtuma: >-
+    Valmennus&shy;viikon&shy;vaihde etänä,
+    <button id="eventbrite-widget-modal-trigger-236143580807" type="button" class="btn btn-primary btn-sm">ilmoittaudu tästä</button>
+    tai [Eventbriten kautta](https://www.eventbrite.fi/e/matematiikan-valmennusviikonloppu-14-1612022-tickets-236143580807)
 - pvm: "21.&ndash;22.1."
   tapahtuma: "[MAOLin loppu&shy;kilpailut](https://maol.fi/neljan-tieteen-kisat/)"
 - pvm: "n. helmi-huhtikuussa"
@@ -23,6 +26,23 @@ aikataulu:
   pvm: "olympiamatkan aluksi"
 - tapahtuma: "[63. Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr> Oslossa](https://www.imo2022.org/)"
   pvm: "6.&ndash;16.7."
+
+scripts: >-
+    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+    <script type="text/javascript">
+        const orderComplete = function() {
+            const btn = document.getElementById('eventbrite-widget-modal-trigger-236143580807');
+            btn.disabled = true;
+            btn.innerHTML = 'olet ilmoittautunut';
+        }
+        window.EBWidgets.createWidget({
+            widgetType: 'checkout',
+            eventId: '236143580807',
+            modal: true,
+            modalTriggerElementId: 'eventbrite-widget-modal-trigger-236143580807',
+            onOrderComplete: orderComplete
+        });
+    </script>
 
 vanhoja:
 - pvm: "2021"
