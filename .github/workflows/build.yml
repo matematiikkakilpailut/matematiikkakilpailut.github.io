@@ -18,6 +18,8 @@ jobs:
         run: npm i
       - name: Run eleventy
         run: npx @11ty/eleventy
+      - name: Add legacy redirect files
+        run: cp uutis-redir/*.html _site/uutiset/
       - name: Deploy to GitHub Pages
         if: success()
         uses: crazy-max/ghaction-github-pages@v2.5.0
