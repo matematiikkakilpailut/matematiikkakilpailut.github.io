@@ -7,16 +7,10 @@ const md = require("markdown-it")({
   typographer: true,
   quotes: "””’’",
 });
-const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 const rss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
-  eleventyConfig.addPlugin(sitemap, {
-    sitemap: {
-      hostname: "https://matematiikkakilpailut.fi",
-    },
-  });
   eleventyConfig.addPlugin(rss);
 
   eleventyConfig.addDataExtension("yaml", yaml.load);
