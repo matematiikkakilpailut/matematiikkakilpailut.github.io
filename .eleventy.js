@@ -40,7 +40,6 @@ module.exports = function (eleventyConfig) {
     "*.pdf",
     "BingSiteAuth.xml",
     "CNAME",
-    "seiskat/kuvake",
     "seiskat/manifest.json",
     "BW2006",
     "BW2016",
