@@ -1,7 +1,7 @@
 ---
 title: Uutisia
 permalink: /uutiset/
-tags: []
+override:tags: []
 style: "h2 > a { font-size: small; }"
 eleventyNavigation:
   key: uutiset
@@ -12,7 +12,7 @@ eleventyNavigation:
 {% set uutiset = collections.uutinen | reverse %}
 {% for artikkeli in uutiset %}
 
-## {{ artikkeli.data.title }} [{{ artikkeli.date.toLocaleDateString("fi") }}]({{ artikkeli.url }})
+## {{ artikkeli.data.title }} [{{ artikkeli.date.toLocaleDateString("fi", {timeZone: "UTC"}) }}]({{ artikkeli.url }})
 
 {{ artikkeli.templateContent | safe }}
 {% endfor %}

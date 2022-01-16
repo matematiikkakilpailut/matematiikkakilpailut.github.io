@@ -1,5 +1,5 @@
 {
     "layout": "page",
     "tags": "uutinen",
-    "permalink": "uutiset/{{page.fileSlug}}.html"
+    "permalink": "uutiset/{{page.date.toISOString().substring(0,10)}}-{{page.fileSlug}}.html"
 }
