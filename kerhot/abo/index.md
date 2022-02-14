@@ -10,9 +10,7 @@ eleventyNavigation:
 lang: sv-FI
 ---
 
-**Matteklubben drar igång igen! :)**
-
-**Just nu frågar vi på klubbens moodlesida vilka tider det passar dig att klubben träffas under våren 2022.**
+**Matteklubben är i full gång igen! :)**
 
 Välkommen till vår svenskspråkiga matematik­klubb, just du som går i åk 7-9 eller gymnasiet! Du kan delta per video­konferens (Zoom), så det spelar ingen roll var du bor. Du som bor i närheten av Åbo får väldigt gärna delta på plats Åbo Akademis utrymmen i [Aurum](https://goo.gl/maps/zhEhjtXCqMw8zhpZ8)!
 
@@ -23,7 +21,12 @@ Uppgifterna kräver inte så mycket förkunskaper, utan de handlar mera om logis
 Klubben ger bra träning för den som vill delta i olika matematiktävlingar, men det går lika bra att vara med utan att tävla, bara för att matematik är så roligt! Klubben träffas ungefär varannan vecka. 
 
 [Här finns en liten film](https://panopto.abo.fi/Panopto/Pages/Viewer.aspx?id=4336b5ea-89b2-44c8-8e46-ad2700e11f33) med Mikael från våren 2021, då klubben drog igång. (Vissa detaljer i filmen stämmer inte längre.) [Här finns en artikel](https://dimensiolehti.fi/en-ny-matematikklubb-for-hela-svenskfinland/) där du också kan bekanta dig med klubben. Kanske du är intresserad av [några exempel](https://abomatematiker.wordpress.com/) på hurudant jobb man kan få om man har studerat matematik?
- 
+
+**Schema:**<br>
+Nätklubbens nivå 1 (lättare): lördagar kl. 13:30-14:30 jämna veckor, i Zoom<br>
+Nätklubbens nivå 2: torsdagar 17:00-18:30 udda veckor, i Zoom <br>
+Träffarna i Aurum i Åbo: onsdagar 15:30-17:00 jämna veckor, i Aurum
+
 **Meddela [här](https://matteiaurum.blankett.fi/form/12032) om du vill pröva på klubben**, eller hör av dig om du undrar över något -- **hoppas att vi ses!** 
 
 Klubbansvarig: Mikael Kurula, [mkurula(AT)abo.fi](mailto:mkurula(AT)abo.fi), 046 921 6792<br>
