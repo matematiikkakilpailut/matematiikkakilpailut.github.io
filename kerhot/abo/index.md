@@ -25,7 +25,7 @@ Klubben ger bra träning för den som vill delta i olika matematiktävlingar, me
 **Schema:**<br>
 Nätklubbens nivå 1 (lättare): lördagar kl. 13:30-14:30 jämna veckor, i Zoom<br>
 Nätklubbens nivå 2: torsdagar 17:00-18:30 udda veckor, i Zoom <br>
-Träffarna i Aurum i Åbo: onsdagar 15:30-17:00 jämna veckor, i Aurum
+Träffarna i Aurum i Åbo: onsdagar 15:30-16:30/17:00 jämna veckor, i Aurum (båda grupperna börjar 15:30)
 
 **Meddela [här](https://matteiaurum.blankett.fi/form/12032) om du vill pröva på klubben**, eller hör av dig om du undrar över något -- **hoppas att vi ses!** 
 
