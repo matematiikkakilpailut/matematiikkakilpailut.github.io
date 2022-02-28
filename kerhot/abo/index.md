@@ -27,7 +27,7 @@ Nätklubbens nivå 1 (lättare): lördagar kl. 13:30-14:30 jämna veckor, i Zoom
 Nätklubbens nivå 2: torsdagar 17:00-18:30 udda veckor, i Zoom <br>
 Träffarna i Aurum i Åbo: onsdagar 15:30-16:30/17:00 jämna veckor, i Aurum (båda grupperna börjar 15:30)
 
-**Meddela [här](https://matteiaurum.blankett.fi/form/12032) om du vill pröva på klubben**, eller hör av dig om du undrar över något -- **hoppas att vi ses!** 
+**Meddela [här](https://survey.abo.fi/lomakkeet/14375/lomake.html) om du vill pröva på klubben**, eller hör av dig om du undrar över något -- **hoppas att vi ses!** 
 
 Klubbansvarig: Mikael Kurula, [mkurula(AT)abo.fi](mailto:mkurula(AT)abo.fi), 046 921 6792<br>
 
