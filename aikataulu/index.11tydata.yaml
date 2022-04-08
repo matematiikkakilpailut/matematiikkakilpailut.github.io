@@ -20,7 +20,9 @@ aikataulu:
 - pvm: "n. 7.&ndash;9.4. (viikko 14)"
   tapahtuma: "~~Valmennus&shy;viikon&shy;vaihde Päivölässä tai etänä~~ PERUUTETTU"
 - pvm: "29.&ndash;30.4. (vappu&shy;aatto ja aaton&shy;aatto)"
-  tapahtuma: "Lyhyt valmennus&shy;viikon&shy;vaihde Päivölässä"
+  tapahtuma: >-
+    Lyhyt valmennus&shy;viikon&shy;vaihde Päivölässä:
+    <a href="https://www.paivola.fi/fi/course/422"><button type="button" class="btn btn-primary btn-sm">ilmoittaudu</button></a>
 - tapahtuma: "Olympia&shy;joukkueen valinta- ja valmennusleiri"
   pvm: "n. touko- tai kesä&shy;kuussa"
 - tapahtuma: "Olympia&shy;joukkueen yhteis&shy;pohjois&shy;mainen valmennus&shy;leiri Sorøssa, Tanskassa"
