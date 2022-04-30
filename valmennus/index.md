@@ -11,20 +11,19 @@ robots: index,nofollow
 ---
 ## Kirjevalmennus
 
-Kirjevalmennus- eli kotitehtävät on tarkoitettu kaikille
-kilpailumatematiikasta kiinnostuneille. Erityisesti niiden, jotka
+Kirjevalmennus- eli kotitehtävät on tarkoitettu **kaikille
+kilpailumatematiikasta kiinnostuneille koululaisille, erityisesti ne on
+suunnattu yläkoulu- ja lukioikäisille**. Erityisesti niiden, jotka
 syystä tai toisesta eivät halua tai voi osallistua
 valmennustapahtumiin, mutta jotka haluavat tulla otetuiksi huomioon
 eri kilpailujoukkueita valittaessa, on syytä pitää yllä kosketusta
 Valmennusjaostoon lähettämällä vastauksia kirjevalmennustehtäviin.
 
-Kirjevalmennustehtäviä jaetaan valmennusviikonloppuina ja ne pyritään
-julkaisemaan verkossa samaan aikaan. Tarkoitus on, että valmennukseen
-osallistuvat ratkaisevat tehtävät (tai mahdollisimman monta niistä)
-seuraavaan valmennusviikonloppuun mennessä ja palauttavat ne joko
-viikonlopun aikana tai tehtävien yhteydessä mainittuun
-palautusosoitteeseen.  Tehtäviä on toisinaan kaksi sarjaa,
-aloittaville ja pidemmälle ehtineille.
+Tarkoituksena on ratkaista mahdollisimman monta tehtävää (yksikin on 
+parempi kuin ei yhtään!) ja palauttaa ne pyydettyyn osoitteiseen
+Tehtäviä on erikseen yläkouluikäisille (ks. peruskoululaisten tehtävät
+alta) ja lukiolaisille ja muille kiinnostuneille koululaisille. Jälkimmäiset
+tehtävät on yleensä jaettu kahteen sarjaan vaikeustason mukaan.
 
 Valmennusvastauksista voidaan antaa palautetta vain, jos vastausten
 mukana ovat lähettäjän yhteystiedot!
@@ -72,7 +71,7 @@ Malliratkaisut saatavilla kirjeeseen vastanneille.<br>
 
 Peruskoululaisten kirjevalmennustehtävät on nimensä mukaan suunnattu peruskoululaisille. Ensimmäinen tehtäväsarja on suunniteltu aloitettavan seitsemännen luokan loppupuolella, mutta tehtävien ratkomisen voi aloittaa myös aiemmin tai myöhemmin. Tehtävien  ratkaiseminen edellyttää usein perehtymistä koulumatematiikan ulkopuoliseen matematiikkaan ja niiden on tarkoitus olla haastavia. Ei siis kannata säikähtää tehtävien vaikeustasoa.
 
-Ensimmäinen tehtäväsarja löytyy alta. Kun olet palauttanut ratkaisujasi siihen, saat uuden tehtäväsarjan ratkottavaksi.  Valmennusvastauksista voidaan antaa palautetta ja uusi tehtäväsarja lähettää vain, jos mukana ovat yhteystiedot!
+Ensimmäinen tehtäväsarja löytyy alta. Kun olet palauttanut ratkaisujasi siihen, saat uuden tehtäväsarjan ratkottavaksi. Yhteensä peruskoululaisten kirjevalmennustehtäväsarjaan sisältyy 16 kirjettä, mutta halutessaan niistä voi tehdä vain osan. Valmennusvastauksista voidaan antaa palautetta ja uusi tehtäväsarja lähettää vain, jos mukana ovat yhteystiedot!
 
 Peruskoululaiset voivat halutessaan ratkoa myös haastavampia, kaikille koululaisille tarkoitettuja kirjevalmennustehtäviä (yllä).
 
