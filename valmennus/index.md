@@ -43,19 +43,20 @@ valintakokeissa.
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
-Helmikuun 2022 [tehtävät](2022/kirje_2022_02.pdf).<br> 
-[Träningsuppgifter, februari 2022](2022/brev_2022_02.pdf)
+Huhtikuun 2022 [tehtävät](2022/kirje_2022_04.pdf). <br>
+[Träningsuppgifter, april 2022](2022/brev_2022_04.pdf).
 
-Tammikuun 2022 [tehtävät](2022/kirje_2022_01.pdf).<br> 
-[Träningsuppgifter, januari 2022](2022/brev_2022_01.pdf)
+Helmikuun 2022 [tehtävät](2022/kirje_2022_02.pdf) ja [ratkaisut](2022/ratkaisut_2022_02.pdf).<br> 
+[Träningsuppgifter, februari 2022](2022/brev_2022_02.pdf) och [losningar](2022/losningar_2022_02.pdf).
 
-Marraskuun 2021 [tehtävät](2021/kirje_2021_11.pdf). <br> 
-[Träningsuppgifter, november 2021](2021/brev_2021_11.pdf)<br>
-Malliratkaisut saatavilla kirjeeseen vastanneille.<br>
+Tammikuun 2022 [tehtävät](2022/kirje_2022_01.pdf) ja [ratkaisut](2022/ratkaisut_2022_01.pdf).<br> 
+[Träningsuppgifter, januari 2022](2022/brev_2022_01.pdf) och [losningar](2022/losningar_2022_01.pdf).
 
-Syyskuun 2021 [tehtävät](2021/kirje_2021_09.pdf). <br> 
-[Träningsuppgifter, september 2021](2021/brev_2021_09.pdf)<br>
-Malliratkaisut saatavilla kirjeeseen vastanneille.<br>
+Marraskuun 2021 [tehtävät](2021/kirje_2021_11.pdf) ja [ratkaisut](2021/ratkaisut_2021_11.pdf). <br> 
+[Träningsuppgifter, november 2021](2021/brev_2021_11.pdf) och [losningar](2021/losningar_2021_11.pdf)<br>
+
+Syyskuun 2021 [tehtävät](2021/kirje_2021_09.pdf) ja [ratkaisut](2021/ratkaisut_2021_09.pdf). <br> 
+[Träningsuppgifter, september 2021](2021/brev_2021_09.pdf) och [lösningar](2021/losningar_2021_09.pdf)<br>
 
 Kesän 2021 [tehtävät](2021/kirje_2021_06.pdf).
 
