@@ -23,5 +23,12 @@
     "csv-parse": "^4.16.0",
     "js-yaml": "^3.14.1",
     "sitemap": "^7.1.0"
+  },
+  "overrides": {
+    "@11ty/eleventy": {
+      "browser-sync": {
+        "portscanner": "2.2.0"
+      }
+    }
   }
 }
