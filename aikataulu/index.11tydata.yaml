@@ -3,33 +3,31 @@ aikataulu:
 - pvm: "2022"
   tapahtuma: "Kevät ja kesä"
   otsikko: true
-- pvm: "14.&ndash;16.1. (viikko 2)"
-  tapahtuma: >-
-    Valmennus&shy;viikon&shy;vaihde etänä
-- pvm: "21.&ndash;22.1."
-  tapahtuma: "[MAOLin loppu&shy;kilpailut](https://maol.fi/neljan-tieteen-kisat/)"
-- pvm: "n. helmi-huhtikuussa"
-  tapahtuma: "[Seitsemäs&shy;luokkalaisten alueel&shy;linen matematiikka&shy;kilpailu](/seiskat/) Helsingissä, Oulussa, Sata&shy;kunnassa ja Turussa"
-- pvm: "25.&ndash;27.2. (viikko 8)"
-  tapahtuma: >-
-    Valmennus&shy;viikon&shy;vaihde etänä
-- tapahtuma: "Pohjois&shy;mainen matematiikka&shy;kilpailu kutsutuille omassa koulussa"
-  pvm: "4.4."
-- tapahtuma: "[Euroopan tyttöjen matematiikka&shy;olympialaiset <abbr>EGMO</abbr> Egerissä, Unkarissa](https://egmo2022.hu/)"
-  pvm: "6.&ndash;12.4."
-- pvm: "n. 7.&ndash;9.4. (viikko 14)"
-  tapahtuma: "~~Valmennus&shy;viikon&shy;vaihde Päivölässä tai etänä~~ PERUUTETTU"
-- pvm: "29.&ndash;30.4. (vappu&shy;aatto ja aaton&shy;aatto)"
+- pvm: "29.&ndash;30.4."
   tapahtuma: >-
     Lyhyt valmennus&shy;viikon&shy;vaihde Päivölässä:
     <a href="https://www.paivola.fi/fi/course/422">ilmoittautuminen</a>
 - tapahtuma: "Olympia&shy;joukkueen valinta- ja valmennusleiri"
-  pvm: "n. touko- tai kesä&shy;kuussa"
-- tapahtuma: "Olympia&shy;joukkueen yhteis&shy;pohjois&shy;mainen valmennus&shy;leiri Sorøssa, Tanskassa"
-  pvm: "olympiamatkan aluksi"
+  pvm: "12.&ndash;15.5."
+- tapahtuma: "[Olympia&shy;joukkueen yhteis&shy;pohjois&shy;mainen valmennus&shy;leiri Sorøssa, Tanskassa](https://georgmohr.dk/soroe.html)"
+  pvm: "4.&ndash;9.7."
 - tapahtuma: "[63. Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr> Oslossa](https://www.imo2022.org/)"
   pvm: "6.&ndash;16.7."
+- pvm: "2022"
+  tapahtuma: "Syksy"
+  otsikko: true
+- pvm: "noin viikko 36"
+  tapahtuma: "Valmennusviikonloppu"
+- pvm: "syksyllä"
+  tapahtuma: "[MAOLin matematiikkakilpailujen alkukilpailut](https://maol.fi/neljan-tieteen-kisat/)"
+- pvm: "noin viikko 42"
+  tapahtuma: "Valmennusviikonloppu"
+- pvm: "marraskuussa"
+  tapahtuma: "Baltian tie -joukkuekilpailu Trondheimissa, Norjassa"
+- pvm: "noin viikko 48"
+  tapahtuma: "Valmennusviikonloppu"
 
+  
 scripts_old: >-
     <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
     <script type="text/javascript">
@@ -78,3 +76,22 @@ vanhoja:
   tapahtuma: "[Baltian tie -joukkuekilpailu Reykjavikissa](https://sites.google.com/view/balticway2021/home) - huomaa [Islannin matkustusrajoitukset](https://www.covid.is/sub-categories/vaccination-and-antibodies), joiden takia joukkueeseen voidaan valita vain ajoissa rokotettuja tai Covid-19-taudin sairastaneita"
 - pvm: "3.&ndash;5.12. (viikko 48)"
   tapahtuma: "Valmennusviikonloppu ~~Päivölässä~~ **ETÄNÄ**: [ilmoittautuminen](https://www.eventbrite.fi/e/matematiikan-valmennusviikonloppu-3-5122021-tickets-221506801807)"
+- pvm: "2022"
+  tapahtuma: "Kevät ja kesä"
+  otsikko: true
+- pvm: "14.&ndash;16.1. (viikko 2)"
+  tapahtuma: >-
+    Valmennus&shy;viikon&shy;vaihde etänä
+- pvm: "21.&ndash;22.1."
+  tapahtuma: "[MAOLin loppu&shy;kilpailut](https://maol.fi/neljan-tieteen-kisat/)"
+- pvm: "n. helmi-huhtikuussa"
+  tapahtuma: "[Seitsemäs&shy;luokkalaisten alueel&shy;linen matematiikka&shy;kilpailu](/seiskat/) Helsingissä, Oulussa, Sata&shy;kunnassa ja Turussa"
+- pvm: "25.&ndash;27.2. (viikko 8)"
+  tapahtuma: >-
+    Valmennus&shy;viikon&shy;vaihde etänä
+- tapahtuma: "Pohjois&shy;mainen matematiikka&shy;kilpailu kutsutuille omassa koulussa"
+  pvm: "4.4."
+- tapahtuma: "[Euroopan tyttöjen matematiikka&shy;olympialaiset <abbr>EGMO</abbr> Egerissä, Unkarissa](https://egmo2022.hu/)"
+  pvm: "6.&ndash;12.4."
+- pvm: "n. 7.&ndash;9.4. (viikko 14)"
+  tapahtuma: "~~Valmennus&shy;viikon&shy;vaihde Päivölässä tai etänä~~ PERUUTETTU"
