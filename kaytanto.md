@@ -90,6 +90,7 @@ Lue lisää leirin käytännön järjestelyistä <a href="#kaytantoa">alta</a>.
 
 
 ## Yläkoululaisten kesäleiri
+**Leiriä ei järjestetä vuonna 2022 resurssipulasta johtuen.**
 
 Vuosittain kesäkuussa pidettävä *yläkoululaisten* nelipäiväinen *kesäleiri*
 on suunnattu niille, jotka olivat edeltävänä keväänä yläkoulussa.
