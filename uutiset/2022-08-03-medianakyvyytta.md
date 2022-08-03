@@ -7,4 +7,4 @@ Neea Palojärvi ja MTV Uutisaamussa valmentajamme Ville Uotila. Lähetykset ovat
 
 [Yle areena](https://areena.yle.fi/1-63156332)
 
-[MTV Katsomo, 1:26:14](https://www.mtv.fi/sarja/uutisaamu-33001003/keskiviikko-3-8-klo-625-1626387)
+[MTV Katsomo](https://www.mtv.fi/sarja/uutisaamu-33001003008/tiedeolympialaiset-ovat-ponnahduslauta-huippukoulutukseen-1638366)
