@@ -11,10 +11,12 @@ aikataulu:
   tapahtuma: "Valmennusviikonloppu"
 - pvm: "1.11."
   tapahtuma: "[MAOLin matematiikkakilpailujen alkukilpailut](https://maol.fi/neljan-tieteen-kisat/)"
-- pvm: "marraskuun alkupuoli"
+- pvm: "10.&ndash;14.11."
   tapahtuma: "Baltian tie -joukkuekilpailu Trondheimissa, Norjassa"
 - pvm: "2.&ndash;4.12. (viikko 48)"
   tapahtuma: "Valmennusviikonloppu"
+- pvm: "joulukuussa"
+  tapahtuma: "[European Mathematical Cup](https://emc.mnm.hr)"
 - pvm: "2023"
   tapahtuma: "Kevät ja kesä"
   otsikko: true
