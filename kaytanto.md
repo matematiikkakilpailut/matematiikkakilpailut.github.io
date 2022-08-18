@@ -43,36 +43,24 @@ valmennusviikonlopun aikataulusta.
 
 
 
-~~Valmennusviikonloput järjestetään Päivölän opistolla
+Valmennusviikonloput järjestetään Päivölän opistolla
 Päivölän matematiikkalinjan tiloissa ja seurassa. Viikonlopun
 ohjelma alkaa perjantaina klo 18:30 ja päättyy sunnuntaina
 noin klo 13:45. Tällöin ehtii Toijalasta noin 14:30 lähteviin
 juniin. Päivölän opisto perii valmennus­viikonloppuihin
 osallistuvilta täysihoito­maksun (70 euroa/viikonloppu), mutta opetus
-on muuten maksutonta.~~
+on muuten maksutonta.
 
-~~Lue lisää viikonlopun käytännön järjestelyistä <a href="#kaytantoa">alta</a>.~~
+Lue lisää viikonlopun käytännön järjestelyistä <a href="#kaytantoa">alta</a>.
 
-~~Valmennusviikonloppuun tulee ilmoittautua viimeistään **viikkoa**
+Valmennusviikonloppuun tulee ilmoittautua viimeistään **viikkoa**
 ennen [sähköisen lomakkeen](https://www.paivola.fi/fi/matematiikkakilpailuvalmennukseen-ilmoittautuminen/)
-kautta.~~
+kautta.
 
-Edeltävät kappaleet kuvaavat normaalia toimintaa, mutta
-pandemiaolosuhteissa opetus on siirtynyt verkkoon. Kun ei ole
-majoitustarvetta, ei tarvitse maksaa mitään, mutta omat laitteet
-tarvitaan: mieluiten jokin tietokone, mutta sellaisen puutteessa
-älypuhelin tai tabletti, jolla voi käyttää Zoomia.
-Ilmoittautuminen tapahtuu yleensä jollakin lomakkeella
-(katso esimerkiksi [viikon 8/2021 ohjeita](/aikataulu/2021W08/))
-eikä sille ole varsinaista aikarajaa.
-
-Ilmoittautuminen on sikäli välttämätöntä, että Zoom-linkit lähetetään
-vain ilmoittautuneille.  Niitä ei voi julkaista netissä, koska ne
-houkuttelevat häiriköitä.  Saattaa myös olla, että jossakin
-opiskelijoiden keskinäisellä keskustelukanavalla jaetaan linkkejä,
-mutta ainakin joskus on käynyt niin, että on jaettu linkki mutta ei
-siihen liittyvää muuta ohjetta.
-
+Syksystä 2022 alkaen valmennus&shy;viikon&shy;loput pyritään jälleen pitämään
+lähiopetuksena Päivölän opistolla. Etäosallistumis&shy;mahdollisuus yritetään
+myös järjestää niille, jotka eivät esimerkiksi sairastumisen takia pysty
+tulemaan paikalle.
 
 ## Olympiajoukkueen valinta- ja valmennusviikko
 
