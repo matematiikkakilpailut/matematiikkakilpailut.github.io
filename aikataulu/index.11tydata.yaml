@@ -7,17 +7,20 @@ aikataulu:
   tapahtuma: >-
     Valmennusviikonloppu, ohjelmassa geometriaa, algebraa, lukuteoriaa ja Baltian tie -kilpailun
     valintakoe.
-    <a href="https://www.paivola.fi/fi/course/428"><button type="button" class="btn btn-primary btn-sm">Ilmoittaudu Päivölään</button></a>
 - pvm: "14.10."
   tapahtuma: "[Iranin geometriaolympialaiset <abbr>IGO</abbr>](https://igo-official.ir) Päivölässä"
 - pvm: "21.&ndash;23.10. (viikko 42)"
-  tapahtuma: "Valmennusviikonloppu"
+  tapahtuma: >-
+    Valmennusviikonloppu.
+    <a href="https://www.paivola.fi/fi/course/429">Ilmoittaudu Päivölään</a>
 - pvm: "1.11."
   tapahtuma: "[MAOLin matematiikkakilpailujen alkukilpailut](https://maol.fi/neljan-tieteen-kisat/)"
 - pvm: "10.&ndash;14.11."
   tapahtuma: "Baltian tie -joukkuekilpailu Tromssassa, Norjassa"
 - pvm: "2.&ndash;4.12. (viikko 48)"
-  tapahtuma: "Valmennusviikonloppu"
+  tapahtuma: >-
+    Valmennusviikonloppu.
+    <a href="https://www.paivola.fi/fi/course/430">Ilmoittaudu Päivölään</a>
 - pvm: "joulukuussa"
   tapahtuma: "[European Mathematical Cup](https://emc.mnm.hr)"
 - pvm: "2023"
