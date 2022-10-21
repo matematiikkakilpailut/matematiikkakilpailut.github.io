@@ -27,6 +27,8 @@ voi saada opetusta ja vinkkejä.
     helpompia kuin lukiolaiskilpailujen tehtävät.
 *   [Kenguru-kilpailun tehtäviä](https://www.mayk.fi/tietoa-meista/kenguru/vanhoja-kilpailuja-suomeksi/)
     on monella tasolla alakoulusta lukioon.
+*   **Uutta:** [Kilpamatematiikan peruskurssi](https://kurssi.matematiikkakilpailut.fi) sopii esimerkiksi
+    MAOLin kilpailuun valmistautumiseen.
 
 ## <a name="muita"></a>Yleistä
 
