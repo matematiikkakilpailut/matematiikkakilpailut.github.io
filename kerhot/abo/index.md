@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Åbo Akademis matematikklubb
+title: Åbo Akademis matteakademi
 url: /kerhot/abo/
 eleventyNavigation:
   key: abo
@@ -10,32 +10,28 @@ eleventyNavigation:
 lang: sv-FI
 ---
 
-**Matteklubben är i full gång igen! :)**
+**Åbo Akademis Matteakademi**
 
-Välkommen till vår svenskspråkiga matematik­klubb, just du som går i åk 7-9 eller gymnasiet! Du kan delta per video­konferens (Zoom), så det spelar ingen roll var du bor. Du som bor i närheten av Åbo får väldigt gärna delta på plats Åbo Akademis utrymmen i [Aurum](https://goo.gl/maps/zhEhjtXCqMw8zhpZ8)!
+Välkommen till vår svenskspråkiga matematikklubb, just du som går i åk 7-9 eller gymnasiet! Du som bor i närheten av Åbo får väldigt gärna delta på plats Åbo Akademis utrymmen i [Aurum](https://goo.gl/maps/zhEhjtXCqMw8zhpZ8)! Du som går i gymnasiet kan delta i Discord, och då spelar det förstås ingen roll var du bor.
 
-I klubben får du bekanta dig med olika områden av matematikens fantastiska värld. Vi erbjuder roligt mattepyssel åt dig, som vill ha mera och annorlunda matematik än det som undervisas i skolan. Samtidigt kommer du i kontakt med andra matematikintresserade! 
+I matteakademin får du bekanta dig med olika områden av matematikens fantastiska värld. Vi erbjuder roligt mattepyssel åt dig, som vill ha mera och annorlunda matematik än det som undervisas i skolan. Samtidigt kommer du i kontakt med andra matematikintresserade! 
 
-Uppgifterna kräver inte så mycket förkunskaper, utan de handlar mera om logiskt tänkande och kreativ problem­lösning. Nyfikenhet och vilja att fundera på matematiska problem är alltså viktigare än att du kan allt från förut. Det finns allt från ganska lätta till mycket utmanande uppgifter att välja bland. 
+Uppgifterna kräver inte så mycket förkunskaper, utan de handlar mera om logiskt tänkande och kreativ problemlösning. Nyfikenhet och vilja att fundera på matematiska problem är alltså viktigare än att du kan allt från förut. Det finns allt från ganska lätta till mycket utmanande uppgifter att välja bland. Matteakademin ger bra träning för den som vill delta i olika matematiktävlingar, men det går lika bra att vara med utan att tävla, bara för att matematik är så roligt!
 
-Klubben ger bra träning för den som vill delta i olika matematiktävlingar, men det går lika bra att vara med utan att tävla, bara för att matematik är så roligt! Klubben träffas ungefär varannan vecka. 
-
-[Här finns en liten film](https://panopto.abo.fi/Panopto/Pages/Viewer.aspx?id=4336b5ea-89b2-44c8-8e46-ad2700e11f33) med Mikael från våren 2021, då klubben drog igång. (Vissa detaljer i filmen stämmer inte längre.) [Här finns en artikel](https://dimensiolehti.fi/en-ny-matematikklubb-for-hela-svenskfinland/) där du också kan bekanta dig med klubben. Kanske du är intresserad av [några exempel](https://abomatematiker.wordpress.com/) på hurudant jobb man kan få om man har studerat matematik?
+[Här finns en artikel](https://dimensiolehti.fi/en-ny-matematikklubb-for-hela-svenskfinland/) där du också kan bekanta dig med klubben. Kanske du är intresserad av [några exempel](https://abomatematiker.wordpress.com/) på hurudant jobb man kan få om man har studerat matematik?
 
 **Schema:**<br>
-Nätklubbens nivå 1 (lättare): lördagar kl. 13:30-14:30 jämna veckor, i Zoom<br>
-Nätklubbens nivå 2: torsdagar 17:00-18:30 udda veckor, i Zoom <br>
-Träffarna i Aurum i Åbo: onsdagar 15:30-16:30/17:00 jämna veckor, i Aurum (båda grupperna börjar 15:30)
+Träffarna i Aurum i Åbo: tisdagar 15:15-16:45 jämna veckor <br>
+Discordgruppen: lördagar kl. 10:00-11:30 jämna veckor <br>
 
-**Meddela [här](https://survey.abo.fi/lomakkeet/14375/lomake.html) om du vill pröva på klubben**, eller hör av dig om du undrar över något -- **hoppas att vi ses!** 
+**Hör av dig om du undrar över något -- hoppas att vi ses!** 
 
-Klubbansvarig: Mikael Kurula, [mkurula(AT)abo.fi](mailto:mkurula(AT)abo.fi), 046 921 6792<br>
+Mikael Kurula, [mkurula(AT)abo.fi](mailto:mkurula(AT)abo.fi), 046 921 6792<br>
 
-Klubben ordnas av matematiken vid Åbo Akademi, i samarbete med [Finlands matematiska förening](https://matematiikkakilpailut.fi/), Harppi-projektet och MAOL.
+Matteakademin ordnas av matematiken vid Åbo Akademi, i samarbete med [Finlands matematiska förening](https://matematiikkakilpailut.fi/), Harppi-projektet och MAOL.
 
 <p align="center">
 <a href="https://www.abo.fi/amnen/matematik/" style="text-decoration:none" target="_blank"><img src="https://matematiikkakilpailut.fi/kerhot/abo/%C3%85A%20logo.svg" alt="ÅAs logo" height="100"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.mayk.fi/matematiikkalukio/kehitys/harppi-artikkelit/" style="text-decoration:none" target="_blank"><img src="https://matematiikkakilpailut.fi/kerhot/abo/Harppi%20logo.png" alt="Harppis logo" height="70"/></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://maol.fi/sv/framsida/" style="text-decoration:none" target="_blank"><img src="https://matematiikkakilpailut.fi/kerhot/abo/MAOL%20logo.svg" alt="MAOLs logo" height="70"/></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.oph.fi/sv" style="text-decoration:none" target="_blank"><img src="https://matematiikkakilpailut.fi/kerhot/abo/UBS%20finansierar.png" alt="Utbildningsstyrelens logo" height="80"/></a>
 </p>
