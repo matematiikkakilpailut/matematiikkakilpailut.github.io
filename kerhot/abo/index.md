@@ -10,8 +10,6 @@ eleventyNavigation:
 lang: sv-FI
 ---
 
-**Åbo Akademis Matteakademi**
-
 Välkommen till vår svenskspråkiga matematikklubb, just du som går i åk 7-9 eller gymnasiet! Du som bor i närheten av Åbo får väldigt gärna delta på plats Åbo Akademis utrymmen i [Aurum](https://goo.gl/maps/zhEhjtXCqMw8zhpZ8)! Du som går i gymnasiet kan delta i Discord, och då spelar det förstås ingen roll var du bor.
 
 I matteakademin får du bekanta dig med olika områden av matematikens fantastiska värld. Vi erbjuder roligt mattepyssel åt dig, som vill ha mera och annorlunda matematik än det som undervisas i skolan. Samtidigt kommer du i kontakt med andra matematikintresserade! 
