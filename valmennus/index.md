@@ -42,7 +42,10 @@ valintakokeissa.
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
-Lokakuun 2022 [tehtävät](2022/kirje_2022_10.pdf). <br>
+Joulun 2022 [tehtävät](2022/kirje_2022_12.pdf). <br>
+[Träningsuppgifter, julen 2022](2022/brev_2022_12.pdf)
+
+Lokakuun 2022 [tehtävät](2022/kirje_2022_10.pdf)  ja [ratkaisut](2022/ratkaisut_2022_10.pdf). <br>
 [Träningsuppgifter, oktober 2022](2022/brev_2022_10.pdf)
 
 Syyskuun 2022 [tehtävät](2022/kirje_2022_09.pdf) ja [ratkaisut](2022/ratkaisut_2022_09.pdf). <br>
