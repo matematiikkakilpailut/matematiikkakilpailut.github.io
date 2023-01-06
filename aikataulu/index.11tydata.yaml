@@ -27,7 +27,9 @@ aikataulu:
   tapahtuma: "Kevät ja kesä"
   otsikko: true
 - pvm: "13.&ndash;15.1. (viikko 2)"
-  tapahtuma: "Valmennusviikonloppu"
+  tapahtuma: >-
+    Valmennusviikonloppu.
+    <a href="https://www.paivola.fi/fi/course/435">Ilmoittaudu Päivölään</a>
 - pvm: "20.&ndash;21.1."
   tapahtuma: "[<abbr>MAOL</abbr>in loppukilpailut](https://maol.fi/neljan-tieteen-kisat/)"
 - pvm: "24.&ndash;26.2. (viikko 8)"
