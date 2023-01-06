@@ -1,35 +1,12 @@
 ---
 aikataulu:
-- pvm: "2022"
-  tapahtuma: "Syksy"
-  otsikko: true
-- pvm: "9.&ndash;11.9. (viikko 36)"
-  tapahtuma: >-
-    Valmennusviikonloppu, ohjelmassa geometriaa, algebraa, lukuteoriaa ja Baltian tie -kilpailun
-    valintakoe.
-- pvm: "14.10."
-  tapahtuma: "[Iranin geometriaolympialaiset <abbr>IGO</abbr>](https://igo-official.ir) Päivölässä"
-- pvm: "21.&ndash;23.10. (viikko 42)"
-  tapahtuma: >-
-    Valmennusviikonloppu.
-    <a href="https://www.paivola.fi/fi/course/429">Ilmoittaudu Päivölään</a>
-- pvm: "1.11."
-  tapahtuma: "[MAOLin matematiikkakilpailujen alkukilpailut](https://maol.fi/neljan-tieteen-kisat/)"
-- pvm: "10.&ndash;14.11."
-  tapahtuma: "Baltian tie -joukkuekilpailu Tromssassa, Norjassa"
-- pvm: "2.&ndash;4.12. (viikko 48)"
-  tapahtuma: >-
-    Valmennusviikonloppu.
-    <a href="https://www.paivola.fi/fi/course/430">Ilmoittaudu Päivölään</a>
-- pvm: "joulukuussa"
-  tapahtuma: "[European Mathematical Cup](https://emc.mnm.hr)"
 - pvm: "2023"
   tapahtuma: "Kevät ja kesä"
   otsikko: true
 - pvm: "13.&ndash;15.1. (viikko 2)"
   tapahtuma: >-
     Valmennusviikonloppu.
-    <a href="https://www.paivola.fi/fi/course/435">Ilmoittaudu Päivölään</a>
+    <a href="https://www.paivola.fi/fi/course/435"><button type="button" class="btn btn-primary btn-sm">Ilmoittaudu Päivölään</button></a>
 - pvm: "20.&ndash;21.1."
   tapahtuma: "[<abbr>MAOL</abbr>in loppukilpailut](https://maol.fi/neljan-tieteen-kisat/)"
 - pvm: "24.&ndash;26.2. (viikko 8)"
@@ -45,23 +22,6 @@ aikataulu:
 - pvm: "2.&ndash;13.7."
   tapahtuma: "[Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr> Chibassa, Japanissa](https://www.imo2023.org)"
 
-  
-scripts_old: >-
-    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-    <script type="text/javascript">
-        const orderComplete = function() {
-            const btn = document.getElementById('eventbrite-widget-modal-trigger-263580976797')
-            btn.disabled = true;
-            btn.innerHTML = 'olet ilmoittautunut';
-        }
-        window.EBWidgets.createWidget({
-            widgetType: 'checkout',
-            eventId: '263580976797',
-            modal: true,
-            modalTriggerElementId: 'eventbrite-widget-modal-trigger-263580976797',
-            onOrderComplete: orderComplete
-        });
-    </script>
 
 vanhoja:
 - pvm: "2022"
@@ -88,6 +48,30 @@ vanhoja:
   pvm: "10.&ndash;17.7."
 - tapahtuma: "[62. Kansainväliset matematiikkaolympialaiset <abbr>IMO</abbr> Pietarissa](http://www.imo-official.org/year_info.aspx?year=2021), Suomen joukkue Suomessa tai mahdollisesti Tanskassa yhdessä muiden Pohjoismaiden kanssa"
   pvm: "14.&ndash;24.7."
+- pvm: "2022"
+  tapahtuma: "Syksy"
+  otsikko: true
+- pvm: "9.&ndash;11.9. (viikko 36)"
+  tapahtuma: >-
+    Valmennusviikonloppu, ohjelmassa geometriaa, algebraa, lukuteoriaa ja Baltian tie -kilpailun
+    valintakoe.
+- pvm: "14.10."
+  tapahtuma: "[Iranin geometriaolympialaiset <abbr>IGO</abbr>](https://igo-official.ir) Päivölässä"
+- pvm: "21.&ndash;23.10. (viikko 42)"
+  tapahtuma: >-
+    Valmennusviikonloppu.
+    <a href="https://www.paivola.fi/fi/course/429">Ilmoittaudu Päivölään</a>
+- pvm: "1.11."
+  tapahtuma: "[MAOLin matematiikkakilpailujen alkukilpailut](https://maol.fi/neljan-tieteen-kisat/)"
+- pvm: "10.&ndash;14.11."
+  tapahtuma: "Baltian tie -joukkuekilpailu Tromssassa, Norjassa"
+- pvm: "2.&ndash;4.12. (viikko 48)"
+  tapahtuma: >-
+    Valmennusviikonloppu.
+    <a href="https://www.paivola.fi/fi/course/430">Ilmoittaudu Päivölään</a>
+- pvm: "joulukuussa"
+  tapahtuma: "[European Mathematical Cup](https://emc.mnm.hr)"
+
 - pvm: "2021"
   tapahtuma: "Syksy"
   otsikko: true
@@ -126,3 +110,21 @@ vanhoja:
   pvm: "6.&ndash;12.4."
 - pvm: "n. 7.&ndash;9.4. (viikko 14)"
   tapahtuma: "~~Valmennus&shy;viikon&shy;vaihde Päivölässä tai etänä~~ PERUUTETTU"
+
+  
+scripts_old: >-
+    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+    <script type="text/javascript">
+        const orderComplete = function() {
+            const btn = document.getElementById('eventbrite-widget-modal-trigger-263580976797')
+            btn.disabled = true;
+            btn.innerHTML = 'olet ilmoittautunut';
+        }
+        window.EBWidgets.createWidget({
+            widgetType: 'checkout',
+            eventId: '263580976797',
+            modal: true,
+            modalTriggerElementId: 'eventbrite-widget-modal-trigger-263580976797',
+            onOrderComplete: orderComplete
+        });
+    </script>
