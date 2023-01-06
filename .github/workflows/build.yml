@@ -7,13 +7,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Set up node
-        uses: actions/setup-node@v2.3.0
+        uses: actions/setup-node@v3
         with:
           always-auth: true
           cache: npm
-          node-version: 16
+          node-version: 18
       - name: Install requirements
         run: npm i
       - name: Run eleventy
@@ -24,7 +24,7 @@ jobs:
         run: cp uutis-redir/*.html _site/uutiset/
       - name: Deploy to GitHub Pages
         if: success()
-        uses: crazy-max/ghaction-github-pages@v2.5.0
+        uses: crazy-max/ghaction-github-pages@v3
         with:
           allow_empty_commit: false
           build_dir: _site
