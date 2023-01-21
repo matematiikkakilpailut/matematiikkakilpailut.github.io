@@ -42,11 +42,29 @@ valintakokeissa.
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
-Joulun 2022 [tehtävät](2022/kirje_2022_12.pdf). <br>
+Tammikuun 2023 [tehtävät](/valmennus/2023/kirje_2023_01.pdf).
+
+Joulun 2022 [tehtävät](2022/kirje_2022_12.pdf) ja [ratkaisut](2022/ratkaisut_2022_12.pdf). <br>
 [Träningsuppgifter, julen 2022](2022/brev_2022_12.pdf)
 
 Lokakuun 2022 [tehtävät](2022/kirje_2022_10.pdf)  ja [ratkaisut](2022/ratkaisut_2022_10.pdf). <br>
 [Träningsuppgifter, oktober 2022](2022/brev_2022_10.pdf)
+
+
+### <a name="perus"></a>Peruskoululaisten tehtävät
+
+Peruskoululaisten kirjevalmennustehtävät on nimensä mukaan suunnattu peruskoululaisille. Ensimmäinen tehtäväsarja on suunniteltu aloitettavan seitsemännen luokan loppupuolella, mutta tehtävien ratkomisen voi aloittaa myös aiemmin tai myöhemmin. Tehtävien  ratkaiseminen edellyttää usein perehtymistä koulumatematiikan ulkopuoliseen matematiikkaan ja niiden on tarkoitus olla haastavia. Ei siis kannata säikähtää tehtävien vaikeustasoa.
+
+Ensimmäinen tehtäväsarja löytyy alta. Kun olet palauttanut ratkaisujasi siihen, saat uuden tehtäväsarjan ratkottavaksi. Yhteensä peruskoululaisten kirjevalmennustehtäväsarjaan sisältyy 16 kirjettä, mutta halutessaan niistä voi tehdä vain osan. Valmennusvastauksista voidaan antaa palautetta ja uusi tehtäväsarja lähettää vain, jos mukana ovat yhteystiedot!
+
+Peruskoululaiset voivat halutessaan ratkoa myös haastavampia, kaikille koululaisille tarkoitettuja kirjevalmennustehtäviä (yllä).
+
+[Peruskoululaisten ensimmäinen valmennuskirje](2022/kirje1_internet.pdf)
+
+[På svenska](2022/brev1_internet.pdf)
+
+
+### Vanhempia tehtäväsarjoja ja ratkaisuja
 
 Syyskuun 2022 [tehtävät](2022/kirje_2022_09.pdf) ja [ratkaisut](2022/ratkaisut_2022_09.pdf). <br>
 [Träningsuppgifter, september 2022](2022/brev_2022_09.pdf)
@@ -78,21 +96,6 @@ Malliratkaisut saatavilla kirjeeseen vastanneille.<br>
 Tammikuun 2021 [tehtävät](2021/kirje_2021_01.pdf).
 [Monivalintojen palautus](https://tehtavat.matematiikkakilpailut.fi/2021-01/).<br>
 Malliratkaisut saatavilla kirjeeseen vastanneille.<br>
-
-### <a name="perus"></a>Peruskoululaisten tehtävät
-
-Peruskoululaisten kirjevalmennustehtävät on nimensä mukaan suunnattu peruskoululaisille. Ensimmäinen tehtäväsarja on suunniteltu aloitettavan seitsemännen luokan loppupuolella, mutta tehtävien ratkomisen voi aloittaa myös aiemmin tai myöhemmin. Tehtävien  ratkaiseminen edellyttää usein perehtymistä koulumatematiikan ulkopuoliseen matematiikkaan ja niiden on tarkoitus olla haastavia. Ei siis kannata säikähtää tehtävien vaikeustasoa.
-
-Ensimmäinen tehtäväsarja löytyy alta. Kun olet palauttanut ratkaisujasi siihen, saat uuden tehtäväsarjan ratkottavaksi. Yhteensä peruskoululaisten kirjevalmennustehtäväsarjaan sisältyy 16 kirjettä, mutta halutessaan niistä voi tehdä vain osan. Valmennusvastauksista voidaan antaa palautetta ja uusi tehtäväsarja lähettää vain, jos mukana ovat yhteystiedot!
-
-Peruskoululaiset voivat halutessaan ratkoa myös haastavampia, kaikille koululaisille tarkoitettuja kirjevalmennustehtäviä (yllä).
-
-[Peruskoululaisten ensimmäinen valmennuskirje](2022/kirje1_internet.pdf)
-
-[På svenska](2022/brev1_internet.pdf)
-
-
-### Vanhempia tehtäväsarjoja ja ratkaisuja
 
 Joulukuun 2020 [tehtävät](2020/kirje_2020_12.pdf). <br>
 Malliratkaisut saatavilla kirjeeseen vastanneille.<br>
