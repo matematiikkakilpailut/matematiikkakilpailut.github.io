@@ -20,7 +20,7 @@ ja toisiin kilpailijoihin. Vaikka kilpailu onkin nimensä mukaisesti tarkoitettu
 on joka vuosi mukana ollut vierailijoita myös muista maanosista, joten osallistujakunta on varsin kansainvälistä.
 Suomi osallistuu kilpailuun vuosittain enintään nelihenkisellä joukkueella.
 
-[Seuraavat](https://egmo2022.hu) Euroopan tyttöjen matematiikkaolympialaiset järjestetään 6.-12.4.2022 Egeriss&auml;, Unkarissa.
+[Seuraavat](https://egmo2023.dmfa.si/) Euroopan tyttöjen matematiikkaolympialaiset järjestetään 13.-9.4.2023 Sloveniassa.
 
 ## Menneet kilpailut
 
