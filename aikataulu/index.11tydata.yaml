@@ -10,8 +10,10 @@ aikataulu:
 - pvm: "20.&ndash;21.1."
   tapahtuma: "[<abbr>MAOL</abbr>in loppukilpailut](https://maol.fi/neljan-tieteen-kisat/)"
 - pvm: "24.&ndash;26.2. (viikko 8)"
-  tapahtuma: "Valmennusviikonloppu"
-- pvm: "noin viikko 14"
+  tapahtuma: >-
+    Valmennusviikonloppu.
+    <a href="https://www.paivola.fi/fi/course/451">Ilmoittaudu Päivölään</a>
+- pvm: "15.&ndash;17.4. (viikko 15)"
   tapahtuma: "Valmennusviikonloppu"
 - pvm: "noin huhtikuun alku"
   tapahtuma: "[Pohjois&shy;mainen matematiikka&shy;kilpailu](https://georgmohr.dk/nmcperm/) kutsutuille omassa koulussa"
