@@ -10,7 +10,7 @@ eleventyNavigation:
 lang: sv-FI
 ---
 
-Välkommen till vår svenskspråkiga matematikklubb, just du som går i åk 7-9 eller gymnasiet! Du som bor i närheten av Åbo får väldigt gärna delta på plats Åbo Akademis utrymmen i [Aurum](https://goo.gl/maps/zhEhjtXCqMw8zhpZ8)! Du som går i gymnasiet kan delta i Discord, och då spelar det förstås ingen roll var du bor.
+Välkommen till vår svenskspråkiga matematikklubb, just du som går i åk 7-9 eller gymnasiet! Du som bor i närheten av Åbo får väldigt gärna delta på plats Åbo Akademis utrymmen i [Aurum](https://goo.gl/maps/zhEhjtXCqMw8zhpZ8)! Du som går i gymnasiet kan också delta via Discord, och då spelar det förstås ingen roll var du bor.
 
 I matteakademin får du bekanta dig med olika områden av matematikens fantastiska värld. Vi erbjuder roligt mattepyssel åt dig, som vill ha mera och annorlunda matematik än det som undervisas i skolan. Samtidigt kommer du i kontakt med andra matematikintresserade! 
 
@@ -21,8 +21,9 @@ Uppgifterna kräver inte så mycket förkunskaper, utan de handlar mera om logis
 **Schema:**<br>
 Träffarna i Aurum i Åbo: tisdagar 15:15-16:45 jämna veckor <br>
 Discordgruppen: lördagar kl. 10:00-11:30 jämna veckor <br>
+(Ibland avviker vi från de här tiderna.)<br>
 
-**Hör av dig om du undrar över något -- hoppas att vi ses!** 
+**Hör av dig om du vill komma med eller undrar över något -- hoppas att vi ses!** 
 
 Mikael Kurula, [mkurula(AT)abo.fi](mailto:mkurula(AT)abo.fi), 046 921 6792<br>
 
