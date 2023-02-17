@@ -19,9 +19,9 @@ Uppgifterna kräver inte så mycket förkunskaper, utan de handlar mera om logis
 [Här finns en artikel](https://dimensiolehti.fi/en-ny-matematikklubb-for-hela-svenskfinland/) där du också kan bekanta dig med klubben. Kanske du är intresserad av [några exempel](https://abomatematiker.wordpress.com/) på hurudant jobb man kan få om man har studerat matematik?
 
 **Schema:**<br>
-Träffarna i Aurum i Åbo: fredagar 15:15-16:45 följande datum: 3.3, 24.3, 7.4, 21.4, 5.5, 19.5 <br>
-Discordgruppen: lördagar kl. 10:00-11:30 följande datum 11.3, 25.3, 8.4, 22.4, 6.5, 20.5 <br>
-(Vissa träffar blir kanske avbokade.)<br>
+Träffarna i Aurum i Åbo: kl. 15:15-16:45 fredagarna 3.3, 24.3, 7.4, 21.4, 5.5, 19.5 <br>
+Discordgruppen: kl. 10:00-11:30 lördagarna 11.3, 25.3, 8.4, 22.4, 6.5, 20.5 <br>
+(Vissa av träffarna blir kanske avbokade.)<br>
 
 **Hör av dig om du vill komma med eller undrar över något -- hoppas att vi ses!** 
 
