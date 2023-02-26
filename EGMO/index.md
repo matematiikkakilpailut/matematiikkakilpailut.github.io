@@ -20,7 +20,7 @@ ja toisiin kilpailijoihin. Vaikka kilpailu onkin nimensä mukaisesti tarkoitettu
 on joka vuosi mukana ollut vierailijoita myös muista maanosista, joten osallistujakunta on varsin kansainvälistä.
 Suomi osallistuu kilpailuun vuosittain enintään nelihenkisellä joukkueella.
 
-[Seuraavat](https://egmo2023.dmfa.si/) Euroopan tyttöjen matematiikkaolympialaiset järjestetään 13.-9.4.2023 Sloveniassa.
+[Seuraavat](https://egmo2023.dmfa.si/) Euroopan tyttöjen matematiikkaolympialaiset järjestetään 13.-19.4.2023 Sloveniassa.
 
 ## Menneet kilpailut
 
