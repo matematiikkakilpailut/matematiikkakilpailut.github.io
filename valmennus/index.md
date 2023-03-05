@@ -42,14 +42,15 @@ valintakokeissa.
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
-Tammikuun 2023 [tehtävät](/valmennus/2023/kirje_2023_01.pdf). <br>
+Helmikuun 2023 [tehtävät](/valmennus/2023/kirje_2023_02.pdf). <br>
+[Träningsuppgifter, februari 2022](2023/brev_2023_02.pdf)
+
+Tammikuun 2023 [tehtävät](/valmennus/2023/kirje_2023_01.pdf) ja [ratkaisut](2023/ratkaisut_2023_01.pdf). <br>
 [Träningsuppgifter, januari 2022](2023/brev_2023_01.pdf)
 
 Joulun 2022 [tehtävät](2022/kirje_2022_12.pdf) ja [ratkaisut](2022/ratkaisut_2022_12.pdf). <br>
 [Träningsuppgifter, julen 2022](2022/brev_2022_12.pdf)
 
-Lokakuun 2022 [tehtävät](2022/kirje_2022_10.pdf)  ja [ratkaisut](2022/ratkaisut_2022_10.pdf). <br>
-[Träningsuppgifter, oktober 2022](2022/brev_2022_10.pdf)
 
 
 ### <a name="perus"></a>Peruskoululaisten tehtävät
@@ -66,6 +67,9 @@ Peruskoululaiset voivat halutessaan ratkoa myös haastavampia, kaikille koululai
 
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
+
+Lokakuun 2022 [tehtävät](2022/kirje_2022_10.pdf)  ja [ratkaisut](2022/ratkaisut_2022_10.pdf). <br>
+[Träningsuppgifter, oktober 2022](2022/brev_2022_10.pdf)
 
 Syyskuun 2022 [tehtävät](2022/kirje_2022_09.pdf) ja [ratkaisut](2022/ratkaisut_2022_09.pdf). <br>
 [Träningsuppgifter, september 2022](2022/brev_2022_09.pdf)
