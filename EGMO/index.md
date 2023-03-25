@@ -24,7 +24,7 @@ Suomi osallistuu kilpailuun vuosittain enintään nelihenkisellä joukkueella.
 
 ## Menneet kilpailut
 
-Lue kilpailijoiden ja joukkueenjohdon mietteitä kilpailusta [Dimensio-lehdestä](https://www.dimensiolehti.fi/mika-on-egmo-ja-mita-siella-tehdaan/)!
+Lue kilpailijoiden ja joukkueenjohdon mietteitä kilpailusta [Dimensio-lehdestä](https://dimensiolehti.fi/?s=egmo)!
 
 <div class="list-group">
 {% for k in kilpailut %}
