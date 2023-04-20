@@ -42,7 +42,9 @@ valintakokeissa.
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
-Helmikuun 2023 [tehtävät](/valmennus/2023/kirje_2023_02.pdf). <br>
+Huhtikuun 2023 [tehtävät](/valmennus/2023/kirje_2023_04.pdf). 
+
+Helmikuun 2023 [tehtävät](/valmennus/2023/kirje_2023_02.pdf) ja [ratkaisut](2023/ratkaisut_2023_02.pdf). <br>
 [Träningsuppgifter, februari 2022](2023/brev_2023_02.pdf)
 
 Tammikuun 2023 [tehtävät](/valmennus/2023/kirje_2023_01.pdf) ja [ratkaisut](2023/ratkaisut_2023_01.pdf). <br>
