@@ -1,5 +1,5 @@
 ---
-title: Helmikuun valmennuskirje julkaistu
+title: Huhtikuun valmennuskirje julkaistu
 ---
 
 Huhtikuun 2023 [valmennuskirje](/valmennus/2023/kirje_2023_04.pdf) on julkaistu.
