@@ -3,6 +3,40 @@ aikataulu:
 - pvm: "2023"
   tapahtuma: "Kevät ja kesä"
   otsikko: true
+- pvm: "8.-13.5."
+  tapahtuma: "Olympia&shy;joukkueen valinta- ja valmennusleiri Päivölän opistolla"
+- pvm: "kesäkuussa"
+  tapahtuma: "Valmennusleiri olympiajoukkueelle"
+- pvm: "29.6.&ndash;4.7."
+  tapahtuma: "[Olympia&shy;joukkueen yhteis&shy;pohjois&shy;mainen valmennus&shy;leiri Sorøssa, Tanskassa](https://georgmohr.dk/soroe.html)"
+- pvm: "2.&ndash;13.7."
+  tapahtuma: "[Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr> Chibassa, Japanissa](https://www.imo2023.org)"
+- pvm: "2023"
+  tapahtuma: "Syksy"
+  otsikko: true
+- pvm: "15.&ndash;17.9. (viikko 37)"
+  tapahtuma: Valmennusviikonloppu Päivölässä
+- pvm: "noin lokakuussa"
+  tapahtuma: >-
+    [Iranin geometriaolympialaiset <abbr>IGO</abbr>](https://igo-official.com/?lang=en)
+- pvm: "27.&ndash;29.10. (viikko 43)"
+  tapahtuma: Valmennusviikonloppu ja Baltian tie -joukkueen valinta Päivölässä
+- pvm: "27.10.&ndash;10.11."
+  tapahtuma: >-
+    [MAOLin matematiikkakilpailun alkukilpailu, peruskoulu](https://maol.fi/neljan-tieteen-kisat/)
+- pvm: "31.10."
+  tapahtuma: >-
+    [MAOLin matematiikkakilpailun alkukilpailu, lukio](https://maol.fi/neljan-tieteen-kisat/)
+- pvm: "noin joulukuussa"
+  tapahtuma: "[European Mathematical Cup](https://emc.mnm.hr)"
+- pvm: "8.&ndash;10.12. (viikko 49)"
+  tapahtuma: Valmennusviikonloppu Päivölässä
+
+
+vanhoja:
+- pvm: "2023"
+  tapahtuma: "Kevät ja kesä"
+  otsikko: true
 - pvm: "13.&ndash;15.1. (viikko 2)"
   tapahtuma: >-
     Valmennusviikonloppu.
@@ -25,17 +59,6 @@ aikataulu:
   tapahtuma: >-
     Valmennusviikonloppu ja Pythagoraan polku -joukkuekilpailu.
     <a href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2023-vk15">Ilmoittaudu Päivölään</a>
-- pvm: "8.-13.5."
-  tapahtuma: "Olympia&shy;joukkueen valinta- ja valmennusleiri Päivölän opistolla"
-- pvm: "kesäkuussa"
-  tapahtuma: "Valmennusleiri olympiajoukkueelle"
-- pvm: "29.6.&ndash;4.7."
-  tapahtuma: "[Olympia&shy;joukkueen yhteis&shy;pohjois&shy;mainen valmennus&shy;leiri Sorøssa, Tanskassa](https://georgmohr.dk/soroe.html)"
-- pvm: "2.&ndash;13.7."
-  tapahtuma: "[Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr> Chibassa, Japanissa](https://www.imo2023.org)"
-
-
-vanhoja:
 - pvm: "2022"
   tapahtuma: "Kevät ja kesä"
   otsikko: true
