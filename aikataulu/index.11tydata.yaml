@@ -16,9 +16,6 @@ aikataulu:
   otsikko: true
 - pvm: "15.&ndash;17.9. (viikko 37)"
   tapahtuma: Valmennusviikonloppu Päivölässä
-- pvm: "noin lokakuussa"
-  tapahtuma: >-
-    [Iranin geometriaolympialaiset <abbr>IGO</abbr>](https://igo-official.com/?lang=en)
 - pvm: "27.&ndash;29.10. (viikko 43)"
   tapahtuma: Valmennusviikonloppu ja Baltian tie -joukkueen valinta Päivölässä
 - pvm: "27.10.&ndash;10.11."
@@ -27,11 +24,19 @@ aikataulu:
 - pvm: "31.10."
   tapahtuma: >-
     [MAOLin matematiikkakilpailun alkukilpailu, lukio](https://maol.fi/neljan-tieteen-kisat/)
-- pvm: "noin joulukuussa"
-  tapahtuma: "[European Mathematical Cup](https://emc.mnm.hr)"
 - pvm: "8.&ndash;10.12. (viikko 49)"
   tapahtuma: Valmennusviikonloppu Päivölässä
 
+# ainoastaan otsikon "aikataulu" alla olevat tapahtumat otetaan mukaan sivulle
+# joten esim. "mahdollisia" tai "vanhoja" eivät näy vaan ovat mukana vain jotta
+# niitä voi tarvittaessa siirtää tai kopioida "aikataulu"-listaan
+  
+mahdollisia:
+- pvm: "noin lokakuussa"
+  tapahtuma: >-
+    [Iranin geometriaolympialaiset <abbr>IGO</abbr>](https://igo-official.com/?lang=en)
+- pvm: "noin joulukuussa"
+  tapahtuma: "[European Mathematical Cup](https://emc.mnm.hr)"
 
 vanhoja:
 - pvm: "2023"
