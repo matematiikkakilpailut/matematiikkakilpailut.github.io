@@ -17,18 +17,11 @@
   },
   "homepage": "https://github.com/matematiikkakilpailut/matematiikkakilpailut.github.io#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.1",
-    "@11ty/eleventy-navigation": "^0.3.2",
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-navigation": "^0.3.5",
     "@11ty/eleventy-plugin-rss": "^1.1.1",
-    "csv-parse": "^4.16.0",
-    "js-yaml": "^3.14.1",
-    "sitemap": "^7.1.0"
-  },
-  "overrides": {
-    "@11ty/eleventy": {
-      "browser-sync": {
-        "portscanner": "2.2.0"
-      }
-    }
+    "csv-parse": "^5.3.8",
+    "js-yaml": "^4.1.0",
+    "sitemap": "^7.1.1"
   }
 }
