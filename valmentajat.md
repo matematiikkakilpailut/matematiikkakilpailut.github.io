@@ -67,4 +67,4 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
 *  Jaakko Seppälä<br/>
    Filosofian maisteri, edustaja Pohjoismaisessa matematiikkakilpailussa 2007.
 *  Joni Teräväinen<br/> Filosofian tohtori, olympiaedustaja vuosina 2011, 2012 ja 2013.
-
+-->

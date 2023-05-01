@@ -50,19 +50,18 @@ löytyvät englanninkielisinä
 
 ## Menneet kilpailut
 
-<div class="list-group">
+{% macro f(val) %}{{ val | default('&mdash;', true) | markdownify | safe }}{% endmacro %}
+
+<div role="list">
 {% for k in kilpailut %}
-<div class="row list-group-item">
-<div class="col-xs-1 col-md-1">{% if k['vuosi'] | length %}{{ k['vuosi'] | markdownify | safe }}{% endif %}</div>
-<div class="col-xs-2 col-md-2">{% if k['paikka'] | length %}{{ k['paikka'] | markdownify | safe }}{% endif %}</div>
-<div class="col-xs-2 col-md-1">{% if k['sijoitus'] | length %}{{ k['sijoitus'] | markdownify | safe }}{% endif %}</div>
-<div class="col-xs-3 col-md-1">{% if k['tehtavat'] | length %}{{ k['tehtavat'] | markdownify | safe }}{% endif %}</div>
-<div class="col-xs-4 col-md-2">{% if k['ratkaisut'] | length %}{{ k['ratkaisut'] | markdownify | safe }}{% endif %}</div>
-<div class="col-xs-11 col-xs-offset-1 col-md-5 col-md-offset-0">{% if k['joukkue'] | length %}{{ k['joukkue'] | markdownify | safe }}{% endif %}</div>
+<div class="row flex-wrap mb-2" role="listitem">
+<div class="col-1 col-lg-1">{{ f(k['vuosi']     ) }}</div>
+<div class="col-2 col-lg-1">{{ f(k['paikka']    ) }}</div>
+<div class="col-3 col-lg-2">{{ f(k['sijoitus']  ) }}</div>
+<div class="col-2 col-lg-1">{{ f(k['tehtavat']  ) }}</div>
+<div class="col-4 col-lg-2">{{ f(k['ratkaisut'] ) }}</div>
+<div class="col-12 col-sm-10 col-lg-5 offset-sm-1 offset-lg-0">{{ f(k['joukkue']   ) }}</div>
 </div>
+{% if loop.index0 == 0 %}<hr>{% endif %}
 {% endfor %}
 </div>
-
-
-
-

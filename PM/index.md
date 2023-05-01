@@ -55,46 +55,28 @@ ladattavissa yhtenä tiedostona pdf-muodossa.
 
 Alla olevassa taulukossa on tietoa menneistä kilpailuista vuodesta 1995 lähtien.
 
-<div class="list-group">
-{%- set c = 'class="col-xs-3 col-sm-2 col-md-1"' %}
-<div class="row list-group-item">
-<div {{ c | safe }}><strong>Vuosi</strong></div>
-<div {{ c | safe }}><strong>Tehtävät</strong></div>
-<div {{ c | safe }}><strong>Ratkaisut</strong></div>
-<div {{ c | safe }}><strong>Tulokset</strong></div>
+{% macro f(val) %}
+{%- if val %}
+<a href="{{ val }}">pdf</a>
+{%- else %}
+&mdash;
+{%- endif %}
+{%- endmacro %}
+
+<div role="list">
+<div class="row flex-wrap mb-3" role="heading">
+<div class="col-3"><strong>Vuosi</strong></div>
+<div class="col-3"><strong>Tehtävät</strong></div>
+<div class="col-3"><strong>Ratkaisut</strong></div>
+<div class="col-3"><strong>Tulokset</strong></div>
 </div>
+<hr>
 {% for k in kilpailut %}
-<div class="row list-group-item">
-<div {{ c | safe }}>{{ k['vuosi'] }}</div>
-<div {{ c | safe }}>{% if k['tehtavat'] %}<a href="{{ k['tehtavat'] }}">pdf</a>{% endif %}</div>
-<div {{ c | safe }}>{% if k['ratkaisut'] %}<a href="{{ k['ratkaisut'] }}">pdf</a>{% endif %}</div>
-<div {{ c | safe }}>{% if k['tulokset'] %}<a href="{{ k['tulokset'] }}">pdf</a>{% endif %}</div>
-</div>
-{% endfor %}
-{#
-{% assign vt = "2008 2007 2006 2005" | split: " " %}
-{% for v in vt %}
-<div class="row list-group-item">
-<div {{ c }}>{{ v }}</div>
-<div {{ c }}><a href="{{ v }}/PM{{ v }}.ps">ps</a> <a href="{{ v }}/PM{{ v }}.pdf">pdf</a></div>
-<div {{ c }}><a href="{{ v }}/PM{{ v }}r.pdf">pdf</a></div>
-<div {{ c }}><a href="{{ v }}/PM{{ v }}tul.pdf">pdf</a></div>
-</div>
-{% endfor %}
-{% assign vt = "2004 2003 2002" | split: " " %}
-{% for v in vt %}
-<div class="row list-group-item">
-<div {{ c }}>{{ v }}</div>
-<div {{ c }}><a href="{{ v }}/PM{{ v }}.ps">ps</a> <a href="{{ v }}/PM{{ v }}.pdf">pdf</a></div>
-</div>
-{% endfor %}
-{% assign vt = "2001 2000 1999 1998 1997 1996 1995" | split: " " %}
-{% for v in vt %}
-<div class="row list-group-item">
-<div {{ c }}>{{ v }}</div>
-<div {{ c }}><a href="{{ v }}/PM{{ v }}.ps">ps</a> <a href="{{ v }}/PM{{ v }}.pdf">pdf</a></div>
-<div {{ c }}><a href="{{ v }}/PM{{ v }}r.ps">ps</a> <a href="{{ v }}/PM{{ v }}r.pdf">pdf</a></div>
+<div class="d-flex list-group-item" role="listitem">
+<div class="col-3">{{ k['vuosi'] }}</div>
+<div class="col-3">{{ f(k['tehtavat'] ) }}</div>
+<div class="col-3">{{ f(k['ratkaisut']) }}</div>
+<div class="col-3">{{ f(k['tulokset'] ) }}</div>
 </div>
 {% endfor %}
 </div>
-#}

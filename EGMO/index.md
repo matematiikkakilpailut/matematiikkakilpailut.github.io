@@ -20,21 +20,24 @@ ja toisiin kilpailijoihin. Vaikka kilpailu onkin nimensä mukaisesti tarkoitettu
 on joka vuosi mukana ollut vierailijoita myös muista maanosista, joten osallistujakunta on varsin kansainvälistä.
 Suomi osallistuu kilpailuun vuosittain enintään nelihenkisellä joukkueella.
 
-[Seuraavat](https://www.egmo.org/egmos/egmo13/) Euroopan tyttöjen matematiikkaolympialaiset järjestetään vuonna 2023 Georgiassa.
+[Seuraavat](https://www.egmo.org/egmos/egmo13/) Euroopan tyttöjen matematiikkaolympialaiset järjestetään vuonna 2024 Georgiassa.
 
 ## Menneet kilpailut
 
 Lue kilpailijoiden ja joukkueenjohdon mietteitä kilpailusta [Dimensio-lehdestä](https://dimensiolehti.fi/?s=egmo)!
 
-<div class="list-group">
+{% macro f(val) %}{{ val | default('&mdash;', true) | markdownify | safe }}{% endmacro %}
+
+<div role="list">
 {% for k in kilpailut %}
-<div class="row list-group-item">
-<div class="col-xs-1 col-sm-1">{{ k['vuosi'] | markdownify | safe }}</div>
-<div class="col-xs-2 col-sm-2">{{ k['paikka'] | markdownify | safe }}</div>
-<div class="col-xs-1">{{ k['tehtavat'] | markdownify | safe }}</div>
-<div class="col-xs-2 col-sm-2">{{ k['ratkaisut'] | markdownify | safe }}</div>
-<div class="col-xs-3 col-sm-3">{{ k['kertomus'] | markdownify | safe }}</div>  
-<div class="col-xs-3 col-sm-3">{{ k['edustajat'] | markdownify | safe }}</div>
+<div class="row flex-wrap mb-2" role="listitem">
+<div class="col-1 col-lg-1">{{ f(k['vuosi']) }}</div>
+<div class="col-3 col-lg-2">{{ f(k['paikka']) }}</div>
+<div class="col-2 col-lg-1">{{ f(k['tehtavat']) }}</div>
+<div class="col-3 col-lg-2">{{ f(k['ratkaisut']) }}</div>
+<div class="col-3 col-lg-1">{{ f(k['kertomus']) }}</div>
+<div class="col-12 col-sm-11 offset-sm-1 col-lg-4">{{ f(k['edustajat']) }}</div>
 </div>
+{%- if loop.index0 == 0 %}<hr>{% endif %}
 {% endfor %}
 </div>

@@ -1,50 +1,51 @@
-<nav class="navbar navbar-default">
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
+<nav class="navbar navbar-expand-md navbar-dark bg-primary">
+  <div class="container-fluid flex-row-reverse">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
-  </div>
-
-  <div class="collapse navbar-collapse" id="navbar-collapse">
-    <div class="container-fluid">
-      <ul class="nav navbar-nav nav-pills">
-        {%- set navPages = collections.all | eleventyNavigation %}
-        {%- set active = []                                     %}
-        {%- set bottomrow = false                               %}
-        {%- for top in navPages                                 %}
-        {%-   if top.url == page.url                            %}
-        {%-     set active = [top.url]                          %}
-        {%-     set bottomrow = top.children                    %}
-        {%-   else                                              %}
-        {%-     for bottom in top.children                      %}
-        {%-       if bottom.url == page.url                     %}
-        {%-         set active = [top.url, bottom.url]          %}
-        {%-         set bottomrow = top.children                %}
-        {%-       endif                                         %}
-        {%-     endfor                                          %}
-        {%-   endif                                             %}
-        {%- endfor                                              %}
-        {%- for entry in navPages                               %}
-        <li{% if entry.url in active %} class="active"{% endif %}>
-          <a{% if entry.url in active %} class="active"{% endif %}
+    {%- set navPages = collections.all | eleventyNavigation %}
+    {%- set active = []                                     %}
+    {%- set bottomrow = false                               %}
+    {%- for top in navPages                                 %}
+    {%-   if top.url == page.url                            %}
+    {%-     set active = [top.url]                          %}
+    {%-     set bottomrow = top.children                    %}
+    {%-   else                                              %}
+    {%-     for bottom in top.children                      %}
+    {%-       if bottom.url == page.url                     %}
+    {%-         set active = [top.url, bottom.url]          %}
+    {%-         set bottomrow = top.children                %}
+    {%-       endif                                         %}
+    {%-     endfor                                          %}
+    {%-   endif                                             %}
+    {%- endfor                                              %}
+    <div class="collapse navbar-collapse flex-column align-items-start" id="navbar-collapse">
+      <div class="row"><div class="col-12">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          {%- for entry in navPages %}
+          {%-  set isActive = entry.url in active %}
+          <li class="nav-item">
+            <a class="nav-link{% if isActive %} active{% endif%}"
+               {% if isActive %} aria-current="page"{% endif %}
                href="{{ entry.url | url }}">{{ entry.title }}</a>
-        </li>
-        {%- endfor %}
-      </ul>
+          </li>
+          {%- endfor %}
+        </ul>
+      </div></div>
       {%- if bottomrow %}
-      <div class="clearfix"></div>
-      <ul class="nav navbar-nav nav-pills">
-        {%- for entry in bottomrow %}
-        <li{% if entry.url in active %} class="active"{% endif %}>
-          <a{% if entry.url in active %} class="active"{% endif %}
-               href="{{ entry.url }}">{{ entry.title }}
-          </a>
-        </li>
-        {%- endfor %}
-      </ul>
+      <hr class="d-md-none">
+      <div class="row"><div class="col-12">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          {%- for entry in bottomrow %}
+          {%-  set isActive = entry.url in active %}
+          <li class="nav-item">
+            <a class="nav-link{% if isActive %} active{% endif %}"
+               {% if isActive %} aria-current="page"{% endif %}
+               href="{{ entry.url | url }}">{{ entry.title }}</a>
+          </li>
+          {%- endfor %}
+        </ul>
+      </div></div>
       {%- endif %}
     </div>
   </div>

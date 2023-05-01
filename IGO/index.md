@@ -22,14 +22,17 @@ Lisätietoa kilpailusta löytyy yllä mainitulta [kotisivulta](https://igo-offic
 
 Kilpailut vuodesta 2017 lähtien.
 
-<div class="list-group">
+{% macro f(text) %}{{ text | default('&mdash;', true) | markdownify | safe }}{% endmacro %}
+
+<div role="list">
 {% for k in data %}
-<div class="row list-group-item">
-<div class="col-xs-2 col-sm-1">{{ k['vuosi'] | markdownify | safe }}</div>
-<div class="col-xs-2">{{ k['tehtavat'] | markdownify | safe }}</div>
-<div class="col-xs-2 col-sm-3">{{ k['ratkaisut'] | markdownify | safe }}</div> 
-<div class="col-xs-4 col-sm-4">{{ k['menestys'] | markdownify | safe }}</div>
+{% set header = loop.index0 == 0 %}
+<div class="row flex-wrap mb-2" role="listitem">
+    <div class="col-2 col-sm-2">{{ f( k['vuosi'] ) }}</div>
+    <div class="col-5 col-sm-2">{{ f( k['tehtavat'] ) }}</div>
+    <div class="col-5 col-sm-2">{{ f( k['ratkaisut'] ) }}</div> 
+    <div class="col-12 col-sm-6">{{ f( k['menestys'] ) }}</div>
 </div>
+{%- if header %}<hr>{% endif %}
 {% endfor %}
 </div>
-
