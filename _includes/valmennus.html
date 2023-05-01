@@ -1,11 +1,14 @@
 ---
 layout: default
 ---
-<div class="page-header">
+<header class="display-4 pt-3 pb-3 mt-3 mb-1">
   <h1>{{ page.title }}</h1>
-</div>
-<div class="row">
+</header>
+<main class="row">
   <div class="col-xs-12">
      {{ content | replace('<a href="/valmennus', '<a rel="nofollow" href="/valmennus') | safe }}
   </div>
-</div>
+</main>
+{% if scripts %}
+{{ scripts | safe }}
+{% endif %}

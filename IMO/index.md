@@ -67,70 +67,6 @@ harjoitteluun. Vuosien 1995-2016 tehtävät ja ratkaisut voi ladata
 taulukko sisältää linkkejä eri vuosien tehtäviin ja niiden
 ratkaisuihin.
 
-{#
-
-### Joukkue
-
-Vuonna 2001 Suomea edustivat Anne-Maria Ernvall, Riikka Korte, Sampo
-Niskanen, Veli Peltola, Jarkko Pyy ja Tapio Rajala. Sampo Niskanen
-voitti pronssimitalin 13 pisteellä.
-
-Vuonna 2002 Suomea edustivat Miikka Heikkinen, Kaisa Matomäki, Markus
-Ojala, Veli Peltola, Olli-Pentti Saira ja Niko Vuokko. Vuokko, Ojala
-ja Peltola saavuttivat pronssimitalin.
-
-Vuonna 2003 Suomea edustivat Miikka Heikkinen, Markus Ojala, Kaisa
-Matomäki, Veli Peltola, Aleksi Saarela ja Niko Vuokko. Miikka
-Heikkinen sai pronssimitalin.
-
-Vuonna 2004 Suomea edustivat Lauri Ahlroth, Miika Nikula, Juho
-Pakarinen, Ville Pettersson, Juuso Takalainen ja Tuomas Tuomiranta.
-Lauri Ahlroth sai pronssimitalin.
-
-Vuonna 2005 Suomea edustivat Samu Alanko, Eemeli Blåsten, Sebastian
-Dumitrescu, Janne Kokkala, Ville Pettersson, ja Esa Vesalainen.
-Sebastian Dumitrscu ja Ville Pettersson saivat pronssimitalin.
-
-Vuonna 2006 Suomea edustivat Eemeli Blåsten, Sebastian Dumitrescu,
-Janne Kokkala, Ville Pettersson, Jukka Sireni ja Esa Vesalainen. Esa
-Vesalainen, Sebastian Dumitrescu, Ville Pettersson ja Jukka Sireni
-saivat pronssimitalin.
-
-Vuonna 2007 Suomea edustivat Sebastian Dumitrescu, Janne Junnila,
-Janne Korvenpää, Erno Niemenmaa, TomÃ¡s Soto ja Esa Vesalainen.
-Sebastian Dumitrescu sai hopeamitalin.
-
-Vuonna 2008 Suomea edustivat Sylvester Eriksson-Bique, Lauri Hitruhin,
-Janne Junnila, Jonatan Lehtonen, Heikki Pulkkinen ja Lasse Vekama.
-Sylvester Eriksson-Bique sai pronssimitalin.
-
-Vuonna 2009 Suomea edustivat Aleksis Koski, Konsta Lensu, Heikki
-Pulkkinen, Alexey Sofiev, Topi Talvitie ja Lasse Vekama. Aleksis
-Koski, Heikki Pulkkinen, Topi Talvitie ja Lasse Vekama saivat
-kunniamaininnan.
-
-Vuonna 2010 Suomea edustivat Olli Hirviniemi, Ilmari Kangasniemi,
-Dimitri Kirichenko, Aleksi Korpinen, Aleksis Koski ja Topi Talvitie.
-Aleksis Koski palkittiin pronssimitalilla ja Olli Hirviniemi, Ilmari
-Kangasniemi, Aleksi Korpinen sekä Topi Talvitie kunniamaininnalla.
-
-Vuonna 2011 Suomea edustivat Olli Hirviniemi, Jesse Jääsaari, Ilmari
-Kangasniemi, Dimitri Kirichenko, Joni Teräväinen ja Felix Vaura. Olli
-Hirviniemi palkittiin hopeamitalilla ja Ilmari Kangasniemi, Dimitri
-Kirichenko sekä Felix Vaura kunniamaininnalla.
-
-
-Vuonna 2014 Suomea edustivat Jere Huovinen, Mirjam Kauppila, Riku
-Laakkonen, Timo Takala, Ella Tamir ja Jakob Wartiovaara. Jakob
-Wartiovaara palkittiin pronssimitalilla, Riku Laakkonen ja Timo Takala
-kunniamaininnalla.
-
-Vuonna 2019 Suomea edustivat Juho Arala, Hermanni Huhtamäki, Akseli Jussinmäki, 
-Olli Järviniemi, Roope Salmi ja Nerissa Shakespeare. Järviniemi palkittiin 
-hopeamitalilla, Salmi pronssimitalilla sekä Arala ja Jussinmäki kunniamaininnoilla.
-
-#}
-
 ## Menneet kilpailut
 
 Lue olympialaisiin valmentautumisesta ja erityisesti vuoden
@@ -138,27 +74,19 @@ Lue olympialaisiin valmentautumisesta ja erityisesti vuoden
 
 Alla on tietoa menneistä kilpailuista vuodesta 1993 lähtien. 
 
-{#
-Seuraavan taulukon sarakkeessa "Suomen tulos" kerrotaan Suomen
-joukkueen yhteispisteet ja sijoitus muodossa **X p. (Y./Z.)**,
-missä X = pisteet, Y = sijaluku ja Z = joukkueiden lukumäärä. Lisäksi
-ilmoitetaan suomalaisten saamat mitalit. On muistettava, että pieni
-osa maista ei lähetä täyttä kuuden hengen joukkuetta, mikä heikentää
-hieman summien vertailukelpoisuutta ja siis sijaluvun mielekkyyttä.
-Joidenkin vuosien kohdalla taulukosta on linkkejä lisätietoihin.
-#}
-
-<div class="list-group">
+<div role="list">
 {% for k in kilpailut %}
-<div class="row kilpailut list-group-item">
-<div class="col-xs-2 col-sm-1">{% if k['vuosi'] != null %}{{ k['vuosi'] | markdownify | safe }}{% endif %}</div>
-<div class="col-xs-4 col-sm-2">{% if k['paikka'] != null %}{{ k['paikka'] | markdownify | safe }}{% endif %}</div>
-<div class="col-xs-6 col-sm-2">{% if k['sijoitus'] != null %}{{ k['sijoitus'] | markdownify | safe }}{% endif %}</div>
-<div class="clearfix visible-xs"></div>
-<div class="col-xs-4 col-xs-offset-2 col-sm-1 col-sm-offset-0">{% if k['tehtavat'] != null %}{{ k['tehtavat'] | markdownify | safe }}{% endif %}</div>
-<div class="col-xs-1">{% if k['ratkaisut'] != null %}{{ k['ratkaisut'] | markdownify | safe }}{% endif %}</div>
-<div class="col-xs-4 col-sm-2">{% if k['muuta'] != null %}{{ k['muuta'] | markdownify | safe }}{% endif %}</div>
-<div class="col-xs-4 col-sm-3">{{ k['edustajat'] | markdownify | safe }}</div>
+{% set header = loop.index0 == 0 %}
+{% macro f(k, name) %}{{ k[name] | default('&mdash;', true) | markdownify | safe }}{% endmacro %}
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">{{ f(k, 'vuosi') }}</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3">{{ f(k, 'paikka') }}</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">{{ f(k, 'tehtavat') }}</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">{{ f(k, 'ratkaisut') }}</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3">{{ f(k, 'sijoitus') }}</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">{{ f(k, 'muuta') }}</div>
+  <div class="col-12 col-lg-10 offset-lg-1">{{ f(k, 'edustajat') }}</div>
 </div>
+{% if header %}<hr>{% endif %}
 {% endfor %}
 </div>

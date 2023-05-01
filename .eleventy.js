@@ -15,7 +15,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addDataExtension("yaml", yaml.load);
   eleventyConfig.addFilter("markdownify", (x) => {
-    return md.render(x);
+    return md.renderInline(x);
   });
   eleventyConfig.setLibrary("md", md);
 

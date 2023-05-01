@@ -59,38 +59,41 @@ löytyy [MAOL:n kilpailusivuilta][maollukio].
 Lukion matematiikkakilpailun tehtäviä ja ratkaisuja muutamilta
 vuosilta löytyy pdf-muotoisina oheisesta taulukosta.
 
-<div class="list-group"></div>
-<div class="row list-group-item">
-<div class="col-xs-3 col-sm-2 col-md-1"><strong>Vuosi</strong></div>
-<div class="col-xs-3 col-sm-2 col-md-1"><strong>Tehtävät</strong></div>
-<div class="col-xs-6"><strong>Ratkaisut</strong></div>
-</div> 
+{% macro f(text) %}{{ text | d('&mdash;', true) | markdownify | safe }}{% endmacro %}
+
+<div role="list">
+<div class="row flex-wrap mb-3" role="heading">
+  <div class="col-4 col-md-3">{{ f("**Vuosi**") }}</div>
+  <div class="col-4 col-md-3">{{ f("**Tehtävät**") }}</div>
+  <div class="col-4 col-md-3">{{ f("**Ratkaisut**") }}</div>
+</div>
+<hr>
 {% for v in alkukilpailu %}
-<div class="row list-group-item">
-<div class="col-xs-3 col-sm-2 col-md-1">{{ v.vuosi }}</div>
-<div class="col-xs-3 col-sm-2 col-md-1"><a href="{{ v.tehtavat }}">pdf</a></div>
-<div class="col-xs-6"><a href="{{ v.ratkaisut }}">pdf</a></div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">{{ f(v['vuosi']) }}</div>
+  <div class="col-4 col-md-3"><a href="{{ f(v['tehtavat']) }}">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="{{ f(v['ratkaisut']) }}">pdf</a></div>
 </div>
 {% endfor %}
-
+</div>
 
 ### Loppukilpailun tehtäviä ja ratkaisuja
 
 Lukion matematiikkakilpailun loppukilpailu on järjestetty vuodesta
-1997 alkaen. Tässä tehtäviä ja ratkaisuja sekä PostScript- (lyh. ps)
-että pdf-muodossa seuraavan taulukon mukaisesti.
+1997 alkaen. Tässä tehtäviä ja ratkaisuja pdf-muodossa seuraavan taulukon mukaisesti.
 
-<div class="list-group">
-<div class="row list-group-item">
-<div class="col-xs-3 col-sm-2 col-md-1"><strong>Vuosi</strong></div>
-<div class="col-xs-3 col-sm-2 col-md-1"><strong>Tehtävät</strong></div>
-<div class="col-xs-6"><strong>Ratkaisut</strong></div>
+<div role="list">
+<div class="row flex-wrap mb-3" role="heading">
+  <div class="col-4 col-md-3">{{ f("**Vuosi**") }}</div>
+  <div class="col-4 col-md-3">{{ f("**Tehtävät**") }}</div>
+  <div class="col-4 col-md-3">{{ f("**Ratkaisut**") }}</div>
 </div>
+<hr>
 {% for v in loppukilpailu %}
-<div class="row list-group-item">
-<div class="col-xs-3 col-sm-2 col-md-1">{{ v.vuosi }}</div>
-<div class="col-xs-3 col-sm-2 col-md-1"><a href="{{ v.tehtavat }}">pdf</a></div>
-<div class="col-xs-6"><a href="{{ v.ratkaisut }}">pdf</a></div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">{{ f(v['vuosi']) }}</div>
+  <div class="col-4 col-md-3"><a href="{{ f(v['tehtavat']) }}">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="{{ f(v['ratkaisut']) }}">pdf</a></div>
 </div>
 {% endfor %}
-
+</div>
