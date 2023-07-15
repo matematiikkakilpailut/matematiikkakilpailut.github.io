@@ -43,11 +43,11 @@ valintakokeissa.
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
-Huhtikuun 2023 [tehtävät](/valmennus/2023/kirje_2023_04.pdf). 
-**Ratkaisuaikaa jatkettu 26.6. saakka!**
-<br>
+Kesän 2023 [tehtävät](2023/kirje_2023_07.pdf).<br>
+<span lang="sv">[Träningsuppgifter, sommaren 2023](2023/brev_2023_07.pdf).</span>
+
+Huhtikuun 2023 [tehtävät](2023/kirje_2023_04.pdf) ja [ratkaisut](2023/ratkaisut_2023_04.pdf).<br>
 <span lang="sv">[Träningsuppgifter, april 2023](2023/brev_2023_04.pdf).
-**Svarstiden har förlängts till den 26 juni!**</span>
 
 Helmikuun 2023 [tehtävät](/valmennus/2023/kirje_2023_02.pdf) ja [ratkaisut](2023/ratkaisut_2023_02.pdf). <br>
 <span lang="sv">[Träningsuppgifter, februari 2023](2023/brev_2023_02.pdf).</span>
