@@ -45,6 +45,8 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
 *  Louna Seppälä<br/>
    Filosofian tohtori, peruskoululaisten kirjevalmennus.
 *  [Jouni Seppänen][jks]<br/> Tekniikan tohtori, olympiaedustaja vuosina 1994 ja 1995.
+*  Anni Tapionlinna<br/>
+   Olympiaedustaja vuonna 2021.
 *  Ville Tilvis<br/>
    Helsingin matematiikkalukion linjanjohtaja, Harppi-projektin vetäjä.
 *  Ville Uotila<br/>
