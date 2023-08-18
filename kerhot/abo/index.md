@@ -10,7 +10,7 @@ eleventyNavigation:
 lang: sv-FI
 ---
 
-**Matteakademin är på paus tills vidare. Under tiden kan du läsa ÅA-matematikens grundkurser via ÅAs öppna universitet.**
+**Matteakademin är på paus tills vidare. Under tiden kan du läsa ÅA-matematikens grundkurser via [ÅAs öppna universitet](https://www.abo.fi/opu-amnen/matematik/).**
 
 Välkommen till vår svenskspråkiga matematikklubb, just du som går i åk 7-9 eller gymnasiet! Du som bor i närheten av Åbo får väldigt gärna delta på plats Åbo Akademis utrymmen i [Aurum](https://goo.gl/maps/zhEhjtXCqMw8zhpZ8)! Du som går i gymnasiet kan också delta via Discord, och då spelar det förstås ingen roll var du bor.
 
