@@ -10,6 +10,8 @@ eleventyNavigation:
 lang: sv-FI
 ---
 
+** Matteakademin är på paus tills vidare. Under tiden kan du läsa ÅA-matematikens grundkurser via ÅAs öppna universitet. **
+
 Välkommen till vår svenskspråkiga matematikklubb, just du som går i åk 7-9 eller gymnasiet! Du som bor i närheten av Åbo får väldigt gärna delta på plats Åbo Akademis utrymmen i [Aurum](https://goo.gl/maps/zhEhjtXCqMw8zhpZ8)! Du som går i gymnasiet kan också delta via Discord, och då spelar det förstås ingen roll var du bor.
 
 I matteakademin får du bekanta dig med olika områden av matematikens fantastiska värld. Vi erbjuder roligt mattepyssel åt dig, som vill ha mera och annorlunda matematik än det som undervisas i skolan. Samtidigt kommer du i kontakt med andra matematikintresserade! 
@@ -18,9 +20,7 @@ Uppgifterna kräver inte så mycket förkunskaper, utan de handlar mera om logis
 
 [Här finns en artikel](https://dimensiolehti.fi/en-ny-matematikklubb-for-hela-svenskfinland/) där du också kan bekanta dig med klubben. Kanske du är intresserad av [några exempel](https://abomatematiker.wordpress.com/) på hurudant jobb man kan få om man har studerat matematik?
 
-**Schema:** Matteakademin är nu på sommarpaus. <b>Ha en riktigt härlig sommar! 8)</b>
-
-**Hör av dig om du vill komma med eller undrar över något -- hoppas att vi ses!** 
+**Schema:**
 
 Mikael Kurula, [mkurula(AT)abo.fi](mailto:mkurula(AT)abo.fi), 046 921 6792<br>
 
