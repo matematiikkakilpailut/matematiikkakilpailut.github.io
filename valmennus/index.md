@@ -43,21 +43,11 @@ valintakokeissa.
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
-Kesän 2023 [tehtävät](2023/kirje_2023_07.pdf).<br>
+Syyskuun 2023 [tehtävät](2023/kirje_2023_09.pdf).<br>
+<span lang="sv">[Träningsuppgifter, september 2023](2023/brev_2023_09.pdf).</span>
+
+Kesän 2023 [tehtävät](2023/kirje_2023_07.pdf) ja [ratkaisut](2023/ratkaisut_2023_07.pdf).<br>
 <span lang="sv">[Träningsuppgifter, sommaren 2023](2023/brev_2023_07.pdf).</span>
-
-Huhtikuun 2023 [tehtävät](2023/kirje_2023_04.pdf) ja [ratkaisut](2023/ratkaisut_2023_04.pdf).<br>
-<span lang="sv">[Träningsuppgifter, april 2023](2023/brev_2023_04.pdf).
-
-Helmikuun 2023 [tehtävät](/valmennus/2023/kirje_2023_02.pdf) ja [ratkaisut](2023/ratkaisut_2023_02.pdf). <br>
-<span lang="sv">[Träningsuppgifter, februari 2023](2023/brev_2023_02.pdf).</span>
-
-Tammikuun 2023 [tehtävät](/valmennus/2023/kirje_2023_01.pdf) ja [ratkaisut](2023/ratkaisut_2023_01.pdf). <br>
-<span lang="sv">[Träningsuppgifter, januari 2023](2023/brev_2023_01.pdf).</span>
-
-Joulun 2022 [tehtävät](2022/kirje_2022_12.pdf) ja [ratkaisut](2022/ratkaisut_2022_12.pdf). <br>
-<span lang="sv">[Träningsuppgifter, julen 2022](2022/brev_2022_12.pdf)</span>
-
 
 
 ### <a name="perus"></a>Peruskoululaisten tehtävät
@@ -74,6 +64,18 @@ Peruskoululaiset voivat halutessaan ratkoa myös haastavampia, kaikille koululai
 
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
+
+Huhtikuun 2023 [tehtävät](2023/kirje_2023_04.pdf) ja [ratkaisut](2023/ratkaisut_2023_04.pdf).<br>
+<span lang="sv">[Träningsuppgifter, april 2023](2023/brev_2023_04.pdf).
+
+Helmikuun 2023 [tehtävät](/valmennus/2023/kirje_2023_02.pdf) ja [ratkaisut](2023/ratkaisut_2023_02.pdf). <br>
+<span lang="sv">[Träningsuppgifter, februari 2023](2023/brev_2023_02.pdf).</span>
+
+Tammikuun 2023 [tehtävät](/valmennus/2023/kirje_2023_01.pdf) ja [ratkaisut](2023/ratkaisut_2023_01.pdf). <br>
+<span lang="sv">[Träningsuppgifter, januari 2023](2023/brev_2023_01.pdf).</span>
+
+Joulun 2022 [tehtävät](2022/kirje_2022_12.pdf) ja [ratkaisut](2022/ratkaisut_2022_12.pdf). <br>
+<span lang="sv">[Träningsuppgifter, julen 2022](2022/brev_2022_12.pdf)</span>
 
 Lokakuun 2022 [tehtävät](2022/kirje_2022_10.pdf)  ja [ratkaisut](2022/ratkaisut_2022_10.pdf). <br>
 [Träningsuppgifter, oktober 2022](2022/brev_2022_10.pdf)
