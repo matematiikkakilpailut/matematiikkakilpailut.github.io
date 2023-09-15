@@ -8,14 +8,6 @@ eleventyNavigation:
   order: 30
 ---
 
-Matematiikan kilpavalmennuksen lisäksi ollaan aloittamassa
-yhteis­työssä yli­opistojen kanssa paikallista
-matematiikka­kerho­toimintaa. Kerhojen tiedot kerätään tänne.
+Helsingin yliopistolla järjestetään haastavaa matematiikkakerhoa, jossa käydään läpi olympiavalmennuksen aiheita. Materiaalit on tuotettu olympiavalmennuksen kerhoprojektissa vuoden 2021 aikana.
 
-Pandemian takia kerhot järjestetään etänä, joten huomaathan, että
-ainakin tällä hetkellä niihin voi osallistua mistä tahansa.
-
-- [Oulun yliopiston matematiikkakerho](oulu/)
-- [Itä-Suomen yliopiston matematiikkakerho](ita-suomi/)
-- [Helsingin yliopiston matematiikkakerho](helsinki/)
-- [Tampereen yliopiston matematiikkakerho](tampere/)
+Kerho kokoontuu tiistaisin klo 18-19:30.
