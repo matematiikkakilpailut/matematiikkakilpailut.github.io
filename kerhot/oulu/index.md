@@ -2,12 +2,12 @@
 layout: page
 title: Oulun yliopiston matematiikkakerho
 url: /kerhot/oulu/
-eleventyNavigation:
-  key: oulu
-  parent: kerhot
-  order: 1
-  title: Oulu
 ---
+
+**Vuosina 2021-2023 järjestettiin hankerahoituksella paikallisia matematiikkakerhoja. Tämä hankerahoitus on loppunut.**
+
+------
+
 **Hei!**
 
 Oulun yliopiston matematiikkakerho on suunnattu yläkoululaisille ja lukiolaisille, jotka haluavat 

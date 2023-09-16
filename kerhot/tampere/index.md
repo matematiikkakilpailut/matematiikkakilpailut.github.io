@@ -2,11 +2,6 @@
 layout: page
 title: Tampereen yliopiston matematiikkakerho
 url: /kerhot/tampere/
-eleventyNavigation:
-  key: tampere
-  parent: kerhot
-  order: 4
-  title: Tampere
 style: |
   #logopalkki {
      margin-top: 6ex;
@@ -16,6 +11,10 @@ style: |
      align-content: center;
   }
 ---
+
+**Vuosina 2021-2023 järjestettiin hankerahoituksella paikallisia matematiikkakerhoja. Tämä hankerahoitus on loppunut.**
+
+----------
 
 Moro!
 
