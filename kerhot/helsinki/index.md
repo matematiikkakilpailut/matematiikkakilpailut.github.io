@@ -2,11 +2,6 @@
 layout: page
 title: Helsingin yliopiston matematiikkakerho
 url: /kerhot/helsinki/
-eleventyNavigation:
-  key: helsinki
-  parent: kerhot
-  order: 3
-  title: Helsinki
 style: |
   #logopalkki {
      margin-top: 6ex;
@@ -16,6 +11,10 @@ style: |
      align-content: center;
   }
 ---
+
+**Vuosina 2021-2023 järjestettiin hankerahoituksella paikallisia matematiikkakerhoja. Tämä hankerahoitus on loppunut. Helsingissä kuitenkin jatkaa samaa materiaalia käyttävä [kerho](/kerhot/).**
+
+------
 
 Haluatko lisää haasteita? Haluatko oppia koulukurssit ylittävää matematiikkaa? Haluatko oppia soveltamaan koulussa oppimaasi uusilla eri tavoilla? Haluatko viettää aikaa muiden matematiikasta innostuneiden kanssa ratkoen hauskoja ongelmia?
 

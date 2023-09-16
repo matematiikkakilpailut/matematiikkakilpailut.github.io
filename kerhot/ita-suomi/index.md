@@ -2,11 +2,6 @@
 layout: page
 title: Itä-Suomen yliopiston matematiikkakerho
 url: /kerhot/ita-suomi/
-eleventyNavigation:
-  key: ita-suomi
-  parent: kerhot
-  order: 2
-  title: Itä-Suomi
 style: |
   #logopalkki {
      margin-top: 6ex;
@@ -16,6 +11,10 @@ style: |
      align-content: center;
   }
 ---
+
+**Vuosina 2021-2023 järjestettiin hankerahoituksella paikallisia matematiikkakerhoja. Tämä hankerahoitus on loppunut.**
+
+--------
 
 Hellurei! <span lang="cs">Holá!</span> <span lang="sv">Hej!</span> <span lang="de">Hallo!</span> <span lang="ru">привет!</span>
 
