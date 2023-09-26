@@ -43,8 +43,8 @@ valintakokeissa.
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
-Syyskuun 2023 [tehtävät](2023/kirje_2023_09.pdf).<br>
-<span lang="sv">[Träningsuppgifter, september 2023](2023/brev_2023_09.pdf).</span>
+Syyskuun 2023 [tehtävät](2023/kirje_2023_09.pdf). Tehtävään 14 korjattu vakion 4/9 tilalle 2/3.<br>
+<span lang="sv">[Träningsuppgifter, september 2023](2023/brev_2023_09.pdf). I uppgift 14 ändrat konstanten från 4/9 till 2/3.</span>
 
 Kesän 2023 [tehtävät](2023/kirje_2023_07.pdf) ja [ratkaisut](2023/ratkaisut_2023_07.pdf).<br>
 <span lang="sv">[Träningsuppgifter, sommaren 2023](2023/brev_2023_07.pdf).</span>
