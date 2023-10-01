@@ -24,4 +24,9 @@ npx @11ty/eleventy --serve
 ja avaa http://localhost:8080 selaimessa.
 
 
+## Bootstrap
 
+Käytössä Bootstrap versio 5, Bootswatchin tyyli Flatly.
+Päivitys: lataa uusi versio https://bootswatch.com/ (ei min.css),
+kopioi vanhasta `@font-face`-muutokset ja poista vastaava Google Fonts -osuus,
+minimoi `csso`:lla, päivitä `default.html`:n cachebuster.
