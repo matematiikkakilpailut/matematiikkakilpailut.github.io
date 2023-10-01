@@ -50,7 +50,7 @@ Kesän 2023 [tehtävät](2023/kirje_2023_07.pdf) ja [ratkaisut](2023/ratkaisut_2
 <span lang="sv">[Träningsuppgifter, sommaren 2023](2023/brev_2023_07.pdf).</span>
 
 
-### <a name="perus"></a>Peruskoululaisten tehtävät
+### Peruskoululaisten tehtävät {id=perus}
 
 Peruskoululaisten kirjevalmennustehtävät on nimensä mukaan suunnattu peruskoululaisille. Ensimmäinen tehtäväsarja on suunniteltu aloitettavan seitsemännen luokan loppupuolella, mutta tehtävien ratkomisen voi aloittaa myös aiemmin tai myöhemmin. Tehtävien  ratkaiseminen edellyttää usein perehtymistä koulumatematiikan ulkopuoliseen matematiikkaan ja niiden on tarkoitus olla haastavia. Ei siis kannata säikähtää tehtävien vaikeustasoa.
 

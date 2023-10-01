@@ -6,7 +6,7 @@ permalink: /Baltian_tie/tulokset.html
 ---
 ## Joukkuekilpailu [Baltian tien](/Baltian_tie/) tulokset 1997 - 2012
 
-### <a name="1997"></a>Kööpenhamina 1997
+### Kööpenhamina 1997 {id=1997}
 
 <table border="1">
 <tr>
@@ -295,7 +295,7 @@ permalink: /Baltian_tie/tulokset.html
 </tr>
 </table>
 
-### <a name="1998"></a>Varsova 1998
+### Varsova 1998 {id=1998}
 
 <table border="1">
 <tr>
@@ -585,7 +585,7 @@ permalink: /Baltian_tie/tulokset.html
 </table>
 
 
-### <a name="1999"></a>Reykjavik 1999
+### Reykjavik 1999 {id=1999}
 
 <table border="1">
 <tr>
@@ -850,7 +850,7 @@ permalink: /Baltian_tie/tulokset.html
 </table>
 
 
-### <a name="2000"></a>Oslo 2000
+### Oslo 2000 {id=2000}
 
 <table border="1">
 <tr>
@@ -1115,7 +1115,7 @@ permalink: /Baltian_tie/tulokset.html
 </tr>
 </table>
 
-### <a name="2001"></a>Hampuri 2001
+### Hampuri 2001 {id=2001}
 
 <table border="1">
 <tr>
@@ -1405,7 +1405,7 @@ permalink: /Baltian_tie/tulokset.html
 </table>
 
 
-### <a name="2002"></a>Tartto 2002
+### Tartto 2002 {id=2002}
 
 <table border="1">
 <tr>
@@ -1694,7 +1694,7 @@ permalink: /Baltian_tie/tulokset.html
 </tr>
 </table>
 
-### <a name="2003"></a>Riika 2003
+### Riika 2003 {id=2003}
 
 
 <table border="1">
@@ -1984,7 +1984,7 @@ permalink: /Baltian_tie/tulokset.html
 
 </table>
 
-### <a name="2004"></a>Vilna 2004
+### Vilna 2004 {id=2004}
 
 
 <table border="1">
@@ -2290,7 +2290,7 @@ permalink: /Baltian_tie/tulokset.html
 
 </table>
 
-### <a name="2005"></a>Tukholma 2005
+### Tukholma 2005 {id=2005}
 
 
 
@@ -2600,7 +2600,7 @@ permalink: /Baltian_tie/tulokset.html
 
 </table>
 
-### <a name="2006"></a>Turku 2006
+### Turku 2006 {id=2006}
 
 
 
@@ -2884,7 +2884,7 @@ permalink: /Baltian_tie/tulokset.html
 
 </table>
 
-### <a name="2007"></a>Kööpenhamina 2007
+### Kööpenhamina 2007 {id=2007}
 
 
 
@@ -3168,7 +3168,7 @@ permalink: /Baltian_tie/tulokset.html
 
 </table>
 
-### <a name="2008"></a>Gdansk 2008
+### Gdansk 2008 {id=2008}
 
 
 
@@ -3452,7 +3452,7 @@ permalink: /Baltian_tie/tulokset.html
 
 </table>
 
-### <a name="2009"></a>Trondheim 2009
+### Trondheim 2009 {id=2009}
 
 
 
@@ -3737,7 +3737,7 @@ permalink: /Baltian_tie/tulokset.html
 </table>
 
 
-### <a name="2010"></a>Reykjavik 2010
+### Reykjavik 2010 {id=2010}
 
 
 
@@ -3996,7 +3996,7 @@ permalink: /Baltian_tie/tulokset.html
 
 </table>
 
-### <a name="2011"></a>Greifswald 2011
+### Greifswald 2011 {id=2011}
 
 
 
@@ -4282,7 +4282,7 @@ permalink: /Baltian_tie/tulokset.html
 
 
 
-### <a name="2012"></a>Tartto 2012
+### Tartto 2012 {id=2012}
 
 
 
