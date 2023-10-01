@@ -9,6 +9,11 @@ eleventyNavigation:
   order: 10
 ---
 
+Voit seurata uutisia
+<a href="/feed.xml" rel="alternate" type="application/atom+xml">RSS-syötteenä</a>
+tai
+<a href="https://t.me/+TS59DXkdJpozNDU0">Telegram-ryhmässä</a>.
+
 {% set uutiset = collections.uutinen | reverse %}
 {% for artikkeli in uutiset %}
 
