@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-primary">
-  <div class="container-fluid flex-row-reverse">
+  <div class="container-fluid flex-row-reverse align-items-start">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -19,9 +19,9 @@
     {%-     endfor                                          %}
     {%-   endif                                             %}
     {%- endfor                                              %}
-    <div class="collapse navbar-collapse flex-column align-items-start" id="navbar-collapse">
-      <div class="row"><div class="col-12">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <nav class="collapse navbar-collapse flex-column align-items-start" id="navbar-collapse">
+      <div class="row flex-grow-1"><div class="col-12 flex-grow-1">
+        <ul class="navbar-nav mb-2 mb-lg-0">
           {%- for entry in navPages %}
           {%-  set isActive = entry.url in active %}
           <li class="nav-item">
@@ -30,6 +30,18 @@
                href="{{ entry.url | url }}">{{ entry.title }}</a>
           </li>
           {%- endfor %}
+          <li class="nav-item">
+            <a class="nav-link" href="/feed.xml" rel="alternate" title="RSS-syöte" type="application/atom+xml"
+            ><svg class="bi" width="16" height="16" fill="currentColor">
+              <use xlink:href="/kuvat/sprite.svg#rss-fill"/>
+            </svg></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://t.me/+TS59DXkdJpozNDU0" rel="me" title="Telegram"
+            ><svg class="bi" width="16" height="16" fill="currentColor">
+              <use xlink:href="/kuvat/sprite.svg#telegram"/>
+            </svg></a>
+          </li>
         </ul>
       </div></div>
       {%- if bottomrow %}
@@ -47,6 +59,6 @@
         </ul>
       </div></div>
       {%- endif %}
-    </div>
+    </nav>
   </div>
 </nav>
