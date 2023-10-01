@@ -10,7 +10,7 @@ eleventyNavigation:
 ---
 
 
-## <a name="alkuun"></a>Aloittelijoille
+## Aloittelijoille {id=alkuun}
 
 Varoituksen sana aloitteleville kilpailijoille:
 matematiikkakilpailuihin liittyvää kirjallisuutta on sekä tällä sivulla että muualla varsin paljon
@@ -30,7 +30,7 @@ voi saada opetusta ja vinkkejä.
 *   **Uutta:** [Kilpamatematiikan peruskurssi](https://kurssi.matematiikkakilpailut.fi) sopii esimerkiksi
     MAOLin kilpailuun valmistautumiseen.
 
-## <a name="muita"></a>Yleistä
+## Yleistä {id=muita}
 
 *   [OOOO: Ollin opas olympiatason ongelmanratkaisuun](/kirjallisuus/OOOO.pdf),
     Olli Järviniemen kattava katsaus matematiikkakilpailujen ongelmanratkaisuun.
@@ -47,7 +47,7 @@ voi saada opetusta ja vinkkejä.
      Anne-Maria Ernvall-Hytösen opas olympiajoukkueen jäsenille kilpailujen ja kilpailumatkan
 	 yhteydessä vastaan tulevista asioista.
 
-## <a name="tehtavat"></a>Tehtäviä
+## Tehtäviä {id=tehtavat}
 
 *   [Kilpailumatematiikan harjoituksia I ja II](http://eukleideskirjat.fi/harjI.html).
     Vanha kilpailutehtäväkokoelma on nyt järjestetty, siitä on korjattu lukuisia virheitä
@@ -75,7 +75,7 @@ voi saada opetusta ja vinkkejä.
 
 
 
-## <a name="teemat"></a>Aiheet
+## Aiheet {id=teemat}
 
 Viikonloppujen ohjelmien jaksottelemiseksi matematiikka on jaoteltu
 seuraaviksi teemoiksi. Kilpailuissa tehtävät jakaantuvat usein melko
@@ -100,7 +100,7 @@ tasaisesti neljän pääteeman kesken.
     *   Alkulukujen teoria
     *   Jaollisuus, kongruenssit
 
-### <a name="algebra"></a>Algebra
+### Algebra {id=algebra}
 
 *   [Algebran alkeita](/kirjallisuus/alg02.pdf)
     Kirjoittaja Matti Lehtinen, viimeisin versio keväältä 2002.
@@ -128,7 +128,7 @@ tasaisesti neljän pääteeman kesken.
 *   [IMO-tason funktionaaliyhtälötehtäviä](/kirjallisuus/imoehdfnyht.pdf)
     Matematiikkaolympialaisiin ehdolla olleita funktionaaliyhtälötehtäviä ratkaisuineen.
 
-### <a name="geometria"></a>Geometria
+### Geometria {id=geometria}
 
 *   Luettelo matematiikkakilpailuissa tarpeellisista tai hyödyllisistä
 	[geometrian tiedoista ja taidoista](/kirjallisuus/geompakko.pdf).
@@ -177,7 +177,7 @@ tasaisesti neljän pääteeman kesken.
 	Matematiikkaolympialaisiin ehdolla olleita tehtäviä, joiden aihe on geometrinen epäyhtälö.
 	Tehtävät on esitetty ratkaisuineen.
 
-### <a name="kombinatoriikka"></a>Kombinatoriikka
+### Kombinatoriikka {id=kombinatoriikka}
 
 *   [Laskennallisen kombinatoriikan perusongelmia](/kirjallisuus/laskkomb.pdf)
     Muutama laskennallisen kombinatoriikan peruskaava tehtäviksi ja ratkaisuiksi
@@ -192,7 +192,7 @@ tasaisesti neljän pääteeman kesken.
 *   [Välttämätön kombinatoriikasta IMO:on](/kirjallisuus/imo_komb.pdf)
     Laatineet valmentajat A. Kirichenko, M. Lehtinen ja E. V. Vesalainen.
 
-### <a name="lukuteoria"></a>Lukuteoria
+### Lukuteoria {id=lukuteoria}
 
 *   [Lukuteorian törmäyskurssi](/kirjallisuus/tormayskurssi.pdf)
     Kilpailulukuteorian pienin välttämätön oppimäärä. Kirjoittanut Anne-Maria Ernvall-Hytönen.

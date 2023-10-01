@@ -9,7 +9,7 @@ aikataulu:
 - pvm: "13.&ndash;15.10. (viikko 41)"
   tapahtuma: >-
     Valmennusviikonloppu ja Baltian tie -joukkueen valinta Päivölässä.
-    <a href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2023-vk41"><button type="button" class="btn btn-primary btn-sm">Ilmoittaudu Päivölään.</button></a><br>
+    <a href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2023-vk41"><span class="btn btn-primary btn-sm">Ilmoittaudu Päivölään.</span></a><br>
     (**HUOM:** ajankohta poikkeaa joistakin ennakkotiedoista)
 - pvm: "20.10."
   tapahtuma: >-

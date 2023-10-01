@@ -6,7 +6,9 @@ const md = require("markdown-it")({
   linkify: false,
   typographer: true,
   quotes: "””’’",
-});
+}).use(require('markdown-it-anchor'), {
+    level: 2
+}).use(require('markdown-it-attrs'));
 const rss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function (eleventyConfig) {

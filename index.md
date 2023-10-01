@@ -13,7 +13,7 @@ eleventyNavigation:
   key: root
   title: Valmennus
 ---
-<img src="/OPH_rahoittaa_rgb.png" width="180" height="174" style="float:right;" alt="Opetushallitus rahoittaa hanketta" />
+<img src="/OPH_rahoittaa_rgb.png" width="180" height="174" style="float:right;" alt="Opetushallitus rahoittaa hanketta">
 
 
 [Matematiikkakilpailuiden](kilpailut) tarkoituksena on kannustaa
@@ -42,7 +42,7 @@ viikkoa etukäteen!**
 #}
 
 
-## <a name="uutisia"></a>Uutisia
+## Uutisia {id=uutisia}
 
 {%- set uutiset = collections.uutinen | reverse | batch(7) | first %}
 <ul>
@@ -55,7 +55,7 @@ viikkoa etukäteen!**
 
 
 
-## <a name="muut-aktiviteetit"></a>Muut aktiviteetit
+## Muut aktiviteetit {id=muut-aktiviteetit}
 
 Eräät valmennettavat pitivät [blogia 2018-2019][blog].
 
@@ -84,7 +84,7 @@ kilpailumatematiikkavalmennustilaisuuksia. Tarkemmin [tästä][oulu].
 [oulu]: https://ouluma.fi/2012/08/matematiikkavalmennus/
 
 
-## <a name="muuta"></a>Muuta
+## Muuta {id=muuta}
 
 #### Harppi-hankkeessa on kuvattu [matematiikkaharrastajan polku](https://www.mayk.fi/matematiikkalukio/kehitys/matematiikkaharrastajan-polku/)
 

@@ -7,7 +7,7 @@ eleventyNavigation:
   title: Kilpailuja
   order: 20
 ---
-## <a name="kilpailut"></a>Kilpailut
+## Kilpailut {id=kilpailut}
 
 #### [MAOL:n kilpailu](/MAOL/)
 
