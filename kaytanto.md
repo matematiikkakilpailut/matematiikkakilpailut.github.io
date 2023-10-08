@@ -15,10 +15,6 @@ kutsuun perustuvia valmennustapahtumia. Valmennustapahtumat on suunnattu
 tasoltaan lukiolaisille ja taitavimmille yläkoululaisille.
 Niistä kerrotaan tarkemmin alla.
 
-Valmennusjaosto voi harkinnan mukaan
-tukea taloudellisesti valmennus­tapahtumiin osallistuvia, ks.
-<a href="#tuki">ohjeet</a>.
-
 Tutustu myös [kirjevalmennukseen](https://matematiikkakilpailut.fi/valmennus/),
 valmennuksen [aikatauluun](https://matematiikkakilpailut.fi/aikataulu/)
 ja <a href="#kaytantoa">käytännön asioihin</a>.
@@ -150,19 +146,3 @@ on yleensä tiistaisin, torstaisin ja lauantaisin sanamahdollisuus.
 ### Maksut
 
 Laskut lähetetään annettuun laskutusosoitteeseen valmennuksen jälkeen.
-
-### Taloudellinen tuki
-<div id="tuki"></div>
-
-Valmennusjaosto voi harkintansa mukaan tukea valmennustapahtumiin
-osallistujia. Rahaa on käytettävissä välillä enemmän ja välillä vähemmän, joten tukea
-toivotaan hakevan pääasiassa sellaisten, joille valmennukseen osallistuminen
-on merkittävä taloudellinen rasite.
-Tuki voi yleensä kattaa enintään Päivölän ppiston perimän osallistumismaksun
-ja kohtuulliset matkakulut. Vapaamuotoiset hakemukset pyydetään osoittamaan
-Suomen matemaattisen yhdistyksen Valmennusjaostolle ja lähettämään
-[Anne-Maria Ernvall-Hytöselle](http://users.abo.fi/aernvall/).
-Vaikka Anne-Marian kotisivu on ruotsinkielinen, hakemuksen voi kirjoittaa
-myös suomeksi tai englanniksi.
-
-Kilpailumatkojen kulut korvataan tietysti kaikille joukkueisiin valituille.
