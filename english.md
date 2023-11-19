@@ -112,26 +112,30 @@ FHSMC [first round problems, 2016](/valmennus/English/alkuk2016_eng.pdf).
 
 The following persons take part in organizing the training:
 
-*   [Anne-Maria Ernvall-Hytönen](http://users.abo.fi/aernvall/)
-*   Lauri Hallila
-*   Otte Heinävaara
-*   Asla Heiskanen
-*   Olli Hirviniemi
-*   [Antti Honkela](http://www.iki.fi/ahonkela/)
-*   Akseli Jussinmäki
-*   Olli Järviniemi
-*   Lauri Karanko
-*   Pihla Karanko
-*   Alexey Kirichenko
-*   Nirmal Krishnan
-*   Jari Lappalainen
-*   Merikki Lappi
-*   [Matti Lehtinen](http://www.elisanet.fi/matti.t.lehtinen/)
-*   [Kerkko Luosto](https://www.tuni.fi/fi/kerkko-luosto)
-*   Neea Palojärvi
-*   Jaakko Seppälä
-*   Louna Seppälä
-*   [Jouni Seppänen](http://www.iki.fi/jks)
-*   Joni Teräväinen
-*   Ville Tilvis
-*   [Esa Vesalainen](http://esavesalainen.fi)
+*  Daniel Arone
+*  Anne-Maria Ernvall-Hytönen
+*  Lauri Hallila
+*  Akseli Jussinmäki
+*  Lauri Karanko
+*  Pihla Karanko
+*  Alexey Kirichenko
+*  Tuomas Korppi
+*  Nirmal Krishnan
+*  Jari Lappalainen
+*  Merikki Lappi
+*  [Matti Lehtinen][matti] (retired)
+*  [Kerkko Luosto][kluosto]
+*  Veera Nurmela
+*  Neea Palojärvi
+*  Marius Sclearuc
+*  Louna Seppälä
+*  [Jouni Seppänen][jks]
+*  Anni Tapionlinna
+*  Ville Tilvis
+*  Ville Uotila
+*  Esa Vesalainen
+
+[matti]: https://www.eukleideskirjat.fi/Matti/
+[kluosto]: https://www.tuni.fi/fi/kerkko-luosto
+[jks]: http://www.iki.fi/jks/
+
