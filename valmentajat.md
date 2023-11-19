@@ -55,8 +55,7 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
    Olympiaedustaja vuosina 2005, 2006 ja 2007.
 
 [smy]: http://www.matemaattinenyhdistys.fi/
-[ahonkela]: http://www.iki.fi/ahonkela/
-[matti]: http://www.elisanet.fi/matti.t.lehtinen/
+[matti]: https://www.eukleideskirjat.fi/Matti/
 [kluosto]: https://www.tuni.fi/fi/kerkko-luosto
 [jks]: http://www.iki.fi/jks/
 
