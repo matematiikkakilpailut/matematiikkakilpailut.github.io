@@ -26,7 +26,7 @@ aikataulu:
 - pvm: "8.&ndash;10.12. (viikko 49)"
   tapahtuma: >-
     Valmennusviikonloppu Päivölässä.
-    [Ilmoittaudu Päivölään.](https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2023-vk49)
+    <a href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2023-vk49" class="btn btn-primary btn-sm">Ilmoittaudu Päivölään.</a><br>
     (**HUOM:** ajankohta poikkeaa joistakin ennakkotiedoista)
 - pvm: "2024"
   tapahtuma: "kevät"
