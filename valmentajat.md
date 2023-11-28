@@ -31,6 +31,8 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
 *  Merikki Lappi, filosofian maisteri<br/>
    Merikki.Lappi@paivola.fi, 0400534139.
    Käytännön asiat koskien Päivölän valmennusviikonloppuja.
+*  Kristian Latvanen<br/>
+   Olympiaedustaja vuosina 2022 ja 2023.
 *  [Matti Lehtinen][matti]<br/>
    Olympiaedustaja vuonna 1965. Jättäytynyt eläkkeelle valmennustoiminnasta, mutta saattaa joskus ilmaantua näkyviin.
    Yritti pitää huolta erityisesti valmennettavien geometrian taidoista.
@@ -45,6 +47,8 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
 *  Louna Seppälä<br/>
    Filosofian tohtori, peruskoululaisten kirjevalmennus.
 *  [Jouni Seppänen][jks]<br/> Tekniikan tohtori, olympiaedustaja vuosina 1994 ja 1995.
+*  Daniel Slivinskiy<br/>
+   Olympiaedustaja vuonna 2023.
 *  Anni Tapionlinna<br/>
    Olympiaedustaja vuonna 2021.
 *  Ville Tilvis<br/>
