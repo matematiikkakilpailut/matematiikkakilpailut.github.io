@@ -123,6 +123,7 @@ The following persons take part in organizing the training:
 *  Nirmal Krishnan
 *  Jari Lappalainen
 *  Merikki Lappi
+*  Kristian Latvanen
 *  [Matti Lehtinen][matti] (retired)
 *  [Kerkko Luosto][kluosto]
 *  Veera Nurmela
@@ -130,6 +131,7 @@ The following persons take part in organizing the training:
 *  Marius Sclearuc
 *  Louna Seppälä
 *  [Jouni Seppänen][jks]
+*  Daniel Slivinskiy
 *  Anni Tapionlinna
 *  Ville Tilvis
 *  Ville Uotila
