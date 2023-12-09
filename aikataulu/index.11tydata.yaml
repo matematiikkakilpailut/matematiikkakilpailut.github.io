@@ -26,8 +26,11 @@ aikataulu:
 - pvm: "8.&ndash;10.12. (viikko 49)"
   tapahtuma: >-
     Valmennusviikonloppu Päivölässä.
-    <a href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2023-vk49" class="btn btn-primary btn-sm">Ilmoittaudu Päivölään.</a><br>
-    (**HUOM:** ajankohta poikkeaa joistakin ennakkotiedoista)
+    <a href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2023-vk49">Ilmoittaudu Päivölään.</a><br>
+- pvm: "15.12."
+  tapahtuma: >-
+    [EMC-kilpailu](https://emc.mnm.hr/) Helsingin Kumpulassa klo 12&ndash;16.
+    Lisätietoja ja pikainen ilmoittautuminen: [Daniel Arone](mailto:therealdanielarone@gmail.com).
 - pvm: "2024"
   tapahtuma: "kevät"
   otsikko: true
