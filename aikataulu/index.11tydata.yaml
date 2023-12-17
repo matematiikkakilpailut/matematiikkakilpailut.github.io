@@ -1,5 +1,49 @@
 ---
 aikataulu:
+- pvm: "2024"
+  tapahtuma: "kevät"
+  otsikko: true
+- pvm: "12.&ndash;14.1. (viikko 2)"
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä.
+    <a role="button" class="btn btn-primary btn-sm" 
+    href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2024-vk2">Ilmoittaudu Päivölään!</a>
+- pvm: "23&ndash;25.2. (viikko 8)"
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä.
+    [Ilmoittaudu Päivölään!](https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2024-vk8)
+- pvm: "26.2.&ndash;2.3."
+  tapahtuma: >-
+    [Romanian Master of Mathematics Bukarestissa](https://rmms.lbi.ro/rmm2024/index.php?id=home).
+    Pohjois&shy;maista osallistuu yhteis&shy;joukkue.
+- pvm: "9.4."
+  tapahtuma: "[Pohjois&shy;mainen matematiikka&shy;kilpailu](https://georgmohr.dk/nmcperm/) kutsutuille omassa koulussa"
+- pvm: "11.4.&ndash;17.4."
+  tapahtuma: "Euroopan tyttöjen matematiikkaolympialaiset (EGMO) Georgiassa"
+- pvm: "26.&ndash;28.4. (viikko 17)"
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä ja Pythagoraan polku.
+    *Poikkeaa joistakin ennakkotiedoista!*
+- pvm: "2024"
+  tapahtuma: "kesä"
+  otsikko: true
+- pvm: varmistuu myöhemmin
+  tapahtuma: >-
+    Valmennusleiri olympiajoukkueelle
+- pvm: "10.&ndash;22.7."
+  tapahtuma: >-
+    [Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr>](https://www.imo2024.uk/)
+    Bathissa, Isossa-Britanniassa
+
+# ainoastaan otsikon "aikataulu" alla olevat tapahtumat otetaan mukaan sivulle
+# joten esim. "mahdollisia" tai "vanhoja" eivät näy vaan ovat mukana vain jotta
+# niitä voi tarvittaessa siirtää tai kopioida "aikataulu"-listaan
+  
+mahdollisia:
+- pvm: "noin joulukuussa"
+  tapahtuma: "[European Mathematical Cup](https://emc.mnm.hr)"
+
+vanhoja:
 - pvm: "2023"
   tapahtuma: "Syksy"
   otsikko: true
@@ -31,29 +75,6 @@ aikataulu:
   tapahtuma: >-
     [EMC-kilpailu](https://emc.mnm.hr/) Helsingin Kumpulassa klo 12&ndash;16.
     Lisätietoja ja pikainen ilmoittautuminen: [Daniel Arone](mailto:therealdanielarone@gmail.com).
-- pvm: "2024"
-  tapahtuma: "kevät"
-  otsikko: true
-- pvm: "12.&ndash;14.1. (viikko 2)"
-  tapahtuma: Valmennusviikonloppu Päivölässä
-- pvm: "23&ndash;25.2. (viikko 8)"
-  tapahtuma: Valmennusviikonloppu Päivölässä
-- pvm: "9.4."
-  tapahtuma: "[Pohjois&shy;mainen matematiikka&shy;kilpailu](https://georgmohr.dk/nmcperm/) kutsutuille omassa koulussa"
-- pvm: "11.4.&ndash;17.4."
-  tapahtuma: "Euroopan tyttöjen matematiikkaolympialaiset (EGMO) Georgiassa"
-- pvm: "12.4.&ndash;14.4. (viikko 15)"
-  tapahtuma: Valmennusviikonloppu Päivölässä ja Pythagoraan polku
-
-# ainoastaan otsikon "aikataulu" alla olevat tapahtumat otetaan mukaan sivulle
-# joten esim. "mahdollisia" tai "vanhoja" eivät näy vaan ovat mukana vain jotta
-# niitä voi tarvittaessa siirtää tai kopioida "aikataulu"-listaan
-  
-mahdollisia:
-- pvm: "noin joulukuussa"
-  tapahtuma: "[European Mathematical Cup](https://emc.mnm.hr)"
-
-vanhoja:
 - pvm: "2023"
   tapahtuma: "Kevät ja kesä"
   otsikko: true
