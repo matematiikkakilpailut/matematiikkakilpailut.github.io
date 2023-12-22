@@ -43,6 +43,8 @@ valintakokeissa.
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
+Vuodenvaihteen 2023–2024 [tehtävät](2023/kirje_2023_12.pdf).
+
 Lokakuun 2023 [tehtävät](2023/kirje_2023_10.pdf).<br>
 <span lang="sv">[Träningsuppgifter, oktober 2023](2023/brev_2023_10.pdf).</span>
 
