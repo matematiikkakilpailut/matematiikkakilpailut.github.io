@@ -5,6 +5,22 @@ permalink: null
 # matematiikkakilpailut.github.io
 
 Suomen matematiikan olympiavalmennuksen sivusto.
+Usein päivitettyjä sivuja:
+
+* `aikataulu/index.11tydata.yaml` tapahtumakalenteri yaml-muodossa
+* `valmennus/index.md` linkit valmennuskirjeisiin
+  * `valmennus/<vuosi>/kirje_<vuosi>_<kk>.pdf` jne., kirjeet
+
+Sivut ovat [Markdownia](https://www.markdownguide.org/basic-syntax/)
+ja alussa on yaml-muotoinen blokki metadataa.
+`index.11tydata.yaml` on kokonaan yamlia ja siitä tehdään
+aikataulu ohjelmallisesti.
+
+Kun teet tärkeitä muutoksia, lisää uutinen hakemistoon `uutiset/`
+(ota mallia olemassaolevista). Uutiset päätyvät sekä etusivulle että
+RSS-syötteeseen ja sen kautta Telegram-tiedotuskanavalle.
+Siksi uutisessa on hyvä olla linkki sen koskemaan aiheeseen
+(valmennuskirje, ilmoittautumissivu tms).
 
 ## Muokkaaminen Githubin kautta
 
