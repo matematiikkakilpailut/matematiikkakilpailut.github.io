@@ -6,12 +6,13 @@ aikataulu:
 - pvm: "12.&ndash;14.1. (viikko 2)"
   tapahtuma: >-
     Valmennusviikonloppu Päivölässä.
-    <a role="button" class="btn btn-primary btn-sm" 
-    href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2024-vk2">Ilmoittaudu Päivölään!</a>
+    <a
+    href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2024-vk2">Ilmoittaudu Päivölään</a>
 - pvm: "23&ndash;25.2. (viikko 8)"
   tapahtuma: >-
     Valmennusviikonloppu Päivölässä.
-    [Ilmoittaudu Päivölään!](https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2024-vk8)
+    <a role="button" class="btn btn-primary btn-sm" 
+     href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2024-vk8">Ilmoittaudu Päivölään!</a>
 - pvm: "26.2.&ndash;2.3."
   tapahtuma: >-
     [Romanian Master of Mathematics Bukarestissa](https://rmms.lbi.ro/rmm2024/index.php?id=home).
