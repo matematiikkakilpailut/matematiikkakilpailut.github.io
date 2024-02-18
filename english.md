@@ -28,12 +28,62 @@ for all students in secondary schools. The goal is to teach students
 mathematics encountered in mathematical competitions, but also to
 provide them with general mathematical knowledge.
 
+We unfortunately lack the resources to maintain all our materials
+(or these web pages) in English, so the Finnish pages are the
+definitive version. 
 The training is mainly done in Finnish, but we do our best to
 accommodate students who either don't speak or speak only a little
 Finnish. Some of the training sessions are conducted in English.
 
 Some of the materials have also been translated to Swedish, and it is
 possible to have training sessions in Swedish as well.
+
+## Training camps
+
+[**→ Main article in Finnish**](/kaytanto/)
+
+We arrange six weekend training camps each year
+at the [Päivölä institute](https://www.paivola.fi);
+see the [schedule](/aikataulu/). Newcomers are welcome at any of the six camps.
+
+Please [register at Päivölä](https://www.paivola.fi/fi/matematiikkakilpailuvalmennukseen-ilmoittautuminen/) 
+at least one week before each weekend.
+
+The best way to get there is by train to [Toijala
+station](https://www.vr.fi/rautatieasemat-ja-reitit/toijala).
+Transport will be arranged from the station to Päivölä.
+When you register for the weekend, please let us know what time your train will
+arrive. Also plan which train you will take for your return journey — this will be asked during the
+weekend to arrange return transport. We do not recommend any specific train, as it is easier to
+organise the rides if passengers are spread over several trains. Compare train fares, which now vary
+widely — if you can buy your ticket early and are flexible about travel times, you can save
+considerable money.
+
+Another possible mode of transport is the bus. The nearest stop is [Uittamo th](https://www.openstreetmap.org/node/460305725),
+which is
+[a couple of kilometres walk](https://share.trailmap.fi/route_11480) 
+from the institute. 
+Of course, one can also [drive to Päivölä](https://www.paivola.fi/fi/yhteystiedot/saapumisohjeet/).
+
+Please arrange your **accommodation** as soon as possible after your arrival: go to the main building,
+which you can identify from the canteen, and get the key. If you arrive very late (after 9pm), please
+inform Päivölä in advance so that the duty officer can be prepared. The programme is usually held in
+a large stone building, not the same as the main building. Take your shoes off in the lobby — wool
+socks will come in handy in winter.
+
+During breaks in the training, it's fun to chat with others and play a game of chess, but please be
+mindful of the local students. They live and study in the stone building, and their schedules are
+not exactly the same as those of the training. Please be quiet at night time.
+
+The programme starts on Friday at 6.30pm and ends on Sunday at coffee time, around 1.45pm. In the
+mornings, breakfast is at 8am and the programme starts afterwards at 9am, finishing at 9pm in the
+evenings. There are meal breaks in between, and on Saturday there is usually a sauna. For supper you
+can get a bun in the kitchen of the stone house, starting at 9pm. To make sure there is enough for
+everyone, please don’t take extras until after 10.30pm.
+
+An invoice for the weekend will be sent to your e-mail address afterwards. If you don't receive an
+invoice within a couple of weeks, please contact Päivölä. It is possible that the message has 
+accidentally ended up in your spam folder.
 
 
 ## Math terminology
@@ -53,12 +103,14 @@ helpful:
 
 ## Training problem sets
 
+[**→ Main article in Finnish**](/valmennus/) 
+
 The training problem sets are distributed in the training events, but
 primarily available through this website. Solutions can be sent as
 instructed in the problem sheet or they can be brought to the next
 training event. Traditionally, the problems are provided in
-[Finnish](/valmennus/), but we try to produce English translations,
-too.
+Finnish and Swedish, but at one time we tried to provide
+English translations as well. These are listed below.
 
 ### The latest translated problem set
 
@@ -108,36 +160,10 @@ FHSMC [first round problems, 2015](/valmennus/English/alku2015eng.pdf).
 
 FHSMC [first round problems, 2016](/valmennus/English/alkuk2016_eng.pdf).
 
+## Other material
+
+[**→ In Finnish**](/aiheet/)
+
 ## Trainers
 
-The following persons take part in organizing the training:
-
-*  Daniel Arone
-*  Anne-Maria Ernvall-Hytönen
-*  Lauri Hallila
-*  Akseli Jussinmäki
-*  Lauri Karanko
-*  Pihla Karanko
-*  Alexey Kirichenko
-*  Tuomas Korppi
-*  Nirmal Krishnan
-*  Jari Lappalainen
-*  Merikki Lappi
-*  Kristian Latvanen
-*  [Matti Lehtinen][matti] (retired)
-*  [Kerkko Luosto][kluosto]
-*  Veera Nurmela
-*  Neea Palojärvi
-*  Marius Sclearuc
-*  Louna Seppälä
-*  [Jouni Seppänen][jks]
-*  Daniel Slivinskiy
-*  Anni Tapionlinna
-*  Ville Tilvis
-*  Ville Uotila
-*  Esa Vesalainen
-
-[matti]: https://www.eukleideskirjat.fi/Matti/
-[kluosto]: https://www.tuni.fi/fi/kerkko-luosto
-[jks]: http://www.iki.fi/jks/
-
+[**→ In Finnish**](/valmentajat/)

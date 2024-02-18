@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<header class="display-4 pt-3 pb-3 mt-3 mb-1">
+  <h1>{{ page.title }}</h1>
+</header>
+
+<main class="row">
+  {{ content | splitCards | safe }}
+</main>
+
+
+{% if scripts %}
+{{ scripts | safe }}
+{% endif %}

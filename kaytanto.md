@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: kortit.html
 title: Valmennustapahtumat
 url: /kaytanto/
 eleventyNavigation:
@@ -9,61 +9,36 @@ eleventyNavigation:
   parent: root
 ---
 
-Valmennusjaosto järjestää sekä **kaikille koululaisille avoimia**
-(ks. mm. valmennusviikonloput) että henkilökohtaiseen
-kutsuun perustuvia valmennustapahtumia. Valmennustapahtumat on suunnattu
+
+## Valmennus­viikon­loput
+
+*Valmennusviikonloput* ovat nimensä mukaisesti viikon­lopun ajan
+kestäviä valmennus­tapahtumia. Ne ovat
+**kaikille koululaisille avoimia** ja suunnattu
 tasoltaan lukiolaisille ja taitavimmille yläkoululaisille.
-Niistä kerrotaan tarkemmin alla.
-
-Tutustu myös [kirjevalmennukseen](https://matematiikkakilpailut.fi/valmennus/),
-valmennuksen [aikatauluun](https://matematiikkakilpailut.fi/aikataulu/)
-ja <a href="#kaytantoa">käytännön asioihin</a>.
-
-## Valmennusviikonloput
-
-*Valmennusviikonloput* ovat nimensä mukaisesti viikonlopun ajan
-kestäviä valmennustapahtumia. Ne ovat
-**kaikille koululaisille avoimia**. Ohjelmassa on opetusta
-kilpailumatematiikan eri osa-alueilta, tehtävänratkaisua ja
-harjoituskokeita innostavassa seurassa. Valmennusviikonloppuja on vuoden aikana kuusi;
+Ohjelmassa on opetusta
+kilpailu­matematiikan eri osa-alueilta, tehtävän­ratkaisua ja
+harjoitus­kokeita innostavassa seurassa. Valmennus­viikon­loppuja on vuoden aikana kuusi,
 kolme keväisin ja kolme syksyisin. Valmennukseen osallistumisen
 voi aloittaa minä viikonloppuna tahansa. Seuraavan
-valmennusviikonlopun ajankohta löytyy
+valmennus­viikon­lopun ajankohta löytyy
 [aikataulusta](https://matematiikkakilpailut.fi/aikataulu/).
 
-Opetus jaetaan resurssien mukaan aloitteleville
-valmennettaville suunnattuun *alakerran* opetukseen ja
-edistyneemmille tarkoitettuun *yläkerran* opetukseen.
-[Tästä](aikataulu_viikonloppu.pdf) voi lukea yhden esimerkin
-valmennusviikonlopun aikataulusta.
+Valmennus­viikon­lopun käytännön järjestelyistä on lisätietoa 
+[tuonnempana](#kaytantoa).
+
+Valmennus­viikon­loppuun tulee ilmoittautua viimeistään **viikkoa**
+ennen [sähköisen lomakkeen][ilmo] kautta.
+
+[ilmo]: https://www.paivola.fi/fi/matematiikkakilpailuvalmennukseen-ilmoittautuminen/
 
 
+## Olympia­joukkueen valinta- ja valmennusviikko
 
-Valmennusviikonloput järjestetään Päivölän opistolla
-Päivölän matematiikkalinjan tiloissa ja seurassa. Viikonlopun
-ohjelma alkaa perjantaina klo 18:30 ja päättyy sunnuntaina
-noin klo 13:45. Tällöin ehtii Toijalasta noin 14:30 lähteviin
-juniin. Päivölän opisto perii valmennus­viikonloppuihin
-osallistuvilta täysihoito­maksun (70 euroa/viikonloppu), mutta opetus
-on muuten maksutonta.
-
-Lue lisää viikonlopun käytännön järjestelyistä <a href="#kaytantoa">alta</a>.
-
-Valmennusviikonloppuun tulee ilmoittautua viimeistään **viikkoa**
-ennen [sähköisen lomakkeen](https://www.paivola.fi/fi/matematiikkakilpailuvalmennukseen-ilmoittautuminen/)
-kautta.
-
-Syksystä 2022 alkaen valmennus&shy;viikon&shy;loput pyritään jälleen pitämään
-lähiopetuksena Päivölän opistolla. Etäosallistumis&shy;mahdollisuus yritetään
-myös järjestää niille, jotka eivät esimerkiksi sairastumisen takia pysty
-tulemaan paikalle.
-
-## Olympiajoukkueen valinta- ja valmennusviikko
-
-Vajaan viikon mittaisen *olympiajoukkueen valinta- ja valmennusviikon*
-tavoitteena on valita Suomen edustusjoukkuen kesän Kansainvälisiin
-Matematiikkaolympialaisiin. Leirin ohjelmassa on tiukkaa opiskelua
-ja haastavia valintakokeita (ks. [erään vuoden aikataulu](aikataulu_viikko.pdf).)
+Vajaan viikon mittaisen *olympia­joukkueen valinta- ja valmennus­viikon*
+tavoitteena on valita Suomen edustusjoukkue kesän Kansain­välisiin
+Matematiikka­olympialaisiin. Leirin ohjelmassa on tiukkaa opiskelua
+ja haastavia valinta­kokeita (ks. [erään vuoden aikataulu](aikataulu_viikko.pdf).)
 
 Leiri järjestetään vuosittain huhti-toukokuussa Päivölän opistolla. Sinne kutsutaan
 valmennuksessa hyvin menestyneitä aktiivisia oppilaita, joiden matkakulut ja
@@ -73,13 +48,25 @@ leirille omakustanteisesti.
 Lue lisää leirin käytännön järjestelyistä <a href="#kaytantoa">alta</a>.
 
 
-## Yläkoululaisten kesäleiri
-**Leiriä ei järjestetä vuonna 2022, eikä vuonna 2023 resurssipulasta johtuen.**
+## Kesä­leiri
+
+Olympiajoukkueelle ja resurssien mukaan muille valmennuksessa
+menestyneimmille oppilaille järjestetään vuosittain kesäkuussa
+vajaan viikon mittainen *kesäleiri*. Leirin tavoitteena on ensisijaisesti
+harjoitella Kansain­välisiä Matematiikka­olympialaisia varten. Järjestämis­paikka
+vaihtelee vuosittain — viime vuosina se on
+järjestetty muun muassa Helsingissä, Tampereella ja Turussa.
+Osallistujien matka- ja täysihoitokulut maksetaan valmennusjaoston
+toimesta.
+
+## Ylä­koululaisten kesä­leiri
+
+### Leiriä ei järjestetä vuosina 2022 tai 2023 resurssi­pulasta johtuen
 
 Vuosittain kesäkuussa pidettävä *yläkoululaisten* nelipäiväinen *kesäleiri*
 on suunnattu niille, jotka olivat edeltävänä keväänä yläkoulussa.
 Ohjelmassa on kilpamatematiikan lisäksi
-hieman kevyempää harrastusmatematiikkaa ja yhdessäoloa samanhenkisessä
+hieman kevyempää harrastus­matematiikkaa ja yhdessä­oloa saman­henkisessä
 seurassa matematiikan parissa. [Tästä](aikataulu_perus.pdf) voi lukea
 esimerkkinä erään kesäleirin aikataulun. Leiri järjestetään Päivölän opistolla.
 
@@ -92,24 +79,12 @@ omakustanteisesti.
 Lue lisää leirin käytännön järjestelyistä <a href="#kaytantoa">alta</a>.
 
 
-## Kesäleiri
-
-Olympiajoukkueelle ja resurssien mukaan muille valmennuksessa
-menestyneimmille oppilaille järjestetään vuosittain kesäkuussa
-vajaan viikon mittainen *kesäleiri*. Leirin tavoitteena on ensisijaisesti
-harjoitella Kansainvälisiä Matematiikkaolympialaisia varten. Järjestämispaikka
-vaihtelee vuosittain -viime vuosina se on
-järjestetty muun muassa Helsingissä, Tampereella ja Turussa.
-Osallistujien matka- ja täysihoitokulut maksetaan valmennusjaoston
-toimesta.
-
-
 ## Tanskan leiri
 
-Pohjoismaiden edustajat leireilevät juuri ennen Kansainvälisiä
-Matematiikkaolympialaisia Sor&oslash;ssa, Tanskassa. Vajaan
+Pohjoismaiden edustajat leireilevät juuri ennen Kansain­välisiä
+Matematiikka­olympialaisia Sor&oslash;ssa, Tanskassa. Vajaan
 viikon mittaiseen leiriin mahtuu ahkeraa harjoittelua ja muihin
-pohjoismaalaisiin kilpailijoihin tutustumista. Valmennusjaosto
+pohjois­maalaisiin kilpailijoihin tutustumista. Valmennusjaosto
 maksaa Suomen osallistujien matkat leiripaikalle sekä
 siellä täysihoidon.
 
@@ -118,31 +93,67 @@ Leirin yhteydessä järjestetään myös
 joukkueiden välillä.
 
 
-## Käytännön asioita
-<div id="kaytantoa"></div>
+## Käytännön asioita {id=kaytantoa}
 
-### Päivölän opistosta ja sen sijainnista
 
-Valmennusviikonloput ja -viikko sekä peruskoululaisten
-kesäleiri järjestetään [Päivölän opistolla](https://www.paivola.fi/fi/),
-[Päivölän matematiikkalinjan](https://matematiikkalinja.fi/)
-tiloissa ja seurassa. Tämä onkin hyvä verkostoitumispaikka matematiikasta
-innostuneille. Juttuseuraa löytyy myös tietotekniikasta ja luonnontieteistä kiinnostuneille.
-
-Päivölä sijaitsee Valkeakoskella 9 km päässä Toijalan asemasta.
-Helsinki-Valkeakoski-Tampere ExpressBus tulee 2 km päähän (Uittamon
-tienhaara). Ajo- ja muut lähestymisohjeet löytyvät Päivölän
-[kotisivuilta](https://www.paivola.fi/fi/yhteystiedot/saapumisohjeet/).
-
+[**Ilmoittaudu**][ilmo] Päivölän opistolle viimeistään **viikkoa ennen** viikonloppua.
 
 ### Varusteet
 
 Päivölän opistolla pidettäville leireille tarvitaan mukaan yöpymisvarusteet (myös lakanat),
 muut valmennuksen aikana tarvittavat henkilökohtaiset varusteet, muistiinpanovälineet ja
 matemaattiset välineet (myös harppi jne.). Taulukoita ei tarvita. Päivölässä
-on yleensä tiistaisin, torstaisin ja lauantaisin sanamahdollisuus.
+on yleensä tiistaisin, torstaisin ja lauantaisin saunamahdollisuus.
+
+### Saapuminen
+
+Paras kulkutapa on **juna**, jolla pääsee [Toijalan asemalle][toijala]. Asemalta järjestetään
+henkilöautokyytejä opistolle. Kun ilmoittaudut viikonloppuun, kerro mihin aikaan junasi
+saapuu. Suunnittele myös, millä junalla lähdet pois — tätä kysytään viikonlopun aikana paluukyytiä
+varten. Emme suosittele yksittäisiä junia, koska kyytien järjestäminen on helpompaa jos matkustajat
+jakautuvat useisiin juniin. Vertaile junien hintoja, joissa on nykyään suuria eroja — jos pystyt
+ostamaan lipun ajoissa ja olet joustava matkustusajankohdan suhteen, voit säästää selvää rahaa.
+
+[toijala]: https://www.vr.fi/rautatieasemat-ja-reitit/toijala
+
+Toinen mahdollinen kulkutapa on **linja-auto**. Lähin pysäkki on [Uittamo th][uittamo], jolta on parin
+kilometrin [kävelymatka][kavely] perille. Toki Päivölään voi tulla myös omalla autolla tai saada
+kyydin esim. vanhemmiltaan.
+Lisää saapumisohjeita on Päivölän [kotisivuilla](https://www.paivola.fi/fi/yhteystiedot/saapumisohjeet/).
+
+[uittamo]: https://www.openstreetmap.org/node/460305725
+[kavely]: https://share.trailmap.fi/route_11480
+
+### Valmennuksessa
+
+**Majoitus** kannattaa hoitaa kuntoon mahdollisimman pian saavuttuasi — käy hakemassa avain
+päärakennukselta, jonka tunnistat esim. ruokalasta. Jos saavut kovin myöhään (klo 21 jälkeen),
+ilmoita tästä Päivölään etukäteen, jotta päivystäjä tietää varautua. Ohjelma on yleensä isossa
+kivitalossa, joka ei siis ole sama kuin päärakennus. Ota kengät pois aulassa — talvisin kannattaa
+varautua villasukilla.
+
+Valmennuksen tauoilla on hauska keskustella muiden kanssa ja pelata vaikka shakkia, mutta
+melutasossa pitäisi huomioida matematiikkalinjan opiskelijat. He asuvat kivitalossa ja heillä on
+omat aikataulunsa, joten valmennuksen tauon aikana voi olla oppitunti. Yöllä kivitalossa täytyy olla
+hiljaa.
+
+**Ohjelma** alkaa perjantaina klo 18.30 ja päättyy sunnuntaina päiväkahvin aikaan,
+noin 13.45. Aamuisin on aamiainen klo 8 ja ohjelma alkaa sen jälkeen klo 9, iltaisin lopetellaan
+klo 21 aikaan. Välissä on ruokailutaukoja ja lauantaina yleensä sauna. Iltapalaksi on kivitalon
+keittiössä sämpylä, jonka voi syödä klo 21 alkaen. Sämpylöitä saa santsata vasta klo 22.30 alkaen,
+jotta kaikille riittää varmasti.
+
+Opetus jaetaan resurssien mukaan aloitteleville
+valmennettaville suunnattuun *alakerran* opetukseen ja
+edistyneemmille tarkoitettuun *yläkerran* opetukseen.
+[Tästä](aikataulu_viikonloppu.pdf) voi lukea yhden esimerkin
+valmennusviikonlopun aikataulusta.
+
+
 
 
 ### Maksut
 
-Laskut lähetetään annettuun laskutusosoitteeseen valmennuksen jälkeen.
+**Laskut** lähetetään annettuun laskutusosoitteeseen valmennuksen jälkeen.
+Jos laskua ei kuulu parin viikon kuluessa,
+ota yhteyttä Päivölään — on mahdollista, että se on mennyt vahingossa roskapostiin.

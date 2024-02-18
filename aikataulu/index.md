@@ -19,3 +19,4 @@ eleventyNavigation:
 {% endfor %}
 </div>
 
+Lue myös viikonloppuvalmennusten [käytännön asioista](/kaytanto/).
