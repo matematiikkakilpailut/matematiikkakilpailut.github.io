@@ -25,6 +25,7 @@
     "sitemap": "^7.1.1"
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
     "csso-cli": "^4.0.2",
     "markdown-it": "^13.0.2",
     "markdown-it-anchor": "^8.6.7",
