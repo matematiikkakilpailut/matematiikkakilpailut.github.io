@@ -19,4 +19,8 @@ eleventyNavigation:
 {% endfor %}
 </div>
 
+<br>
+
+<br>
+
 Lue myös viikonloppuvalmennusten [käytännön asioista](/kaytanto/).
