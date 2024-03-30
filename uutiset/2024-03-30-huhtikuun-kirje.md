@@ -9,5 +9,4 @@ Palautetta vastanneille on tulossa huhtikuun ensimmäisellä viikolla.
 
 <span lang="sv-FI">[Coachingbrevet](https://drive.google.com/file/d/1Qt6Mqssm5UXb4BP6pDeOPETeuPyS7zdH/view) för april 2024 har publicerats.
 Vänligen returnera lösningarna senast den 5 maj 2024.<br>
-Februari månads [lösningar](https://drive.google.com/file/d/1kUKwp7AQERLhGaJmLXSemrlIe6ypYw-1/view) har också publicerats.
-Feedback för respondenterna kommer att finnas tillgänglig under den första veckan i april.</span>
+</span>
