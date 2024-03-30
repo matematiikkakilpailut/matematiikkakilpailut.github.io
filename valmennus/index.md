@@ -43,17 +43,12 @@ valintakokeissa.
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
-Helmikuun 2024 [tehtävät](https://drive.google.com/file/d/1LxNQZGeGjmKVhvMcLkqOpdpzwg4XJamu/view).<br>
-<span lang="sv">[Träningsuppgifter, februari 2024](https://drive.google.com/file/d/13T5soC6pXe_6FAHzcp6r2P3IW2vSWerm/view).</span>
+Huhtikuun 2024 [tehtävät](https://drive.google.com/file/d/1kZczqYsG8l9Fa1Kyqs3DxY5gQMFOfRNs/view).<br>
+<span lang="sv">[Träningsuppgifter, april 2024](https://drive.google.com/file/d/1Qt6Mqssm5UXb4BP6pDeOPETeuPyS7zdH/view).</span>
 
-Vuodenvaihteen 2023–2024 [tehtävät](2023/kirje_2023_12.pdf).
-
-Lokakuun 2023 [tehtävät](2023/kirje_2023_10.pdf).<br>
-<span lang="sv">[Träningsuppgifter, oktober 2023](2023/brev_2023_10.pdf).</span>
-
-Syyskuun 2023 [tehtävät](2023/kirje_2023_09.pdf) (tehtävään 14 korjattu vakion 4/9 tilalle 2/3)
-ja [ratkaisut](2023/ratkaisut_2023_09.pdf)<br>
-<span lang="sv">[Träningsuppgifter, september 2023](2023/brev_2023_09.pdf). I uppgift 14 ändrat konstanten från 4/9 till 2/3.</span>
+Helmikuun 2024 [tehtävät](https://drive.google.com/file/d/1LxNQZGeGjmKVhvMcLkqOpdpzwg4XJamu/view)
+ja [ratkaisut](https://drive.google.com/file/d/1Q0vNEc9vi-b_xaxi-gfIzPTKXcFxoQYY/view).<br>
+<span lang="sv">[Träningsuppgifter, februari 2024](https://drive.google.com/file/d/13T5soC6pXe_6FAHzcp6r2P3IW2vSWerm/view) och [lösningar](https://drive.google.com/file/d/1kUKwp7AQERLhGaJmLXSemrlIe6ypYw-1/view).</span>
 
 
 
@@ -71,6 +66,16 @@ Peruskoululaiset voivat halutessaan ratkoa myös haastavampia, kaikille koululai
 
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
+
+Vuodenvaihteen 2023–2024 [tehtävät](2023/kirje_2023_12.pdf).
+
+Lokakuun 2023 [tehtävät](2023/kirje_2023_10.pdf).<br>
+<span lang="sv">[Träningsuppgifter, oktober 2023](2023/brev_2023_10.pdf).</span>
+
+Syyskuun 2023 [tehtävät](2023/kirje_2023_09.pdf) (tehtävään 14 korjattu vakion 4/9 tilalle 2/3)
+ja [ratkaisut](2023/ratkaisut_2023_09.pdf)<br>
+<span lang="sv">[Träningsuppgifter, september 2023](2023/brev_2023_09.pdf). I uppgift 14 ändrat konstanten från 4/9 till 2/3.</span>
+
 
 Kesän 2023 [tehtävät](2023/kirje_2023_07.pdf) ja [ratkaisut](2023/ratkaisut_2023_07.pdf).<br>
 <span lang="sv">[Träningsuppgifter, sommaren 2023](2023/brev_2023_07.pdf).</span>
