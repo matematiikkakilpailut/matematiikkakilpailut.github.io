@@ -8,6 +8,6 @@ Vain vierailijamaa Yhdysvaltojen Hannah Fox ylsi
 korkeampaan pistemäärään 212 kilpailijan joukossa.
 Kultamitali on Suomen ensimmäinen.
 Loistavaa menestystä täydensi **Siiri Roschier** pronssimitalilla
-ja joukkueen pistepottia kartuttivat myös **Amelie Hao* ja **Minea Tiitinen**.
+ja joukkueen pistepottia kartuttivat myös **Amelie Hao** ja **Minea Tiitinen**.
 
 [Tehtävät](https://www.egmo.org/egmos/egmo13/), [tulokset](https://www.egmo.org/egmos/egmo13/scoreboard/)
