@@ -22,7 +22,7 @@ Suomi osallistuu kilpailuun vuosittain enintään nelihenkisellä joukkueella.
 
 Suomi on voittanut kilpailusta yhden kullan Aino Aulangon ollessa paras eurooppalainen vuonna 2024. 
 
-[Seuraavat](https://www.egmo.org/egmos/egmo13/) Euroopan tyttöjen matematiikkaolympialaiset järjestetään vuonna 2025 Kosovossa.
+[Seuraavat](https://www.egmo.org/egmos/egmo14/) Euroopan tyttöjen matematiikkaolympialaiset järjestetään vuonna 2025 Kosovossa.
 
 ## Menneet kilpailut
 
