@@ -40,6 +40,18 @@ aikataulu:
   tapahtuma: >-
     [Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr>](https://www.imo2024.uk/)
     Bathissa, Isossa-Britanniassa
+- pvm: "2024"
+  tapahtuma: "syksy"
+  otsikko: true
+- pvm: - "30.8.&ndash;1.9. (viikko 35)"
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä.
+- pvm: - "Joko viikko 41 tai viikko 43"
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä.
+- pvm: - pvm: "22.11.&ndash;24.11. (viikko 47)"
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä.
 
 # ainoastaan otsikon "aikataulu" alla olevat tapahtumat otetaan mukaan sivulle
 # joten esim. "mahdollisia" tai "vanhoja" eivät näy vaan ovat mukana vain jotta
