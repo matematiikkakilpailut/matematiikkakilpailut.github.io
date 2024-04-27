@@ -49,7 +49,10 @@ aikataulu:
 - pvm: - "Joko viikko 41 tai viikko 43"
   tapahtuma: >-
     Valmennusviikonloppu Päivölässä.
-- pvm: - pvm: "22.11.&ndash;24.11. (viikko 47)"
+- pvm: "14.&ndash;18.11."
+  tapahtuma: >-
+    Baltian tie -joukkuekilpailu Tartossa, Virossa
+- pvm: - pvm: "22.&ndash;24.11. (viikko 47)"
   tapahtuma: >-
     Valmennusviikonloppu Päivölässä.
 
