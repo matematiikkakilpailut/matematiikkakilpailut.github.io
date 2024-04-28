@@ -24,9 +24,6 @@ aikataulu:
 - pvm: "26.&ndash;28.4. (viikko 17)"
   tapahtuma: >-
     Valmennusviikonloppu Päivölässä ja Pythagoraan polku.
-    <a role="button" class="btn btn-primary btn-sm"
-    href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2024-vk17">Ilmoittaudu Päivölään!</a>
-    <br>*Poikkeaa joistakin ennakkotiedoista!*
 - pvm: "13.&ndash;17.5. (Maanantain kahvittelusta perjantai-iltapäivään)"
   tapahtuma: >-
     Valmennusleiri kutsutuille. IMO-joukkueen valinta.
@@ -55,6 +52,35 @@ aikataulu:
 - pvm: "22.&ndash;24.11. (viikko 47)"
   tapahtuma: >-
     Valmennusviikonloppu Päivölässä.
+
+- pvm: "2024"
+  tapahtuma: "Syksy"
+  otsikko: true
+- pvm: "30.8.&ndash;1.9. (viikko 35)"
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä
+- pvm: "viikko 41 tai 43"
+  tapahtuma: >-
+    Valmennusviikonloppu ja Baltian tie -joukkueen valinta Päivölässä.
+- pvm: "noin lokakuussa"
+  tapahtuma: >-
+    [Iranin geometriaolympialaiset <abbr>IGO</abbr>](https://igo-official.com/?lang=en).
+- pvm: "23.10.&ndash;5.11."
+  tapahtuma: >-
+    [MAOLin matematiikkakilpailun alkukilpailu, peruskoulu](https://maol.fi/neljan-tieteen-kisat/)
+- pvm: "29.10."
+  tapahtuma: >-
+    [MAOLin matematiikkakilpailun alkukilpailu, lukio](https://maol.fi/neljan-tieteen-kisat/)
+- pvm: "14.&ndash;18.11."
+  tapahtuma: >-
+    Baltian tie -joukkuekilpailu Tartossa
+- pvm: "13.&ndash;15.12. (viikko 50)"
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä.
+- pvm: "noin joulukuussa"
+  tapahtuma: >-
+    [EMC-kilpailu](https://emc.mnm.hr/)
+
 
 # ainoastaan otsikon "aikataulu" alla olevat tapahtumat otetaan mukaan sivulle
 # joten esim. "mahdollisia" tai "vanhoja" eivät näy vaan ovat mukana vain jotta

@@ -13,6 +13,6 @@ Ohjelmassa on ainakin:
 
 Ilmoittaudu pian! Ilmoittautumisaika päättyy maanantaiaamuna 22.4. klo 8.
 
-<a role="button" class="btn btn-primary btn-sm" href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2024-vk17">Ilmoittaudu Päivölään</a>
+<a href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2024-vk17">Ilmoittaudu Päivölään</a>
 
 [Yleisiä ohjeita](/kaytanto/)
