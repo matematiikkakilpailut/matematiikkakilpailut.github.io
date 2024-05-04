@@ -46,6 +46,10 @@ valintakokeissa.
 Huhtikuun 2024 [tehtävät](https://drive.google.com/file/d/1kZczqYsG8l9Fa1Kyqs3DxY5gQMFOfRNs/view).<br>
 <span lang="sv">[Träningsuppgifter, april 2024](https://drive.google.com/file/d/1Qt6Mqssm5UXb4BP6pDeOPETeuPyS7zdH/view).</span>
 
+**Vastausten palautusosoite on muuttunut**:
+palauta helpommat tehtävät Veera Nurmelalle `beepa.art@gmail.com`
+ja vaikeammat Nirmal Krishnanille `nirmal.krishnan@helsinki.fi`.
+
 Helmikuun 2024 [tehtävät](https://drive.google.com/file/d/1LxNQZGeGjmKVhvMcLkqOpdpzwg4XJamu/view)
 ja [ratkaisut](https://drive.google.com/file/d/1Q0vNEc9vi-b_xaxi-gfIzPTKXcFxoQYY/view).<br>
 <span lang="sv">[Träningsuppgifter, februari 2024](https://drive.google.com/file/d/13T5soC6pXe_6FAHzcp6r2P3IW2vSWerm/view).</span>
