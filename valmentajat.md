@@ -43,7 +43,7 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
 *  Veera Nurmela<br/> Edustaja Euroopan tyttöjen matematiikkaolympialaisissa 2018, 2019, 2020 ja 2021, peruskoululaisten kirjevalmennus.
 *  Neea Palojärvi<br/> Filosofian tohtori, olympiaedustaja vuonna 2013.
    Yleiset kysymykset valmennuksesta: n.palojarvi@gmail.com
-*  Marius Sclearuc <br/> Moldovan olympiaedustaja vuosina 2021 ja 2022.   
+*  Marius Sclearuc <br/> Moldovan olympiaedustaja vuosina 2021 ja 2022.
 *  Louna Seppälä<br/>
    Filosofian tohtori, peruskoululaisten kirjevalmennus.
 *  [Jouni Seppänen][jks]<br/> Tekniikan tohtori, olympiaedustaja vuosina 1994 ja 1995.
@@ -55,8 +55,6 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
    Helsingin matematiikkalukion linjanjohtaja, Harppi-projektin vetäjä.
 *  Ville Uotila<br/>
    Olympiaedustaja vuonna 2021.
-*  Esa Vesalainen<br/>
-   Olympiaedustaja vuosina 2005, 2006 ja 2007.
 
 [smy]: http://www.matemaattinenyhdistys.fi/
 [matti]: https://www.eukleideskirjat.fi/Matti/
@@ -72,4 +70,6 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
 *  Jaakko Seppälä<br/>
    Filosofian maisteri, edustaja Pohjoismaisessa matematiikkakilpailussa 2007.
 *  Joni Teräväinen<br/> Filosofian tohtori, olympiaedustaja vuosina 2011, 2012 ja 2013.
+*  Esa Vesalainen<br/>
+   Olympiaedustaja vuosina 2005, 2006 ja 2007.
 -->
