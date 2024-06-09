@@ -20,7 +20,6 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
    Kantaa huolta lukuteorian ja epäyhtälöiden osaamisesta.
 *  Lauri Hallila<br/> Olympiaedustaja vuosina 1996 ja 1997.
 *  Akseli Jussinmäki<br/> Olympiaedustaja vuosina 2018 ja 2019, erityisesti peruskoululaisten valmennus.
-*  Lauri Karanko <br/> Tekniikan ylioppilas, peruskoululaisten kirjevalmennus.
 *  Pihla Karanko <br/> Edustaja Euroopan tyttöjen matematiikkaolympialaisissa 2012 ja 2013, erityisesti peruskoululaisten valmennus.
 *  Alexey Kirichenko<br/>
    Kokemusta mm. maineikkaista Leningradin matematiikkaolympialaisista.
