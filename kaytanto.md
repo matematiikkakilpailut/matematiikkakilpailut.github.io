@@ -59,25 +59,6 @@ järjestetty muun muassa Helsingissä, Tampereella ja Turussa.
 Osallistujien matka- ja täysihoitokulut maksetaan valmennusjaoston
 toimesta.
 
-## Ylä­koululaisten kesä­leiri
-
-### Leiriä ei järjestetä vuosina 2022 tai 2023 resurssi­pulasta johtuen
-
-Vuosittain kesäkuussa pidettävä *yläkoululaisten* nelipäiväinen *kesäleiri*
-on suunnattu niille, jotka olivat edeltävänä keväänä yläkoulussa.
-Ohjelmassa on kilpamatematiikan lisäksi
-hieman kevyempää harrastus­matematiikkaa ja yhdessä­oloa saman­henkisessä
-seurassa matematiikan parissa. [Tästä](aikataulu_perus.pdf) voi lukea
-esimerkkinä erään kesäleirin aikataulun. Leiri järjestetään Päivölän opistolla.
-
-Leirille kutsutaan edellisen kevään aikana valmennukseen aktiivisesti
-osallistuneita taitavia yläkoululaisia, joiden täysihoito Päivölässä
-kustannetaan. **Kaikki kiinnostuneet yläkoululaiset** ovat
-kuitenkin oikein tervetulleita leirille; ne, jotka eivät ole saaneet kutsua,
-omakustanteisesti.
-
-Lue lisää leirin käytännön järjestelyistä <a href="#kaytantoa">alta</a>.
-
 
 ## Tanskan leiri
 
