@@ -43,7 +43,7 @@ valintakokeissa.
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
-Kesän 2024 [tehtävät](2023/kesa_2024.pdf).
+Kesän 2024 [tehtävät](2023/2024_kesa.pdf).
 
 Huhtikuun 2024 [tehtävät](https://drive.google.com/file/d/1kZczqYsG8l9Fa1Kyqs3DxY5gQMFOfRNs/view).<br>
 <span lang="sv">[Träningsuppgifter, april 2024](https://drive.google.com/file/d/1Qt6Mqssm5UXb4BP6pDeOPETeuPyS7zdH/view).</span>
