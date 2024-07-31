@@ -1,5 +1,5 @@
 ---
-title: IMOsta hopeaa, pronssia ja Maryam Mizakhani -erikoispalkinto
+title: IMOsta hopeaa, pronssia ja Maryam Mirzakhani -erikoispalkinto
 ---
 
 **Aino Aulanko** voitti hopeaa ja **Zhongyi Li** pronssia vuoden 2024 kansainvälisissä matematiikkaolympialaisissa.
