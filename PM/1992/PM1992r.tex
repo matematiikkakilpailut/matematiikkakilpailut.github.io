@@ -1,0 +1,123 @@
+\input makrot
+\input def
+\input laskut
+
+\font\isosser=cmss12
+\centerline{\isosser Vuoden 1992 pohjoismaisen kilpailun ratkaisut}\bigskip
+
+\harj  Tutkitaan arvoilla $t>1$ määriteltyä funktiota $f$,
+$$f(t)=t+{3\over t-1}-2\sqrt{t+2}.$$ Tehtävän yhtälö on muotoa
+$$f(x)+f(y)+f(z)=0.$$ Muotoillaan $f$:n lauseketta:
+$$\displaylines{f(t)={1\over t-1}\(t^2-t+3-2(t-
+1)\sqrt{t+2}\)={1\over t-1}\(t^2-2t+1+\(\sqrt{t+2}\)^2-2(t-
+1)\sqrt{t+2}\)\cr={1\over t-1}\(t-1-\sqrt{t+2}\)^2.\cr}$$ Siis
+$f(t)\ge 0$ ja $f(t)=0$ vain, kun $t>1$ ja $$t-1=\sqrt{t+2}$$ eli
+$$t^2-3t-1=0.$$ Ainoa ehdon täyttävä $t$ on $$t={3+\sqrt{13}\over
+2}.$$ Tehtävän yhtälö voi siten toteutua ainoastaan silloin, kun 
+$$x=y=z={3+\sqrt{13}\over 2}.$$     
+
+
+
+\harj  Tehdään vastaoletus: olkoon $g(x)$ astetta $m$,
+$1\le m<n$ oleva kokonaislukukertoiminen polynomi, jossa $x$:n
+kerroin on 1 ja olkoon $$f(x)=g(x)h(x),$$ missä $h(x)$ on polynomi. Olkoot
+$$\eqalign{g(x)&=x^m+b_{m-1}x^{m-1}+\dots+b_1x+b_0,\cr h(x)&=x^{n-
+m}+c_{n-m-1}x^{n-m-1}+\dots+c_1x+c_0.\cr}$$ Jos kaikki kertoimet $c_j$ eivät
+olisi kokonaislukuja, voitaisiin löytää suurin indeksi $j=k$, jolle $c_k$ ei
+olisi kokonaisluku. Mutta silloin $f$:n astetta $k+m$ olevan termin kerroin
+-- joka on kokonaisluku -- olisi $c_k+b_{m-1}c_{k+1}+b_{m-2}c_{k+2}+\dots
+b_{k-m}$. Koska summan yhteenlaskettavat ovat ensimmäistä lukuun ottamatta
+kokonaislukuja, summa ei ole kokonaisluku. Ristiriita osoittaa, että $h(x)$
+on välttämättä myös kokonaislukukertoiminen polynomi. Koska
+$$f(a_i)=g(a_i)h(a_i)=-1,$$ kun $i=1$, 2, \dots $n$ ja sekä $g(a_i)$:t että
+$f(a_i)$:t ovat kokonaislukuja, on aina  $g(a_i)=-f(a_i)=\pm 1$ ja siis
+$g(a_i)+h(a_i)=0$. Mutta tämä merkitsee, että polynomilla $g(x)+h(x)$, jonka
+aste on $<n$, on $n$ nollakohtaa. Polynomin täytyy olla identtisesti $=0$ eli
+$g(x)=-h(x)$. Siis $$f(x)=-g(x)^2\le 0$$ Tämä on kuitenkin mahdotonta,
+koska $f(x)\to +\infty$, kun $x\to+\infty$. 
+
+
+
+\harj  Jos kolmion sisään piirretyn ympyrän säde on 1, niin
+kolmion piiri $p$ ja ala $A$ toteuttavat yhtälön $2A=p$. (Jaa kolmio
+kolmeksi kolmioksi, joiden yhteinen kärki on sisään piirretyn
+ympyrän keskipiste.) Tehtävänä on siis todistaa, että kolmioista,
+joiden sisään piirretyn ympyrän säde on 1, alaltaan pienin on
+tasasivuinen kolmio. 
+
+\smallbreak
+
+\noindent{}Väitteen todistus perustuu seuraavaan aputulokseen: Olkoot
+$y_1$ ja $y_2$ kaksi samakeskistä ympyrää. Oletetaan, että ympyrän $y_2$
+jänteet $AB$ ja $CD$ leikkaavat pisteessä $E$ ja sivuavat molemmat
+ympyrää $y_1$. Oletetaan  ja että $C$ on lyhemmällä kaarista $AB$.
+Silloin jänteiden ja ympyrän $y_2$ kaarien rajoittamat kuviot $AEC$
+ja $DEB$ ovat yhtenevät. Todistus: Olkoon ympyröiden yhteinen
+keskipiste $O$ ja jänteiden $AB$ ja $CD$ sekä ympyrän $y_1$ yhteiset
+pisteet $F$ ja $G$. Selvästi kulman $FOG$ suuruinen kierto vie janan
+$CD$ janan $AB$ päälle. Tästä seuraa, että kaaret $AC$ ja $BD$ ovat
+yhtä suuret ja vastaavat janat $AC$ ja $BD$ samoin. Kulmat $EAO$ ja
+$EDO$ ovat yhtä suuret, joten myös kulmat $EAD$ ja $EDA$ ovat yhtä
+suuret. Siis $ED=EA$. Kolmiot $AEC$ ja $DEB$ ovat siten yhtenevät
+(ssk), joten myös $CE=CB$.
+
+\smallbreak
+
+\noindent Olkoon nyt $ABC$ tasasivuinen kolmio, jonka sisään piirretyn
+ympyrän säde on 1 ja $A'B'C'$ mielivaltainen kolmio, jolla on sama sisään
+piirretty ympyrä. Olkoon $y_2$ kolmion $ABC$ ympäri piirretty ympyrä.
+Jos $A'B'C'$ ei ole tasasivuinen, ainakin yksi sen kärki on ympyrän
+$y_2$ ulkopuolella ja ainakin yksi kärki on ympyrän $y_2$
+sisäpuolella. Kiertämällä kolmioita ja tarpeen mukaan nimeämällä
+uudelleen kärjet päästään tilanteeseen, jossa suorat $AB$ ja $A'B'$
+yhtyvät ja joko $AC$ on $A'C'$:n osa tai $A'B'$ on $AB$:n osa.
+Kummassakin tapauksessa $A'B'C'$:n ala saadaan $ABC$:n alasta
+vähentämällä kaksi palaa, jotka ovat pienempiä kuin eräät
+aputuloksessa käsitellyn muotoiset "kolmiot" $\Delta_1$ ja
+$\Delta_2$ ja lisäämällä vastaavasti kaksi palaa, jotka molemmat
+ovat suurempia kuin aputuloksen mukaiset $\Delta_1$:n ja $\Delta_2$:n
+kanssa yhtenevät "kolmiot" $\Delta_1'$ ja $\Delta_2'$. 
+
+
+\def\mus{\vrule height5mm width5mm}
+\def\val{\hbox to5mm{\vrule\vbox to 5mm{\hrule width 4.64mm 
+\vfil\hrule width 4.64mm}\vrule}}
+
+\harj  Kun $n=4$, konstruktio onnistuu: 
+
+
+
+\hbox to\hsize{\hfil\vbox{\offinterlineskip\hbox{\mus\mus\val\val}
+\hbox{\mus\val\mus\val}
+\hbox{\val\mus\val\mus}
+\hbox{\val\val\mus\mus}}\hfil}
+
+
+
+\noindent{}Tarkastellaan tapausta $n=5$: Voidaan olettaa, että 25:stä
+neliöstä ainakin 13 on mustia. Jos näistä viisi on jollakin
+vaakarivillä, lopuista kahdeksasta ainakin kaksi on samalla
+vaakarivillä. Näin syntyy suorakaide, jonka kaikki kärjet ovat
+mustia. Oletetaan, että mustista neliöistä neljä on jollakin
+vaakarivillä. Lopuista yhdeksästä täytyy joidenkin kolmen olla
+samalla vaakarivillä. Näistä ainakin kahden on oltava sellaisilla
+pystyriveillä, joilla on myös jotkin kaksi neljästä saman vaakarivin
+mustasta. Jos missään vaakarivissä ei ole enempää kuin kolme mustaa
+neliötä, on ainakin kolmella vaakarivillä oltava tasan kolme mustaa
+neliötä. Olkoot nämä rivit $A$, $B$ ja $C$. Kutsutaan niitä
+pystyrivejä, joissa $A$-vaakarivin mustat neliöt ovat {\it
+mustiksi\/} ja loppuja kahta pystyriviä {\it valkoisiksi\/}
+pystyriveiksi. Jos $B$- tai $C$-rivillä on mustilla pystyriveillä
+ainakin kaksi mustaa neliötä, syntyy mustakärkinen suorakaide. Jos
+kummallakaan vaakariveistä $B$ ja $C$ ei mustilla pystyriveillä ole
+kuin enintään yksi musta neliö, ovat molempien vaakarivien
+valkeisiin pystyriveihin kuuluvat neliöt mustia. Taas syntyy
+mustakärkinen suorakaide! 
+
+\smallbreak
+
+\noindent{}Johtopäätös: $n=4$ on suurin mahdollinen $n$.
+
+
+
+\bye
