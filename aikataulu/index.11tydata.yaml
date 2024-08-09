@@ -1,25 +1,14 @@
 ---
 aikataulu:
 - pvm: "2024"
-  tapahtuma: "kesä"
-  otsikko: true
-- pvm: "9.7.&ndash;14.7."
-  tapahtuma: >-
-    Sorøn valmennusleiri olympiajoukkueelle
-- pvm: "10.&ndash;22.7."
-  tapahtuma: >-
-    [Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr>](https://www.imo2024.uk/)
-    Bathissa, Isossa-Britanniassa
-
-- pvm: "2024"
   tapahtuma: "Syksy"
   otsikko: true
 - pvm: "30.8.&ndash;1.9. (viikko 35)"
   tapahtuma: >-
-    Valmennusviikonloppu Päivölässä
-- pvm: "viikko 41 tai 43"
+    Valmennusviikonloppu Päivölässä, ohjelmassa Baltian tie -joukkueen valintakoe.
+- pvm: "25.&ndash;27.10. (viikko 43)"
   tapahtuma: >-
-    Valmennusviikonloppu ja Baltian tie -joukkueen valinta Päivölässä.
+    Valmennusviikonloppu Päivölässä.
 - pvm: "noin lokakuussa"
   tapahtuma: >-
     [Iranin geometriaolympialaiset <abbr>IGO</abbr>](https://igo-official.com/?lang=en).
@@ -38,7 +27,22 @@ aikataulu:
 - pvm: "noin joulukuussa"
   tapahtuma: >-
     [EMC-kilpailu](https://emc.mnm.hr/)
-
+- pvm: "2025"
+  tapahtuma: "Kevät ja kesä"
+  otsikko: true
+- pvm: "25.3."
+  tapahtuma: >-
+    Pohjoismainen matematiikkakilpailu kutsutuille omassa koulussa.
+- pvm: "11.&ndash;17.4."
+  tapahtuma: >-
+    Euroopan tyttöjen matematiikkaolympialaiset EGMO Pristinassa, Kosovossa.
+- pvm: "luultavimmin huhtikuussa"
+  tapahtuma: >-
+    IMO-valintaleiri
+- pvm: "13.&ndash;20.7."
+  tapahtuma: >-
+    [Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr>](https://imo2025.au/)
+    Sunshine Coastissa, Australiassa
 
 # ainoastaan otsikon "aikataulu" alla olevat tapahtumat otetaan mukaan sivulle
 # joten esim. "mahdollisia" tai "vanhoja" eivät näy vaan ovat mukana vain jotta
@@ -49,6 +53,16 @@ mahdollisia:
   tapahtuma: "[European Mathematical Cup](https://emc.mnm.hr)"
 
 vanhoja:
+- pvm: "2024"
+  tapahtuma: "kesä"
+  otsikko: true
+- pvm: "9.7.&ndash;14.7."
+  tapahtuma: >-
+    Sorøn valmennusleiri olympiajoukkueelle
+- pvm: "10.&ndash;22.7."
+  tapahtuma: >-
+    [Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr>](https://www.imo2024.uk/)
+    Bathissa, Isossa-Britanniassa
 - pvm: "2024"
   tapahtuma: "kevät"
   otsikko: true
