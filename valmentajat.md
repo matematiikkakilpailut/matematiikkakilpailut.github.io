@@ -15,6 +15,7 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
 
 *  Daniel Arone<br/>
    Olympiaedustaja vuosina 2020 ja 2021, kiinnostunut lukuteoriasta.
+*  Aino Aulanko <br/> Olympiaedustaja vuosina 2022, 2023 ja 2024.  
 *  Anne-Maria Ernvall-Hytönen<br/>
    Filosofian tohtori, apulaisprofessori (HY), olympiaedustaja vuosina 1999, 2000 ja 2001.
    Kantaa huolta lukuteorian ja epäyhtälöiden osaamisesta.
@@ -41,6 +42,7 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
    Sommittelee kombinatoriikan valmennusta.
 *  Veera Nurmela<br/> Edustaja Euroopan tyttöjen matematiikkaolympialaisissa 2018, 2019, 2020 ja 2021, peruskoululaisten kirjevalmennus.
 *  Neea Palojärvi<br/> Filosofian tohtori, olympiaedustaja vuonna 2013.
+*  Siiri Roschier<br/> Olympiaedustaja vuosina 2023 ja 2024.
 *  [Jouni Seppänen][jks]<br/> Tekniikan tohtori, olympiaedustaja vuosina 1994 ja 1995.
 *  Paula Sipilä<br/> Kokemusta mm. MAOLin matematiikkakilpailun finaalista, peruskoululaisten kirjevalmennus.
 *  Daniel Slivinskiy<br/>
