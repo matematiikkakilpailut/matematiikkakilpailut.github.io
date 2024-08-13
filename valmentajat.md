@@ -20,12 +20,12 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
    Kantaa huolta lukuteorian ja epäyhtälöiden osaamisesta.
 *  Lauri Hallila<br/> Olympiaedustaja vuosina 1996 ja 1997.
 *  Akseli Jussinmäki<br/> Olympiaedustaja vuosina 2018 ja 2019, erityisesti peruskoululaisten valmennus.
-*  Pihla Karanko <br/> Edustaja Euroopan tyttöjen matematiikkaolympialaisissa 2012 ja 2013, erityisesti peruskoululaisten valmennus.
 *  Alexey Kirichenko<br/>
    Kokemusta mm. maineikkaista Leningradin matematiikkaolympialaisista.
 *  Tuomas Korppi<br/>
    Olympiaedustaja vuonna 1995.
 *  Nirmal Krishnan<br/>
+*  Milja Krés<br/> Edustaja Euroopan tyttöjen matematiikkaolympialaisissa 2018, peruskoululaisten kirjevalmennus.
 *  Jari Lappalainen<br/> Olympiaedustaja vuosina 1990 ja 1991.
 *  Merikki Lappi, filosofian maisteri<br/>
    Merikki.Lappi@paivola.fi, 0400534139.
@@ -41,11 +41,8 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
    Sommittelee kombinatoriikan valmennusta.
 *  Veera Nurmela<br/> Edustaja Euroopan tyttöjen matematiikkaolympialaisissa 2018, 2019, 2020 ja 2021, peruskoululaisten kirjevalmennus.
 *  Neea Palojärvi<br/> Filosofian tohtori, olympiaedustaja vuonna 2013.
-   Yleiset kysymykset valmennuksesta: n.palojarvi@gmail.com
-*  Marius Sclearuc <br/> Moldovan olympiaedustaja vuosina 2021 ja 2022.
-*  Louna Seppälä<br/>
-   Filosofian tohtori, peruskoululaisten kirjevalmennus.
 *  [Jouni Seppänen][jks]<br/> Tekniikan tohtori, olympiaedustaja vuosina 1994 ja 1995.
+*  Paula Sipilä<br/> Kokemusta mm. MAOLin matematiikkakilpailun finaalista, peruskoululaisten kirjevalmennus.
 *  Daniel Slivinskiy<br/>
    Olympiaedustaja vuonna 2023.
 *  Anni Tapionlinna<br/>
