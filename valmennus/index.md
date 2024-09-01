@@ -43,19 +43,13 @@ valintakokeissa.
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
-Kesän 2024 [tehtävät](2023/2024_kesa.pdf).
-
-Huhtikuun 2024 [tehtävät](https://drive.google.com/file/d/1kZczqYsG8l9Fa1Kyqs3DxY5gQMFOfRNs/view).<br>
-<span lang="sv">[Träningsuppgifter, april 2024](https://drive.google.com/file/d/1Qt6Mqssm5UXb4BP6pDeOPETeuPyS7zdH/view).</span>
+Syyskuun 2024 [tehtävät](https://drive.google.com/file/d/1UPyIAjAUP23RyrMWJvNNXl2BqlpjEx6u/view?usp=sharing).
 
 **Vastausten palautusosoite on muuttunut**:
-palauta helpommat tehtävät Veera Nurmelalle `beepa.art@gmail.com`
-ja vaikeammat Nirmal Krishnanille `nirmal.krishnan@helsinki.fi`.
+osoitteet ovat [`helpot.tehtavat@matematiikkakilpailut.fi`](mailto:helpot.tehtavat@matematiikkakilpailut.fi)
+ja [`vaikeat.tehtavat@matematiikkakilpailut.fi`](mailto:vaikeat.tehtavat@matematiikkakilpailut.fi).
 
-Helmikuun 2024 [tehtävät](https://drive.google.com/file/d/1LxNQZGeGjmKVhvMcLkqOpdpzwg4XJamu/view)
-ja [ratkaisut](https://drive.google.com/file/d/1Q0vNEc9vi-b_xaxi-gfIzPTKXcFxoQYY/view).<br>
-<span lang="sv">[Träningsuppgifter, februari 2024](https://drive.google.com/file/d/13T5soC6pXe_6FAHzcp6r2P3IW2vSWerm/view).</span>
-
+Kesän 2024 [tehtävät](2023/2024_kesa.pdf).
 
 
 ### Peruskoululaisten tehtävät {id=perus}
@@ -72,6 +66,13 @@ Peruskoululaiset voivat halutessaan ratkoa myös haastavampia, kaikille koululai
 
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
+
+Huhtikuun 2024 [tehtävät](https://drive.google.com/file/d/1kZczqYsG8l9Fa1Kyqs3DxY5gQMFOfRNs/view).<br>
+<span lang="sv">[Träningsuppgifter, april 2024](https://drive.google.com/file/d/1Qt6Mqssm5UXb4BP6pDeOPETeuPyS7zdH/view).</span>
+
+Helmikuun 2024 [tehtävät](https://drive.google.com/file/d/1LxNQZGeGjmKVhvMcLkqOpdpzwg4XJamu/view)
+ja [ratkaisut](https://drive.google.com/file/d/1Q0vNEc9vi-b_xaxi-gfIzPTKXcFxoQYY/view).<br>
+<span lang="sv">[Träningsuppgifter, februari 2024](https://drive.google.com/file/d/13T5soC6pXe_6FAHzcp6r2P3IW2vSWerm/view).</span>
 
 Vuodenvaihteen 2023–2024 [tehtävät](2023/kirje_2023_12.pdf).
 

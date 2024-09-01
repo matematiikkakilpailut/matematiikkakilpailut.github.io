@@ -8,8 +8,7 @@ Joukkuetta ei todennäköisesti ehditä valita valmennusviikonlopun aikana, vaan
 valittuihin otetaan yhteyttä sen jälkeen.
 
 Alakerran ohjelmassa on epäyhtälöitä ja kombinatorisia korttitemppuja.
-
-<a role="button" class="btn btn-primary btn-sm" href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2024-vk35">Ilmoittaudu Päivölään!</a>
+<a href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2024-vk35">Ilmoittaudu Päivölään!</a>
 
 <a href="/aikataulu/">valmennuksen aikataulu</a>
 
