@@ -43,6 +43,8 @@ valintakokeissa.
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
+Marraskuun 2024 [tehtävät](https://drive.google.com/file/d/14ScVYlYBn7fzkTqtYQc7szrws4DOrwNd/view).
+
 Syyskuun 2024 [tehtävät](https://drive.google.com/file/d/1UPyIAjAUP23RyrMWJvNNXl2BqlpjEx6u/view?usp=sharing).
 
 **Vastausten palautusosoite on muuttunut**:
