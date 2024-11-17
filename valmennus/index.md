@@ -43,7 +43,9 @@ valintakokeissa.
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
-Marraskuun 2024 [tehtävät](https://drive.google.com/file/d/14ScVYlYBn7fzkTqtYQc7szrws4DOrwNd/view).
+Marraskuun 2024 [tehtävät](https://drive.google.com/file/d/14ScVYlYBn7fzkTqtYQc7szrws4DOrwNd/view).<br>
+Tehtävää 12 korjattu 17.11.: kyse on peräkkäisistä kolminumeroisista luvuista, ei mistä tahansa
+joukosta kolminumeroisia lukuja.
 
 Syyskuun 2024 [tehtävät](https://drive.google.com/file/d/1UPyIAjAUP23RyrMWJvNNXl2BqlpjEx6u/view?usp=sharing).
 
