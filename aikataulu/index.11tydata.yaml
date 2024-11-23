@@ -23,19 +23,25 @@ aikataulu:
   tapahtuma: >-
     Valmennusviikonloppu Päivölässä.
     [Ilmoittaudu Päivölään!](https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2024-vk50)
-- pvm: "noin joulukuussa"
-  tapahtuma: >-
-    [EMC-kilpailu](https://emc.mnm.hr/)
 - pvm: "2025"
   tapahtuma: "Kevät ja kesä"
   otsikko: true
+- pvm: "10.&ndash;12.1. (viikko 2)"
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä.
+- pvm: "21.&ndash;23.2. (viikko 2)"
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä.
 - pvm: "25.3."
   tapahtuma: >-
     Pohjoismainen matematiikkakilpailu kutsutuille omassa koulussa.
+- pvm: "4.&ndash;6.4. (viikko 14)"
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä.
 - pvm: "11.&ndash;17.4."
   tapahtuma: >-
     Euroopan tyttöjen matematiikkaolympialaiset EGMO Pristinassa, Kosovossa.
-- pvm: "luultavimmin huhtikuussa"
+- pvm: "Huhti- tai toukokuussa"
   tapahtuma: >-
     IMO-valintaleiri
 - pvm: "13.&ndash;20.7."
