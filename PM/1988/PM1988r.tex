@@ -1,0 +1,70 @@
+\input makrot
+\input def
+\input laskut
+
+\font\isosser=cmss12
+\centerline{\isosser Vuoden 1988 pohjoismaisen kilpailun ratkaisut}\bigskip
+
+\harj  Jos $x=\root 3\of n$ ja $y$, $0\le y\le 1000$,
+$n$:n kolmen viimeisen numeron muodostama luku, niin $$x^3=1000x+y.$$ Siis
+$x^3\ge 1000x$, $x^2>1000$ ja $x>31$. Toisaalta $x^3<1000x+1000$ eli $x(x^2-
+1000)<1000$. Tämän epäyhtälön vasen puoli on kasvava $x$:n funktio, ja $x=33$
+ei toteuta epäyhtälöä. Siis $x<33$. Koska $x$ on kokonaisluku, $x=32$ ja
+$n=32^3=32768$.
+
+
+
+\harj  Koska $c-b\le 0 \le a-b$, niin $(a-b)^3\ge(c-b)^3$
+eli $$a^3-3a^2b+3ab^2-b^3\ge c^3-3bc^2+3b^2c-b^3.$$ Kun tämä sievennetään,
+saadaan heti $${1\over 3}(a^3-c^3)\ge a^2b-ab^2+b^2c-bc^2=abc\({a-b\over
+c}+{b-c\over a}\).$$ Riittävä yhtäsuuruusehto on $a=c$. Jos $a>c$, niin
+$(a-b)^3>(c-b)^3$, ja myös väite-epäyhtälössä on aito erisuuruus. Siis $a=c$
+on myös välttämätön yhtäsuuruusehto.
+
+
+
+\harj  Tasasivuisen kolmion sisään ja ympäri piirrettyjen
+ympyröiden keskipiste on kolmion keskijanojen leikkauspiste; tästä seuraa,
+että sisään ja ympäri piirrettyjen ympyröiden säteiden suhde on $1:2$. Jos
+toisaalta kolmion sisään ja ympäri piirretyt ympyrät ovat samankeskisiä,
+yhtyvät kolmion kulmien puolittajat ja kolmion sivujen keskinormaalit; tästä
+seuraa helposti, että kolmio on tasasivuinen. Jos ympyröiden säteet ovat
+$r_1$ ja $R_1=2r_1$, niin kolmion sivun pituus on $2\sqrt{R_1^2-r_1^2}$. Jos
+nyt $A$, $B$ ja $C$ ovat tehtävän $R$-säteisen pallonpinnan $\Gamma$ pisteitä
+ja $AB$, $BC$ sekä $CA$ sivuavat tehtävän $r$-säteistä pallonpintaa $\gamma$,
+niin taso $ABC$ leikkaa $\Gamma$:n pitkin $ABC$:n ympäri piirrettyä 
+$R_1$-säteistä ympyrää ja $\gamma$:n pitkin $ABC$:n sisään piirrettyä
+\hbox{$r_1$-säteistä} ympyrää. Molempien ympyröiden keskipiste on pallojen
+yhteisestä keskipisteestä tasolle $ABC$ piirretyn normaalin kantapiste. Siten
+$ABC$ on tasasivuinen, ja jos tason $ABC$ etäisyys pallojen keskipisteestä on
+$d$, niin $$2r_1=2\sqrt{r^2-d^2}=R_1=\sqrt{R^2-d^2}.$$ Täten välttämätön ehto
+tehtävän valinnan mahdollisuudelle on $4r^2-R^2=3d^2\ge 0$ eli $2r\ge R$.
+Olkoon sitten kääntäen $2r\ge R$. Silloin etäisyydellä
+$$d=\sqrt{\displaystyle {4r^2-R^2\over 3}}$$ pallojen keskipisteestä oleva
+taso leikkaa molemmat pallot pitkin samankeskisiä ympyröitä, joiden säteet
+ovat $$r_1=\sqrt{\displaystyle {R^2-r^2\over 3}},\quad
+R_1=2\sqrt{\displaystyle {R^2-r^2\over 3}}.$$ Tehtävän vaatimukset täyttävät
+pisteet $A$, $B$ ja $C$ voidaan valita tältä $R_1$-säteiseltä ympyrältä niin,
+että $ABC$ on tasasivuinen.
+
+
+
+\harj  Kun $n>1$, niin $$f_n(x)=1+x+x^2+\dots =
+1+x(1+x^2+\dots)+x^2(1+x^2+\dots)=1+x(1+x)\sum_{k=0}^{n-1}x^{2k}.$$ Tästä
+nähdään, että $f_n(x)\ge 1$, kun $x\le -1$ tai $x\ge 0$. Siis $f_n$ saa
+pienimmän arvonsa välillä $(-1,\,0)$. Tällä välillä $$f_n(x)={1-x^{2n+1}\over
+1-x}>{1\over 1-x}>{1\over 2}.$$ Siis $m_n\ge \displaystyle{1\over 2}$.
+Toisaalta $$m_n\le f_n\(-1+{1\over \sqrt n}\)={1\over 2-\displaystyle{1\over
+\sqrt n}}+{\displaystyle\(1-{1\over \sqrt n}\)^{2n+1}\over
+2-\displaystyle{1\over \sqrt n}}.$$ Kun $n\to\infty$, niin epäyhtälön oikean
+puolen ensimmäinen yhteenlaskettava lähestyy raja-arvoa $\displaystyle{1\over
+2}$. Jälkimmäisen yhteenlaskettavan osoittajan tekijä
+$$\(1-\displaystyle{1\over \sqrt n}\)^{2n}=\(\(1-{1\over \sqrt n}\)^{\sqrt
+n}\)^{2\sqrt n}$$ lähestyy nollaa, koska $\lim_{k\to\infty}\(1-
+\displaystyle{1\over k}\)^k=e^{-1}<1$. Siis $\lim_{n\to\infty}
+m_n=\displaystyle{1\over 2}$.
+
+
+
+
+\bye
