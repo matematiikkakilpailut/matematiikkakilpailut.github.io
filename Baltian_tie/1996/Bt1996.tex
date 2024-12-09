@@ -1,0 +1,199 @@
+\overfullrule=0pt
+\input bw96
+
+\logoandtitle{Baltian tie 1996}
+
+\kieli{Finnish}
+
+\prob %VI5
+Olkoot $\a$ ja $\b\neq0$ mitk„ tahansa kaksi kulmaa,
+joiden kyljet sis„lt„v„t s„„nn”llisen $1996$-kulmion l„vist„j„t. 
+Todista, ett„ $\a/\b$ on rationaaliluku.
+
+\prob %RU2
+%                  $D$                                                      
+%                         
+Alla olevan kuvan ympyr„~$C$ sivuaa kahta puoliympyr„„ ja janaa~$PQ$,
+joka on kohtisuorassa halkaisijaa $AB$ vastaan.
+Varjostetun alueen pinta-ala on~$39\pi$, ja ympyr„n $C$ ala on $9\pi$.
+Laske halkaisijan  $AB$ pituus.
+%\vskip 5cm
+  $$\beginpicture
+\setcoordinatesystem units <1truemm,1truemm> point at 0 23
+\circulararc  180  degrees  from  23  0  center  at  0 0
+\circulararc  180  degrees  from  23  0  center  at  17 0
+\circulararc  180  degrees  from  11  0  center  at  -6 0
+\circulararc  360  degrees  from  11  10.3 center  at  15.4  10.3  
+% 24r=y^2
+% r=403/92
+\putrule from -23 0 to 23 0
+\putrule from  11 0 to 11 20.2
+\put {A} [t] at -23 -1      \put {B} [t] at  23 -1 
+\put {P} [t] at  11 -1      \put {Q} [b] at  11 21
+\put {C}     at  15 10
+%\put {D}     at   0 19
+\setshadegrid span <1.5pt>
+\setquadratic
+\vshade -21 9 11  -5.5 17 22  11 5.5 20 /
+\vshade  11 11 20  15 15 17  18 15 15 /
+\vshade  11  0 10.3   13  4.5 6.6   16  6  6 /
+\vshade  16  6  6     17.5  5.5  6.3     19  5.5  11.5  /
+\vshade  19  5.5 12.7  20 5  11    23  0  0 /
+  \endpicture$$
+
+
+
+
+
+\prob %VI6
+Olkoon $ABCD$ yksikk”neli”, ja olkoot $P$ ja~$Q$ sellaisia
+tason pisteit„, ett„ $Q$ on kolmion~$BPC$ ymp„ri piirretyn ympyr„n
+keskipiste ja $D$ on kolmion~$PQA$ ymp„ri piirretyn ympyr„n
+keskipiste. Etsi kaikki janan~$PQ$ mahdolliset pituudet.
+
+\prob  %PI3
+$ABCD$ on puolisuunnikas ($AD\parallel BC$). $P$ on sellainen suoran
+$AB$ piste, ett„ $\ang CPD$ on suurin mahdollinen. $Q$ on sellainen
+piste suoran $CD$ piste, ett„ $\ang BQA$ on suurin mahdollinen. Olettaen,
+ett„ $P$ on janalla $AB$, osoita, ett„ $\ang CPD=\ang BQA$.
+              
+\prob %LA6
+Olkoon $ABCD$ ympyr„n sis„„n piirretty konveksi nelikulmio,
+ja olkoot  $r_a$, $r_b$,
+$r_c$, $r_d$ kolmioiden
+$BCD$, $ACD$, $ABD$, $ABC$ sis„„n piirrettyjen ympyr”iden s„teet.
+Osoita, ett„
+$r_a+r_c=r_b+r_d$.
+
+\prob   %NO4 (Found on sci.math) 
+Olkoot $a,b,c,d$ sellaisia positiivisia kokonaislukuja, ett„ $ab=cd$.
+Osoita, ett„ $a+b+c+d$ ei ole alkuluku.
+
+\prob %LA1
+Kokonaislukujono $a_1,a_2\3,$ on sellainen, ett„ $a_1=1$,
+$a_2=2$, ja kun $n\ge 1$,
+   $$a_{n+2}=\cases{
+      5a_{n+1}-3a_n,&jos $a_n\cdot a_{n+1}$ on parillinen\cr
+      a_{n+1}-a_n,&jos $a_n\cdot a_{n+1}$ on pariton.\cr
+}$$
+Osoita, ett„ kaikilla $n$:n arvoilla $a_n\neq 0$.
+
+\def\LCM{\hbox{pyj}}
+\prob  %PI1
+Tutkitaan jonoa                            
+$$
+\eqalign{x_1=19,\quad x_2=95,\cr
+      x_{n+2}=\LCM(x_{n+1}, x_n)+x_n\cr}
+$$
+kun $n\ge 1$, miss„ $\LCM(a,b)$ tarkoittaa $a$:n ja $b$:n pienint„
+yhteist„ monikertaa.
+Etsi lukujen $x_{1995}$ ja $x_{1996}$ suurin yhteinen tekij„.
+             
+\prob  %SU2
+Olkoot $n$ ja~$k$ kokonaislukuja, $1 < k \leq n$. Etsi joukko $A$,
+joka koostuu $n$:st„ kokonaisluvusta, ja kokonaisluku $b$, jotka
+t„ytt„v„t seuraavat ehdot:
+\item{(i)}   Yksik„„n $k-1$:n $A$:n eri alkion tulo ei ole $b$:ll„ jaollinen.
+\item{(ii)}  Jokainen $k$:n $A$:n eri alkion tulo on $b$:ll„ jaollinen.
+\item{(iii)} Jos $a$ ja $a'$ ovat $A$:n alkioita, $a'$ ei ole $a$:lla jaollinen.
+
+\prob %VI2
+Merkit„„n $d(n)$ll„ positiivisen kokonaisluvun $n$ erisuurten
+positiivisten
+tekij”iden lukum„„r„„ (mukaan lukien $1$ ja~$n$). Olkoot $a>1$ ja $n>0$
+sellaisia kokonaislukuja, ett„ $a^n+1$                        
+on alkuluku. Todista, ett„
+   $$d(a^n-1)\geq n\;.$$
+
+\prob  %PU4
+Reaaliluvuilla $x_{1},x_{2},\ldots ,x_{1996}$         on seuraava
+ominaisuus:
+jos $W$                                          on mik„ tahansa
+toisen asteen polynomi, ainakin kolme luvuista
+$W(x_{1}),W(x_{2}),\ldots ,W(x_{1996})$                                    
+on yht„ suuria. Osoita, ett„ ainakin kolme luvuista 
+             $x_{1},x_{2},\ldots ,x_{1996}$           
+on yht„ suuria.
+
+
+\prob  %PU1
+Olkoon $S$ kokonaislukujoukko, joka sis„lt„„ luvut $0$ ja $1996$.
+Oletetaan my”s, ett„ $S$ sis„lt„„ jokaisen sellaisen polynomin juuret,
+jonka kertoimet sis„ltyv„t $S$:„„n ja joka ei ole identtisesti nolla.
+Osoita, ett„ $S$ sis„lt„„ luvun $-2$.
+
+\prob %LI2 
+Tarkastellaan kokonaislukujen joukossa m„„riteltyj„ funktioita $f$,
+jotka toteuttavat ehdon
+                        $$f(x)=f(x^2+x+1)$$
+kaikilla kokonaisluvuilla $x$. Etsi kaikki t„llaiset a) parilliset,
+b) parittomat funktiot.
+
+\prob  %RU1
+Funktion $f(x)=x^n+a_{n-1}x^{n-1}+\cdots+a_1x+a_0$       
+(miss„ $n>1$) kuvaaja leikkaa 
+suoran~$y=b$ pisteiss„~$B_1$, $B_2$, \dots,~$B_n$ (vasemmalta
+oikealle)
+ja suoran~$y=c$ ($c\ne b$) pisteiss„ $C_1$,~$C_2$, \dots,~$C_n$      
+(vasemmalta oikealle).
+%     $\alpha_i$                               $B_iC_i$
+%        $x$-axis ($i=1$,~2, \dots,~$n$).
+Olkoon $P$ suoran $y=c$ piste, joka sijaitsee pisteen $C_n$ oikealla
+puolella. Laske summan
+%$\cot\alpha_1+\cot\alpha_2+\cdots+\cot\alpha_n$.
+$\cot(\ang B_1C_1P)\3+\cot(\ang B_nC_nP)$ arvo.
+
+\prob   %NO2
+Mille positiivisille reaaliluvuille $a,b$                    
+p„tee ep„yht„l”
+  $$x_1\cdot x_2+x_2\cdot x_3\3+x_{n-1}\cdot x_n+x_n\cdot x_1
+    \ge x_1^a\cdot x_2^b\cdot x_3^a+x_2^a\cdot x_3^b\cdot 
+        x_4^a\3+x_n^a\cdot x_1^b\cdot x_2^a$$
+kaikille kokonaisluvuille $n>2$ ja kaikille positiivisille reaaliluvuille
+$x_1\3,x_n$?
+
+\prob %LA4
+Kaksi pelaajaa merkitsee vuorotellen „„rett”m„n neli”ruudukon 
+jo merkitsem„tt”mi„ ruutuja.
+Toinen k„ytt„„ merkki„
+                 $\times$,
+toinen merkki„            $\circ$.
+Ensimm„inen, joka t„ytt„„
+  $2\times 2$-neli”n omilla merkeill„„n, voittaa.
+Voiko aloittava pelaaja aina voittaa?
+           
+\prob
+K„ytt„en kutakin kahdeksasta numerosta~$1$, $3$, $4$, $5$, $6$, $7$,
+$8$ ja~$9$ tasan kerran muodostetaan kolminumeroinen luku~$A$,
+kaksinumeroiset luvut~$B$ ja~$C$ ($B<C$) ja yksinumeroinen luku~$D$.
+Lis„ksi p„tee, ett„ $A+D=B+C=143$. Monellako tavalla luvut voidaan
+valita?
+
+
+\prob %PI2
+Olympialaisten tuomaristossa on 30~j„sent„. Tuomariston jokaisen
+j„senen mielest„ osa h„nen kollegoistaan on p„tevi„ ja kaikki muut
+ep„p„tevi„. N„m„ mielipiteet eiv„t muutu. Jokaisen istunnon alussa
+pidet„„n „„nestys jokaisen j„senen p„tevyydest„. Sen j„lkeen
+tuomaristosta erotetaan sellaiset j„senet, joita ei pid„ p„tev„n„
+aito enemmist” (yli puolet) „„nest„jist„. Osoita, ett„ korkeintaan
+15~istunnon j„lkeen tuomariston kokoonpano ei en„„ muutu. (Huomaa, ett„
+kukaan ei „„nest„ omasta p„tevyydest„„n.)
+
+\prob %PI4
+Nelj„ss„ kasassa on kussakin 38, 45, 61 ja~70 tulitikkua. Vuorollaan
+pelaaja valitsee jotkin kaksi kasaa ja ottaa toisesta positiivisen
+m„„r„n tulitikkuja ja toisesta my”s positiivisen m„„r„n tulitikkuja.
+Jos pelaaja ei voi tehd„ siirtoa, h„n h„vi„„.
+Kummalla pelaajista on voittostrategia?
+
+\prob %LA2
+Onko mahdollista jakaa positiiviset kokonaisluvut kahteen erilliseen
+joukkoon~$A$ ja $B$, joille 
+\item{(i)} mitk„„n kolme       $A$:n alkiota eiv„t muodosta
+aritmeettista jonoa, ja
+\item{(ii)} $B$:n luvuista ei voida muodostaa kasvavaa „„ret”nt„
+aritmeettista jonoa?
+
+\end
+
