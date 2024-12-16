@@ -43,6 +43,8 @@ valintakokeissa.
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
+Joulukuun 2024 [tehtävät](https://drive.google.com/file/d/1yIvpr6YRmTtPYjkYlABKszbdfqSZaDNo/view).
+
 Marraskuun 2024 [tehtävät](https://drive.google.com/file/d/14ScVYlYBn7fzkTqtYQc7szrws4DOrwNd/view).<br>
 Tehtävää 12 korjattu 17.11.: kyse on peräkkäisistä kolminumeroisista luvuista, ei mistä tahansa
 joukosta kolminumeroisia lukuja.
