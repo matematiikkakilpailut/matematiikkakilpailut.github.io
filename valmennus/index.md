@@ -43,17 +43,23 @@ valintakokeissa.
 
 ### Tehtävät lukiolaisille tai kaikille koululaisille
 
+**Vastausten palautusosoite on muuttunut**:
+osoitteet ovat [`helpot.tehtavat@matematiikkakilpailut.fi`](mailto:helpot.tehtavat@matematiikkakilpailut.fi)
+ja [`vaikeat.tehtavat@matematiikkakilpailut.fi`](mailto:vaikeat.tehtavat@matematiikkakilpailut.fi).
+
 Joulukuun 2024 [tehtävät](https://drive.google.com/file/d/1yIvpr6YRmTtPYjkYlABKszbdfqSZaDNo/view).
 
 Marraskuun 2024 [tehtävät](https://drive.google.com/file/d/14ScVYlYBn7fzkTqtYQc7szrws4DOrwNd/view).<br>
 Tehtävää 12 korjattu 17.11.: kyse on peräkkäisistä kolminumeroisista luvuista, ei mistä tahansa
 joukosta kolminumeroisia lukuja.
 
-Syyskuun 2024 [tehtävät](https://drive.google.com/file/d/1UPyIAjAUP23RyrMWJvNNXl2BqlpjEx6u/view?usp=sharing).
+Syyskuun 2024 [tehtävät](https://drive.google.com/file/d/1UPyIAjAUP23RyrMWJvNNXl2BqlpjEx6u/view)
+ja [ratkaisut](https://drive.google.com/file/d/1u1sNZAlT-LRFWJjqZKoRcCHHD7FDGj13/view).
 
-**Vastausten palautusosoite on muuttunut**:
-osoitteet ovat [`helpot.tehtavat@matematiikkakilpailut.fi`](mailto:helpot.tehtavat@matematiikkakilpailut.fi)
-ja [`vaikeat.tehtavat@matematiikkakilpailut.fi`](mailto:vaikeat.tehtavat@matematiikkakilpailut.fi).
+Huhtikuun 2024 [tehtävät](https://drive.google.com/file/d/1kZczqYsG8l9Fa1Kyqs3DxY5gQMFOfRNs/view)
+ja [ratkaisut](https://drive.google.com/file/d/1zpv3JuWkKakIY3UXaOxUk8RibMipPPmb/view).<br>
+<span lang="sv">[Träningsuppgifter, april 2024](https://drive.google.com/file/d/1Qt6Mqssm5UXb4BP6pDeOPETeuPyS7zdH/view).</span>
+
 
 Kesän 2024 [tehtävät](2023/2024_kesa.pdf).
 
@@ -73,8 +79,6 @@ Peruskoululaiset voivat halutessaan ratkoa myös haastavampia, kaikille koululai
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
 
-Huhtikuun 2024 [tehtävät](https://drive.google.com/file/d/1kZczqYsG8l9Fa1Kyqs3DxY5gQMFOfRNs/view).<br>
-<span lang="sv">[Träningsuppgifter, april 2024](https://drive.google.com/file/d/1Qt6Mqssm5UXb4BP6pDeOPETeuPyS7zdH/view).</span>
 
 Helmikuun 2024 [tehtävät](https://drive.google.com/file/d/1LxNQZGeGjmKVhvMcLkqOpdpzwg4XJamu/view)
 ja [ratkaisut](https://drive.google.com/file/d/1Q0vNEc9vi-b_xaxi-gfIzPTKXcFxoQYY/view).<br>
