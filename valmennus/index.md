@@ -8,6 +8,12 @@ eleventyNavigation:
   order: 2
   parent: root
 robots: index,nofollow
+highlightedContent: |
+  ### Avoimen yli­opiston ongelman­ratkaisu­kurssi
+
+  Voit täydentää kirje­valmennusta Avoimen Yli­opiston ongelman­ratkaisu­kurssilla.
+  [Lue lisää!](ongelma/)
+
 ---
 
 # Kirjevalmennus

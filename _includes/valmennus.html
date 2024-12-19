@@ -4,11 +4,35 @@ layout: default
 <header class="display-4 pt-3 pb-3 mt-3 mb-1">
   <h1>{{ page.title }}</h1>
 </header>
-<main class="row">
-  <div class="col-xs-12">
-     {{ content | replace('<a href="/valmennus', '<a rel="nofollow" href="/valmennus') | safe }}
+
+<main>
+  {% if highlightedContent %}
+  <div class="float-md-end col-md-auto ps-md-4 pb-3" style="max-width: 400px;">
+    <div class="card border-primary shadow">
+      <div class="card-body">
+        <div class="d-flex align-items-center text-primary mb-3">
+          <div class="flex-grow-1 mx-2" style="height: 0"></div>
+          <h3 class="card-title h4 m-0">Uutta!</h3>
+          <div class="flex-grow-1 mx-2" style="height: 0"></div>
+        </div>
+        <div class="highlighted-content">
+          {{ highlightedContent | markdown | safe }}
+        </div>
+        <style>
+         .highlighted-content ul {
+           padding-left: 1rem;
+         }
+         .highlighted-content ul ul {
+           padding-left: 1.25rem;
+         }
+        </style>
+      </div>
+    </div>
   </div>
+  {% endif %}
+  {{ content | safe }}
 </main>
+
 {% if scripts %}
 {{ scripts | safe }}
 {% endif %}

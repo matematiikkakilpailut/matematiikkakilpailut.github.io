@@ -37,6 +37,7 @@ Käsittelemme seuraavia henkilötietoja, jotta voimme toteuttaa matematiikan kil
   - valmennuksen yhteydessä järjestetyt kokeet
   - valmennuksen kotitehtäväkirjeet
   - osallistuminen valmennustapahtumiin
+  - relevanttien yliopistokurssien suoritukset
 
 Saamme valmennettavia koskevia kilpailutuloksia kilpailujen järjestäjiltä. Emme tee  päätöksiä automaattisesti, vaan mm. kaikki joukkuevalinnat perustuvat valmentajien suorittamaan kokonaisharkintaan.
 
@@ -54,5 +55,5 @@ Käytämme tietojen käsittelyyn Googlen ja Dropboxin pilvipalveluita. Luotamme 
 
 ## Rekisterinpitäjä ja käsittelyyn liittyvät oikeudet
 
-Henkilörekisteriä ylläpitää Suomen matemaattisen yhdistyksen valmennusjaos. Sinulla on oikeus vaatia tietojesi tarkastamista tai niiden poistamista milloin tahansa. Nämä vaatimukset voit tehdä vapaamuotoisesti, mutta mielellään kirjallisesti ja niin, että pystymme riittävästi varmistumaan siitä että olet todella se henkilö, jonka tiedoista on kyse, tai edustat tätä henkilöä. Pyynnöt ja kysymykset voit osoittaa valmennusjaoksen jäsenille, esimerkiksi Jouni Seppäselle (`jks at iki.fi`) tai Anne-Maria Ernvall-Hytöselle (`aernvall at abo.fi`). Jos et ole tyytyväinen siihen miten käsittelemme henkilötietojasi, sinulla on oikeus tehdä valitus viranomaiselle; lähinnä kysymykseen tulisi luultavasti [tietosuojavaltuutettu](http://www.tietosuoja.fi/).
+Henkilörekisteriä ylläpitää Suomen matemaattisen yhdistyksen valmennusjaos. Sinulla on oikeus vaatia tietojesi tarkastamista tai niiden poistamista milloin tahansa. Nämä vaatimukset voit tehdä vapaamuotoisesti, mutta mielellään kirjallisesti ja niin, että pystymme riittävästi varmistumaan siitä että olet todella se henkilö, jonka tiedoista on kyse, tai edustat tätä henkilöä. Pyynnöt ja kysymykset voit osoittaa valmennusjaoksen jäsenille, esimerkiksi Jouni Seppäselle (`jks at iki.fi`) tai Anne-Maria Ernvall-Hytöselle (`anne-maria.ernvall-hytonen at helsinki.fi`). Jos et ole tyytyväinen siihen miten käsittelemme henkilötietojasi, sinulla on oikeus tehdä valitus viranomaiselle; lähinnä kysymykseen tulisi luultavasti [tietosuojavaltuutettu](http://www.tietosuoja.fi/).
 

@@ -21,6 +21,9 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter("markdownify", (x) => {
         return md.renderInline(x);
     });
+    eleventyConfig.addFilter("markdown", (x) => {
+        return md.render(x);
+    });
     eleventyConfig.setLibrary("md", md);
 
     eleventyConfig.addFilter("splitCards", function(content) {
