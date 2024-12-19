@@ -1,0 +1,94 @@
+%% Baltic Way 2011
+%% Problem Sheet Style
+%% Author: Roger Labahn roger.labahn@uni-rostock.de
+%% Hacked by Kerkko Luosto
+%% Version: 7.11.2011
+
+\textwidth170mm
+\oddsidemargin0mm\evensidemargin\oddsidemargin
+\textheight225mm
+\topmargin0mm\headheight20mm\headsep0mm
+\footskip15mm
+
+\parindent0mm
+\pagestyle{empty}
+
+\RequirePackage{ifthen}
+\RequirePackage[texcoord]{eso-pic}
+\RequirePackage{graphicx}
+
+\RequirePackage{amsmath, amssymb}
+
+\def\@problemName{Tehtävät}
+\def\@languageName{Finnish version}
+\def\@blockTitle{none}
+\newcommand{\blockTitle}[1]{%
+  \def\@blockTitle{#1}
+}
+
+\AddToShipoutPictureFG{%
+  \unitlength1mm
+  \AtPageUpperLeft{%
+    \put(20,-25){\includegraphics[height=15mm, trim= 0 0 0 230, clip]{bw2011Logo}}
+    \put(155,-35){\includegraphics[height=20mm, trim= 0 80 0 0, clip]{bw2011Logo}}
+    \put(40,-35){\Huge\bf\sf\@problemName\quad\Large\bf\sf--\@languageName--}%
+    \put(0,-40){\rule{\paperwidth}{1pt}}
+  }
+}
+
+\DeclareOption{inBlocks}{%
+  \newenvironment{bwExam}[2]{%
+    \def\@problemName{#1}
+    \def\@languageName{#2}
+  }{%
+    \newpage
+  }
+
+  \newenvironment{bwExamBlock}[1]{%
+    \ifthenelse{\equal{\@blockTitle}{right}}{\raggedleft{\huge\bf\sf#1}}{}
+    \ifthenelse{\equal{\@blockTitle}{center}}{\centerline{\huge\bf\sf#1}}{}
+  }{%
+  }
+
+  \newenvironment{bwField}[1]{%
+    \begin{list}{}{}
+  }{%
+    \end{list}
+  }
+
+  \newenvironment{bwProblem}[3]{%
+    \item[\bf#1--#2]
+  }{%
+  }
+}
+
+\DeclareOption{asList}{%
+  \newcounter{problemNumber}
+  \newenvironment{bwExam}[2]{%
+    \begin{list}{}{%
+      \leftmargin2em
+      \labelwidth\leftmargin
+      \labelsep1em
+      %\itemindent\labelsep
+    }
+  }{%
+    \end{list}
+  }
+
+  \newenvironment{bwExamBlock}[1]{%
+  }{%
+  }
+
+  \newenvironment{bwField}[1]{%
+  }{%
+  }
+
+  \newenvironment{bwProblem}[3]{%
+    \stepcounter{problemNumber}
+    \item[\bf \arabic{problemNumber}. \hfill]
+  }{%
+  }
+}
+
+\ProcessOptions
+
