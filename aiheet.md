@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: aiheet
 title: Valmennusmateriaalia
 url: /aiheet/
 eleventyNavigation:
@@ -7,6 +7,11 @@ eleventyNavigation:
   title: Materiaalit
   parent: root
   order: 3
+highlightedContent: |
+  ### Kilpa­matematiikan perus­kurssi
+
+  [Kilpa­matematiikan perus­kurssi](https://kurssi.matematiikkakilpailut.fi) sopii aloittelijoille
+  esimerkiksi MAOLin kilpailuun valmistautumiseen.
 ---
 
 
@@ -27,7 +32,7 @@ voi saada opetusta ja vinkkejä.
     helpompia kuin lukiolaiskilpailujen tehtävät.
 *   [Kenguru-kilpailun tehtäviä](https://www.mayk.fi/tietoa-meista/kenguru/vanhoja-kilpailuja-suomeksi/)
     on monella tasolla alakoulusta lukioon.
-*   **Uutta:** [Kilpamatematiikan peruskurssi](https://kurssi.matematiikkakilpailut.fi) sopii esimerkiksi
+*   [Kilpamatematiikan peruskurssi](https://kurssi.matematiikkakilpailut.fi) sopii esimerkiksi
     MAOLin kilpailuun valmistautumiseen.
 
 ## Yleistä {id=muita}

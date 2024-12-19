@@ -15,7 +15,10 @@
     <title>{{ title }}</title>
     {% if description %}<meta name="description" content="{{ description }}">{% endif %}
     <link href="/css/bootstrap.min.css?v=5.3" rel="stylesheet">
-    {% if style %}<style>{{ style | safe }}</style>{% endif %}
+    <style>
+     {% if style %}{{ style | safe }}{% endif %}
+     h1,h2,h3,h4,h5,h6 { text-wrap: balance; }
+    </style>
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" href="/kuvat/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/kuvat/apple-touch-icon.png">
