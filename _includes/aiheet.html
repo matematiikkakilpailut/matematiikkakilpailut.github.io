@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<header class="display-4 pt-3 pb-3 mt-3 mb-1">
+  <h1>{{ page.title }}</h1>
+</header>
+
+<main>
+  {% if highlightedContent %}
+  <div class="float-md-end col-md-auto ps-md-4 pb-3" style="max-width: 400px;">
+    <div class="card border-primary shadow">
+      <div class="card-body">
+        <div class="highlighted-content">
+          {{ highlightedContent | markdown | safe }}
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+  {{ content | safe }}
+</main>
+
+{% if scripts %}
+{{ scripts | safe }}
+{% endif %}
