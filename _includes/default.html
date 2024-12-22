@@ -14,7 +14,7 @@
     <link rel="sitemap" href="/sitemap.xml">
     <title>{{ title }}</title>
     {% if description %}<meta name="description" content="{{ description }}">{% endif %}
-    <link href="/css/bootstrap.min.css?v=5.3" rel="stylesheet">
+    <link href="/css/bootstrap.min.css?v=5.3.3" rel="stylesheet">
     <style>
      {% if style %}{{ style | safe }}{% endif %}
      h1,h2,h3,h4,h5,h6 { text-wrap: balance; }
@@ -34,7 +34,7 @@
     <div class="container">
       {{ content | safe }}
     </div>
-    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js?v=5.3.3"></script>
     <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "45380cb8b30d4b0791d27e340eefc4da"}'></script>
   </body>
 </html>
