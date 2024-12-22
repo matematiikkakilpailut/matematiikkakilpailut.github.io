@@ -74,6 +74,7 @@ export default function(eleventyConfig) {
     "*.png",
     "*.pdf",
     "BingSiteAuth.xml",
+    "feed.xsl",
     "CNAME",
     "seiskat/manifest.json",
     "BW2006",
