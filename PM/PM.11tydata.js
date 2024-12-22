@@ -1,11 +1,10 @@
-const fs = require("fs"),
-  { parse } = require("csv-parse/sync"),
-  options = {
-    columns: true,
-    skip_empty_lines: true,
-    delimiter: "\t",
-  };
+import fs from "fs";
+import { parse } from "csv-parse/sync";
 
-module.exports = {
-  kilpailut: parse(fs.readFileSync("PM/kilpailut.tsv"), options),
+const options = {
+  columns: true,
+  skip_empty_lines: true,
+  delimiter: "\t",
 };
+
+export const kilpailut = parse(fs.readFileSync("PM/kilpailut.tsv"), options);

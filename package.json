@@ -1,10 +1,13 @@
 {
   "name": "matematiikkakilpailut.github.io",
+  "type": "module",
   "version": "1.0.0",
   "description": "Suomen matematiikan olympiavalmennuksen sivusto",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "eleventy --serve",
+    "build": "eleventy"
   },
   "repository": {
     "type": "git",
@@ -17,7 +20,7 @@
   },
   "homepage": "https://github.com/matematiikkakilpailut/matematiikkakilpailut.github.io#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-navigation": "^0.3.5",
     "@11ty/eleventy-plugin-rss": "^1.1.1",
     "csv-parse": "^5.3.8",
