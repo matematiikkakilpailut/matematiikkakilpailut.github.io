@@ -37,9 +37,9 @@ for (const x of seiskat_pages) {
     seiskat_pages_by_pair["en"][x.en] = x;
 }
 
-module.exports = {
+export {
     seiskat_pages,
     seiskat_pages_by_pair
 };
 
-    
+

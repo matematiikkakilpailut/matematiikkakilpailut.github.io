@@ -6,14 +6,16 @@ metadata:
   subtitle: Uutisia matematiikan olympiavalmennuksesta
   url: https://matematiikkakilpailut.fi/
   feedUrl: https://matematiikkakilpailut.fi/feed.xml
+  language: fi
   author:
     name: Suomen matemaattisen yhdistyksen valmennusjaos
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<?xml-stylesheet href="/feed.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ page.lang or metadata.language }}">
   <title>{{ metadata.title }}</title>
   <subtitle>{{ metadata.subtitle }}</subtitle>
-  <link href="{{ metadata.feedUrl }}" rel="self"/>
+  <link href="{{ permalink | htmlBaseUrl(metadata.url) }}" rel="self"/>
   <link href="{{ metadata.url }}"/>
   <updated>{{ collections.uutinen | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   <id>{{ metadata.url }}</id>
@@ -21,13 +23,13 @@ metadata:
     <name>{{ metadata.author.name }}</name>
   </author>
   {%- for post in collections.uutinen %}
-  {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
+  {% set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.url) }}{% endset %}
   <entry>
     <title>{{ post.data.title }}</title>
     <link href="{{ absolutePostUrl }}"/>
     <updated>{{ post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
-    <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+    <content type="html">{{ post.templateContent | renderTransforms(post.data.page, metadata.url) }}</content>
   </entry>
   {%- endfor %}
 </feed>

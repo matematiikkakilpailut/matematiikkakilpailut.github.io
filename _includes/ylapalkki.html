@@ -1,8 +1,48 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-primary">
-  <div class="container-fluid flex-row-reverse align-items-start">
+  <div class="container-fluid flex-flow align-items-start">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    <div class="d-flex order-1 ms-md-auto" id="theme-toggle">
+      <div class="dropdown">
+        <button class="btn btn-link nav-link py-2 pt-md-3 px-1 px-lg-2 dropdown-toggle d-flex align-items-center text-light"
+        type="button"
+        id="bd-theme"
+        data-bs-toggle="dropdown"
+        aria-expanded="false">
+          <svg class="bi theme-icon-active" width="16" height="16" fill="currentColor">
+            <use href="/kuvat/sprite2.svg#sun-fill"></use>
+          </svg>
+          <span class="d-none" id="bd-theme-text">Taustaväri</span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme">
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite2.svg#sun-fill"></use>
+              </svg>
+              Vaalea
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite2.svg#moon-stars-fill"></use>
+              </svg>
+              Tumma
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite2.svg#circle-half"></use>
+              </svg>
+              Automaattinen
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
     {%- set navPages = collections.all | eleventyNavigation %}
     {%- set active = []                                     %}
     {%- set bottomrow = false                               %}
@@ -33,13 +73,13 @@
           <li class="nav-item">
             <a class="nav-link" href="/feed.xml" rel="alternate" title="RSS-syöte" type="application/atom+xml"
             ><svg class="bi" width="16" height="16" fill="currentColor">
-              <use xlink:href="/kuvat/sprite.svg#rss-fill"/>
+              <use xlink:href="/kuvat/sprite2.svg#rss-fill"/>
             </svg></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://t.me/matematiikkakilpailut" rel="me" title="Telegram"
             ><svg class="bi" width="16" height="16" fill="currentColor">
-              <use xlink:href="/kuvat/sprite.svg#telegram"/>
+              <use xlink:href="/kuvat/sprite2.svg#telegram"/>
             </svg></a>
           </li>
         </ul>

@@ -1,19 +1,22 @@
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-const yaml = require("js-yaml");
-const md = require("markdown-it")({
+import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
+import yaml from "js-yaml";
+import markdownIt from "markdown-it";
+import markdownItAnchor from "markdown-it-anchor";
+import markdownItAttrs from "markdown-it-attrs";
+import rss from "@11ty/eleventy-plugin-rss";
+import * as cheerio from 'cheerio';
+
+const md = markdownIt({
   html: true,
   breaks: false,
   linkify: false,
   typographer: true,
   quotes: "””’’",
-}).use(require('markdown-it-anchor'), {
+}).use(markdownItAnchor, {
     level: 2
-}).use(require('markdown-it-attrs'));
-const rss = require("@11ty/eleventy-plugin-rss");
-const cheerio = require('cheerio');
+}).use(markdownItAttrs);
 
-
-module.exports = function (eleventyConfig) {
+export default function(eleventyConfig) {
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
     eleventyConfig.addPlugin(rss);
 
@@ -54,7 +57,6 @@ module.exports = function (eleventyConfig) {
             sections[i] = $.html();
         }
         const result = sections.join('\n');
-        console.log(result);
         return result;
     });
 
@@ -72,6 +74,7 @@ module.exports = function (eleventyConfig) {
     "*.png",
     "*.pdf",
     "BingSiteAuth.xml",
+    "feed.xsl",
     "CNAME",
     "seiskat/manifest.json",
     "BW2006",

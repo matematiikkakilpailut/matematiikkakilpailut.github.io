@@ -12,8 +12,18 @@ url: /
 eleventyNavigation:
   key: root
   title: Valmennus
+style: |
+  [data-bs-theme="dark"] .light-element { display: none; }
+  [data-bs-theme="light"] .dark-element { display: none; }
 ---
-<img src="/OPH_rahoittaa_rgb.png" width="180" height="174" style="float:right;" alt="Opetushallitus rahoittaa hanketta">
+<picture class="light-element">
+  <source srcset="/kuvat/oph_light.webp" type="image/webp">
+  <img class="float-sm-end d-block mx-auto mb-2 ms-md-4" loading="lazy" src="/kuvat/oph_light.png" width="180" height="174" alt="Opetushallitus rahoittaa hanketta">
+</picture>
+<picture class="dark-element">
+  <source srcset="/kuvat/oph_dark.webp" type="image/webp">
+  <img class="float-sm-end d-block mx-auto mb-2 ms-md-4" loading="lazy" src="/kuvat/oph_dark.png" width="180" height="174" alt="Opetushallitus rahoittaa hanketta">
+</picture>
 
 
 [Matematiikkakilpailuiden](kilpailut) tarkoituksena on kannustaa
