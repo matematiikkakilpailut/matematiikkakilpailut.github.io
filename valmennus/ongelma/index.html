@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="sitemap" href="/sitemap.xml">
+    <title>Ongelmanratkaisukurssi</title>
+    
+    <link href="/css/bootstrap.min.css?v=5.3.3" rel="stylesheet">
+    <style>
+     
+     h1,h2,h3,h4,h5,h6 { text-wrap: balance; }
+    </style>
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/kuvat/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/kuvat/apple-touch-icon.png">
+    <link rel="manifest" href="/kuvat/manifest.webmanifest">
+    <link rel="preload" href="/font/Lato-Regular.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/Lato-Bold.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/Lato-Italic.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="alternate" type="application/atom+xml" href="https://matematiikkakilpailut.fi/feed.xml">
+    
+    <script>
+      const getStoredTheme = () => localStorage.getItem('theme')
+      const getPreferredTheme = () => {
+        const storedTheme = getStoredTheme()
+        if (storedTheme) {
+          return storedTheme
+        }
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+      }
+      const setTheme = theme => {
+        document.documentElement.dataset.bsTheme =
+          theme === 'auto'
+          ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+          : theme
+      }
+      setTheme(getPreferredTheme())
+    </script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+  <div class="container-fluid flex-flow align-items-start">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="d-flex order-1 ms-md-auto" id="theme-toggle">
+      <div class="dropdown">
+        <button class="btn btn-link nav-link py-2 pt-md-3 px-1 px-lg-2 dropdown-toggle d-flex align-items-center text-light"
+        type="button"
+        id="bd-theme"
+        data-bs-toggle="dropdown"
+        aria-expanded="false">
+          <svg class="bi theme-icon-active" width="16" height="16" fill="currentColor">
+            <use href="/kuvat/sprite2.svg#sun-fill"></use>
+          </svg>
+          <span class="d-none" id="bd-theme-text">Taustaväri</span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme">
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite2.svg#sun-fill"></use>
+              </svg>
+              Vaalea
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite2.svg#moon-stars-fill"></use>
+              </svg>
+              Tumma
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite2.svg#circle-half"></use>
+              </svg>
+              Automaattinen
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <nav class="collapse navbar-collapse flex-column align-items-start" id="navbar-collapse">
+      <div class="row flex-grow-1"><div class="col-12 flex-grow-1">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/">Valmennus</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/uutiset/">Uutisia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/kilpailut/">Kilpailuja</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/kerhot/">Kerhot</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/english/">In English</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/feed.xml" rel="alternate" title="RSS-syöte" type="application/atom+xml"
+            ><svg class="bi" width="16" height="16" fill="currentColor">
+              <use xlink:href="/kuvat/sprite2.svg#rss-fill"/>
+            </svg></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://t.me/matematiikkakilpailut" rel="me" title="Telegram"
+            ><svg class="bi" width="16" height="16" fill="currentColor">
+              <use xlink:href="/kuvat/sprite2.svg#telegram"/>
+            </svg></a>
+          </li>
+        </ul>
+      </div></div>
+    </nav>
+  </div>
+</nav>
+
+    <div class="container">
+      <header class="display-4 pt-3 pb-3 mt-3 mb-1">
+  <h1></h1>
+</header>
+
+<main>
+  
+  <h1>Avoimen yli­opiston ongelman­ratkaisu­kurssi</h1>
+<p>Voit suorittaa Helsingin yli­opiston Avoimessa yli­opistossa
+matemaattisen ongelman­ratkaisun kurssin, joka muistuttaa kirje­valmennusta,
+mutta jossa enin osa tehtävistä tarkastetaan automaattisesti.
+Siten niistä saa palautteen heti, mutta toisaalta vastauksena annetaan
+vain lopputulos. Kurssin laajempi toteutus sisältää myös loppu­projektin,
+jossa voit harjoitella ratkaisujen kirjoittamista teksti­muodossa.
+Kurssi otetaan huomioon joukkue­valinnoissa samaan tapaan
+kuin kirje­valmennus.</p>
+<h2 id="toimi-n%C3%A4in" tabindex="-1">Toimi näin</h2>
+<ul>
+<li>Seuraa <a href="https://studies.helsinki.fi/kurssit/toteutus/otm-3b4dc2a1-6773-4287-ad4d-f32e05425183">kurssisivun</a>
+Moodle-linkkiä ja kirjaudu.
+<ul>
+<li>Jos olet jo suorittanut Avoimen yli­opiston kursseja, sinulla saattaa olla Haka-käyttäjä­tunnus.</li>
+<li>Muuten kirjaudu Google-tunnuksella.</li>
+<li>Tässä vaiheessa ei tarvitse vielä ilmoittautua kurssille, mikä on kurssi­sivulla
+erillisenä toimintona.</li>
+</ul>
+</li>
+<li>Tutustu Moodlessa (DigiCampus) olevaan kurssi­materiaaliin ja suorita kurssi ohjeiden mukaan.
+<ul>
+<li>Kaikki materiaali on näkyvillä, mutta voit suorittaa kurssin joko lyhyempänä (2 op) tai
+pidempänä (5 op) toteutuksena.</li>
+<li>Kun olet suorittanut kurssin haluamassasi laajuudessa, ota yhteyttä <a href="mailto:anne-maria.ernvall-hytonen@helsinki.fi">Anne-Maria
+Ernvall-Hytöseen</a>, kerro millä
+käyttäjä­tunnuksella olet tehnyt suorituksen ja pyydä merkitsemään suoritus valmennuksen
+rekisteriin.</li>
+</ul>
+</li>
+<li>Jos haluat myös virallisen kurssi­merkinnän esimerkiksi lukio-opintoihin sisällytettäväksi,
+on kaksi vaihto­ehtoa:
+<ul>
+<li>Jos suoritit tehtäviä vähintään kahden opinto­pisteen verran, ilmoittaudu
+<a href="https://studies.helsinki.fi/kurssit/toteutus/otm-3b4dc2a1-6773-4287-ad4d-f32e05425183">kurssisivun</a>
+kautta ja pyydä Anne-Mariaa lisäämään Opintopolkuun kahden opinto­pisteen merkintä.
+Tämä onnistuu maksutta kaikille.</li>
+<li>Jos suoritit koko kurssin ja haluat siitä merkinnän, keskustele oman oposi kanssa.
+Lukiosi pitäisi tehdä osallistumisesta
+<a href="https://www.helsinki.fi/fi/innovaatiot-ja-yhteistyo/oppilaitosyhteistyo/helsingin-yliopiston-lukioyhteistyo/avoimen-yliopiston-lukioyhteistyo-ja-muu-toisen-asteen-yhteistyo">sopimus</a>
+Helsingin yliopiston kanssa.</li>
+</ul>
+</li>
+</ul>
+
+</main>
+
+
+
+    </div>
+    <script defer src="/js/theme.js"></script>
+    <script defer src="/js/bootstrap.bundle.min.js?v=5.3.3"></script>
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "45380cb8b30d4b0791d27e340eefc4da"}'></script>
+  </body>
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="sitemap" href="/sitemap.xml">
+    <title>Kilpailut</title>
+    
+    <link href="/css/bootstrap.min.css?v=5.3.3" rel="stylesheet">
+    <style>
+     
+     h1,h2,h3,h4,h5,h6 { text-wrap: balance; }
+    </style>
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/kuvat/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/kuvat/apple-touch-icon.png">
+    <link rel="manifest" href="/kuvat/manifest.webmanifest">
+    <link rel="preload" href="/font/Lato-Regular.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/Lato-Bold.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/Lato-Italic.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="alternate" type="application/atom+xml" href="https://matematiikkakilpailut.fi/feed.xml">
+    
+    <script>
+      const getStoredTheme = () => localStorage.getItem('theme')
+      const getPreferredTheme = () => {
+        const storedTheme = getStoredTheme()
+        if (storedTheme) {
+          return storedTheme
+        }
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+      }
+      const setTheme = theme => {
+        document.documentElement.dataset.bsTheme =
+          theme === 'auto'
+          ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+          : theme
+      }
+      setTheme(getPreferredTheme())
+    </script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+  <div class="container-fluid flex-flow align-items-start">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="d-flex order-1 ms-md-auto" id="theme-toggle">
+      <div class="dropdown">
+        <button class="btn btn-link nav-link py-2 pt-md-3 px-1 px-lg-2 dropdown-toggle d-flex align-items-center text-light"
+        type="button"
+        id="bd-theme"
+        data-bs-toggle="dropdown"
+        aria-expanded="false">
+          <svg class="bi theme-icon-active" width="16" height="16" fill="currentColor">
+            <use href="/kuvat/sprite2.svg#sun-fill"></use>
+          </svg>
+          <span class="d-none" id="bd-theme-text">Taustaväri</span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme">
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite2.svg#sun-fill"></use>
+              </svg>
+              Vaalea
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite2.svg#moon-stars-fill"></use>
+              </svg>
+              Tumma
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite2.svg#circle-half"></use>
+              </svg>
+              Automaattinen
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <nav class="collapse navbar-collapse flex-column align-items-start" id="navbar-collapse">
+      <div class="row flex-grow-1"><div class="col-12 flex-grow-1">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/">Valmennus</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/uutiset/">Uutisia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active"
+                aria-current="page"
+               href="/kilpailut/">Kilpailuja</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/kerhot/">Kerhot</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/english/">In English</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/feed.xml" rel="alternate" title="RSS-syöte" type="application/atom+xml"
+            ><svg class="bi" width="16" height="16" fill="currentColor">
+              <use xlink:href="/kuvat/sprite2.svg#rss-fill"/>
+            </svg></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://t.me/matematiikkakilpailut" rel="me" title="Telegram"
+            ><svg class="bi" width="16" height="16" fill="currentColor">
+              <use xlink:href="/kuvat/sprite2.svg#telegram"/>
+            </svg></a>
+          </li>
+        </ul>
+      </div></div>
+      <hr class="d-md-none">
+      <div class="row"><div class="col-12">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/MAOL/">MAOL</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/pythagoras/">Pythagoras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/IGO/">IGO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/PM/">Pohjoismainen</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/Baltian_tie/">Baltian tie</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/EGMO/">EGMO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/IMO/">IMO</a>
+          </li>
+        </ul>
+      </div></div>
+    </nav>
+  </div>
+</nav>
+
+    <div class="container">
+      <header class="display-4 pt-3 pb-3 mt-3 mb-1">
+  <h1>Kilpailut</h1>
+</header>
+<main class="row">
+  <div class="col-xs-12">
+    <h2 id="kilpailut" tabindex="-1">Kilpailut</h2>
+<h4 id="maol%3An-kilpailu" tabindex="-1"><a href="/MAOL/">MAOL:n kilpailu</a></h4>
+<p>Suomen kansallinen matematiikkakilpailu. Lukion kilpailu jakautuu
+avoimeen sarjaan sekä lukiota aloittelevien perussarjaan; lisäksi
+peruskoululaisilla on oma kilpailunsa. Kansainvälisiin
+kilpailuihin pyrkiville suositellaan avointa sarjaa, jonka
+kilpailu jakautuu alku- ja loppukilpailuun.  Edellisessä tehtäviä
+on yleensä 4 ja kesto on 120 min. Jälkimmäisessä on 5 tehtävään
+työaikaa kolme tuntia.  MAOL:n kilpailu on luetelluista
+kilpailuista selkeästi helpoin.</p>
+<h4 id="pythagoraan-polku" tabindex="-1"><a href="/pythagoras/">Pythagoraan polku</a></h4>
+<p>Pythagoraan polku on Päivölän Opiston keväisin järjestämä
+joukkuekilpailu Baltian tie -kilpailun mallin mukaan. Kilpailuun
+osallistuminen on perustunut kutsuun. Osallistuvia lukioita on
+ollut kymmenkunta.</p>
+<h4 id="iranin-geometriakilpailu" tabindex="-1"><a href="/IGO/">Iranin geometriakilpailu</a></h4>
+<p>Iranin geometriakilpailussa, IGO, kilpailutehtävät koostuvat
+geometriasta. Kilpailussa on kolme luokka-asteisiin perustuvaa
+sarjaa sekä avoin sarja. Kilpailu onkin hyvä tapa aloittaa
+kansainvälinen kilpailu-ura.</p>
+<h4 id="pohjoismainen-matematiikkakilpailu" tabindex="-1"><a href="/PM/">Pohjoismainen matematiikkakilpailu</a></h4>
+<p>Vaikeampi kuin MAOL, helpompi kuin IMO. Kilpailuun valitaan
+noin 20 valmennettavaa, ja tuloksilla on suurehko merkitys
+IMO-joukkuetta valittaessa. Kilpailijat tekevät nelitehtäväisen
+nelituntisen kokeen omassa koulussaan.</p>
+<h4 id="baltian-tie" tabindex="-1"><a href="/Baltian_tie/">Baltian tie</a></h4>
+<p>Baltian tie on useimmista kilpailuista poiketen joukkuekilpailu.
+Kilpailuun osallistuvat Itämeren alueen maat ja pohjoismaat
+kansallisilla joukkueilla, paitsi Venäjä, joka kilpailee Pietarin
+alueen joukkueella, ja Saksa, jonka joukkue edustaa
+hansakaupunkien aluetta.  Kilpailussa on peräti 20 tehtävää,
+joiden ratkaisemiseen on aikaa vain 4,5 tuntia.</p>
+<h4 id="euroopan-tytt%C3%B6jen-matematiikkaolympialaiset" tabindex="-1"><a href="/EGMO/">Euroopan Tyttöjen Matematiikkaolympialaiset</a></h4>
+<p>Euroopan Tyttöjen Matematiikkaolympialaiset, EGMO, on perustettu
+vuonna 2011. Kilpailun tarkoitus on korjata Kansainvälisissä
+matematiikkaolympialaisissa vallitsevaa sukupuolten epätasapainoa
+kannustamalla tyttöjä pyrkimään Kansainvälisiin
+olympialaisiin. Kilpailu on kaksipäiväinen ja noudattaa muutenkin
+Kansainvälisten Matematiikkaolympialaisten muotoja.</p>
+<h4 id="kansainv%C3%A4liset-matematiikkaolympialaiset" tabindex="-1"><a href="/IMO/">Kansainväliset Matematiikkaolympialaiset</a></h4>
+<p><span lang="en">International Mathematical Olympiad</span>, IMO.
+IMO on lukiolaisten matematiikkakilpailujen hierarkian huipulla.
+Kukin kutsuttu maa voi lähettää kilpailuun kuusi osallistujaa.
+Tehtävät ovat vaikeita.  Kilpailu on kaksipäiväinen; kumpanakin
+päivänä kamppaillaan 4,5 tuntia kolmen tehtävän parissa.</p>
+<h4 id="kenguru" tabindex="-1"><a href="https://www.mayk.fi/kenguru">Kenguru</a></h4>
+<p>Australiasta lähtöisin olevassa kilpailussa on miljoonia osallistujia
+viidessä sarjassa alakoulusta lukioon.  Se pidetään maaliskuun
+kolmantena torstaina, ja siihen pääsee mukaan niin, että opettaja
+ilmoittaa koulunsa kilpailun järjestäjille.</p>
+<h4 id="matikkamestari" tabindex="-1"><a href="http://matikkamankkaa.fi/matikkamestari/">Matikkamestari</a></h4>
+<p>Kilpailu Espoon koulujen kuudesluokkalaisille.</p>
+<h4 id="seitsem%C3%A4sluokkalaisten-alueellinen-matematiikkakilpailu" tabindex="-1"><a href="/seiskat/">Seitsemäsluokkalaisten alueellinen matematiikkakilpailu</a></h4>
+<p>Kilpailu järjestetään Helsingissä, Oulussa, Turussa ja Satakunnassa.</p>
+<h4 id="matcup" tabindex="-1"><a href="http://matcup.edublogs.org/">MatCup</a></h4>
+<p><a href="http://mathclasscomp.com/">Pohjoismainen matematiikkakilpailu</a>,
+johon Suomessa osallistuvat kahdeksasluokkalaiset.</p>
+<h4 id="mattet%C3%A4phlan" tabindex="-1">Mattetäphlan</h4>
+<p>Mattetäphlan on Aalto-yliopiston ruotsinkielisen osakunnan <a href="https://www.teknologforeningen.fi/">Teknologföreningenin</a> järjestämä matematiikkakilpailu kaikille ruotsinkielisten lukioiden abeille. Kilpailu järjestetään vuosittain ja siihen kuuluu alkukilpailu omassa koulussa ja loppukilpailu Otaniemessä.</p>
+
+  </div>
+</main>
+
+
+    </div>
+    <script defer src="/js/theme.js"></script>
+    <script defer src="/js/bootstrap.bundle.min.js?v=5.3.3"></script>
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "45380cb8b30d4b0791d27e340eefc4da"}'></script>
+  </body>
+</html>
