@@ -17,6 +17,26 @@
     <link href="/css/bootstrap.min.css?v=5.3.3" rel="stylesheet">
     <style>
      {% if style %}{{ style | safe }}{% endif %}
+     .breadcrumb {
+       --bs-breadcrumb-divider: '';
+       --bs-breadcrumb-padding-x: 0;
+       --bs-breadcrumb-item-padding-x: 0;
+     }
+     .navbar {
+      --bs-navbar-brand-padding-y: 4px;
+     }
+     [data-bs-theme="dark"] .link-primary, [data-bs-theme="dark"] .text-primary  {
+       --bs-primary-rgb: rgb(236, 240, 241);
+     }
+     [data-bs-theme="dark"] .link-primary:hover {
+       color: rgb(128, 139, 150) !important;
+     }
+     [data-bs-theme="light"] .link-primary {
+       --bs-primary-rgb: rgb(33, 37, 41);
+       &:hover {
+         color: rgb(24, 188, 156) !important;
+       }
+     }
      h1,h2,h3,h4,h5,h6 { text-wrap: balance; }
     </style>
     <link rel="icon" href="/favicon.ico" sizes="any">
@@ -27,7 +47,7 @@
     <link rel="preload" href="/font/Lato-Bold.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" href="/font/Lato-Italic.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
     <link rel="alternate" type="application/atom+xml" href="https://matematiikkakilpailut.fi/feed.xml">
-    {% if jsonld %}<script type="application/ld+json">{{ jsonld | safe }}</script>{% endif %}
+    {% if jsonld %}<script type="application/ld+json">{{ jsonld | safe }}</script>{% endif -%}
     <script>
       const getStoredTheme = () => localStorage.getItem('theme')
       const getPreferredTheme = () => {
@@ -46,11 +66,12 @@
       setTheme(getPreferredTheme())
     </script>
   </head>
-  <body>
+  <body class="d-flex flex-column min-vh-100">
     {% include 'ylapalkki.html' %}
     <div class="container">
       {{ content | safe }}
     </div>
+    {% include "alapalkki.html" %}
     <script defer src="/js/theme.js"></script>
     <script defer src="/js/bootstrap.bundle.min.js?v=5.3.3"></script>
     <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "45380cb8b30d4b0791d27e340eefc4da"}'></script>

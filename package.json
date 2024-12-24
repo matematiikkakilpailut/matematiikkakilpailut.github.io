@@ -27,9 +27,7 @@
     "js-yaml": "^4.1.0",
     "markdown-it": "^14.1.0",
     "markdown-it-anchor": "^9.2.0",
-    "sitemap": "^8.0.0"
-  },
-  "dependencies": {
+    "sitemap": "^8.0.0",
     "cheerio": "^1.0.0-rc.12",
     "csso-cli": "^4.0.2",
     "markdown-it-attrs": "^4.1.6"

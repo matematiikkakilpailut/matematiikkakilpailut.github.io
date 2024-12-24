@@ -81,6 +81,15 @@
           <h1>
             <xsl:value-of select="/atom:feed/atom:title" />
           </h1>
+          <p>Tämä on RSS-syöte, jonka osoitteen <a href="{/atom:feed/atom:link[@rel='self']/@href}">
+              <xsl:value-of select="/atom:feed/atom:link[@rel='self']/@href" />
+              </a> voit laittaa haluamaasi RSS-lukuohjelmaan, esimerkiksi <a href="https://feedly.com" hreflang="en">Feedlyyn</a>
+              tai johonkin <a href="https://addons.mozilla.org/fi/firefox/collections/5975439/feed-readers/">Firefoxin lisäosaan</a>.
+              (<a href="https://www.lifewire.com/what-is-an-rss-feed-4684568" hreflang="en">Englanninkielinen RSS-ohje</a>,
+              <a href="https://en.wikipedia.org/wiki/Comparison_of_feed_aggregators" hreflang="en">RSS-lukuohjelmien vertailu</a>.)
+          </p>
+          <p>Syötteen sisältö on ohjattu myös <a href="https://t.me/matematiikkakilpailut">Telegram-tiedotuskanavalle</a>.
+          </p>
         </header>
 
         <main>

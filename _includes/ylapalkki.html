@@ -1,17 +1,22 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-primary">
+<nav data-bs-theme="dark" class="navbar navbar-expand-md bg-primary" aria-label="Päävalikko">
   <div class="container-fluid flex-flow align-items-start">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbar-collapse" aria-controls="navbar-collapse"
+            aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="d-flex order-1 ms-md-auto" id="theme-toggle">
+    <a class="navbar-brand ps-sm-4" href="/">Matematiikkavalmennus</a>
+    <div class="d-flex order-0 order-md-last ms-md-auto" id="theme-toggle" title="Taustaväri">
       <div class="dropdown">
-        <button class="btn btn-link nav-link py-2 pt-md-3 px-1 px-lg-2 dropdown-toggle d-flex align-items-center text-light"
-        type="button"
-        id="bd-theme"
-        data-bs-toggle="dropdown"
-        aria-expanded="false">
+        <button class="btn btn-link nav-link dropdown-toggle
+                       py-2 pt-md-2 px-1 px-lg-2
+                       d-flex align-items-center text-light"
+                type="button"
+                id="bd-theme"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
           <svg class="bi theme-icon-active" width="16" height="16" fill="currentColor">
-            <use href="/kuvat/sprite2.svg#sun-fill"></use>
+            <use href="/kuvat/sprite3.svg#sun-fill"></use>
           </svg>
           <span class="d-none" id="bd-theme-text">Taustaväri</span>
         </button>
@@ -19,7 +24,7 @@
           <li>
             <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
               <svg class="bi me-2" width="16" height="16" fill="currentColor">
-                <use href="/kuvat/sprite2.svg#sun-fill"></use>
+                <use href="/kuvat/sprite3.svg#sun-fill"></use>
               </svg>
               Vaalea
             </button>
@@ -27,7 +32,7 @@
           <li>
             <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
               <svg class="bi me-2" width="16" height="16" fill="currentColor">
-                <use href="/kuvat/sprite2.svg#moon-stars-fill"></use>
+                <use href="/kuvat/sprite3.svg#moon-stars-fill"></use>
               </svg>
               Tumma
             </button>
@@ -35,7 +40,7 @@
           <li>
             <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto">
               <svg class="bi me-2" width="16" height="16" fill="currentColor">
-                <use href="/kuvat/sprite2.svg#circle-half"></use>
+                <use href="/kuvat/sprite3.svg#circle-half"></use>
               </svg>
               Automaattinen
             </button>
@@ -43,62 +48,16 @@
         </ul>
       </div>
     </div>
-    {%- set navPages = collections.all | eleventyNavigation %}
-    {%- set active = []                                     %}
-    {%- set bottomrow = false                               %}
-    {%- for top in navPages                                 %}
-    {%-   if top.url == page.url                            %}
-    {%-     set active = [top.url]                          %}
-    {%-     set bottomrow = top.children                    %}
-    {%-   else                                              %}
-    {%-     for bottom in top.children                      %}
-    {%-       if bottom.url == page.url                     %}
-    {%-         set active = [top.url, bottom.url]          %}
-    {%-         set bottomrow = top.children                %}
-    {%-       endif                                         %}
-    {%-     endfor                                          %}
-    {%-   endif                                             %}
-    {%- endfor                                              %}
-    <nav class="collapse navbar-collapse flex-column align-items-start" id="navbar-collapse">
-      <div class="row flex-grow-1"><div class="col-12 flex-grow-1">
-        <ul class="navbar-nav mb-2 mb-lg-0">
-          {%- for entry in navPages %}
-          {%-  set isActive = entry.url in active %}
-          <li class="nav-item">
-            <a class="nav-link{% if isActive %} active{% endif%}"
-               {% if isActive %} aria-current="page"{% endif %}
-               href="{{ entry.url | url }}">{{ entry.title }}</a>
-          </li>
-          {%- endfor %}
-          <li class="nav-item">
-            <a class="nav-link" href="/feed.xml" rel="alternate" title="RSS-syöte" type="application/atom+xml"
-            ><svg class="bi" width="16" height="16" fill="currentColor">
-              <use xlink:href="/kuvat/sprite2.svg#rss-fill"/>
-            </svg></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://t.me/matematiikkakilpailut" rel="me" title="Telegram"
-            ><svg class="bi" width="16" height="16" fill="currentColor">
-              <use xlink:href="/kuvat/sprite2.svg#telegram"/>
-            </svg></a>
-          </li>
-        </ul>
-      </div></div>
-      {%- if bottomrow %}
-      <hr class="d-md-none">
-      <div class="row"><div class="col-12">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          {%- for entry in bottomrow %}
-          {%-  set isActive = entry.url in active %}
-          <li class="nav-item">
-            <a class="nav-link{% if isActive %} active{% endif %}"
-               {% if isActive %} aria-current="page"{% endif %}
-               href="{{ entry.url | url }}">{{ entry.title }}</a>
-          </li>
-          {%- endfor %}
-        </ul>
-      </div></div>
-      {%- endif %}
-    </nav>
+    <div class="collapse navbar-collapse flex-column align-items-start" id="navbar-collapse">
+      <div class="row flex-grow-1">
+        <div class="col-12 flex-grow-1">
+          <ul class="navbar-nav mb-2 mb-md-0">
+            <li class="nav-item"><a class="nav-link {% if page.url == "/aikataulu/" %}active{% endif %}" href="/aikataulu/">Aikataulu</a></li>
+           <li class="nav-item"><a class="nav-link {% if page.url == "/valmennus/" %}active{% endif %}" href="/valmennus/">Kotitehtävät</a></li>
+            <li class="nav-item"><a class="nav-link {% if page.url == "/aiheet/" %}active{% endif %}" href="/aiheet/">Materiaalit</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
 </nav>
