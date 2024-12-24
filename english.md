@@ -88,7 +88,7 @@ accidentally ended up in your spam folder.
 
 ## Math terminology
 
-Usually, [Google Translate](https://translate.google.com/) does a
+Usually, [Google Translate](https://translate.google.com/) or [DeepL](https://www.deepl.com/en/translator) does a
 decent job of translating between Finnish and English. In case some
 mathematical terminology is difficult, the following sources may be
 helpful:
