@@ -1,32 +1,12 @@
 ---
 aikataulu:
-- pvm: "2024"
-  tapahtuma: "Syksy"
-  otsikko: true
-- pvm: "30.8.&ndash;1.9. (viikko 35)"
-  tapahtuma: >-
-    Valmennusviikonloppu Päivölässä, ohjelmassa Baltian tie -joukkueen valintakoe.
-- pvm: "25.&ndash;27.10. (viikko 43)"
-  tapahtuma: >-
-    Valmennusviikonloppu Päivölässä.
-- pvm: "23.10.&ndash;5.11."
-  tapahtuma: >-
-    [MAOLin matematiikkakilpailun alkukilpailu, peruskoulu](https://maol.fi/neljan-tieteen-kisat/)
-- pvm: "29.10."
-  tapahtuma: >-
-    [MAOLin matematiikkakilpailun alkukilpailu, lukio](https://maol.fi/neljan-tieteen-kisat/)
-- pvm: "14.&ndash;18.11."
-  tapahtuma: >-
-    [Baltian tie -joukkuekilpailu](https://bw2024.olympiaadid.ut.ee/) Tartossa, Virossa
-- pvm: "13.&ndash;15.12. (viikko 50)"
-  tapahtuma: >-
-    Valmennusviikonloppu Päivölässä.
 - pvm: "2025"
   tapahtuma: "Kevät ja kesä"
   otsikko: true
 - pvm: "10.&ndash;12.1. (viikko 2)"
   tapahtuma: >-
-    Valmennusviikonloppu Päivölässä.
+    Valmennusviikonloppu Päivölässä: ohjelmassa geometriaa ja lukuteoriaa (alakerrassa) sekä verkkoteoriaa, peliteoriaa ja epäyhtälöitä
+    (yläkerrassa). Myös valmennuskoe, johon varsinkin Pohjoismaiseen matematiikkakilpailuun ja EGMOon pyrkivien kannattaa osallistua.
     <a role="button" class="btn btn-primary btn-sm" href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2025-vk2">Ilmoittaudu Päivölään</a> 6.1. mennessä!
 - pvm: "21.&ndash;23.2. (viikko 8)"
   tapahtuma: >-
@@ -62,6 +42,27 @@ mahdollisia:
   tapahtuma: "[European Mathematical Cup](https://emc.mnm.hr)"
 
 vanhoja:
+- pvm: "2024"
+  tapahtuma: "Syksy"
+  otsikko: true
+- pvm: "30.8.&ndash;1.9. (viikko 35)"
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä, ohjelmassa Baltian tie -joukkueen valintakoe.
+- pvm: "25.&ndash;27.10. (viikko 43)"
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä.
+- pvm: "23.10.&ndash;5.11."
+  tapahtuma: >-
+    [MAOLin matematiikkakilpailun alkukilpailu, peruskoulu](https://maol.fi/neljan-tieteen-kisat/)
+- pvm: "29.10."
+  tapahtuma: >-
+    [MAOLin matematiikkakilpailun alkukilpailu, lukio](https://maol.fi/neljan-tieteen-kisat/)
+- pvm: "14.&ndash;18.11."
+  tapahtuma: >-
+    [Baltian tie -joukkuekilpailu](https://bw2024.olympiaadid.ut.ee/) Tartossa, Virossa
+- pvm: "13.&ndash;15.12. (viikko 50)"
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä.
 - pvm: "2024"
   tapahtuma: "kesä"
   otsikko: true
