@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="sitemap" href="/sitemap.xml">
+    <title>Itä-Suomen yliopiston matematiikkakerho</title>
+    
+    <link href="/css/bootstrap.min.css?v=5.3.3" rel="stylesheet">
+    <style>
+     #logopalkki {
+   margin-top: 6ex;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-content: center;
+}
+
+     h1,h2,h3,h4,h5,h6 { text-wrap: balance; }
+    </style>
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/kuvat/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/kuvat/apple-touch-icon.png">
+    <link rel="manifest" href="/kuvat/manifest.webmanifest">
+    <link rel="preload" href="/font/Lato-Regular.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/Lato-Bold.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/Lato-Italic.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="alternate" type="application/atom+xml" href="https://matematiikkakilpailut.fi/feed.xml">
+    
+    <script>
+      const getStoredTheme = () => localStorage.getItem('theme')
+      const getPreferredTheme = () => {
+        const storedTheme = getStoredTheme()
+        if (storedTheme) {
+          return storedTheme
+        }
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+      }
+      const setTheme = theme => {
+        document.documentElement.dataset.bsTheme =
+          theme === 'auto'
+          ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+          : theme
+      }
+      setTheme(getPreferredTheme())
+    </script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+  <div class="container-fluid flex-flow align-items-start">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="d-flex order-1 ms-md-auto" id="theme-toggle">
+      <div class="dropdown">
+        <button class="btn btn-link nav-link py-2 pt-md-3 px-1 px-lg-2 dropdown-toggle d-flex align-items-center text-light"
+        type="button"
+        id="bd-theme"
+        data-bs-toggle="dropdown"
+        aria-expanded="false">
+          <svg class="bi theme-icon-active" width="16" height="16" fill="currentColor">
+            <use href="/kuvat/sprite2.svg#sun-fill"></use>
+          </svg>
+          <span class="d-none" id="bd-theme-text">Taustaväri</span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme">
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite2.svg#sun-fill"></use>
+              </svg>
+              Vaalea
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite2.svg#moon-stars-fill"></use>
+              </svg>
+              Tumma
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite2.svg#circle-half"></use>
+              </svg>
+              Automaattinen
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <nav class="collapse navbar-collapse flex-column align-items-start" id="navbar-collapse">
+      <div class="row flex-grow-1"><div class="col-12 flex-grow-1">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/">Valmennus</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/uutiset/">Uutisia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/kilpailut/">Kilpailuja</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/kerhot/">Kerhot</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/english/">In English</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/feed.xml" rel="alternate" title="RSS-syöte" type="application/atom+xml"
+            ><svg class="bi" width="16" height="16" fill="currentColor">
+              <use xlink:href="/kuvat/sprite2.svg#rss-fill"/>
+            </svg></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://t.me/matematiikkakilpailut" rel="me" title="Telegram"
+            ><svg class="bi" width="16" height="16" fill="currentColor">
+              <use xlink:href="/kuvat/sprite2.svg#telegram"/>
+            </svg></a>
+          </li>
+        </ul>
+      </div></div>
+    </nav>
+  </div>
+</nav>
+
+    <div class="container">
+      <header class="display-4 pt-3 pb-3 mt-3 mb-1">
+  <h1>Itä-Suomen yliopiston matematiikkakerho</h1>
+</header>
+<main class="row">
+  <div class="col-xs-12">
+    <p><strong>Vuosina 2021-2023 järjestettiin hankerahoituksella paikallisia matematiikkakerhoja. Tämä hankerahoitus on loppunut.</strong></p>
+<hr>
+<p>Hellurei! <span lang="cs">Holá!</span> <span lang="sv">Hej!</span> <span lang="de">Hallo!</span> <span lang="ru">привет!</span></p>
+<p>Syys-lokakuun taitteessa jatkuu keväällä 2021 alkanut Itä-Suomen yliopiston organisoima ilmainen matematiikkakerho yläkoululaisille ja lukiolaisille.
+Kerho on tarkoitettu niille, jotka haluavat</p>
+<ul>
+<li>tietää matematiikasta sen, mitä koulukirjoissa ei kerrota</li>
+<li>päästä ratkomaan erilaisia haastavia tehtäviä</li>
+<li>kahvitella muiden matematiikasta kiinnostuneiden nuorten kanssa (omat kahvit ja pullat esille)</li>
+</ul>
+<p>Tapaamisissa tutustutaan matematiikan eri osa-alueisiin ja ratkotaan monen tasoisia tehtäviä. Aiheet eivät vaadi esitietoja, tärkeintä on kiinnostus matemaattiseen ongelmanratkaisuun ja halu oppia. MATERIAALIT OVAT UUSIA MYÖS VIIME KEVÄÄNÄ OSALLISTUNEILLE! Oletko ajatellut, että voisit joskus osallistua matematiikkakilpailuihin? Kerho on myös hyvää valmennusta niitä ajatellen!</p>
+<p>Voit osallistua mistä päin maailmaa tahansa, sillä kerho järjestetään etänä Discord-alustalla noin kahden viikon välein torstaisin klo 17-19. Ensimmäinen kokoontuminen on 30.9. Kerhotoimintaan voit osallistua silloin kun se sinulle sopii, eikä haittaa, jos ensimmäinen tai joku muu tapaaminen jää välistä! Serverille pääset osallistumaan <a href="https://discord.com/invite/8Jxpv5vbvB">täältä</a>.</p>
+<h2 id="syksyn-2021-kerhokerrat" tabindex="-1">Syksyn 2021 kerhokerrat</h2>
+<ul>
+<li>30.9. klo 17-19</li>
+<li>14.10. klo 17-19</li>
+<li>28.10. klo 17-19</li>
+<li>4.11. klo 17-19</li>
+<li>18.11. klo 17-19</li>
+<li>25.11. klo 17-19</li>
+<li>9.12. klo 17-19</li>
+<li>16.12. klo 17-19</li>
+</ul>
+<p>Kerhon vetäjänä toimii Laura Ylönen. Laura vastaa mielellään kaikkiin kerhoa koskeviin kysymyksiin sähköpostitse <a href="mailto:laura.ylonen@uef.fi">laura.ylonen@uef.fi</a>. Kerhon järjestää Itä-Suomen yliopiston Fysiikan ja matematiikan laitos yhteistyössä Suomen matemaattisen yhdistyksen valmennusjaoston ja MAOLin kanssa.</p>
+<p>Nappaa kaverikin mukaan ja osallistu kerhoon! Tervetuloa!</p>
+<div id="logopalkki">
+<img src="uef.png" alt="Itä-Suomen Yliopisto" height="100"/>
+<img src="/kerhot/abo/MAOL%20logo.svg" alt="MAOL" height="60"/>
+<img src="/OPH_rahoittaa_rgb.png" alt="Opetushallitus rahoittaa hanketta" height="100"/>
+</div>
+
+  </div>
+</main>
+
+
+    </div>
+    <script defer src="/js/theme.js"></script>
+    <script defer src="/js/bootstrap.bundle.min.js?v=5.3.3"></script>
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "45380cb8b30d4b0791d27e340eefc4da"}'></script>
+  </body>
+</html>

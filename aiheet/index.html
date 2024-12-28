@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="sitemap" href="/sitemap.xml">
+    <title>Valmennusmateriaalia</title>
+    
+    <link href="/css/bootstrap.min.css?v=5.3.3" rel="stylesheet">
+    <style>
+     
+     h1,h2,h3,h4,h5,h6 { text-wrap: balance; }
+    </style>
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/kuvat/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/kuvat/apple-touch-icon.png">
+    <link rel="manifest" href="/kuvat/manifest.webmanifest">
+    <link rel="preload" href="/font/Lato-Regular.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/Lato-Bold.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/Lato-Italic.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="alternate" type="application/atom+xml" href="https://matematiikkakilpailut.fi/feed.xml">
+    
+    <script>
+      const getStoredTheme = () => localStorage.getItem('theme')
+      const getPreferredTheme = () => {
+        const storedTheme = getStoredTheme()
+        if (storedTheme) {
+          return storedTheme
+        }
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+      }
+      const setTheme = theme => {
+        document.documentElement.dataset.bsTheme =
+          theme === 'auto'
+          ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+          : theme
+      }
+      setTheme(getPreferredTheme())
+    </script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+  <div class="container-fluid flex-flow align-items-start">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="d-flex order-1 ms-md-auto" id="theme-toggle">
+      <div class="dropdown">
+        <button class="btn btn-link nav-link py-2 pt-md-3 px-1 px-lg-2 dropdown-toggle d-flex align-items-center text-light"
+        type="button"
+        id="bd-theme"
+        data-bs-toggle="dropdown"
+        aria-expanded="false">
+          <svg class="bi theme-icon-active" width="16" height="16" fill="currentColor">
+            <use href="/kuvat/sprite2.svg#sun-fill"></use>
+          </svg>
+          <span class="d-none" id="bd-theme-text">Taustaväri</span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme">
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite2.svg#sun-fill"></use>
+              </svg>
+              Vaalea
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite2.svg#moon-stars-fill"></use>
+              </svg>
+              Tumma
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite2.svg#circle-half"></use>
+              </svg>
+              Automaattinen
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <nav class="collapse navbar-collapse flex-column align-items-start" id="navbar-collapse">
+      <div class="row flex-grow-1"><div class="col-12 flex-grow-1">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active"
+                aria-current="page"
+               href="/">Valmennus</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/uutiset/">Uutisia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/kilpailut/">Kilpailuja</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/kerhot/">Kerhot</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/english/">In English</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/feed.xml" rel="alternate" title="RSS-syöte" type="application/atom+xml"
+            ><svg class="bi" width="16" height="16" fill="currentColor">
+              <use xlink:href="/kuvat/sprite2.svg#rss-fill"/>
+            </svg></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://t.me/matematiikkakilpailut" rel="me" title="Telegram"
+            ><svg class="bi" width="16" height="16" fill="currentColor">
+              <use xlink:href="/kuvat/sprite2.svg#telegram"/>
+            </svg></a>
+          </li>
+        </ul>
+      </div></div>
+      <hr class="d-md-none">
+      <div class="row"><div class="col-12">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/aikataulu/">Aikataulu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/kaytanto/">Valmennustapahtumat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/valmennus/">Kirjevalmennus</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active"
+                aria-current="page"
+               href="/aiheet/">Materiaalit</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/valmentajat/">Valmentajat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/tietosuoja/">Tietosuoja</a>
+          </li>
+        </ul>
+      </div></div>
+    </nav>
+  </div>
+</nav>
+
+    <div class="container">
+      <header class="display-4 pt-3 pb-3 mt-3 mb-1">
+  <h1></h1>
+</header>
+
+<main>
+  
+  <div class="float-md-end col-md-auto ps-md-4 pb-3" style="max-width: 400px;">
+    <div class="card border-primary shadow">
+      <div class="card-body">
+        <div class="highlighted-content">
+          <h3 id="kilpa%C2%ADmatematiikan-perus%C2%ADkurssi" tabindex="-1">Kilpa­matematiikan perus­kurssi</h3>
+<p><a href="https://kurssi.matematiikkakilpailut.fi">Kilpa­matematiikan perus­kurssi</a> sopii aloittelijoille
+esimerkiksi MAOLin kilpailuun valmistautumiseen.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <h2 id="alkuun" tabindex="-1">Aloittelijoille</h2>
+<p>Varoituksen sana aloitteleville kilpailijoille:
+matematiikkakilpailuihin liittyvää kirjallisuutta on sekä tällä sivulla että muualla varsin paljon
+ja se on yleensä selvästi lukiokurssia vaativampaa. Ei pidä lannistua, vaan kannattaa yrittää löytää
+jotain omiin pohjatietoihin ja kiinnostukseen sopivaa. Myös <a href="/kaytanto/">valmennustapahtumissa</a>
+voi saada opetusta ja vinkkejä.</p>
+<ul>
+<li><a href="/valmennus/#perus">Peruskoululaisten valmennustehtävien</a> ensimmäinen kirje on julkisesti saatavilla,
+lisää kirjeitä saa vastaamalla edellisiin. Myöhemmät kirjeet sisältävät tehtävien lisäksi niiden teemoihin
+liittyvää lukemista.</li>
+<li><a href="https://www.mayk.fi/matematiikkalukio/kehitys/syventavat-materiaalit/">Harppi-projektin materiaalit</a>
+täydentävät lukiokurssia.</li>
+<li><a href="/seiskat/tehtavat.html">Seiskaluokkalaisten kilpailutehtävät</a> eivät ole aina aivan helppoja mutta luultavasti
+helpompia kuin lukiolaiskilpailujen tehtävät.</li>
+<li><a href="https://www.mayk.fi/tietoa-meista/kenguru/vanhoja-kilpailuja-suomeksi/">Kenguru-kilpailun tehtäviä</a>
+on monella tasolla alakoulusta lukioon.</li>
+<li><a href="https://kurssi.matematiikkakilpailut.fi">Kilpamatematiikan peruskurssi</a> sopii esimerkiksi
+MAOLin kilpailuun valmistautumiseen.</li>
+</ul>
+<h2 id="muita" tabindex="-1">Yleistä</h2>
+<ul>
+<li><a href="/kirjallisuus/OOOO.pdf">OOOO: Ollin opas olympiatason ongelmanratkaisuun</a>,
+Olli Järviniemen kattava katsaus matematiikkakilpailujen ongelmanratkaisuun.</li>
+<li><a href="/kirjallisuus/kilpmatopas.pdf">Kilpailumatematiikan opas</a>
+Kilpailumatematiikassa keskeisten todistamisen, algebran, geometrian, lukuteorian ja
+kombinatoriikan tietojen 108-sivuinen kooste. Saatavissa myös paperisena.
+– Tästä ladattavassa pdf-versiossa on korjattu joitakin paperiversion virheitä.</li>
+<li><a href="/kirjallisuus/opas.pdf">Pieni kilpailumatematiikan opas</a>
+Lyhyempi kooste keskeisestä kilpailumatematiikasta: todistamisesta, epäyhtälöistä,
+lukuteoriasta, algebrasta, geometriasta ja kombinatoriikasta. Jonkin verran laajennettu
+versio Matti Lehtisen <em>Matematiikan olympiakirjassa</em> julkaistusta ”Lyhyestä
+olympiamatematiikan oppaasta”.</li>
+<li><a href="/kirjallisuus/kaytannon_ohjeet.pdf">Käytännön ohjeita matematiikan olympiajoukkueeseen valitulle</a>
+Anne-Maria Ernvall-Hytösen opas olympiajoukkueen jäsenille kilpailujen ja kilpailumatkan
+yhteydessä vastaan tulevista asioista.</li>
+</ul>
+<h2 id="tehtavat" tabindex="-1">Tehtäviä</h2>
+<ul>
+<li><a href="http://eukleideskirjat.fi/harjI.html">Kilpailumatematiikan harjoituksia I ja II</a>.
+Vanha kilpailutehtäväkokoelma on nyt järjestetty, siitä on korjattu lukuisia virheitä
+ja se on julkaistu kahtena niteenä.</li>
+<li><a href="/kirjallisuus/kilpmatesitt.pdf">Kilpailumatematiikan lajeja ja periaatteita</a>
+20 näytetehtävää, jotka pyrkivät antamaan kuvaa kilpailumatematiikassa tavallisista
+kysymystyypeistä. Tehtäviin on myös ratkaisut. Koonnut Matti Lehtinen, päivitetty syyskuussa 2016.</li>
+<li><a href="/IMO/imokaikki.pdf">Kansainvälisten matematiikkaolympialaisten tehtävät vuosilta 1995 – 2014</a>.
+Kooste sisältää myös ratkaisut.</li>
+<li><a href="/IMO/imot75_94.pdf">Kansainvälisten matematiikkaolympialaisten tehtävät vuosilta 1975 – 1994</a>.
+Tehtäviin on myös <a href="/IMO/imor75_94.pdf">ratkaisut</a>.</li>
+<li><a href="/IMO/imot59_74.pdf">Kansainvälisten matematiikkaolympialaisten tehtävät vuosilta 1959 – 1974</a>.
+Tehtäviin on myös <a href="/IMO/imor59_74.pdf">ratkaisut</a>.</li>
+<li><a href="/PM/nmckaikki.pdf">Pohjoismaisten matematiikkakilpailujen tehtävät vuosilta 1995 – 2015</a>.
+Kooste sisältää myös ratkaisut.</li>
+<li><a href="/PM/nmct87_94.pdf">Pohjoismaisten matematiikkakilpailujen tehtävät vuosilta 1987 – 1994</a>.
+Tehtäviin on myös <a href="/PM/nmcr87_94.pdf">ratkaisut</a>.</li>
+<li><a href="/Baltian_tie/bwteht.pdf">Baltian Tie -kilpailun tehtävät vuosilta 1990 – 2015</a>.
+460 tehtävää. Ratkaisukokoelmia löytyy vuosien <a href="/Baltian_tie/Btratk1990_99.pdf">1990–99</a>
+ja <a href="/Baltian_tie/Btratk2000_09.pdf">2000–09</a> tehtäviin. Ratkaisukoosteita täydennetään.</li>
+<li><a href="/kirjallisuus/imoehdteht.pdf">IMO-ehdokastehtäväkokoelma</a>
+138 matematiikkaolympialaisiin ehdolla ollutta tehtävää ryhmiteltyinä jaon
+”algebra - geometria - kombinatoriikka - lukuteoria” mukaisesti. Koosteessa tähdellä merkittyihin tehtäviin löytyy myös <a href="/kirjallisuus/imoehdratk.pdf">ratkaisuja</a>.</li>
+<li><a href="/Kappa/Kappa_14_teht.pdf">Kappa-kilpailun tehtävät 2014</a> Ruotsin opettajien matematiikkakilpailun tehtävät.</li>
+</ul>
+<h2 id="teemat" tabindex="-1">Aiheet</h2>
+<p>Viikonloppujen ohjelmien jaksottelemiseksi matematiikka on jaoteltu
+seuraaviksi teemoiksi. Kilpailuissa tehtävät jakaantuvat usein melko
+tasaisesti neljän pääteeman kesken.</p>
+<ol>
+<li><a href="#algebra">Algebra</a>
+<ul>
+<li>Epäyhtälöt</li>
+<li>Funktionaaliyhtälöt</li>
+<li>Kompleksiluvut</li>
+<li>Polynomit</li>
+</ul>
+</li>
+<li><a href="#geometria">Geometria</a>
+<ul>
+<li>Analyyttinen geometria</li>
+<li>Avaruusgeometria</li>
+<li>Geometriset konstruktiot</li>
+<li>Kompleksiluvut, vektorit</li>
+<li>Kuvausgeometria</li>
+<li>Tasogeometria</li>
+</ul>
+</li>
+<li><a href="#kombinatoriikka">Kombinatoriikka</a>
+<ul>
+<li>Laskennallinen kombinatoriikka</li>
+<li>Verkkoteoria</li>
+</ul>
+</li>
+<li><a href="#lukuteoria">Lukuteoria</a>
+<ul>
+<li>Alkulukujen teoria</li>
+<li>Jaollisuus, kongruenssit</li>
+</ul>
+</li>
+</ol>
+<h3 id="algebra" tabindex="-1">Algebra</h3>
+<ul>
+<li><a href="/kirjallisuus/alg02.pdf">Algebran alkeita</a>
+Kirjoittaja Matti Lehtinen, viimeisin versio keväältä 2002.</li>
+<li><a href="/kirjallisuus/perusalgebra.pdf">Kilpailumatematiikan perusalgebra.</a>
+Perustietoja algebrallisista lausekkeista, kompleksiluvuista, polynomeista,
+epäyhtälöistä ja funktionaaliyhtälöistä sekä kilpailutehtäviä ratkaisuineen.
+Matti Lehtisen kirjoittama.</li>
+<li><a href="/kirjallisuus/fy.pdf">Funktionaaliyhtälöistä</a>
+Kirjoittajat Kerkko Luosto ja Antti Honkela, viimeisin versio toukokuulta 2003.</li>
+<li><a href="/kirjallisuus/kompleksiluvut.pdf">Kompleksiluvut</a>
+Kirjoittaja Matti Lehtinen, viimeisin versio lokakuulta 2010.</li>
+<li><a href="/kirjallisuus/eykirja.pdf">Epäyhtälöoppia matematiikkaolympialaisten tehtäviin</a>
+Kirjoittajat Jari Lappalainen ja Anne-Maria Ernvall-Hytönen, viimeisin versio vuodelta 2011.</li>
+<li><a href="/kirjallisuus/Holderey.pdf">Cauchy-Schwarzin ja Hölderin epäyhtälöt</a>
+Turun yliopiston opiskelijan Noora Niemisen kirjoittama harjoitustyö.</li>
+<li><a href="/kirjallisuus/imo_epayht.pdf">Välttämätön epäyhtälöistä IMO:on</a>
+Kirjoittanut Esa Vesalainen.</li>
+<li><a href="/kirjallisuus/vaderlind.pdf">Epäyhtälöiden kieltämätön viehätys</a>
+Suomennos Paul Vaderlindin tekstistä <em>The Undeniable Charm of Inequalities</em>.
+Kääntänyt Esa Vesalainen.</li>
+<li><a href="/kirjallisuus/inequalities.pdf">Tehtäviä epäyhtälöistä</a>
+Sekalainen valikoima epäyhtälötehtäviä
+<a href="/kirjallisuus/inequalities_solutions.pdf">ratkaisuehdotuksin</a>.
+Koonnut Esa Vesalainen.</li>
+<li><a href="/kirjallisuus/imoehdfnyht.pdf">IMO-tason funktionaaliyhtälötehtäviä</a>
+Matematiikkaolympialaisiin ehdolla olleita funktionaaliyhtälötehtäviä ratkaisuineen.</li>
+</ul>
+<h3 id="geometria" tabindex="-1">Geometria</h3>
+<ul>
+<li>Luettelo matematiikkakilpailuissa tarpeellisista tai hyödyllisistä
+<a href="/kirjallisuus/geompakko.pdf">geometrian tiedoista ja taidoista</a>.
+Matti Lehtisen kirjoittama.</li>
+<li><a href="/kirjallisuus/geomtodharj.pdf">Geometrisen todistamisen perusharjoitus</a>
+Harjoitus niille, joille todistaminen geometriassa ja matematiikassa on
+verrattain uusi asia. Matti Lehtisen kirjoittama.</li>
+<li><a href="/kirjallisuus/geomperusp.pdf">”Geometrian peruspaketti”</a>
+Kirjoittaja Matti Lehtinen. 43 ”mielenkiintoista ja tärkeää” geometrian
+lausetta todistuksineen. Johtaa suoraan kilpailuissa esiintyvään geometriaan.
+Versio on vuodelta 2002.</li>
+<li><a href="/kirjallisuus/geomlis13.pdf">Geometrian täydennystä</a>.
+Muutamia <em>Kilpailumatematiikan oppaan</em> geometriaosuutta täydentäviä faktoja
+lyhyine perusteluineen. Matti Lehtisen esitys toukokuussa 2013.</li>
+<li><a href="http://www.elisanet.fi/matti.t.lehtinen/kaikki.pdf">Geometrian pitempi oppimäärä</a>
+Matti Lehtisen geometrian luentokurssin uusin versio. Se kattaa kilpailuissa
+tarvittavan klassisen geometrian ja vähän enemmänkin.</li>
+<li><a href="/kirjallisuus/ag.pdf">Analyyttistä geometriaa kilpailutehtävien kautta</a>
+Geometristen tehtävien ratkaisemisesta analyyttisen geometrian keinoin.
+Jouni Seppäsen kirjoittama, viimeisin versio huhtikuulta 2014.</li>
+<li><a href="/kirjallisuus/nimgeom.pdf">Nimekästä geometriaa</a>
+Kolmattakymmentä geometrian lausetta ja käsitettä, jotka liittyvät tiettyihin
+henkilönnimiin. Kilpailuissa näihin viittaamiseksi riittää, kun kertoo kyseisen nimen.
+Ylioppilastutkinnossa tilanne on toinen, sillä perimätiedon mukaan esimerkiksi
+Heronin kaavan käyttöä ei hyväksytä, ellei samalla johda kaavaa.
+Johto löytyy sekin täältä. (Kokosi Matti Lehtinen; kesäkuussa 2017 päivitetty versio.)</li>
+<li><a href="/kirjallisuus/pick.pdf">Pickin lause ja kaava</a>
+Monikulmion alan laskeminen, kun kaikki kärkipisteet ovat hilapisteitä. Kirjoittaja Matti Lehtinen.</li>
+<li><a href="/kirjallisuus/avgeom.pdf">Avaruusgeometrian kysymyksiä</a>
+Kolmiulotteisen geometrian perusasioita esittelevä lauseiden ja tehtävien
+sekä niiden todistusten ja ratkaisujen kooste. Matti Lehtisen kirjoittama.</li>
+<li><a href="/kirjallisuus/trig.pdf">Trigonometria</a>
+Trigonometrian peruskaavat ja niiden johto, erinäisiä kolmion mittalukuasioita
+ja trigonometristen menetelmien soveltamista algebrallisiin tehtäviin.
+Laajennettu Matti Lehtisen esityksistä Päivölässä huhtikuussa 2009 ja helmikuussa 2011.</li>
+<li><a href="/kirjallisuus/projgeom.pdf">Projektiivisen geometrian alkeita</a>
+Lyhyt ja melko konkreettinen katsaus geometrian tehtävien ratkaisemisessa
+toisinaan hyödyllisiin projektiivisiin menetelmiin. Matti Lehtisen kirjoittama. Viimeksi täydennetty mm. tehtävien ratkaisuilla huhtikuussa 2016.</li>
+<li><a href="/kirjallisuus/geomkuvteht.pdf">Geometriaa kuvauksin</a>
+Johdatus geometrisiin kuvauksiin erittäin tiiviiden määritelmien ja noin 60 tehtävän
+kautta. Tehtäviin löytyy myös lyhyet <a href="/kirjallisuus/geomkuvratk.pdf">ratkaisut</a>.</li>
+<li><a href="/kirjallisuus/eeukl.pdf">Epäeuklidisen geometrian alkeita</a>
+Geometriaa ilman paralleeliaksioomaa ja hyperbolisen geometrian Poincarén mallin
+pääpiirteitä. Matti Lehtisen esitys valmennusviikonvaihteessa tammikuussa 2013.</li>
+<li><a href="/kirjallisuus/imoehdgeomey.pdf">IMO-tason geometrisia epäyhtälöitä</a>
+Matematiikkaolympialaisiin ehdolla olleita tehtäviä, joiden aihe on geometrinen epäyhtälö.
+Tehtävät on esitetty ratkaisuineen.</li>
+</ul>
+<h3 id="kombinatoriikka" tabindex="-1">Kombinatoriikka</h3>
+<ul>
+<li><a href="/kirjallisuus/laskkomb.pdf">Laskennallisen kombinatoriikan perusongelmia</a>
+Muutama laskennallisen kombinatoriikan peruskaava tehtäviksi ja ratkaisuiksi
+muotoiltuna. Lisäksi muutama aiheeseen liittyvä laskutehtävä ratkaisuineen.
+Matti Lehtisen esitys Päivölässä huhtikuussa 2012.</li>
+<li><a href="/kirjallisuus/binomikert.pdf">Nuo mainiot binomikertoimet</a>
+Binomikertoimien algebrallisia ja kombinatorisia ominaisuuksia. Matti Lehtisen
+esitys Päivölässä helmikuussa 2013.</li>
+<li><a href="/kirjallisuus/komb_pikk.pdf">Pikkuisen kombinatoriikkaa</a>
+Muutama lievästi teemoitettu tehtävä ratkaisuineen, laskennollisen kombinatoriikan
+ja kombinatorisen geometrian aloilta. Matti Lehtisen esitys Päivölässä huhtikuussa 2014.</li>
+<li><a href="/kirjallisuus/imo_komb.pdf">Välttämätön kombinatoriikasta IMO:on</a>
+Laatineet valmentajat A. Kirichenko, M. Lehtinen ja E. V. Vesalainen.</li>
+</ul>
+<h3 id="lukuteoria" tabindex="-1">Lukuteoria</h3>
+<ul>
+<li><a href="/kirjallisuus/tormayskurssi.pdf">Lukuteorian törmäyskurssi</a>
+Kilpailulukuteorian pienin välttämätön oppimäärä. Kirjoittanut Anne-Maria Ernvall-Hytönen.</li>
+<li><a href="/kirjallisuus/lukuteoria2011.pdf">Lukuteorian alkeet</a>
+<a href="/kirjallisuus/opas.pdf">Pienen kilpailumatematiikan oppaan</a> lukuteoriaosuus korjattuna
+ja laajennettuna. Matti Lehtisen kirjoittama.</li>
+<li><a href="/kirjallisuus/imo_lukut.pdf">Välttämätön lukuteoria IMO:on</a>
+Kirjoittanut Anne-Maria Ernvall-Hytönen.</li>
+<li><a href="/kirjallisuus/pell.pdf">Pellin yhtälö</a>
+Kilpatehtävissäkin usein esiintyvä Diofantoksen yhtälö. Kirjoittaja Matti Lehtinen.</li>
+<li><a href="/kirjallisuus/laajalukuteoriamoniste.pdf">Lyhyt johdatus alkeelliseen lukuteoriaan</a>
+Helsingin matematiikkalukiossa kahdesti pidetyn lukuteoriakurssin materiaali.
+Esa Vesalaisen kirjoittama.</li>
+<li><a href="/kirjallisuus/primitiivijuuret.pdf">Primitiivijuurista</a> Pieni täydennys lukuteorian alkeiden esityksiin. Matti Lehtisen kirjoittama.</li>
+<li><a href="/kirjallisuus/kilpailulukuteoriaa.pdf">Kilpailuhenkisiä lukuteoriatehtäviä ratkaisuvihjein</a>
+Monipuolinen valikoima lukuteoriatehtäviä Yu Hong-Bingin teoksesta
+<em>Problems of Number Theory in Mathematical Competitions</em> vihjein varustettuna.
+Tehtävät suomeksi kääntänyt ja vihjeet laatinut Esa Vesalainen.</li>
+<li><a href="/kirjallisuus/lukuteoriaa.pdf">Lukuteoriatehtäviä vihjein ja ratkaisuin</a>
+Lukuteoriatehtäviä, joissa monia hyödyllisiä ideoita. Tehtävät koonnut ja vihjeet
+ja ratkaisut kirjoittanut Esa Vesalainen.</li>
+</ul>
+
+</main>
+
+
+
+    </div>
+    <script defer src="/js/theme.js"></script>
+    <script defer src="/js/bootstrap.bundle.min.js?v=5.3.3"></script>
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "45380cb8b30d4b0791d27e340eefc4da"}'></script>
+  </body>
+</html>

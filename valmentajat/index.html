@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="sitemap" href="/sitemap.xml">
+    <title>Valmentajat</title>
+    
+    <link href="/css/bootstrap.min.css?v=5.3.3" rel="stylesheet">
+    <style>
+     
+     h1,h2,h3,h4,h5,h6 { text-wrap: balance; }
+    </style>
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/kuvat/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/kuvat/apple-touch-icon.png">
+    <link rel="manifest" href="/kuvat/manifest.webmanifest">
+    <link rel="preload" href="/font/Lato-Regular.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/Lato-Bold.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/Lato-Italic.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="alternate" type="application/atom+xml" href="https://matematiikkakilpailut.fi/feed.xml">
+    
+    <script>
+      const getStoredTheme = () => localStorage.getItem('theme')
+      const getPreferredTheme = () => {
+        const storedTheme = getStoredTheme()
+        if (storedTheme) {
+          return storedTheme
+        }
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+      }
+      const setTheme = theme => {
+        document.documentElement.dataset.bsTheme =
+          theme === 'auto'
+          ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+          : theme
+      }
+      setTheme(getPreferredTheme())
+    </script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+  <div class="container-fluid flex-flow align-items-start">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="d-flex order-1 ms-md-auto" id="theme-toggle">
+      <div class="dropdown">
+        <button class="btn btn-link nav-link py-2 pt-md-3 px-1 px-lg-2 dropdown-toggle d-flex align-items-center text-light"
+        type="button"
+        id="bd-theme"
+        data-bs-toggle="dropdown"
+        aria-expanded="false">
+          <svg class="bi theme-icon-active" width="16" height="16" fill="currentColor">
+            <use href="/kuvat/sprite2.svg#sun-fill"></use>
+          </svg>
+          <span class="d-none" id="bd-theme-text">Taustaväri</span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme">
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite2.svg#sun-fill"></use>
+              </svg>
+              Vaalea
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite2.svg#moon-stars-fill"></use>
+              </svg>
+              Tumma
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite2.svg#circle-half"></use>
+              </svg>
+              Automaattinen
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <nav class="collapse navbar-collapse flex-column align-items-start" id="navbar-collapse">
+      <div class="row flex-grow-1"><div class="col-12 flex-grow-1">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active"
+                aria-current="page"
+               href="/">Valmennus</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/uutiset/">Uutisia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/kilpailut/">Kilpailuja</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/kerhot/">Kerhot</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/english/">In English</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/feed.xml" rel="alternate" title="RSS-syöte" type="application/atom+xml"
+            ><svg class="bi" width="16" height="16" fill="currentColor">
+              <use xlink:href="/kuvat/sprite2.svg#rss-fill"/>
+            </svg></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://t.me/matematiikkakilpailut" rel="me" title="Telegram"
+            ><svg class="bi" width="16" height="16" fill="currentColor">
+              <use xlink:href="/kuvat/sprite2.svg#telegram"/>
+            </svg></a>
+          </li>
+        </ul>
+      </div></div>
+      <hr class="d-md-none">
+      <div class="row"><div class="col-12">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/aikataulu/">Aikataulu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/kaytanto/">Valmennustapahtumat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/valmennus/">Kirjevalmennus</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/aiheet/">Materiaalit</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active"
+                aria-current="page"
+               href="/valmentajat/">Valmentajat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               
+               href="/tietosuoja/">Tietosuoja</a>
+          </li>
+        </ul>
+      </div></div>
+    </nav>
+  </div>
+</nav>
+
+    <div class="container">
+      <header class="display-4 pt-3 pb-3 mt-3 mb-1">
+  <h1>Valmentajat</h1>
+</header>
+<main class="row">
+  <div class="col-xs-12">
+    <h2 id="valmentajat" tabindex="-1">Valmentajat</h2>
+<p>Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
+<a href="http://www.matemaattinenyhdistys.fi/">Suomen matemaattisen yhdistyksen</a> valmennusjaosto ja sen vapaaehtoiset:</p>
+<ul>
+<li>Daniel Arone<br/>
+Olympiaedustaja vuosina 2020 ja 2021, kiinnostunut lukuteoriasta.</li>
+<li>Aino Aulanko <br/> Olympiaedustaja vuosina 2022, 2023 ja 2024.</li>
+<li>Anne-Maria Ernvall-Hytönen<br/>
+Filosofian tohtori, apulaisprofessori (HY), olympiaedustaja vuosina 1999, 2000 ja 2001.
+Kantaa huolta lukuteorian ja epäyhtälöiden osaamisesta.</li>
+<li>Lauri Hallila<br/> Olympiaedustaja vuosina 1996 ja 1997.</li>
+<li>Akseli Jussinmäki<br/> Olympiaedustaja vuosina 2018 ja 2019, erityisesti peruskoululaisten valmennus.</li>
+<li>Alexey Kirichenko<br/>
+Kokemusta mm. maineikkaista Leningradin matematiikkaolympialaisista.</li>
+<li>Tuomas Korppi<br/>
+Olympiaedustaja vuonna 1995.</li>
+<li>Nirmal Krishnan<br/></li>
+<li>Milja Krés<br/> Edustaja Euroopan tyttöjen matematiikkaolympialaisissa 2018, peruskoululaisten kirjevalmennus.</li>
+<li>Jari Lappalainen<br/> Olympiaedustaja vuosina 1990 ja 1991.</li>
+<li>Merikki Lappi, filosofian maisteri<br/>
+Merikki.Lappi@paivola.fi, 0400534139.
+Käytännön asiat koskien Päivölän valmennusviikonloppuja.</li>
+<li>Kristian Latvanen<br/>
+Olympiaedustaja vuosina 2022 ja 2023.</li>
+<li><a href="https://www.eukleideskirjat.fi/Matti/">Matti Lehtinen</a><br/>
+Olympiaedustaja vuonna 1965. Jättäytynyt eläkkeelle valmennustoiminnasta, mutta saattaa joskus ilmaantua näkyviin.
+Yritti pitää huolta erityisesti valmennettavien geometrian taidoista.</li>
+<li><a href="https://www.tuni.fi/fi/kerkko-luosto">Kerkko Luosto</a><br/>
+Filosofian tohtori, matematiikan dosentti (HY), yliopistonlehtori (TaU).
+Olympiaedustaja vuonna 1983.
+Sommittelee kombinatoriikan valmennusta.</li>
+<li>Veera Nurmela<br/> Edustaja Euroopan tyttöjen matematiikkaolympialaisissa 2018, 2019, 2020 ja 2021, peruskoululaisten kirjevalmennus.</li>
+<li>Neea Palojärvi<br/> Filosofian tohtori, olympiaedustaja vuonna 2013.</li>
+<li>Heikki Pokela</li>
+<li>Siiri Roschier<br/> Olympiaedustaja vuosina 2023 ja 2024.</li>
+<li><a href="http://www.iki.fi/jks/">Jouni Seppänen</a><br/> Tekniikan tohtori, olympiaedustaja vuosina 1994 ja 1995.</li>
+<li>Paula Sipilä<br/> Kokemusta mm. MAOLin matematiikkakilpailun finaalista, peruskoululaisten kirjevalmennus.</li>
+<li>Daniel Slivinskiy<br/>
+Olympiaedustaja vuonna 2023.</li>
+<li>Anni Tapionlinna<br/>
+Olympiaedustaja vuonna 2021.</li>
+<li>Ville Tilvis<br/>
+Helsingin matematiikkalukion linjanjohtaja, Harppi-projektin vetäjä.</li>
+<li>Ville Uotila<br/>
+Olympiaedustaja vuonna 2021.</li>
+</ul>
+<!--
+*  Otte Heinävaara<br/> Olympiaedustaja vuosina 2012 ja 2013.
+*  Asla Heiskanen<br/> Olympiaedustaja vuonna 2020.
+*  Olli Hirviniemi<br/>Olympiaedustaja vuosina 2010 ja 2011.
+*  [Antti Honkela][ahonkela]<br/> Olympiaedustaja vuonna 1997.
+*  Olli Järviniemi<br/> Olympiaedustaja vuosina 2017, 2018 ja 2019.
+*  Jaakko Seppälä<br/>
+   Filosofian maisteri, edustaja Pohjoismaisessa matematiikkakilpailussa 2007.
+*  Joni Teräväinen<br/> Filosofian tohtori, olympiaedustaja vuosina 2011, 2012 ja 2013.
+*  Esa Vesalainen<br/>
+   Olympiaedustaja vuosina 2005, 2006 ja 2007.
+-->
+
+  </div>
+</main>
+
+
+    </div>
+    <script defer src="/js/theme.js"></script>
+    <script defer src="/js/bootstrap.bundle.min.js?v=5.3.3"></script>
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "45380cb8b30d4b0791d27e340eefc4da"}'></script>
+  </body>
+</html>
