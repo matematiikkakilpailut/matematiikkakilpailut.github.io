@@ -2,13 +2,8 @@
 layout: page
 title: Valmentajat
 url: /valmentajat/
-eleventyNavigation:
-  key: valmentajat
-  title: Valmentajat
-  parent: root
-  order: 3
 ---
-## Valmentajat
+
 
 Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
 [Suomen matemaattisen yhdistyksen][smy] valmennusjaosto ja sen vapaaehtoiset:

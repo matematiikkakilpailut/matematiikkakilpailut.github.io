@@ -1,11 +1,9 @@
 ---
 layout: page
-title: Kansainväliset matematiikkaolympialaiset - IMO
+title: Kansainväliset matematiikkaolympialaiset – IMO
 url: /IMO/
 eleventyNavigation:
-  key: IMO
-  parent: kilpailut
-  order: 6
+  title: IMO
 description: >-
   IMO, International Mathematical Olympiad, on vuosittain järjestettävä
   lukiolaisten matematiikkakilpailu. Tällä sivulla on viimeisten kilpailujen

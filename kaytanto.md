@@ -2,11 +2,6 @@
 layout: kortit.html
 title: Valmennustapahtumat
 url: /kaytanto/
-eleventyNavigation:
-  key: kaytanto
-  title: Valmennustapahtumat
-  order: 1
-  parent: root
 ---
 
 

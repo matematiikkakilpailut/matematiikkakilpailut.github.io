@@ -1,9 +1,10 @@
 ---
 layout: valmennus
-title: Ongelmanratkaisukurssi
+title: Avoimen yli­opiston ongelman­ratkaisu­kurssi
 url: /valmennus/ongelma/
+eleventyNavigation:
+  title: Ongelman­ratkaisu­kurssi
 ---
-# Avoimen yli­opiston ongelman­ratkaisu­kurssi
 
 Voit suorittaa Helsingin yli­opiston Avoimessa yli­opistossa
 matemaattisen ongelman­ratkaisun kurssin, joka muistuttaa kirje­valmennusta,

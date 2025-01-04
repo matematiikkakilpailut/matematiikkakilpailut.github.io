@@ -1,6 +1,9 @@
 ---
 layout: page
 title: Matematiikkakilpailut ja olympiavalmennus
+eleventyNavigation:
+  title: Etusivu
+hideBreadcrumbs: true
 alert: yes
 description: >-
   Matematiikkakilpailujen tarkoituksena on kannustaa lahjakkaita nuoria
@@ -9,9 +12,6 @@ description: >-
   Valmennettavien joukosta valitaan edustajat kansainvälisiin kilpailuihin,
   kuten Kansainvälisiin matematiikkaolympialaisiin.
 url: /
-eleventyNavigation:
-  key: root
-  title: Valmennus
 style: |
   [data-bs-theme="dark"] .light-element { display: none; }
   [data-bs-theme="light"] .dark-element { display: none; }
@@ -28,12 +28,12 @@ style: |
 
 [Matematiikkakilpailuiden](kilpailut) tarkoituksena on kannustaa
 lahjakkaita nuoria harrastamaan matematiikkaa. Tähän liittyvästä
-valmennuksesta ja kilpailuihin osallistumisesta vastaa Suomessa 
-[Suomen matemaattisen yhdistyksen](http://www.matemaattinenyhdistys.fi/) 
+valmennuksesta ja kilpailuihin osallistumisesta vastaa Suomessa
+[Suomen matemaattisen yhdistyksen](http://www.matemaattinenyhdistys.fi/)
 [Valmennusjaosto](valmentajat).
 
 Valmennus koostuu yleensä viikonloppuisin Päivölän opistolla
-järjestettävistä [**valmennustapahtumista**](kaytanto) 
+järjestettävistä [**valmennustapahtumista**](kaytanto)
 (ks. [aikataulu](aikataulu)) sekä [**kirjevalmennuksesta**](valmennus),
 joka on tarkoitettu kaikille, myös niille, jotka eivät voi
 osallistua valmennustapahtumiin. **Tilaisuudet ovat kaikille

@@ -3,10 +3,7 @@ layout: aiheet
 title: Valmennusmateriaalia
 url: /aiheet/
 eleventyNavigation:
-  key: aiheet
   title: Materiaalit
-  parent: root
-  order: 3
 highlightedContent: |
   ### Kilpa­matematiikan perus­kurssi
 

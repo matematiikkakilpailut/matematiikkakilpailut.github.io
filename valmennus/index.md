@@ -1,22 +1,16 @@
 ---
 layout: valmennus
-title: Valmennustehtävät
+title: Kotitehtävät
 url: /valmennus/
-eleventyNavigation:
-  key: valmennus
-  title: Kirjevalmennus
-  order: 2
-  parent: root
 robots: index,nofollow
+highlightedTitle: Avoimen yli­opiston ongelman­ratkaisu­kurssi
 highlightedContent: |
-  ### Avoimen yli­opiston ongelman­ratkaisu­kurssi
-
   Voit täydentää kirje­valmennusta Avoimen Yli­opiston ongelman­ratkaisu­kurssilla.
-  [Lue lisää!](ongelma/)
 
+  [Lue lisää!](ongelma/){.card-link}
 ---
 
-# Kirjevalmennus
+## Kirjevalmennus
 
 Kirjevalmennus- eli kotitehtävät on tarkoitettu **kaikille
 kilpailumatematiikasta kiinnostuneille koululaisille, erityisesti ne on

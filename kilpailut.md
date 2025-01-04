@@ -2,12 +2,8 @@
 layout: page
 title: Kilpailut
 url: /kilpailut/
-eleventyNavigation:
-  key: kilpailut
-  title: Kilpailuja
-  order: 20
 ---
-## Kilpailut {id=kilpailut}
+
 
 #### [MAOL:n kilpailu](/MAOL/)
 

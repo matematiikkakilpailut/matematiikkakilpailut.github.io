@@ -2,11 +2,6 @@
 layout: page
 title: Aikataulu
 url: /aikataulu/
-eleventyNavigation:
-  key: aikataulu
-  parent: root
-  order: 0
-  title: Aikataulu
 ---
 <div role="list">
 {% for a in aikataulu %}

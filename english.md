@@ -11,9 +11,7 @@ description: >-
   secondary schools.
 url: /english/
 eleventyNavigation:
-  key: english
   title: In English
-  order: 40
 lang: en
 ---
 The Finnish Olympic Training in Mathematics is organized by the

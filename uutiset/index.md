@@ -3,10 +3,6 @@ title: Uutisia
 permalink: /uutiset/
 override:tags: []
 style: "h2 > a { font-size: small; }"
-eleventyNavigation:
-  key: uutiset
-  title: Uutisia
-  order: 10
 ---
 
 Voit seurata uutisia
