@@ -2,11 +2,6 @@
 layout: page
 title: Baltian tie
 url: /Baltian_tie/
-eleventyNavigation:
-  key: Baltian_tie
-  title: Baltian tie
-  parent: kilpailut
-  order: 4
 description: >-
   Baltian Tie on matematiikkakilpailu Itämeren alueen ja Pohjoismaiden
   lukiolaisjoukkueille. Kilpailun nimi on muisto Baltian maissa vuonna

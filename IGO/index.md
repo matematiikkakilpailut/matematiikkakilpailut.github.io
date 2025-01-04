@@ -1,11 +1,9 @@
 ---
 layout: page
-title: Iranin geometriakilpailu– IGO
+title: Iranin geometriakilpailu – IGO
 url: /IGO/
 eleventyNavigation:
-  key: IGO
-  parent: kilpailut
-  order: 2
+  title: IGO
 ---
 
 ## Yleistä

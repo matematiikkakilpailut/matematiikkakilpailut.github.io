@@ -1,0 +1,29 @@
+{%- if not hideBreadcrumbs %}
+<div class="container-fluid flex-flow bg-body-secondary align-items-start">
+  <nav aria-label="navigaatiopolku" class="mt-1 ps-sm-4 small">
+    <ol class="breadcrumb mb-1" itemscope itemtype="https://schema.org/BreadcrumbList">
+      {% set navPages = collections.all | eleventyNavigationBreadcrumb(page.url, {includeSelf: true, allowMissing:true}) %}
+      {%- for crumb in navPages %}
+      {%- if loop.last %}
+      <li class="breadcrumb-item active text-primary" aria-current="page"
+          itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <span itemprop="name">{{ crumb.title }}</span>
+        <meta itemprop="position" content="{{ loop.index }}">
+      </li>
+      {%- else %}
+      <li class="breadcrumb-item pe-1" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a class="icon-link link-primary text-decoration-none" href="{{ crumb.url }}"
+           itemscope itemtype="https://schema.org/WebPage" itemprop="item">
+          <span itemprop="name">{{ crumb.title }}</span>
+          <meta itemprop="position" content="{{ loop.index }}">
+          <svg class="bi" style="stroke-width: 1.1; stroke: currentColor;">
+            <use xlink:href="/kuvat/sprite3.svg#chevron-right"/>
+          </svg>
+        </a>
+      </li>
+      {%- endif %}
+      {%- endfor %}
+    </ol>
+  </nav>
+</div>
+{% endif -%}

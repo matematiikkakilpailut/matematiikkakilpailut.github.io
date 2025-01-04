@@ -57,12 +57,4 @@
           })
         })
     })
-
-    document.getElementById('navbar-collapse').addEventListener('show.bs.collapse', function () {
-        document.getElementById('theme-toggle').classList.add('d-none');
-    });
-
-    document.getElementById('navbar-collapse').addEventListener('hide.bs.collapse', function () {
-        document.getElementById('theme-toggle').classList.remove('d-none');
-    });
   })()

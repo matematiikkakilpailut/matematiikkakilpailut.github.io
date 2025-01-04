@@ -68,10 +68,11 @@
   </head>
   <body class="d-flex flex-column min-vh-100">
     {% include 'ylapalkki.html' %}
-    <div class="container">
-      {{ content | safe }}
+    {% include 'leivanmurut.html' %}
+    <div class="container flex-grow-1">
+        {{ content | safe }}
     </div>
-    {% include "alapalkki.html" %}
+    {% include 'alapalkki.html' %}
     <script defer src="/js/theme.js"></script>
     <script defer src="/js/bootstrap.bundle.min.js?v=5.3.3"></script>
     <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "45380cb8b30d4b0791d27e340eefc4da"}'></script>

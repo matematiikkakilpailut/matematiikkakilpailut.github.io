@@ -3,9 +3,7 @@ layout: page
 title: Euroopan tyttöjen matematiikkaolympialaiset – EGMO
 url: /EGMO/
 eleventyNavigation:
-  key: EGMO
-  parent: kilpailut
-  order: 5
+  title: EGMO
 ---
 
 ## Yleistä

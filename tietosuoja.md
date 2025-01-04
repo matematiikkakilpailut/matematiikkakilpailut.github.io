@@ -2,11 +2,6 @@
 layout: page
 title: Tietosuoja
 url: /tietosuoja/
-eleventyNavigation:
-  key: tietosuoja
-  title: Tietosuoja
-  parent: root
-  order: 4
 description: >-
   Suomen matemaattisen yhdistyksen valmennusjaos käsittelee valmennettavien henkilötietoja tässä tietosuojalausekkeessa kuvatulla tavalla.
 sitemap: false
