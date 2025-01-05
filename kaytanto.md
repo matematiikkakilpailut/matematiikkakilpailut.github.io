@@ -2,6 +2,9 @@
 layout: kortit.html
 title: Valmennustapahtumat
 url: /kaytanto/
+description: >-
+  Matematiikkakilpailujen valmennusleirit ja niiden käytännön järjestelyt.
+  Päivölän opistolla järjestetään avoimia viikonloppuvalmennuksia lukiolaisille.
 ---
 
 

@@ -4,6 +4,9 @@ title: Avoimen yli­opiston ongelman­ratkaisu­kurssi
 url: /valmennus/ongelma/
 eleventyNavigation:
   title: Ongelman­ratkaisu­kurssi
+description: >-
+  Suorita verkkokurssi, joka tarjoaa automaattisen palautteen tehtävistä. Laajuus 2-5 op,
+  mahdollista sisällyttää lukio-opintoihin, lasketaan hyväksi valmennuksessa.
 ---
 
 Voit suorittaa Helsingin yli­opiston Avoimessa yli­opistossa

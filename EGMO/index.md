@@ -4,6 +4,10 @@ title: Euroopan tyttöjen matematiikkaolympialaiset – EGMO
 url: /EGMO/
 eleventyNavigation:
   title: EGMO
+description: >-
+  EGMO edistää tyttöjen osallistumista matematiikkakilpailuihin.
+  Suomi lähettää vuosittain neljän hengen joukkueen ja on voittanut
+  yhden kultamitalin.
 ---
 
 ## Yleistä

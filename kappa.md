@@ -3,6 +3,7 @@ layout: page
 title: Kappa-kilpailu 2014
 url: /
 permalink: /kappa.html
+description: Osallistu Kappa-matematiikkakilpailuun 2014! Viisiosainen kilpailu Suomen ja Ruotsin matematiikan opettajille. Kilpailu alkaa 26.9.2014, voit osallistua yksin tai max. 4 hengen joukkueessa.
 ---
 ## Opettajamaaottelu matematiikassa?
 

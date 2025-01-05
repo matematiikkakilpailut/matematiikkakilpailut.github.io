@@ -3,6 +3,10 @@ layout: valmennus
 title: Kotitehtävät
 url: /valmennus/
 robots: index,nofollow
+description: >-
+  Matematiikan valmennustehtäviä yläkoulu- ja lukioikäisille, 
+  erityisesti kilpailujoukkueisiin pyrkiville.
+  Mukana myös vanhat tehtäväsarjat ratkaisuineen vuodesta 2010.
 highlightedTitle: Avoimen yli­opiston ongelman­ratkaisu­kurssi
 highlightedContent: |
   Voit täydentää kirje­valmennusta Avoimen Yli­opiston ongelman­ratkaisu­kurssilla.
