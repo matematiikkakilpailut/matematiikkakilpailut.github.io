@@ -14,7 +14,7 @@
       <li class="breadcrumb-item pe-1" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
         <meta itemprop="position" content="{{ loop.index }}">
         <a class="icon-link link-primary text-decoration-none" href="{{ crumb.url }}"
-           itemscope itemtype="https://schema.org/WebPage" itemprop="item">
+           itemscope itemtype="https://schema.org/WebPage" itemprop="item" itemid="{{ crumb.url }}">
           <span itemprop="name">{{ crumb.title }}</span>
           <svg class="bi" style="stroke-width: 1.1; stroke: currentColor;">
             <use xlink:href="/kuvat/sprite3.svg#chevron-right"/>
