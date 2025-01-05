@@ -60,8 +60,26 @@ export default function(eleventyConfig) {
         return result;
     });
 
-  ["default", "page", "seiskat", "valmennus"].map((layout) => {
-    eleventyConfig.addLayoutAlias(layout, `${layout}.html`);
+    ["default", "page", "seiskat", "valmennus"].map((layout) => {
+        eleventyConfig.addLayoutAlias(layout, `${layout}.html`);
+    });
+
+    eleventyConfig.noInstantLinksPattern = /\/(seiskat|BW2006|BW2016)/;
+    eleventyConfig.addTransform("noInstantLinks", function(content) {
+      if (!this.outputPath?.endsWith(".html")) {
+          return content;
+      }
+
+      const noInstantPattern = eleventyConfig.noInstantLinksPattern;
+      const $ = cheerio.load(content);
+
+      $('a').each((_, link) => {
+          if ($(link).attr('href')?.match(noInstantPattern)) {
+              $(link).attr('data-no-instant', '');
+          }
+      });
+
+      return $.html();
   });
 
   [
