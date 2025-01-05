@@ -2,7 +2,6 @@
 title: Uutisia
 permalink: /uutiset/
 override:tags: []
-style: "h2 > a { font-size: small; }"
 ---
 
 Voit seurata uutisia
@@ -13,7 +12,7 @@ tai
 {% set uutiset = collections.uutinen | reverse %}
 {% for artikkeli in uutiset %}
 
-## {{ artikkeli.data.title }} [{{ artikkeli.date.toLocaleDateString("fi", {timeZone: "UTC"}) }}]({{ artikkeli.url }})
+## {{ artikkeli.data.title }} [{{ artikkeli.date.toLocaleDateString("fi", {timeZone: "UTC"}) }}]({{ artikkeli.url }}){.fs-6 .link-secondary}
 
 {{ artikkeli.templateContent | safe }}
 {% endfor %}
