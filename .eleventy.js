@@ -48,7 +48,7 @@ export default function(eleventyConfig) {
             const header = (
                 i < sections.length - 1 ?
                     '<div class="col-md-6 col-xl-4 my-3"><div class="card h-100 shadow"><div class="card-body">' :
-                    '<div class="col-xs-12"><div class="card border-info p-2 my-3 shadow"><div class"card-body">'
+                    '<div class="col-xs-12"><div class="card border-info p-2 my-3 shadow"><div class="card-body">'
             );
             const trailer = '</div></div></div>';
             const $ = cheerio.load(header + section + trailer, null, false);
