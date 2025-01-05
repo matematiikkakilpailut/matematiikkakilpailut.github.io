@@ -2,6 +2,10 @@
 layout: page
 title: Kilpailut
 url: /kilpailut/
+description: >-
+  Suomalaisia ja kansainvälisiä matematiikkakilpailuja: MAOLin kilpailu, Pythagoraan polku,
+  Iranin geometriakilpailu, Pohjoismainen kilpailu, Baltian tie, Euroopan tyttöjen
+  matematiikkaolympialaiet ja Kansainväliset matematiikkaolympialaiset.
 ---
 
 

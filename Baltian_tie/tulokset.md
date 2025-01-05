@@ -3,6 +3,9 @@ layout: page
 title: Baltian tien tulokset 1997 - 2012
 url: /Baltian_tie/
 permalink: /Baltian_tie/tulokset.html
+description: >-
+  Tutustu Baltian tie -joukkuematematiikkakilpailun tuloksiin vuosilta 1997-2012.
+  Kilpailussa Suomi ja muut Pohjois-Euroopan maat ottavat mittaa toisistaan algebrassa, geometriassa, kombinatoriikassa ja lukuteoriassa.
 ---
 ## Joukkuekilpailu [Baltian tien](/Baltian_tie/) tulokset 1997 - 2012
 

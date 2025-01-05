@@ -9,6 +9,10 @@ highlightedContent: |
 
   [Kilpa­matematiikan perus­kurssi](https://kurssi.matematiikkakilpailut.fi) sopii aloittelijoille
   esimerkiksi MAOLin kilpailuun valmistautumiseen.
+description: >-
+  Valmennusmateriaaleja kilpailumatematiikasta: oppaita, tehtäväkokoelmia, paljon
+  teoriaa lukuteoriasta, algebrasta, geometriasta ja kombinatoriikasta.
+  Sopii sekä aloittelijoille että edistyneille.
 ---
 
 

@@ -2,6 +2,9 @@
 layout: page
 title: Valmentajat
 url: /valmentajat/
+description: >-
+  Matematiikan kilpavalmentajiin kuuluu entisiä olympiaedustajia, matemaatikkoja ja opettajia,
+  jotka valmentavat nuoria kilpamatematiikkaan.
 ---
 
 

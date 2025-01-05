@@ -4,6 +4,9 @@ title: Iranin geometriakilpailu – IGO
 url: /IGO/
 eleventyNavigation:
   title: IGO
+description: >-
+  IGO on kansainvälinen geometriakilpailu, jossa on neljä sarjaa 7.-luokkalaisista lukiolaisiin.
+  Suomalaiset osallistuvat syksyisin etänä - katso menneet kilpailut ja miten hakea mukaan.
 ---
 
 ## Yleistä
