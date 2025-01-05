@@ -48,14 +48,14 @@ ja tulemalla valituksi joukkueeseen.
 
 ## Uutisia {id=uutisia}
 
-{%- set uutiset = collections.uutinen | reverse | batch(7) | first %}
+{%- set uutiset = collections.uutinen | reverse | batch(4) | first %}
 <ul>
 {%- for artikkeli in uutiset %}
 <li> {{ artikkeli.templateContent | safe }}
 </li>
 {%- endfor %}
-<li><a href="/uutiset">Lisää uutisia</a></li>
 </ul>
 
+<a href="/uutiset">Uutisarkisto</a>
 
 
