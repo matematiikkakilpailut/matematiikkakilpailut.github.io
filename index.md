@@ -12,9 +12,6 @@ description: >-
   Valmennettavien joukosta valitaan edustajat kansainvälisiin kilpailuihin,
   kuten Kansainvälisiin matematiikkaolympialaisiin.
 url: /
-style: |
-  [data-bs-theme="dark"] .light-element { display: none; }
-  [data-bs-theme="light"] .dark-element { display: none; }
 ---
 <picture class="light-element">
   <source srcset="/kuvat/oph_light.webp" type="image/webp">

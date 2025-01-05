@@ -2,14 +2,6 @@
 layout: page
 title: Helsingin yliopiston matematiikkakerho
 url: /kerhot/helsinki/
-style: |
-  #logopalkki {
-     margin-top: 6ex;
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-evenly;
-     align-content: center;
-  }
 ---
 
 **Vuosina 2021-2023 järjestettiin hankerahoituksella paikallisia matematiikkakerhoja. Tämä hankerahoitus on loppunut. Helsingissä kuitenkin jatkaa samaa materiaalia käyttävä [kerho](/kerhot/).**

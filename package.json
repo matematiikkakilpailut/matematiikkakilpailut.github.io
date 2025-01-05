@@ -19,6 +19,7 @@
     "url": "https://github.com/matematiikkakilpailut/matematiikkakilpailut.github.io/issues"
   },
   "homepage": "https://github.com/matematiikkakilpailut/matematiikkakilpailut.github.io#readme",
+  "base_url": "https://matematiikkakilpailut.fi",
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-navigation": "^0.3.5",
