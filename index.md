@@ -45,12 +45,6 @@ alueellisista kilpailuista Kansainvälisiin Matematiikkaolympialaisiin.
 Niihin pääsee mukaan ottamalla ahkerasti osaa valmennukseen
 ja tulemalla valituksi joukkueeseen.
 
-{#
-**[Ilmoittaudu](https://www.paivola.fi/fi/matematiikkakilpailuvalmennukseen-ilmoittautuminen/)
-seuraavaan valmennusviikonloppuun vähintään
-viikkoa etukäteen!**
-#}
-
 
 ## Uutisia {id=uutisia}
 
