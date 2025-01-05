@@ -98,7 +98,7 @@ Kesän 2023 [tehtävät](2023/kirje_2023_07.pdf) ja [ratkaisut](2023/ratkaisut_2
 <span lang="sv">[Träningsuppgifter, sommaren 2023](2023/brev_2023_07.pdf).</span>
 
 Huhtikuun 2023 [tehtävät](2023/kirje_2023_04.pdf) ja [ratkaisut](2023/ratkaisut_2023_04.pdf).<br>
-<span lang="sv">[Träningsuppgifter, april 2023](2023/brev_2023_04.pdf).
+<span lang="sv">[Träningsuppgifter, april 2023](2023/brev_2023_04.pdf)</span>.
 
 Helmikuun 2023 [tehtävät](/valmennus/2023/kirje_2023_02.pdf) ja [ratkaisut](2023/ratkaisut_2023_02.pdf). <br>
 <span lang="sv">[Träningsuppgifter, februari 2023](2023/brev_2023_02.pdf).</span>
