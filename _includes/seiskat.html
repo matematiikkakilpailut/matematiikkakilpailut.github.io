@@ -1,5 +1,8 @@
 ---
 ---
+{%- set S = site.seiskat -%}
+{%- set lang = lang | default('fi') | replace("-FI", "") -%}
+{%- set isIndex = (page.fileSlug == 'seiskat' and lang == 'fi') or (page.fileSlug == lang) -%}
 <!DOCTYPE html>
 <html lang="{{ lang | default('fi') }}">
   <head>
@@ -12,10 +15,15 @@
     <meta name="robots" content="noindex,follow">
     {% endif %}
     <link rel="sitemap" href="/sitemap.xml" />
-    <title>{{ title }}</title>
+    {% if isIndex -%}
+    <title>{{ S.siteTitle[lang] }}</title>
+    {%- else -%}
+    <title>{{ subtitle }} | {{ S.siteTitle[lang] }}</title>
+    {%- endif -%}
     {% if description %}<meta name="description" content="{{ description }}">{% endif %}
-    <link href="/seiskat/tyyli.css?v=0" rel="stylesheet" />
+    <link href="/seiskat/tyyli.css?v=1" rel="stylesheet" />
     <base href="/seiskat/">
+    <link rel="canonical" href="{{ pkg.base_url }}{{ page.url }}">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="apple-touch-icon" sizes="57x57" href="kuvake/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="kuvake/apple-icon-60x60.png">
@@ -34,78 +42,56 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/kuvake/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <!--[if lt IE 9]>
-      <script src="/js/html5shiv.min.js"></script>
-    <![endif]-->
   </head>
   <body>
-    <!--[if lte IE 9]><div role="alert" style="color: #a60; background-color: #feb; border: 6px solid red; padding: 12px; font-size: 24px; font-weight: bold">
-    <p lang="fi">Käytät vanhentunutta selainta. Se kannattaa
-      <a href="https://updatemybrowser.org/">päivittää uudempaan</a>, esim:
-	<ul style="margin-left: 1em">
-	  <li><a href="https://www.mozilla.org/en-US/firefox/all/?q=Finnish,%20suomi">Firefox</a></li>
-	  <li><a href="https://www.mozilla.org/en-US/firefox/organizations/all/?q=Finnish,%20suomi">Firefox ESR</a> (vanhemmille koneille)</li>
-	  <li><a href="https://support.apple.com/downloads/safari">Safari</a> (macOS)</li>
-	  <li><a href="https://www.google.com/chrome/">Chrome</a></li>
-	  <li><a href="https://www.microsoft.com/en-us/windows/microsoft-edge">Edge</a> (Windows 10)</li>
-	  <li><a href="https://www.opera.com/">Opera</a></li>
-	</ul>
-      </p>
-      </div><![endif]-->
-    <img id="logo" alt="[logo]" src="logo.png" />
-    <h1>{{ h1 }}</h1>
-    {%- set lang = lang | replace("-FI", "") %}
-    
+    <header>
+      <img id="logo" alt="[logo]" src="logo.png" />
+      <h1>{{ h1 }}</h1>
+    </header>
     <nav id="nav">
       <ul>
-	{%- if lang == "sv" %}
-	<li><a href="sv/index.html">Hem</a></li>
-	<li><a href="sv/regler.html">Regler</a></li>
-	<li><a href="sv/arrangorer.html">Arrangörer</a></li>
-	<li><a href="sv/problem.html">Problem och lösningar</a></li>
-	<li><a href="sv/resultat.html">Resultat</a></li>
-	<li><a href="sv/kontakt.html">Kontakta oss</a></li>
-	{% elif lang == "en" %}
-	<li><a href="en/index.html">Home</a></li>
-	<li><a href="en/details.html">Details</a></li>
-	<li><a href="en/organizers.html">Organizers</a></li>
-	<li><a href="en/problems.html">Problems and Solutions</a></li>
-	<li><a href="en/results.html">Results</a></li>
-	<li><a href="en/contact.html">Contact Information</a></li>
-	{% else %}
-	<li><a href="index.html">Alku</a></li>
-	<li><a href="ohjeet.html">Ohjeet ja säännöt</a></li>
-	<li><a href="jarjestajat.html">Järjestäjät</a></li>
-	<li><a href="tehtavat.html">Tehtävät ja vastaukset</a></li>
-	<li><a href="tulokset.html">Tulokset</a></li>
-	<li><a href="yhteys.html">Yhteystiedot</a></li>
-	{% endif %}
+        {%- for item in S.menuOrder %}
+        {%- set current = (page.fileSlug == S.slugMap[lang][item]) or (isIndex and item == 'index') %}
+        <li>
+          <a 
+            href="{{ S.langPaths[lang] }}{{ S.menuItems[item].path[lang] }}" 
+            {%- if current %} aria-current="page"{% endif %}
+            class="{{ 'current' if current }}"
+          >
+            {{ S.menuItems[item].title[lang] }}
+          </a>
+        </li>
+        {% endfor %}
       </ul>
-      {%- set record = site.seiskat_pages_by_pair[lang][page.url] %}
-      {%- if lang == "fi" %}
-      <ul>
-	<li><a href="{{ record.fi }}" rel="canonical" lang="fi" hreflang="fi">Suomeksi</a></li>
-	<li><a href="{{ record.sv }}" rel="alternate" lang="sv-FI" hreflang="sv-FI">På svenska</a></li>
-	<li><a href="{{ record.en }}" rel="alternate" lang="en" hreflang="en">In English</a></li>
+      {#- Find current menu item by iterating -#}
+      {%- set currentPage = 'index' %}
+      {%- for item in S.menuOrder %}
+        {%- if page.fileSlug == S.slugMap[lang][item] %}
+          {%- set currentPage = item %}
+        {%- endif %}
+      {%- endfor %}
+      <ul class="language-switcher">
+        {%- for langCode, langName in S.languages %}
+        {%- set isCurrent = lang == langCode %}
+        <li>
+          <a 
+            href="{{ S.langPaths[langCode] }}{{ S.menuItems[currentPage].path[langCode] }}"
+            rel="{{ 'canonical' if isCurrent else 'alternate' }}" 
+            lang="{{ langCode }}{{ '-FI' if langCode == 'sv' }}" 
+            hreflang="{{ langCode }}{{ '-FI' if langCode == 'sv' }}"
+            {%- if isCurrent %} aria-current="true"{% endif %}
+            class="{{ 'current' if isCurrent }}"
+          >
+            {{ langName }}
+          </a>
+        </li>
+        {% endfor %}
       </ul>
-      {%- elif lang == "sv" %}
-      <ul>
-	<li><a href="{{ record.fi }}" rel="alternate" lang="fi" hreflang="fi">Suomeksi</a></li>
-	<li><a href="{{ record.sv }}" rel="canonical" lang="sv-FI" hreflang="sv-FI">På svenska</a></li>
-	<li><a href="{{ record.en }}" rel="alternate" lang="en" hreflang="en">In English</a></li>
-      </ul>
-      {%- else %}
-      <ul>
-	<li><a href="{{ record.fi }}" rel="alternate" lang="fi" hreflang="fi">Suomeksi</a></li>
-	<li><a href="{{ record.sv }}" rel="alternate" lang="sv-FI" hreflang="sv-FI">På svenska</a></li>
-	<li><a href="{{ record.en }}" rel="canonical" lang="en" hreflang="en">In English</a></li>
-      </ul>
-      {%- endif %}
     </nav>
-    
     <main>
       {{ content | safe }}
     </main>
+    <script type="module" src="/js/instant.page.min.js"></script>
     <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "45380cb8b30d4b0791d27e340eefc4da"}'></script>
   </body>
 </html>

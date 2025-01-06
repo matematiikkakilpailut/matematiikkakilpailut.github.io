@@ -8,6 +8,8 @@ html, body, h1, h2, h3, nav, main, div, ul, li, p, a {
   box-sizing: border-box;
 }
 
+h1,h2,h3,h4,h5,h6 { text-wrap: balance; }
+
 nav, main {
   display: block;
 }
@@ -29,10 +31,18 @@ body {
 
   display: grid;
   grid-template:
-    "logo otsikko"     auto
-    "menu leipateksti" auto
+    "header header"     auto
+    "menu leipateksti"  auto
     / minmax(150px, 1fr) 3fr;
   max-width: 1100px;
+}
+
+header {
+  grid-area: header;
+  display: grid;
+  grid-template:
+    "logo otsikko" auto
+  / minmax(150px, 1fr) 3fr;
 }
 
 #logo {
@@ -89,6 +99,14 @@ nav > ul {
 nav > ul > li {
   margin-left: auto;
   text-align: end;
+}
+
+#nav a.current {
+    font-weight: bold;
+}
+
+#nav .language-switcher {
+  margin-top: 1em;
 }
 
 main {
@@ -161,10 +179,16 @@ main dt {
     margin: 10px;
     line-height: 1.2;
     grid-template:
-      "logo        otsikko"       auto
+      "header      header"        auto
       "menu        menu"          auto
       "leipateksti leipateksti"   auto
       / 1fr 3fr;
+  }
+
+  header {
+    grid-template: "otsikko logo" auto / 1fr;
+    align-items: center;
+    padding: 0.5em;
   }
 
   h1 {
@@ -197,13 +221,6 @@ main dt {
   h1 {
     font-size: 1.6em;
   }
-}
-
-@media screen and (max-width: 500px) {
-  h1 {
-    font-size: 1.5em;
-    margin-left: 0.5em;
-  }
 
   #logo > img {
     margin: auto;
@@ -212,18 +229,33 @@ main dt {
   }
 }
 
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 1.5em;
+    margin-left: 0.5em;
+  }
+}
+
 @media screen and (max-width: 390px) {
   body {
     grid-template:
-    "logo"        auto
-    "otsikko"     auto
+      "header"      auto
     "menu"        auto
     "leipateksti" auto
     / 1fr;
   }
 
+  header {
+    grid-template: "logo" "otsikko" auto / 1fr;
+    align-items: center;
+  }
+
+  nav > ul {
+    flex-direction: column;
+  }
+  
   h1 {
-    font-size: 1em;
+    font-size: 1.5em;
     margin-left: 0.5em;
     margin-top: 1em;
   }
