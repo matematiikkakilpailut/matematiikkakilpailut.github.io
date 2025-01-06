@@ -1,45 +1,131 @@
-const seiskat_pages = [
-    {
-      "fi": "/seiskat/ohjeet.html",
-      "sv": "/seiskat/sv/regler.html",
-      "en": "/seiskat/en/details.html"
+const menuItems = {
+  'index': {
+    path: {
+      fi: 'index.html',
+      sv: 'index.html',
+      en: 'index.html'
     },
-    {
-      "fi": "/seiskat/jarjestajat.html",
-      "sv": "/seiskat/sv/arrangorer.html",
-      "en": "/seiskat/en/organizers.html"
-    },
-    {
-      "fi": "/seiskat/tehtavat.html",
-      "sv": "/seiskat/sv/problem.html",
-      "en": "/seiskat/en/problems.html"
-    },
-    {
-      "fi": "/seiskat/tulokset.html",
-      "sv": "/seiskat/sv/resultat.html",
-      "en": "/seiskat/en/results.html"
-    },
-    {
-      "fi": "/seiskat/yhteys.html",
-      "sv": "/seiskat/sv/kontakt.html",
-      "en": "/seiskat/en/contact.html"
-    },
-    {
-      "fi": "/seiskat/",
-      "sv": "/seiskat/sv/",
-      "en": "/seiskat/en/"
+    title: {
+      fi: 'Alku',
+      sv: 'Hem',
+      en: 'Home'
     }
-];
-var seiskat_pages_by_pair = {fi: {}, sv: {}, en: {}};
-for (const x of seiskat_pages) {
-    seiskat_pages_by_pair["fi"][x.fi] = x;
-    seiskat_pages_by_pair["sv"][x.sv] = x;
-    seiskat_pages_by_pair["en"][x.en] = x;
-}
-
-export {
-    seiskat_pages,
-    seiskat_pages_by_pair
+  },
+  'ohjeet': {
+    path: {
+      fi: 'ohjeet.html',
+      sv: 'regler.html',
+      en: 'details.html'
+    },
+    title: {
+      fi: 'Ohjeet ja säännöt',
+      sv: 'Regler',
+      en: 'Details'
+    }
+  },
+  'jarjestajat': {
+    path: {
+      fi: 'jarjestajat.html',
+      sv: 'arrangorer.html',
+      en: 'organizers.html'
+    },
+    title: {
+      fi: 'Järjestäjät',
+      sv: 'Arrangörer',
+      en: 'Organizers'
+    }
+  },
+  'tehtavat': {
+    path: {
+      fi: 'tehtavat.html',
+      sv: 'problem.html',
+      en: 'problems.html'
+    },
+    title: {
+      fi: 'Tehtävät ja vastaukset',
+      sv: 'Problem och lösningar',
+      en: 'Problems and Solutions'
+    }
+  },
+  'tulokset': {
+    path: {
+      fi: 'tulokset.html',
+      sv: 'resultat.html',
+      en: 'results.html'
+    },
+    title: {
+      fi: 'Tulokset',
+      sv: 'Resultat',
+      en: 'Results'
+    }
+  },
+  'yhteys': {
+    path: {
+      fi: 'yhteys.html',
+      sv: 'kontakt.html',
+      en: 'contact.html'
+    },
+    title: {
+      fi: 'Yhteystiedot',
+      sv: 'Kontakta oss',
+      en: 'Contact Information'
+    }
+  }
 };
 
+const menuOrder = ['index', 'ohjeet', 'jarjestajat', 'tehtavat', 'tulokset', 'yhteys'];
 
+const languages = {
+  fi: 'Suomeksi',
+  sv: 'På svenska',
+  en: 'In English'
+};
+
+const langPaths = {
+  fi: '',
+  sv: 'sv/',
+  en: 'en/'
+};
+
+const siteTitle = {
+  fi: '7. luokkalaisten alueellinen matematiikkakilpailu',
+  sv: 'Regional matematiktävling för åk 7',
+  en: 'Regional Mathematics Competition for 7th Graders'
+};
+
+// Map between Finnish slugs and language-specific slugs
+const slugMap = {
+  fi: { 
+    'index': 'index',
+    'ohjeet': 'ohjeet', 
+    'jarjestajat': 'jarjestajat', 
+    'tehtavat': 'tehtavat', 
+    'tulokset': 'tulokset', 
+    'yhteys': 'yhteys' 
+  },
+  sv: { 
+    'index': 'index',
+    'ohjeet': 'regler', 
+    'jarjestajat': 'arrangorer', 
+    'tehtavat': 'problem', 
+    'tulokset': 'resultat', 
+    'yhteys': 'kontakt' 
+  },
+  en: { 
+    'index': 'index',
+    'ohjeet': 'details', 
+    'jarjestajat': 'organizers', 
+    'tehtavat': 'problems', 
+    'tulokset': 'results', 
+    'yhteys': 'contact' 
+  }
+};
+
+export const seiskat = {
+    menuItems,
+    menuOrder,
+    languages,
+    langPaths,
+    siteTitle,
+    slugMap,
+};
