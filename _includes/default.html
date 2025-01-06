@@ -18,16 +18,24 @@
      .navbar {
        --bs-navbar-brand-padding-y: 4px;
      }
-     [data-bs-theme="dark"] .link-primary, [data-bs-theme="dark"] .text-primary  {
-       --bs-primary-rgb: rgb(236, 240, 241);
+     [data-bs-theme="dark"] {
+       --bs-link-color: #788591;
+       --bs-link-color-rgb: 120, 133, 145;
+       .link-primary, .text-primary {
+         --bs-primary-rgb: 236, 240, 241;
+       }
+       .link-primary:hover {
+         color: rgb(128, 139, 150) !important;
+       }
      }
-     [data-bs-theme="dark"] .link-primary:hover {
-       color: rgb(128, 139, 150) !important;
-     }
-     [data-bs-theme="light"] .link-primary {
-       --bs-primary-rgb: rgb(33, 37, 41);
-       &:hover {
-         color: rgb(24, 188, 156) !important;
+     [data-bs-theme="light"] {
+       --bs-link-color: #168366;
+       --bs-link-color-rgb: 23, 114, 83;
+       .link-primary {
+         --bs-primary-rgb: 33, 37, 41;
+         &:hover {
+           color: rgb(24, 188, 156) !important;
+         }
        }
      }
      [data-bs-theme="dark"] .light-element { display: none; }
@@ -39,6 +47,11 @@
        flex-wrap: wrap;
        justify-content: space-evenly;
        align-content: center;
+     }
+     @media (pointer: coarse), (max-width: 450px) {
+       footer ul li {
+         padding-top: 0.5em;
+       }
      }
     </style>
     <link rel="icon" href="/favicon.ico" sizes="any">
