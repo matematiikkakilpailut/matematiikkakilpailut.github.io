@@ -5,6 +5,11 @@ import markdownItAnchor from "markdown-it-anchor";
 import markdownItAttrs from "markdown-it-attrs";
 import rss from "@11ty/eleventy-plugin-rss";
 import * as cheerio from 'cheerio';
+import { promises as fs } from 'node:fs';
+import { join } from 'node:path';
+import { PurgeCSS } from 'purgecss';
+import postcss from 'postcss';
+import cssnano from 'cssnano';
 
 const md = markdownIt({
   html: true,
@@ -64,7 +69,6 @@ export default function(eleventyConfig) {
         eleventyConfig.addLayoutAlias(layout, `${layout}.html`);
     });
 
-
   [
     "js",
     "css",
@@ -83,6 +87,50 @@ export default function(eleventyConfig) {
     "{Baltian_tie,EGMO,IGO,IMO,Kappa,MAOL,PM,aiheet,aikataulu,english,kaytanto,kerhot,kilpailut,kirjallisuus,kokoukset,pythagoras,seiskat,tietosuoja,valmennus,valmentajat,uutiset}/**/*.{pdf,png,svg,ico,ps,tex,tex.gz,dvi,sty,cls,tgz,css}",
   ].map((file) => {
     eleventyConfig.addPassthroughCopy(file);
+  });
+
+  eleventyConfig.on('eleventy.after', async () => {
+    try {
+        // Concatenate Bootstrap and local styles
+        const bootstrapPath = join(process.cwd(), 'css/bootstrap.css');
+        const localStylesPath = join(process.cwd(), 'css/style.css');
+        const bootstrapRebootPath = join(process.cwd(), 'css/bootstrap-reboot.css');
+        const [bootstrapCSS, localCSS, rebootCSS] = await Promise.all([
+            fs.readFile(bootstrapPath, 'utf8'),
+            fs.readFile(localStylesPath, 'utf8'),
+            fs.readFile(bootstrapRebootPath, 'utf8'),
+        ]);
+        const combinedCSS = bootstrapCSS + '\n' + localCSS;
+
+        // Execute PurgeCSS against all HTML files
+        const purgecssResult = await new PurgeCSS().purge({
+            content: ['_site/**/*.html'],
+            css: [{ raw: combinedCSS }],
+            safelist: {
+                standard: [/^modal-/, /^show$/, /^active$/, /^collaps/],
+                deep: [/^dropdown/],
+                greedy: [/^nav-/]
+            }
+        });
+
+        const withReboot = rebootCSS + '\n' + purgecssResult[0].css;
+
+        // Optimize through PostCSS/cssnano
+        const minified = await postcss([cssnano({
+            preset: ['default', {
+                discardComments: { removeAll: true }
+            }]
+        })]).process(withReboot, { from: undefined });
+
+        // Write optimized CSS to the distribution directory
+        await fs.writeFile(
+            join(process.cwd(), '_site/css/optimized.css'),
+            minified.css
+        );
+
+    } catch (error) {
+        console.error('CSS optimization failed:', error);
+    }
   });
 
   return {

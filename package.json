@@ -24,13 +24,16 @@
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-navigation": "^0.3.5",
     "@11ty/eleventy-plugin-rss": "^2.0.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cssnano": "^7.0.6",
+    "csso-cli": "^4.0.2",
     "csv-parse": "^5.3.8",
     "js-yaml": "^4.1.0",
     "markdown-it": "^14.1.0",
     "markdown-it-anchor": "^9.2.0",
-    "sitemap": "^8.0.0",
-    "cheerio": "^1.0.0-rc.12",
-    "csso-cli": "^4.0.2",
-    "markdown-it-attrs": "^4.1.6"
+    "markdown-it-attrs": "^4.1.6",
+    "postcss": "^8.4.49",
+    "purgecss": "^7.0.2",
+    "sitemap": "^8.0.0"
   }
 }
