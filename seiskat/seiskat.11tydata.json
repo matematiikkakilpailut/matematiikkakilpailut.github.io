@@ -1,6 +1,6 @@
 {
     "layout": "seiskat",
-    "title": "Seitsemäs­luokkalaisten kilpailu",
+    "title": "Seitsemäs­luokkalaisten kilpailu ",
     "h1": "7. luokkalaisten alueellinen matematiikka­kilpailu",
     "lang": "fi",
     "permalink": "seiskat/{{page.fileSlug if page.fileSlug != 'seiskat' else 'index' }}.html"
