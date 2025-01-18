@@ -10,6 +10,6 @@ Viikonlopun aikana järjestetään valmennuskoe, jonka tulokset
 otetaan huomioon kilpailuvalinnoissa. Varsinkin Pohjoismaiseen
 matematiikkakilpailuun ja EGMOon pyrkivien kannattaa osallistua.
 
-<a role="button" class="btn btn-primary btn-sm"
+<a
 href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2025-vk2">Ilmoittaudu Päivölään</a> 6.1. mennessä;
 <a href="/aikataulu/">Valmennuksen aikataulu</a>

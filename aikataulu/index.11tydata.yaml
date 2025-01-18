@@ -7,11 +7,11 @@ aikataulu:
   tapahtuma: >-
     Valmennusviikonloppu Päivölässä: ohjelmassa geometriaa ja lukuteoriaa (alakerrassa) sekä verkkoteoriaa, peliteoriaa ja epäyhtälöitä
     (yläkerrassa). Myös valmennuskoe, johon varsinkin Pohjoismaiseen matematiikkakilpailuun ja EGMOon pyrkivien kannattaa osallistua.
-    <a role="button" class="btn btn-primary btn-sm" href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2025-vk2">Ilmoittaudu Päivölään</a> 6.1. mennessä!
 - pvm: "21.&ndash;23.2. (viikko 8)"
   tapahtuma: >-
     Valmennusviikonloppu Päivölässä.
-    [Ilmoittaudu Päivölään](https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2025-vk8).
+    [Ilmoittaudu Päivölään](https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2025-vk8){.btn .btn-primary .btn-sm .align-baseline role="button"}
+    16.2. mennessä!
 - pvm: "25.3."
   tapahtuma: >-
     Pohjoismainen matematiikkakilpailu kutsutuille omassa koulussa.
