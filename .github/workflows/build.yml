@@ -4,16 +4,16 @@ on:
     branches: [ master ]
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Set up node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           always-auth: true
           cache: npm
-          node-version: 18
+          node-version: 22
       - name: Install requirements
         run: npm i
       - name: Run eleventy
