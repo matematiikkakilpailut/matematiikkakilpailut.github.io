@@ -21,25 +21,22 @@ kuin kirje­valmennus.
 ## Toimi näin
 
 * Seuraa [kurssisivun](https://studies.helsinki.fi/kurssit/toteutus/otm-3b4dc2a1-6773-4287-ad4d-f32e05425183)
-  Moodle-linkkiä ja kirjaudu. 
+  **Moodle**-linkkiä ja kirjaudu.
   * Jos olet jo suorittanut Avoimen yli­opiston kursseja, sinulla saattaa olla Haka-käyttäjä­tunnus.
   * Muuten kirjaudu Google-tunnuksella.
-  * Tässä vaiheessa ei tarvitse vielä ilmoittautua kurssille, mikä on kurssi­sivulla
-    erillisenä toimintona.
+  * Tässä vaiheessa **ei tarvitse vielä ilmoittautua** kurssille painikkeen "Siirry ilmoittautumaan" kautta.
 * Tutustu Moodlessa (DigiCampus) olevaan kurssi­materiaaliin ja suorita kurssi ohjeiden mukaan.
   * Kaikki materiaali on näkyvillä, mutta voit suorittaa kurssin joko lyhyempänä (2 op) tai
-    pidempänä (5 op) toteutuksena.
-  * Kun olet suorittanut kurssin haluamassasi laajuudessa, ota yhteyttä [Anne-Maria
+    pidempänä (5 op) toteutuksena. Lue Moodlen osiosta "Kurssin suorittaminen", mitä osuuksia lyhyempään suoritukseen kuuluu.
+  * Kun olet tehnyt tehtäviä valitsemassasi laajuudessa, ota yhteyttä [Anne-Maria
     Ernvall-Hytöseen](mailto:anne-maria.ernvall-hytonen@helsinki.fi), kerro millä
     käyttäjä­tunnuksella olet tehnyt suorituksen ja pyydä merkitsemään suoritus valmennuksen
     rekisteriin.
 * Jos haluat myös virallisen kurssi­merkinnän esimerkiksi lukio-opintoihin sisällytettäväksi,
-  on kaksi vaihto­ehtoa:
-  * Jos suoritit tehtäviä vähintään kahden opinto­pisteen verran, ilmoittaudu 
-    [kurssisivun](https://studies.helsinki.fi/kurssit/toteutus/otm-3b4dc2a1-6773-4287-ad4d-f32e05425183)
-    kautta ja pyydä Anne-Mariaa lisäämään Opintopolkuun kahden opinto­pisteen merkintä.
-    Tämä onnistuu maksutta kaikille.
-  * Jos suoritit koko kurssin ja haluat siitä merkinnän, keskustele oman oposi kanssa.
-    Lukiosi pitäisi tehdä osallistumisesta 
-    [sopimus](https://www.helsinki.fi/fi/innovaatiot-ja-yhteistyo/oppilaitosyhteistyo/helsingin-yliopiston-lukioyhteistyo/avoimen-yliopiston-lukioyhteistyo-ja-muu-toisen-asteen-yhteistyo)
-    Helsingin yliopiston kanssa.
+  keskustele ensin opon kanssa, sopiiko kurssi opintoihisi.
+  * Jos suoritit tehtäviä vähintään kahden opinto­pisteen verran, **ilmoittaudu**
+    [kurssille MFK-M205A](https://studies.helsinki.fi/kurssit/toteutus/otm-3b4dc2a1-6773-4287-ad4d-f32e05425183)
+    painikkeen "Siirry ilmoittautumaan" avulla.
+  * Jos suoritit koko kurssin, ilmoittaudu lisäksi
+    [kurssille MFK-M205B](https://studies.helsinki.fi/kurssit/toteutus/otm-9681c7af-673f-45bd-ae4b-28031770ddae/MFK-M205B).
+  * Kun olet ilmoittautunut kursseille, seuraa Moodlen osion "Kurssin suorittaminen" ohjeita.
