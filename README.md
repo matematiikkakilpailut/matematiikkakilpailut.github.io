@@ -12,9 +12,12 @@ Usein päivitettyjä sivuja:
   * `valmennus/<vuosi>/kirje_<vuosi>_<kk>.pdf` jne., kirjeet
 
 Sivut ovat [Markdownia](https://www.markdownguide.org/basic-syntax/)
-ja alussa on yaml-muotoinen blokki metadataa.
-`index.11tydata.yaml` on kokonaan yamlia ja siitä tehdään
-aikataulu ohjelmallisesti.
+ja alussa on yaml-muotoinen blokki metadataa. Erikoisuuksia:
+
+* `aikataulu/index.11tydata.yaml` on kokonaan yamlia ja siitä tehdään
+   aikataulu ohjelmallisesti.
+* `_data/faq.yaml` sisältää etusivun usein kysytyt kysymykset.
+* `_data/site.js` sisältää seiskojen sivujen rakenteen.
 
 Kun teet tärkeitä muutoksia, lisää uutinen hakemistoon `uutiset/`
 (ota mallia olemassaolevista). Uutiset päätyvät sekä etusivulle että
