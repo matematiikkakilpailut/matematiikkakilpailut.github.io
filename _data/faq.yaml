@@ -1,0 +1,89 @@
+- id: "kenelle"
+  question: "Kenelle valmennus on tarkoitettu?"
+  answer: |
+    **Valmennus on kaikille koululaisille avointa** ja se on suunnattu
+    erityisesti lukio- ja yläkouluikäisille.
+    Tärkeintä on kiinnostus matematiikkaa kohtaan.
+
+    Muodollisia ennakkotietovaatimuksia valmennuksessa ei ole.
+
+- id: "mukaan"
+  question: "Miten pääsee mukaan?"
+  answer: |
+    - Katso [aikataulusta](/aikataulu/) seuraava valmennusviikonloppu ja ilmoittaudu Päivölään.
+      Viikonloppuja on keväällä ja syksyllä,
+      ja voit tulla mukaan mihin viikonloppuun tahansa.
+    - Etsi [kotitehtävistä](/valmennus/) ajankohtainen valmennuskirje, ratkaise tehtäviä
+      ja lähetä ratkaisut. Huomaa, että peruskoululaisille ja lukiolaisille on eri kotitehtäväsarjat.
+    - Kilpailuissa menestyminen vaatii sitkeää harjoittelua,
+      joten sille kannattaa varata aikaa.
+    - Harjoittelu on usein yksinäistä puuhaa.
+      Jos koulussasi tai lähelläsi on muita matematiikasta kiinnostuneita,
+      kannattaa tehdä yhteistyötä.
+      Esimerkiksi viikoittain kokontuva ryhmä voi olla hyvä tapa
+      ylläpitää motivaatiota.
+    - Lue myös [Matematiikkaharrastajan polku](https://www.mayk.fi/matematiikkalukio/kehitys/matematiikkaharrastajan-polku/).
+
+- id: "kilpailuun"
+  question: "Miten pääsee kilpailuihin?"
+  answer: >-
+    - Kysy matematiikanopettajaltasi, järjestetäänkö koulussasi 
+      [MAOLin kilpailu](https://maol.fi/neljan-tieteen-kisat/) ja miten pääset siihen mukaan.
+        - Kysy sama kysymys [Kenguru-kilpailusta](https://kengurukilpailu.fi/),
+          jossa on sarjoja myös nuoremmille, ja (jos olet sopivalla luokalla)
+      [seiskaluokkalaisten kilpailusta](/seiskat/) ja [MatCupista](https://matcup.edublogs.org/).
+    - Tule mukaan valmennusviikonloppuihin ja ratkaise kotitehtäviä
+      (katso kohtaa "Miten pääsee mukaan?").
+    - Pohjoismaiseen matematiikkakilpailuun lähetetään kutsu niille, jotka ovat menestyneet
+      parhaiten MAOLin kilpailussa ja valmennuksessa. Siihen osallistutaan omassa koulussa.
+    - Parhaiten menestyneistä tytöistä valitaan joukkue
+      EGMO-kilpailuun.
+    - Valmennuksessa ja alemman tason kilpaluissa parhaiten menestyneille tulee kutsu
+      valintaviikolle, jossa järjestetään kokeita ja valitaan IMO-joukkue.
+
+- id: "materiaali"
+  question: "Mitä teoriaa kannattaa opiskella?"
+  answer: |
+    Yleisesti kannattaa lukea kaikkea kiinnostavaa matematiikkaa.
+    Kilpailuissa oletetaan periaatteessa lukion oppimäärä,
+    mutta kansainvälisesti vertailtuna Suomen lukiokurssi on monelta osalta kovin suppea.
+    Varsinkin geometriaa ja lukuteoriaa ja jonkin verran kombinatoriikkaa on tarpeen opiskella lisää.
+    Myös algebrallisten lausekkeiden käsittelyä ja matemaattista todistamista on hyvä opetella.
+    Differentiaali- ja integraalilaskentaa ei kilpailuissa juurikaan esiinny.
+
+    [Kilpamatematiikan peruskurssi](https://kurssi.matematiikkakilpailut.fi/) sisältää kilpailuissa tarvittavat perusasiat.
+    [Materiaalisivulla](/aiheet/) on muitakin [yleiskatsauksia](/aiheet/#muita)
+    ja niiden jälkeen eri aiheista eritasoisia monisteita.
+    Avoimen yliopiston [ongelmanratkaisukurssi](/valmennus/ongelma/) täydentää näitä,
+    ja siitä saatavan suoritusmerkinnän voi mahdollisesti sisällyttää lukio-opintoihin.
+
+    Matematiikkaa ei opi pelkästään lukemalla, vaan sitä pitää myös harjoitella.
+    Oppimateriaaleissa on yleensä aiheisiin liittyviä harjoitustehtäviä,
+    kun taas kilpailutehtävät ovat vaihtelevista aiheista.
+
+- id: "tehtavat"
+  question: "Miten tehtäviä oppii ratkaisemaan?"
+  answer: |
+    Ratkaisemista oppii harjoittelemalla, ihan kuin mitä tahansa muutakin taitoa.
+    Valitse sopivan vaikeita tehtäviä: liian helpoista et saa tarpeeksi vastusta, liian vaikeat
+    aiheuttavat turhautumista. Kokemuksen karttuessa siirry vaikeampiin tehtäviin.
+    Harjoittelussa ei ole kyse pelkästään matemaattisista taidoista vaan myös
+    muusta kilpailussa menestymiseen tarvittavasta: keskittymiskyvystä,
+    siitä että jaksat yrittää ja kokeilla uusia ideoita vaikka aiemmat eivät ole onnistuneet,
+    ja kirjoitustaidosta, jotta saat kommunikoitua ratkaisusi ymmärrettävästi.
+
+    Vanhojen kilpailujen tehtäväarkistot sopivat hyvin materiaaliksi.
+    Varaa useita tunteja aikaa ja tulosta jonkin kilpailun tehtävät.
+    Jätä puhelin ja muut häiriötekijät pois ja keskity tehtäviin pitkän aikaa kerrallaan,
+    kuin olisit kilpailussa mukana.
+    Yritä kirjoittaa niin hyvät ratkaisut kuin osaat.
+    Lopuksi katso malliratkaisut.
+
+    Kilpailutehtäviä suunnilleen vaikeusjärjestyksessä:
+    [Kenguru](https://www.kengurukilpailu.fi/home/archive),
+    [Seitsemäsluokkalaisten kilpailu](/seiskat/tehtavat.html),
+    [MAOLin kilpailu](/MAOL/) (perus-, väli-, ja avoin sarja sekä loppukilpailu),
+    [Baltian tie](/Baltian_tie/),
+    [Pohjoismainen kilpailu](/PM/),
+    [EGMO](/EGMO/) ja [IMO](/IMO/).
+    Myös vanhat [valmennuskirjeet](/valmennus/) sisältävät paljon tehtäviä.
