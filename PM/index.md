@@ -4,6 +4,7 @@ title: Pohjoismainen matematiikkakilpailu
 url: /PM/
 eleventyNavigation:
   title: PM
+  parentKey: kilpailut
 description: >-
   Pohjoismainen matematiikkakilpailu sijoittuu vaikeustasoltaan kansallisten
   kilpailujen ja matematiikkaolympialaisten väliin. Osallistujat ratkovat
