@@ -4,6 +4,7 @@ title: MAOLin matematiikkakilpailut
 url: /MAOL/
 eleventyNavigation:
   title: MAOL
+  parentKey: kilpailut
 description: >-
   Matemaattisten aineiden opettajien liitto MAOL järjestää
   matematiikkakilpailuja peruskoululaisille ja lukiolaisille.

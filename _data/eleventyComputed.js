@@ -4,9 +4,9 @@ export default {
         return {
             key: nav?.key ?? url,
             title: nav?.title ?? data.title,
-            parent: nav?.key ?? url === '/' ? null
+            parent: nav?.parentKey ?? (url === '/' ? null
                 : url.endsWith('/') ? url.replace(/[^/]+\/$/, '')
-                : url.replace(/[^/]+$/, ''),
+                : url.replace(/[^/]+$/, '')),
         }
     }
 }
