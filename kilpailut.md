@@ -3,7 +3,7 @@ layout: page
 title: Kilpailut
 url: /kilpailut/
 eleventyNavigation:
-  key: kilpailut
+  title: Kilpailut
 description: >-
   Suomalaisia ja kansainvälisiä matematiikkakilpailuja: MAOLin kilpailu, Pythagoraan polku,
   Iranin geometriakilpailu, Pohjoismainen kilpailu, Baltian tie, Euroopan tyttöjen
