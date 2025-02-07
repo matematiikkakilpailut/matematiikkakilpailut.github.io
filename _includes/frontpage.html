@@ -1,0 +1,84 @@
+---
+layout: default
+---
+<main>
+  <div class="container">
+    <header class="row">
+      <div class="col-12">
+        <h1 class="py-3 mt-3 mb-2">{{ title }}</h1>
+        <div class="row">
+          <div class="col-xs-12">
+            <picture class="light-element">
+              <source srcset="/kuvat/oph_light.webp" type="image/webp">
+              <img loading="lazy" class="d-block float-sm-end mx-auto mb-2 ms-md-4" src="/kuvat/oph_light.png" width="180" height="174" alt="Opetushallitus rahoittaa hanketta">
+            </picture>
+            <picture class="dark-element">
+              <source srcset="/kuvat/oph_dark.webp" type="image/webp">
+              <img loading="lazy" class="d-block float-sm-end mx-auto mb-2 ms-md-4" src="/kuvat/oph_dark.png" width="180" height="174" alt="Opetushallitus rahoittaa hanketta">
+            </picture>
+            {{ content | safe }}
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="row my-4">
+      <!-- News column -->
+      <div class="col-lg-6 my-3 my-lg-0">
+        <div class="card shadow h-100">
+          <div class="card-header">
+            <h2 class="h3 pb-2 mb-0">Uutisia</h2>
+          </div>
+          <div class="card-body p-0">
+            <ul class="list-group list-group-flush">
+              {%- for artikkeli in collections.uutinen | reverse | batch(4) | first %}
+              <li class="list-group-item {% if loop.last %}pt-3{% else %}py-3{% endif %}">
+                {{ artikkeli.templateContent | safe }}
+              </li>
+              {%- endfor %}
+            </ul>
+            <div class="text-end">
+              <a href="/uutiset" class="btn btn-sm btn-outline-primary mb-3 me-3">Uutisarkisto</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ column -->
+      <div class="col-lg-6 my-3 my-lg-0">
+        <div class="card shadow h-100">
+          <div class="card-header">
+            <h2 class="h3 pb-2 mb-0">Usein kysytyt kysymykset</h2>
+          </div>
+          <div class="card-body p-0">
+            <div class="accordion accordion-flush" id="faqAccordion" itemscope itemtype="https://schema.org/FAQPage">
+              {% for item in faq %}
+              <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h2 class="accordion-header" itemprop="name">
+                  <button class="accordion-button{% if not loop.first %} collapsed{% endif %}" type="button" 
+                          data-bs-toggle="collapse" data-bs-target="#faq-{{ item.id }}" 
+                          aria-expanded="{% if loop.first %}true{% else %}false{% endif %}" 
+                          aria-controls="faq-{{ item.id }}">
+                    <span itemprop="text">{{ item.question }}</span>
+                  </button>
+                </h2>
+                <div id="faq-{{ item.id }}" class="accordion-collapse collapse{% if loop.first %} show{% endif %}" 
+                     aria-labelledby="faq-{{ item.id }}" data-bs-parent="#faqAccordion"
+                     itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                  <div class="accordion-body" itemprop="text">
+                    {{ item.answer | markdown | safe }}
+                  </div>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+{% if scripts %}
+{{ scripts | safe }}
+{% endif %}
