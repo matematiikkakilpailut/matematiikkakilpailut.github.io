@@ -4,7 +4,7 @@ title: Pythagoraan polku
 url: /pythagoras/
 eleventyNavigation:
   title: Pythagoras
-  parentKey: kilpailut
+  parentKey: /kilpailut/
 description: Lukioiden välinen joukkuematematiikkakilpailu järjestetään vuosittain Päivölän opistossa. Tutustu kilpailun historiaan vuodesta 2004 alkaen ja lataa aiempien vuosien tehtävät ratkaisuineen.
 ---
 ## ![Logo](pythagorasLogo.png) Pythagoraan polku
