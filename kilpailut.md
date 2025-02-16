@@ -77,19 +77,24 @@ viidessä sarjassa alakoulusta lukioon.  Se pidetään maaliskuun
 kolmantena torstaina, ja siihen pääsee mukaan niin, että opettaja
 ilmoittaa koulunsa kilpailun järjestäjille.
 
-#### [Matikkamestari](http://matikkamankkaa.fi/matikkamestari/)
+#### [Matikkamestari](https://web.archive.org/web/20220925084909/https://www.matikkamankkaa.fi/matikkamestari/)
 
-Kilpailu Espoon koulujen kuudesluokkalaisille.
+Kilpailu Espoon koulujen kuudesluokkalaisille, ehkä lopettanut?
 
 #### [Seitsemäsluokkalaisten alueellinen matematiikkakilpailu](/seiskat/)
 
 Kilpailu järjestetään Helsingissä, Oulussa, Turussa ja Satakunnassa.
 
-#### [MatCup](http://matcup.edublogs.org/)
+#### [MatCup](https://matcup.edublogs.org/)
 
-[Pohjoismainen matematiikkakilpailu](http://mathclasscomp.com/),
+[Pohjoismainen matematiikkakilpailu](https://web.archive.org/web/20240906140207/http://mathclasscomp.com/),
 johon Suomessa osallistuvat kahdeksasluokkalaiset.
 
 #### Mattetäphlan
 
 Mattetäphlan on Aalto-yliopiston ruotsinkielisen osakunnan [Teknologföreningenin](https://www.teknologforeningen.fi/) järjestämä matematiikkakilpailu kaikille ruotsinkielisten lukioiden abeille. Kilpailu järjestetään vuosittain ja siihen kuuluu alkukilpailu omassa koulussa ja loppukilpailu Otaniemessä. 
+
+#### [AmmatikkaTop](https://maol.fi/ammatikka-kilpailu/)
+
+AmmatikkaTop on [MAOLin](https://maol.fi/) ja [Tekniikan opettajat TOP ry:n](https://www.tekniikanopettajat.fi/)
+järjestämä kilpailu ammatillisen toisen asteen opiskelijoille.
