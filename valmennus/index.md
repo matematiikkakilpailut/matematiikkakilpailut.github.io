@@ -54,6 +54,8 @@ ja [`vaikeat.tehtavat@matematiikkakilpailut.fi`](mailto:vaikeat.tehtavat@matemat
 
 Helmikuun 2025 [tehtävät](https://drive.google.com/file/d/1Ba1MJuIXXhi04T8ua4caqfjDEai8-0PS/view).
 
+* **Korjaus tehtävään 8:** tehtävän sanan "tulos" pitäisi olla "summa".
+
 Joulukuun 2024 [tehtävät](https://drive.google.com/file/d/1yIvpr6YRmTtPYjkYlABKszbdfqSZaDNo/view)
 ja [ratkaisut](https://drive.google.com/file/d/1nWQLkWbkRwzIJNMbdjtabPWDd7Qe1u1v/view).
 
