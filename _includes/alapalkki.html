@@ -16,8 +16,8 @@
   <div class="container-md small">
     <div class="row gy-4">
       <div class="col-sm-6 col-md-4">
-        <div class="fw-bold mb-2">Valmennus</div>
-        <ul class="list-unstyled mb-0">
+        <div id="footer-valmennus-heading" class="fw-bold mb-2 fs-6">Valmennus</div>
+        <ul aria-labelledby="footer-valmennus-heading" class="list-unstyled mb-0">
           <li>{{ iconLink('/kilpailut/', 'trophy-fill', 'Kilpailut') }}</li>
           <li>{{ iconLink('/aiheet/', 'book', 'Materiaalit') }}</li>
           <li>{{ iconLink('/kaytanto/', 'calendar-event', 'Tapahtumat') }}</li>
@@ -25,8 +25,8 @@
         </ul>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="fw-bold mb-2">Yhteystiedot</div>
-        <ul class="list-unstyled mb-0">
+        <div id="footer-yhteystiedot-heading" class="fw-bold mb-2 fs-6">Yhteystiedot</div>
+        <ul aria-labelledby="footer-yhteystiedot-heading" class="list-unstyled mb-0">
           <li>{{ iconLink('mailto:info@matematiikkakilpailut.fi', 'envelope-fill', 'info@matematiikkakilpailut.fi', title='Sähköposti', rel='author') }}</li>
           <li>{{ iconLink('/valmentajat/', 'people-fill', 'Valmentajat') }}</li>
           <li>{{ iconLink('/feed.xml', 'rss-fill', 'RSS-syöte', 'RSS-syöte', 'alternate', type='application/atom+xml') }}</li>
@@ -34,8 +34,8 @@
         </ul>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="fw-bold mb-2">Muuta</div>
-        <ul class="list-unstyled mb-0">
+        <div id="footer-muuta-heading" class="fw-bold mb-2 fs-6">Muuta</div>
+        <ul aria-labelledby="footer-muuta-heading" class="list-unstyled mb-0">
           <li>{{ iconLink('/kerhot/', 'people-fill', 'Kerhot') }}</li>
           <li>{{ iconLink('/linkit/', 'link-45deg', 'Linkkejä') }}</li>
           <li>{{ iconLink('/tietosuoja/', 'shield-fill', 'Tietosuoja', rel='privacy-policy') }}</li>
