@@ -1,0 +1,112 @@
+\input def.tex
+\magnification 1200
+\sivut=2
+\language=1
+
+\catcode`Ä=\active
+\defÄ{\"A}
+
+\catcode`Ö=\active
+\defÖ{\"Ö}
+
+\catcode`ä=\active
+\defä{\"a}
+
+\catcode`ö=\active
+\defö{\"o}
+
+
+\otsikko{15. Pohjoismainen matematiikkakilpailu}
+
+\aotsikko{Tehtävien ratkaisuja}
+
+
+\bigbreak
+
+\prob {\it Olkoon $A$ äärellinen kokoelma sellaisia koordinaattitason
+neliöitä, että jokaisen $A$:han kuuluvan neliön kärkipisteet ovat muotoa
+$(m,\,n)$, $(m+1,\,n)$, $(m,\,n+1)$ ja $(m+1,\,n+1)$ joillain
+kokonaisluvuilla $m$ ja $n$. Osoita, että on olemassa sellainen  $A$:n
+osakokoelma $B$, että $B$:hen kuuluu ainakin 25 \% $A$:n neliöistä,  mutta
+millään kahdella $B$:n neliöllä ei ole yhteistä kärkipistettä.}
+
+
+
+\rat Jaetaan taso ensin kahdeksi joukoksi sijoittamalla $y$-akselin
+suuntaiset neliövyöt vuorotellen kumpaankin joukkoon, valkoisiin $V$ ja
+mustiin $M$ Joukoista $A\cap V$ ja $A\cap M$ ainakin toinen sisältää ainakin
+puolet joukon $A$ neliöistä. Olkoon tämä joukko $A_1$. Jaetaan ne neliövyöt,
+jotka sisältävät $A_1$:n kahdeksi joukoksi $E$ ja $F$ niin, että kumpaankin
+joukkoon tulee joka toinen vyön neliö. Kummassakaan joukossa olevilla
+neliöillä ei ole yhtään yhteistä pistettä muiden samaan joukkoon kuuluvien
+neliöiden kanssa. Nyt ainakin toisessa joukoista $E\cap A_1$, $F\cap A_1$ on
+ainakin puolet joukon $A_1$ neliöistä ja siten ainakin neljäsosa joukon $A$
+neliöistä. Tämä joukko kelpaa joukoksi $B$. 
+
+
+\prob {\it Olkoon $f$ rajoitettu reaaliarvoinen funktio, joka on määritelty
+kaikilla reaaliluvuilla ja joka toteuttaa kaikilla reaaliluvuilla $x$ ehdon
+$$f\(x+{1\over 3}\)+f\(x+{1\over 2}\)=f(x)+f\(x+{5\over 6}\).$$ Osoita, että
+$f$ on jaksollinen. (Funktio $f$ on rajoitettu, jos on olemassa luku $L$
+siten, että $|f(x)|<L$ kaikilla reaaliluvuilla $x$. Funktio $f$ on
+jaksollinen, jos on olemassa positiivinen luku $k$ siten, että $f(x+k)=f(x)$
+kaikilla reaaliluvuilla $x$.)}
+
+\rat Olkoon $g(6x)=f(x)$. Silloin $g$ on rajoitettu ja
+$g(t+2)=f\(\displaystyle {t\over 6}+\displaystyle {1\over 3}\)$,
+$g(t+3)=f\(\displaystyle {t\over 6}+\displaystyle {1\over 2}\)$,
+$g(t+5)=f\(\displaystyle {t\over 6}+\displaystyle {5\over 6}\)$ ja 
+$g(t+2)+g(t+3)=g(t)+g(t+5)$, $g(t+5)-g(t+3)=g(t+2)-g(t)$ kaikilla
+reaaliluvuilla $t$. Mutta silloin 
+$g(t+12)-g(6)
+=g(t+12)-g(t+10)+g(t+10)-g(t+8)+g(t+8)-g(t+6)
+=g(t+9)-g(t+7)+g(t+7)-g(t+5)+g(t+5)-g(t+3)
+=g(t+6)-g(t+4)+g(t+4)-g(t+2)+g(t+2)-g(t)=g(t+6)-g(t)$. 
+Induktiolla nähdään, että
+$g(t+6n)-g(t)=n(g(t+6)-g(0))$. Ellei ole $g(t+6)-g(t)=0$ kaikilla
+reaaliluvuilla $t$, johdutaan ristiriitaan sen kanssa, että $g$ on
+rajoitettu. Päätellään, että $f$ on jaksollinen ja että ainakin eräs 
+jakso on 1.
+
+
+
+\prob {\it Määritä yhtälön 
+$$x^8-x^7+2x^6-2x^5+3x^4-3x^3+4x^2-4x+{5\over2}=0$$ 
+reaalisten juurten lukumäärä.\/}
+
+\rat Koska $$\displaylines{x^8-x^7+2x^6-2x^5+3x^4-3x^3+4x^2-4x+{5\over 2}\cr
+=x(x-1)(x^6+2x^4+3x^2+4)+{5\over 2}\cr}$$ ja $x(x-1)\ge 0$, kun  $x\le 0$ ja
+$x\ge 1$, näillä $x$:n arvoilla yhtälölllä ei ole ratkaisuja. Jos $0<x<1$,
+niin $0>x(x-1)=\(x-\displaystyle {1\over 2}\)^2-\displaystyle {1\over 4}\ge -\displaystyle {1\over 4}$ ja $x^6+2x^4+3x+4<1+2+3+4=10$. Lausekkeen arvo on
+nyt suurempi kuin 
+$-\displaystyle {1\over 4}\cdot 10+\displaystyle {5\over 2}=0$, 
+joten näilläkään $x$:n arvoilla yhtälöllä ei ole ratkaisua. 
+
+
+\prob {\it Olkoon $ABCDEF$ kupera kuusikulmio, jossa kukin lävistäjistä $AD$,
+$BE$ ja $CF$ jakaa kuusikulmion kahdeksi nelikulmioksi, joiden alat ovat yhtä
+suuret. Osoita, että $AD$, $BE$ ja $CF$ leikkaavat toisensa samassa
+pisteessä.\/}
+
+\rat Kuvion alaa merkitään $|\cdot |$. Leikatkoot $AD$ ja $BE$ pisteessä $P$,
+$AD$ ja $CF$ pisteessä  $Q$ ja $BE$ ja $CF$ pisteessä $R$. Oletetaan, että
+$P$, $Q$ ja $R$ ovat eri pisteitä. Ei merkitse rajoitusta, kun oletetaan,
+että $P$ on $B$:n ja  $R$:n ja $Q$ $C$:n ja $R$:n välissä.  Koska $|ABP|$ ja
+$|DEP|$ eroavat kumpikin $\displaystyle{1\over 2}|ABCDEF|$:sta määrällä
+$|BCDP|$, $ABP$:llä ja  $DEP$:llä on sama ala. Koska $\angle APB=\angle DPE$,
+on $AP\cdot BP=DP\cdot EP=(DQ+QP)(ER+RP)$. Samoin $CQ\cdot DQ=(AP+PQ)(FR+RQ)$
+ja $ER\cdot FR=(CQ+QR)(BP+PR)$. Kun edelliset kolme yhtälöä kerrotaan
+keskenään, saadaan $AB\cdot BP\cdot CQ\cdot DQ\cdot ER\cdot FR=DQ\cdot
+ER\cdot AP\cdot FR\cdot CQ\cdot BP+$ positiivisia termejä, jotka involving
+$PQ$:n, $QR$:n ja $PR$:n. Tämä on ristiriita. Siis $P$:n, $Q$:n ja $R$:n on
+oltava yksi ja sama piste.
+
+
+\bye
+
+
+
+
+
+
+
