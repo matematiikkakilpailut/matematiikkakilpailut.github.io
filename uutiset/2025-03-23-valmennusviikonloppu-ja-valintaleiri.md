@@ -11,4 +11,4 @@ Valintaleiri järjestetään poikkeuksellisesti aikaisin, koska Australian
 viisumien hankkimisen ennakoidaan olevan hidasta. Joukkueen valinta tapahtunee
 vasta EGMO-kilpailun jälkeen.
 
-[Ilmoittaudu Päivölään](https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2025-vk14){.btn .btn-primary .btn-sm .align-baseline role="button"} 28.3. mennessä!
+[Ilmoittaudu Päivölään](https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2025-vk14) 28.3. mennessä!
