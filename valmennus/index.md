@@ -52,7 +52,8 @@ osoitteet ovat [`helpot.tehtavat@matematiikkakilpailut.fi`](mailto:helpot.tehtav
 ja [`vaikeat.tehtavat@matematiikkakilpailut.fi`](mailto:vaikeat.tehtavat@matematiikkakilpailut.fi).
 
 
-Helmikuun 2025 [tehtävät](https://drive.google.com/file/d/1Ba1MJuIXXhi04T8ua4caqfjDEai8-0PS/view).
+Helmikuun 2025 [tehtävät](https://drive.google.com/file/d/1Ba1MJuIXXhi04T8ua4caqfjDEai8-0PS/view)
+ja [ratkaisut](https://drive.google.com/file/d/1BHI1PnrhQV--atWp4v7plqyD-WmYIS5U/view).
 
 * **Korjaus tehtävään 8:** tehtävän sanan "tulos" pitäisi olla "summa".
 * **Korjaus tehtävään 19:** piste <em>H</em> on kolmion [ortokeskus](https://fi.wikipedia.org/wiki/Ortokeskus).
