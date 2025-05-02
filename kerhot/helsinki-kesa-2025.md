@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Kumpulan matematiikkaleiri, kesä 2025
+title: "Helsingin yliopiston matematiikan ja tilastotieteen osasto järjestää: Kumpulan matematiikkaleiri, kesä 2025"
 url: /kerhot/helsinki-kesa-2025/
 jsonld: |
   {
@@ -28,19 +28,20 @@ jsonld: |
     "organizer": {
         "@type": "Organization",
         "name": "Helsingin yliopiston matematiikan ja tilastotieteen osasto",
-        "url": "https://www.helsinki.fi/fi/matemaattis-luonnontieteellinen-tiedekunta/tiedekunta/matematiikka-ja-tilastotiede"
-    },
-    "contactPoint": {
-        "@type": "ContactPoint",
-        "name": "Elias Heiskanen",
-        "email": "elias.heiskanen@helsinki.fi"
+        "url": "https://www.helsinki.fi/fi/matemaattis-luonnontieteellinen-tiedekunta/tiedekunta/matematiikka-ja-tilastotiede",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "name": "Elias Heiskanen",
+            "email": "elias.heiskanen@helsinki.fi"
+        }
     },
     "offers": {
         "@type": "Offer",
         "price": "0",
         "priceCurrency": "EUR",
         "availability": "https://schema.org/InStock",
-        "availabilityEnds": "2025-06-05"
+        "availabilityEnds": "2025-06-05",
+        "url": "https://forms.office.com/e/w6W7CHxsiF"
     },
     "url": "https://matematiikkakilpailut.fi/kerhot/helsinki-kesa-2025/",
     "eventStatus": "https://schema.org/EventScheduled",
@@ -49,6 +50,7 @@ jsonld: |
     "inLanguage": "fi"
   }
 ---
+
 
 Kiinnostaako matematiikka tai luova ongelmanratkaisu?
 Suunnitteletko matematiikan, luonnontieteiden tai tekniikan opintoja ja haluaisit ensimakua korkeakoulutasoiseen matematiikkaan?
