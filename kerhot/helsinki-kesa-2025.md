@@ -39,7 +39,8 @@ jsonld: |
         "@type": "Offer",
         "price": "0",
         "priceCurrency": "EUR",
-        "availability": "https://schema.org/InStock"
+        "availability": "https://schema.org/InStock",
+        "availabilityEnds": "2025-06-05"
     },
     "url": "https://matematiikkakilpailut.fi/kerhot/helsinki-kesa-2025/",
     "eventStatus": "https://schema.org/EventScheduled",
@@ -64,5 +65,5 @@ Kumpulan matematiikkaleirille osallistuminen on ilmaista ja leiri järjestetää
 
 Leirillä ei ole majoitusta. Ruokataukoja on omien eväiden syöntiin.
 
-Ilmoittautuminen [lomakkeella](https://forms.office.com/e/w6W7CHxsiF).<br>
+Ilmoittautuminen [lomakkeella](https://forms.office.com/e/w6W7CHxsiF) viimeistään <time datetime="2025-06-05">5. kesäkuuta</time>.<br>
 Kyselyt leiristä: Elias Heiskanen, [elias.heiskanen@helsinki.fi](mailto:elias.heiskanen@helsinki.fi).
