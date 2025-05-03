@@ -17,3 +17,9 @@ Kerhojen vanhat sivut:
 - [Oulu](oulu/)
 - [Tampere](tampere/)
 - [Åbo Akademi](abo/)
+
+---------
+
+Muita kerhoja ja vastaavaa toimintaa:
+
+- [Kumpulan matematiikkaleiri kesäkuussa 2025](helsinki-kesa-2025/)
