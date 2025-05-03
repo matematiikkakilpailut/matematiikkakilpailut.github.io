@@ -51,6 +51,7 @@ valintakokeissa.
 osoitteet ovat [`helpot.tehtavat@matematiikkakilpailut.fi`](mailto:helpot.tehtavat@matematiikkakilpailut.fi)
 ja [`vaikeat.tehtavat@matematiikkakilpailut.fi`](mailto:vaikeat.tehtavat@matematiikkakilpailut.fi).
 
+Kesän 2025 [tehtävät](https://drive.google.com/file/d/1n31uLdwv-wMprkZU_RO6QH_N9F4WIViV/view).
 
 Helmikuun 2025 [tehtävät](https://drive.google.com/file/d/1Ba1MJuIXXhi04T8ua4caqfjDEai8-0PS/view)
 ja [ratkaisut](https://drive.google.com/file/d/1BHI1PnrhQV--atWp4v7plqyD-WmYIS5U/view).
@@ -58,18 +59,6 @@ ja [ratkaisut](https://drive.google.com/file/d/1BHI1PnrhQV--atWp4v7plqyD-WmYIS5U
 * **Korjaus tehtävään 8:** tehtävän sanan "tulos" pitäisi olla "summa".
 * **Korjaus tehtävään 19:** piste <em>H</em> on kolmion [ortokeskus](https://fi.wikipedia.org/wiki/Ortokeskus).
 
-Joulukuun 2024 [tehtävät](https://drive.google.com/file/d/1yIvpr6YRmTtPYjkYlABKszbdfqSZaDNo/view)
-ja [ratkaisut](https://drive.google.com/file/d/1nWQLkWbkRwzIJNMbdjtabPWDd7Qe1u1v/view).
-
-* **Selvennys tehtävään 12:** se, että 3. asteen polynomin kaikki juuret ovat reaalisia
-  tarkoittaa sitä, että polynomi voidaan kirjoittaa muodossa
-  (<em>x</em> − <em>u</em><sub>1</sub>)(<em>x</em> − <em>u</em><sub>2</sub>)(<em>x</em> − <em>u</em><sub>3</sub>),
-  missä jokainen <em>u</em><sub><em>i</em></sub> on reaaliluku.
-* **Korjaus tehtävään 13:** tehtävässä pitäisi lukea "Onko olemassa 14 luonnollista lukua — —",
-  ts. kokonaisluvut eivät saa olla negatiivisia.
-
-Marraskuun 2024 [tehtävät](https://drive.google.com/file/d/14ScVYlYBn7fzkTqtYQc7szrws4DOrwNd/view)
-ja [ratkaisut](https://drive.google.com/file/d/1mMwjzJ8eVqHzY9RhHsKB8rcE_fOe0xuZ/view).
 
 
 
@@ -87,6 +76,19 @@ Peruskoululaiset voivat halutessaan ratkoa myös haastavampia, kaikille koululai
 
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
+
+Joulukuun 2024 [tehtävät](https://drive.google.com/file/d/1yIvpr6YRmTtPYjkYlABKszbdfqSZaDNo/view)
+ja [ratkaisut](https://drive.google.com/file/d/1nWQLkWbkRwzIJNMbdjtabPWDd7Qe1u1v/view).
+
+* **Selvennys tehtävään 12:** se, että 3. asteen polynomin kaikki juuret ovat reaalisia
+  tarkoittaa sitä, että polynomi voidaan kirjoittaa muodossa
+  (<em>x</em> − <em>u</em><sub>1</sub>)(<em>x</em> − <em>u</em><sub>2</sub>)(<em>x</em> − <em>u</em><sub>3</sub>),
+  missä jokainen <em>u</em><sub><em>i</em></sub> on reaaliluku.
+* **Korjaus tehtävään 13:** tehtävässä pitäisi lukea "Onko olemassa 14 luonnollista lukua — —",
+  ts. kokonaisluvut eivät saa olla negatiivisia.
+
+Marraskuun 2024 [tehtävät](https://drive.google.com/file/d/14ScVYlYBn7fzkTqtYQc7szrws4DOrwNd/view)
+ja [ratkaisut](https://drive.google.com/file/d/1mMwjzJ8eVqHzY9RhHsKB8rcE_fOe0xuZ/view).
 
 Syyskuun 2024 [tehtävät](https://drive.google.com/file/d/1UPyIAjAUP23RyrMWJvNNXl2BqlpjEx6u/view)
 ja [ratkaisut](https://drive.google.com/file/d/1u1sNZAlT-LRFWJjqZKoRcCHHD7FDGj13/view).
