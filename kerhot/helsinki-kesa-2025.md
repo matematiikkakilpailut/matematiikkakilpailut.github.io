@@ -69,3 +69,5 @@ Leirillä ei ole majoitusta. Ruokataukoja on omien eväiden syöntiin.
 
 Ilmoittautuminen [lomakkeella](https://forms.office.com/e/w6W7CHxsiF) viimeistään <time datetime="2025-06-05">5. kesäkuuta</time>.<br>
 Kyselyt leiristä: Elias Heiskanen, [elias.heiskanen@helsinki.fi](mailto:elias.heiskanen@helsinki.fi).
+
+Leirin kotisivu: <https://blogs.helsinki.fi/matematiikan-kesaleiri/>
