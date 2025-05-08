@@ -3,6 +3,31 @@ aikataulu:
 - pvm: "2025"
   tapahtuma: "Kevät ja kesä"
   otsikko: true
+- pvm: "23.&ndash;25.5."
+  tapahtuma: >-
+    Mahdollisesti ylimääräinen valmennusviikonloppu. Järjestämisen edellytyksiä selvitetään.
+- pvm: "6.&ndash;11.7."
+  tapahtuma: >-
+    Yhteispohjoismainen valmennusleiri IMO-joukkueelle Tanskan Sorøssä.
+- pvm: "13.&ndash;20.7."
+  tapahtuma: >-
+    [Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr>](https://imo2025.au/)
+    Sunshine Coastissa, Australiassa
+
+# ainoastaan otsikon "aikataulu" alla olevat tapahtumat otetaan mukaan sivulle
+# joten esim. "mahdollisia" tai "vanhoja" eivät näy vaan ovat mukana vain jotta
+# niitä voi tarvittaessa siirtää tai kopioida "aikataulu"-listaan
+
+# ilmoittautumisnapin muotoilut: [Ilmoittaudu tästä!](https://example.com){.btn .btn-primary .btn-sm .align-baseline role="button"}
+
+mahdollisia:
+- pvm: "noin joulukuussa"
+  tapahtuma: "[European Mathematical Cup](https://emc.mnm.hr)"
+
+vanhoja:
+- pvm: "2025"
+  tapahtuma: "Kevät ja kesä"
+  otsikko: true
 - pvm: "10.&ndash;12.1. (viikko 2)"
   tapahtuma: >-
     Valmennusviikonloppu Päivölässä: ohjelmassa geometriaa ja lukuteoriaa (alakerrassa) sekä verkkoteoriaa, peliteoriaa ja epäyhtälöitä
@@ -18,34 +43,17 @@ aikataulu:
   tapahtuma: >-
     Valmennusviikonloppu Päivölässä.
     Yläkerran ohjelma on osa valintaleiriä.
-    [Ilmoittaudu Päivölään](https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2025-vk14){.btn .btn-primary .btn-sm .align-baseline role="button"}
+    [Ilmoittaudu Päivölään](https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2025-vk14)
     28.3. mennessä!
 - pvm: "4.&ndash;9.4."
   tapahtuma: >-
     IMO-valintaleiri kutsutuille. Muutkin saavat tulla mukaan omakustanteisesti.
     Valintaleiri järjestetään poikkeuksellisesti aikaisin, koska Australian viisumien hankkimisen ennakoidaan olevan hidasta.
     Valintaleiri jakautuu viikonloppukurssiin ja jatkona olevaan valintaleiriosaan.
-    Valintaleiriosan ilmoittautuminen: [Matematiikkakilpavalmennus, jatkoleiri](https://paivola.fi/kurssit/matematiikkakilpavalmennus){.btn .btn-primary .btn-sm .align-baseline role="button"}
+    Valintaleiriosan ilmoittautuminen: [Matematiikkakilpavalmennus, jatkoleiri](https://paivola.fi/kurssit/matematiikkakilpavalmennus)
 - pvm: "11.&ndash;17.4."
   tapahtuma: >-
     [Euroopan tyttöjen matematiikkaolympialaiset EGMO](https://egmo2025.com/) Pristinassa, Kosovossa.
-- pvm: "6.&ndash;11.7."
-  tapahtuma: >-
-    Yhteispohjoismainen valmennusleiri IMO-joukkueelle Tanskan Sorøssä.
-- pvm: "13.&ndash;20.7."
-  tapahtuma: >-
-    [Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr>](https://imo2025.au/)
-    Sunshine Coastissa, Australiassa
-
-# ainoastaan otsikon "aikataulu" alla olevat tapahtumat otetaan mukaan sivulle
-# joten esim. "mahdollisia" tai "vanhoja" eivät näy vaan ovat mukana vain jotta
-# niitä voi tarvittaessa siirtää tai kopioida "aikataulu"-listaan
-  
-mahdollisia:
-- pvm: "noin joulukuussa"
-  tapahtuma: "[European Mathematical Cup](https://emc.mnm.hr)"
-
-vanhoja:
 - pvm: "2024"
   tapahtuma: "Syksy"
   otsikko: true
