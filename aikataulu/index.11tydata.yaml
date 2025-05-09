@@ -3,9 +3,9 @@ aikataulu:
 - pvm: "2025"
   tapahtuma: "Kevät ja kesä"
   otsikko: true
-- pvm: "23.&ndash;25.5."
+- pvm: "23.&ndash;25.5. (viikko 21)"
   tapahtuma: >-
-    Mahdollisesti ylimääräinen valmennusviikonloppu. Järjestämisen edellytyksiä selvitetään.
+    Valmennusviikonloppu Päivölässä.
 - pvm: "6.&ndash;11.7."
   tapahtuma: >-
     Yhteispohjoismainen valmennusleiri IMO-joukkueelle Tanskan Sorøssä.
@@ -13,6 +13,22 @@ aikataulu:
   tapahtuma: >-
     [Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr>](https://imo2025.au/)
     Sunshine Coastissa, Australiassa
+- pvm: "2025"
+  tapahtuma: "Syksy"
+  otsikko: true
+- pvm: "29.&ndash;31.8. (viikko 35)"
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä.
+- pvm: "22.10.&ndash;4.11."
+  tapahtuma: >-
+    [MAOLin matematiikkakilpailun alkukilpailu, peruskoulu](https://maol.fi/neljan-tieteen-kisat/)
+- pvm: "298.10."
+  tapahtuma: >-
+    [MAOLin matematiikkakilpailun alkukilpailu, lukio](https://maol.fi/neljan-tieteen-kisat/)
+- pvm: "13.&ndash;17.11."
+  tapahtuma: >-
+    Baltian tie -joukkuekilpailu Riiassa, Latviassa.
+
 
 # ainoastaan otsikon "aikataulu" alla olevat tapahtumat otetaan mukaan sivulle
 # joten esim. "mahdollisia" tai "vanhoja" eivät näy vaan ovat mukana vain jotta
