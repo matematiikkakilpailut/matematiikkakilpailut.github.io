@@ -1,0 +1,111 @@
+\input makrot
+\input laskut
+
+\font\isosser=cmss12
+\centerline{\isosser Vuoden 2002 pohjoismaisen kilpailun ratkaisut}\bigskip
+
+\harj 
+Koska AD < CD, P DC = DCA < DAC. Tästä seuraa, että 
+kaari CP on pienempi kuin kaari CD, joten P on sillä kaarista CD, 
+joka ei sisällä A:ta ja B:tä. Osoitetaan, että kolmiot ADE ja CBQ 
+ovat yhtenevät. Ympyrän sisään piirrettynä puolisuunnikkaana ABCD 
+on tasakylkinen (koska AB CD, niin BAC = DCA, siis BC = AD). 
+Koska DP AC, niin P DC = CAB. Mutta EDA = CAB (yhtä suurta kaarta 
+vastaavat kehäkulmat) ja P BC = P DC (samasta syystä). Siis EDA = QBC. 
+Koska ABCD on jännenelikulmio,  18 on EAD = 180 - DAB = DCB. 
+Siis EAD = QCB. Kolmiot ADE ja CBQ ovat
+siis yhtenevät (ksk). Mutta silloin EA = QC. Koska lisäksi EA QC, niin
+EACQ on suunnikas. Suunnikkaan vastakkaisina sivuina AC ja EQ ovat
+yhtä pitkät. 
+
+\harj 
+Olkoon siinä maljassa, josta pallo siirretään,
+alkuaan n palloa ja olkoon niissä olevien lukujen summa a. Olkoon
+vastaavasti m toisen uurnan pallojen määrä ja b palloissa olevien
+lukujen summa. Jos q on siirrettävässä pallossa oleva luku, niin
+tehtävän ehdoista seuraa
+
+a - q n - 1
+
+ b + q
+
+
+
+m + 1
+
+= = a n b m + x, + x
+
+eli
+
+Koska n + m = N ja a + b =
+
+1 2
+
+1 2
+
+a = nq + n(n - 1)x b = mq - m(m + 1)x. N(N + 1), saadaan
+
+1 2
+
+N(N + 1) = Nq + x(n2 - m2 - N) = Nq + xN(n - m - 1) 1
+
+ja q =
+
+Siis x = 1 2
+
+(N +1)-x(n-m-1), b = m(N +1)-xmn. Nyt b  1+2+···+m =
+
+1
+
+2
+
+1 2 m(m+1).
+
+(N +1)-xn =
+
+1 2
+
+(m+n+1)-xn 
+
+1 2 n -xn 2 (m+1) eli
+
+ 0. Siis x  . Yhtäsuuruus 2
+
+1 2
+
+saavutetaan, kun ensimmäisessä maljassa ovat pallot numerot m + 1, m + 2, . . . , N
+
+ja jälkimmäisessä pallot 1, 2, . . . , m ja kun q = m + 1. 
+
+
+\harj 
+Olkoon P (x) = (x + b1)(x + b2) ··· (x + bn). Olkoon P (a1) = P (a2) =
+. . . = P (an) = d. Silloin a1, a2, . . . , an ovat n:nnen asteen
+polynomin P (x) - d nollakohdat. Siis P (x) - d = c(x - a1)(x - a2)
+··· (x - an). Koska P (x):n ja P (x) - d:n n:nnen asteen termit ovat
+samat, on oltava c = 1. Nyt P (-bj) = 0 kaikilla bj. Siis kaikilla j
+on -d = (-bj - a1)(-bj - a2)···(-bj - an) = (-1)n(a1 + bj)(a2 +
+bj)···(an + bj), mistä väite seuraakin. P 2002.4. Kirjoitetaan
+tarkasteltavat luvut n = a0 + 10a1 + 102a2 + ··· + 108a8 muotoon a0 +
+(11 - 1)a1 + (99 + 1)a2 + (1001 - 1)a3 + (9999 + 1)a4 + (100001 - 1)a5
++(999999 + 1)a6 + (10000001 - 1)a7 + (99999999 + 1)a8 = (a0 - a1 + a2
+- a3 + a4 - a5 + a6 - a7 + a8) + 11k = (a0 + a1 + ··· + a8) - 2(a1 +
+a3 + a5 + a7) + 11k = 44 + 1 + 11k - 2(a1 + a3 + a5 + a7). Luku n on
+jaollinen 11:llä silloin ja vain silloin, kun 2(a1 + a3 + a5 + a7) - 1
+on jaollinen 11:llä. Olkoon s = a1 + a3 + a5 + a7. Silloin 1 + 2 + 3 +
+4 = 10 s 6 + 7 + 8 + 9 = 30
+
+
+19 ja 19  2s - 1  59. Ainoat 11:llä jaolliset parittomat luvut halutulta väliltä ovat 33 ja 55, joten s = 17 tai s = 28. Jos s = 17, joukon A = {a1, a3, a5, a7} pienin alkio on 1 tai 2 (3 + 4 + 5 + 6 = 18). Käymällä läpi eri mahdollisuudet nähdään, että eri joukkoja A on 9: {2, 4, 5, 6}, {2, 3, 5, 7}, {2, 3, 4, 8}, {1, 4, 5, 7}, {1, 3, 6, 7}, {1, 3, 5, 8}, {1, 3, 4, 9}, {1, 2, 6, 8} ja {1, 2, 5, 9}. Kun s = 28, A:n suurimman alkion on oltava 9 (5+6+7+8 = 26) ja toiseksi suurimman 8 (5 + 6 + 7 + 9 = 27). Ainoat mahdollisuudet ovat {4, 7, 8, 9} ja
+
+{5, 6, 8, 9}. Eri tapoja valita joukko A on 9 4 =
+
+9 · 8 · 7 · 6 2 · 3 · 4
+
+= 126 kappaletta. Näistä
+
+11:llä jaolliseen lukuun johtavia on edellisen mukaan 9 + 2 = 11. Todennäköisyys, että
+
+valittu luku olisi jaollinen 11:llä on siis 11 126 < 11 121 = 1 11 .
+
+\bye

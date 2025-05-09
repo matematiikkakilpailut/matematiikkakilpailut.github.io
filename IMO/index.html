@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kansainväliset matematiikkaolympialaiset – IMO</title>
+    <meta name="description" content="IMO, International Mathematical Olympiad, on vuosittain järjestettävä lukiolaisten matematiikkakilpailu. Tällä sivulla on viimeisten kilpailujen tehtäviä ja ratkaisuja sekä Suomen tulostietoja.">
+    <link href="/css/bootstrap.min.css?v=5.3.3" rel="stylesheet">
+    <style>
+     .breadcrumb {
+       --bs-breadcrumb-divider: '';
+       --bs-breadcrumb-padding-x: 0;
+       --bs-breadcrumb-item-padding-x: 0;
+     }
+     .navbar {
+       --bs-navbar-brand-padding-y: 4px;
+     }
+     [data-bs-theme="dark"] {
+       --bs-link-color: #788591;
+       --bs-link-color-rgb: 120, 133, 145;
+       .link-primary, .text-primary {
+         --bs-primary-rgb: 236, 240, 241;
+       }
+       .link-primary:hover {
+         color: rgb(128, 139, 150) !important;
+       }
+     }
+     [data-bs-theme="light"] {
+       --bs-link-color: #168366;
+       --bs-link-color-rgb: 23, 114, 83;
+       .link-primary {
+         --bs-primary-rgb: 33, 37, 41;
+         &:hover {
+           color: rgb(24, 188, 156) !important;
+         }
+       }
+     }
+     [data-bs-theme="dark"] .light-element { display: none; }
+     [data-bs-theme="light"] .dark-element { display: none; }
+     h1,h2,h3,h4,h5,h6 { text-wrap: balance; }
+     #logopalkki {
+       margin-top: 6ex;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+       align-content: center;
+     }
+     @media (pointer: coarse), (max-width: 450px) {
+       footer ul li {
+         padding-top: 0.5em;
+       }
+     }
+    </style>
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/kuvat/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/kuvat/apple-touch-icon.png">
+    <link rel="manifest" href="/kuvat/manifest.webmanifest">
+    <link rel="preload" href="/font/Lato-Regular.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/Lato-Bold.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/Lato-Italic.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="sitemap" href="/sitemap.xml">
+    <link rel="canonical" href="https://matematiikkakilpailut.fi/IMO/">
+    <link rel="alternate" type="application/atom+xml" href="https://matematiikkakilpailut.fi/feed.xml">
+    <script>
+      const getStoredTheme = () => localStorage.getItem('theme')
+      const getPreferredTheme = () => {
+        const storedTheme = getStoredTheme()
+        if (storedTheme) {
+          return storedTheme
+        }
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+      }
+      const setTheme = theme => {
+        document.documentElement.dataset.bsTheme =
+          theme === 'auto'
+          ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+          : theme
+      }
+      setTheme(getPreferredTheme())
+    </script>
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <nav data-bs-theme="dark" class="navbar navbar-expand-md bg-primary" aria-label="Päävalikko">
+  <div class="container-fluid flex-flow align-items-start">
+    <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbar-collapse" aria-controls="navbar-collapse"
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand ps-sm-4" href="/">Matematiikkavalmennus</a>
+    <div class="d-flex order-0 order-md-last ms-md-auto" id="theme-toggle" title="Taustaväri">
+      <div class="dropdown">
+        <button class="btn btn-link nav-link dropdown-toggle
+                       py-2 pt-md-2 px-1 px-lg-2
+                       d-flex align-items-center text-light"
+                type="button"
+                id="bd-theme"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
+          <svg class="bi theme-icon-active" width="16" height="16" fill="currentColor">
+            <use href="/kuvat/sprite3.svg#sun-fill"></use>
+          </svg>
+          <span class="d-none" id="bd-theme-text">Taustaväri</span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme">
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite3.svg#sun-fill"></use>
+              </svg>
+              Vaalea
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite3.svg#moon-stars-fill"></use>
+              </svg>
+              Tumma
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite3.svg#circle-half"></use>
+              </svg>
+              Automaattinen
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="collapse navbar-collapse flex-column align-items-start" id="navbar-collapse">
+      <div class="row flex-grow-1">
+        <div class="col-12 flex-grow-1">
+          <ul class="navbar-nav mb-2 mb-md-0">
+            <li class="nav-item"><a class="nav-link " href="/aikataulu/">Aikataulu</a></li>
+           <li class="nav-item"><a class="nav-link " href="/valmennus/">Kotitehtävät</a></li>
+            <li class="nav-item"><a class="nav-link " href="/aiheet/">Materiaalit</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    
+<div class="container-fluid flex-flow bg-body-secondary align-items-start">
+  <nav aria-label="navigaatiopolku" class="mt-1 ps-sm-4 small">
+    <ol class="breadcrumb mb-1" itemscope itemtype="https://schema.org/BreadcrumbList">
+      
+      <li class="breadcrumb-item pe-1" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <meta itemprop="position" content="1">
+        <a class="icon-link link-primary text-decoration-none" href="/"
+           itemscope itemtype="https://schema.org/WebPage" itemprop="item" itemid="/">
+          <span itemprop="name">Etusivu</span>
+          <svg class="bi" style="stroke-width: 1.1; stroke: currentColor;">
+            <use xlink:href="/kuvat/sprite3.svg#chevron-right"/>
+          </svg>
+        </a>
+      </li>
+      <li class="breadcrumb-item pe-1" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <meta itemprop="position" content="2">
+        <a class="icon-link link-primary text-decoration-none" href="/kilpailut/"
+           itemscope itemtype="https://schema.org/WebPage" itemprop="item" itemid="/kilpailut/">
+          <span itemprop="name">Kilpailut</span>
+          <svg class="bi" style="stroke-width: 1.1; stroke: currentColor;">
+            <use xlink:href="/kuvat/sprite3.svg#chevron-right"/>
+          </svg>
+        </a>
+      </li>
+      <li class="breadcrumb-item active text-primary" aria-current="page"
+          itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <span itemprop="name">IMO</span>
+        <meta itemprop="position" content="3">
+      </li>
+    </ol>
+  </nav>
+</div>
+
+    <div class="container flex-grow-1">
+        <header class="display-4 pt-3 pb-3 mt-3 mb-1">
+  <h1>Kansainväliset matematiikkaolympialaiset – IMO</h1>
+</header>
+<main class="row">
+  <div class="col-xs-12">
+    <h2 id="yleist%C3%A4" tabindex="-1">Yleistä</h2>
+<p><abbr>IMO</abbr> (<span lang="en">International Mathematical
+Olympiad</span>) sai alkunsa vuonna 1959 Romaniassa. Se on järjestetty
+siitä alkaen vuosittain, mutta vuosi 1980 jäi väliin. Kilpailu on
+periaatteessa vain yksilöiden välinen, mutta käytännössä joukkueiden
+pistesummia vertaillaan innokkaasti.</p>
+<p>Nykyään jokainen osallistujamaa lähettää enintään kuusi kilpailijaa,
+jotka suorittavat kaksi koetta peräkkäisinä päivinä. Kumpanakin
+päivänä ratkaistavana on kolme tehtävää, joista voi kustakin saada
+enintään seitsemän pistettä. Enintään puolelle kilpailijoista jaetaan
+kulta-, hopea- ja pronssimitaleita noin suhteessa 1 : 2 : 3. Ne
+mitalitta jääneet kilpailijat, jotka ovat ratkaisseet vähintään yhden
+tehtävän seitsemän pisteen arvoisesti, saavat kunniamaininnan.</p>
+<p>Matematiikkaolympialaisten englanninkielisiltä
+<a href="http://www.imo-official.org/">virallisilta kotisivuilta</a> löytyy paljon tietoa, mm.
+kaikkien vuosien tehtävät ja melko täydelliset tulosluettelot.
+Samanlaista tietoa ja erityisesti tehtävien ratkaisuja löytyy paljon
+myös Serbiassa ylläpidettäviltä <a href="http://www.imomath.com/">The IMO Compendium</a>-sivuilta.
+Foorumilta <a href="http://www.artofproblemsolving.com/Forum/viewforum.php?f=87">Art of Problem Solving</a> löytyy paljon
+Kansainvälisiin matematiikkaolympialaisiin liittyvää aineistoa.
+Myös <a href="http://www.math.olympiaadid.ut.ee">Viron valmennussivut</a> sisältävät kiinnostavaa (vironkielistä)
+materiaalia.</p>
+<p>Matematiikkaolympialaisten kulkua valottaa myös kilpailijoille tarkoitettu
+<a href="/kirjallisuus/kaytannon_ohjeet.pdf">käytännön opas</a>.</p>
+<h2 id="teht%C3%A4v%C3%A4t-ja-ratkaisut" tabindex="-1">Tehtävät ja ratkaisut</h2>
+<p>Vuosien 1959-1974 tehtävät ja ratkaisut ovat (vaikeasti) saatavilla
+kirjasena Matti Lehtinen (toim.):
+<em>Koululaisten kansainväliset matematiikkaolympialaiset</em>
+Kirjayhtymä 1975.
+Vuosien 1975-1994 tehtävät ja ratkaisut on koottu kirjaan
+<em>Matti Lehtinen: Matematiikan olympiakirja</em>, Weilin+Göös 1995,
+ISBN 951-35-5990-4, jota sitäkin alkaa olla hankala löytää.</p>
+<p>Oheisista linkeistä voi myös ladata matematiikkaolympialaisten
+vuosien 1959-74 <a href="imot59_74.pdf">tehtävät</a> ja
+<a href="imor59_74.pdf">tehtävät ja ratkaisut</a> sekä vuosien 1975-94
+<a href="imot75_94.pdf">tehtävät</a> ja <a href="imor75_94.pdf">ratkaisut</a>. Erityisesti
+matematiikkaolympialaisten ensimmäisten vuosien tehtävät ovat selvästi
+nykyisiä helpompia ja sopivat siis hyvin kilpailumatematiikan
+harjoitteluun. Vuosien 1995-2016 tehtävät ja ratkaisut voi ladata
+<a href="imokaikki.pdf">tästä</a> (n. 1 Mt). Myös tämän sivun lopussa oleva
+taulukko sisältää linkkejä eri vuosien tehtäviin ja niiden
+ratkaisuihin.</p>
+<h2 id="menneet-kilpailut" tabindex="-1">Menneet kilpailut</h2>
+<p>Lue olympialaisiin valmentautumisesta ja erityisesti vuoden
+2018 kilpailusta <a href="https://www.apu.fi/artikkelit/laske-kovempaa">Image-lehdestä</a>.</p>
+<p>Alla on tietoa menneistä kilpailuista vuodesta 1993 lähtien.</p>
+<div role="list">
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><strong>Vuosi</strong></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><strong>Paikka</strong></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><strong>Tehtävät</strong></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><strong>Ratkaisut</strong></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><strong>Suomen tulos</strong></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><strong>Matkakertomus</strong></div>
+  <div class="col-12 col-lg-10 offset-lg-1"><strong>Suomen joukkue</strong></div>
+</div>
+<hr>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">2024</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo2024.uk/">Bath, Yhdistynyt Kuningaskunta</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="2024/teht2024.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">—</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/team_r.aspx?code=FIN&amp;year=2024">85 p. (62./108)</a>, 1 hopea, 1 pronssi</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">—</div>
+  <div class="col-12 col-lg-10 offset-lg-1">Aino Aulanko, Zhongyi Li, Siiri Roschier, Albert Henriksson, Artúr Nádor, Zhiyuan Liu</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">2023</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://imo2023.jp/en/">Chiba, Japani</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="2023/teht2023.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">—</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/team_r.aspx?code=FIN&amp;year=2023">91 p. (64./112)</a>, 1 hopea, 1 pronssi</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">—</div>
+  <div class="col-12 col-lg-10 offset-lg-1">Daniil Akimov, Aino Aulanko, Siiri Roschier, Kristian Latvanen, Jussi Marttinen, Daniel Slivinskiy</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">2022</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo2022.org">Oslo, Norja</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="2022/teht2022.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">—</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/team_r.aspx?code=FIN&amp;year=2022">101 p. (62./104)</a>, 1 pronssi</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">—</div>
+  <div class="col-12 col-lg-10 offset-lg-1">Into Almiala, Juho Arala, Aino Aulanko, Kristian Latvanen, Jussi Marttinen, Sampo Siitonen</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">2021</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://imo2021.ru/">Pietari, Venäjä (virtuaalinen)</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="2021/teht2021.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">—</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/team_r.aspx?code=FIN&amp;year=2021">41 p. (69./107)</a>, 1 pronssi</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">—</div>
+  <div class="col-12 col-lg-10 offset-lg-1">Juho Arala, Daniel Arone, Sampo Siitonen, Tianyue Ruby Sun, Anni Tapionlinna, Ville Uotila</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">2020</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://imo2020.ru/">Pietari, Venäjä (virtuaalinen)</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="2020/teht2020.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="2020/sol2020.pdf">pdf englanniksi</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/year_country_r.aspx?year=2020">81 p. (60./105)</a>, 1 hopea, 1 pronssi</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="https://matematiikkalehtisolmu.fi/2020/3/IMO2020.pdf">Solmussa</a></div>
+  <div class="col-12 col-lg-10 offset-lg-1">Juho Arala, Daniel Arone, Asla Heiskanen, Hermanni Huhtamäki, Roope Salmi, Sampo Siitonen</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">2019</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo2019.uk/">Bath, Yh­dis­ty­nyt kuningas­kunta</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="2019/teht2019.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="https://matematiikkalehtisolmu.fi/2020/1/IMO2019.pdf">Solmussa</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/year_country_r.aspx?year=2019">78 p. (65./112)</a>, 1 hopea, 1 pronssi</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="https://www.dimensiolehti.fi/kansainvaliset-matematiikkaolympialaiset-imo-2019/">Dimensiossa</a>, <a href="https://matematiikkalehtisolmu.fi/2020/1/IMO2019.pdf">Solmussa</a></div>
+  <div class="col-12 col-lg-10 offset-lg-1">Juho Arala, Hermanni Huhtamäki, Akseli Jussinmäki, Olli Järviniemi, Roope Salmi, Nerissa Shakespeare</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">2018</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://web.archive.org/web/20181124141311/http://imo2018.org/index.html">Cluj-Napoca, Romania</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="2018/teht2018.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="https://matematiikkalehtisolmu.fi/2018/3/IMO18.pdf">Solmu-lehdessä</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/year_country_r.aspx?year=2018">70 p. (59./107)</a>, 2 pronssia</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="https://matematiikkalehtisolmu.fi/2018/3/IMO18.pdf">Solmu-lehdessä</a> ja <a href="https://www.dimensiolehti.fi/suomelle-kaksi-pronssia-matematiikkaolympialaisista/">Dimensiossa</a></div>
+  <div class="col-12 col-lg-10 offset-lg-1">Joonatan Honkamaa, Hermanni Huhtamäki, Akseli Jussinmäki, Olli Järviniemi, Nerissa Shakespeare, Selim Virtanen</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">2017</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="http://web.archive.org/web/20210424034030/https://www.imo2017.org.br/">Rio de Janeiro, Brasilia</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="2017/teht2017.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="https://matematiikkalehtisolmu.fi/2017/3/imo2017.pdf">Solmu-lehdessä</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/year_country_r.aspx?year=2017">56 p. (84./110)</a>, ei mitaleja</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="https://matematiikkalehtisolmu.fi/2017/3/imo2017.pdf">Solmu-lehdessä</a></div>
+  <div class="col-12 col-lg-10 offset-lg-1">Hermanni Huhtamäki, Olli Järviniemi, Joose Lehtinen, Jesse Nieminen, Antti Röyskö, Tarmo Taipale</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">2016</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3">Hongkong</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="2016/teht2016.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="2016/ratk2016.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/year_country_r.aspx?year=2016">55 p. (71./109)</a>, ei mitaleja</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">—</div>
+  <div class="col-12 col-lg-10 offset-lg-1">Ella Anttila, Hannes Ihalainen, Alvar Kallio, Iiro Kumpulainen, Joose Lehtinen, Antti Röyskö</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">2015</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="http://www.imo2015.org/">Chiang Mai, Thaimaa</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="2015/teht2015.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="2015/ratk2015.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/year_country_r.aspx?year=2015">26 p. (82./104)</a>, ei mitaleja </div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">—</div>
+  <div class="col-12 col-lg-10 offset-lg-1">Ella Anttila, Kalle Luopajärvi, Juuso Heinonen, Tuukka Korhonen, Iiro Kumpulainen, Ella Tamir</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">2014</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3">Kapkaupunki, Etelä-Afrikka</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="2014/IMOteht2014.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="2014/IMOratk2014.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/year_country_r.aspx?year=2014">46 p. (70./101)</a>, 1 pronssi</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="https://matematiikkalehtisolmu.fi/2014/3/imo14.pdf">Solmu-lehdessä</a></div>
+  <div class="col-12 col-lg-10 offset-lg-1">Jere Huovinen, Mirjam Kauppila, Riku Laakkonen, Timo Takala, Ella Tamir, Jakob Wartiovaara</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">2013</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3">Santa Marta, Kolumbia</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="2013/teht2013.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="2013/ratk2013.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/year_country_r.aspx?year=2013">46 p. (67./97)</a>, 1 hopea</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">—</div>
+  <div class="col-12 col-lg-10 offset-lg-1">Otte Heinävaara, Mirjam Kauppila, Katja Kulmala, Neea Palojärvi, Eero Räty, Joni Teräväinen</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">2012</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="http://web.archive.org/web/20210412034139/https://www.oma.org.ar/imo2012/">Mar del Plata, Argentiina</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="2012/teht2012.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="2012/ratk2012.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/year_country_r.aspx?year=2012">57 p. (65./100)</a>, 1 hopea</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">—</div>
+  <div class="col-12 col-lg-10 offset-lg-1">Otte Heinävaara, Joni Teräväinen, Eero Räty, Felix Vaura, Niko Väisänen, Jiali Yan</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">2011</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="http://web.archive.org/web/20141007082517/https://www.imo2011.nl/">Amsterdam, Hollanti</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="2011/teht2011.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="2011/ratk2011.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/year_country_r.aspx?year=2011">68 p. (57./101)</a>, 1 hopea</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">—</div>
+  <div class="col-12 col-lg-10 offset-lg-1">Olli Hirviniemi, Jesse Jääsaari, Ilmari Kangasniemi, Dimitri Kirichenko, Joni Teräväinen, Felix Vaura</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">2010</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3">Astana, Kazakstan</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="2010/IMO2010.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="2010/IMO2010r.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/year_country_r.aspx?year=2010">52 p. (72./96)</a>, 1 pronssi</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">—</div>
+  <div class="col-12 col-lg-10 offset-lg-1">Olli Hirviniemi, Ilmari Kangasniemi, Dimitri Kirichenko, Aleksi Korpinen, Aleksis Koski, Topi Talvitie</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">2009</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3">Bremen, Saksa</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="2009/IMO2009.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="2009/IMO2009r.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/year_country_r.aspx?year=2009&amp;column=total&amp;order=desc">49 p. (67./104)</a>, ei mitaleja</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">—</div>
+  <div class="col-12 col-lg-10 offset-lg-1">Aleksis Koski, Konsta Lensu, Heikki Pulkkinen, Alexey Sofiev, Topi Talvitie, Lasse Vekama</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">2008</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="http://web.archive.org/web/20191103153707/http://www.imo-2008.es:80/">Madrid, Espanja</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="2008/IMO2008.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="2008/IMO2008r.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/year_country_r.aspx?year=2008&amp;column=total&amp;order=desc">40 p. (74./97)</a>, 1 pronssi</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">—</div>
+  <div class="col-12 col-lg-10 offset-lg-1">Sylvester Eriksson-Bique, Lauri Hitruthin, Jonatan Lehtonen, Janne Junnila, Heikki Pulkkinen, Lasse Vekama</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">2007</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3">Hanoi, Vietnam</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="2007/teht2007.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="imokaikki.pdf">kokoelmassa</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/year_country_r.aspx?year=2007&amp;column=total&amp;order=desc">55 p. (61./90)</a>, 1 hopea</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">—</div>
+  <div class="col-12 col-lg-10 offset-lg-1">Sebastian Dumitrescu, Janne Junnila, Janne Korvenpää, Eerno Niemenmaa, Tomás Soto, Esa Vesalainen</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">2006</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="http://imo2006.dmfa.si/">Ljubljana, Slovenia</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="2006/teht2006.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="imokaikki.pdf">kokoelmassa</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/year_country_r.aspx?year=2006&amp;column=total&amp;order=desc">86 p. (39./90)</a>, 4 pronssia</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">—</div>
+  <div class="col-12 col-lg-10 offset-lg-1">Eemeli Blåsten, Sebastian Dumitrescu, Janne Kokkala, Ville Pettersson, Jukka Sireni, Esa Vesalainen</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">2005</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3">Merida, Meksiko</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="2005/IMO2005.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="imokaikki.pdf">kokoelmassa</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/year_country_r.aspx?year=2005&amp;column=total&amp;order=desc">49 p. (55./91)</a>, 2 pronssia</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">—</div>
+  <div class="col-12 col-lg-10 offset-lg-1">Samu Alanko, Eemeli Blåsten, Sebastian Dumitrescu, Janne Kokkala, Ville Pettersson, Esa Vesalainen</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">2004</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3">Ateena, Kreikka</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="2004/teht2004.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="2004/IMO2004r.pdf">pdf</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/year_country_r.aspx?year=2004&amp;column=total&amp;order=desc">49 p. (63./85)</a>, 1 pronssi</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">—</div>
+  <div class="col-12 col-lg-10 offset-lg-1">Lauri Ahlroth, Mika Nikula, Juho Pakarinen, Ville Pettersson, Juuso Takalainen, Tuomas Tuomiranta</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">2003</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3">Tokio, Japani</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="imokaikki.pdf">kokoelmassa</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="imokaikki.pdf">kokoelmassa</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/year_country_r.aspx?year=2003&amp;column=total&amp;order=desc">43 p. (55./82)</a>, 1 pronssi</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">—</div>
+  <div class="col-12 col-lg-10 offset-lg-1">Miikka Heikkinen, Kaisa Matomäki, Markus Ojala, Veli Peltola, Aleksi Saarela, Niko Vuokko</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">2002</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3">Glasgow, Skotlanti, Iso-Britannia</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="2002/IMO2002.ps">ps</a>, <a href="2002/IMO2002.tex">tex</a> </div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="imokaikki.pdf">kokoelmassa</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/year_country_r.aspx?year=2002&amp;column=total&amp;order=desc">79 p. (38./84)</a>, 3 pronssia</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">—</div>
+  <div class="col-12 col-lg-10 offset-lg-1">Miikka Heikkinen, Kaisa Matomäki, Markus Ojala, Veli Peltola, Olli-Pentti Saira, Niko Vuokko</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">2001</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3">Washington, DC, Yhdysvallat</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="2001/IMO2001.ps">ps</a>, <a href="2001/IMO2001.tex.gz">gz</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="2001/IMO2001r.ps">ps</a>, <a href="2001/IMO2001r.pdf">pdf</a>, <a href="2001/IMO2001r.tgz">tgz</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/year_country_r.aspx?year=2001&amp;column=total&amp;order=desc">32 p. (63./83)</a>, 1 pronssi</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">—</div>
+  <div class="col-12 col-lg-10 offset-lg-1">Anne-Maria Ernvall, Riikka Korte, Sampo Niskanen, Veli Peltola, Jarkko Pyy, Tapio Rajala</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">2000</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3">Taejon, Korea</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="http://solmu.math.helsinki.fi/2000/3/lehtinen/#SECTION00012000000000000000">html</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="imokaikki.pdf">kokoelmassa</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/year_country_r.aspx?year=2000&amp;column=total&amp;order=desc">52 p. (52./82)</a>, 3 pronssia</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="http://solmu.math.helsinki.fi/2000/3/lehtinen/">Solmu-lehdessä</a></div>
+  <div class="col-12 col-lg-10 offset-lg-1">Anne-Maria Ernvall, Mikko Harju, Riikka Korte, Teemu Murtola, Jarkko Pyy, Johanna Tikanmäki</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">1999</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3">Bukarest, Romania</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="1999/IMO1999.tgz">tgz</a>, <a href="http://solmu.math.helsinki.fi/1999/4/lehtinen/tehtavat.html">html</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="imokaikki.pdf">kokoelmassa</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/year_country_r.aspx?year=1999&amp;column=total&amp;order=desc">65 p. (43./81)</a>, 1 hopea</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="http://solmu.math.helsinki.fi/1999/4/lehtinen/">Solmu-lehdessä</a></div>
+  <div class="col-12 col-lg-10 offset-lg-1">Anne-Maria Ernvall, Tuomas Hytönen, Riikka Korte, Mikko Leppänen, Hannu Niemistö, Vesa Riihimäki</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">1998</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3">Taipei, Taiwan</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="imokaikki.pdf">kokoelmassa</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="imokaikki.pdf">kokoelmassa</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/year_country_r.aspx?year=1998&amp;column=total&amp;order=desc">30 p. (60./76)</a>, ei mitaleja</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="https://matematiikkalehtisolmu.fi/1998/2/kangaslampi.html">Solmu-lehdessä</a></div>
+  <div class="col-12 col-lg-10 offset-lg-1">Mikko Harju, Tuomas Hytönen, Tuomo Hyyryläinen, Riikka Kangaslampi, Hannu Niemistö, Tomas Östman</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">1997</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="http://www.oma.org.ar/imo97/index_en.html">Mar del Plata, Argentiina</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="imokaikki.pdf">kokoelmassa</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="imokaikki.pdf">kokoelmassa</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/year_country_r.aspx?year=1997&amp;column=total&amp;order=desc">97 p. (34./82)</a>, 4 pronssia</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">—</div>
+  <div class="col-12 col-lg-10 offset-lg-1">Jori Dubrovin, Lauri Hallila, Antti Honkela, Peter Hästö, Hannu Niemistö, Tomas Östman</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">1996</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3">Mumbai, Intia</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="imokaikki.pdf">kokoelmassa</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="imokaikki.pdf">kokoelmassa</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/year_country_r.aspx?year=1996&amp;column=total&amp;order=desc">58 p. (39./75)</a>, 2 pronssia</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">—</div>
+  <div class="col-12 col-lg-10 offset-lg-1">Lauri Hallila, Nyyti Hyvönen, Peter Hästö, Toni Leppäkorpi, Tapani Raiko, Mikko Vepsäläinen</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">1995</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3">Toronto, Kanada</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="imokaikki.pdf">kokoelmassa</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="imokaikki.pdf">kokoelmassa</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/year_country_r.aspx?year=1995&amp;column=total&amp;order=desc">101 p. (36./73)</a>, 3 pronssia</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">—</div>
+  <div class="col-12 col-lg-10 offset-lg-1">Heikki Hyyrö, Tuomas Korppi, Toni Leppäkorpi, Jouni Seppänen, Jukka Suomela, Uoti Urpala</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">1994</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3">Hongkong</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="imot75_94.pdf">kokoelmassa</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="imor75_94.pdf">kokoelmassa</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/year_country_r.aspx?year=1994&amp;column=total&amp;order=desc">70 p. (48./69)</a>, ei mitaleja</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">—</div>
+  <div class="col-12 col-lg-10 offset-lg-1">Ilkka Alasaarela, Heikki Hyyrö, Jaakko Kangasharju, Juha Lemetti, Jouni Seppänen, Uoti Urpala</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">1993</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3">Istanbul, Turkki</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-1"><a href="imot75_94.pdf">kokoelmassa</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2"><a href="imor75_94.pdf">kokoelmassa</a></div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-3"><a href="https://www.imo-official.org/year_country_r.aspx?year=1993&amp;column=total&amp;order=desc">33 p. (52./72)</a>, ei mitaleja</div>
+  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">—</div>
+  <div class="col-12 col-lg-10 offset-lg-1">Ilkka Alasaarela, Juha Lemetti, Lari Rajantie, Simo Suhonen, Sirpa Taskinen, Kaarlo Väisänen</div>
+</div>
+</div>
+
+  </div>
+</main>
+
+
+    </div>
+    
+
+<footer class="footer mt-auto py-4 bg-body-tertiary">
+  <div class="container-md small">
+    <div class="row gy-4">
+      <div class="col-sm-6 col-md-4">
+        <div id="footer-valmennus-heading" class="fw-bold mb-2 fs-6">Valmennus</div>
+        <ul aria-labelledby="footer-valmennus-heading" class="list-unstyled mb-0">
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/kilpailut/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#trophy-fill"/>
+    </svg>
+    Kilpailut
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/aiheet/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#book"/>
+    </svg>
+    Materiaalit
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/kaytanto/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#calendar-event"/>
+    </svg>
+    Tapahtumat
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/valmennus/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#envelope-fill"/>
+    </svg>
+    Kotitehtävät
+  </a>
+</li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div id="footer-yhteystiedot-heading" class="fw-bold mb-2 fs-6">Yhteystiedot</div>
+        <ul aria-labelledby="footer-yhteystiedot-heading" class="list-unstyled mb-0">
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="mailto:info@matematiikkakilpailut.fi"
+    title="Sähköposti"
+    rel="author"
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#envelope-fill"/>
+    </svg>
+    info@matematiikkakilpailut.fi
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/valmentajat/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#people-fill"/>
+    </svg>
+    Valmentajat
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/feed.xml"
+    title="RSS-syöte"
+    rel="alternate"
+    
+    type="application/atom+xml"
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#rss-fill"/>
+    </svg>
+    RSS-syöte
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="https://t.me/+TS59DXkdJpozNDU0"
+    title="Telegram"
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#telegram"/>
+    </svg>
+    Telegram-keskusteluryhmä
+  </a>
+</li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div id="footer-muuta-heading" class="fw-bold mb-2 fs-6">Muuta</div>
+        <ul aria-labelledby="footer-muuta-heading" class="list-unstyled mb-0">
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/kerhot/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#people-fill"/>
+    </svg>
+    Kerhot
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/linkit/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#link-45deg"/>
+    </svg>
+    Linkkejä
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/tietosuoja/"
+    
+    rel="privacy-policy"
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#shield-fill"/>
+    </svg>
+    Tietosuoja
+  </a>
+</li>
+          <li lang="en">
+  <a class="icon-link link-primary text-decoration-none" href="/english/"
+    
+    
+    hreflang="en"
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#translate"/>
+    </svg>
+    In English
+  </a>
+</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script defer src="/js/theme.js"></script>
+    <script type="module" src="/js/instant.page.min.js"></script>
+    <script defer src="/js/bootstrap.bundle.min.js?v=5.3.3"></script>
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "45380cb8b30d4b0791d27e340eefc4da"}'></script>
+  </body>
+</html>
