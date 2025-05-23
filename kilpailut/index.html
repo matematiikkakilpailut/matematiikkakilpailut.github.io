@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kilpailut</title>
+    <meta name="description" content="Suomalaisia ja kansainvälisiä matematiikkakilpailuja: MAOLin kilpailu, Pythagoraan polku, Iranin geometriakilpailu, Pohjoismainen kilpailu, Baltian tie, Euroopan tyttöjen matematiikkaolympialaiet ja Kansainväliset matematiikkaolympialaiset.">
+    <link href="/css/bootstrap.min.css?v=5.3.3" rel="stylesheet">
+    <style>
+     .breadcrumb {
+       --bs-breadcrumb-divider: '';
+       --bs-breadcrumb-padding-x: 0;
+       --bs-breadcrumb-item-padding-x: 0;
+     }
+     .navbar {
+       --bs-navbar-brand-padding-y: 4px;
+     }
+     [data-bs-theme="dark"] {
+       --bs-link-color: #788591;
+       --bs-link-color-rgb: 120, 133, 145;
+       .link-primary, .text-primary {
+         --bs-primary-rgb: 236, 240, 241;
+       }
+       .link-primary:hover {
+         color: rgb(128, 139, 150) !important;
+       }
+     }
+     [data-bs-theme="light"] {
+       --bs-link-color: #168366;
+       --bs-link-color-rgb: 23, 114, 83;
+       .link-primary {
+         --bs-primary-rgb: 33, 37, 41;
+         &:hover {
+           color: rgb(24, 188, 156) !important;
+         }
+       }
+     }
+     [data-bs-theme="dark"] .light-element { display: none; }
+     [data-bs-theme="light"] .dark-element { display: none; }
+     h1,h2,h3,h4,h5,h6 { text-wrap: balance; }
+     #logopalkki {
+       margin-top: 6ex;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+       align-content: center;
+     }
+     @media (pointer: coarse), (max-width: 450px) {
+       footer ul li {
+         padding-top: 0.5em;
+       }
+     }
+    </style>
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/kuvat/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/kuvat/apple-touch-icon.png">
+    <link rel="manifest" href="/kuvat/manifest.webmanifest">
+    <link rel="preload" href="/font/Lato-Regular.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/Lato-Bold.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/Lato-Italic.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="sitemap" href="/sitemap.xml">
+    <link rel="canonical" href="https://matematiikkakilpailut.fi/kilpailut/">
+    <link rel="alternate" type="application/atom+xml" href="https://matematiikkakilpailut.fi/feed.xml">
+    <script>
+      const getStoredTheme = () => localStorage.getItem('theme')
+      const getPreferredTheme = () => {
+        const storedTheme = getStoredTheme()
+        if (storedTheme) {
+          return storedTheme
+        }
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+      }
+      const setTheme = theme => {
+        document.documentElement.dataset.bsTheme =
+          theme === 'auto'
+          ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+          : theme
+      }
+      setTheme(getPreferredTheme())
+    </script>
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <nav data-bs-theme="dark" class="navbar navbar-expand-md bg-primary" aria-label="Päävalikko">
+  <div class="container-fluid flex-flow align-items-start">
+    <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbar-collapse" aria-controls="navbar-collapse"
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand ps-sm-4" href="/">Matematiikkavalmennus</a>
+    <div class="d-flex order-0 order-md-last ms-md-auto" id="theme-toggle" title="Taustaväri">
+      <div class="dropdown">
+        <button class="btn btn-link nav-link dropdown-toggle
+                       py-2 pt-md-2 px-1 px-lg-2
+                       d-flex align-items-center text-light"
+                type="button"
+                id="bd-theme"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
+          <svg class="bi theme-icon-active" width="16" height="16" fill="currentColor">
+            <use href="/kuvat/sprite3.svg#sun-fill"></use>
+          </svg>
+          <span class="d-none" id="bd-theme-text">Taustaväri</span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme">
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite3.svg#sun-fill"></use>
+              </svg>
+              Vaalea
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite3.svg#moon-stars-fill"></use>
+              </svg>
+              Tumma
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite3.svg#circle-half"></use>
+              </svg>
+              Automaattinen
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="collapse navbar-collapse flex-column align-items-start" id="navbar-collapse">
+      <div class="row flex-grow-1">
+        <div class="col-12 flex-grow-1">
+          <ul class="navbar-nav mb-2 mb-md-0">
+            <li class="nav-item"><a class="nav-link " href="/aikataulu/">Aikataulu</a></li>
+           <li class="nav-item"><a class="nav-link " href="/valmennus/">Kotitehtävät</a></li>
+            <li class="nav-item"><a class="nav-link " href="/aiheet/">Materiaalit</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    
+<div class="container-fluid flex-flow bg-body-secondary align-items-start">
+  <nav aria-label="navigaatiopolku" class="mt-1 ps-sm-4 small">
+    <ol class="breadcrumb mb-1" itemscope itemtype="https://schema.org/BreadcrumbList">
+      
+      <li class="breadcrumb-item pe-1" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <meta itemprop="position" content="1">
+        <a class="icon-link link-primary text-decoration-none" href="/"
+           itemscope itemtype="https://schema.org/WebPage" itemprop="item" itemid="/">
+          <span itemprop="name">Etusivu</span>
+          <svg class="bi" style="stroke-width: 1.1; stroke: currentColor;">
+            <use xlink:href="/kuvat/sprite3.svg#chevron-right"/>
+          </svg>
+        </a>
+      </li>
+      <li class="breadcrumb-item active text-primary" aria-current="page"
+          itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <span itemprop="name">Kilpailut</span>
+        <meta itemprop="position" content="2">
+      </li>
+    </ol>
+  </nav>
+</div>
+
+    <div class="container flex-grow-1">
+        <header class="display-4 pt-3 pb-3 mt-3 mb-1">
+  <h1>Kilpailut</h1>
+</header>
+<main class="row">
+  <div class="col-xs-12">
+    <h4 id="maol%3An-kilpailu" tabindex="-1"><a href="/MAOL/">MAOL:n kilpailu</a></h4>
+<p>Suomen kansallinen matematiikkakilpailu. Lukion kilpailu jakautuu
+avoimeen sarjaan sekä lukiota aloittelevien perussarjaan; lisäksi
+peruskoululaisilla on oma kilpailunsa. Kansainvälisiin
+kilpailuihin pyrkiville suositellaan avointa sarjaa, jonka
+kilpailu jakautuu alku- ja loppukilpailuun.  Edellisessä tehtäviä
+on yleensä 4 ja kesto on 120 min. Jälkimmäisessä on 5 tehtävään
+työaikaa kolme tuntia.  MAOL:n kilpailu on luetelluista
+kilpailuista selkeästi helpoin.</p>
+<h4 id="pythagoraan-polku" tabindex="-1"><a href="/pythagoras/">Pythagoraan polku</a></h4>
+<p>Pythagoraan polku on Päivölän Opiston keväisin järjestämä
+joukkuekilpailu Baltian tie -kilpailun mallin mukaan. Kilpailuun
+osallistuminen on perustunut kutsuun. Osallistuvia lukioita on
+ollut kymmenkunta.</p>
+<h4 id="iranin-geometriakilpailu" tabindex="-1"><a href="/IGO/">Iranin geometriakilpailu</a></h4>
+<p>Iranin geometriakilpailussa, IGO, kilpailutehtävät koostuvat
+geometriasta. Kilpailussa on kolme luokka-asteisiin perustuvaa
+sarjaa sekä avoin sarja. Kilpailu onkin hyvä tapa aloittaa
+kansainvälinen kilpailu-ura.</p>
+<h4 id="pohjoismainen-matematiikkakilpailu" tabindex="-1"><a href="/PM/">Pohjoismainen matematiikkakilpailu</a></h4>
+<p>Vaikeampi kuin MAOL, helpompi kuin IMO. Kilpailuun valitaan
+noin 20 valmennettavaa, ja tuloksilla on suurehko merkitys
+IMO-joukkuetta valittaessa. Kilpailijat tekevät nelitehtäväisen
+nelituntisen kokeen omassa koulussaan.</p>
+<h4 id="baltian-tie" tabindex="-1"><a href="/Baltian_tie/">Baltian tie</a></h4>
+<p>Baltian tie on useimmista kilpailuista poiketen joukkuekilpailu.
+Kilpailuun osallistuvat Itämeren alueen maat ja pohjoismaat
+kansallisilla joukkueilla, paitsi Venäjä, joka kilpailee Pietarin
+alueen joukkueella, ja Saksa, jonka joukkue edustaa
+hansakaupunkien aluetta.  Kilpailussa on peräti 20 tehtävää,
+joiden ratkaisemiseen on aikaa vain 4,5 tuntia.</p>
+<h4 id="euroopan-tytt%C3%B6jen-matematiikkaolympialaiset" tabindex="-1"><a href="/EGMO/">Euroopan Tyttöjen Matematiikkaolympialaiset</a></h4>
+<p>Euroopan Tyttöjen Matematiikkaolympialaiset, EGMO, on perustettu
+vuonna 2011. Kilpailun tarkoitus on korjata Kansainvälisissä
+matematiikkaolympialaisissa vallitsevaa sukupuolten epätasapainoa
+kannustamalla tyttöjä pyrkimään Kansainvälisiin
+olympialaisiin. Kilpailu on kaksipäiväinen ja noudattaa muutenkin
+Kansainvälisten Matematiikkaolympialaisten muotoja.</p>
+<h4 id="kansainv%C3%A4liset-matematiikkaolympialaiset" tabindex="-1"><a href="/IMO/">Kansainväliset Matematiikkaolympialaiset</a></h4>
+<p><span lang="en">International Mathematical Olympiad</span>, IMO.
+IMO on lukiolaisten matematiikkakilpailujen hierarkian huipulla.
+Kukin kutsuttu maa voi lähettää kilpailuun kuusi osallistujaa.
+Tehtävät ovat vaikeita.  Kilpailu on kaksipäiväinen; kumpanakin
+päivänä kamppaillaan 4,5 tuntia kolmen tehtävän parissa.</p>
+<h4 id="kenguru" tabindex="-1"><a href="https://www.mayk.fi/kenguru">Kenguru</a></h4>
+<p>Australiasta lähtöisin olevassa kilpailussa on miljoonia osallistujia
+viidessä sarjassa alakoulusta lukioon.  Se pidetään maaliskuun
+kolmantena torstaina, ja siihen pääsee mukaan niin, että opettaja
+ilmoittaa koulunsa kilpailun järjestäjille.</p>
+<h4 id="matikkamestari" tabindex="-1"><a href="https://web.archive.org/web/20220925084909/https://www.matikkamankkaa.fi/matikkamestari/">Matikkamestari</a></h4>
+<p>Kilpailu Espoon koulujen kuudesluokkalaisille, ehkä lopettanut?</p>
+<h4 id="seitsem%C3%A4sluokkalaisten-alueellinen-matematiikkakilpailu" tabindex="-1"><a href="/seiskat/">Seitsemäsluokkalaisten alueellinen matematiikkakilpailu</a></h4>
+<p>Kilpailu järjestetään Helsingissä, Oulussa, Turussa ja Satakunnassa.</p>
+<h4 id="matcup" tabindex="-1"><a href="https://matcup.edublogs.org/">MatCup</a></h4>
+<p><a href="https://web.archive.org/web/20240906140207/http://mathclasscomp.com/">Pohjoismainen matematiikkakilpailu</a>,
+johon Suomessa osallistuvat kahdeksasluokkalaiset.</p>
+<h4 id="mattet%C3%A4phlan" tabindex="-1">Mattetäphlan</h4>
+<p>Mattetäphlan on Aalto-yliopiston ruotsinkielisen osakunnan <a href="https://www.teknologforeningen.fi/">Teknologföreningenin</a> järjestämä matematiikkakilpailu kaikille ruotsinkielisten lukioiden abeille. Kilpailu järjestetään vuosittain ja siihen kuuluu alkukilpailu omassa koulussa ja loppukilpailu Otaniemessä.</p>
+<h4 id="ammatikkatop" tabindex="-1"><a href="https://maol.fi/ammatikka-kilpailu/">AmmatikkaTop</a></h4>
+<p>AmmatikkaTop on <a href="https://maol.fi/">MAOLin</a> ja <a href="https://www.tekniikanopettajat.fi/">Tekniikan opettajat TOP ry:n</a>
+järjestämä kilpailu ammatillisen toisen asteen opiskelijoille.</p>
+
+  </div>
+</main>
+
+
+    </div>
+    
+
+<footer class="footer mt-auto py-4 bg-body-tertiary">
+  <div class="container-md small">
+    <div class="row gy-4">
+      <div class="col-sm-6 col-md-4">
+        <div id="footer-valmennus-heading" class="fw-bold mb-2 fs-6">Valmennus</div>
+        <ul aria-labelledby="footer-valmennus-heading" class="list-unstyled mb-0">
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/kilpailut/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#trophy-fill"/>
+    </svg>
+    Kilpailut
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/aiheet/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#book"/>
+    </svg>
+    Materiaalit
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/kaytanto/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#calendar-event"/>
+    </svg>
+    Tapahtumat
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/valmennus/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#envelope-fill"/>
+    </svg>
+    Kotitehtävät
+  </a>
+</li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div id="footer-yhteystiedot-heading" class="fw-bold mb-2 fs-6">Yhteystiedot</div>
+        <ul aria-labelledby="footer-yhteystiedot-heading" class="list-unstyled mb-0">
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="mailto:info@matematiikkakilpailut.fi"
+    title="Sähköposti"
+    rel="author"
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#envelope-fill"/>
+    </svg>
+    info@matematiikkakilpailut.fi
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/valmentajat/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#people-fill"/>
+    </svg>
+    Valmentajat
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/feed.xml"
+    title="RSS-syöte"
+    rel="alternate"
+    
+    type="application/atom+xml"
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#rss-fill"/>
+    </svg>
+    RSS-syöte
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="https://t.me/+TS59DXkdJpozNDU0"
+    title="Telegram"
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#telegram"/>
+    </svg>
+    Telegram-keskusteluryhmä
+  </a>
+</li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div id="footer-muuta-heading" class="fw-bold mb-2 fs-6">Muuta</div>
+        <ul aria-labelledby="footer-muuta-heading" class="list-unstyled mb-0">
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/kerhot/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#people-fill"/>
+    </svg>
+    Kerhot
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/linkit/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#link-45deg"/>
+    </svg>
+    Linkkejä
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/tietosuoja/"
+    
+    rel="privacy-policy"
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#shield-fill"/>
+    </svg>
+    Tietosuoja
+  </a>
+</li>
+          <li lang="en">
+  <a class="icon-link link-primary text-decoration-none" href="/english/"
+    
+    
+    hreflang="en"
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#translate"/>
+    </svg>
+    In English
+  </a>
+</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script defer src="/js/theme.js"></script>
+    <script type="module" src="/js/instant.page.min.js"></script>
+    <script defer src="/js/bootstrap.bundle.min.js?v=5.3.3"></script>
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "45380cb8b30d4b0791d27e340eefc4da"}'></script>
+  </body>
+</html>

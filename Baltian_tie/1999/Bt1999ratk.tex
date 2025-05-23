@@ -1,0 +1,460 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[finnish]{babel}
+\usepackage{amsmath,amsfonts,amssymb,epsfig}
+\parindent=0pt
+\begin{document}
+
+\section*{Baltian tie 1999 -- ratkaisut}
+
+\subsubsection*{Tehtävä 1}
+Sijoittamalla tehtävän yhtälöihin $A=a+1$, $B=b+1$, $C=c+1$ ja $D=d+1$
+saadaan
+\begin{eqnarray}
+ABC & = & 2 \label{11} \\
+BCD & = & 10 \label{12} \\
+CDA & = & 10 \label{13} \\
+DAB & = & 10. \label{14}
+\end{eqnarray}
+Kertomalla keskenään (\ref{11}), (\ref{12}) ja (\ref{13}) saadaan $C^3
+(DAB)^2 = 200$, josta yhtälön (\ref{14}) mukaan seuraa $C^3=2$. Vastaavasti
+$A^3= B^3= 2$ ja $D^3 = 250$. Alkuperäisen yhtälöryhmän ainoa ratkaisu on
+$a = b = c = \sqrt[3]{2} - 1$, $d = 5\sqrt[3]{2} - 1$.
+
+\subsubsection*{Tehtävä 2}
+
+Yksi ratkaisu on $32^3=32\,768$. Osoitetaan, että muita ratkaisuja ei ole.
+
+Jos $n^3$ on ratkaisu, tehtävän ehtojen mukaan pätee $1000n \leq n^3 <
+1000(n+1)$. Vasemmanpuoleisesta epäyhtälöstä $n^2 \geq 1000$, eli $n \geq
+32$. Oikeanpuoleisesta epäyhtälöstä $n^2 < 1000 \left( 1 + \dfrac{1}{n}
+\right) \leq 1000 \left( 1 + \dfrac{1}{32} \right) < 1032$, eli $n \leq 32$.
+
+\subsubsection*{Tehtävä 3}
+Kun $n=3$ voidaan kirjoittaa 
+\begin{multline*}
+0 = (a_1 + a_2 + a_3)^2 = a_1^2 + a_2^2 + a_3^2 + 2(a_1a_2 + a_2a_3 +
+a_3a_1) \\
+\geq 2(a_1a_2 + a_2a_3 + a_3a_1).
+\end{multline*}
+Kun $n=4$ voidaan kirjoittaa
+\begin{multline*}
+a_1a_2+ a_2a_3 + a_3a_4 + a_4a_1 = (a_1 + a_3)(a_2 + a_4) \leq \\
+\frac{1}{2} (a_1 + a_2 + a_3 + a_4)^2 = 0.
+\end{multline*}
+Jos $n \geq 5$, valitsemalla $a_1 = -1$, $a_2 = -2$, $a_3 = a_4 = \ldots =
+a_{n-2} = 0$, $a_{n-1} = 2$ ja $a_n = 1$ 
+saadaan 
+\[
+a_1a_2 + a_2a_3 + \ldots + a_{n-1}a_n + a_na_1 = 3.
+\]
+Ratkaisu on siis $n=3$ tai $n=4$.
+
+\subsubsection*{Tehtävä 4}
+ 
+Funktion määritelmästä
+\begin{equation}
+f(x, y) \leq x \label{41}
+\end{equation}
+ja aritmeettis-geometrisestä epäyhtälöstä
+\begin{equation}
+f(x,y) \leq \frac{y}{x^2+y^2} \leq \frac{y}{2xy} = \frac{1}{2x}. \label{42}
+\end{equation}
+Kertomalla epäyhtälöt (\ref{41}) ja (\ref{42}) keskenään saadaan $f(x, y)^2
+\leq 1/2$ eli $f(x, y) \leq 1/\sqrt{2}$. Toisaalta $f(\frac{1}{\sqrt{2}},
+\frac{1}{\sqrt{2}}) = \frac{1}{\sqrt{2}}$. Funktiolla $f$ on siis
+maksimiarvo $\frac{1}{\sqrt{2}}$.
+
+\subsubsection*{Tehtävä 5}
+
+Mahdollisia pisteitä on viisi: $(0,1)$, $(\pm \sqrt{24}/5, -1/5)$ ja
+$(\pm 1,0)$. 
+
+Tarkastellaan $y$-akselia leikkaavia suoria $y=kx+l$. Suora on
+ympyrän tangentti jos toisen asteen yhtälöllä $x^2 + (kx+l)^2 = 1$ on vain
+yksi ratkaisu, eli jos diskriminantti on nolla, eli $k^2- l^2+ 1=0$. Suora
+kohtaa paraabelin vain yhdessä pisteessä, jos toisen asteen yhtälöllä
+$(kx+l) = x^2 + 1$ on vain yksi ratkaisu, eli jos diskriminantti on nolla,
+eli $k^2 + 4l - 4 = 0$. Näistä kahdesta ehdosta saadaan kolme ratkaisua
+$k=0$ ja $l=1$, $k=\sqrt{24}$ ja $l=-5$ sekä $k=-\sqrt{24}$ ja
+$l=-5$. Ratkaisut vastaavat pisteitä $(0,1)$ ja $(\pm \sqrt{24}/5, -1/5)$.
+
+Tarkastellaan $y$-akselin suuntaisia suoria. Suora $x=1$ toteuttaa tehtävän
+ehdot, samoin $x=-1$. Näistä suorista pisteet $(\pm 1,0)$. 
+
+\subsubsection*{Tehtävä 6}
+
+Merkitään shakkilaudan ruutuja koordinaateilla $(x,y)$, jossa \\$x,y = 1, 2,
+\ldots, n$. Matkalla ruudusta $(1,1)$ ruutuun $(n,n)$ koordinaattien
+muutosten summa on $2(n-1)$. Yhdellä siirrolla koordinaattien yhteinen
+lisäys on korkeintaan $3$. Koordinaattien summan parillisuus muuttuu joka
+siirrolla. Lisäksi $1+1$ ja $n+n$ ovat parillisia. Näistä päätellään, että
+tarvittavien siirtojen lukumäärä on parillinen ja suurempi kuin
+$\frac{2(n-1)}{3}$. 
+
+Jos $n=4$ ratsu pääsee vastakkaiseen kulmaan kahdella siirrolla. Helposti
+löytyy myös siirrot tapauksille $n=5$ (neljällä siirrolla) ja $n=6$
+(neljällä siirrolla). Ruudusta $(i, i)$ ratsu pääsee ruutuun $(i+4, i+4)$
+kahdella siirrolla. Näillä siirroilla ratsu pääsee kulmasta kulmaan
+siirtomäärällä, joka on parillinen ja suurempi kuin $\frac{2(n-1)}{3}$.
+Tämä on pienin mahdollinen siirtojen määrä.
+
+\subsubsection*{Tehtävä 7}
+
+Ei voi. Olkoon $S$ kaikkien sellaisten ruutuparien joukko, jotka ovat
+toistensa naapureita. Kutsutaan joukon $S$ ruutuparia vanhaksi, jos
+molemmissa parin ruuduissa on jo käyty. Ensimmäisen siirron jälkeen on
+yksi vanha pari. \emph{Jokainen seuraava siirto luo parillisen määrän
+vanhoja pareja}. Eli vanhojen parien lukumäärä on jokaisen siirron jälkeen
+pariton. Kuitenkin joukossa $S$ on parillinen määrä pareja, eli kuningas ei
+voi käydä kaikissa ruuduissa.
+
+Miksi joukossa $S$ on parillinen määrä ruutupareja? Kierretään shakkilautaa
+$180$ astetta keskipisteensä ympäri. Nyt lähes jokainen joukon $S$ alkio
+kuvautuu jollekin toiselle joukon $S$ alkiolle. Paitsi kaksi ruutuparia
+keskellä; ne, joiden ainut yhteinen piste on laudan keskipiste. Jokaiselle
+joukon $S$ alkiolle löytyy siis pari, eli alkioita on parillinen määrä.
+
+\subsubsection*{Tehtävä 8}
+
+Valitaan jotkin kolme kolikkoa ensimmäiseen punnitukseen ja vaihdetaan
+painoltaan keskimmäinen pois. Toistetaan tämä kaikille punnitus 1996
+kertaa. Kun viimeisen operaation jälkeen painoltaan keskimmäinen on otettu
+pois, koneeseen jää painavin ja kevein kolikoista. Siirretään nämä syrjään.
+Toistetaan sama operaatio jäljellä oleville 1997 kolikolle ja siirretään
+näistä painavin ja kevein syrjään. Jatketaan tätä kunnes vain yksi kolikko
+on jäljellä. Se on painoltaan tuhannes. Yhteensä punnituksien määrä
+\[
+1997 + 1995 + \ldots + 1 = 999^2 < 1\,000\,000.
+\]
+
+Tehdään vastaoletus, että painoltaan $r$:s $r \neq 1000$
+voidaan löytää koneen avulla. Nimetään kolikot jossain
+järjestyksessä $a_1, a_2, \ldots, a_n$. Kolikkoa $r$ etsitään tekemällä
+sarja 
+punnituksia $(a_{i_1}, a_{j_1}, a_{k_1})$,  $(a_{i_2}, a_{j_2}, a_{k_2})$
+..., joista tuloksena tiedetään keskimmäiset kolikot $a_{m_1}$, $a_{m_2}$,
+... Tulosten perusteella voidaan nyt löytää, että $a_s$ on
+painojärjestyksessa $r$:s. 
+
+Nyt joku (joka tietää kolikoiden
+painojärjestyksen) vaihtaakin kolikkoihin merkityt nimet niin, että
+painavimmam ja keveimmän nimet vaihdetaan keskenään, toiseksi painavimman
+ja toiseksi keveimmän nimet vaihdetaan keskenään jne.~kaikille nimille,
+paitsi painojärjestyksessä tuhannennelle kolikolle. Kun toistetaan
+punnitukset $(a_{i_1}, a_{j_1}, a_{k_1})$,  $(a_{i_2}, a_{j_2}, a_{k_2})$
+...~(samat nimet, eri kolikot), saadaan (samat) tulokset $a_{m_1}$, $a_{m_2}$,
+... Tämä siksi, että kolikoista painoltaan keskimmäinen ei riipu
+siitä, tarkastellaanko painoja kasvavassa vai pienenevässä järjestyksessä. 
+Lopputulos on myös muuttumaton: painoltaan $r$:s on kolikko $a_s$. Tämä on
+ristiriita, sillä edellisessä punnituksessa valittiin kolikko $a_{2000-s}$.
+
+\subsubsection*{Tehtävä 9}
+
+Kirjoitetaan 27 rivisummaa
+\begin{eqnarray*}
+1+2+4 & = & 7 \\
+3+5+7 & = & 15 \\
+& \vdots & .
+\end{eqnarray*}
+Jos oikealla puolella on pelkästään parittomia lukuja, täytyy vasemmalla
+puolella olla parillisia lukuja jokaisella rivillä nolla tai kaksi
+kappaletta; yhteensä vasemmalla puolella parillinen määrä parillisia
+lukuja. Tämä ei ole mahdollista, koska 
+parillisia lukuja on vasemmalla puolella yhteensä $3\cdot 13=39$
+kappaletta. (Jokainen luvuista $1, 2, \ldots, 27$ käytetään vasemmalla
+puolella tasan kolme kertaa ja parillisia lukuja on kolmetoista erilaista.)
+Oikealla puolella on siis ainakin yksi parillinen luku. 
+
+Tarkastellaan sellaista $3\times 3$-tasoa, jossa jokin rivisumma on
+parillinen. Valitaan, että ylimmän rivin rivisumma on
+parillinen. Oletetaan, että kaikki muut rivisummat ovat parittomia. Siis
+toisen ja kolmannen rivin rivisummat ovat parittomia ja kaikkien kolmen
+sarakkeiden rivisummat ovat parittomia. Tästä seuraa ristiriita, sillä
+sarakkeista laskettuna koko tason numeroiden summa on pariton ja riveistä
+laskettuna parillinen. Parillisia rivisummia on siis ainakin kaksi.
+
+Oletetaan, että oikealla puolella on vain kaksi parillista
+lukua. Parittomia lukuja on 25, eli yhtälöiden oikeiden puolien summa on
+pariton. Vasemalla puolella on kolme kertaa summa $1+2+\ldots 27$, joka on
+parillinen. Tämä on ristiriita. Parillisia rivisummia on ainakin kolme.
+
+Parittomia rivisummia saadaan korkeintaan 24. Osoitetaan esimerkin avulla,
+että tämä yläraja saavutetaan.
+Ensimmäiseen tasoon laitetaan luvut
+\[
+\begin{matrix}
+1 & 1 & 1 \\
+1 & 1 & 1 \\
+1 & 1 & 1
+\end{matrix}
+\]
+(vain jakojäännös on merkitty), toiseen tasoon
+\[
+\begin{matrix}
+1 & 0 & 0 \\
+0 & 1 & 0 \\
+0 & 0 & 1
+\end{matrix}
+\]
+ja kolmanteen tasoon
+\[
+\begin{matrix}
+1 & 0 & 0 \\
+0 & 0 & 0 \\
+0 & 0 & 1
+\end{matrix}.
+\]
+
+\subsubsection*{Tehtävä 10}
+
+Olkoon piste $O$ kiekon keskipiste ja pisteet $P_1, \ldots, P_6$
+säännöllisen kuusikulmion kärjet kiekon kehällä. Ajatellaan tehtävän
+osajoukkoihin jakoa punaiseksi, siniseksi ja vihreäksi
+värittämisenä. Oletetaan, että $O$ on punainen ja $P_1$, $P_3$ ja $P_5$
+sinisiä ja $P_2$, $P_4$ ja $P_6$ vihreitä. Tarkastellaan $P_1$-keskistä
+ympyränkaarta pisteiden $O$ ja $P_2$ kautta. Koska $P_1$ on sininen, ovat
+kaaren pisteet joko punaisia tai vihreitä. Vastaavasti $P_3$- ja
+$P_5$-keskisille ympyränkaarille. 
+\begin{figure}[!htb]
+\centerline{
+\begin{picture}(120,120)(241,433)
+\put(241,433){\epsfig{figure=pic10.eps,height=120pt}}
+\put(368,497){$P_1$}
+\put(337,548){$P_2$}
+\put(250,540){$P_3$}
+\put(232,491){$P_4$}
+\put(274,432){$P_5$}
+\put(343,440){$P_6$}
+\put(298,479){$O$}
+\end{picture}
+}
+\end{figure}
+Kuvassa on $O$-keskinen ympyrä, jonka säde on $1/\sqrt{3}$. Tarkastellaan
+tämän ympyrän ja kolmen ympyränkaaren leikkauspisteitä. Ne ovat kaikki
+punaisia tai vihreitä ja etäisyyden yksi päässä toisistaan. Tämä on
+ristiriita. Tehtävässä esitettyä jakoa ei voi tehdä.
+
+\subsubsection*{Tehtävä 11}
+
+Piirretään niin iso ympyrä, että kaikki neljä pistettä ovat sen
+sisäpuolella. Pienennetään ympyrän sädettä ja siirretään sen keskipistettä
+kunnes ainakin kolme pisteistä on ympyrän kehällä. Neljäs piste on
+välttämättä ympyrän sisällä tai kehällä.
+
+\subsubsection*{Tehtävä 12}
+
+Olkoon $O$ kolmion $ABC$ ympäripiirretyn ympyrän keskipiste, piste $I$
+kolmion sisäänpiirretyn ympyrän keskipiste ja pisteet $M$ ja $N$ sivujen
+$AC$ ja $BC$ keskipisteet. Osoitetaan, että $M$, $N$ ja $I$ ovat ympyrällä,
+jonka halkaisija on $OC$. Suorien kulmien $\measuredangle CMO$ ja
+$\measuredangle ONC$ takia $M$ ja $N$ ovat tällä ympyrällä. Vielä täytyy
+osoittaa, että $\measuredangle CIO = 90^\circ$. 
+\begin{figure}[!htb]
+\centerline{
+\begin{picture}(200,200)(201,521)
+\put(201,521){\epsfig{figure=pic12.eps,height=200pt}}
+\put(189,522){$A$}
+\put(444,520){$B$}
+\put(261,714){$C$}
+\put(274,578){$I$}
+\put(317,586){$O$}
+\put(347,621){$N$}
+\put(333,635){$F$}
+\put(214,620){$M$}
+\put(212,600){$E$}
+\put(272,533){$K$}
+\end{picture}
+}
+\end{figure}
+Olkoon sisäänpiirretyn ympyrän ja kolmion sivujen sivuamispisteet $E$, $F$
+ja $K$ kuten kuvassa. Nyt $BF + AE = BK + AK = AB$ ja $AB = \frac{1}{2}(BC
++ AC) = BN + AM$. Tästä $NF = ME$. Huomaa, että janat $NF$ ja $ME$ ovat
+janan $OI$ projektiota sivuilla $BC$ ja $AC$. Olkoon $\vec{e_1}$ vektorin
+$\vec{CA}$ suuntainen 
+yksikkövektori ja $\vec{e_2}$ vektorin $\vec{CB}$ suuntainen
+yksikkövektori. Projektioiden pituuksien $NF = ME$ avulla voidaan
+kirjoittaa $|\vec{e_1} \cdot \vec{OI}| = |\vec{e_2} \cdot \vec{OI}|$, eli
+$\vec{e_1} \cdot \vec{OI} = \pm \vec{e_2} \cdot \vec{OI}$ tai $(\vec{e_1}
+\pm \vec{e_2}) \cdot \vec{OI} = 0$. Tällä yhtälöllä on kolme ratkaisua:
+\begin{enumerate}
+\item
+$\vec{OI} = \vec{0}$, eli $O=I$.
+\item
+$\vec{e_1} + \vec{e_2} \perp \vec{OI}$, eli $CI \perp IO$.
+\item
+$\vec{e_1} - \vec{e_2} \perp \vec{OI}$, tai $CI \parallel IO$. Kun $O$ on
+kulmanpuolittajalla, kolmio $ABC$ on tasakylkinen $AC=BC$. Nyt $ABC$ on
+tasasivuinen, eli $O=I$.
+\end{enumerate}
+
+\subsubsection*{Tehtävä 13}
+
+Valitaan piste $F$ sivulta $AB$ siten, että $AF=AE$ ja $BF=BD$. Jana $AD$
+on kulman $A$ puolittaja. Siksi $AD$ on tasasivuisen kolmion $AFE$ kannan $EF$
+keskinormaali ja $DE=DF$. Vastaavasti $ED=EF$. 
+\begin{figure}[!htb]
+\centerline{
+\begin{picture}(200,200)(201,209)
+\put(201,209){\epsfig{figure=pic13.eps,height=180pt}}
+\put(192,209){$A$}
+\put(431,209){$B$}
+\put(386,391){$C$}
+\put(297,313){$E$}
+\put(416,295){$D$}
+\put(342,202){$F$}
+\end{picture}
+}
+\end{figure}
+Eli kolmio $DEF$ on
+tasasivuinen. Lasketaan $\measuredangle AFE + \measuredangle BFD =
+120^\circ$ ja $\measuredangle FEA + \measuredangle BDF = 120^\circ$. Nyt
+myös $\measuredangle CED + \measuredangle EDC = 120^\circ$ ja
+$\measuredangle BCA = 60^\circ$. 
+
+\subsubsection*{Tehtävä 14}
+
+Olkoon $h_B$ pisteen $B$ etäisyys suorasta $AC$ ja $h_C$ pisteen $C$
+etäisyys suorasta $AB$. Puolisuunnikaiden pinta-alojen mukaan 
+\[
+\frac{[DBCG]}{[FBCE]} = \frac{\frac{1}{2}(BD+CG)h_C}{\frac{1}{2}(CE+BF)h_B}.
+\]
+Tasakylkisyyden takia $h_B = h_C$, eli tehtävän väite on yhtäpitävästi
+\begin{equation}
+\frac{BD+CG}{CE+BF} = \frac{AD}{AE}.\label{13v}
+\end{equation}
+\begin{figure}[!htb]
+\centerline{
+\begin{picture}(200,200)(201,521)
+\put(201,521){\epsfig{figure=pic14.eps,height=180pt}}
+\put(296,704){$A$}
+\put(232,594){$B$}
+\put(360,595){$C$}
+\put(397,667){$G$}
+\put(219,611){$F$}
+\put(252,632){$D$}
+\put(324,654){$E$}
+\put(296,583){$M$}
+\put(195,519){$G'$}
+\put(369,569){$F'$}
+\end{picture}
+}
+\end{figure}
+Olkoon $M$ janan $BC$ keskipiste. Olkoon $F'$ ja $G'$ pisteiden $F$ ja $G$
+kuvia pisteen $M$ suhteen. (Kuten kuvassa.) Tässä samassa kuvauksessa $CG$
+kuvautuu janalle $BG'$, ja $BF$ kuvautuu janalle $CF'$. Nyt $DE \parallel
+G'F'$ ja  
+\[
+\frac{AD}{AE} = \frac{AG'}{AF'} = \frac{DG'}{EF'} = \frac{DB+CG}{EC+BF}.
+\]
+
+\subsubsection*{Tehtävä 15}
+
+Olkoon $CD=a$ ja $CE=AC=BD=b$. Kosilauseen mukaan 
+\begin{multline*}
+AB = CA^2 + BC^2 - 2
+CA\cdot BC \cos 60^\circ = \\
+b^2 + (a+b)^2 - 2b(a+b)\frac{1}{2} = a^2 + ab +
+b^2.
+\end{multline*}
+\begin{figure}[!htb]
+\centerline{
+\begin{picture}(200,200)(202,521)
+\put(202,531){\epsfig{figure=pic15.eps,height=180pt}}
+\put(194,529){$A$}
+\put(324,529){$B$}
+\put(204,620){$C$}
+\put(288,567){$F$}
+\put(260,590){$D$}
+\put(228,711){$E$}
+\end{picture}
+}
+\end{figure}
+Edelleen kosinilauseen mukaan 
+\begin{multline*}
+ED = EC^2 + CD^2 - 2EC \cdot CD \cos
+120^\circ = \\
+b^2 + a^2 - 2ba\left(-\frac{1}{2} \right) = a^2 + ab + b^2.
+\end{multline*}
+
+\subsubsection*{Tehtävä 16}
+
+Osoitetaan, että vastaus on $19^1 - 5^1 = 14$. Vastaoletus:
+Kokonaisluvuilla $m$ ja $n$ pätee $k=19^n - 5^m < 14$. Tarkastellaan ensin
+tapausta $n$ on parillinen. Koska $19 \equiv -1 \mod 10$, pätee $19^n
+\equiv 1 \mod 10$, eli $k$:n viimeinen numero on $6$. Vastaoletuksen mukaan
+$19^n - 5^m = 6$. Oikea puoli on jaollinen kolmella. Tarkastellaan vasenta
+puolta modulo $3$: $19 \equiv 1 \mod 3$ ja $19^n
+\equiv 1 \mod 3$. Vastaavasti $5^m \equiv 1 \mod 3$ vain jos $m$ on
+parillinen. Valitsemalla $m=2m'$ ja $n=2n'$ voidaan kirjoittaa $(19^{n'} +
+5^{m'})(19^{n'} - 5^{m'}) = 6$. Tällä yhtälöllä ei ole ratkaisuja sillä
+vasemman puolen tekijöiden erotus on $2\cdot 5^{m'}$, eikä luvulla $6$ ole
+sopivaa tekijöihin jakoa. 
+Tarkastellaan tapausta $n$ on pariton. Kuten edellä, $19^n \equiv -1 \mod
+10$, eli luvun $k$ viimeinen numero on $4$. Vastaoletuksen mukaan $19^n -
+4^m = 4$. Mutta $19^n \equiv 1 \mod 3$ ja $5^m \equiv \pm 1 \mod 3$, eli
+$19^n - 5^m \equiv 1 \pm 1 \mod 3$. Tämä johtaa ristiriitaan, sillä $4
+\equiv 1 \mod 3$. 
+
+\subsubsection*{Tehtävä 17}
+
+Vastaus: kyllä. Esimerkiksi lukujono $0, 2, 8, 14, 26$ täyttää tehtävän
+ehdot.  Kun $a=3$ tai $a=5$ luvut $a+c_1, \ldots, a+c_5$ ovat
+alkulukuja. Lukujonon jäsenet kuuluvat eri jäännösluokkiin modulo 5. (Eli
+viidellä jaettaessa jakojäännös on jokaisella luvulla eri.) Kaikilla $a$:n
+arvoilla jokin luvuista $a+c_1, \ldots, a+c_5$ on viidellä jaollinen. Jotta
+luvut olisivat alkulukuja on viidellä jaollinen luku $5$. Tämä on
+mahdollista vain jos $a=3$ tai $a=5$.
+
+\subsubsection*{Tehtävä 18}
+
+Oikeanpuoleisen epäyhtälön neliöönkorottamisella saadaan
+\[
+(a-b)^2 < 5 + 4\sqrt{4m+1}
+\]
+tai yhtäpitävästi
+\[
+(a+b)^2 < 5 + 4\sqrt{4m+1} + 4m = (\sqrt{4m+1} + 2)^2,
+\]
+eli
+\[
+a + b < \sqrt{4m + 1} + 2.
+\]
+Koska tarkastellaan vain tapauksia $a > b$, jokainen tekijöihinjako $m=ab$
+johtaa eri summan $a+b$ arvoon. Koska $m \equiv 2 \mod 4$ toinen luvuista
+$a$ ja $b$ on parillinen ja toinen pariton, eli $a+b$ on pariton. Lisäksi
+\[
+a+b \geq 2\sqrt{ab} = \sqrt{4m}.
+\]
+Edelleen, koska $4m$ ei ole kokonaisluvun neliö (luku $4$ ei ole luvun $m$
+tekijä), täytyy olla $a+b \geq\sqrt{4m+1}$. 
+
+Huomaa, että välillä $[\sqrt{4m+1},\sqrt{4m+1}+2[$ on tasan yksi pariton
+luku. Koska $a+b$ on pariton ja suurempi kuin $\sqrt{4m+1}$, voi olla
+olemassa vain yksi tehtävän ehdot täyttävä ($a+b < \sqrt{4m+1}+2$) lukupari
+$(a,b)$. 
+
+\subsubsection*{Tehtävä 19}
+Etsitään parillisia lukuja, joita ei voida kirjoittaa muodossa $q-p^2$
+minkään alkulukujen $p$ ja $q$ avulla. Jos $k=q-p^2$ ja $p$ ja $q$ ovat
+alkulukuja, ja jos $k \equiv 2 \mod 3$ täytyy olla joko $p^2 \equiv 1$ (ja
+$q \equiv 0$ ei voi olla alkuluku) tai $p^2 \equiv 3$ ($p=3$ on ainoa
+mahdollisuus). Kokeillaan lukuja $k=6n+2$. Nämä ovat parillisia, $k \equiv
+2$, ja yhtälöstä $k=q-p^2$ seuraa $p=3$, eli $q=6n+11$. Nyt jos $n=11m$
+luku $q$ ei voi olla alkuluku. Siis luvut muotoa $k=66n+2$ ovat tehtävässä
+kysyttyjä lukuja. 
+
+\subsubsection*{Tehtävä 20}
+Lauseke $a^2 - b^2 + c^2 - d^2$ on pariton, joten yhden alkuluvuista on
+oltava parillinen. Pienin luvuista on $d$, joten $d=2$. Alaspäin
+arvioimalla $1749 = a^2 - b^2 +c^2 - d^2 > 9b^2 - b^2 + 4d^2 - d^2 = 8b^2 +
+12$, eli $b^2 < 1737/8$ ja $b\leq 13$. Lisäksi epäyhtälöstä $4 = 2d < c <
+b/2 = 13/2$ saadaan $c=5$. Mahdolliset vaihtoehdot ovat $b=11$ tai
+$b=13$. Kokeilemalla $b=11$ saadaan $a^2 = 1849 = 43^2$. Jos $b=13$ saadaan
+$a^2 = 1897$, joka ei ole kokonaisluvun neliö. 
+
+Ainoat luvut, jotka toteuttavat yhtälön ovat $a=43$, $b=11$, $c=5$ ja
+$d=2$, joista $a^2 + b^2 + c^2 + d^2 = 1999$.
+
+\end{document}

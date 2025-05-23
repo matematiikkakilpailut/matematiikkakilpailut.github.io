@@ -1,0 +1,265 @@
+\documentclass[11pt,a4paper]{amsart}
+
+\usepackage[finnish]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+%\usepackage[latin1]{inputenc}
+\usepackage{graphicx}
+\usepackage[headings]{fullpage}
+\usepackage{amssymb}
+
+\makeatletter
+\newcommand{\ps@bw}{%
+  \renewcommand{\@oddhead}{%\includegraphics[height=2cm]{logo.png}\hfill English
+\parbox[c]{5cm}{\includegraphics[height=2cm]{logo.png}}
+ \hfill \parbox[b]{6cm}{\scshape\small\flushright Finnish}
+}%
+  \renewcommand{\@evenhead}{}%
+  \renewcommand{\@evenfoot}{}%
+  \renewcommand{\@oddfoot}{}}
+\makeatother
+
+\let\angle=\measuredangle
+
+\theoremstyle{definition}
+\newtheorem{prob}[section]{Tehtävä}
+
+\newcommand{\R}{\mathbb{R}}
+
+\title{Baltian tie 2010}
+
+\author[Baltic Way 2010]{Reykjavik, 6.~marraskuuta 2010}
+
+
+\begin{document}
+
+\maketitle
+\thispagestyle{bw}
+
+\noindent
+Koeaika: $4\frac12$ tuntia.\\
+Kysymyksiä saa esittää ensimmäisen puolen tunnin aikana.\\
+Kirjoitusvälineiden lisäksi vain harppi ja viivoitin ovat sallittuja.\\
+Tehtävät ovat  viiden pisteen arvoisia.\\
+
+
+
+
+
+
+\maketitle
+
+\prob
+Etsi kaikki reaalilukuneliköt $(a,b,c,d)$, jotka 
+toteuttavat yhtälöryhmän
+\[\begin{cases}
+  (b+c+d)^{2010}=3a \\
+  (a+c+d)^{2010}=3b \\
+  (a+b+d)^{2010}=3c \\
+  (a+b+c)^{2010}=3d.
+\end{cases}\]
+
+\prob
+Olkoon $x$ reaaliluku, jolle $0<x<\frac{\pi}{2}$. Todista, että
+   \[
+\cos^2 (x)\cot (x)+\sin^2 (x)\tan (x)\ge 1.
+   \]
+
+
+\prob
+Olkoot $x_1$, $x_2$, $\ldots$, $x_n$ ($n\geq 2$) ykköstä 
+suurempia reaalilukuja. Oletetaan, että  kaikilla $i=1,2,\ldots,n-1$
+pätee $|x_i-x_{i+1}|<1$. Osoita, että
+  \[
+\frac{x_1}{x_2}+\frac{x_2}{x_3}
++\ldots+\frac{x_{n-1}}{x_n}+\frac{x_n}{x_1}<2n-1.
+  \]
+
+
+\prob
+Etsi kaikki sellaiset reaalikertoimiset polynomit $P(x)$,
+että kaikilla kokonaisluvuilla $x$ pätee
+  \[
+(x-2010)P(x+67)=xP(x).
+  \]
+
+\prob
+Merkitään $\R$:llä kaikkien reaalilukujen joukkoa. 
+Etsi kaikki kuvaukset $f\colon\R\rightarrow\R$, joille
+  \[
+f(x^2)+f(xy)=f(x)f(y)+yf(x)+xf(x+y),
+  \]
+kun $x,y\in\R.$
+
+
+\prob
+$n\times n$-ruudukko on väritetty $n$~värillä niin, että 
+pääviistorivi (ylävasemmalta ala\-oikealle) on väritetty ensimmäisellä
+värillä, sen viereiset kaksi viistoriviä toisella värillä,
+seuraavat kaksi viistoriviä (yksi ylempi ja yksi alempi) kolmennella jne.
+Siis kulmista kaksi (yläoikea ja alavasen) väritetään $n$:nnellä
+värillä. Tiedetään, että on mahdollista sijoittaa laudalle $n$~tornia
+niin, että ne eivät uhkaa toisiaan ja mitkään kaksi tornia
+eivät sijaitse samanvärisillä ruuduilla. Todista, että
+$n\equiv 0\pmod{4}$ tai $n\equiv 1\pmod{4}$.
+
+
+\prob
+% There are some cities in a country; one of them is the capital.  For
+% any two cities $A$ and $B$ there is a direct flight from $A$ to $B$
+% and a direct flight from $B$ to $A$, both having the same price.
+% Suppose that all round trips with exactly one landing in every city
+% have the same total cost. Prove that all round trips that miss the
+% capital and with exactly one landing in every remaining city cost the
+% same.
+Maassa on muutama kaupunki, joista yksi on pääkaupunki.
+Minkä tahansa kahden kaupungin $A$ ja $B$ välillä
+on olemassa suora lento kaupungista~$A$ kaupunkiin~$B$ ja
+kaupungista~$B$ kaupunkiin~$A$, lisäksi näillä on sama hinta.
+Oletetaan, että kaikki kiertomatkat, jotka laskeutuvat täsmälleen
+kerran kuhunkin kaupunkiin, maksavat yhtä paljon.
+Todista, että kaikki kiertomatkat, jotka jättävät pääkaupungin väliin
+ja käyvät täsmälleen kerran kaikissa muissa kaupungeissa,
+maksavat yhtä paljon.
+
+
+\prob
+% In a club with $30$ members, every member initially had a hat.
+% One day each member sent his hat to a different member
+% (a member could have received more than one hat).
+% Prove that there exists a group of $10$ members such that
+% no one in  the group has received a hat from another
+% one in the group.
+$30$~jäsenen klubissa jokaisella jäsenellä on aluksi hattu.
+Eräänä päivänä kukin jäsen lähettää hattunsa jollekin
+toiselle jäsenelle
+(jäsenet saattavat vastaanottaa useamman kuin yhden hatun).
+Todista, että on olemassa sellainen $10$~jäsenen ryhmä,
+että kukaan ryhmän jäsenistä ei ole saanut keltään toiselta
+ryhmän jäseneltä hattua.
+
+
+\prob 
+% There is a pile of 1000 matches. Two players each take turns and
+% can take up to 5 matches.  It is also allowed at most 10 times during
+% the whole game to take 6 matches, for example 7 exceptional move can
+% be done by the first player and 3 moves by the second and then no more
+% exceptional moves are allowed.  Whoever takes the last match wins.
+% Determine which player has a winning strategy.
+Kasassa on 1000~tulitikkua.  Kaksi pelajaa ottaa kasasta vuorollaan
+yhdestä viiteen tulitikkua.  Lisäksi on sallittua korkeintaan 10~vuorolla
+ottaa kasasta kuudeskin tikku, esimerkiksi ensimmäinen pelaaja
+voi tehdä 7~tällaista poikkeussiirtoa ja toinen pelaaja 3~poikkeussiirtoa,
+eikä sen jälkeen poikkeussiirtoja sallita.  Viimeisen tulitikun ottava
+voittaa. Määritä, kummalla pelaajista on voittostrategia.
+
+\prob
+% Let $n$ be an integer with $n\geq 3$. 
+% Consider all dissections of a convex $n$-gon into triangles by 
+% $n-3$ non-intersecting diagonals, and all 
+% colourings of the triangles with black and white so that triangles with a 
+% common side are always of a different colour. Find the least possible number
+% of black triangles.
+Olkoon $n$ kokonaisluku, jolle $n\geq 3$. 
+Tarkastellaan kuperan $n$-kulmion kaikkia jakoja kolmioiksi
+$n-3$:lla toisiaan leikkaamattomalla lävistäjällä. Tarkastellaan
+edelleen näiden kolmioiden värityksiä mustiksi ja valkoisiksi niin,
+että kolmiot, joilla on yhteinen sivu, ovat erivärisiä.
+Määritä mustien kolmioiden pienin mehdollinen lukumäärä.
+
+\prob
+Olkoon $ABCD$ neliö sekä $S$ sen lävistäjien $AC$ ja $BD$
+leikkauspiste. Ympyrä $k$ kulkee pisteiden $A$ ja $C$ sekä ympyrä $k'$
+pisteiden $B$ ja $D$ kautta. Ympyrät $k$ ja $k'$ leikkaavat toisensa
+tasan kahdessa eri pisteessä $P$ ja $Q$.  Osoita, että $S$ on
+$PQ$:lla.
+
+\prob
+Olkoon $ABCD$ puolisuunnikas, joka ei ole suunnikas.
+\begin{itemize}
+\item[a)] Osoita, että puolisuunnikkaan sivujen $AB$, $BC$, $CD$ ja $DA$
+pituudet (tässä järjestyk\-sessä) eivät muodosta aritmeettista jonoa.
+\item[b)] Osoita, että on olemassa puolisuunnikas $ABCD$, jonka sivujen $AB$,
+  $BC$, $CD$ ja $DA$ pituudet muodostavat aritmeettisen jonon, 
+  kun pituuksien järjestystä saa vaihtaa.
+\end{itemize}
+
+\prob
+Terävässä kolmiossa $ABC$ jana $CD$ on korkeusjana ja $H$ korkeusjanojen
+leikkauspiste. Määritä kaikki mahdolliset kulman $CAB$ arvot, kun
+oletetaan, että ympäri piirretyn ympyrän keskipiste sijaitsee suoralla, 
+joka sisältää kulman $DHB$ kulmanpuolittajan. 
+
+
+\prob
+Olkoon kolmion $ABC$ kaikki kulmat teräviä. Olkoon $D$ sellainen
+sivulla $AC$ ja $E$ sellainen sivulla $BC$ oleva piste, että $A$, $B$,
+$D$ ja $E$ ovat samalla ympyrällä. Oletetaan edelleen, että ympyrä,
+joka kulkee pisteiden $D$, $E$ ja $C$ jautta, leikkaa sivun $AB$
+kahdessa pisteessä $X$ ja $Y$. Osoita, että janan $XY$ keskipiste on
+$C$:stä piirretyn korkeusjanan kantapiste $AB$:llä.
+
+
+\prob
+% The points $M$ and $N$ are chosen on the bisector $AL$ of a triangle
+% $ABC$ such that $\angle ABM=\angle ACN=23^\circ$.  $X$ is a point
+% inside the triangle such that $BX=CX$ and $\angle BXC=2\angle BML$.
+% Find $\angle MXN$.
+Pisteet $M$ ja $N$ valitaan kolmion $ABC$ kulmanpuolittajalta $AL$
+siten, että $\angle ABM=\angle ACN=23^\circ$. 
+$X$ on sellainen piste kolmion sisällä, että
+$|BX|=|CX|$ ja $\angle BXC=2\angle BML$. Määritä $\angle MXN$.
+
+\prob
+Kun $k$ on positiivinen kokonaisluku, merkitään $d(k)$:lla 
+luvun $k$ positiivisten tekijöiden lukumäärää (esim. $d(12)=6$). 
+Olkoon $s(k)$ luvun $k$ numeroiden summa (esim. $s(12)=3$). 
+Positiivinen kokonaisluku $n$ on \emph{viihdyttävä}, 
+jos on olemassa positiivinen kokonaisluku $k$, jolle $d(k)=s(k)=n$. 
+Mikä on pienin viihdyttävä pariton kokonaisluku,  joka on suurempi kuin $1$?
+
+\prob
+Etsi kaikki sellaiset positiiviset kokonaisluvut $n$, että luvun $n^2$
+kymmenjärjestelmäesitys koostuu pelkästään parittomista numeroista.
+
+
+\prob 
+% Let $p$ be a prime number.  For each $k$, $1\le k\le p-1$, there
+% exists a unique integer denoted by $k^{-1}$ such that $1\le k^{-1}\le
+% p-1$ and $k^{-1}\cdot k\equiv 1\pmod p$.  Prove that the sequence
+%    \[
+% 1^{-1}, \quad 1^{-1}+2^{-1},\quad 1^{-1}+2^{-1}+3^{-1}, \quad\dots, \quad 1^{-1}+2^{-1}+\dots+(p-1)^{-1}
+%    \]
+% (addition modulo $p$) contains at most $(p+1)/2$ distinct elements.
+Olkoon $p$ alkuluku. Jokaisella $k$, $1\le k\le p-1$, on olemassa
+yksikäsitteinen kokonaisluku, jota merkitään $k^{-1}$, 
+jolle $1\le k^{-1}\le p-1$ ja $k^{-1}\cdot k\equiv 1\pmod p$.  
+Todista, että jono
+   \[
+1^{-1}, \quad 1^{-1}+2^{-1},\quad 1^{-1}+2^{-1}+3^{-1}, 
+\quad\dots, \quad 1^{-1}+2^{-1}+\dots+(p-1)^{-1}
+   \]
+(yhteenlasku modulo $p$) sisältää korkeintaan $(p+1)/2$ eri lukua.
+
+
+
+\prob
+% For which $k$ do there exist $k$ pairwise distinct 
+% primes $p_1, p_2, \dots, p_k$ such that
+%    \[
+% p_1^2+p_2^2+\dots+p_k^2=2010 ?
+%    \]
+Mille $k$ on olemassa $k$ eri alkulukua $p_1,p_2,\ldots,p_k$, joille
+   \[
+p_1^2+p_2^2+\dots+p_k^2=2010 ?
+   \]
+
+
+\prob
+Määritä kaikki  positiiviset kokonaisluvut~$n$, joille on olemassa
+sellainen ääretön positiivisten kokonaislukujen $\mathbb{Z}_+$
+osajoukko $A$, että kaikilla eri luvuilla $a_1,\ldots,a_n\in A$ 
+luvut $a_1+\cdots+a_n$ ja $a_1\cdots a_n$ ovat keskenään jaottomia.
+
+
+\end{document}
