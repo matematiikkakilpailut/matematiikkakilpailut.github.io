@@ -1,19 +1,6 @@
 ---
 aikataulu:
 - pvm: "2025"
-  tapahtuma: "Kevät ja kesä"
-  otsikko: true
-- pvm: "23.&ndash;25.5. (viikko 21)"
-  tapahtuma: >-
-    Valmennusviikonloppu Päivölässä. [Ilmoittaudu tästä!](https://paivola.fi/kurssit/vk-matematiikkakilpailuvalmennus){.btn .btn-primary .btn-sm .align-baseline role="button"}
-- pvm: "6.&ndash;11.7."
-  tapahtuma: >-
-    Yhteispohjoismainen valmennusleiri IMO-joukkueelle Tanskan Sorøssä.
-- pvm: "13.&ndash;20.7."
-  tapahtuma: >-
-    [Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr>](https://imo2025.au/)
-    Sunshine Coastissa, Australiassa
-- pvm: "2025"
   tapahtuma: "Syksy"
   otsikko: true
 - pvm: "29.&ndash;31.8. (viikko 35)"
@@ -22,13 +9,26 @@ aikataulu:
 - pvm: "22.10.&ndash;4.11."
   tapahtuma: >-
     [MAOLin matematiikkakilpailun alkukilpailu, peruskoulu](https://maol.fi/neljan-tieteen-kisat/)
-- pvm: "298.10."
+- pvm: "28.10."
   tapahtuma: >-
     [MAOLin matematiikkakilpailun alkukilpailu, lukio](https://maol.fi/neljan-tieteen-kisat/)
 - pvm: "13.&ndash;17.11."
   tapahtuma: >-
-    Baltian tie -joukkuekilpailu Riiassa, Latviassa.
-
+    [Baltian tie -joukkuekilpailu](https://bw2025.lu.lv/) Riiassa, Latviassa.
+- pvm: "n. 13.–18.12."
+  tapahtuma: >-
+    Mahdollisesti RMM-valintaleiri Sorøssä, Tanskassa
+- pvm: "2026"
+  tapahtuma: "Kevät"
+  otsikko: true
+- pvm: "16.–17.1."
+  tapahtuma: >-
+    MAOLin loppukilpailut
+- pvm: "27.3."
+  tapahtuma: >-
+    Pohjoismainen matematiikkakilpailu kutsutuille omassa koulussa.
+    Saattaa olla myös mahdollisuus osallistua yhteispohjoismaiselle
+    leirille Ruotsissa.
 
 # ainoastaan otsikon "aikataulu" alla olevat tapahtumat otetaan mukaan sivulle
 # joten esim. "mahdollisia" tai "vanhoja" eivät näy vaan ovat mukana vain jotta
@@ -70,6 +70,16 @@ vanhoja:
 - pvm: "11.&ndash;17.4."
   tapahtuma: >-
     [Euroopan tyttöjen matematiikkaolympialaiset EGMO](https://egmo2025.com/) Pristinassa, Kosovossa.
+- pvm: "23.&ndash;25.5. (viikko 21)"
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä. [Ilmoittaudu tästä!](https://paivola.fi/kurssit/vk-matematiikkakilpailuvalmennus){.btn .btn-primary .btn-sm .align-baseline role="button"}
+- pvm: "6.&ndash;11.7."
+  tapahtuma: >-
+    Yhteispohjoismainen valmennusleiri IMO-joukkueelle Tanskan Sorøssä.
+- pvm: "13.&ndash;20.7."
+  tapahtuma: >-
+    [Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr>](https://imo2025.au/)
+    Sunshine Coastissa, Australiassa
 - pvm: "2024"
   tapahtuma: "Syksy"
   otsikko: true
