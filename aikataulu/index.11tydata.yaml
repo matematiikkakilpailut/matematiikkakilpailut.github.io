@@ -28,14 +28,24 @@ aikataulu:
 - pvm: "2026"
   tapahtuma: "Kevät"
   otsikko: true
+- pvm: "8.&ndash;.10.1. (viikko 2)"
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä.
 - pvm: "16.–17.1."
   tapahtuma: >-
     MAOLin loppukilpailut
+- pvm: "20.&ndash;.22.2. (viikko 8)"
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä.
 - pvm: "27.3."
   tapahtuma: >-
     Pohjoismainen matematiikkakilpailu kutsutuille omassa koulussa.
     Saattaa olla myös mahdollisuus osallistua yhteispohjoismaiselle
     leirille Ruotsissa.
+- pvm: "27.&ndash;29.3. (viikko 13)"
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä ja Pythagoraan polku.
+
 
 # ainoastaan otsikon "aikataulu" alla olevat tapahtumat otetaan mukaan sivulle
 # joten esim. "mahdollisia" tai "vanhoja" eivät näy vaan ovat mukana vain jotta
