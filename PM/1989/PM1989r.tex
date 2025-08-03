@@ -1,0 +1,76 @@
+\input makrot
+\input def
+\input laskut
+
+\font\isosser=cmss12
+\centerline{\isosser Vuoden 1989 pohjoismaisen kilpailun ratkaisut}\bigskip
+
+\harj Olkoon $P$:n asteluku $n$ ja nollakohdat
+$b_1$, $b_2$, \dots, $b_m$. Silloin $$P(x)=a(x-b_1)^{r_1}(x-b_2)^{r_2}\dots
+(x-b_m)^{r_m},$$ missä $r_1$, $r_2$, \dots , $r_m\ge 1$ ja $a$ on
+kokonaisluku. Koska $P(0)=-1$, on $ab_1^{r_1}b_2^{r_2}\dots
+b_m^{r_m}(-1)^n=-1$. Tämä on mahdollista vain, jos $|a|=1$ ja $|b_j|=1$
+kaikilla $j=1,\,2,\,\dots \,m$. Mutta tällöin $$P(x)=a(x-1)^p(x+1)^{n-
+p}$$ ja $P(3)=a\cdot 2^p2^{2n-2p} = 128 =2^7$. Siis $2n-p=7$. Koska $p\ge
+0$ ja $n$ ovat kokonaislukuja, pienin $n$, jolle tämä ehto voi toteutua, on
+4; tällöin $p=1$ ja $a=1$. -- Polynomi $P(x)=(x-1)(x+1)^3$ selvästi toteuttaa
+asetetut vaatimukset.
+
+
+
+\harj   Olkoon tetraedri $PQRS$ ja olkoon $S$ se
+kärki, joka on yhteinen kolmelle suorakulmaiselle sivutahkolle; olkoon $A$
+tahkon $PQS$ ala, $B$ tahkon $QRS$ ala ja $C$ tahkon $RPS$ ala. Merkitään
+$X$:llä tahkon $PQR$ alaa. Jos $SS'$ on kärjestä $S$ (tahkolle $PQR$)
+piirretty korkeusjana ja kulmat $\angle RSS'$, $\angle PSS'$ ja $\angle QSS'$
+ovat $\alpha$, $\beta$ ja $\gamma$, niin suorakulmaisesta särmiöstä, jonka
+lävistäjä on $SS'$ saadaan Pythagoraan lauseen avulla helposti $$
+SS'^2=(SS'\cos\alpha)^2+(SS'\sin\alpha)^2=(SS'\cos\alpha)^2+(SS'\cos\beta)^2+
+(SS'\cos\gamma)^2$$ eli (tunnettu kaava) $$\cos^2\alpha + \cos^2\beta +
+\cos^2\gamma = 1.$$ Koska $\alpha$, $\beta$ ja $\gamma$ ovat myös tason $PQR$
+ja tasojen $PQS$, $QRS$ ja $RPS$ väliset kulmat, on $A=X\cos\alpha$,
+$B=X\cos\beta$ ja $C=X\cos\gamma$. Mutta tästä seuraa, että
+$X=\sqrt{A^2+B^2+C^2}$. Kysytty kokonaispinta-ala on siis
+$A+B+C+\sqrt{A^2+B^2+C^2}.$
+
+
+
+\harj  Kaikki jonon $\{x_n\}$ luvut kuuluvat
+väliin $[-1,\,1]$. Kaikilla $n$ voidaan valita (ei
+yksikäsitteinen) $\alpha_n$ siten, että $x_n=\cos\alpha_n$.
+Jos $x_n=\cos\alpha_n$, niin $x_{n+1}=2\cos^2\alpha_n - 1=\cos
+2\alpha_n$. Luvuksi $a_{n+1}$ voidaan siis valita $2\alpha_n$, ja
+edelleen luvuksi $\alpha_n$ luku $2^n\alpha_0$. Nyt $x_n=1$ jos
+ja vain jos $\alpha_n=2k\pi$ jollakin kokonaisluvulla $n$. Jokainen
+$\alpha_0=\frac{\pi}{2^m}$ on tarpeeksi suurilla 2:n potensseilla
+kerrottuna muotoa $2k\pi$, joten jokainen $x_0=\cos\frac{\pi}{2^m}$
+synnyttää jonon $\{x_n\}$, jossa kaikki luvut tietystä
+indeksistä alkaen ovat ykkösiä.
+
+
+
+\harj Jos $n$ on pariton, väite ei päde. Vastaesimerkiksi
+riittää kokoelma, jossa $a_k=2$ kaikilla $k$. Todistetaan induktiolla, että
+väite pätee kaikille parillisille posi\-tii\-visille kokonaisluvuille $n=2k$.
+Jos $k=1$, niin $a_1+a_2=4$ ja $1\le a_1,\,a_2\le 2$, joten on oltava
+$a_1=a_2=2$. Kysytty valinta on esim. $a_1$. Oletetaan, että väite pätee
+aina $(2k-2)$:lle luvulle. Olkoot $a_1$, $a_2$, $\dots$, $a_{2k}$
+positiivisia lukuja, $\le 2k$, joiden summa on $4k$. Jos yksi luvuista on
+$2k$, asia on selvä. Jos lukujen joukossa on ainakin kaksi kakkosta, voidaan
+induktio-oletusta soveltaa niihin $2k-2$:een lukuun, jotka jäävät jäljelle,
+kun kaksi kakkosta poistetaan. Näiden lukujen summa on $4k-4$, joten lukujen
+joukosta löytyy kokoelma, jonka lukujen summa on $2k-2$. Kun tähän kokoelmaan
+liitetään toinen poistetuista kakkosista, saadaan haluttu kokoelma. Oletetaan
+sitten, että lukujen joukossa ei ole kakkosia. Jos luvuissa on $x$ ykköstä,
+niissä on $2k-x$ lukua $\ge 3$. Siis $x+3(2k-x)\le 4k$ eli $x\ge k$. Nyt
+$4k-x$ on luku, joka on $2k$:n ja $3k$:n välissä, se on useamman kuin yhden
+luvun summa, ja yhteenlaskettavat ovat $< 2k$. Voidaan siis valita luvut
+$a_i\ge 3$, joiden summa on $k$:n ja $2k$:n välissä. Liittämällä näihin
+riittävä määrä ykkösiä saadaan kokoelma, jonka lukujen summa on $2k$. Jos
+luvuissa on tasan yksi kakkonen, saadaan vastaavasti $x + 2 + 3(2k-x-1)\le
+4k$, josta $2k-1\le 2x$. Koska $x$ on kokonaisluku, niin $k\le x$. Päättelyä
+voidaan jatkaa samoin kuin edellisessä kohdassa.
+
+
+
+\bye

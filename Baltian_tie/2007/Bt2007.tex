@@ -1,0 +1,87 @@
+\documentclass[10pt, finnish]{bw07}
+\usepackage{babel}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+
+\version{Finnish}
+\maintitle{Baltian Tie 2007}
+\linetwo{Kööpenhamina, 3. marraskuuta 2007}
+\begin{document}
+
+\maketitle
+
+\begin{problems}
+\item Tarkastellaan positiivisella kokonaisluvulla $n$ lukujen $1,2,\dots 2n$ jakamista kahden alkion osajoukkoihin $P_1,P_2,\dots, P_n$. Joukon $P_i$ alkioiden tulo olkoon $p_i$. Osoita, että
+\[
+\frac{1}{p_1}+\frac{1}{p_2}+\cdots +\frac{1}{p_n}<1.
+\]
+\item Kokonaislukujonoa $a_1,a_2,a_3,\dots$ kutsutaan eksaktiksi, jos $a_n^2-a_m^2=a_{n-m}a_{n+m}$ kun $n>m$. Osoita, että on olemassa eksakti jono, jolla $a_1=1$ ja $a_2=0$ ja määritä $a_{2007}$.
+\item Olkoot $F,G,H$ polynomeja, joiden kertoimet ovat reaalisia, ja joiden aste on korkeintaan $2n+1$, ja jotka toteuttavat seuraavat ehdot:
+\begin{enumerate}
+\item Kaikilla reaalisilla $x$ pätee
+\[
+F(x)\leq G(x)\leq H(x).
+\]
+\item On olemassa erisuuret reaaliluvut $x_1,x_2,\dots ,x_n$ joilla
+\[
+F(x_i)=H(x_i) \quad \textrm{kun }i=1,2,\dots,n.
+\]
+\item On olemassa reaaliluku $x_0$, joka eroaa luvuista $x_1,x_2,\dots,x_n$ ja jolla
+\[
+F(x_0)+H(x_0)=2G(x_0).
+\]
+\end{enumerate}
+Osoita, että $F(x)+H(x)=2G(x)$ pätee kaikilla reaaliluvuilla $x$.
+\item Olkoot $a_1,a_2,\dots a_n$ positiivisia reaalilukuja ja olkoon $S=a_1+a_2+\cdots a_n$. Osoita, että
+\[
+\left(2S+n\right)\left(2S+a_1a_2+a_2a_3+\cdots a_na_1\right)\geq 9\left(\sqrt{a_1a_2}+\sqrt{a_2a_3}+\cdots +\sqrt{a_na_1}\right)^2.
+\]
+\item Funktio $f$ on määritelty kaikkien nollasta poikkeavien reaalilukujen joukossa ja saa kaikki reaalilukuarvot paitsi arvon $1$. Tiedetään myös, että
+\[
+f(xy)=f(x)f(-y)-f(x)+f(y)
+\]
+kaikilla $x,y \ne 0$ ja
+\[
+f\left(f(x)\right)=\frac{1}{f\left(\frac{1}{x}\right)}
+\]
+kaikilla $x\not \in \{0,1\}$. Määritä kaikki nämä ehdot toteuttavat funktiot $f$.
+\item Freddy kirjoittaa luvut $1,2,\dots,n$ ylös jossakin järjestyksessä. Sitten hän tekee listan pareista $(i,j)$, missä $1\leq i<j\leq n$ ja $i.$ luku on suurempi kuin $j$. luku hänen permutaatiossaan. Tämän jälkeen Freddy toistaa seuraavaa proseduuria kun se on mahdollinen: valitse pari $(i,j)$ listalta, vaihda $i.$ ja $j.$ luku permutaatiossa, poista $(i,j)$ listalta. Osoita, että Freddy voi valita parit sellaisessa järjestyksessä, että kun prosessi loppuu, niin luvut permutaatiossa on järjestetty nousevasti.
+\item \emph{Viritys} koostuu kuudesta tasasivuisesta kolmiosta, niin kuin alla olevassa kuvassa on esitetty, joiden sivun pituus on $1$. Määritä kaikki mahdolliset kokonaisluvut $n$, joilla tasasivuinen kolmio, jonka sivun pituus on $n$, voidaan täysin peittää virityksillä (peilaukset ja käännöt on sallittu, mutta kaksi viritystä ei saa mennä päällekkäin).
+ \begin{center}
+    \includegraphics[width=2cm]{ES4-1.eps}
+  \end{center}
+
+\item Kutsutaan kokonaislukujoukkoa $A$ \emph{eristämättömäksi}, jos kaikilla $a\in A$ vähintään yksi luvuista $a-1$ ja $a+1$ myös kuuluu joukkoon $A$. Osoita, että on olemassa $(n+4)^2$ viiden alkion eristämätöntä joukon $\{1,2,\dots,n\}$ osajoukkoa.
+\item Yhteisön pitää äänestää kuvernöörien muodostama hallitys. Jokainen yhteisön jäsen on valinnut $10$ kandidaattia mutta hän on onnellinen, jos vähintään yksi tulee valituksi hallitukseen. Jokaisella kuudella yhteisön jäsenellä on olemassa hallitus, joka koostuu kahdesta jäsenestä, ja joka saa kaikki nämä kuusi jäsentä onnellisiksi. Osoita, että on olemassa kymmenen hengen hallitus, joka saa koko yhteisön onnelliseksi.
+\item $18\times 18$-laudalla kaikki ruudut voivat olla mustia tai valkoisia. Aluksi kaikki ruudut on väritetty valkoisiksi. Voimme suorittaa seuraavan operaation: valitse yksi sarake tai rivi ja vaihda väri kaikista tämän sarakkeen tai rivin ruuduista. Onko mahdollista toistaa tätä operaatiota niin, että saavutetaan lauta, jolla on täsmälleen $16$ mustaa ruutua?
+\item $AD$, $BE$ ja $CF$ ovat kolmion $ABC$ korkeusjanat. Pisteet $P$, $Q$, $R$ ja $S$ toteuttavat seuraavat ehdot
+\begin{enumerate}
+\item $P$ on ympäri piirretyn ympyrän keskipiste.
+\item Kaikki janat $PQ$, $QR$ ja $RS$ ovat yhtä pitkiä kuin kolmion $ABC$ ympäri piirretyn ympyrän säde.
+\item Suunnistettu jana $PQ$ on samansuuntainen kuin suunnistettu jana $AD$. Vastaavasti $QR$ on samansuuntainen kuin $BE$ ja $RS$ on samansuuntainen kuin $CF$.
+\end{enumerate} 
+Osoita, että $S$ on kolmion $ABC$ sisään piirretyn ympyrän keskipiste.
+\item Olkoon M kolmion $ABC$ ympäri piirretyn ympyrän sillä kaarella $\wideparen{AB}$, jolla ei ole pistettä $C$. Oletetaan, että psteen $M$ projektiot suorille $AB$ ja $BC$ ovat kolmion sivuilla, eikä niiden jatkeilla. Merkitään näitä projektioita $X$:llä ja $Y$:llä tässä järjestyksessä. Olkoot $K$ ja $N$ janojen $AC$ ja $XY$ keskipisteet. Osoita, että $\angle MNK=90^{o}$.
+\item Olkoot $t_1,t_2,\dots ,t_k$ eri suoria tasossa, ja olkoon $k>1$. Osoita, että on olemassa pisteet $P_i$ suorilla $t_i$, $I=1,\dots,k$ joilla $P_{i+1}$ on pisteen $P_i$ projektio suoralle $t_{i+1}$, kun $1=1,\dots,k-1$ ja $P_1$ on pisteen $P_k$ projektio suoralla $t_1$.
+\item Konveksissa nelikulmiossa $ABCD$ pätee $\angle ADC=90^{o}$. Olkoot $E$ ja $F$ pisteen $B$ projektioita suorille $AD$ ja $AC$ tässä järjestyksessä. Oletetaan, että $F$ on pisteiden $A$ ja $C$ välissä, että $A$ on pisteiden $D$ ja $E$ välissä, ja että suora $EF$ kulkee janan $BD$ kesipisteen kautta. Osoita, että nelikulmio $ABCD$ voidaan piirtää ympyrälle.
+\item Kolmion $ABC$ sisään piirretty ympyrä sivuaa sivua $AC$ pisteessä $D$. Toinen ympyrä kulkee pisteen $D$ kautta ja sivuaa suoria $BC$ ja $BA$, jälkimmäistä pisteessa $A$. Määritä suhde $AD/DC$.
+\item Olkoot $a$ ja $b$  rationaalilukuja, joilla $s=a+b=a^2+b^2$. Osoita, että $s$ voidaan esittää rationaalilukuna jonka nimittäjällä ei ole yhteisiä tekijöitä luvun $6$ kanssa.
+\item Olkoot $x$, $y$, $z$ positiivisia kokonaislukuja, joilla $\frac{x+1}{y}+\frac{y+1}{z}+\frac{z+1}{x}$ on kokonaisluku. Olkoon $d$ lukujen $x$, $y$ ja $z$ suurin yhteinen tekijä. Osoita, että $d\leq \sqrt[3]{xy+yz+zx}$.
+\item Olkoot $a,\ b,\ c,\ d$ nollasta poikkeavia kokonaislukuja, joilla ainoa yhtälön
+\[
+ax^2+by^2+cz^2+dt^2=0
+\]
+toteuttava kokonaislukunelikkö $(x,y,z,t)$ on $x=y=z=t=0$. Seuraako tästä, että lukujen $a,\ b,\ c,\ d$ merkit ovat samat?
+\item Olkoot $r$ ja $k$ positiivisia kokonaislukuja, ja olkoon luvun $r$ kaikki alkutekijät suurempia kuin $50$.
+
+Positiivista kokonaislukua, jonka kymmenjärjestelmäesityksessä on vähintään $k$ numeroa (ilman edessä olevia nollia) kutsutaan \emph{kieroutuneeksi}, jos jokainen $k$ peräkkäisen numeron jono muodostaa luvun (jossa on mahdollisesti alussa nollia), joka on luvun $r$ monikerta.
+
+Osoita, että jos on olemassa äärettömän monta kieroutunutta lukua, niin $10^k-1$ on kieroutunut.
+\item Olkoot $a$ ja $b$, positiivisia kokonaislukuja, joilla $b<a$ ja luku $a^3+b^3+ab$ on jaollinen luvulla $ab(a-b)$. Osoita, että $ab$ on kokonaisluvun kuutio.
+
+
+\end{problems}
+
+Sallittu aika: 4 \slashfrac{1}{2} tuntia.
+
+\end{document}
