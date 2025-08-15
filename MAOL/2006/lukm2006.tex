@@ -1,0 +1,67 @@
+\input MAOL
+\input makrot
+\input laskut
+\input pstricks
+
+\otsikko
+Lukion matematiikkakilpailun \\
+ \\
+loppukilpailu, 3.\:2.\:2006  \\
+
+\bigskip
+\harj
+M‰‰rit‰ kaikki positiivisten kokonaislukujen parit $(x,y)$,
+joille
+   $$x+y+xy=2006.$$
+
+\harj
+Osoita, ett‰ kaikilla reaaliluvuilla~$a$ p‰tee
+   $$3(1+a^2+a^4)\ge (1+a+a^2)^2.$$
+
+\harj
+Luvut $p$, $4p^2+1$ ja $6p^2+1$ ovat alkulukuja.  M‰‰rit‰~$p$.
+
+\harj
+Kolmion kaksi keskijanaa ovat kohtisuorassa toisiaan vastaan.
+Todista, ett‰ kolmion keskijanat ovat er‰‰n suorakulmaisen
+kolmion sivut.
+
+\harj
+Kuvan $16\times 16$-ruudukolla pelataan Nelipe-peli‰
+seuraavasti:  Kaksi pelaajaa kirjoittaa vuoroin ruudukon
+eri ruutuihin kokonaislukuja $1,2,\ldots 16$.  Luku
+pit‰‰ valita niin, ettei mik‰‰n luku toistu mill‰‰n rivill‰,
+sarakkeella eik‰ miss‰‰n kuvan 16~pikkuneliˆss‰.
+Pelin h‰vi‰‰ ensimm‰inen, joka ei voi siirt‰‰.  Kumpi pelaajista
+voittaa, aloittaja vai toinen pelaaja,
+kun pelaajat pelaavat parhaalla mahdollisella tavalla?
+
+\input pstricks
+\psset{unit=4mm}
+   $$
+\pspicture*(-0.5,-0.5)(16.5,18)
+
+\psline[linewidth=2pt](0,0)(16,0) \psline(0,1)(16,1) 
+\psline(0,2)(16,2) \psline(0,3)(16,3)
+\psline[linewidth=2pt](0,4)(16,4) \psline(0,5)(16,5) 
+\psline(0,6)(16,6) \psline(0,7)(16,7)
+\psline[linewidth=2pt](0,8)(16,8) \psline(0,9)(16,9) 
+\psline(0,10)(16,10) \psline(0,11)(16,11)
+\psline[linewidth=2pt](0,12)(16,12) \psline(0,13)(16,13) 
+\psline(0,14)(16,14) \psline(0,15)(16,15)
+\psline[linewidth=2pt](0,16)(16,16)
+
+\psline[linewidth=2pt](0,0)(0,16) \psline(1,0)(1,16)
+\psline(2,0)(2,16) \psline(3,0)(3,16)
+\psline[linewidth=2pt](4,0)(4,16) \psline(5,0)(5,16) 
+\psline(6,0)(6,16) \psline(7,0)(7,16)
+\psline[linewidth=2pt](8,0)(8,16) \psline(9,0)(9,16) 
+\psline(10,0)(10,16) \psline(11,0)(11,16)
+\psline[linewidth=2pt](12,0)(12,16) \psline(13,0)(13,16) 
+\psline(14,0)(14,16) \psline(15,0)(15,16)
+\psline[linewidth=2pt](16,0)(16,16)
+
+\endpspicture 
+   $$
+
+\bye

@@ -1,0 +1,66 @@
+\input makrot
+\input def
+\input laskut
+
+\font\isosser=cmss12
+\centerline{\isosser Vuoden 1987 pohjoismaisen kilpailun ratkaisut}\bigskip
+
+\harj  Oletamme, että mitkään viisi lehtimiestä eivät puhu
+yhteistä kieltä. Valitaan lehtimiehistä mielivaltaisesti yksi, nimeltään $x$.
+Jäljelle jäävät kahdeksan lehtimiestä jaetaan nyt ryhmiin sen mukaan, mitä
+kieltä he puhuvat $x$:n kanssa. Tehtävän oletusten perusteella ryhmiä on
+enintään kolme, ja joka ryhmässä on tehdyn vastaoletuksen nojalla enintään
+kolme lehtimiestä. Ainoa tapa jakaa kahdeksan henkeä ryhmiin näiden ehtojen
+mukaan on sellainen, että kahdessa ryhmässä on kolme ja yhdessä kaksi
+jäsentä. Koska $x$ on mielivaltainen, päätellään, että jokainen lehtimies
+osaa kolmea kieltä, ja kahdella näistä hän pystyy puhumaan kolmen muun
+kanssa. Tarkastellaan nyt jotakin neljän lehtimiehen joukkoa
+$M=\{x,\,y,\,z,\,t\}$, jonka jäsenet kaikki puhuvat kieltä $K$. Kukin näistä
+puhuu tasan kolmen $M$:ään kuulumattoman lehtimiehen kanssa jollain muulla
+kielellä. Oletetaan, että $x$ käyttää kieltä $X$, $y$ kieltä $Y$, $z$ kieltä
+$Z$ ja $t$ kieltä $T$. Nämä kielet ovat kaikki keskenään erilaisia ja
+kielestä $K$ eroavia, koska muutoin ainakin viisi henkeä puhuisi samaa
+kieltä. Koska $M$:ään kuulumattomia lehtimiehiä on 5, ainakin kahden heistä
+on puhuttava kolmea kielistä $X$, $Y$, $Z$ ja $T$ (tilanne on sama kuin
+sijoitettaessa $4\times 3$ eriväristä palloa viiteen lokeroon niin, että
+mihinkään lokeroon ei tule kahta samanväristä palloa!). Olkoon $u$ eräs
+tällainen; puhukoon $u$ kieliä $X$, $Y$ ja $Z$. Mutta silloin $u$ ei voi
+puhua $t$:n kanssa mitään kieltä! Ristiriita osoittaa vastaoletuksen vääräksi
+ja tehtävän väitteen oikeaksi.
+
+
+
+\harj  Olkoot $F$ ja $G$ pisteiden $A$ ja $B$ sekä $B$ ja
+$C$ kautta kulkevien $R$-säteisten ympyröiden keskipisteet ja $O$ sellainen
+piste, että $ABGO$ on suunnikas. Tällöin $\angle OAD=\angle GBC$, ja kolmiot
+$OAD$ ja $GBC$ ovat yhtenevät (sks). Koska $GB=GC=R$, pisteet $A$ ja $D$ ovat
+$O$-keskisellä $R$-säteisellä ympyrällä $\Gamma$. Nelikulmio $EFBG$ on
+vinoneliö, joten $EF\, \|\, GB\,\|\, OA$. Koska lisäksi $EF=OA=R$, niin
+$AFEO$ on suunnikas. Mutta tästä seuraa, että $OE=AF=R$, joten piste $E$ on
+myös ympyrällä $\Gamma$. 
+
+
+
+\harj Koska $f(n)=n^2$ on eräs tehtävän ehdot toteuttava
+funktio, niin pienin mahdollinen $a$ on $\le 4$. Oletetaan, että $a=3$.
+Induktiolla todistetaan helposti, että $f(n^k)=f(n)^k$ kaikilla $k\ge 1$.
+Siispä $$f(3)^4=f(3^4)=f(81)>f(64)=f(2^6)=f(2)^6=3^6=27^2>25^2=5^4$$ ja
+$$f(3)^8=f(3^8)=f(6561)<f(8192)=f(2^{13})=f(2)^{13}=3^{13}<6^8.$$ Täten
+$5<f(3)<6$, mikä on ristiriidassa sen kanssa, että $f(3)$ on kokonaisluku.
+Siis $a=4$.
+
+
+
+\harj  Aritmeettisen ja geometrisen keskiarvon epäyhtälön
+perusteella $$3=3\root 3 \of{\displaystyle{a^2\over b^2}\cdot {b^2\over
+c^2}\cdot {c^2\over a^2}}\le {a^2\over b^2}+ {b^2\over c^2}+{c^2\over a^2}$$
+eli $$\sqrt 3\le \sqrt{\displaystyle{a^2\over b^2}+ {b^2\over c^2}+{c^2\over
+a^2}}.\eqno (1)$$ Toisaalta Cauchyn ja Schwarzin epäyhtälön nojalla $${a\over
+b}+{b\over c}+{c\over a}\le \sqrt{1^2+1^2+1^2}\sqrt{\displaystyle{a^2\over
+b^2}+ {b^2\over c^2}+{c^2\over a^2}}=\sqrt 3\sqrt{\displaystyle {a^2\over
+b^2}+ {b^2\over c^2}+{c^2\over a^2}}.\eqno (2)$$ Kun epäyhtälöt (1) ja (2)
+kerrotaan puolittain, saadaan tehtävän epäyhtälö.
+
+
+
+\bye
