@@ -1,0 +1,9 @@
+{
+  "icons": [
+    { "src": "/kuvat/icon192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/kuvat/icon512.png", "type": "image/png", "sizes": "512x512" }
+  ],
+  "categories": [ "education", "math" ],
+  "name": "Matematiikkakilpailut ja olympiavalmennus",
+  "short_name": "Matem.valmennus"
+}
