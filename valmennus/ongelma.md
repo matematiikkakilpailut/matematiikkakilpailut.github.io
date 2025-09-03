@@ -20,7 +20,7 @@ kuin kirje­valmennus.
 
 ## Toimi näin
 
-* Seuraa [kurssisivun](https://studies.helsinki.fi/kurssit/toteutus/otm-3b4dc2a1-6773-4287-ad4d-f32e05425183)
+* Seuraa [kurssisivun](https://studies.helsinki.fi/kurssit/toteutus/otm-cf543be2-7dfd-49c7-a1c3-2b2253aec773/MFK-M205A)
   **Moodle**-linkkiä ja kirjaudu.
   * Jos olet jo suorittanut Avoimen yli­opiston kursseja, sinulla saattaa olla Haka-käyttäjä­tunnus.
   * Muuten kirjaudu Google-tunnuksella.
@@ -35,8 +35,8 @@ kuin kirje­valmennus.
 * Jos haluat myös virallisen kurssi­merkinnän esimerkiksi lukio-opintoihin sisällytettäväksi,
   keskustele ensin opon kanssa, sopiiko kurssi opintoihisi.
   * Jos suoritit tehtäviä vähintään kahden opinto­pisteen verran, **ilmoittaudu**
-    [kurssille MFK-M205A](https://studies.helsinki.fi/kurssit/toteutus/otm-3b4dc2a1-6773-4287-ad4d-f32e05425183)
+    [kurssille MFK-M205A](https://studies.helsinki.fi/kurssit/toteutus/otm-cf543be2-7dfd-49c7-a1c3-2b2253aec773/MFK-M205A)
     painikkeen "Siirry ilmoittautumaan" avulla.
   * Jos suoritit koko kurssin, ilmoittaudu lisäksi
-    [kurssille MFK-M205B](https://studies.helsinki.fi/kurssit/toteutus/otm-9681c7af-673f-45bd-ae4b-28031770ddae/MFK-M205B).
+    [kurssille MFK-M205B](https://studies.helsinki.fi/kurssit/toteutus/otm-31849760-fade-403a-82ed-3b6061265b56/MFK-M205B).
   * Kun olet ilmoittautunut kursseille, seuraa Moodlen osion "Kurssin suorittaminen" ohjeita.
