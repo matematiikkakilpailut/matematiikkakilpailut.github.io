@@ -7,6 +7,6 @@ Ohjelmassa on koe, jonka tulokset otetaan huomioon Baltian tie -joukkuetta valit
 Joukkuetta ei todennäköisesti ehditä valita valmennusviikonlopun aikana, vaan
 valittuihin otetaan yhteyttä sen jälkeen.
 
-[Ilmoittaudu Päivölään!](https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2025-vk35){.btn .btn-primary .btn-sm .align-baseline role="button"}
+[Ilmoittaudu Päivölään!](https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2025-vk35)
 
 <a href="/aikataulu/">valmennuksen aikataulu</a>
