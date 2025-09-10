@@ -1,0 +1,112 @@
+\input makrot
+\input def
+\input laskut
+
+\font\isosser=cmss12
+\centerline{\isosser Vuoden 1995 pohjoismaisen kilpailun ratkaisut}\bigskip
+
+\harj  
+{\it 1.\ ratkaisu.\/} Piirretään $PB$. Puoliympyrän
+sisältämää kehäkulmaa koskevan lauseen nojalla $\angle RPB=\angle APB=90\as$.
+Täten $P$ ja $Q$ ovat molemmat ympyrällä, jonka halkaisija on $BR$.  Koska
+$\angle AOC=90\as$, $\angle RPQ=\angle CPA=45\as$. Siis myös $\angle
+RBQ=45\as$, ja $RBQ$ on tasakylkinen suorakulmainen kolmio, eli 
+$|BQ|=|QR|$.
+
+\smallbreak
+
+\noindent {\it 2.\ ratkaisu.\/} Asetetaan $O=(0,\,0)$, $A=(-1,\,0)$,
+$B=(1,\,0)$, $C=(0,\,1)$, $P=(t,\,u)$, $t>0$, $u>0$, $t^2+u^2=1$. Suoran $CP$
+yhtälö on $y-1=\displaystyle{u-1\over t}x$. Näin ollen
+$Q=\(\displaystyle{t\over 1-u},\,0\)$ ja $|BQ|=\displaystyle{t\over
+1-u}-1=\displaystyle{t+u-1\over 1-u}$. Toisaalta suoran $AP$ yhtälö on \quad
+$y=\displaystyle{u\over t+1}(x+1)$, joten pisteen $R$  $y$-koordinaatti ja
+samalla  $|QR|$ on  $\displaystyle{u\over t+1}\(\displaystyle{t\over 1-
+u}+1\)=\displaystyle{ut+u-u^2\over (t+1)(1-u)}=\displaystyle{ut+u-1+t^2\over
+(t+1)(1-u)}=\displaystyle{u+t-1\over 1-u}$. Väite on todistettu.
+
+
+
+\harj {\it 1. ratkaisu.\/} Olkoon $S_n$  $2n$-numeroisten
+hyväksyttyjen jonojen joukko. Jaetaan $S_n$ osajoukoiksi $A_n$, $B_n$, $C_n$
+ja $D_n$, joiden alkioina ovat yhdistelmiin  $00$, $01$, $10$, ja $11$
+päättyvät jonot. Merkitään joukon $S_n$ alkioiden lukumäärää $x_n$:llä,
+$A_n$:n alkioiden lukumäärää  $a_n$:llä, $B_n$:n $b_n$:llä, $C_n$:n $c_n$:llä
+ja $D_n$:n $d_n$:llä. Lasketaan $x_6$.
+Koska $S_1=\{00,\, 01,\, 10,\, 11\}$, $x_1=4$ ja $a_1=b_1=c_1=d_1=1$.
+Jokainen $A_{n+1}$:n alkio saadaan joko $B_n$:n tai $D_n$:n alkiosta
+lisäämällä loppuun 00. Siis $a_{n+1}=b_n+d_n$. Vastaavasti $B_{n+1}$:n alkiot
+saadaan $B_n$:n, $C_n$:n ja $D_n$:n alkioista liittämällä loppuun 01, ja
+kääntäen. Siis $b_{n+1}=b_n+c_n+d_n$. Samoin nähdään oikeiksi palautuskaavat 
+$c_{n+1}=a_n+b_n+c_n$ ja $d_{n+1}=a_n+c_n$. Siis
+$a_{n+1}+d_{n+1}=(b_n+d_n)+(a_n+c_n)=x_n$ ja
+$x_{n+1}=2a_n+3b_n+3c_n+2d_n=3x_n-(a_n+b_n)=3x_n-x_{n-1}$. Lähtemällä
+alkuarvoista  $a_1=b_1=c_1=d_1=1$ saadaan $a_2=d_2=2$, $b_2=c_2=3$, $x_2=10$.
+Näin ollen $x_3=26$, $x_4=3\cdot 26-10=68$, $x_5=3\cdot 68-26=178$ ja 
+$x_6=3\cdot 178-68=466$.
+
+\smallbreak
+
+\noindent {\it 2.\ ratkaisu\/} Jokainen tapa kirjoittaa luku 12 ykkösien ja
+kakkosien summana vastaa tasan kahta hyväksyttävää jonoa (eri
+yhteenlaskettavien järjestykset lasketaan erikseen). Summia, joissa on 12
+ykköstä on 1, summia, joissa on yksi kakkonen ja 10 ykköstä on 
+$\displaystyle{11\choose 10}$ jne. Hyväksyttäviä jonoja on yhteensä  $$2\cdot
+\sum_{k=0}^6{12-k\choose
+2k}=2\cdot (1+11+45+84+70+21+1)=466.$$
+
+
+
+\harj  Merkitään $I$:llä niiden indeksien $i$ joukkoa,
+joille $x_i\ge 0$ ja $J$:llä niiden indeksien $i$ joukkoa, joille $x_i<0$.
+Oletetaan, että $M<\displaystyle{1\over \sqrt
+{n(n-1)}}$. Silloin $I\ne\{1,\,2,\,\dots,\,n\}$, koska muutoin pätisi 
+$|x_i|=x_i\le\displaystyle{1\over \sqrt {n(n-1)}}$ jokaiselle $i$ ja olisi 
+$\sum_{i=1}^nx_i^2<\displaystyle{1\over n-1}\le 1$. Siis $\sum_{i\in
+I}x_i^2<(n-1)\cdot \displaystyle{1\over n(n-1)}=\displaystyle{1\over n}$ ja 
+$\sum_{i\in I}x_i<(n-1)\displaystyle{1\over \sqrt {n(n-
+1)}}=\displaystyle{\sqrt {n-1\over n}}$. Koska
+$$0\le\sum_{i=1}^nx_i=\sum_{i\in I}x_i-\sum_{i\in J}|x_i|,$$ on oltava 
+$\sum_{i\in J}|x_i|\le \sum_{i\in I}x_i<\displaystyle{\sqrt {n-1\over n}}$
+and $\sum_{i\in J}x_i^2\le \(\sum_{i\in J}|x_i|\)^2<\displaystyle{n-1\over
+n}$. Mutta silloin $$\sum_{i=1}^nx_i^2=\sum_{i\in I}x_i^2+\sum_{i\in
+J}x_i^2<{1\over n}+{n-1\over n}=1,$$ ja on tultu ristiriitaan. --
+Yhtäsuuruuden $M=\displaystyle{1\over \sqrt {n(n-1)}}$ mahdollisuuden
+toteamiseksi valitaan 
+$x_i=\displaystyle{1\over \sqrt {n(n-1)}}$, $i=1$, 2, \dots, $n-1$ ja 
+$x_n=-\sqrt{\displaystyle{n-1\over n}}$. Tällöin $$\sum_{i=1}^nx_i=(n-
+1)\displaystyle{1\over\sqrt{n(n-1)}}-\sqrt {\displaystyle{n-1\over n}}=0$$ ja
+$$\sum_{i=1}^nx_i^2=(n-1)\cdot \displaystyle{1\over n(n-1)}+\displaystyle{n-
+1\over n}=1.$$ On vielä näytettävä, että yhtäsuuruuteen ei päästä kuin edellä
+esitellyssä tapauksessa. Olkoon siis $x_i=\displaystyle{1\over \sqrt{n(n-
+1)}}$, kun $i=1,\,\dots,\,p$, $x_i\ge0$, kun $i\le q$, ja $x_i<0$, kun
+$q+1\le i\le n$. Samoin kuin yllä saadaan $$\sum_{i=1}^qx_i\le {q\over
+\sqrt{n(n-1)}},\quad \sum_{i=q+1}^n|x_i|\le {q\over \sqrt{n(n-1)}},\quad
+\sum_{i=q+1}^nx_i^2\le {q^2\over n(n-1)},$$ joten $$\sum_{i=1}^nx_i^2\le
+{q+q^2\over n^2-n}.$$ On helppo nähdä, että $q^2+q<n^2+n$, kun $n\ge 2$ ja
+$q\le n-2$, mutta $(n-1)^2+(n-1)=n^2-n$. Välttämätöntä sille, että
+$M=\displaystyle {1\over \sqrt{n(n-1)}}$ on siis se, että jonossa on vain
+yksi negatiivinen termi. Mutta jos positiivisissa termeissä on yksikin, joka
+on $<M$, on $$\sum_{i=1}^n<{q+q^2\over n(n-1)},$$ joten tehtävän ehdot eivät
+toteudu. Yhtäsuuruus on siis voimassa vain, kun $n-1$ luvuista $x_i$ on
+$\displaystyle {1\over \sqrt{n(n-1)}}$ ja viimeinen $\displaystyle {1-n\over
+\sqrt{n(n-1)}}$.
+
+
+
+\harj  Olkoon $n\ge 3$ ja olkoot $n-1$, $n$, $n+1$ kolmion
+sivut. Kolmion piirin puolikas on $\displaystyle{3n\over 2}$. Heronin kaavan
+perusteella kolmion ala on $$T=\sqrt {{3n\over 2}\cdot \({3n\over
+2}-n+1\)\({3n\over 2}-n\)\({3n\over 2}-n-1\)}={n\over 2}\sqrt {{3\over
+4}(n^2-4)}.$$ Jos $n=4$, niin $T=6$. On siis olemassa ainakin yksi
+vaaditunkaltainen kolmio. Olkoon $n$ parillinen luku ja olkoon
+$\displaystyle{3\over
+4}(n^2-4)$ neliöluku. Asetetaan $m=n^2-2>n$. Silloin myös $m$ on parillinen
+ja $m^2-
+4=(m+2)(m-2)=n^2(n^2-4)$. Näin ollen $\displaystyle{3\over 4}(m^2-4)$ on
+sekin neliöluku. Lisäksi $T=\displaystyle{m\over 2}\sqrt{
+\displaystyle{3\over 4}(m^2-4)}$ on kokonaisluku. Väite on todistettu.
+
+
+
+\bye

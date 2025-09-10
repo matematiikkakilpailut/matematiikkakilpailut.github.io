@@ -1,0 +1,97 @@
+\input makrot
+\input def
+\input laskut
+
+\font\isosser=cmss12
+\centerline{\isosser Vuoden 1996 pohjoismaisen kilpailun ratkaisut}\bigskip
+
+\harj  Luvun 1996 numeroiden summa on 25 ja luvun $2\cdot
+1996=3992$
+numeroiden summa on 23. Koska $1996=78\cdot 25+46$, luku, joka saadaan
+kirjoittamalla peräkkäin 78 1996:tta ja 2 3992:ta toteuttaa tehtävän ehdon.
+[$3\cdot 1996=5998$; luvun 5988 numeroiden summa on 30. $1996=65\cdot 30+46$,
+joten $39923992\underbrace{5988\dots5988}_{65\ {\rm kpl}}$ on myös
+kelvollinen vastaus, selvästi pienempi kuin edellinen.]
+
+
+
+\harj   Merkitään $f_n(x)=x^n+x^{-n}$. $f_n(0)$ ei ole
+määritelty millään $n$:n arvolla, joten on oltava $x\ne 0$. Koska $f_0(x)=2$
+kaikilla $x\ne 0$, tutkittavaksi jää, millä $x\ne 0$ $f_n(x)$ on kokonaisluku
+kaikilla $n>0$. Koska
+$$x^n+x^{-n}=(x^1+x^{-1})(x^{n-1}+x^{1-n})-(x^{n-2}+x^{2-n}),$$
+niin jos $x^1+x^{-1}$ on kokonaisluku, niin $x^n+x^{-n}$ on kokokaisluku
+kaikilla $n\ge 2$. $x$:n tulee siis toteuttaa ehto 
+$$x^1+x^{-1}=m,$$ missä $m$ on kokonaisluku. Tämän toisen asteen yhtälön
+ratkaisut ovat   $$x=\frac{m}{2}\pm\sqrt{\frac{m^2}{4}-1},$$
+ne ovat reaalisia, kun $m\ne -1$, 0, 1.
+
+
+
+
+\harj   Olkoon $AF$ kolmion $ABC$ korkeusjana. Voidaan
+olettaa, että
+kulma $ACB$ on terävä. Oletetaan, että myös kulma $CBA$ on terävä.
+Suorakulmaisista kolmioista $ACF$ ja $AFE$ saadaan
+$\angle AFE=\angle ACF$. Kehäkulmalauseen perusteella edelleen $\angle
+ADE=\angle AFE=\angle ACB$. Kolmiot $ABC$ ja $AED$ ovat näin ollen
+yhdenmuotoiset. Jos $P$ ja $Q$ ovat kolmioiden $ABC$ ja $AED$ ympäri
+piirrettyjen ympyröiden keskipisteet, niin $\angle BAP=\angle EAQ$. Jos
+kolmion $AED$ korkeusjana on $AG$, niin $\angle DAG=\angle CAF$. Mutta tästä
+seuraa, että $\angle BAP=\angle DAG$, eli $P$ on korkeusjanalla $AG$. Jos
+$CAB$ on tylppä, toimii sama päättely vähäisin muutoksin. 
+
+
+
+\harj  (i) Käytetään toistuvasti kaavaa
+$\displaystyle f(n+a)=\frac{f(n)-1}{f(n)+1}$:
+$$f(n+2a)=f((n+a)+a)=
+\frac{\displaystyle \frac{f(n)-1}{f(n)+1}-1}
+{\displaystyle \frac{f(n)-1}{f(n)+1}+1}
+=-\frac{1}{f(n)},$$
+$$f(n+4a)=f((n+2a)+2a)=
+-\frac{1}{\displaystyle -\frac{1}{f(n)}}=f(n).$$
+
+\smallbreak
+
+\noindent (ii) Jos  $a=1$, niin $ f(1)=f(a)=f(1995)=f(3+498\cdot 4a)=
+f(3)=f(1+2a)=-\dfrac{1}{f(1)}$, mikä on mahdotonta, koska $f(1)$ ja  $
+\dfrac{1}{f(1)}$ ovat samanmerkkiset. Siis $a\ne 1$.
+
+
+\smallbreak
+
+
+\noindent Jos $a=2$, saadaan $f(2)=f(a)=f(1995)=f(3+249\cdot 4a)=f(3)=
+f(a+1)=f(1996)=f(4+249\cdot 4a)=f(4)=f(2+a)=\dfrac{f(2)-1}{f(2)+1}$ eli
+$f(2)^2+f(2)=f(2)-1$. Tällä toisen asteen yhtälöllä ei ole reaalisia
+ratkaisuja. Siis $a\ne 2$.
+
+\smallbreak
+
+\noindent Jos  $a=3$, niin $f$ voidaan konstruoida valitsemalla $f(1)$,
+$f(2)$ ja $f(3)$ mielivaltaisesti ja laskemalla $f$:n muut arvot
+palautuskaavasta $f(n+3)=\dfrac{f(n)-1}{f(n)+1}$. $a=3$ on siten pienin
+mahdollinen $a$:n arvo. Tarkistetaan, että näin määritelty $f$ toteuttaa
+tehtävän ehdot. 
+
+\noindent Ensinnäkin konstruktion perusteella 
+$$f(n+a)=f(n+3)=\frac{f(n)-1}{f(n)+1}.$$
+Edelleen (i):n perusteella 
+$$f(n+12)=f(n+4a)=f(n),$$
+joten
+$$f(a)=f(3)=f(3+166\cdot 12)=f(1995),$$
+$$f(a+1)=f(4)=f(4+166\cdot 12)=f(1996),$$
+$$f(a+2)=f(5)=f(5+166\cdot 12)=f(1997)$$
+kuten pitää. 
+
+
+\smallbreak
+
+\noindent Jos $f(n)=-1$, $f(n+3)$ ei ole määritelty. Jos $f(n)=0$, $f(n+3)=-
+1$ ja $f(n+6)$ ei ole määritelty. Jos $f(n)=1$, $f(n+3)=0$ ja $f(n+9)$ ei ole
+määritelty. On siis valittava $f(1)$, $f(2)$ ja $f(3)$ eri suuriksi kuin $-
+1$, 0, 1.
+
+
+\bye
