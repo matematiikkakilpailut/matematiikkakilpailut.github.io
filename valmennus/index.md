@@ -51,6 +51,8 @@ valintakokeissa.
 osoitteet ovat [`helpot.tehtavat@matematiikkakilpailut.fi`](mailto:helpot.tehtavat@matematiikkakilpailut.fi)
 ja [`vaikeat.tehtavat@matematiikkakilpailut.fi`](mailto:vaikeat.tehtavat@matematiikkakilpailut.fi).
 
+Syyskuun 2025 [tehtävät](https://drive.google.com/file/d/1-P_DiI2MmfwTUEGHeDQR9wtzn_w8d_Hr/view).
+
 Kesän 2025 [tehtävät](https://drive.google.com/file/d/1n31uLdwv-wMprkZU_RO6QH_N9F4WIViV/view)
 ja [ratkaisut](https://drive.google.com/file/d/1s12FR0rtw6XrBgMRaQhn3y1mK3vj0vqA/view).
 
