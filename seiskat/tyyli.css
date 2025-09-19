@@ -1,0 +1,268 @@
+html, body, h1, h2, h3, nav, main, div, ul, li, p, a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 { text-wrap: balance; }
+
+nav, main {
+  display: block;
+}
+
+html {
+  font-family: Fixedsys, Courier, Consolas, "Andale Mono WT", "Andale Mono", "Liberation Mono", "Nimbus Mono L", monospace;
+  font-size: 16px;
+  background-color: #ffffff;
+}
+
+body {
+  color: #0000ff;
+  margin: 45px auto auto 45px;
+  line-height: 1.1;
+
+  display: -ms-grid;
+  -ms-grid-rows: 150px auto;
+  -ms-grid-columns: 260px auto;
+
+  display: grid;
+  grid-template:
+    "header header"     auto
+    "menu leipateksti"  auto
+    / minmax(150px, 1fr) 3fr;
+  max-width: 1100px;
+}
+
+header {
+  grid-area: header;
+  display: grid;
+  grid-template:
+    "logo otsikko" auto
+  / minmax(150px, 1fr) 3fr;
+}
+
+#logo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: logo;
+  max-width: 200px;
+  width: 18vw;
+  justify-self: center;
+}
+
+h1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: otsikko;
+  color: #00cc00;
+  font-size: 2.2em;
+  align-self: center;
+}
+
+h2 {
+  color: #00cc00;
+  font-weight: bold;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+h3 {
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#pikamenu {
+  display: none;
+  grid-area: pikamenu;
+}
+
+nav {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: menu;
+  display: flex;
+  flex-direction: column;
+}
+
+nav > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 1em 1.7em 0 auto;
+}
+
+nav > ul > li {
+  margin-left: auto;
+  text-align: end;
+}
+
+#nav a.current {
+    font-weight: bold;
+}
+
+#nav .language-switcher {
+  margin-top: 1em;
+}
+
+main {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: leipateksti;
+  margin: 1em 0 0 0;
+}
+
+main > *:first-child {
+  margin-top: 0;
+}
+
+main ul {
+  margin: 1em 0 1em 2em;
+}
+
+p + p {
+  margin-top: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a, main a[href$=".pdf" i] {
+  color: #ff0000;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+nav a:hover, main a[href$=".pdf" i]:hover {
+  color: #ffffff;
+  background-color: #ff0000
+}
+
+.logo {
+  color: #00ccff;
+  font-size: 5em;
+}
+
+
+main a {
+  color: #0000ff;
+  font-weight: bold;
+}
+
+main a:hover {
+  color: #ffffff;
+  background-color: #0000ff;
+  font-weight: bold;
+}
+
+main dd + dt {
+  margin-top: 1em;
+}
+
+main dt {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  body {
+    margin: 10px;
+    line-height: 1.2;
+    grid-template:
+      "header      header"        auto
+      "menu        menu"          auto
+      "leipateksti leipateksti"   auto
+      / 1fr 3fr;
+  }
+
+  header {
+    grid-template: "otsikko logo" auto / 1fr;
+    align-items: center;
+    padding: 0.5em;
+  }
+
+  h1 {
+    font-size: 1.7em;
+  }
+
+  #logo > img {
+    margin: auto;
+    width: 123px;
+    height: 100px;
+  }
+  
+  nav > ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0.5em;
+  }
+
+  nav > ul > li {
+    flex: 0 0 auto;
+    padding: 1px;
+    margin: 0.2em 1em;
+    text-align: left;
+  }
+
+}
+
+@media screen and (max-width: 560px) {
+  h1 {
+    font-size: 1.6em;
+  }
+
+  #logo > img {
+    margin: auto;
+    width: 100px;
+    height: 81px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 1.5em;
+    margin-left: 0.5em;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  body {
+    grid-template:
+      "header"      auto
+    "menu"        auto
+    "leipateksti" auto
+    / 1fr;
+  }
+
+  header {
+    grid-template: "logo" "otsikko" auto / 1fr;
+    align-items: center;
+  }
+
+  nav > ul {
+    flex-direction: column;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+    margin-left: 0.5em;
+    margin-top: 1em;
+  }
+}
+
+@media (-moz-touch-enabled: 1), (pointer:coarse), screen and (max-width: 450px) {
+  a {
+    line-height: 1.5;
+  }
+}
