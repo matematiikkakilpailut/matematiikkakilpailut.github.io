@@ -28,7 +28,7 @@ aikataulu:
 - pvm: "2026"
   tapahtuma: "Kevät"
   otsikko: true
-- pvm: "8.&ndash;10.1. (viikko 2)"
+- pvm: "9.&ndash;11.1. (viikko 2)"
   tapahtuma: >-
     Valmennusviikonloppu Päivölässä.
 - pvm: "16.&ndash;17.1."
@@ -39,13 +39,24 @@ aikataulu:
     Valmennusviikonloppu Päivölässä.
 - pvm: "27.3."
   tapahtuma: >-
-    Pohjoismainen matematiikkakilpailu kutsutuille omassa koulussa.
+    Pohjoismainen matematiikkakilpailu kutsutuille omassa koulussa tai Päivölässä.
     Saattaa olla myös mahdollisuus osallistua yhteispohjoismaiselle
     leirille Ruotsissa.
 - pvm: "27.&ndash;29.3. (viikko 13)"
   tapahtuma: >-
     Valmennusviikonloppu Päivölässä ja Pythagoraan polku.
-
+- pvm: "9.&ndash;15.4."
+  tapahtuma: >-
+    [Euroopan tyttöjen matematiikkaolympialaiset (EGMO)](https://egmo2026.fr/) Bordeaux'ssa
+- pvm: "23.&ndash;30.4."
+  tapahtuma: >-
+    [Eurooppalaiset matematiikkaolympialaiset EMO](https://emo2026.lt/) Vilnassa.
+- pvm: "4.&ndash;9.5. (viikko 19)"
+  tapahtuma: >-
+    Matematiikkaolympiajoukkueen valinta- ja valmennusleiri Päivölässä
+- pvm: "22.&ndash;24.5. (viikko 21)"
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä erityisesti nuoremmille oppilaille
 
 # ainoastaan otsikon "aikataulu" alla olevat tapahtumat otetaan mukaan sivulle
 # joten esim. "mahdollisia" tai "vanhoja" eivät näy vaan ovat mukana vain jotta
