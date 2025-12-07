@@ -39,24 +39,30 @@ aikataulu:
     Valmennusviikonloppu Päivölässä.
 - pvm: "27.3."
   tapahtuma: >-
-    Pohjoismainen matematiikkakilpailu kutsutuille omassa koulussa tai Päivölässä.
-    Saattaa olla myös mahdollisuus osallistua yhteispohjoismaiselle
+    Pohjoismainen matematiikka&shy;kilpailu kutsutuille omassa koulussa tai Päivölässä.
+    Saattaa olla myös mahdollisuus osallistua yhteis&shy;pohjois&shy;maiselle
     leirille Ruotsissa.
 - pvm: "27.&ndash;29.3. (viikko 13)"
   tapahtuma: >-
     Valmennusviikonloppu Päivölässä ja Pythagoraan polku.
 - pvm: "9.&ndash;15.4."
   tapahtuma: >-
-    [Euroopan tyttöjen matematiikkaolympialaiset (EGMO)](https://egmo2026.fr/) Bordeaux'ssa
+    [Euroopan tyttöjen matematiikka&shy;olympialaiset (EGMO)](https://egmo2026.fr/) Bordeaux'ssa
 - pvm: "23.&ndash;30.4."
   tapahtuma: >-
-    [Eurooppalaiset matematiikkaolympialaiset EMO](https://emo2026.lt/) Vilnassa.
+    [Eurooppalaiset matematiikka&shy;olympialaiset EMO](https://emo2026.lt/) Vilnassa.
 - pvm: "4.&ndash;9.5. (viikko 19)"
   tapahtuma: >-
-    Matematiikkaolympiajoukkueen valinta- ja valmennusleiri Päivölässä
+    Matematiikka&shy;olympia&shy;joukkueen valinta- ja valmennus&shy;leiri Päivölässä
 - pvm: "22.&ndash;24.5. (viikko 21)"
   tapahtuma: >-
-    Valmennusviikonloppu Päivölässä erityisesti nuoremmille oppilaille
+    Valmennus&shy;viikon&shy;loppu Päivölässä erityisesti nuoremmille oppilaille
+- tapahtuma: "[Olympia&shy;joukkueen yhteis&shy;pohjois&shy;mainen valmennus&shy;leiri Sorøssa, Tanskassa](https://georgmohr.dk/soroe/)"
+  pvm: "IMOn alla"
+- pvm: "10.&ndash;20.7."
+  tapahtuma: >-
+    [Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr>](https://www.imo2026.com)
+    Shanghaissa, Kiinassa
 
 # ainoastaan otsikon "aikataulu" alla olevat tapahtumat otetaan mukaan sivulle
 # joten esim. "mahdollisia" tai "vanhoja" eivät näy vaan ovat mukana vain jotta
