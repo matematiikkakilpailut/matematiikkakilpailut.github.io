@@ -15,7 +15,7 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
    Olympiaedustaja vuosina 2020 ja 2021, kiinnostunut lukuteoriasta.
 *  Aino Aulanko <br/> Olympiaedustaja vuosina 2022, 2023 ja 2024.  
 *  Anne-Maria Ernvall-Hytönen<br/>
-   Filosofian tohtori, apulaisprofessori (HY), olympiaedustaja vuosina 1999, 2000 ja 2001.
+   Filosofian tohtori, professori (HY), olympiaedustaja vuosina 1999, 2000 ja 2001.
    Kantaa huolta lukuteorian ja epäyhtälöiden osaamisesta.
 *  Lauri Hallila<br/> Olympiaedustaja vuosina 1996 ja 1997.
 *  Akseli Jussinmäki<br/> Olympiaedustaja vuosina 2018 ja 2019, erityisesti peruskoululaisten valmennus.
