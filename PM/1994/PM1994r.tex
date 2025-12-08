@@ -1,0 +1,84 @@
+\input makrot
+\input def
+\input laskut
+
+\font\isosser=cmss12
+\centerline{\isosser Vuoden 1994 pohjoismaisen kilpailun ratkaisut}\bigskip
+
+\harj  Olkoot $H_A$, $H_B$ ja $H_C$ pisteen $O$
+kohtisuorat projektiot sivuilla $BC$, $CA$ ja $AB$. Koska $60\as<\angle
+OA_1B<120\as$, niin $$|OH_A|=|OA_1|\sin(\angle OA_1B)>|OA_1|{\sqrt 3\over
+2}.$$ Vastaavasti $$|OH_B|>|OB_1|{\sqrt 3\over 2}\quad{\rm ja}\quad
+|OH_C|>|OC_1|{\sqrt 3\over 2}.$$ Jos kolmion $ABC$ ala lausutaan tavallisella
+kaavalla ja toisaalta osakolmioiden $ABO$, $BCO$ ja $CAO$ (joilla kaikilla on
+sama kanta $a$) alojen summana, saadaan $$|OH_A|+|OH_B|+|OH_C|=a{\sqrt 3\over
+2}.$$ Väite seuraa heti.
+
+
+
+\harj  Selvästi pisteet $(0,\,0)$, $(1,\,0)$, $(1,\,1)$,
+$(0,\,1)$ muodostavat kaksinaapurijoukon (2NJ). Myös jokaisella parillisella
+luvulla$n=2k\ge 8$ joukko $S=\{(0,\,0)$, \dots, $(k-2,\,0)$, $(k-2,\,1)$,
+$(k-2,\,2)$, \dots, $(0,\,2)$, $(0,\,1)\}$ on 2NJ. Osoitetaan, että muilla
+$n$:n arvoilla ei ole olemassa 2NJ:ja. 
+
+\smallbreak
+
+\noindent Olkoon $S$ 2NJ ja olkoon $S$:ssä $n$ pistettä. Liitetään jokainen
+$S$:n piste kahteen naapuriinsa yksikköjanalla. Syntyvien kuvioiden tulee
+olla suljettuja murtoviivoja, koska päättyvän murtoviivan pää olisi piste,
+jolla on vain yksi naapuri. Murtoviivoissa on yhteensä $n$ janaa (joka
+pisteestä lähtee kaksi janaa, joten pisteistä lähtee yhteensä $2n$ janaa;
+jos lähtevät janat lasketaan, tulee jokainen jana lasketuksi kahdesti).
+Murtoviivoissa olevien janojen määrä on parillinen: kun murtoviiva
+kierretään ympäri, on otettava yhtä monta askelta vasemmalle kuin oikealle
+ja yhtä monta alas kuin ylös). Siis $n$ on välttämättä parillinen. Selvästi
+$n\ne 2$. 
+
+\smallbreak
+
+\noindent On vielä näytettävä, että $n\ne 6$. Voidaan olettaa, että
+$(0,\,0)\in S$. Nyt on symmetriasyistä olennaisesti vain kaksi
+mahdollisuutta: a) $(-1,\,0)\in S$ ja $(1,\,0)\in S$ tai b) $(1,\,0)\in S$
+ja $(0,\,1)\in S$. Tapauksessa a) on $(0,\,1)\notin S$ ja $(0,\,-1)\notin
+S$. Koska $S$:n pisteet $(-1,\,0)$, $(0,\,0)$ ja $(1,\,0)$ kuuluvat johonkin
+suljettuun murtoviivaan, tämän murtoviivan on kierrettävä joko pisteen
+$(0,\,1)$ tai $(0,\,-1)$ ympäri. Kummassakin tapauksessa murtoviivassa on
+ainakin 8 janaa. Tapauksessa b) $(1,\,1)\notin S$ ($S$:n tulisi koostua
+murtoviivasta, jossa on neljä janaa ja murtoviivasta, jossa on kaksi janaa;
+viimemainittu on mahdoton)ja $(-1,\,0)\notin S$, $(0,\,-1)\notin S$. Pisteet
+$(1,\,0)$, $(0,\,0)$ ja $(0,\,1)$ sisältävä murtoviiva joko kiertää pisteen
+$(1,\,1)$, jolloin siinä on ainakin 8 janaa, tai kiertää pisteet $(-1,\,0)$
+ja $(0,\,-1)$, jolloin siinä on ainakin 10 janaa. Siis $n=6$ johtaa aina
+ristiriitaan.
+
+
+
+\harj  Taitos synnyttää tasakylkisen puolisuunnikkaan
+$ADD'A'$. Symmetrian perusteella kärjen $D$ kohtisuora etäisyys sivusta
+$A'D'$ on sama kuin kärjen $D'$ kohtisuora etäisyys sivusta $AD$ eli sama
+kuin neliön sivu $a$. Suora $A'D'$ on siten $D$-keskisen $a$-säteisen ympyrän
+tangentti, samoin kuin suorat $AB$ ja $BC$. Jos ympyrän ja $A'D'$:n
+sivuamispiste on $F$, niin $AE=EF$ ja $FD'=D'C$. Siis
+$$AB+BC=AE+EB+BD'+D'C=ED'+EB+BD',$$ eli väite.
+
+
+
+
+\harj  Etsitään yhtälön $$n^2+(n+1)^2=(n+p)^2,\quad p\ge
+2$$ kokonaislukuratkaisut. Toisen asteen yhtälön ratkaisukaavan mukaan $$n=p-
+1+\sqrt {2p(p-1)}\ge 2(p-1).$$ Koska $n<200$, $p\le 100$. Lisäksi luvun
+$2p(p-1)$ on oltava kokonaisluvun neliö. Jos $p$ on pariton, $p$:llä ja $2(p-
+1)$:llä ei voi olla yhteisiä tekijöitä. Silloin sekä $p$:n että $2(p-1)$:n
+on oltava kokonaisluvun neliöitä. Ainoat mahdollisuudet ovat $p=9$, $p=25$,
+$p=49$ ja $p=81$. Vastaavat luvut $2(p-1)$ ovat 16, 48, 96 ja 160. Näistä
+vain 16 on neliö. Saadaan yksi ratkaisu $n=8+\sqrt {2\cdot 9\cdot 8}=20$,
+$20^2+21^2=841=29^2$. Jos $p$ on parillinen, niin luvuilla $2p$ ja $p-1$ ei
+ole yhteisiä tekijöitä, joten molemmat ovat neliöitä. Luvun $2p$ mahdolliset
+arvot ovat 4, 16, 36, 64, 100, 144 ja 196. Vastaavat luvun $p-1$ arvot ovat
+1, 7, 31, 49, 71 ja 97. Saadaan kaksi ratkaisua $n=1+2=3$, $3^2+4^2=5^2$ ja
+$n=49+70=119$, $119^2+120^2=169^2$.
+
+
+
+\bye
