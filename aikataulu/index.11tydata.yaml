@@ -1,42 +1,19 @@
 ---
 aikataulu:
-- pvm: "2025"
-  tapahtuma: "Syksy"
-  otsikko: true
-- pvm: "29.&ndash;31.8. (viikko 35)"
-  tapahtuma: >-
-    Valmennusviikonloppu Päivölässä. Baltian tie -joukkueeseen pyrkivien kannattaa osallistua.
-- pvm: "22.10.&ndash;4.11."
-  tapahtuma: >-
-    [MAOLin matematiikkakilpailun alkukilpailu, peruskoulu](https://maol.fi/neljan-tieteen-kisat/)
-- pvm: "24.&ndash;26.10. (viikko 43)"
-  tapahtuma: >-
-    Valmennusviikonloppu Päivölässä.
-- pvm: "28.10."
-  tapahtuma: >-
-    [MAOLin matematiikkakilpailun alkukilpailu, lukio](https://maol.fi/neljan-tieteen-kisat/)
-- pvm: "13.&ndash;17.11."
-  tapahtuma: >-
-    [Baltian tie -joukkuekilpailu](https://bw2025.lu.lv/) Riiassa, Latviassa.
-- pvm: "12.&ndash;14.12. (viikko 50)"
-  tapahtuma: >-
-    Valmennusviikonloppu Päivölässä ja [EMC-kilpailu](https://emc.mnm.hr/).
-    [Ilmoittaudu tästä!](https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2025-vk50){.btn .btn-primary .btn-sm .align-baseline role="button"}
-- pvm: "n. 13.–18.12."
-  tapahtuma: >-
-    Mahdollisesti RMM-valintaleiri Sorøssä, Tanskassa
 - pvm: "2026"
   tapahtuma: "Kevät ja kesä"
   otsikko: true
 - pvm: "9.&ndash;11.1. (viikko 2)"
   tapahtuma: >-
     Valmennusviikonloppu Päivölässä.
+    [Ilmoittaudu tästä!](https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2026-vk2){.btn .btn-primary .btn-sm .align-baseline role="button"}
 - pvm: "16.&ndash;17.1."
   tapahtuma: >-
     MAOLin loppukilpailut
 - pvm: "20.&ndash;.22.2. (viikko 8)"
   tapahtuma: >-
     Valmennusviikonloppu Päivölässä.
+    [Ilmoittaudu](https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2026-vk8)
 - pvm: "27.3."
   tapahtuma: >-
     Pohjoismainen matematiikka&shy;kilpailu kutsutuille omassa koulussa tai Päivölässä.
@@ -114,6 +91,31 @@ vanhoja:
   tapahtuma: >-
     [Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr>](https://imo2025.au/)
     Sunshine Coastissa, Australiassa
+- pvm: "2025"
+  tapahtuma: "Syksy"
+  otsikko: true
+- pvm: "29.&ndash;31.8. (viikko 35)"
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä. Baltian tie -joukkueeseen pyrkivien kannattaa osallistua.
+- pvm: "22.10.&ndash;4.11."
+  tapahtuma: >-
+    [MAOLin matematiikkakilpailun alkukilpailu, peruskoulu](https://maol.fi/neljan-tieteen-kisat/)
+- pvm: "24.&ndash;26.10. (viikko 43)"
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä.
+- pvm: "28.10."
+  tapahtuma: >-
+    [MAOLin matematiikkakilpailun alkukilpailu, lukio](https://maol.fi/neljan-tieteen-kisat/)
+- pvm: "13.&ndash;17.11."
+  tapahtuma: >-
+    [Baltian tie -joukkuekilpailu](https://bw2025.lu.lv/) Riiassa, Latviassa.
+- pvm: "12.&ndash;14.12. (viikko 50)"
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä ja [EMC-kilpailu](https://emc.mnm.hr/).
+- pvm: "n. 13.–18.12."
+  tapahtuma: >-
+    Mahdollisesti RMM-valintaleiri Sorøssä, Tanskassa
+
 - pvm: "2024"
   tapahtuma: "Syksy"
   otsikko: true
