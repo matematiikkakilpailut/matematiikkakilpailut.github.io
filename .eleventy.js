@@ -9,7 +9,8 @@ import {
   formatICalDate,
   getICalExclusiveEnd,
   generateEventUID,
-  escapeICalText
+  escapeICalText,
+  foldICalLine
 } from './_utils/dates.js';
 
 
@@ -41,6 +42,12 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("icalEndDate", getICalExclusiveEnd);
   eleventyConfig.addFilter("icalUID", generateEventUID);
   eleventyConfig.addFilter("icalEscape", escapeICalText);
+  // Filter to create a folded iCal property line (name:value with RFC 5545 folding)
+  eleventyConfig.addFilter("icalProperty", function(value, name) {
+    if (!value) return '';
+    const escaped = escapeICalText(value);
+    return foldICalLine(name, escaped);
+  });
 
   eleventyConfig.addFilter("splitCards", function (content) {
     const $ = cheerio.load(content, null, false);
