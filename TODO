@@ -1,0 +1,63 @@
+I've implemented a system where the schedule is filled from a master spreadsheet (Google Sheets CSV) that also serves as the source for a subscribable iCal calendar.
+
+  What Was Built
+
+  New Files Created:
+  - _utils/dates.js - Date formatting utilities for Finnish dates and iCal format
+  - aikataulu/aikataulu.11tydata.js - CSV fetching and data transformation at build time
+  - aikataulu/aikataulu.ics.njk - iCal calendar template generating /aikataulu.ics
+  - aikataulu/schedule-cache.csv - Sample CSV data for testing/fallback
+
+  Files Modified:
+  - aikataulu/index.md - Added calendar subscription button and past event styling
+  - .eleventy.js - Added iCal-related filters
+  - CLAUDE.md - Documented the new schedule system
+
+  Files Backed Up:
+  - aikataulu/index.11tydata.yaml.backup - Original YAML schedule data
+
+  Key Features
+
+  1. CSV Data Source: Schedule data fetched from Google Sheets at build time
+  2. Automatic Fallback: If fetch fails, uses cached CSV data
+  3. Finnish Date Formatting: Automatically generates "9.–11.1." format from ISO dates
+  4. Year/Season Headers: Auto-generates section headers like "2026 Kevät ja kesä"
+  5. Past Event Styling: Events in the past are displayed with muted styling
+  6. iCal Calendar: Subscribable calendar at /aikataulu.ics
+  7. Calendar Button: "Tilaa kalenteri" button on the schedule page
+
+  How to Use
+
+  1. Create a Google Sheet with columns:
+    - start_date (ISO: 2026-01-09)
+    - end_date (ISO: 2026-01-11)
+    - title
+    - description (optional)
+    - url (optional)
+    - display_override (optional)
+  2. Publish to web: File > Share > Publish to web > CSV
+  3. Set the URL: Either set SCHEDULE_CSV_URL environment variable or update the URL in aikataulu/aikataulu.11tydata.js
+  4. Build: Run npm run build
+
+  Suggested Next Steps
+
+  1. Create a real Google Sheet with the schedule data
+  2. Update aikataulu/aikataulu.11tydata.js with the published CSV URL
+  3. Consider setting up a GitHub Action to periodically rebuild the site when the spreadsheet changes
+  4. Test the iCal feed subscription in various calendar apps (Google Calendar, Apple Calendar, Outlook)
+
+
+---------
+
+- iCal Line Folding (maybe done)
+- check date functions for sanity
+- UID stability: added id field in sheet, need to use it!
+
+iCal Escape Logic: escapeICalText performs manual HTML entity decoding and iCal escaping. It's a bit fragile; for example, it handles &ndash; but not all potential entities that might come from a rich-text-to-CSV export.
+Redundant Timeout Clearing: In fetchCSV (aikataulu/aikataulu.11tydata.js), clearTimeout(timeoutId) is called in both the try block and the finally block. Calling it in finally alone is sufficient.
+Date Parsing: parseISODate uses new Date(year, month-1, day), which creates a date in the local timezone of the build machine. While usually safe for all-day events, it's worth noting that if the build environment and the target audience are in significantly different timezones, "today" logic in isPastEvent might occasionally shift by a day.
+Dead File: aikataulu/index.11tydata.yaml.backup appears to be a temporary backup of the previous manual data. It should likely be removed before merging.
+Hardcoded Metadata: The PRODID in aikataulu.ics.njk is hardcoded in the frontmatter. It's fine for now but could be moved to a global site metadata file if more calendars are added later.
+Clarifying questions:
+Is there a plan to handle cancelled events in the CSV? The previous system sometimes used <del> or "PERUUTETTU" text, which might need specific handling in the transformRow logic if not handled manually in the title/description.
+
