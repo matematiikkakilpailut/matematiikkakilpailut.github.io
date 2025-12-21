@@ -33,9 +33,7 @@ const __dirname = path.dirname(__filename);
 const CACHE_FILE = path.join(__dirname, 'schedule-cache.csv');
 
 // Google Sheets published CSV URL
-// To set up: Open your Google Sheet > File > Share > Publish to web
-// Select the sheet tab, choose "Comma-separated values (.csv)", copy the URL
-const SHEET_URL = process.env.SCHEDULE_CSV_URL || '';
+const SHEET_URL = process.env.SCHEDULE_CSV_URL || 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR6soREOyUSs0E7KDfFpZpIpckFg7My9ia5w0FxaGZFcxXIP8T9DBfbWo5ACuxXQ4bi98szlUsrpnCQ/pub?gid=0&single=true&output=csv';
 
 /**
  * Fetch CSV data from URL.
