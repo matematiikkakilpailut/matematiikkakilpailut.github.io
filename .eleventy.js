@@ -5,6 +5,12 @@ import markdownItAnchor from "markdown-it-anchor";
 import markdownItAttrs from "markdown-it-attrs";
 import rss from "@11ty/eleventy-plugin-rss";
 import * as cheerio from 'cheerio';
+import {
+  formatICalDate,
+  getICalExclusiveEnd,
+  generateEventUID,
+  escapeICalText
+} from './_utils/dates.js';
 
 
 const md = markdownIt({
@@ -29,6 +35,12 @@ export default function (eleventyConfig) {
     return md.render(x);
   });
   eleventyConfig.setLibrary("md", md);
+
+  // iCal filters for calendar generation
+  eleventyConfig.addFilter("icalDate", formatICalDate);
+  eleventyConfig.addFilter("icalEndDate", getICalExclusiveEnd);
+  eleventyConfig.addFilter("icalUID", generateEventUID);
+  eleventyConfig.addFilter("icalEscape", escapeICalText);
 
   eleventyConfig.addFilter("splitCards", function (content) {
     const $ = cheerio.load(content, null, false);
