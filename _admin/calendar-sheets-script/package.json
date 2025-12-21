@@ -1,0 +1,16 @@
+{
+  "name": "calendar-sheets-script",
+  "version": "1.0.0",
+  "description": "Google Apps Script for managing calendar events in Google Sheets",
+  "scripts": {
+    "push": "clasp push",
+    "pull": "clasp pull",
+    "deploy": "clasp deploy",
+    "open": "clasp open"
+  },
+  "devDependencies": {
+    "@google/clasp": "^2.4.2",
+    "@types/google-apps-script": "^1.0.83",
+    "typescript": "^5.3.3"
+  }
+}
