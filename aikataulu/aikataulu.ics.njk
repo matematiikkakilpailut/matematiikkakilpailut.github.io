@@ -1,0 +1,35 @@
+---
+permalink: aikataulu.ics
+eleventyExcludeFromCollections: true
+metadata:
+  prodid: -//Matematiikkakilpailut//Aikataulu//FI
+  calname: Matematiikkavalmennuksen aikataulu
+  url: https://matematiikkakilpailut.fi/
+---
+{%- set dtstamp = "" | icalDate -%}
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:{{ metadata.prodid }}
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:{{ metadata.calname }}
+X-WR-TIMEZONE:Europe/Helsinki
+{%- for event in aikataulu %}
+{%- if not event.otsikko and event.startDate %}
+BEGIN:VEVENT
+UID:{{ event.startDate | icalUID(event.title) }}
+DTSTAMP:{{ dtstamp }}
+DTSTART;VALUE=DATE:{{ event.startDate | icalDate }}
+DTEND;VALUE=DATE:{{ event.endDate | icalEndDate }}
+SUMMARY:{{ event.title | icalEscape }}
+SEQUENCE:0
+{%- if event.description %}
+DESCRIPTION:{{ event.description | icalEscape }}
+{%- endif %}
+{%- if event.url %}
+URL:{{ event.url | icalEscape }}
+{%- endif %}
+END:VEVENT
+{%- endif %}
+{%- endfor %}
+END:VCALENDAR
