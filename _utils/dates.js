@@ -179,9 +179,9 @@ export function generateEventUID(startDate, title) {
 
 /**
  * Escape text for iCal format (handle newlines, commas, etc.).
- * Also handles common HTML entities and provides line folding for long lines.
+ * Also handles common HTML entities and provides line folding per RFC 5545.
  * @param {string} text - Text to escape
- * @returns {string} Escaped text suitable for iCal
+ * @returns {string} Escaped text suitable for iCal, with lines folded at 75 octets
  */
 export function escapeICalText(text) {
   if (!text) return '';
@@ -207,4 +207,55 @@ export function escapeICalText(text) {
     .replace(/\n/g, '\\n');
 
   return result;
+}
+
+/**
+ * Fold a content line according to RFC 5545 (at 75 octets).
+ * Lines are folded by inserting CRLF followed by a single space.
+ * Ensures we never split within a UTF-8 multi-byte character sequence.
+ * @param {string} name - Property name (e.g., "DESCRIPTION")
+ * @param {string} value - Property value (already escaped)
+ * @returns {string} Folded line suitable for iCal
+ */
+export function foldICalLine(name, value) {
+  const line = `${name}:${value}`;
+  const encoder = new TextEncoder();
+  const bytes = encoder.encode(line);
+
+  // No folding needed if line is 75 octets or less
+  if (bytes.length <= 75) {
+    return line;
+  }
+
+  // Fold at 75 octets, working with the byte array to avoid splitting UTF-8 sequences
+  const result = [];
+  let byteOffset = 0;
+
+  while (byteOffset < bytes.length) {
+    let segmentLength = Math.min(75, bytes.length - byteOffset);
+
+    // If this is a continuation line, reserve 1 byte for the leading space
+    if (byteOffset > 0) {
+      segmentLength = Math.min(74, bytes.length - byteOffset);
+    }
+
+    // Find a valid UTF-8 character boundary at or before segmentLength
+    // UTF-8 continuation bytes start with bits 10xxxxxx (0x80-0xBF)
+    while (segmentLength > 0 && (bytes[byteOffset + segmentLength] & 0xC0) === 0x80) {
+      segmentLength--;
+    }
+
+    // Decode the segment
+    const segment = new TextDecoder().decode(bytes.slice(byteOffset, byteOffset + segmentLength));
+
+    if (byteOffset === 0) {
+      result.push(segment);
+    } else {
+      result.push(' ' + segment);
+    }
+
+    byteOffset += segmentLength;
+  }
+
+  return result.join('\r\n');
 }

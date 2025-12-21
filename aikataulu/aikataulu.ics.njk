@@ -21,13 +21,13 @@ UID:{{ event.startDate | icalUID(event.title) }}
 DTSTAMP:{{ dtstamp }}
 DTSTART;VALUE=DATE:{{ event.startDate | icalDate }}
 DTEND;VALUE=DATE:{{ event.endDate | icalEndDate }}
-SUMMARY:{{ event.title | icalEscape }}
+{{ event.title | icalProperty("SUMMARY") }}
 SEQUENCE:0
 {%- if event.description %}
-DESCRIPTION:{{ event.description | icalEscape }}
+{{ event.description | icalProperty("DESCRIPTION") }}
 {%- endif %}
 {%- if event.url %}
-URL:{{ event.url | icalEscape }}
+{{ event.url | icalProperty("URL") }}
 {%- endif %}
 END:VEVENT
 {%- endif %}
