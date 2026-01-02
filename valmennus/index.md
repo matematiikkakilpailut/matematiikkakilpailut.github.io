@@ -51,12 +51,12 @@ valintakokeissa.
 osoitteet ovat [`helpot.tehtavat@matematiikkakilpailut.fi`](mailto:helpot.tehtavat@matematiikkakilpailut.fi)
 ja [`vaikeat.tehtavat@matematiikkakilpailut.fi`](mailto:vaikeat.tehtavat@matematiikkakilpailut.fi).
 
+Tammikuun 2026 [tehtävät](https://drive.google.com/file/d/1Ee42iz4Uf1ngJn4mK0dt1fujaawzubXv/view).
+
 Syyskuun 2025 [tehtävät](https://drive.google.com/file/d/1-P_DiI2MmfwTUEGHeDQR9wtzn_w8d_Hr/view).
 
 * **Korjaus tehtävään 20:** jakaja, jolla tehtävän luvut eivät ole jaollisia, on 17 eikä 3.
 
-Kesän 2025 [tehtävät](https://drive.google.com/file/d/1n31uLdwv-wMprkZU_RO6QH_N9F4WIViV/view)
-ja [ratkaisut](https://drive.google.com/file/d/1s12FR0rtw6XrBgMRaQhn3y1mK3vj0vqA/view).
 
 
 
@@ -74,6 +74,9 @@ Peruskoululaiset voivat halutessaan ratkoa myös haastavampia, kaikille koululai
 
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
+
+Kesän 2025 [tehtävät](https://drive.google.com/file/d/1n31uLdwv-wMprkZU_RO6QH_N9F4WIViV/view)
+ja [ratkaisut](https://drive.google.com/file/d/1s12FR0rtw6XrBgMRaQhn3y1mK3vj0vqA/view).
 
 Helmikuun 2025 [tehtävät](https://drive.google.com/file/d/1Ba1MJuIXXhi04T8ua4caqfjDEai8-0PS/view)
 ja [ratkaisut](https://drive.google.com/file/d/1BHI1PnrhQV--atWp4v7plqyD-WmYIS5U/view).
