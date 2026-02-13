@@ -51,6 +51,9 @@ valintakokeissa.
 osoitteet ovat [`helpot.tehtavat@matematiikkakilpailut.fi`](mailto:helpot.tehtavat@matematiikkakilpailut.fi)
 ja [`vaikeat.tehtavat@matematiikkakilpailut.fi`](mailto:vaikeat.tehtavat@matematiikkakilpailut.fi).
 
+Helmikuun 2026 [tehtävät](https://drive.google.com/file/d/1j8iKxOCmrYgOxPCz5bulxV85VfjniZ87/view).
+Ratkaisut pyydetään palauttamaan viimeistään 15.3.2026.
+
 Tammikuun 2026 [tehtävät](https://drive.google.com/file/d/1Ee42iz4Uf1ngJn4mK0dt1fujaawzubXv/view).
 
 Syyskuun 2025 [tehtävät](https://drive.google.com/file/d/1-P_DiI2MmfwTUEGHeDQR9wtzn_w8d_Hr/view).
