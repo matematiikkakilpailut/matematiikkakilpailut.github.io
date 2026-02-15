@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kotitehtävät</title>
+    <meta name="description" content="Matematiikan valmennustehtäviä yläkoulu- ja lukioikäisille,  erityisesti kilpailujoukkueisiin pyrkiville. Mukana myös vanhat tehtäväsarjat ratkaisuineen vuodesta 2010.">
+    <link href="/css/bootstrap.min.css?v=5.3.3" rel="stylesheet">
+    <style>
+     .breadcrumb {
+       --bs-breadcrumb-divider: '';
+       --bs-breadcrumb-padding-x: 0;
+       --bs-breadcrumb-item-padding-x: 0;
+     }
+     .navbar {
+       --bs-navbar-brand-padding-y: 4px;
+     }
+     [data-bs-theme="dark"] {
+       --bs-link-color: #788591;
+       --bs-link-color-rgb: 120, 133, 145;
+       .link-primary, .text-primary {
+         --bs-primary-rgb: 236, 240, 241;
+       }
+       .link-primary:hover {
+         color: rgb(128, 139, 150) !important;
+       }
+     }
+     [data-bs-theme="light"] {
+       --bs-link-color: #168366;
+       --bs-link-color-rgb: 23, 114, 83;
+       .link-primary {
+         --bs-primary-rgb: 33, 37, 41;
+         &:hover {
+           color: rgb(24, 188, 156) !important;
+         }
+       }
+     }
+     [data-bs-theme="dark"] .light-element { display: none; }
+     [data-bs-theme="light"] .dark-element { display: none; }
+     h1,h2,h3,h4,h5,h6 { text-wrap: balance; }
+     #logopalkki {
+       margin-top: 6ex;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+       align-content: center;
+     }
+     @media (pointer: coarse), (max-width: 450px) {
+       footer ul li {
+         padding-top: 0.5em;
+       }
+     }
+    </style>
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/kuvat/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/kuvat/apple-touch-icon.png">
+    <link rel="manifest" href="/kuvat/manifest.webmanifest">
+    <link rel="preload" href="/font/Lato-Regular.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/Lato-Bold.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/Lato-Italic.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <meta name="robots" content="index,nofollow">
+    
+    <link rel="sitemap" href="/sitemap.xml">
+    <link rel="canonical" href="https://matematiikkakilpailut.fi/valmennus/">
+    <link rel="alternate" type="application/atom+xml" href="https://matematiikkakilpailut.fi/feed.xml">
+    <script>
+      const getStoredTheme = () => localStorage.getItem('theme')
+      const getPreferredTheme = () => {
+        const storedTheme = getStoredTheme()
+        if (storedTheme) {
+          return storedTheme
+        }
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+      }
+      const setTheme = theme => {
+        document.documentElement.dataset.bsTheme =
+          theme === 'auto'
+          ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+          : theme
+      }
+      setTheme(getPreferredTheme())
+    </script>
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <nav data-bs-theme="dark" class="navbar navbar-expand-md bg-primary" aria-label="Päävalikko">
+  <div class="container-fluid flex-flow align-items-start">
+    <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbar-collapse" aria-controls="navbar-collapse"
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand ps-sm-4" href="/">Matematiikkavalmennus</a>
+    <div class="d-flex order-0 order-md-last ms-md-auto" id="theme-toggle" title="Taustaväri">
+      <div class="dropdown">
+        <button class="btn btn-link nav-link dropdown-toggle
+                       py-2 pt-md-2 px-1 px-lg-2
+                       d-flex align-items-center text-light"
+                type="button"
+                id="bd-theme"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
+          <svg class="bi theme-icon-active" width="16" height="16" fill="currentColor">
+            <use href="/kuvat/sprite3.svg#sun-fill"></use>
+          </svg>
+          <span class="d-none" id="bd-theme-text">Taustaväri</span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme">
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite3.svg#sun-fill"></use>
+              </svg>
+              Vaalea
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite3.svg#moon-stars-fill"></use>
+              </svg>
+              Tumma
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite3.svg#circle-half"></use>
+              </svg>
+              Automaattinen
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="collapse navbar-collapse flex-column align-items-start" id="navbar-collapse">
+      <div class="row flex-grow-1">
+        <div class="col-12 flex-grow-1">
+          <ul class="navbar-nav mb-2 mb-md-0">
+            <li class="nav-item"><a class="nav-link " href="/aikataulu/">Aikataulu</a></li>
+           <li class="nav-item"><a class="nav-link active" href="/valmennus/">Kotitehtävät</a></li>
+            <li class="nav-item"><a class="nav-link " href="/aiheet/">Materiaalit</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    
+<div class="container-fluid flex-flow bg-body-secondary align-items-start">
+  <nav aria-label="navigaatiopolku" class="mt-1 ps-sm-4 small">
+    <ol class="breadcrumb mb-1" itemscope itemtype="https://schema.org/BreadcrumbList">
+      
+      <li class="breadcrumb-item pe-1" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <meta itemprop="position" content="1">
+        <a class="icon-link link-primary text-decoration-none" href="/"
+           itemscope itemtype="https://schema.org/WebPage" itemprop="item" itemid="/">
+          <span itemprop="name">Etusivu</span>
+          <svg class="bi" style="stroke-width: 1.1; stroke: currentColor;">
+            <use xlink:href="/kuvat/sprite3.svg#chevron-right"/>
+          </svg>
+        </a>
+      </li>
+      <li class="breadcrumb-item active text-primary" aria-current="page"
+          itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <span itemprop="name">Kotitehtävät</span>
+        <meta itemprop="position" content="2">
+      </li>
+    </ol>
+  </nav>
+</div>
+
+    <div class="container flex-grow-1">
+        <header class="display-4 pt-3 pb-3 mt-3 mb-1">
+  <h1>Kotitehtävät</h1>
+</header>
+
+<main>
+  
+  <div class="float-md-end col-md-auto ps-md-4 pb-3" style="max-width: 400px;">
+    <div class="card border-primary shadow position-relative">
+      <div class="position-absolute top-0 end-0 p-2">
+        <span class="badge rounded-pill text-bg-info">Uutta!</span>
+      </div>
+      <div class="card-body">
+        <h3 class="card-title">Avoimen yli­opiston ongelman­ratkaisu­kurssi</h3>
+        <div class="highlighted-content" style="text-wrap: balance">
+          <p>Voit täydentää kirje­valmennusta Avoimen Yli­opiston ongelman­ratkaisu­kurssilla.</p>
+<p><a href="ongelma/" class="card-link">Lue lisää!</a></p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <h2 id="kirjevalmennus" tabindex="-1">Kirjevalmennus</h2>
+<p>Kirjevalmennus- eli kotitehtävät on tarkoitettu <strong>kaikille
+kilpailumatematiikasta kiinnostuneille koululaisille, erityisesti ne on
+suunnattu yläkoulu- ja lukioikäisille</strong>. Erityisesti niiden, jotka
+syystä tai toisesta eivät halua tai voi osallistua
+valmennustapahtumiin, mutta jotka haluavat tulla otetuiksi huomioon
+eri kilpailujoukkueita valittaessa, on syytä pitää yllä kosketusta
+Valmennusjaostoon lähettämällä vastauksia kirjevalmennustehtäviin.</p>
+<p>Tarkoituksena on ratkaista mahdollisimman monta tehtävää (yksikin on
+parempi kuin ei yhtään!) ja palauttaa ne pyydettyyn osoitteiseen
+Tehtäviä on erikseen yläkouluikäisille (ks. peruskoululaisten tehtävät
+alta) ja lukiolaisille ja muille kiinnostuneille koululaisille. Jälkimmäiset
+tehtävät on yleensä jaettu kahteen sarjaan vaikeustason mukaan.</p>
+<p>Valmennusvastauksista voidaan antaa palautetta vain, jos vastausten
+mukana ovat lähettäjän yhteystiedot!</p>
+<p>Netissä on monenlaisia lähteitä,
+joista ratkaisuja voi löytää tai pyytää – <a href="https://aops.com">AOPS</a> ja
+<a href="https://math.stackexchange.com">Math Stackexchange</a> lienevät tunnetuimpia. Näiden
+käyttäminen ei ole haitaksi ja niistä voi oppia paljonkin, mutta
+suosittelemme yrittämään ratkaisua ensin itse. Samaten tehtävien pohtiminen
+yhdessä muiden valmennettavien kanssa, jos siihen tarjoutuu tilaisuus,
+voi olla opettavaista.</p>
+<p>Joukkuevalinnat perustuvat kokonaisharkintaan, jossa
+otetaan huomioon palautetut tehtävät ja menestyminen kilpailuissa ja
+valintakokeissa.</p>
+<h3 id="teht%C3%A4v%C3%A4t-lukiolaisille-tai-kaikille-koululaisille" tabindex="-1">Tehtävät lukiolaisille tai kaikille koululaisille</h3>
+<p><strong>Vastausten palautusosoite on muuttunut</strong>:
+osoitteet ovat <a href="mailto:helpot.tehtavat@matematiikkakilpailut.fi"><code>helpot.tehtavat@matematiikkakilpailut.fi</code></a>
+ja <a href="mailto:vaikeat.tehtavat@matematiikkakilpailut.fi"><code>vaikeat.tehtavat@matematiikkakilpailut.fi</code></a>.</p>
+<p>Helmikuun 2026 <a href="https://drive.google.com/file/d/1j8iKxOCmrYgOxPCz5bulxV85VfjniZ87/view">tehtävät</a>.
+Ratkaisut pyydetään palauttamaan viimeistään 15.3.2026.</p>
+<p>Tammikuun 2026 <a href="https://drive.google.com/file/d/1Ee42iz4Uf1ngJn4mK0dt1fujaawzubXv/view">tehtävät</a>.</p>
+<p>Syyskuun 2025 <a href="https://drive.google.com/file/d/1-P_DiI2MmfwTUEGHeDQR9wtzn_w8d_Hr/view">tehtävät</a>.</p>
+<ul>
+<li><strong>Korjaus tehtävään 20:</strong> jakaja, jolla tehtävän luvut eivät ole jaollisia, on 17 eikä 3.</li>
+</ul>
+<h3 id="perus" tabindex="-1">Peruskoululaisten tehtävät</h3>
+<p>Peruskoululaisten kirjevalmennustehtävät on nimensä mukaan suunnattu peruskoululaisille. Ensimmäinen tehtäväsarja on suunniteltu aloitettavan seitsemännen luokan loppupuolella, mutta tehtävien ratkomisen voi aloittaa myös aiemmin tai myöhemmin. Tehtävien  ratkaiseminen edellyttää usein perehtymistä koulumatematiikan ulkopuoliseen matematiikkaan ja niiden on tarkoitus olla haastavia. Ei siis kannata säikähtää tehtävien vaikeustasoa.</p>
+<p>Ensimmäinen tehtäväsarja löytyy alta. Kun olet palauttanut ratkaisujasi siihen, saat uuden tehtäväsarjan ratkottavaksi. Yhteensä peruskoululaisten kirjevalmennustehtäväsarjaan sisältyy 16 kirjettä, mutta halutessaan niistä voi tehdä vain osan. Valmennusvastauksista voidaan antaa palautetta ja uusi tehtäväsarja lähettää vain, jos mukana ovat yhteystiedot!</p>
+<p>Peruskoululaiset voivat halutessaan ratkoa myös haastavampia, kaikille koululaisille tarkoitettuja kirjevalmennustehtäviä (yllä).</p>
+<p><a href="2023/kirje1_internet.pdf">Peruskoululaisten ensimmäinen valmennuskirje</a></p>
+<p><a href="2023/brev1_internet.pdf">På svenska</a></p>
+<h3 id="vanhempia-teht%C3%A4v%C3%A4sarjoja-ja-ratkaisuja" tabindex="-1">Vanhempia tehtäväsarjoja ja ratkaisuja</h3>
+<p>Kesän 2025 <a href="https://drive.google.com/file/d/1n31uLdwv-wMprkZU_RO6QH_N9F4WIViV/view">tehtävät</a>
+ja <a href="https://drive.google.com/file/d/1s12FR0rtw6XrBgMRaQhn3y1mK3vj0vqA/view">ratkaisut</a>.</p>
+<p>Helmikuun 2025 <a href="https://drive.google.com/file/d/1Ba1MJuIXXhi04T8ua4caqfjDEai8-0PS/view">tehtävät</a>
+ja <a href="https://drive.google.com/file/d/1BHI1PnrhQV--atWp4v7plqyD-WmYIS5U/view">ratkaisut</a>.</p>
+<p>Joulukuun 2024 <a href="https://drive.google.com/file/d/1yIvpr6YRmTtPYjkYlABKszbdfqSZaDNo/view">tehtävät</a>
+ja <a href="https://drive.google.com/file/d/1nWQLkWbkRwzIJNMbdjtabPWDd7Qe1u1v/view">ratkaisut</a>.</p>
+<ul>
+<li><strong>Selvennys tehtävään 12:</strong> se, että 3. asteen polynomin kaikki juuret ovat reaalisia
+tarkoittaa sitä, että polynomi voidaan kirjoittaa muodossa
+(<em>x</em> − <em>u</em><sub>1</sub>)(<em>x</em> − <em>u</em><sub>2</sub>)(<em>x</em> − <em>u</em><sub>3</sub>),
+missä jokainen <em>u</em><sub><em>i</em></sub> on reaaliluku.</li>
+<li><strong>Korjaus tehtävään 13:</strong> tehtävässä pitäisi lukea ”Onko olemassa 14 luonnollista lukua — —”,
+ts. kokonaisluvut eivät saa olla negatiivisia.</li>
+</ul>
+<p>Marraskuun 2024 <a href="https://drive.google.com/file/d/14ScVYlYBn7fzkTqtYQc7szrws4DOrwNd/view">tehtävät</a>
+ja <a href="https://drive.google.com/file/d/1mMwjzJ8eVqHzY9RhHsKB8rcE_fOe0xuZ/view">ratkaisut</a>.</p>
+<p>Syyskuun 2024 <a href="https://drive.google.com/file/d/1UPyIAjAUP23RyrMWJvNNXl2BqlpjEx6u/view">tehtävät</a>
+ja <a href="https://drive.google.com/file/d/1u1sNZAlT-LRFWJjqZKoRcCHHD7FDGj13/view">ratkaisut</a>.</p>
+<p>Huhtikuun 2024 <a href="https://drive.google.com/file/d/1kZczqYsG8l9Fa1Kyqs3DxY5gQMFOfRNs/view">tehtävät</a>
+ja <a href="https://drive.google.com/file/d/1zpv3JuWkKakIY3UXaOxUk8RibMipPPmb/view">ratkaisut</a>.<br>
+<span lang="sv"><a href="https://drive.google.com/file/d/1Qt6Mqssm5UXb4BP6pDeOPETeuPyS7zdH/view">Träningsuppgifter, april 2024</a>.</span></p>
+<p>Kesän 2024 <a href="2023/2024_kesa.pdf">tehtävät</a>.</p>
+<p>Helmikuun 2024 <a href="https://drive.google.com/file/d/1LxNQZGeGjmKVhvMcLkqOpdpzwg4XJamu/view">tehtävät</a>
+ja <a href="https://drive.google.com/file/d/1Q0vNEc9vi-b_xaxi-gfIzPTKXcFxoQYY/view">ratkaisut</a>.<br>
+<span lang="sv"><a href="https://drive.google.com/file/d/13T5soC6pXe_6FAHzcp6r2P3IW2vSWerm/view">Träningsuppgifter, februari 2024</a>.</span></p>
+<p>Vuodenvaihteen 2023–2024 <a href="2023/kirje_2023_12.pdf">tehtävät</a>.</p>
+<p>Lokakuun 2023 <a href="2023/kirje_2023_10.pdf">tehtävät</a>.<br>
+<span lang="sv"><a href="2023/brev_2023_10.pdf">Träningsuppgifter, oktober 2023</a>.</span></p>
+<p>Syyskuun 2023 <a href="2023/kirje_2023_09.pdf">tehtävät</a> (tehtävään 14 korjattu vakion 4/9 tilalle 2/3)
+ja <a href="2023/ratkaisut_2023_09.pdf">ratkaisut</a><br>
+<span lang="sv"><a href="2023/brev_2023_09.pdf">Träningsuppgifter, september 2023</a>. I uppgift 14 ändrat konstanten från 4/9 till 2/3.</span></p>
+<p>Kesän 2023 <a href="2023/kirje_2023_07.pdf">tehtävät</a> ja <a href="2023/ratkaisut_2023_07.pdf">ratkaisut</a>.<br>
+<span lang="sv"><a href="2023/brev_2023_07.pdf">Träningsuppgifter, sommaren 2023</a>.</span></p>
+<p>Huhtikuun 2023 <a href="2023/kirje_2023_04.pdf">tehtävät</a> ja <a href="2023/ratkaisut_2023_04.pdf">ratkaisut</a>.<br>
+<span lang="sv"><a href="2023/brev_2023_04.pdf">Träningsuppgifter, april 2023</a></span>.</p>
+<p>Helmikuun 2023 <a href="/valmennus/2023/kirje_2023_02.pdf">tehtävät</a> ja <a href="2023/ratkaisut_2023_02.pdf">ratkaisut</a>. <br>
+<span lang="sv"><a href="2023/brev_2023_02.pdf">Träningsuppgifter, februari 2023</a>.</span></p>
+<p>Tammikuun 2023 <a href="/valmennus/2023/kirje_2023_01.pdf">tehtävät</a> ja <a href="2023/ratkaisut_2023_01.pdf">ratkaisut</a>. <br>
+<span lang="sv"><a href="2023/brev_2023_01.pdf">Träningsuppgifter, januari 2023</a>.</span></p>
+<p>Joulun 2022 <a href="2022/kirje_2022_12.pdf">tehtävät</a> ja <a href="2022/ratkaisut_2022_12.pdf">ratkaisut</a>. <br>
+<span lang="sv"><a href="2022/brev_2022_12.pdf">Träningsuppgifter, julen 2022</a></span></p>
+<p>Lokakuun 2022 <a href="2022/kirje_2022_10.pdf">tehtävät</a>  ja <a href="2022/ratkaisut_2022_10.pdf">ratkaisut</a>. <br>
+<a href="2022/brev_2022_10.pdf">Träningsuppgifter, oktober 2022</a></p>
+<p>Syyskuun 2022 <a href="2022/kirje_2022_09.pdf">tehtävät</a> ja <a href="2022/ratkaisut_2022_09.pdf">ratkaisut</a>. <br>
+<a href="2022/brev_2022_09.pdf">Träningsuppgifter, september 2022</a></p>
+<p>Kesän 2022 <a href="2022/kirje_2022_06.pdf">tehtävät</a> ja <a href="2022/ratkaisut_2022_06.pdf">ratkaisut</a>. <br>
+<a href="2022/brev_2022_06.pdf">Träningsuppgifter, sommar 2022</a> och <a href="2022/losningar_2022_06.pdf">lösningar</a>.</p>
+<p>Huhtikuun 2022 <a href="2022/kirje_2022_04.pdf">tehtävät</a> ja <a href="2022/ratkaisut_2022_04.pdf">ratkaisut</a>. <br>
+<a href="2022/brev_2022_04.pdf">Träningsuppgifter, april 2022</a> och <a href="2022/losningar_2022_04.pdf">lösningar</a>.</p>
+<p>Helmikuun 2022 <a href="2022/kirje_2022_02.pdf">tehtävät</a> ja <a href="2022/ratkaisut_2022_02.pdf">ratkaisut</a>.<br>
+<a href="2022/brev_2022_02.pdf">Träningsuppgifter, februari 2022</a> och <a href="2022/losningar_2022_02.pdf">losningar</a>.</p>
+<p>Tammikuun 2022 <a href="2022/kirje_2022_01.pdf">tehtävät</a> ja <a href="2022/ratkaisut_2022_01.pdf">ratkaisut</a>.<br>
+<a href="2022/brev_2022_01.pdf">Träningsuppgifter, januari 2022</a> och <a href="2022/losningar_2022_01.pdf">losningar</a>.</p>
+<p>Marraskuun 2021 <a href="2021/kirje_2021_11.pdf">tehtävät</a> ja <a href="2021/ratkaisut_2021_11.pdf">ratkaisut</a>. <br>
+<a href="2021/brev_2021_11.pdf">Träningsuppgifter, november 2021</a> och <a href="2021/losningar_2021_11.pdf">losningar</a><br></p>
+<p>Syyskuun 2021 <a href="2021/kirje_2021_09.pdf">tehtävät</a> ja <a href="2021/ratkaisut_2021_09.pdf">ratkaisut</a>. <br>
+<a href="2021/brev_2021_09.pdf">Träningsuppgifter, september 2021</a> och <a href="2021/losningar_2021_09.pdf">lösningar</a><br></p>
+<p>Kesän 2021 <a href="2021/kirje_2021_06.pdf">tehtävät</a>.</p>
+<p>Maaliskuun 2021 <a href="2021/kirje_2021_03.pdf">tehtävät</a>.
+<a href="https://tehtavat.matematiikkakilpailut.fi/2021-03/">Monivalintojen palautus</a>. <br>
+Malliratkaisut saatavilla kirjeeseen vastanneille.<br></p>
+<p>Tammikuun 2021 <a href="2021/kirje_2021_01.pdf">tehtävät</a>.
+<a href="https://tehtavat.matematiikkakilpailut.fi/2021-01/">Monivalintojen palautus</a>.<br>
+Malliratkaisut saatavilla kirjeeseen vastanneille.<br></p>
+<p>Joulukuun 2020 <a href="2020/kirje_2020_12.pdf">tehtävät</a>. <br>
+Malliratkaisut saatavilla kirjeeseen vastanneille.<br></p>
+<p>Marraskuun 2020 <a href="2020/kirje_2020_10.pdf">tehtävät</a>.<br>
+<strong>Korjaus 25.10.</strong>: Palautuspäivä on sittenkin 29.11.</p>
+<p>Syyskuun 2020 <a href="2020/kirje_2020_09.pdf">tehtävät</a>. <br>
+Malliratkaisut saatavilla kirjeeseen vastanneille.<br></p>
+<p>Kesän 2020 <a href="2020/kirje_2020_06.pdf">tehtävät</a>.<br>
+<strong>Korjaus 21.4.2020</strong>: Tehtävästä 11 puuttui oletus, että polynomin asteluku on neljä.<br>
+Malliratkaisut saatavilla kirjeeseen vastanneille.<br></p>
+<p>Huhtikuun 2020 <a href="2020/kirje_2020_04.pdf">tehtävät</a>.<br>
+<strong>Korjaus 5.4.2020</strong>: Tehtävän 15 epäyhtälössä vasemmalla puolella on murtolausekkeiden tulo, ei summaa.<br>
+Malliratkaisut saatavilla kirjeeseen vastanneille.<br></p>
+<p>Helmikuun 2020 <a href="2020/kirje_2020_02.pdf">tehtävät</a>.<br>
+Malliratkaisut saatavilla kirjeeseen vastanneille.<br></p>
+<p>Tammikuun 2020 <a href="2020/kirje_2020_01.pdf">tehtävät</a>.<br>
+<span lang="sv"><a href="2020/kirje_2020_01_sv.pdf">Träningsuppgifter, januari 2020</a></span><br>
+Malliratkaisut saatavilla kirjeeseen vastanneille.<br>
+<strong>Korjaus 13.1.2020</strong>: Tehtävässä 6 on kyse tasakylkisestä eikä tasasivuisesta kolmiosta.<br>
+Malliratkaisut saatavilla kirjeeseen vastanneille.</p>
+<p>Vuodenvaihteen 2019-2020 <a href="2019/kirje2019-2020.pdf">erikoistehtäväsarja</a>, sopii lämmittelyyn vanhoille osallistujille ja uusille vakavaan pohdintaan.<br>
+<span lang="sv"><a href="2019/erikoistehtavasarja_sv_19-20.pdf">Årsskiftets övningar</a>.</span></p>
+<p>Joulukuun 2019 <a href="2019/kirje_2019_12.pdf">tehtävät</a> ja <a href="2019/ratk_2019_12.pdf">ratkaisut</a>. <br>
+<span lang="sv"><a href="2019/kirje_2019_12-sv.pdf">Träningsuppgifter, december 2019</a></span><br>
+<strong>Korjaus 1.12.2019</strong>: Päivölässä jaetussa kirjeessä tehtävässä 18 on virhe.
+Kyse on peräkkäisten kokonaislukujen <em>neliöiden</em> summasta, ei peräkkäisten kokonaislukujen summasta.<br>
+<strong>Korjaus 1.1.2020</strong>: Tehtävässä 3 piste E on diagonaalien AC ja BD leikkauspiste;
+AD ja BC eivät ole diagonaaleja vaan puolisuunnikkaan sivuja.<br>
+Tehtävässä 21 on oletettava, että <i>ab</i> = <i>cd</i> ≠ 0.</p>
+<p>Lokakuun 2019 <a href="2019/kirje_2019_10.pdf">tehtävät</a> ja <a href="2019/ratk_2019_10.pdf">ratkaisut</a>.<br>
+<strong>Korjaus 27.10.2019</strong>: tehtävässä 12 on kyse kokonaislukujuurista.<br>
+<strong>Korjaus 10.11.2019</strong>: tehtävässä 13 käännetään vain yhden lapun naapurit kerrallaan.</p>
+<p>Syyskuun 2019 <a href="2019/kirje_2019_09.pdf">tehtävät</a> ja <a href="2019/ratk_2019_09.pdf">ratkaisut</a>.</p>
+<p>Kesäkauden 2019 <a href="2019/kirje_2019_05.pdf">tehtävät</a> ja <a href="2019/ratk_2019_05.pdf">ratkaisut</a>.
+—<span lang="sv"><a href="https://matteverkstaden.wordpress.com/2019/06/15/sommarutmaning/">Den enklare problemuppsättningen på svenska</a>,
+översatt av Edward Krogius.</span></p>
+<p>Huhtikuun 2019 <a href="2019/kirje_2019_04.pdf">tehtävät</a>.
+<strong>Korjaus 20.4.2019:</strong> lisätään tehtävien 20–22 oletuksiin,
+että verkon solmujen lukumäärä ei ole kaksi.</p>
+<p>Helmikuun 2019 <a href="2019/kirje_2019_02.pdf">tehtävät</a>
+ja <a href="2019/ratk_2019_02.pdf">ratkaisut</a>.</p>
+<p>Tammikuun 2019 <a href="2019/kirje_2019_01.pdf">tehtävät</a> ja <a href="2019/ratk_2019_01.pdf">ratkaisut</a>.</p>
+<p>Joulukuun 2018 <a href="2018/kirje_2018_12.pdf">tehtävät</a> ja <a href="2018/ratk_2018_12.pdf">ratkaisut</a>.</p>
+<p>Lokakuun 2018 <a href="2018/kirje_2018_10.pdf">tehtävät</a> ja <a href="2018/ratk_2018_10.pdf">ratkaisut</a>.</p>
+<p>Syyskuun 2018 <a href="2018/kirje_2018_09.pdf">tehtävät</a> ja <a href="2018/ratk_2018_09.pdf">ratkaisut</a>.</p>
+<p>Kesäkauden 2018 <a href="2018/kirje_2018_05.pdf">tehtävät</a> ja <a href="2018/ratk_2018_05.pdf">ratkaisut</a>.</p>
+<p>Huhtikuun 2018 <a href="2018/kirje_2018_04.pdf">tehtävät</a> ja <a href="2018/ratk_2018_04.pdf">ratkaisut</a>.
+Korjattu 25.4.: tehtävän 2 ensimmäisessä virkkeessä on puhe janan AB keskinormaalista, ei janan BC keskinormaalista.  Korjattu 7.9.: linkki ratkaisuihin toimii nyt.</p>
+<p>Helmikuun 2018 <a href="2018/kirje_2018_02.pdf">tehtävät</a> ja <a href="2018/ratk_2018_02.pdf">ratkaisut</a>,
+<span lang="en">February 2018 <a href="2018/letter_2018_02.pdf">homework</a></span>.</p>
+<p>Tammikuun 2018 <a href="2018/kirje_2018_01_helpot.pdf">erikoistehtäväsarja</a>, sopii lämmittelyyn vanhoille osallistujille ja uusille vakavaan pohdintaan.
+<span lang="en">January 2018 <a href="2018/letter_2018_01_easy.pdf">special problems</a>, suitable as a warm-up for experienced contestants and serious training
+for new participants.</span></p>
+<p>Tammikuun 2018 <a href="2018/kirje_2018_01.pdf">tehtävät</a>,
+<span lang="en">January 2018 <a href="2018/letter_2018_01.pdf">homework</a></span>.
+—<a href="2018/ratk_2018_01.pdf">Ratkaisut</a>.</p>
+<p>Vuodenvaihteen 2017–2018 <a href="2017/2017joulu-erikois.pdf">erikoistehtäväsarja</a>, sopii lämmittelyyn vanhoille osallistujille ja uusille vakavaan pohdintaan.</p>
+<p>Joulukuun 2017 <a href="2017/2017_joulu.pdf">tehtävät</a>. Korjattu 3.12.: tehtävässä 8 on kyse reaali- eikä kokonaisluvuista.  —Kirjeeseen on palautuspäivämääräksi merkitty optimistisesti loppiainen, mutta ratkaisuja ehtii palauttaa tammikuun puolenvälin valmennusviikonloppuun mennessä. —<a href="2017/2017_joulu_ratk.pdf">Ratkaisut</a>.</p>
+<p>Loka- ja marraskuun 2017 <a href="2017/2017loka-marras.pdf">tehtävät</a>.</p>
+<p>Syys- ja lokakuun 2017 <a href="2017/2017syys-loka.pdf">tehtävät</a>.</p>
+<p>Huhti- ja toukokuun 2017 <a href="2017/2017huhti-touko.pdf">tehtävät</a> ja niiden <a href="2017/2017huhti-touko-ratkaisut.pdf">ratkaisut</a>.</p>
+<p>Maalis- ja huhtikuun 2017 <a href="2017/2017maalis-huhti.pdf">tehtävät</a>
+(tehtävä 2 korjattu 9.3.2017).</p>
+<p>Tammi- ja helmikuun 2017 <a href="2017/2017tammi-helmi.pdf">tehtävät</a> ja niiden <a href="2017/2017tammi-helmi-ratkaisut.pdf">ratkaisut</a>.</p>
+<p>Joulukuun 2016 <a href="2016/vt12_16he.pdf">helpommat</a> ja <a href="2016/vt12_16va.pdf">vaativammat</a> tehtävät. Ratkaisut <a href="2016/vt12_16he_ra.pdf">helpompiin</a> ja <a href="2016/vt12_16va_ra.pdf">vaativampiin</a> tehtäviin.</p>
+<p>Lokakuun 2016 <a href="2016/valmennussarja_loka_2016.pdf">tehtävät</a>.</p>
+<p>Syyskuun 2016 <a href="2016/vt9_16he.pdf">helpommat</a> ja <a href="2016/vt9_16va.pdf">vaativammat</a> tehtävät. Syyskuun valmennustilaisuudessa jaetussa paperiversioissa olleet virheet (helpompien tehtävien numero 7 ja vaativampien numero 9) on korjattu oheisiin tiedostoihin.</p>
+<p>Huhtikuun 2016 <a href="2016/tehtavasarja_huhtikuu2016.pdf">tehtävät</a>.  Huom! Vaativampien tehtävien numerossa 6 on painovirhe. Suorien GE ja BC leikkaukseksi määritellyn pisteen J tulee olla suorien GE ja AD leikkauspiste.</p>
+<p>Helmikuun 2016 <a href="2016/vt2_2016.pdf">tehtävät</a> ja <a href="2016/r2016hel.pdf">ratkaisut</a>. Huom. Tehtävässä 4 on painovirhe: viimeisen CL:n tulee olla SL!</p>
+<p>Tammikuun 2016 <a href="2016/vt1_2016he.pdf">helpommat</a> ja <a href="2016/vt1_2016va.pdf">vaativammat</a> tehtävät.</p>
+<p>Marras-joulukuun 2015 <a href="2015/vt2015_11.pdf">valmennustehtävät</a> ja niiden <a href="2015/vt2015_11ratk.pdf">ratkaisut</a>.</p>
+<p>Lokakuun 2015 <a href="2015/vt2015_10.pdf">valmennustehtävät</a>.</p>
+<p>Syyskuun 2015 <a href="2015/vt2015_9.pdf">valmennustehtävät</a> ja niiden <a href="2015/vt2015_9ratk.pdf">ratkaisut</a>. Päivölässä jaettuun sarjaan on lisätty sunnuntain 6.9. joukkueharjoituksen yli jääneet tehtävät.</p>
+<p>Toukokuun 2015 <a href="2015/vt2015_5.pdf">valmennustehtävät</a>.
+Tehtävien <a href="2015/vt2015_5ratk.pdf">ratkaisut</a>.</p>
+<p>Huhtikuun 2015 <a href="2015/vt2015_4.pdf">valmennustehtävät</a> ja niiden <a href="2015/vt2015_4ratk.pdf">ratkaisut</a>.</p>
+<p>Helmikuun 2015 <a href="2015/vt2015_2h.pdf">helpommat</a> ja
+<a href="2015/vt2015_2v.pdf">vaativammat</a> valmennustehtävät. <a href="2015/vt2015_2hrat.pdf">Helpompien</a> ja <a href="2015/vt2015_2vrat.pdf">vaativampien</a> tehtävien ratkaisuja.</p>
+<p>Tammikuun 2015 <a href="2015/2015-tammikuu-lukio.pdf">valmennustehtävät</a>.</p>
+<p>Joulukuun 2014 <a href="2014/vt2014_11he.pdf">helpommat</a> ja
+<a href="2014/vt2014_11va.pdf">vaativammat</a> valmennustehtävät.
+<a href="2014/vt2014_12var.pdf">Vaativampien tehtävien ratkaisut</a>.
+<a href="2014/vt2014_12her.pdf">Helpompien tehtävien ratkaisut</a>.</p>
+<p>Lokakuun 2014 <a href="2014/vt2014_10he.pdf">helpommat</a> ja
+<a href="2014/vt2014_10va.pdf">vaativammat</a> valmennustehtävät.</p>
+<p>Syyskuun 2014 <a href="2014/vt2014_9her.pdf">helpommat</a> ja
+<a href="2014/vt2014_9var.pdf">vaativammat</a> valmennustehtävät ratkaisuineen.</p>
+<p>Kesän 2014 <a href="2014/vt2014_6.pdf">valmennustehtävät</a> ja niiden
+<a href="2014/vt2014_6r.pdf">ratkaisut</a>.</p>
+<p>Toukokuun 2014 <a href="2014/vt2014_5.pdf">valmennustehtävät</a> ja niiden
+<a href="2014/vt2014_5r.pdf">ratkaisut</a>.</p>
+<p>Huhtikuun 2014 <a href="2014/vt2014_4.pdf">valmennustehtävät</a>. Tehtävään 9 oli
+päässyt merkkivirhe, joka tähän versioon on korjattu.
+<a href="2014/vt2014_4r.pdf">Ratkaisuja</a>.</p>
+<p>Helmikuun 2014
+<a href="2014/vt2014_2.pdf">helpommat ja vaativammat valmennustehtävät</a>.
+– Tehtävät sisältävässä pdf-tiedostossa on pari painovirhettä.
+Vaativamman tehtävän 5 kaavan viimeisen tulon edessä olevan ±merkin
+pitää olla yhtäläisyysmerkki ja tehtävässä 7 sana <em>epänegatiivisia</em>
+pitää olla <em>positiivisia</em>.</p>
+<p>Tammikuun 2014 <a href="2014/vt2014_1her.pdf">helpommat</a> ja
+<a href="2014/vt2014_1var.pdf">vaativammat</a> kirjevalmennustehtävät
+ratkaisuineen.</p>
+<p>Joulukuun 2013 <a href="2013/vt2013_12her.pdf">helpommat</a> ja
+<a href="2013/vt2013_12var.pdf">vaativammat</a> kirjevalmennustehtävät
+ratkaisuineen. – Paperiversiona jaetuissa vaativampien tehtävien
+numerossa 3 on painovirhe. Se on korjattu tässä olevaan tiedostoon.</p>
+<p>Lokakuun 2013 <a href="2013/vt2013_10.pdf">kirjevalmennustehtävät</a>(helpommat
+ja vaikeammat samassa), <a href="2013/vt2013_10r.pdf">ratkaisut</a>.</p>
+<p>Syyskuun 2013 <a href="2013/vt2013_9he.pdf">helpommat</a> ja
+<a href="2013/vt2013_9va.pdf">vaativammat</a> kirjevalmennustehtävät. Helpompien
+tehtävien <a href="2013/vt2013_9her.pdf">ratkaisut</a>. Vaativampien tehtävien
+<a href="2013/vt2013_9var.pdf">ratkaisut</a>.</p>
+<p>Huhtikuun 2013 <a href="2013/vt2013_4he.pdf">helpommat</a> ja
+<a href="2013/vt2013_4va.pdf">vaativammat</a> kirjevalmennustehtävät.</p>
+<p>Helmikuun 2013 <a href="2013/vt2013_2he.pdf">helpommat</a> ja
+<a href="2013/vt2013_2va.pdf">vaativammat</a> kirjevalmennustehtävät.</p>
+<p>Tammikuun 2013 <a href="2013/vt2013_1her.pdf">helpommat</a> ja
+<a href="2013/vt2013_1var.pdf">vaativammat</a> kirjevalmennustehtävät
+ratkaisuineen.</p>
+<p>Joulukuun 2012 <a href="2012/vt2012_12he.pdf">helpommat</a> ja
+<a href="2012/vt2012_12va.pdf">vaativammat</a> kirjevalmennustehtävät.</p>
+<p>Lokakuun 2012 <a href="2012/vt2012_10he.pdf">helpommat</a> ja
+<a href="2012/vt2012_10va.pdf">vaativammat</a> kirjevalmennustehtävät.</p>
+<p>Syyskuun 2012 <a href="2012/vt2012_09he.pdf">helpommat</a> ja
+<a href="2012/vt2012_09va.pdf">vaativammat</a>
+kirjevalmennustehtävät.
+<strong>Huomautus:</strong> Jälkimmäisen tehtäväsarjan
+tehtäviä kolme ja neljä on korjattu.</p>
+<p>Heinäkuun 2012 <a href="2012/vt2012_07he.pdf">helpommat</a> ja
+<a href="2012/vt2012_07va.pdf">vaativammat</a> kirjevalmennustehtävät.</p>
+<p>Toukokuun 2012 <a href="2012/vt2012_05herat.pdf">helpommat</a> ja
+<a href="2012/vt2012_05varat.pdf">vaativammat</a> kirjevalmennustehtävät
+ratkaisuineen.</p>
+<p>Huhtikuun 2012 <a href="2012/vt2012_04he.pdf">helpommat</a> ja
+<a href="2012/vt2012_04va.pdf">vaativammat</a> valmennustehtäväsarjat.</p>
+<p>Helmikuun 2012 <a href="2012/helpot_02_2012.pdf">helpommat</a> ja
+<a href="2012/vaikeat_02_2012.pdf">vaikeammat</a>kirjevalmennustehtävät.
+<strong>Huom!</strong>
+Vaikeammissa tehtävissä on pari kirjoitusvirhettä. Tehtävässä 1 on
+tarkoitus, että aritmeettisen jonon jäsenet ovat kokonaislukuja, ja
+tehtävän 4 epäyhtälön vasemman puolen ympärille kuuluvat
+itseisarvomerkit.</p>
+<p>Tammikuun 2012 <a href="2012/vt2012_01he.pdf">helpommat</a> ja
+<a href="2012/vt2012_01va.pdf">vaikeammat</a> kirjevalmennustehtävät, ja
+ratkaisuita ja ratkaisuhahmotelmia sekä
+<a href="2012/vt2012_01herat.pdf">edellisiin</a> että
+<a href="2012/vt2012_01varat.pdf">jälkimmäisiin</a>.
+Tehtävän 7 osalta katso myös
+Jaakko Seppälän kommenttia Solmun keskustelupalstan
+<a href="http://solmu.math.helsinki.fi/cgi-bin/yabb2/YaBB.pl?board=saku">Sammakot</a>-osastossa.</p>
+<p>Joulukuun 2011 <a href="2011/vt2011_12he.pdf">helpommat</a> ja
+<a href="2011/vt2011_12va.pdf">vaikeammat</a> kirjevalmennustehtävät;
+<a href="2011/vt2011_12rat.pdf">molempien ratkaisut</a>.</p>
+<p>Lokakuun 2011 <a href="2011/vt2011_10he.pdf">helpommat</a> ja
+<a href="2011/vt2011_10va.pdf">vaativammat</a> kirjevalmennustehtävät.</p>
+<p>Syyskuun 2011 <a href="2011/vt2011_09herat.pdf">helpommat</a> ja
+<a href="2011/vt2011_09varat.pdf">vaativammat</a> kirjevalmennustehtävät
+ratkaisuineen.</p>
+<p><a href="2011/vt2011_8.pdf">Elokuun 2011 kirjevalmennustehtävät</a> ja niiden
+<a href="2011/vt2011_8rat.pdf">ratkaisut</a>.</p>
+<p><a href="2011/het2011tou.pdf">Toukokuun 2011 helpommat kirjevalmennustehtävät</a>.</p>
+<p><a href="2011/vat2011tou.pdf">Toukokuun 2011 vaativammat kirjevalmennustehtävät</a>.</p>
+<p><a href="2011/vt2011_04he.pdf">Huhtikuun 2011 helpommat kirjevalmennustehtävät</a>.</p>
+<p><a href="2011/vt2011_04va.pdf">Huhtikuun 2011 vaativammat kirjevalmennustehtävät</a>.</p>
+<p>Helmikuun 2011 <a href="2011/vt2011_02herat.pdf">helpommat</a> ja
+<a href="2011/vt2011_02varat.pdf">vaativammat</a> kirjevalmennustehtävät
+ratkaisuineen.</p>
+<p>Tammikuun 2011 <a href="2011/vt2011_01herat.pdf">helpommat</a> ja
+<a href="2011/vt2011_01varat.pdf">vaativammat</a> kirjevalmennustehtävät
+ratkaisuineen.</p>
+<p>Joulukuun 2010 <a href="2010/vt2010_12herat.pdf">helpommat</a> ja
+<a href="2010/vt2010_12varat.pdf">vaativammat</a> kirjevalmennustehtävät
+ratkaisuineen.</p>
+<p>Lokakuun 2010 <a href="2010/vt2010_10herat.pdf">helpommat</a> ja
+<a href="2010/vt2010_10varat.pdf">vaativammat</a> kirjevalmennustehtävät
+ratkaisuineen.</p>
+<p>Syyskuun 2010 <a href="2010/helpotrat.pdf">helpommat</a> ja
+<a href="2010/vaativatrat.pdf">vaativammat</a> kirjevalmennustehtävät
+ratkaisuineen.</p>
+
+</main>
+
+
+
+    </div>
+    
+
+<footer class="footer mt-auto py-4 bg-body-tertiary">
+  <div class="container-md small">
+    <div class="row gy-4">
+      <div class="col-sm-6 col-md-4">
+        <div id="footer-valmennus-heading" class="fw-bold mb-2 fs-6">Valmennus</div>
+        <ul aria-labelledby="footer-valmennus-heading" class="list-unstyled mb-0">
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/kilpailut/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#trophy-fill"/>
+    </svg>
+    Kilpailut
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/aiheet/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#book"/>
+    </svg>
+    Materiaalit
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/kaytanto/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#calendar-event"/>
+    </svg>
+    Tapahtumat
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/valmennus/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#envelope-fill"/>
+    </svg>
+    Kotitehtävät
+  </a>
+</li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div id="footer-yhteystiedot-heading" class="fw-bold mb-2 fs-6">Yhteystiedot</div>
+        <ul aria-labelledby="footer-yhteystiedot-heading" class="list-unstyled mb-0">
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="mailto:info@matematiikkakilpailut.fi"
+    title="Sähköposti"
+    rel="author"
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#envelope-fill"/>
+    </svg>
+    info@matematiikkakilpailut.fi
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/valmentajat/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#people-fill"/>
+    </svg>
+    Valmentajat
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/feed.xml"
+    title="RSS-syöte"
+    rel="alternate"
+    
+    type="application/atom+xml"
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#rss-fill"/>
+    </svg>
+    RSS-syöte
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="https://t.me/+TS59DXkdJpozNDU0"
+    title="Telegram"
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#telegram"/>
+    </svg>
+    Telegram-keskusteluryhmä
+  </a>
+</li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div id="footer-muuta-heading" class="fw-bold mb-2 fs-6">Muuta</div>
+        <ul aria-labelledby="footer-muuta-heading" class="list-unstyled mb-0">
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/kerhot/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#people-fill"/>
+    </svg>
+    Kerhot
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/linkit/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#link-45deg"/>
+    </svg>
+    Linkkejä
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/tietosuoja/"
+    
+    rel="privacy-policy"
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#shield-fill"/>
+    </svg>
+    Tietosuoja
+  </a>
+</li>
+          <li lang="en">
+  <a class="icon-link link-primary text-decoration-none" href="/english/"
+    
+    
+    hreflang="en"
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#translate"/>
+    </svg>
+    In English
+  </a>
+</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script defer src="/js/theme.js"></script>
+    <script type="module" src="/js/instant.page.min.js"></script>
+    <script defer src="/js/bootstrap.bundle.min.js?v=5.3.3"></script>
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "45380cb8b30d4b0791d27e340eefc4da"}'></script>
+  </body>
+</html>

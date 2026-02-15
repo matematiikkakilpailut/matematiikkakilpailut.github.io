@@ -1,0 +1,118 @@
+\input makrot
+\input def
+\input laskut
+
+\font\isosser=cmss12
+\centerline{\isosser Vuoden 1998 pohjoismaisen kilpailun ratkaisut}\bigskip
+
+\harj  Kun yhtälöön sijoitetaan $x=y=0$, saadaan
+$2f(0)=4f(0)$, joten
+$f(0)=0$. Olkoon sitten $y=nx$, missä $n$ on luonnollinen luku. Nyt saadaan 
+$$f((n+1)x)=2f(x)+2f(nx)-f((n-1)x).$$ Tästä saadaan $f(2)x=2f(x)+2f(x)-
+f(0)=4f(x)$, $f(3x)=2f(x)+2f(2x)-f(x)=9f(x)$, Todistetaan, että
+$f(nx)=n^2f(x)$. Käytetään induktiota. Kaava on tosi, kun $n=1$. Oletetaan,
+että $f(kx)=k^2f(x)$, kun 
+$k\le n$. Tällöin
+$$f((n+1)x)=2f(x)+2f(nx)-f((n-1)x)=(2+2n^2-(n-1)^2)f(x)=(n+1)^2f(x).$$
+Siis $f(nx)=n^2f(x)$. Kun $x=1/q$, $f(1)=f(qx)=q^2f(x)$, so
+$f(1/q)=f(1)/q^2$. Tästä seuraa $f(p/q)=p^2f(1/q)=(p/q)^2f(1)$, joten 
+$f(x)=ax^2$ jollekin rationaaliluvulle $a$.
+Kääntäen, jos $f(x)=ax^2$, niin 
+$f(x+y)+f(x-y)=a(x+y)^2+a(x-y)^2=2ax^2+2ay^2=2f(x)+2f(y)$, joten 
+$f(x)=ax^2$ on yhtälön ratkaisu.
+
+
+
+
+
+
+\harj  Kun lasketaan pisteen $P$ potenssi ympyröiden $C_1$
+ja $C_2$ suhteen, saadaan $PA\cdot PB=PC\cdot PD=PE\cdot PF$. Koska $M_1P$ on
+kohtisuorassa jännettä $CD$ vastaan, $P$:n on oltava $CD$:n keskipiste, joten
+$PC=PD$. Samoin saadaan $PE=PF$. Kaiken kaikkiaan $PC=PD=PE=PF=\sqrt{PA\cdot
+PB}$. Koska  $C$, $D$, $E$ ja $F$ ovat kaikki $P$-keskisellä ympyrällä, jonka
+halkaisijoita ovat $CD$ ja $EF$, niin kulmat $\angle ECF$, $\angle CFD$ jne.
+ovat kaikki suoria.  $CDEF$ on suorakaide. 
+
+
+
+\harj  (a) Oletetaan, että $x_1,\,\ldots,\,x_n$ on
+tehtävässä vaadittu jono.
+Silloin $x_1+\cdots+x_n=\displaystyle{n(n+1)\over 2}$. Tämä summa on
+jaollinen $n$:llä, mikä on mahdollista vain, kun $n$ on pariton, jolloin 
+$\displaystyle{(n+1)\over 2}$ on kokonaisluku. Jos $n=2m$, niin 
+$\displaystyle{n(n+1)\over 2}=m(2m+1)=2m^2+m\equiv m \bmod 2m$.
+Oletetaan nyt, että $n=2m+1>1$. Vaaditaan, että $n-1=2m$ on tekijänä luvussa 
+$x_1+\cdots+x_{n-1}$. Koska $x_1+\cdots+x_{n-1}=(m+1)(2m+1)-x_n=
+\equiv m+1-x_n \bmod 2m$, ja  $1\le x_n\le n$, niin $x_n=m+1$.
+Seuraavaksi vaaditaan, että $n-2=2m-1$ on tekijänä luvussa
+$x_1+\cdots+x_{n-2}$. Koska $x_1+\cdots+x_{n-2}=(m+1)(2m+1)-x_n-x_{n-1}\equiv
+m+1-x_{n-1} \bmod 2m-1$ ja $-m\le m+1-x_{n-1}\le m$, on $x_{n-1}= m+1\bmod
+2m-1$. Jos  $n>3$ eli $m\ge 1$, on $x_{n-1}=m+1=x_n$, mikä on ristiriita.
+Siis $n=1$ ja $n=3$ ovat ainoat mahdollisuudet. Jos $n=1$, $x_1=1$ on
+kelvollinen jono. Jos $n=3$, on oltava $x_3=2$. $x_1$ ja $x_2$ ovat 1 ja 3
+kummassa tahansa järjestyksessä.
+
+\smallbreak
+
+\noindent (b) Olkoon  $x_1=1$. Määritellään jono palautuskaavan avulla.
+Oletetaan, että  $x_1,\ldots,x_{n-1}$ on valittu ja että näiden lukujen summa
+on $A$. Olkoon $m$ pienin positiivinen kokonaisluku, jota ei vielä ole
+käytetty. Jos asetetaan $x_{n+1}=m$, $x_n$:llä on kaksi rajoitusta: 
+$$A+x_n\equiv0\bmod n\quad{\rm~ja~}\quad 
+A+x_n+m\equiv0\bmod n+1.$$
+Koska $n$ ja $n+1$ ovat yhteistekijättömiä, on olemassa $y$, jolle pätee
+$y\equiv -A\bmod n$, $y\equiv -A-m\bmod n+1$ ("kiinalainen jäännöslause") Jos
+$y$:hyn lisätään tarpeeksi suuri $n(n+1)$:n monikerta, saadaan luku, jota ei
+vielä ole käytetty jonoon. Täten jonoa voidaan aina jatkaa kahdella termillä,
+ja se tulee sisältämään jokaisen kokonaisluvun.
+
+
+
+
+
+\harj  Kun kirjoitetaan Pascalin kolmio $\mod 2$:
+$$\matrix{ & & & & & &1& & & & & & \cr
+ & & & & &1& &1& & & & & \cr
+ & & & &1& &0& &1& & & & \cr
+ & & &1& &1& &1& &1& & & \cr
+ & &1& &0& &0& &0& &1& & \cr
+ &1& &1& &0& &0& &1& &1& \cr
+1& &0& &1& &0& &1& &0& &1,\cr}$$
+havaitaan, että rivi 1 sisältää kaksi rivin 0 kopiota, rivit 2 ja 3
+sisältävät kaksi rivien 1 ja 2 kopiota jne. 
+
+
+
+\smallbreak
+
+\noindent Pascalin kolmion perusominaisuudesta $\displaystyle{n+1\choose
+p}=\displaystyle{n\choose p-1}+\displaystyle{n\choose p}$ seuraa, että jos
+rivin $k$ kaikki luvut ovat $\equiv 1\mod 2$, niin rivillä $k+1$ tasan
+ensimmäinen ja viimeinen luku on $\equiv 1\mod 2$. Jos $k$:nnella rivillä
+vain ensimmäinen ja viimeinen luku ovat $\equiv 1\mod 2$, niin rivit $k$,
+$k+1$, \dots, $2k-1$ muodostuvat kahdesta rivien 0, 1, \dots $k-1$ kopiosta.
+Koska rivillä 0 on luku 1, rivi 1 on kahden ykkösen muodostama, 2 ja 3 ovat
+kahden rivien 0 ja 1 muodostaman kolmion kopioita jne. Tästä päätellään
+induktiolla, että kaikilla $k$ rivi $2^k-1$ muodostuu pelkistä ykkösistä
+(siinä on kaksi kopiota rivistä $2^{k-1}-1$ ja rivi $2^1-1=0$ on pelkkä
+ykkönen). Täten rivi $2^k$ muodostuu nollista ja päissä olevista ykkösistä.
+Tästä seuraa edelleen, että rivit $2^k$, $2^k+1$, \dots. $2^{k+1}-1$ ovat
+kaksi kopiota riveistä $0$, 1, \dots $2^k-1$. 
+Olkoon $N_n$ rivin, $n=2^k+m$, $m<2^k$, parittomien lukujen määrä. Silloin
+$N_1=2$ ja $N_n=2N_m$. Siis $N_n$ on aina kakkosen potenssi. Todetaan vielä,
+että $N_n=2^p$, missä $p$ on $n$:n binääriesityksen ykkösten lukumäärä
+$y(n)$. Koska $N_0=1=2^{y(0)}$, kaava pätee, kun $n=0$.  Luvun $n=2^k+m$
+binääriesityksessä on yksi ykkönen enemmän kuin luvun $m$ binääriesityksessä.
+Toisaalta $N_n=2N_m=2\cdot 2^{y(m)}=2^{y(m)+1}=2^{y(n)}$.
+
+\smallbreak
+
+\noindent On vielä osoitettava, että $\displaystyle{2^k\choose p}\equiv1$
+vain, kun $p=0$ tai $p=2^k$. Tämä seuraa esimerkiksi siitä, että
+$\displaystyle{2^k-1\choose p}\equiv1$ kaikilla $p$, mikä taas seuraa
+edellisestä induktiosta.
+
+
+
+\bye

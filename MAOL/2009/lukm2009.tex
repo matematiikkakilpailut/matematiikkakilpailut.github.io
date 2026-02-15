@@ -1,0 +1,94 @@
+\input mama
+\let\jer=\smallsetminus
+\let\osaj=\subset
+
+\otsikko 6.2.2009:
+Lukion matematiikkakilpailun\\
+loppukilpailu\\
+
+
+
+\harj 
+Er‰‰n tason pisteiden l‰mpˆtila riippuu pisteest‰ niin, ett‰ pisteen
+$(x,y)$ l‰mpˆtila on $x^2+y^2-6x+4y$. 
+M‰‰rit‰ tason kylmin piste ja sen l‰mpˆtila.
+ 
+\harj 
+Polynomin $P$ kertoimet ovat kokonaislukuja ja p‰tee $P(3)=4$ ja
+$P(4)=3$. Kuinka monelle kokonaisluvulle $x$ voi olla $P(x)=x$?
+
+\harj 
+Ympyr‰t ${\cal Y}_0$ ja ${\cal Y}_1$ sijaitsevat toistensa
+ulkopuolella. Ympyr‰n ${\cal Y}_0$ keskipisteest‰ $O_0$ piirret‰‰n
+ympyr‰‰ ${\cal Y}_1$ sivuavat puolisuorat, ja 
+ympyr‰n ${\cal Y}_1$ keskipisteest‰ $O_1$ vastaavasti
+ympyr‰‰ ${\cal Y}_0$ sivuavat puolisuorat. Puolisuorat leikkaavat
+ympyr‰n ${\cal Y}_i$ pisteiss‰ $A_i$ ja $B_i$. Osoita, ett‰ janat
+$A_0B_0$ ja $A_1B_1$ ovat yht‰ pitk‰t.
+
+\newcount\x
+\newcount\y
+
+\psset{unit=0.4mm}
+\def\suorakaide(#1,#2)(#3,#4)#5#6#7#8{% 
+% (#1,#2) keskipiste, (#3,#4) k‰rki,
+% #5-#8 osien nimet
+\psframe(0,0)(#3,#4)
+\psline(#1,0)(#1,#4)
+\psline(0,#2)(#3,#2)
+\x=#1 \y=#4 \advance\y by #2  \divide\x by 2 \divide\y by 2
+\rput(\x,\y){$#5$}
+\x=#3 \advance\x by #1 \divide\x by 2
+\rput(\x,\y){$#6$}
+\y=#2 \divide\y by 2
+\rput(\x,\y){$#7$}
+\x=#1 \divide\x by 2
+\rput(\x,\y){$#8$}
+}
+
+\harj
+Oheisessa kuviossa vasemmanpuoleinen suorakaide on jaettu
+sivujen suuntaisilla janoilla nelj‰‰n osaan, joiden alat
+ovat $A$, $B$, $C$ ja $D$, sek‰ oikeanpuoleinen suorakaide
+vastaavalla tavalla osiin, joiden alat ovat
+$A'$, $B'$, $C'$ ja $D'$.  Tiedet‰‰n, ett‰
+$A\le A'$, $B\le B'$, $C\le C'$ mutta $D\le B'$.
+Todista, ett‰ vasemmanpuoleisen suorakaiteen ala on
+pienempi tai yht‰ suuri kuin oikeanpuoleisen 
+eli $A+B+C+D\le A'+B'+C'+D'$.
+   $$
+\pspicture(0,0)(60,50)
+\suorakaide(40,30)(60,50)ABCD
+\endpspicture
+\qquad
+\pspicture(0,0)(90,40)
+\suorakaide(50,20)(90,40){A'}{B'}{C'}{D'}
+\endpspicture
+   $$
+
+\harj
+Kutsutaan askelpituuksien joukkoa $D\osaj\ZZ_+=\joukko{1,2,3,\ldots}$ 
+{\it loistavaksi},  jos sill‰ on seuraava ominaisuus:  
+
+\item{}
+Aina kun kokonaislukujen joukko ositetaan kahteen osaan $A$ 
+ja $\ZZ\jer A$,  niin
+ainakin toinen osista sis‰lt‰‰ alkiot $a-d,a,a+d$ 
+(eli $\joukko{a-d,a,a+d}\osaj A$ tai $\joukko{a-d,a,a+d}\osaj \ZZ\jer A$)
+joillakin luvuilla $a\in\ZZ$, $d\in D$.
+
+\par\noindent
+Esimerkiksi yhden alkion joukko $\joukko{1}$ ei ole loistava,
+sill‰ kokonaislukujen joukon voi osittaa parillisiin ja
+parittomiin lukuihin, eik‰ kumpikaan n‰ist‰ osista sis‰ll‰
+kolmea per‰kk‰ist‰ lukua.
+
+Osoita, ett‰ $\joukko{1,2,3,4}$ on loistava mutta mik‰‰n sen aito
+osajoukko ei ole.
+
+\medskip
+
+
+\loppu 3~tuntia.
+
+\bye

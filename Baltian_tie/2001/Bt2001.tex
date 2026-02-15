@@ -1,0 +1,352 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                                                     %
+%    BALTIC WAY 2001 - PROBLEMS                                                                       %
+%                                                                                                     %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  last change on:  Nov 3, 2001                                                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt]{article}
+\usepackage[finnish]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{vmargin}
+
+\newcommand{\fns}{\footnotesize}
+\newcommand{\ds}{\displaystyle}
+
+\setmargrb{20mm}{5mm}{20mm}{15mm}
+\setlength{\parindent}{0pt}
+
+\newenvironment{list_1}
+   {\begin{list}{\textbf{\arabic{enumi}.}}%
+      {\usecounter{enumi}%
+       \setlength{\topsep}{5ex}%
+       \setlength{\parskip}{0pt}%
+       \setlength{\partopsep}{0pt}%
+       \setlength{\parsep}{0pt}%
+       \setlength{\itemsep}{2ex}%
+       \addtolength{\leftmargin}{-20pt}%
+      }%
+   }%
+   {\end{list}}
+
+\newenvironment{list_a}
+   {\begin{list}{\labelenumii}%
+      {\usecounter{enumii}%
+       \setlength{\topsep}{0pt}%
+       \setlength{\parskip}{0pt}%
+       \setlength{\partopsep}{0pt}%
+       \setlength{\parsep}{0pt}%
+       \setlength{\itemsep}{0pt}%
+       \addtolength{\leftmargin}{-5pt}%
+      }%
+   }%
+   {\end{list}}
+
+\newenvironment{list_a2}
+   {\begin{list}{\textbf{\alph{enumii})}}%
+      {\usecounter{enumii}%
+       \setlength{\topsep}{0pt}%
+       \setlength{\parskip}{0pt}%
+       \setlength{\partopsep}{0pt}%
+       \setlength{\parsep}{0pt}%
+       \setlength{\itemsep}{0pt}%
+       \addtolength{\leftmargin}{-5pt}%
+      }%
+   }%
+   {\end{list}}
+
+\newenvironment{list_i}
+   {\begin{list}{(\roman{enumii})}%
+      {\usecounter{enumii}%
+       \setlength{\topsep}{0pt}%
+       \setlength{\parskip}{0pt}%
+       \setlength{\partopsep}{0pt}%
+       \setlength{\parsep}{0pt}%
+       \setlength{\itemsep}{0pt}%
+       \addtolength{\leftmargin}{-5pt}%
+      }%
+   }%
+   {\end{list}}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\centering\subsection*{Baltian tie 2001 -joukkuekilpailun teht‰v‰t}
+Hampuri, 4. marraskuuta 2001 \\
+Finnish version
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{list_1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                                                     %
+%    COMBINATORICS                                                                                    %
+%                                                                                                     %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\item   %   C 4   (LAT 3)
+%A set of 8 problems was prepared for an examination. Each
+%student was given 3 of them. No two students received more than one common
+%problem. What is the largest possible number of students?
+Koetta varten laadittiin 8 teht‰v‰‰.  Kukin opiskelija sai niist‰ 3.
+Ketk‰‰n kaksi opiskelijaa eiv‰t saaneet enemp‰‰ kuin yhden yhteisen
+teht‰v‰n.  Mik‰ on suurin mahdollinen opiskelijoiden m‰‰r‰?
+
+\item   %   C 5   (LAT 6)
+%Let $n\ge 2$ be a positive integer. Find whether there exist
+%$n$ pairwise nonintersecting nonempty subsets of $\{1,2,3,\dots\}$
+%such that each positive integer can be expressed in a unique way
+%as a sum of at most $n$ integers, all from different subsets.
+Olkoon $n\ge 2$ positiivinen kokonaisluku.  Tutki, onko joukolla
+$\{1,2,3,\dots\}$ $n$ pareittain erillist‰ ep‰tyhj‰‰ osajoukkoa siten,
+ett‰ jokainen positiivinen kokonaisluku voidaan yhdell‰ ja vain
+yhdell‰ tavalla ilmaista korkeintaan $n$:n kokonaisluvun, joista kukin
+kuuluu eri osajoukkoon, summana.
+
+\item   %   C 6   (SWE 3)
+%The numbers $1,\, 2,\, \ldots ,\, 49$ are placed in a $7 \times 7$
+%array, and the sum of the numbers in each row and in each column is
+%computed. Some of these $14$ sums are odd while others are even. Let
+%$A$ denote the sum of all the odd sums and $B$ the sum of all even sums.
+%Is it possible that the numbers were placed in the array in such a way
+%that $A = B$?
+Luvut $1,\, 2,\, \ldots ,\, 49$ on sijoitettu $7 \times 7$-ruudukkoon, ja
+jokaisen rivin ja jokaisen sarakkeen lukujen summa on laskettu.
+Muutamat n‰ist‰ 14 summasta ovat parittomia ja loput parillisia.
+Olkoon $A$ kaikkien parittomien summien summa ja $B$ kaikkien parillisten
+summien summa.  Onko mahdollista, ett‰ luvut oli sijoitettu ruudukkoon
+siten, ett‰ $A=B$?
+
+\item   %   C 10   (DEN 1)
+%Let $p$ and $q$ be two different primes. Prove that
+%\[ \left\lfloor\frac{p}{q}\right\rfloor
+%   + \left\lfloor\frac{2p}{q}\right\rfloor
+%   + \left\lfloor\frac{3p}{q}\right\rfloor
+%   + \cdots + \left\lfloor\frac{(q-1)p}{q}\right\rfloor
+%   = \frac{1}{2}(p-1)(q-1) \quad. \]
+%(Here $\lfloor x\rfloor$ denotes the largest integer not greater than $x$.)
+Olkoot $p$ ja $q$ kaksi eri alkulukua.  Todista, ett‰
+\[ \left\lfloor\frac{p}{q}\right\rfloor
+   + \left\lfloor\frac{2p}{q}\right\rfloor
+   + \left\lfloor\frac{3p}{q}\right\rfloor
+   + \cdots + \left\lfloor\frac{(q-1)p}{q}\right\rfloor
+   = \frac{1}{2}(p-1)(q-1). \]
+(T‰ss‰ $\lfloor x\rfloor$ on suurin kokonaisluku, joka on pienempi tai
+yht‰ suuri kuin $x$.)
+
+\item   %   C 12   (GER 2)
+%Let 2001 given points on a circle be colored either red or
+%green. In one step all points are recolored simultaneously in
+%the following way: If both direct neighbors of a point $P$ have
+%the same color as $P$, then the color of $P$ remains unchanged,
+%otherwise $P$ obtains the other color. Starting with the first
+%coloring $F_1$, we obtain the
+%colorings $F_2, F_3,\ldots$ after several recoloring steps.
+%Prove that there is a number $n_0\leq
+%1000$ such that $F_{n_0}=F_{n_0+2}$. Is the assertion also true if
+%1000 is replaced by 999?
+Annetut 2001 ympyr‰n keh‰n pistett‰ on kukin v‰ritetty joko punaiseksi
+tai vihre‰ksi.  Kaikki pisteet v‰ritet‰‰n samanaikaisesti uudelleen
+seuraavalla tavalla: Jos pisteen $P$ molemmat viereiset pisteet ovat
+samanv‰risi‰ kuin $P$, $P$:n v‰ri pysyy samana; muuten $P$:n v‰ri
+vaihtuu vastakkaiseksi.  Aloittamalla v‰rityksest‰ $F_1$ p‰‰dyt‰‰n
+v‰rityksiin $F_2, F_3,\ldots$ toistamalla t‰t‰ uudelleenv‰rityst‰.
+Osoita, ett‰ on olemassa luku $n_0\leq 1000$ siten, ett‰
+$F_{n_0}=F_{n_0+2}$.  Onko v‰ite totta myˆs jos luku 1000 korvataan
+luvulla 999?
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                                                     %
+%    GEOMETRY                                                                                         %
+%                                                                                                     %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\item   %   G 1   (FIN 1)
+%The points $A,B,C,D,E$ lie on the circle $c$ in this order and satisfy
+%$AB\parallel EC$ and $AC\parallel ED$. The line tangent to the circle
+%$c$ at $E$ meets the line $AB$ at $P$. The lines $BD$ and $EC$ meet at
+%$Q$.  Prove that $|AC|=|PQ|$.
+Pisteet $A,\,B,\,C,\,D$ ja $E$ ovat ympyr‰n $c$ keh‰ll‰ t‰ss‰ j‰rjestyksess‰.
+Lis‰ksi $AB\parallel EC$ ja $AC\parallel ED$.  Ympyr‰n $c$ pisteeseen
+$E$ piirretty tangentti leikkaa suoran $AB$ pisteess‰ $P$.  Suorat
+$BD$ ja $EC$ leikkaavat pisteess‰ $Q$.  Osoita, ett‰ $|AC|=|PQ|$.
+
+\item   %   G 2   (LAT 4)
+%Given a parallelogram $ABCD$. A circle passing through $A$ meets the line segments
+%$AB$, $AC$ and $AD$ at inner points $M$, $K$, $N$, respectively.
+%Prove that
+%$$ |AB|\cdot|AM|+|AD|\cdot|AN|=|AK|\cdot |AC|. $$
+$ABCD$ on suunnikas.  Pisteen $A$ kautta kulkeva ympyr‰ leikkaa janat
+$AB$, $AC$ ja $AD$ n‰iden sis‰pisteiss‰ $M$, $K$, $N$, t‰ss‰
+j‰rjestyksess‰.  Todista, ett‰ $$
+|AB|\cdot|AM|+|AD|\cdot|AN|=|AK|\cdot |AC|. $$
+
+\item   %   G 3   (LAT 7)
+%Let $ABCD$ be a convex quadrilateral, and let $N$ be
+%the midpoint of $BC$. Suppose further that $\angle AND= 135^\circ$.
+%Prove that
+%$\ds |AB|+|CD|+\frac{1}{\sqrt{2}}\cdot|BC|\ge|AD|.$
+Olkoon $ABCD$ kupera nelikulmio ja $N$ sivun $BC$ keskipiste.
+Olkoon viel‰ $\angle AND= 135^\circ$.
+Osoita, ett‰
+$$ |AB|+|CD|+\frac{1}{\sqrt{2}}\cdot|BC|\ge|AD|.$$
+
+\item   %   G 6   (POL 3)
+%Given a rhombus $ABCD$, find the locus of the
+%points $P$ lying inside the rhombus and satisfying
+%$\angle APD+\angle BPC=180^\circ$.
+Olkoon $ABCD$ vinoneliˆ.  M‰‰rit‰ niiden vinoneliˆn sis‰ll‰
+sijaitsevien pisteiden $P$ joukko, joille p‰tee
+$\angle APD+\angle BPC=180^\circ$.
+
+\item   %   G 8   (POL 5)
+%In a triangle $ABC$, the bisector of
+%$\angle BAC$ meets the side $BC$ at the point $D$.
+%Knowing that $|BD|\cdot |CD|=|AD|^2$ and $\angle ADB=45^\circ$,
+%determine the angles of triangle $ABC$.
+Kolmion $ABC$ kulman $\angle BAC$ puolittaja leikkaa sivun $BC$
+pisteess‰ $D$.  M‰‰rit‰ kolmion $ABC$ kulmat, kun $|BD|\cdot
+|CD|=|AD|^2$ ja $\angle ADB=45^\circ$.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                                                     %
+%    ALGEBRA                                                                                          %
+%                                                                                                     %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\item   %   A 2   (FIN 4)
+%The real-valued function $f$ is defined for all positive
+%integers. For any integers $a>1$, $b>1$ with $d=\gcd(a,\,b)$, we have
+%$$f(ab)=f(d)\left(f\left(\frac{a}{d}\right)+f\left(\frac{b}{d}\right)\right).$$
+%Determine all possible values of $f(2001)$.
+Reaaliarvoinen funktio $f$ on m‰‰ritelty positiivisten kokonaislukujen
+joukossa.  Kaikille koko\-nais\-luvuille $a>1$, $b>1$ p‰tee
+$$f(ab)=f(d)\left(f\left(\frac{a}{d}\right)+f\left(\frac{b}{d}\right)\right),$$
+miss‰ $d={\rm syt}(a,\,b)$.  M‰‰rit‰ $f(2001)$:n kaikki mahdolliset arvot.
+
+\item   %   A 3   (ICE 3)
+%Let $a_{1}, a_{2}, ... , a_{n}$ be positive real numbers such that
+%$\ds\sum_{i=1}^{n} a_{i}^{3}=3$
+%and $\ds\sum_{i=1}^{n} a_{i}^{5}=5$.
+%Prove that $\ds\sum_{i=1}^{n} a_{i}>3/2$.
+Olkoot $a_{1}, a_{2}, \dots, a_{n}$ positiivisia reaalilukuja, joille
+$\ds\sum_{i=1}^{n} a_{i}^{3}=3$
+ja $\ds\sum_{i=1}^{n} a_{i}^{5}=5$.
+Osoita, ett‰ $\ds\sum_{i=1}^{n} a_{i}>3/2$.
+
+\item   %   A 4   (LAT 1)
+%Let $a_0,a_1,a_2,\dots$ be a sequence of real numbers satisfying
+%$a_0=1$ and
+%$\ds a_n=a_{\left\lfloor 7n/9\right\rfloor}
+%         +a_{\left\lfloor n/9\right\rfloor}$
+%for $n=1,2,\dots$.
+%Prove that there exists a positive integer $k$ with $\ds a_k<\frac{k}{2001!}$.\\
+%(Here $\lfloor x\rfloor$ denotes the largest integer not greater
+%than $x$.)
+Olkoon $a_0,a_1,a_2,\dots$ jono reaalilukuja, jolle p‰tee
+$a_0=1$ ja
+$\ds a_n=a_{\left\lfloor 7n/9\right\rfloor}
+         +a_{\left\lfloor n/9\right\rfloor}$
+kaikilla $n=1,2,\dots$.
+Osoita, ett‰ on olemassa positiivinen kokonaisluku $k$ siten, ett‰
+$\ds a_k<\frac{k}{2001!}$.\\
+(Myˆs t‰ss‰ $\lfloor x\rfloor$ on suurin kokonaisluku, joka on
+pienempi tai yht‰ suuri kuin $x$.)
+
+\item   %   A 5   (LAT 5)
+%There are $2n$ cards. On each card some real number $x$, $1\le x\le 2$, is
+%written (there can be different numbers on different cards).
+%Prove that the cards can be divided into two heaps with sums
+%$s_1$ and $s_2$ so that $\ds\frac{n}{n+1}\le\frac{s_1}{s_2}\le 1$.
+Pakassa on $2n$ korttia.  Jokaiseen korttiin on kirjoitettu jokin
+reaaliluku $x$, $1\le x\le 2$.  (Eri korteissa voi olla eri lukuja.)
+N‰yt‰, ett‰ kortit voidaan jakaa kahteen pinoon siten, ett‰ niiss‰
+oleviin kortteihin kirjoitettujen lukujen summat $s_1$ ja $s_2$
+toteuttavat ep‰yht‰lˆn
+$$\frac{n}{n+1}\le\frac{s_1}{s_2}\le 1.$$
+
+\item   %   A 8   (GER 1)
+%Let $a_0,a_1,a_2,\dots$ be a sequence of positive real
+%numbers satisfying
+%$i\cdot a_i^2\ge (i+1)\cdot a_{i-1}a_{i+1}$ for $i=1,2,\dots$
+%Furthermore, let $x$ and $y$ be positive
+%reals, and let $\ds b_i=xa_i+ya_{i-1}$ for $i=1,2,\dots$.
+%Prove that the inequality
+%$i\cdot b_i^2>(i+1)\cdot b_{i-1}b_{i+1}$
+%holds for all integers $i\ge 2$.
+Olkoon $a_0,a_1,a_2,\dots$ jono positiivisia reaalilukuja, joille p‰tee
+$i\cdot a_i^2\ge (i+1)\cdot a_{i-1}a_{i+1}$ kaikilla $i=1,2,\dots$.
+Olkoot $x$ ja $y$ positiivisia reaalilukuja, ja olkoon
+$\ds b_i=xa_i+ya_{i-1}$ kaikilla $i=1,2,\dots$.
+Osoita, ett‰ kaikilla kokonaisluvuilla $i\ge 2$ p‰tee
+$i\cdot b_i^2>(i+1)\cdot b_{i-1}b_{i+1}$.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                                                     %
+%    NUMBER THEORY                                                                                    %
+%                                                                                                     %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\item   %   N 1   (ICE 1)
+%Let $f$ be a real-valued function defined
+%on the positive integers satisfying the following condition: For
+%all $n>1$ there exists a prime divisor $p$ of $n$ such that
+%$f(n)=f(n/p)-f(p)$. Given that $f(2001)=1$, what is the value
+%of $f(2002)$?
+Olkoon $f$ positiivisten kokonaislukujen joukossa m‰‰ritelty
+reaaliarvoinen funktio, joka toteuttaa seuraavan ehdon:
+kaikilla $n>1$ on olemassa $n$:n alkutekij‰ $p$, jolle
+$f(n)=f(n/p)-f(p)$.  M‰‰rit‰ $f(2002)$, kun $f(2001)=1$.
+
+\item   %   N 3   (LAT 2)
+%Let $n$ be a positive integer.
+%Prove that at least $2^{n-1}+n$ numbers can be chosen from
+%the set $\{1,2,3,\dots,2^n\}$ such that for any two different
+%chosen numbers $x$ and $y$, $x+y$ is not a divisor of $x\cdot y$.
+Olkoon $n$ positiivinen kokonaisluku.
+Todista ett‰ joukosta $\{1,2,3,\dots,2^n\}$ voidaan valita v‰hint‰‰n
+$2^{n-1}+n$ lukua siten, ett‰ $x+y$ ei ole $x\cdot y$:n tekij‰
+mill‰‰n kahdella valitulla luvulla $x$ ja $y$, $x \neq y$.
+
+\item   %   N 6   (DEN 2)
+%Let $a$ be an odd integer. Prove that $a^{2^n} +
+%2^{2^n}$ and $a^{2^m} + 2^{2^m}$ are relatively prime for all
+%positive integers $n$ and $m$ with $n \neq m$.
+Olkoon $a$ pariton kokonaisluku.  Osoita, ett‰ luvuilla $a^{2^n} +
+2^{2^n}$ ja $a^{2^m} + 2^{2^m}$ ei ole yhteisi‰ tekijˆit‰ mill‰‰n
+positiivisilla kokonaisluvuilla $n$ ja $m$, $n \neq m$.
+
+\item   %   N 9   (SWE 2)
+%What is the smallest positive odd integer having the same number
+%of positive divisors as 360?
+Mik‰ on pienin pariton positiivinen kokonaisluku, jolla on yht‰
+monta positiivista tekij‰‰ kuin luvulla 360?
+
+\item   %   N 10   (LAT 8)
+%From a sequence of integers $(a, b, c, d)$ each of the sequences
+%$$(c,d,a,b),\quad (b,a,d,c),\quad (a+nc,b+nd,c,d),\quad (a+nb,b,c+nd,d)$$
+%for arbitrary integer $n$ can be obtained by one step.
+%Is it possible to obtain $(3, 4, 5, 7)$ from $(1, 2, 3, 4)$ through a
+%sequence of such steps?
+Kokonaislukujono $(a, b, c, d)$ voidaan muuntaa jonoiksi
+$$(c,d,a,b),\quad (b,a,d,c),\quad (a+nc,b+nd,c,d),\quad (a+nb,b,c+nd,d),$$
+miss‰ $n$ on mielivaltainen kokonaisluku.
+Voiko jonosta $(1, 2, 3, 4)$ saada jonon $(3, 4, 5, 7)$
+toistamalla t‰llaisia muunnoksia?
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{list_1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}

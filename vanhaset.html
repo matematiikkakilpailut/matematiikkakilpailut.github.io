@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uutisarkisto</title>
+    
+    <link href="/css/bootstrap.min.css?v=5.3.3" rel="stylesheet">
+    <style>
+     .breadcrumb {
+       --bs-breadcrumb-divider: '';
+       --bs-breadcrumb-padding-x: 0;
+       --bs-breadcrumb-item-padding-x: 0;
+     }
+     .navbar {
+       --bs-navbar-brand-padding-y: 4px;
+     }
+     [data-bs-theme="dark"] {
+       --bs-link-color: #788591;
+       --bs-link-color-rgb: 120, 133, 145;
+       .link-primary, .text-primary {
+         --bs-primary-rgb: 236, 240, 241;
+       }
+       .link-primary:hover {
+         color: rgb(128, 139, 150) !important;
+       }
+     }
+     [data-bs-theme="light"] {
+       --bs-link-color: #168366;
+       --bs-link-color-rgb: 23, 114, 83;
+       .link-primary {
+         --bs-primary-rgb: 33, 37, 41;
+         &:hover {
+           color: rgb(24, 188, 156) !important;
+         }
+       }
+     }
+     [data-bs-theme="dark"] .light-element { display: none; }
+     [data-bs-theme="light"] .dark-element { display: none; }
+     h1,h2,h3,h4,h5,h6 { text-wrap: balance; }
+     #logopalkki {
+       margin-top: 6ex;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+       align-content: center;
+     }
+     @media (pointer: coarse), (max-width: 450px) {
+       footer ul li {
+         padding-top: 0.5em;
+       }
+     }
+    </style>
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/kuvat/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/kuvat/apple-touch-icon.png">
+    <link rel="manifest" href="/kuvat/manifest.webmanifest">
+    <link rel="preload" href="/font/Lato-Regular.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/Lato-Bold.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/Lato-Italic.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="sitemap" href="/sitemap.xml">
+    <link rel="canonical" href="https://matematiikkakilpailut.fi/vanhaset.html">
+    <link rel="alternate" type="application/atom+xml" href="https://matematiikkakilpailut.fi/feed.xml">
+    <script>
+      const getStoredTheme = () => localStorage.getItem('theme')
+      const getPreferredTheme = () => {
+        const storedTheme = getStoredTheme()
+        if (storedTheme) {
+          return storedTheme
+        }
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+      }
+      const setTheme = theme => {
+        document.documentElement.dataset.bsTheme =
+          theme === 'auto'
+          ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+          : theme
+      }
+      setTheme(getPreferredTheme())
+    </script>
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <nav data-bs-theme="dark" class="navbar navbar-expand-md bg-primary" aria-label="Päävalikko">
+  <div class="container-fluid flex-flow align-items-start">
+    <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbar-collapse" aria-controls="navbar-collapse"
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand ps-sm-4" href="/">Matematiikkavalmennus</a>
+    <div class="d-flex order-0 order-md-last ms-md-auto" id="theme-toggle" title="Taustaväri">
+      <div class="dropdown">
+        <button class="btn btn-link nav-link dropdown-toggle
+                       py-2 pt-md-2 px-1 px-lg-2
+                       d-flex align-items-center text-light"
+                type="button"
+                id="bd-theme"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
+          <svg class="bi theme-icon-active" width="16" height="16" fill="currentColor">
+            <use href="/kuvat/sprite3.svg#sun-fill"></use>
+          </svg>
+          <span class="d-none" id="bd-theme-text">Taustaväri</span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme">
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite3.svg#sun-fill"></use>
+              </svg>
+              Vaalea
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite3.svg#moon-stars-fill"></use>
+              </svg>
+              Tumma
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite3.svg#circle-half"></use>
+              </svg>
+              Automaattinen
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="collapse navbar-collapse flex-column align-items-start" id="navbar-collapse">
+      <div class="row flex-grow-1">
+        <div class="col-12 flex-grow-1">
+          <ul class="navbar-nav mb-2 mb-md-0">
+            <li class="nav-item"><a class="nav-link " href="/aikataulu/">Aikataulu</a></li>
+           <li class="nav-item"><a class="nav-link " href="/valmennus/">Kotitehtävät</a></li>
+            <li class="nav-item"><a class="nav-link " href="/aiheet/">Materiaalit</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    
+<div class="container-fluid flex-flow bg-body-secondary align-items-start">
+  <nav aria-label="navigaatiopolku" class="mt-1 ps-sm-4 small">
+    <ol class="breadcrumb mb-1" itemscope itemtype="https://schema.org/BreadcrumbList">
+      
+      <li class="breadcrumb-item pe-1" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <meta itemprop="position" content="1">
+        <a class="icon-link link-primary text-decoration-none" href="/"
+           itemscope itemtype="https://schema.org/WebPage" itemprop="item" itemid="/">
+          <span itemprop="name">Etusivu</span>
+          <svg class="bi" style="stroke-width: 1.1; stroke: currentColor;">
+            <use xlink:href="/kuvat/sprite3.svg#chevron-right"/>
+          </svg>
+        </a>
+      </li>
+      <li class="breadcrumb-item active text-primary" aria-current="page"
+          itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <span itemprop="name">Uutisarkisto</span>
+        <meta itemprop="position" content="2">
+      </li>
+    </ol>
+  </nav>
+</div>
+
+    <div class="container flex-grow-1">
+        <header class="display-4 pt-3 pb-3 mt-3 mb-1">
+  <h1>Uutisarkisto</h1>
+</header>
+<main class="row">
+  <div class="col-xs-12">
+    <h2 id="vanhoja-uutisia" tabindex="-1">Vanhoja uutisia</h2>
+<ul>
+<li>
+<p>Iranin Geometriaolympialaiset (IGO) pidetään 30.10. Suomen osalta Päivölässä. <a href="/IGO/">Lisätietoja</a></p>
+</li>
+<li>
+<p>Lokakuun valmennusviikonloppu 16.-18.10. järjestetään etänä. <a href="/aikataulu/2020W42/">Lisätietoja ja ilmoittautuminen: klikkaa tästä</a>. Viikonlopun aikana järjestetään myös valintakoe Baltian tie -kilpailuun.</p>
+</li>
+<li>
+<p>Vuoden 2020 <a href="https://imo2020.ru/">Kansainvälisissä matematiikkaolympialaisissa</a> Suomea edustivat hienosti <strong>Juho Arala</strong>, <strong>Daniel Arone</strong>, <strong>Asla Heiskanen</strong>, <strong>Hermanni Huhtamäki</strong>, <strong>Roope Salmi</strong> ja <strong>Sampo Siitonen</strong>. Heiskanen taituroi hopeaa yhdellä Suomen osallistumishistorian parhaisiin kuuluvalla suorituksella. Arala palkittiin pronssilla sekä Huhtamäki, Salmi ja Siitonen kunniamaininnoilla. Suomi oli 60. osallistuvien 105 maan joukossa. <a href="https://matematiikkakilpailut.fi/IMO/2020/teht2020.pdf">Kilpailutehtävät</a> ja <a href="https://www.imo-official.org/year_country_r.aspx?year=2020">tulosluettelo</a>.</p>
+</li>
+<li>
+<p>Syyskuun valmennusviikonloppu 4.9.-6.9. järjestetään etänä. <a href="/aikataulu/2020W36/">Lisätietoja ja ilmoittautuminen: klikkaa tästä</a>.</p>
+</li>
+<li>
+<p>Ensimmäistä kertaa järjestetyssä <a href="https://artofproblemsolving.com/contests/cmc">The Cyberspace Mathematical Competition</a> -kilpailussa Suomea edustivat <strong>Juho Arala</strong>, <strong>Daniel Arone</strong>, <strong>Asla Heiskanen</strong>, <strong>Hermanni Huhtamäki</strong>, <strong>Idaliina Kuusisto</strong>, <strong>Veera Nurmela</strong>, <strong>Roope Salmi</strong> ja <strong>Sampo Siitonen</strong>. Arala, Arone ja Siitonen palkittiin pronssimitalein sekä Heiskanen, Huhtamäki ja Salmi kunniamaininnoin. <a href="https://data.artofproblemsolving.com/images/contests/CMC_brochure.pdf">Kilpailutehtävät</a> ja <a href="https://artofproblemsolving.com/contests/cmc/leaderboards">tulosluettelo</a>.</p>
+</li>
+<li>
+<p>Vuoden 2020 <a href="http://www.georgmohr.dk/nmcperm/">Pohjoismainen matematiikkakilpailu</a> pidettiin 30.3.2020. Suomi toimi tänä vuonna järjestäjämaana. Kilpailun voiton vei Norjan <strong>Andreas Alberg</strong> täysin pistein. Parhaitein suomalaisista menestyi <strong>Juho Arala</strong> sijoittuen yhdeksänneksi. <a href="http://www.georgmohr.dk/nmcperm/probl/2020/fi.pdf">Kilpailutehtävät</a> ja <a href="http://www.georgmohr.dk/nmcperm/res/2020.html">parhaiden tulokset</a>.</p>
+</li>
+<li>
+<p>Kesäkuussa järjestetään virtuaalisesti valmennusta
+<a href="aikataulu/2020-kesaleiri/">8.-11.6. peruskoululaisille</a> ja
+<a href="aikataulu/2020-kesavalmennus/">13.-16.6. koululaisille yleisesti</a>.
+Peruskoulun osalta valmennusta on ma ja to klo 10-12 ja 14-16 sekä
+ti ja ke klo 10-12 ja 18-20. Aikavälillä 13.-16.6. tapahtuvassa
+valmennuksessa opetusta on päivittäin klo 10-13, 14-17 ja
+18-20. Lisätiedot ja ilmoittautuminen Neea Palojärvelle
+(<a href="mailto:neea.palojarvi@abo.fi">neea.palojarvi@abo.fi</a>) viimeistään
+1.6.2020 peruskoulun leirin osalta ja 5.6.2020 muuten.</p>
+</li>
+<li>
+<p><strong>Vuoden 2020 <a href="https://imo2020.ru/">Kansainväliset Matematiikkaolympialaiset</a> on siirretty pidettäväksi 20.-28.9.2020 koronaviruspandemian takia.</strong> Mikäli matkustaminen ei vielä tällöinkään onnistu, niin kilpailu saatetaan järjestää virtuaalisena. Kaikki kilpailijat, jotka olisivat olleet oikeutettuja osallistumaan heinäkuussa pidettyihin olympialaisiin, ovat sitä myös syyskuussa.</p>
+</li>
+<li>
+<p>Vuoden 2020 <a href="https://egmo2020.nl/">Euroopan tyttöjen matematiikkaolympialaiset</a> toteutettiin virtuaalisesti 15.–21.4. koronaviruspandemian takia. Alankomaat toimi järjestäjämaana. Suomea edustivat <strong>Ulrika Kaara</strong>, <strong>Idaliina Kuusisto</strong>, <strong>Veera Nurmela</strong> ja <strong>Anni Tapionlinna</strong>. Suomi oli 42. osallistuneista 53 joukkueesta sekä 39 Euroopan maan joukossa 30. <a href="https://www.egmo.org/egmos/egmo9/">Kilpailutehtävät ja ratkaisut</a> sekä <a href="https://www.egmo.org/egmos/egmo9/scoreboard/">tulosluettelo</a>.</p>
+</li>
+<li>
+<p><strong>Viikkokisoja</strong> järjestetään taas, ks. <a href="https://keskustelu.matematiikkakilpailut.fi/t/viikkokisat/322">ilmoitus</a> ja <a href="https://keskustelu.matematiikkakilpailut.fi/t/viikkokisa-6-12-4/323">viikon 6.-12.4. kisa</a>.</p>
+</li>
+<li>
+<p>Huhtikuun valmennusviikonloppu toteutetaan etänä. Valmennusta on tarjolla ainakin la 4.4.2020 klo 9:55-12:30 ja 14:00-16:30. Ilmoittautumiset ja kysymykset voi osoittaa alakerran (helpompi taso) osalta Pihla Karangolle (pihla.karanko@aalto.fi) ja yläkerran (haastavampi taso) osalta Olli Järviniemelle (olli.jarviniemi@gmail.com). Ilmoittaudu viimeistään ke 1.4.2020 klo 18:00. Opetus on maksutonta.</p>
+</li>
+<li>
+<p><strong>Vuoden 2020 koronavirusepidemia saattaa aiheuttaa rajoituksia matkustamiseen ja valmennustapahtumien ja kilpailujen perumisia ja siirtämisiä</strong>. Huhtikuun alun valmennusviikonloppu toteutetaan etänä. Matematiikkaolympialaisten järjestäjä on ilmoittanut, että epidemian jatkuessa heinäkuulle kilpailu saatetaan toteuttaa jonkinlaisen etäosallistumisen kautta tai siirtää. EGMO-kilpailu on muutettu virtuaaliseksi.</p>
+</li>
+<li>
+<p>Suomen <strong>Daniel Arone</strong> osallistui kovatasoiseen Romanian Master of Mathematics -kutsukilpailuun osana Pohjoismaiden joukkuetta. Kilpailu pidettiin 26.2.–2.3.2020 Bukarestissa, Romaniassa. Arone menestyi kilpailussa hyvin saavuttaen kunniamaininnan. <a href="http://rmms.lbi.ro/rmm2020/index.php?id=results_math">Tulosluettelo</a>.</p>
+</li>
+<li>
+<p>Vuoden 2019 <a href="http://balticway19.mimuw.edu.pl/index.html">Baltian Tie -joukkuematematiikkakilpailu</a> pidettiin Szczecinissä, Puolassa 15.–19.11. Ensimmäisen sijan otti Pietarin joukkue 90 pisteellä, Suomi oli seitsemäs yhdestätoista 48 pisteellä. <a href="/Baltian_tie/2019/BW19_FIN.pdf">Kilpailutehtävät</a> ja <a href="http://balticway19.mimuw.edu.pl/BW19-results.pdf">tulosluettelo</a></p>
+</li>
+<li>
+<p>Vuoden 2019 <a href="https://www.imo2019.uk/">Kansainväliset Matematiikkaolympialaiset</a> pidettiin Bathissa 10.–22.7. Suomea edustivat <strong>Juho Arala</strong>, <strong>Hermanni Huhtamäki</strong>, <strong>Akseli Jussinmäki</strong>, <strong>Olli Järviniemi</strong>, <strong>Roope Salmi</strong> ja <strong>Nerissa Shakespeare</strong>. Järviniemi sai hopeamitalin, Salmi pronssimitalin, Arala ja Jussinmäki kunniamaininnat. <a href="http://imo-official.org/year_country_r.aspx?year=2019">Tulosluettelo</a>.</p>
+</li>
+<li>
+<p>Vuoden 2019 <a href="https://egmo2019.org/">Euroopan tyttöjen matematiikkaolympialaisissa</a> Suomea edustivat <strong>Idaliina Kuusisto</strong>, <strong>Veera Nurmela</strong>, <strong>Nerissa Shakespeare</strong> ja <strong>Hilma Tillqvist</strong>. Kilpailut pidettiin Kiovassa, Ukrainassa. <a href="https://www.egmo.org/egmos/egmo8/">Kilpailutehtävät ja ratkaisut</a> sekä <a href="https://www.egmo.org/egmos/egmo8/scoreboard/">tulosluettelo</a>.</p>
+</li>
+<li>
+<p>Vuoden 2018 Baltian Tie -joukkuematematiikkakilpailu pidettiin Pietarissa 9.–13.11. Ensimmäisen sijan otti Saksan joukkue 83 pisteellä, Suomi oli kahdeksas yhdestätoista 57 pisteellä. <a href="/Baltian_tie/2018/BW18_FIN.pdf">Kilpailutehtävät</a> ja <a href="https://web.archive.org/web/20190517060205/http://www.pdmi.ras.ru/EIMI/2018/Baltic_way/res18.pdf">tulosluettelo</a>.</p>
+</li>
+<li>
+<p>Uutena kokeiluna on otettu käyttöön valmennuskirjeitä nopeampitempoinen <a href="https://keskustelu.matematiikkakilpailut.fi/c/viikkotehtavat">viikkotehtävä</a>.</p>
+</li>
+<li>
+<p>Vuoden 2018 <a href="http://www.imo2018.org/">Kansainväliset Matematiikkaolympialaiset</a> pidettiin Cluj-Napocassa Romaniassa 3.–14.7. Suomea edustivat <strong>Joonatan Honkamaa</strong>, <strong>Hermanni Huhtamäki</strong>, <strong>Akseli Jussinmäki</strong>, <strong>Olli Järviniemi</strong>, <strong>Nerissa Shakespeare</strong> ja <strong>Selim Virtanen</strong>. Honkamaa ja Järviniemi saivat pronssimitalit, Jussinmäki ja Virtanen kunniamaininnat. <a href="http://imo-official.org/year_country_r.aspx?year=2018">Tulosluettelo</a>.</p>
+</li>
+<li>
+<p>Vuoden 2018 <a href="http://www.egmo2018.org/">Euroopan tyttöjen matematiikkaolympialaisissa</a> 7.–13.4. Suomea edustivat <strong>Milja Krés</strong>, <strong>Veera Nurmela</strong>, <strong>Nerissa Shakespeare</strong> ja <strong>Essi Vilhonen</strong>.</p>
+</li>
+<li>
+<p>Vuoden 2017 Baltian Tie -joukkuematematiikkakilpailu pidettiin Tanskan Sorøssä 9.–13.11.2017. Ensimmäisen sijan otti Pietarin joukkue 85 pisteellä, Suomi oli yhdeksäs yhdestätoista 41 pisteellä. <a href="/Baltian_tie/2017/BW17_FIN.pdf">Kilpailutehtävät</a> ja <a href="http://www.balticway17.dk/results.html">tulosluettelo</a>.</p>
+</li>
+<li>
+<p>Vuoden 2017 Kansainväliset Matematiikkaolympialaiset pidettiin Rio de Janeirossa 12.–23.7.2017. Mukana oli 111 maata ja 615 kilpailijaa. Parhaiten menestyivät Etelä-Korea, Kiina ja Vietnam. Kukaan kilpailija ei saanut täysiä pisteitä; vaikeimmaksi osoittautui tehtävä 3, jonka ratkaisi täysin oikein vain kaksi kilpailijaa. Suomen sijoitus oli 84. ja kaikki Suomen kilpailijat saivat kunniamaininnan yhdestä täysin pistein ratkaistusta tehtävästä. <a href="https://www.imo-official.org/year_individual_r.aspx?year=2017&amp;column=total&amp;order=desc&amp;gender=hide&amp;nameform=western">Tulosluettelo</a>.</p>
+</li>
+<li>
+<p>Suomen joukkue heinäkuun 2017 Kansainvälisiin matematiikkaolympialaisiin Rio de Janeiroon valittiin toukokuun alun valmennustapahtumassa Päivölässä. Joukkueen muodostavat <strong>Hermanni Huhtamäki</strong>, <strong>Olli Järviniemi</strong>, <strong>Joose Lehtinen</strong>, <strong>Jesse    Nieminen</strong>, <strong>Antti Röyskö</strong> ja <strong>Tarmo Taipale</strong>. Joukkueen johtaja on <strong>Lauri Hallila</strong> ja varajohtaja <strong>Otte Heinävaara</strong>.</p>
+</li>
+<li>
+<p>Euroopan Tyttöjen Matematiikkaolympialaiset järjestettiin 6.–12. huhtikuuta 2017 Zürichissä. Kilpailijoita oli 168 kaikkiaan 44 maasta. Suomea edustivat Pinja Pessi ja Essi Vilhonen. <a href="https://www.egmo.org/egmos/egmo6/scoreboard/">Tulosluettelo</a>.</p>
+</li>
+<li>
+<p>Pohjoismainen matematiikkakilpailu pidettiin 3.4.2017. Suomesta kilpailuun osallistui 20 erikseen kutsuttua. Ratkaisut arvioitiin Ruotsissa. Vaikean kilpailun parhaan tuloksen sai ruotsalainen <strong>Björn Magnusson</strong>.</p>
+</li>
+<li>
+<p>Lukion matematiikkakilpailun loppukilpailu pidettiin 20.1.2017 Ressun lukiossa Helsingissä. Kutsuttuina oli alkukilpailun eri sarjojen parhaita, yhteensä 21 kilpailijaa. Tasaisen kilpailun paras oli Päivölän Opiston <strong>Antti Röyskö</strong>. <a href="MAOL/2017/lukm2017.pdf">Tehtävät</a>. <a href="MAOL/2017/lukm2017r.pdf">tehtävien ratkaisut</a> ja <a href="MAOL/2017/lukmat2017tul.pdf">tulokset</a> löytyvät oheisista linkeistä.</p>
+</li>
+<li>
+<p>Vuoden 2016 Baltian Tie -joukkuematematiikkakilpailu pidettiin Oulussa 3.–7. marraskuuta. Kilpailun järjesti Valmennusjaosto yhdessä MAOL-Oulun kerhon ja Oulun yliopiston OuLUMA-keskuksen kanssa. Ensimmäisen sijan jakoivat Puola ja Pietari. Kolmas oli Ruotsi. Suomi oli 9. <a href="http://matematiikkakilpailut.fi/BW2016/problems/bw2016_fi.pdf">Kilpailutehtävät</a> ja <a href="http://matematiikkakilpailut.fi/BW2016/results/BW2016_results.pdf">tulosluettelo</a>.</p>
+</li>
+<li>
+<p>Matemaattisten aineiden opettajien liiton valtakunnallisen lukion matematiikkakilpailun alkukilpailu järjestettiin 30.10.2016. <a href="http://matematiikkakilpailut.fi/MAOL/2016/al2016.pdf">Tehtävät</a> ja niiden <a href="http://matematiikkakilpailut.fi/MAOL/2016/al2016ratk.pdf">ratkaisut</a>.</p>
+</li>
+<li>
+<p>Suomea vuoden 2016 Baltian Tie -kilpailussa edustava joukkue valittiin viikon 36 valmennustapahtumassa Päivölässä. Joukkueen muodostavat <strong>Ella Anttila</strong>, <strong>Olli Järviniemi</strong>, <strong>Joose Lehtinen</strong>, <strong>Jesse Nieminen</strong> ja <strong>Antti Röyskö</strong>. Joukkueen johtaja on Lauri Hallila ja varajohtaja Otte Heinävaara. Valinta perustui osaksi 9.9. pidettyyn kaksituntiseen <a href="valmennus/2016/koe_9_9_16.pdf">kokeeseen</a>.</p>
+</li>
+<li>
+<p>Vuoden 2016 Kansainväliset Matematiikkaolympialaiset pidettiin Hongkongissa 9.–16. heinäkuuta. Mukana oli 109 maata ja 602 kilpailijaa. Parhaiten menestyivät USA:n, Etelä-Korean ja Kiinan joukkueet. Täysiin pisteisiin pääsi 6 kilpailijaa. Suomen joukkue oli sijalla 71. <strong>Ella Anttila</strong>, <strong>Iiro Kumpulainen</strong> ja <strong>Alvar Kallio</strong> saivat kunniamaininnan. <a href="http://www.imo-official.org/year_info.aspx?year=2016">Tulosluettelo</a>.</p>
+</li>
+<li>
+<p>Suomen joukkue heinäkuun 2016 Kansainvälisiin matematiikkaolympialaisiin Hongkongiin valittiin viikolla 19 Päivölän Opistossa pidetyn valmennus- ja valintaviikon aikana. Joukkueessa ovat <strong>Ella Anttila</strong>, <strong>Hannes Ihalainen</strong>, <strong>Alvar Kallio</strong>, <strong>Iiro Kumpulainen</strong>, <strong>Joose Lehtinen</strong> ja <strong>Antti Röyskö</strong>. Joukkueen johtaja on <strong>Esa Vesalainen</strong> ja varajohtaja <strong>Jesse Jääsaari</strong>. (14.5.2016)</p>
+</li>
+<li>
+<p>Viidennet Euroopan Tyttöjen Matematiikkaolympialaiset pidettiin 10.-16. 4. 2016 Romanian Bustenissa. Suomen ainoa edustaja <strong>Ella Anttila</strong> palkittiin pronssimitalilla. <a href="https://www.egmo.org/egmos/egmo5/scoreboard/">Tulokset</a>.</p>
+</li>
+<li>
+<p>Pohjoismainen matematiikkakilpailu pidettiin 5.4.2016. Suomesta kilpailuun osallistui 20 erikseen kutsuttua. Ratkaisut arvioitiin Tanskassa. Ruotsin <strong>David Wärn</strong> oli ainoa täydet pisteet saanut kilpailija.  <a href="PM/2016/NMC2016suom.pdf">Tehtävät</a> ja niiden <a href="PM/2016/NMC2016ratk.pdf">ratkaisut</a> sekä <a href="PM/2016/NMC2016_tulokset.pdf">tulosluettelo</a> löytyvät alasivulta <a href="PM/">Pohjoismainen kilpailu</a>.</p>
+</li>
+<li>
+<p>Lukion matematiikkakilpailun loppukilpailu pidettiin 22.1.2016 Munkkiniemen yhteiskoulussa Helsingissä. Kilpailun voitti <strong>Akseli Antikainen</strong> Kuopiosta. Jaetulle toiselle sijalle tulivat <strong>Ella Anttila</strong> Helsingistä ja <strong>Jesse Nieminen</strong> Nokialta. <a href="MAOL/2016/tulokset_2016.pdf">Tulosluettelo</a>.</p>
+</li>
+<li>
+<p>Baltian Tie -joukkuematematiikkakilpailun vuonna 2015 voitti Pietarin joukkue, seuraavina Puola ja Viro. Vierailevana joukkueena mukana ollut Hollanti oli neljäs. Suomi oli 9.</p>
+</li>
+<li>
+<p>Vuoden 2015 Baltian tie -joukkueeseen valittiin Suomea edustamaan <strong>Ella Anttila</strong>, <strong>Petrus Asikainen</strong>, <strong>Iiro Kumpulainen</strong>, <strong>Kalle Luopajärvi</strong> ja <strong>Jesse Nieminen</strong>. Joukkueen johtaja on <strong>Anne-Maria Ernvall-Hytönen</strong> ja varajohtaja <strong>Jari Lappalainen</strong>.</p>
+</li>
+<li>
+<p>Ennakkotiedoista poiketen Ruotsi ei järjestäkään vuonna 2015 opettajien Kappa-kilpailua.</p>
+</li>
+<li>
+<p>Vuoden 2015 Kansainväliset matematiikkaolympialaiset järjestettiin Thaimaan Chiang Maissa 6. – 14. heinäkuuta. Kaikkiaan 104 maan joukkueet osallistuivat; kilpailijoita oli 577. Kilpailun tehtäväsarja muodostui aiottua vaikeammaksi, kun toisen päivän tehtävien vuodettua ne jouduttiin korvaamaan varatehtävillä. Kanadan <strong>Alex Song</strong> pääsi ainoana kilpailijana täysiin pisteisiin. Maiden välisen kilpailun paras oli Yhdysvallat. Suomi oli 82. Suomen <strong>Kalle Luopajärvi</strong> sai kunniamaininnan.
+<a href="http://www.imo-official.org/year_individual_r.aspx?year=2015&amp;column=total&amp;order=desc">Tulosluettelo</a>.</p>
+</li>
+<li>
+<p>Olympiavalmennus järjesti perinteisen kesävalmennuksen 9.–12.6.2015 Helsingin yliopiston Kumpulan kampuksella Exactumissa.</p>
+</li>
+<li>
+<p>Vuoden 2015 matematiikkaolympiajoukkueen valinta- ja valmennusviikko oli 3. – 8. toukokuuta Päivölän Opistossa Valkeakoskella. Olympiajoukkueeseen valittiin <strong>Ella Anttila</strong>, <strong>Juuso Heinonen</strong>, <strong>Tuukka Korhonen</strong>, <strong>Iiro Kumpulainen</strong>, <strong>Kalle Luopajärvi</strong> ja <strong>Ella Tamir</strong>. Joukkueen johtaja on <strong>Matti Lehtinen</strong> ja varajohtaja <strong>Joni Teräväinen</strong>.</p>
+</li>
+<li>
+<p>Neljännet Euroopan Tyttöjen Matematiikkaolympialaiset
+järjestettiin 14.–20. huhtikuuta 2015 Minskissä. Kilpailijoita
+oli 109 kaikkiaan 30 maasta. Suomea edustivat <strong>Ella Tamir</strong>,
+<strong>Ella Anttila</strong> ja <strong>Tara Vaittinen</strong>.
+<a href="https://www.egmo.org/egmos/egmo4/scoreboard/">Tulosluettelo</a>.</p>
+</li>
+<li>
+<p>Vuoden 2015   Pohjoismainen matematiikkakilpailu pidettiin 24.
+maaliskuuta 2015 kotirataotteluna kilpailijoiden kouluissa.
+Osallistujia oli yhteensä 85 kaikista Pohjoismaista.
+Tehtävät osoittautuivat suhteellisen helpoiksi, ja
+täysiin pisteisiin ylsi kuusi kilpailijaa, kolme Ruotsista,
+kaksi Islannista ja yksi Tanskasta. Paras suomalainen oli
+<strong>Kalle Luopajärvi</strong> jaetulla 12. sijalla.</p>
+</li>
+<li>
+<p>Lukion matematiikkakilpailun loppukilpailu pidettiin 30.1.2015
+Ressun lukiossa Helsingissä. Kilpailun voitti <strong>Ella Tamir</strong>
+Helsingin matematiikkalukiosta ja toisen sijan jakoivat <strong>Ella
+Anttila</strong> samasta koulusta sekä <strong>Kalle Luopajärvi</strong> Seinäjoen
+lukiosta. <a href="https://maol.fi/neljan-tieteen-kisat/kansallisen-kilpailun-tulokset/">Täydellisempi tulosluettelo</a>
+löytyy MAOLin sivuilta, tehtävät ja ratkaisut
+<a href="/MAOL/2015/lukm2015r.pdf">täältä</a>.</p>
+</li>
+<li>
+<p>Vuoden 2014 Baltian Tie -joukkuematematiikkakilpailu pidettiin
+Vilnassa Liettuassa 6.–10.11.2014. Kilpailun voitti Pietari,
+toiseksi tuli Saksa ja kolmanneksi Puola. Suomi oli
+sijalla 11. Suomen joukkueessa olivat Petteri Huuskonen, Qianyue
+Jin, Iiro Kumpulainen, Kalle Luopajärvi ja Ella Tamir. Joukkueen
+johtaja oli Anne-Maria Ernvall-Hytönen ja varajohtaja Esa
+Vesalainen.
+<a href="https://web.archive.org/web/20151215164341/http://mif.vu.lt/balticway2014/wp-content/uploads/2014/07/bw2014rez.pdf">Tulosluettelo.</a></p>
+</li>
+<li>
+<p>Ruotsissa on useana vuotena järjestetty peruskoulun ja lukion
+matematiikanopettajien kilpailu, Kappa. Tänä vuonna (2014) myös
+suomalaiset opettajat voivat osallistua.</p>
+</li>
+<li>
+<p>55. Kansainväliset matematiikkaolympialaiset pidettiin
+Kapkaupungissa Etelä-Afrikassa 6.–13. heinäkuuta 2014.
+Kilpailijoita oli 560 kaikkiaan 101 maasta. Parhaiten menestyivät
+Kiinan ja Yhdysvaltojen joukkueet. Suomen joukkue oli sijalla 70.
+Suomen Jakob Wartiovaara palkittiin pronssimitalilla, Riku Laakkonen
+ja Timo Takala kunniamaininnalla. Kilpailun tulokset ja tehtävät
+löytyvät
+<a href="http://www.imo-official.org/year_info.aspx?year=2014">matematiikkaolympialaisten virallisilta sivuilta</a></p>
+</li>
+<li>
+<p>28. Pohjoismainen matematiikkakilpailu pidettiin 31.3.2014
+kotirataotteluna viidessä pohjoismaassa. Kilpailun järjestelyt ja
+arvostelu koordinoitiin Islannissa. Toukokuun 5. julkaistun
+<a href="/PM/2014/NMC2014_Results.pdf">tulosluettelon</a> mukaan kilpailun
+voittivat tasapistein Norjan Johan Sokrates Wind ja Islannin
+Sigurður Jens Albertsson. Parhaat suomalaiset olivat Jani
+Penttala sijalla 11, Jakob Wartiovaara sijalla 13 ja Riku Laakkonen
+sijalla 17.</p>
+</li>
+<li>
+<p>Vuoden 2014 Kansainvälisissä matematiikkaolympialaisissa Suomea
+edustava joukkue valittiin Päivölän Opistossa viikolla 18 pidetyn
+valmennus- ja valintaleirin aikana. Joukkueessa ovat Jere Huovinen,
+Mirjam Kauppila, Riku Laakkonen, Timo Takala, Ella Tamir ja Jakob
+Wartiovaara. Joukkueen johtaja on Matti Lehtinen ja varajohtaja Joni
+Teräväinen.</p>
+</li>
+<li>
+<p>Kolmannet Euroopan tyttöjen matematiikkaolympialaiset pidettiin
+Antalayassa Turkissa 10.–16. huhtikuuta 2014. Osallistujia oli
+110 29 maasta. Suomea edustivat Minna Hirvonen, Mirjam Kauppila,
+Ella Tamir ja Tara Vaittinen. Mirjam Kauppilan suoritus palkittiin
+pronssimitalilla. <a href="https://www.egmo.org/egmos/egmo3/scoreboard/">Tulosluettelo</a>. Joukkeen
+johtaja oli Anne-Maria Ernvall-Hytönen ja varajohtaja Esa
+Vesalainen.</p>
+</li>
+<li>
+<p>Lukion matematiikkakilpailun ensimmäinen kierros järjestettiin kouluissa 12.11.2013 ja loppukilpailu 21:lle alkukilpailun kolmen sarjan parhaalle pidettiin 31.1.2014 Ressun Lukiossa Helsingissä. Kilpailun voitti <strong>Jere Huovinen</strong> Kastellin lukiosta Oulusta, toiseksi tuli <strong>Jakob Wartiovaara</strong> Töölön yhteiskoulusta Helsingistä ja kolmanneksi <strong>Juuso Heinonen</strong> Tapiolan lukiosta Espoosta. Tehtävät ja ratkaisut löytyvät <a href="/MAOL/">MAOL-kilpailusivun linkeistä</a>.</p>
+</li>
+<li>
+<p>Vuoden 2013 Baltian Tie -joukkuematematiikkakilpailu pidettiin Riiassa Latviassa 7.–11.11.2013. Kilpailun voitti Latvia, toisen sijan jakoivat Puola ja Pietari. Suomi oli 11. Suomen joukkueessa olivat Mirjam Kauppila, Timo Takala, Ella Tamir, Jakob Wartiovaara ja Pyry Virtanen. Joukkueen johtaja oli Olli Hirviniemi ja varajohtaja Jesse Jääsaari.</p>
+</li>
+<li>
+<p>54. Kansainväliset matematiikkaolympialaiset pidettiin Santa Martassa Kolumbiassa 18.–28. heinäkuuta 2013. Parhaiten menestyivät Kiinan, Korean tasavallan ja Yhdysvaltojen joukkueet. Suomen joukkue oli sijalla 67, toiseksi parhaana Pohjoismaana. Suomen Otte Heinävaara palkittiin toistamiseen hopeamitalilla. Kilpailun tulokset ja tehtävät löytyvät <a href="http://www.imo-official.org/year_info.aspx?year=2013">matematiikkaolympialaisten virallisilta sivuilta</a>.</p>
+</li>
+<li>
+<p>Vuoden 2013 Kansainvälisissä matematiikkaolympialaisissa Suomea edustava joukkue valittiin Päivölän Opistossa viikolla 20 pidetyn valmennus- ja valintaleirin aikana. Joukkueessa ovat Otte Heinävaara, Mirjam Kauppila, Katja Kulmala, Neea Palojärvi, Eero Räty ja Joni Teräväinen. Joukkueen johtaja on Kerkko Luosto ja varajohtaja Olli Hirviniemi.</p>
+</li>
+<li>
+<p>Pythagoraan polku -joukkuematematiikkakilpailu pidettiin Päivölän Opistossa 22. huhtikuuta 2013. Nelihenkisiä kilpailujoukkueita oli 12. Perinteiseen tapaan leikkimielisen, mutta ankaran kilpailun tuloksia ei julkisteta.</p>
+</li>
+<li>
+<p>27. Pohjoismainen matematiikkakilpailu pidettiin kotirataotteluna viidessä Pohjoismaassa 8.4.2013. Osallistujia oli 71. Kilpailu koordinoitiin ja vastaukset arvioitiin Norjassa. Jonkin verran totuttua vaikeammista tehtävistä sai täydet pisteet vain kilpailun voittanut Ruotsin Mårten Wiman. Wiman voitti Pohjoismaisen matematiikkakilpailun myös vuonna 2012. Toiseksi tuli nyt Tanskan Peter Rasmussen ja kolmanneksi Suomen Otte Heinävaara. Muuut hyvin sijoittuneet suomalaiset olivat Eero Räty viidennellä ja Joonas Nuutinen jaetulla 11. sijalla. Täydellinen tulosluettelo löytyy <a href="/PM/2013/PM2013tul.pdf">tästä</a>.</p>
+</li>
+<li>
+<p>Toiset <a href="https://www.egmo.org/egmos/egmo2/">Euroopan tyttöjen matematiikkaolympialaiset</a> pidettiin Luxemburgissa 8.–14. huhtikuuta. Mukana oli 22 maan joukkueet. Suomea edustivat Pihla Karanko, Katja Kulmala, Neea Palojärvi ja Ella Tamir. Joukkueen johtaja oli Esa Vesalainen ja varajohtaja Jesse Jääsaari. Pihla Karanko ja Katja Kulmala palkittiin kunniamaininnalla. Tehtävät ja tulosluettelot löytyvät edellä olevan linkin kautta.</p>
+</li>
+<li>
+<p>Matemaattisten Aineiden Opettajien Liiton valtakunnallisen lukion matematiikkakilpailun loppukilpailu pidettiin 1. helmikuuta 2013 Ressun lukiossa Helsingissä. Kilpailun voitti Otte Heinävaara Helsingin matematiikkalukiosta, Jiali Yang Helsingin Suomalaisesta yhteiskoulusta oli toinen ja Jere Huovinen Kastellin lukiosta Oulusta kolmas. Tulokset löytyvät kokonaisuudessaan <a href="http://www.maol.fi/fileadmin/users/Kilpailut/Lukion_matematiikka/2012-2013/Lukion_matematiikka_2012-13.pdf">MAOL ry:n sivuilta</a>.</p>
+</li>
+<li>
+<p>Valmennusjaosto on julkaissut <strong>Kilpailumatematiikan oppaan</strong>, jossa annetaan perustietoja matematiikkakilpailujen tehtävissä yleensä esiintyvästä matematiikasta. Teknologiateollisuuden 100-vuotissäätiön tuki mahdollistaa oppaan jakamisen halukkaille toistaiseksi maksutta. Opasta voi tilata <a href="http://www.elisanet.fi/matti.t.lehtinen/">Matti Lehtiseltä</a>. Oppaan voi myös vapaasti ladata <a href="/kirjallisuus/kilpmatopas.pdf">valmennuksen verkkosivuilta (pdf, 918 kt)</a>.</p>
+</li>
+<li>
+<p>Kauden 2012–13 Lukion matematiikkakilpailun ensimmäinen kierros järjestettiin eri kouluissa 13. marraskuuta 2012. Kilpailun <a href="/MAOL/2012/tehtalku2012.pdf">tehtäviin</a> ja <a href="/MAOL/2012/ratkalku2012.pdf">ratkaisuihin</a> voi tutustua oheisten linkkien kautta.</p>
+</li>
+<li>
+<p>Suomen joukkue, Otte Heinävaara, Katja Kulmala, Neea Palojärvi, Eero Räty ja Joni Teräväinen, sijoittui kuudenneksi vuoden 2012 kansainvälisessä Baltian Tie -joukkuematematiikkakilpailussa 8.–11.11. Tartossa Virossa. Joukkueen johtaja oli Esa Vesalainen ja varajohtaja Olli Hirviniemi.</p>
+</li>
+<li>
+<p>53. Kansainväliset Matematiikkaolympialaiset järjestettiin Mar del Platassa Argentiinassa 8.–16. heinäkuuta 2012. Kilpailijoita oli 548, kaikkiaan 100 maasta. Poikkeuksellisen vaikeita tehtäviä ratkaisivat tällä kertaa selvästi parhaiten Korean nuoret. Seuraaville sijoille tulivat Kiina ja USA lähes tasapistein. Kymmenen parhaan maan joukkoon pääsivät vielä Venäjä, Kanada, Thaimaa, Singapore, Iran, Vietnam ja Romania. Suomen kuusihenkinen kilpailujoukkue sijoittui maiden epävirallisessa pistevertailussa sijalle 65. Paras pohjoismaa oli Tanska sijalla 60. Ruotsi sijoitus oli 71. Yksilökilpailun paras oli Singaporen <strong>Jeck Lim</strong>, joka ainoana ylsi virheettömään suoritukseen. Suomen edustajista menestyi parhaiten Helsingin matematiikkalukiossa opiskeleva <strong>Otte Heinävaara</strong>, jonka suoritus palkittiin hopeamitalilla. Tulosluettelossa Heinävaaran sijoitus oli jaettu 96. sija. Suomen kuusijäsenisestä joukkueesta myös Helsingin matematiikkalukion <strong>Joni Teräväinen</strong>, Paraisten lukion <strong>Felix Vaura</strong> ja Helsingin Suomalaisen yhteiskoulun <strong>Jiali Yan</strong> palkittiin kunniamaininnalla. Täydellinen tulosluettelo löytyy <a href="http://www.imo-official.org/year_info.aspx?year=2012">tästä</a>.</p>
+</li>
+<li>
+<p>Vuoden 2012 Kansainvälisissä matematiikkaolympialaisissa Suomea edustava joukkue valittiin Päivölän Opistossa viikolla 20 pidetyn valmennus- ja valintaleirin aikana. Joukkueessa ovat Otte Heinävaara, Eero Räty, Joni Teräväinen, Felix Vaura, Niko Väisänen ja Jiali Yan. Joukkueen johtaja on Matti Lehtinen ja varajohtaja Esa Vesalainen.</p>
+</li>
+<li>
+<p>26. Pohjoismainen matematiikkakilpailu pidettiin kotirataotteluna viidessä Pohjoismaassa 27.3.2012. Osallistujia oli 85. Kilpailu koordinoitiin ja vastaukset arvioitiin Ruotsissa. Kilpailun voitti Ruotsin Mårten Wiman ja toisena oli Tanskan Asbjørn Nordentoft. Suomen Eero Räty oli kolmas ja Janne Hannikainen jaetulla neljännellä sijalla. Täydellinen tulosluettelo löytyy <a href="/PM/2012/nmc2012res.pdf">tästä</a>.</p>
+</li>
+<li>
+<p>Ensimmäiset <a href="http://www.egmo2012.org.uk/"> <strong>Euroopan tyttöjen matematiikkaolympialaiset</strong></a> järjestettiin Cambridgessä Englannissa 10.–16. huhtikuuta 2012. Mukana oli enintään nelihenkinen joukkue 16 Euroopan maasta ja lisäksi joukkueet Yhdysvalloista, Indonesiasta ja Saudi-Arabiasta; kilpailijoita oli yhteensä 70. Parhaisiin pisteisiin pääsivät Bulgarian Pavlena Nenova ja USA:n Danielle Wang. Suomea edustivat Pihla Karanko, Katja Kulmala, Neea Palojärvi ja Jiali Yan. Joukkueen johtajana oli Anne-Maria Ernvall-Hytönen ja varajohtajana Esa Vesalainen. Jiali Yan oli sijalla 30 ja palkittiin pronssimitalilla. Neea Palojärvi sai kunniamaininnan.</p>
+</li>
+<li>
+<p>Matematiikan olympiavalmennustilaisuuksia järjestetään keväällä 2012 myös Oulussa. <a href="https://ouluma.fi/2012/03/matematiikan-kilpailuvalmennusta-oulussa/">Tarkempia tietoja tästä</a>.</p>
+</li>
+<li>
+<p>Matemaattisten Aineiden Opettajien Liiton valtakunnallisen lukion matematiikkakilpailun loppukilpailu pidettiin 3. helmikuuta 2012 Munkkiniemen Yhteiskoulussa Helsingissä. Kilpailun voitti Otte Heinävaara Helsingin matematiikkalukiosta, Felix Vaura Paraisten lukiosta oli toinen ja Visa Nummelin Cygnaeus-lukiosta Jyväskylästä kolmas. Tulokset löytyvät kokonaisuudessaan <a href="http://www.maol.fi/fileadmin/users/Kilpailut/Lukion_matematiikka/2012Lukion_matemat_loppukilpailutulokset.pdf">MAOL ry:n sivuilta</a>.</p>
+</li>
+<li>
+<p>Helsingin yliopistossa järjestettiin lauantaina 28.1.2012 työpaja <a href="/kokoukset/epsilon/"> <strong>Epsilonit kirjaa tutkimassa - matematiikka harrastuksena</strong></a>. Työpajassa kartoitettiin Suomessa järjestettyä matematiikan harrastustoimintaa ja opetussuunnitelmien rajat ylittävää opetusta.</p>
+</li>
+<li>
+<p>Suomen joukkue, Otte Heinävaara, Markus Pajarre, Joni Teräväinen, Felix Vaura ja Jiali Yan, sijoittui kuudenneksi vuoden 2011 kansainvälisessä Baltian Tie -joukkuematematiikkakilpailussa 3.-7.11. Greifswaldissa Saksassa. Joukkueen johtaja oli Kerkko Luosto ja varajohtaja Matti Lehtinen.</p>
+</li>
+<li>
+<p>52. Kansainväliset matematiikkaolympialaiset pidettiin Amsterdamissa 16.-24. heinäkuuta 2011. Mukana oli 101 maan joukkueet; kilpailijoita oli 567. Suomen epävirallinen joukkuesijoitus oli jaettu 57. sija. Olli Hirviniemi sai hopeamitalin, Ilmari Kangasniemi, Dimitri Kirichenko ja Felix Vaura kunniamaininnan. Täydellinen tulosluettelo löytyy <a href="http://official.imo2011.nl/year_country_r.aspx?year=2011&amp;column=total&amp;order=desc">tästä</a>.</p>
+</li>
+<li>
+<p>Tanskan, Norjan, Ruotsin ja Suomen matematiikkaolympiajoukkueiden yhteinen valmennusleiri järjestettiin 11.-16.7.2011 Tanskassa. Leirin aikana pidettiin harjoituskoe, jonka tehtävät ja ratkaisut löytyvät <a href="IMO/2011/harjkoe.pdf">tästä</a>.</p>
+</li>
+<li>
+<p>Matematiikkaolympiajoukkueen valinta- ja valmennusleiri pidettiin Päivölässä 14.-20. toukokuuta 2011. Suomea lähtevät Amsterdamissa Hollannissa 16.-24. heinäkuuta 2011 pidettävissä 52. Kansainvälisissä matematiikkaolympialaisissa edustamaan Olli Hirviniemi, Jesse Jääsaari, Ilmari Kangasniemi, Dimitri Kirichenko, Joni Teräväinen ja Felix Vaura. Joukkueen johtaja on Anne-Maria Ernvall-Hytönen ja varajohtaja Esa Vesalainen.</p>
+</li>
+<li>
+<p>25. Pohjoismainen matematiikkakilpailu pidettiin kotirataotteluna viidessä Pohjoismaassa 4.4.2011. Osallistujia oli 90. Kilpailu koordinoitiin ja vastaukset arvioitiin Tanskassa. Kilpailun voiton jakoivat Norjan Karl Erik Holter, Tanskan Asbjørn Christian Nordentoft ja Ruotsin Rebecca Staffas. Suomen Olli Hirviniemi oli neljäs ja Ilmari Kangasniemi viides. Muut 20 parhaan joukkoon sijoittuneet suomalaiset olivat Felix Vaura (jaettu 10. sija) sekä Dimitri Kirichenko ja Yiali Yan (jaettu 16. sija). Täydellinen tulosluettelo löytyy <a href="/PM/2011/PM2011tul.pdf">tästä</a>.</p>
+</li>
+<li>
+<p>Matemaattisten Aineiden Opettajien Liiton valtakunnallisen lukion matematiikkakilpailun loppukilpailu pidettiin 4. helmikuuta 2011 Munkkiniemen Yhteiskoulussa Helsingissä. Kilpailun voitti Felix Vaura (Sjöblom) Paraisten lukiosta. Toiseksi tuli Ilmari Kangasniemi Meri-Porin lukiosta ja kolmaneksi Jiali Yan Helsingin Suomalaisesta vyhteiskoulusta. Tulokset löytyvät kokonaisuudessaan <a href="http://www.maol.fi/fileadmin/users/Kilpailut/Lukion_matematiikka/Lukion_matemat_loppukilpailutulokset2011.pdf">MAOL ry:n sivuilta</a>.</p>
+</li>
+<li>
+<p>Hakukoneyhtiö Google ilmoitti 20.1.2011 lahjoittaneensa miljoona euroa Kansainvälisille matematiikkaolympialaisille käytettäväksi kilpailun järjestämisen tukemiseen vuosina 2011 - 2015. Tarkemmin <a href="/IMO/2011/IMOGooglepressrelease.pdf">Googlen ja IMO Advisory Boardin lehdistötiedotteessa</a>.</p>
+</li>
+<li>
+<p>Reykjavikissa 6.11.2010 pidetyn Baltian Tie -joukkuematematiikkakilpailun voitti Puola. Seuraavina olivat Liettua, Saksa ja Latvia. Suomi oli yhdeksäs kaikkiaan kymmenen joukkueen kilpailussa. <a href="Baltian_tie/2010/BW2010results.pdf">Täydelliset tulokset</a>.</p>
+</li>
+<li>
+<p>Suomea kansainvälisessä Baltian Tie -joukkuematematiikkakilpailussa vuonna 2010 edustava joukkue valittiin valmennusviikonvaihteessa 22.-24.10. Päivölässä. Joukkeeseen valittiin Olli Hirviniemi, Ilmari Kangasniemi, Dimitri Kirichenko, Markus Pajarre ja Felix Sjöblom. Joukkueenjohtajina ovat Kerkko Luosto ja Lauri Hallila.</p>
+</li>
+<li>
+<p>Kansainvälisessä matemaatikkokongressissa Hyderabadissa Intiassa jaettiin 19. elokuuta 2010 matematiikan arvostetuimmat palkinnot, Fieldsin mitalit, ”matematiikan Nobel-palkinnot”. Neljästä palkitusta kolme oli aikanaan osallistunut Kansainvälisiin matematiikkaolympilaisiin. <strong>Stanislav Smirnov</strong> sai täysin pistein kultamitalin vuosina 1986 ja 1987, <strong>Ngo Bao Chau</strong> kultamitalin vuosina 1988 (täysin pistein) ja 1989 ja <strong>Elon Lindenstrauss</strong> pronssimitalin vuonna 1988. Fieldsin mitaleita jaetaan joka neljäs vuosi, palkittuja on kulloinkin kahdesta neljään.</p>
+</li>
+<li>
+<p>51. Kansainvälisissä matematiikkaolympialaisissa Suomen sijoitus oli jaettu 72. tila. Aleksis Koski palkittiin pronssimitalilla, Olli Hirviniemi, Ilmari Kangasniemi, Aleksi Korpinen ja Topi Talvitie saivat kunniamaininnan. Kilpailussa oli yhden maan suorituksen hylkäämisen jälkeen 517 osallistujaa 96 maasta.</p>
+</li>
+<li>
+<p>Matematiikkaolympiajoukkueen valinta- ja valmennusleiri pidettiin Päivölässä 24.-29. toukokuuta 2010. Suomea lähtevät Astanassa Kazakstanissa 5.-14. heinäkuuta 2010 pidettävissä 51. Kansainvälisissä matematiikkaolympialaisissa edustamaan Olli Hirviniemi, Ilmari Kangasniemi, Dimitri Kirichenko, Aleksi Korpinen, Aleksis Koski ja Topi Talvitie. Joukkueen johtaja on Matti Lehtinen ja varajohtaja Esa Vesalainen.</p>
+</li>
+<li>
+<p>24. Pohjoismainen matematiikkakilpailu pidettiin kotirataotteluna viidessä Pohjoismaassa 13.4.2010. Osallistujia oli 82. Kilpailu koordinoitiin ja vastaukset arvioitiin Suomessa. Kilpailun voitti Suomen Aleksi Korpinen. Aleksis Koski oli jaetulla viidennellä ja Arttu Voutilainen jaetulla yhdeksännellä sijalla. Muut 20 parhaan joukkoon sijoittuneet suomalaiset olivat Dimitri Kirichenko (jaettu 11. sija) sekä Markus Puumalainen ja Felix Sjöblom (jaettu 17. sija). Kilpailun tulokset löytyvät <a href="/PM/2010/PM2010tul.pdf">tästä</a>.</p>
+</li>
+<li>
+<p>Suomi sijoittui kolmanneksi Baltia Tie -matematiikkakilpailussa, joka pidettiin Trondheimissa Norjassa 5-9. marraskuuta 2009. Suomen joukkueessa kilpailivat Olli Hirviniemi, Dmitri Kiritchenko, Aleksi Korpinen, Aleksis Koski ja Kai Lindholm. Joukkueen johtajina olivat Anne-Maria Ernvall-Hytönen ja Lauri Hallila. Kilpailun voitti Pietarin joukkue ja Puola oli toinen. Täydellinen tulosluettelo löytyy <a href="https://web.archive.org/web/20101008155406/http://bw09.no/results.pdf">järjestäjien sivuilta</a>.</p>
+</li>
+<li>
+<p>Bremenissä 10.-22.7.2009 pidetyissä 50. Kansainvälisissä matematiikkaolympialaisissa Suomea edustivat Aleksis Koski, Konsta Lensu, Heikki Pulkkinen, Alexey Sofiev, Topi Talvitie ja Lasse Vekama. Suomen sijoitus oli 67. kaikkiaan 104 osallistujamaan joukossa. Aleksis Koski, Heikki Pulkkinen, Topi Talvitie ja Lasse Vekama palkittiin kunniamaininnalla. Tulokset löytyvät <a href="http://www.imo-official.org/year_info.aspx?year=2009">matematiikkaolympialaisten virallisilta verkkosivuilta</a>.</p>
+</li>
+<li>
+<p>Matematiikkaolympiajoukkueen valinta- ja valmennusleiri pidettiin Päivölässä 18.-24. toukokuuta 2009. Suomea lähtevät Bremenissä 14.-22. heinäkuuta 2009 pidettävissä 50. Kansainvälisissä matematiikkaolympialaisissa edustamaan Aleksis Koski, Konsta Lensu, Heikki Pulkkinen, Alexey Sofiev, Topi Talvitie ja Lasse Vekama. Joukkueen johtaja on Matti Lehtinen ja varajohtaja Niko Vuokko.</p>
+</li>
+<li>
+<p>23. Pohjoismainen matematiikkakilpailu pidettiin kotirataotteluna viidessä Pohjoismaassa 2.4.2009. Osallistujia oli 90. Kilpailu koordinoitiin ja vastaukset arvioitiin Islannissa. Kilpailun voitti Tanskan Niels Olsen. Parhaat suomalaiset olivat Topi Talvitie jaetulla viidennellä sijalla, Olli Hirviniemi jaetulla 11:nnellä sijalla ja Aki Lahtinen, Heikki Pulkkinen ja Harry Kirveslahti jaetulla 14:nnellä sijalla. Kilpailun tulokset löytyvät <a href="/PM/2009/nmc2009results.pdf">tästä</a>.</p>
+</li>
+<li>
+<p>Baltian tie -joukkuematematiikkakilpailun Gdanskissa 6.-10.11.2008 voitti Puola. Seuraavina olivat Saksa ja Pietari. Suomi oli kymmenes. Täydelliset tulokset löytyvät <a href="http://www.balticway08.math.univ.gda.pl/?p=results">kilpailun järjestäjien sivuilta</a>.</p>
+</li>
+<li>
+<p>Baltian tie -joukkuematematiikkakilpailun Kööpenhaminassa 1.-5.11.2007 voitti Puola. Suomi oli yhdeksäs.</p>
+</li>
+<li>
+<p>48. Kansainvälisissä matematiikkaolympialaisissa Sebastian Dumitrescu sai hopeamitalin ja Esa Vesalainen sekä Tomas Soto kunniamaininnan. Suomi oli 93 maan joukossa sijalla 61.</p>
+</li>
+<li>
+<p>47. Kansainväisissä matematiikkaolympialaisissa Sloveniassa 2006 suomalaiset saivat neljä pronssimitalia (Esa Vesalainen, Sebastian Dumitrescu, Jukka Sireni ja Ville Pettersson). Suomi oli 90 osallistujamaan joukossa sijalla 39.</p>
+</li>
+<li>
+<p>Kevään 2005 Pohjoismaisen matematiikkakilpailun voitti Tampereella opiskeleva Sebastian Dumitrescu. <a href="PM/NMC19.html">Tulokset</a>.</p>
+</li>
+<li>
+<p>Suomen joukkue vuoden 2005 matematiikkaolympialaisiin valittiin 20.5. Päivölässä. Joukkueessa ovat Samu Alanko, Eemeli Blåsten, Sebastian Dumitrescu, Janne Kokkala, Ville Pettersson ja Esa Vesalainen.</p>
+</li>
+<li>
+<p>Vuoden 2004 IMO:ssa suomalaiset saavuttivat yhden pronssimitalin (Lauri Ahlroth).</p>
+</li>
+<li>
+<p>Vuoden 2001 <a href="http://www.imo2001.org">matematiikkaolympialaisissa</a> Suomen Sampo Niskanen sai pronssimitalin.</p>
+</li>
+</ul>
+
+  </div>
+</main>
+
+
+    </div>
+    
+
+<footer class="footer mt-auto py-4 bg-body-tertiary">
+  <div class="container-md small">
+    <div class="row gy-4">
+      <div class="col-sm-6 col-md-4">
+        <div id="footer-valmennus-heading" class="fw-bold mb-2 fs-6">Valmennus</div>
+        <ul aria-labelledby="footer-valmennus-heading" class="list-unstyled mb-0">
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/kilpailut/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#trophy-fill"/>
+    </svg>
+    Kilpailut
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/aiheet/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#book"/>
+    </svg>
+    Materiaalit
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/kaytanto/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#calendar-event"/>
+    </svg>
+    Tapahtumat
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/valmennus/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#envelope-fill"/>
+    </svg>
+    Kotitehtävät
+  </a>
+</li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div id="footer-yhteystiedot-heading" class="fw-bold mb-2 fs-6">Yhteystiedot</div>
+        <ul aria-labelledby="footer-yhteystiedot-heading" class="list-unstyled mb-0">
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="mailto:info@matematiikkakilpailut.fi"
+    title="Sähköposti"
+    rel="author"
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#envelope-fill"/>
+    </svg>
+    info@matematiikkakilpailut.fi
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/valmentajat/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#people-fill"/>
+    </svg>
+    Valmentajat
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/feed.xml"
+    title="RSS-syöte"
+    rel="alternate"
+    
+    type="application/atom+xml"
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#rss-fill"/>
+    </svg>
+    RSS-syöte
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="https://t.me/+TS59DXkdJpozNDU0"
+    title="Telegram"
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#telegram"/>
+    </svg>
+    Telegram-keskusteluryhmä
+  </a>
+</li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div id="footer-muuta-heading" class="fw-bold mb-2 fs-6">Muuta</div>
+        <ul aria-labelledby="footer-muuta-heading" class="list-unstyled mb-0">
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/kerhot/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#people-fill"/>
+    </svg>
+    Kerhot
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/linkit/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#link-45deg"/>
+    </svg>
+    Linkkejä
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/tietosuoja/"
+    
+    rel="privacy-policy"
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#shield-fill"/>
+    </svg>
+    Tietosuoja
+  </a>
+</li>
+          <li lang="en">
+  <a class="icon-link link-primary text-decoration-none" href="/english/"
+    
+    
+    hreflang="en"
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#translate"/>
+    </svg>
+    In English
+  </a>
+</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script defer src="/js/theme.js"></script>
+    <script type="module" src="/js/instant.page.min.js"></script>
+    <script defer src="/js/bootstrap.bundle.min.js?v=5.3.3"></script>
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "45380cb8b30d4b0791d27e340eefc4da"}'></script>
+  </body>
+</html>

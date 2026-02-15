@@ -1,0 +1,98 @@
+BODY {font-family: Verdana, Arial, Helvetica, sans-serif;
+      color: rgb(0,0,60); 
+      background-color: rgb(60,60,120);
+      font-size: medium;
+margin-right:auto;
+margin-left:auto;
+margin-bottom:0px;
+margin-top:0px;
+max-width:900px;
+padding:0px;
+height:100%;}
+DIV {background-color: rgb(220,220,255);
+margin-top:0px;
+margin-bottom:0px;
+min-height:100%;
+border:10px;
+padding:10px;}
+H1 {font-family: Verdana;
+    font-decoration: small-caps;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    padding: 12px;
+    border-width: 1px;
+    border-color: white;}
+H2 {background-color: rgb(185,185,240);
+    font-family: Verdana,Arial,Helvetica;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    padding: 3px;
+    border-width: 1px;
+    border-color: white;}
+H3 {background-color: rgb(185,185,240);    
+    font-family: Verdana,Arial,Helvetica;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    padding: 3px;}
+UL {padding: 3px;
+list-style-type: none;
+background-color: rgb(220,220,255);}
+LI {margin: 0px;
+padding: 2px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;}
+PRE {font-family: Courier;}
+A:link {color: rgb(30,30,90); 
+               text-decoration: none;
+               font-weight: bold}
+A:active {color: rgb(30,30,90); 
+               text-decoration: none;
+               font-weight: bold}{color: rgb(30,30,90); 
+               text-decoration: none;
+               font-weight: bold}
+A:visited {color: rgb(30,30,90);
+           font-weight: bold;
+	   text-decoration: none;}
+A:hover {color: rgb(0,0,0);
+                font-weight: bold; text-decoration: none;}
+TABLE  {background-color: rgb(220,220,255);
+        font-family: Verdana,Arial,Helvetica,sans-serif;
+	padding: 1px;
+        border-spacing: 10px;}
+TABLE.inside  {
+        background-color: rgb(220,220,255);
+        font-family: Verdana,Arial,Helvetica,sans-serif;
+	padding: 0px;
+        border-spacing: 0px;}
+TD.lomake { background-color: rgb(220,220,255);
+            font-family: Verdana,Arial,Helvetica,sans-serif;
+            margin: 0;
+            border: 0;
+            border-spacing: 0;}
+TR  {background-color: rgb(220,220,255);}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 700px) {
+  nav > ul {
+    flex-direction: column;
+  }
+}
+
+  TABLE.nappi  {background-color: rgb(220,220,255);
+    color: rgb(30,30,90);
+    padding: 1px;
+    border-spacing: 10px;
+    text-align: center; }
+  TD  {background-color: rgb(220,220,255);}
+  TD.nappi {background-color: rgb(220,220,255);
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    padding: 6px; color: rgb(0,0,0);}
+  SPAN.nappi {padding: 10px; border-width: 1px}

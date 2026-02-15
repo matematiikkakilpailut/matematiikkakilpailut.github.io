@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finnish Olympic Training in Mathematics</title>
+    <meta name="description" content="The Finnish Olympic Training in Mathematics is organized by the Finnish Mathematical Society&#39;s Training division. Its purpose is to encourage and assist talented young to take interest in mathematics. The training consists of correspondence training through regular problem sets and various training events, in particular the training weekends at Päivölä. All the training is open for all students in secondary schools.">
+    <link href="/css/bootstrap.min.css?v=5.3.3" rel="stylesheet">
+    <style>
+     .breadcrumb {
+       --bs-breadcrumb-divider: '';
+       --bs-breadcrumb-padding-x: 0;
+       --bs-breadcrumb-item-padding-x: 0;
+     }
+     .navbar {
+       --bs-navbar-brand-padding-y: 4px;
+     }
+     [data-bs-theme="dark"] {
+       --bs-link-color: #788591;
+       --bs-link-color-rgb: 120, 133, 145;
+       .link-primary, .text-primary {
+         --bs-primary-rgb: 236, 240, 241;
+       }
+       .link-primary:hover {
+         color: rgb(128, 139, 150) !important;
+       }
+     }
+     [data-bs-theme="light"] {
+       --bs-link-color: #168366;
+       --bs-link-color-rgb: 23, 114, 83;
+       .link-primary {
+         --bs-primary-rgb: 33, 37, 41;
+         &:hover {
+           color: rgb(24, 188, 156) !important;
+         }
+       }
+     }
+     [data-bs-theme="dark"] .light-element { display: none; }
+     [data-bs-theme="light"] .dark-element { display: none; }
+     h1,h2,h3,h4,h5,h6 { text-wrap: balance; }
+     #logopalkki {
+       margin-top: 6ex;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+       align-content: center;
+     }
+     @media (pointer: coarse), (max-width: 450px) {
+       footer ul li {
+         padding-top: 0.5em;
+       }
+     }
+    </style>
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/kuvat/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/kuvat/apple-touch-icon.png">
+    <link rel="manifest" href="/kuvat/manifest.webmanifest">
+    <link rel="preload" href="/font/Lato-Regular.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/Lato-Bold.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/Lato-Italic.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="sitemap" href="/sitemap.xml">
+    <link rel="canonical" href="https://matematiikkakilpailut.fi/english/">
+    <link rel="alternate" type="application/atom+xml" href="https://matematiikkakilpailut.fi/feed.xml">
+    <script>
+      const getStoredTheme = () => localStorage.getItem('theme')
+      const getPreferredTheme = () => {
+        const storedTheme = getStoredTheme()
+        if (storedTheme) {
+          return storedTheme
+        }
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+      }
+      const setTheme = theme => {
+        document.documentElement.dataset.bsTheme =
+          theme === 'auto'
+          ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+          : theme
+      }
+      setTheme(getPreferredTheme())
+    </script>
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <nav data-bs-theme="dark" class="navbar navbar-expand-md bg-primary" aria-label="Päävalikko">
+  <div class="container-fluid flex-flow align-items-start">
+    <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbar-collapse" aria-controls="navbar-collapse"
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand ps-sm-4" href="/">Matematiikkavalmennus</a>
+    <div class="d-flex order-0 order-md-last ms-md-auto" id="theme-toggle" title="Taustaväri">
+      <div class="dropdown">
+        <button class="btn btn-link nav-link dropdown-toggle
+                       py-2 pt-md-2 px-1 px-lg-2
+                       d-flex align-items-center text-light"
+                type="button"
+                id="bd-theme"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
+          <svg class="bi theme-icon-active" width="16" height="16" fill="currentColor">
+            <use href="/kuvat/sprite3.svg#sun-fill"></use>
+          </svg>
+          <span class="d-none" id="bd-theme-text">Taustaväri</span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme">
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite3.svg#sun-fill"></use>
+              </svg>
+              Vaalea
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite3.svg#moon-stars-fill"></use>
+              </svg>
+              Tumma
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite3.svg#circle-half"></use>
+              </svg>
+              Automaattinen
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="collapse navbar-collapse flex-column align-items-start" id="navbar-collapse">
+      <div class="row flex-grow-1">
+        <div class="col-12 flex-grow-1">
+          <ul class="navbar-nav mb-2 mb-md-0">
+            <li class="nav-item"><a class="nav-link " href="/aikataulu/">Aikataulu</a></li>
+           <li class="nav-item"><a class="nav-link " href="/valmennus/">Kotitehtävät</a></li>
+            <li class="nav-item"><a class="nav-link " href="/aiheet/">Materiaalit</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    
+<div class="container-fluid flex-flow bg-body-secondary align-items-start">
+  <nav aria-label="navigaatiopolku" class="mt-1 ps-sm-4 small">
+    <ol class="breadcrumb mb-1" itemscope itemtype="https://schema.org/BreadcrumbList">
+      
+      <li class="breadcrumb-item pe-1" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <meta itemprop="position" content="1">
+        <a class="icon-link link-primary text-decoration-none" href="/"
+           itemscope itemtype="https://schema.org/WebPage" itemprop="item" itemid="/">
+          <span itemprop="name">Etusivu</span>
+          <svg class="bi" style="stroke-width: 1.1; stroke: currentColor;">
+            <use xlink:href="/kuvat/sprite3.svg#chevron-right"/>
+          </svg>
+        </a>
+      </li>
+      <li class="breadcrumb-item active text-primary" aria-current="page"
+          itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <span itemprop="name">In English</span>
+        <meta itemprop="position" content="2">
+      </li>
+    </ol>
+  </nav>
+</div>
+
+    <div class="container flex-grow-1">
+        <header class="display-4 pt-3 pb-3 mt-3 mb-1">
+  <h1>Finnish Olympic Training in Mathematics</h1>
+</header>
+<main class="row">
+  <div class="col-xs-12">
+    <p>The Finnish Olympic Training in Mathematics is organized by the
+<a href="http://www.matemaattinenyhdistys.fi">Finnish Mathematical Society’s</a>
+Training division. Its purpose is to encourage and assist talented young to
+take interest in mathematics.</p>
+<p>The training primarily consists of two components: correspondence
+training through regular problem sets and various training events, in
+particular the training weekends at Päivölä. All the training is open
+for all students in secondary schools. The goal is to teach students
+mathematics encountered in mathematical competitions, but also to
+provide them with general mathematical knowledge.</p>
+<p>We unfortunately lack the resources to maintain all our materials
+(or these web pages) in English, so the Finnish pages are the
+definitive version.
+The training is mainly done in Finnish, but we do our best to
+accommodate students who either don’t speak or speak only a little
+Finnish. Some of the training sessions are conducted in English.</p>
+<p>Some of the materials have also been translated to Swedish, and it is
+possible to have training sessions in Swedish as well.</p>
+<h2 id="training-camps" tabindex="-1">Training camps</h2>
+<p><a href="/kaytanto/"><strong>→ Main article in Finnish</strong></a></p>
+<p>We arrange six weekend training camps each year
+at the <a href="https://www.paivola.fi">Päivölä institute</a>;
+see the <a href="/aikataulu/">schedule</a>. Newcomers are welcome at any of the six camps.</p>
+<p>Please <a href="https://www.paivola.fi/fi/matematiikkakilpailuvalmennukseen-ilmoittautuminen/">register at Päivölä</a>
+at least one week before each weekend.</p>
+<p>The best way to get there is by train to <a href="https://www.vr.fi/rautatieasemat-ja-reitit/toijala">Toijala
+station</a>.
+Transport will be arranged from the station to Päivölä.
+When you register for the weekend, please let us know what time your train will
+arrive. Also plan which train you will take for your return journey — this will be asked during the
+weekend to arrange return transport. We do not recommend any specific train, as it is easier to
+organise the rides if passengers are spread over several trains. Compare train fares, which now vary
+widely — if you can buy your ticket early and are flexible about travel times, you can save
+considerable money.</p>
+<p>Another possible mode of transport is the bus. The nearest stop is <a href="https://www.openstreetmap.org/node/460305725">Uittamo th</a>,
+which is
+<a href="https://share.trailmap.fi/route_11480">a couple of kilometres walk</a>
+from the institute.
+Of course, one can also <a href="https://www.paivola.fi/fi/yhteystiedot/saapumisohjeet/">drive to Päivölä</a>.</p>
+<p>Please arrange your <strong>accommodation</strong> as soon as possible after your arrival: go to the main building,
+which you can identify from the canteen, and get the key. If you arrive very late (after 9pm), please
+inform Päivölä in advance so that the duty officer can be prepared. The programme is usually held in
+a large stone building, not the same as the main building. Take your shoes off in the lobby — wool
+socks will come in handy in winter.</p>
+<p>During breaks in the training, it’s fun to chat with others and play a game of chess, but please be
+mindful of the local students. They live and study in the stone building, and their schedules are
+not exactly the same as those of the training. Please be quiet at night time.</p>
+<p>The programme starts on Friday at 6.30pm and ends on Sunday at coffee time, around 1.45pm. In the
+mornings, breakfast is at 8am and the programme starts afterwards at 9am, finishing at 9pm in the
+evenings. There are meal breaks in between, and on Saturday there is usually a sauna. For supper you
+can get a bun in the kitchen of the stone house, starting at 9pm. To make sure there is enough for
+everyone, please don’t take extras until after 10.30pm.</p>
+<p>An invoice for the weekend will be sent to your e-mail address afterwards. If you don’t receive an
+invoice within a couple of weeks, please contact Päivölä. It is possible that the message has
+accidentally ended up in your spam folder.</p>
+<h2 id="math-terminology" tabindex="-1">Math terminology</h2>
+<p>Usually, <a href="https://translate.google.com/">Google Translate</a> or <a href="https://www.deepl.com/en/translator">DeepL</a> does a
+decent job of translating between Finnish and English. In case some
+mathematical terminology is difficult, the following sources may be
+helpful:</p>
+<ul>
+<li>The <a href="https://matematiikkalehtisolmu.fi/sanakirja/a.html">Solmu dictionary of mathematics</a></li>
+<li>The <a href="https://fi.wikipedia.org">Finnish Wikipedia</a>:
+if the problematic term (say, <a href="https://fi.wikipedia.org/wiki/Keskinormaali">keskinormaali</a>)
+has a page, the corresponding English page is often linked from the ”Muilla kielillä” list
+(or the 文A link in the mobile view). In this case, the link is to the ”Perpendicular bisector”
+page, which immediately redirects to one part of the page on ”Bisection”.</li>
+</ul>
+<h2 id="training-problem-sets" tabindex="-1">Training problem sets</h2>
+<p><a href="/valmennus/"><strong>→ Main article in Finnish</strong></a></p>
+<p>The training problem sets are distributed in the training events, but
+primarily available through this website. Solutions can be sent as
+instructed in the problem sheet or they can be brought to the next
+training event. Traditionally, the problems are provided in
+Finnish and Swedish, but at one time we tried to provide
+English translations as well. These are listed below.</p>
+<h3 id="the-latest-translated-problem-set" tabindex="-1">The latest translated problem set</h3>
+<p><a href="/valmennus/2014/vt2014_11he_eng.pdf">Easier</a> and
+<a href="/valmennus/2014/vt2014_11va_eng.pdf">more challenging</a> problems, December 2014.</p>
+<h3 id="older-problem-set" tabindex="-1">Older problem set</h3>
+<p><a href="/valmennus/2014/vt2014_9he_en.pdf">Easier</a> and
+<a href="/valmennus/2014/vt2014_9va_en.pdf">more challenging</a> problems, September 2014.</p>
+<p><a href="/valmennus/2014/vt2014_6_en.pdf">Easier and more challenging problems, Summer 2014</a>.</p>
+<p><a href="/valmennus/2014/vt2014_4_en.pdf">Easier and more challenging problems, April 2014</a>.</p>
+<p><a href="/valmennus/2014/vt2014_2_en.pdf">Easier and more challenging problems, February 2014</a>.</p>
+<p><a href="/valmennus/2012/helpot_02_2012eng.pdf">Easier problems, February 2012</a>.</p>
+<p><a href="/valmennus/2012/vaikeat_02_2012eng.pdf">More challenging problems, February 2012</a>.</p>
+<h2 id="old-problems" tabindex="-1">Old problems</h2>
+<h3 id="finnish-national-high-school-mathematics-competition-(fhsmc)" tabindex="-1">Finnish National High School Mathematics Competition (FHSMC)</h3>
+<p><a href="/kirjallisuus/fhsmc.pdf">Problem compilation from years 1997-2008</a>. Problems of the final round.</p>
+<p>FHSM <a href="/valmennus/English/ps07eng.pdf">first round, basic level</a> problems, 2007.</p>
+<p>FHSMC <a href="/valmennus/English/2008alkueng.pdf">first round</a> problems, 2008.</p>
+<p><a href="/valmennus/English/MAOL2009_10.pdf">Problems of the FHSMC 2009–10 and Nordic Math Contest, 2010</a></p>
+<p>FHSMC <a href="/valmennus/English/alku2010eng.pdf">first round</a> and
+<a href="/valmennus/English/loppu2011eng.pdf">final round</a> problems, 2010–11.</p>
+<p>FHSMC <a href="/valmennus/English/alku2011eng.pdf">first round</a> and
+<a href="/valmennus/English/loppu2012eng.pdf">final round</a> problems, 2011–12.</p>
+<p>FHSMC <a href="/valmennus/English/maolkilp2011_12eng.pdf">problems and solutions</a>, 2011–12.</p>
+<p>FHSMC <a href="/valmennus/English/maolkilp2012_14eng.pdf">problems and solutions, 2012–14</a>.</p>
+<p>FHSMC  and NMC <a href="/valmennus/English/maol2014_15engl.pdf">problems and solutions, 2014–15</a>.</p>
+<p>FHSMC <a href="/valmennus/English/alku2015eng.pdf">first round problems, 2015</a>.</p>
+<p>FHSMC <a href="/valmennus/English/alkuk2016_eng.pdf">first round problems, 2016</a>.</p>
+<h2 id="other-material" tabindex="-1">Other material</h2>
+<p><a href="/aiheet/"><strong>→ In Finnish</strong></a></p>
+<h2 id="trainers" tabindex="-1">Trainers</h2>
+<p><a href="/valmentajat/"><strong>→ In Finnish</strong></a></p>
+
+  </div>
+</main>
+
+
+    </div>
+    
+
+<footer class="footer mt-auto py-4 bg-body-tertiary">
+  <div class="container-md small">
+    <div class="row gy-4">
+      <div class="col-sm-6 col-md-4">
+        <div id="footer-valmennus-heading" class="fw-bold mb-2 fs-6">Valmennus</div>
+        <ul aria-labelledby="footer-valmennus-heading" class="list-unstyled mb-0">
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/kilpailut/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#trophy-fill"/>
+    </svg>
+    Kilpailut
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/aiheet/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#book"/>
+    </svg>
+    Materiaalit
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/kaytanto/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#calendar-event"/>
+    </svg>
+    Tapahtumat
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/valmennus/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#envelope-fill"/>
+    </svg>
+    Kotitehtävät
+  </a>
+</li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div id="footer-yhteystiedot-heading" class="fw-bold mb-2 fs-6">Yhteystiedot</div>
+        <ul aria-labelledby="footer-yhteystiedot-heading" class="list-unstyled mb-0">
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="mailto:info@matematiikkakilpailut.fi"
+    title="Sähköposti"
+    rel="author"
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#envelope-fill"/>
+    </svg>
+    info@matematiikkakilpailut.fi
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/valmentajat/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#people-fill"/>
+    </svg>
+    Valmentajat
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/feed.xml"
+    title="RSS-syöte"
+    rel="alternate"
+    
+    type="application/atom+xml"
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#rss-fill"/>
+    </svg>
+    RSS-syöte
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="https://t.me/+TS59DXkdJpozNDU0"
+    title="Telegram"
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#telegram"/>
+    </svg>
+    Telegram-keskusteluryhmä
+  </a>
+</li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div id="footer-muuta-heading" class="fw-bold mb-2 fs-6">Muuta</div>
+        <ul aria-labelledby="footer-muuta-heading" class="list-unstyled mb-0">
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/kerhot/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#people-fill"/>
+    </svg>
+    Kerhot
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/linkit/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#link-45deg"/>
+    </svg>
+    Linkkejä
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/tietosuoja/"
+    
+    rel="privacy-policy"
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#shield-fill"/>
+    </svg>
+    Tietosuoja
+  </a>
+</li>
+          <li lang="en">
+  <a class="icon-link link-primary text-decoration-none" href="/english/"
+    
+    
+    hreflang="en"
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#translate"/>
+    </svg>
+    In English
+  </a>
+</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script defer src="/js/theme.js"></script>
+    <script type="module" src="/js/instant.page.min.js"></script>
+    <script defer src="/js/bootstrap.bundle.min.js?v=5.3.3"></script>
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "45380cb8b30d4b0791d27e340eefc4da"}'></script>
+  </body>
+</html>

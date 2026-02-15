@@ -1,0 +1,252 @@
+\documentclass[12pt]{article}
+
+\usepackage[T1]{fontenc}
+%\usepackage{A4}
+\usepackage{a4}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{epic}
+\usepackage{floatflt}
+%\usepackage[finnish]{babel}
+
+\newcommand{\abs}[1]{\lvert#1\rvert}
+%\newcommand{\pr}[2]{\noindent{\bf#1. }\input{#2}\par\smallskip}
+
+\let\angle=\measuredangle
+
+\begin{document}
+{\centering\section*{Baltian tie 1997}
+K\"o\"openhamina, 9.\thinspace11.\thinspace1997, klo 10.00.\par\bigskip
+Aika: $4\textstyle{\frac{1}{2}}$ tuntia.\quad Jokaisesta teht\"av\"ast\"a
+voi saada 5~pistett\"a.\par\bigskip}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{\smallskipamount}
+
+
+
+%\pr{1}{a3}
+
+\textbf{1.\ } M\"a\"arit\"a kaikki reaaliarvoiset reaalilukufunktiot $f$,
+jotka eiv\"at ole nollafunktioita ja joille
+$$f(x)f(y)=f(x-y)$$ kaikilla reaaliluvuilla $x$ ja $y$.
+
+%\pr{2}{a1}
+
+\textbf{2.\ }
+Olkoon $a_1,a_2,a_3,\dots$ jono positiivisia koko\-nais\-lukuja, jossa
+jokainen posi\-tii\-vinen koko\-nais\-luku esiintyy t\"asm\"alleen kerran.
+Osoita, ett\"a on olemassa koko\-nais\-luvut $\ell$ ja $m$, 
+$1<\ell<m$, joille $a_1+a_m=2a_{\ell}$.
+
+%\pr{3}{no1}
+
+\textbf{3.\ }
+Olkoon $x_1=1$ ja
+$x_{n+1}=x_n+\left\lfloor\frac{x_n}{n}\right\rfloor+2$,
+kun $n=1,2,3,\ldots$,
+miss\"a $\lfloor x\rfloor$ tarkoittaa suurinta $x$:\"a\"a pienemp\"a\"a
+koko\-naislukua. M\"a\"arit\"a $x_{1997}$.
+
+%\pr{4}{a10}
+\textbf{4.\ }
+Todista, ett\"a lukujen $x_1,\ldots,x_n$ aritmeettiselle keskiarvolle $a$ 
+p\"atee 
+$$(x_1-a)^2+\cdots+(x_n-a)^2\le{1\over2}(|x_1-a|+\cdots+|x_n-a|)^2\,.$$
+
+%\pr{5}{a8}
+\textbf{5.\ }
+Positiivisten koko\-naislukujen jonossa $u_0,u_1,\ldots$ luku $u_0$ on
+mielivaltainen ja jokaisella ei-negatiivisella kokonaisluvulla $n$ p\"atee
+$$u_{n+1}=\left\{\begin{array}{ll}
+\textstyle\frac{1}{2}u_n&\mbox{kun $u_n$\,on parillinen,}\\
+a+u_n&\mbox{kun $u_n$\,on pariton,}\end{array}\right.$$
+miss\"a $a$ on pariton kiinte\"a positiivinen koko\-naisluku. 
+Todista, ett\"a jono on jostain j\"asenest\"a\"an alkaen jaksollinen.
+
+%\pr{6}{n1}
+\textbf{6.\ }
+Etsi kaikki ei-negatiivisten lukujen kolmikot $(a,b,c)$, 
+joille p\"atee $a\ge b\ge c$ ja
+\[ 1\cdot a^3 \,+\, 9\cdot b^2 \,+\, 9\cdot c \,+\, 7 ~=~ 1997. \]
+
+%\pr{7}{n5}
+\textbf{7.\ }
+Olkoot $P$ ja $Q$ koko\-naislukukertoimisia polynomeja.
+Oletetaan, ett\"a koko\-naisluvut $a$ ja $a+1997$ ovat polynomin
+$P$ juuria ja  $Q(1998)=2000$. Osoita, ett\"a yht\"al\"oll\"a
+$Q(P(x))=1$ ei ole koko\-naislukuratkaisuja.
+
+%\pr{8}{n6}
+\textbf{8.\ }
+Kun lukuun $1996$ lis\"at\"a\"an  $1997$, ensin numerot  $6$
+ja $7$ lasketaan yhteen. Kun tulokseksi saadaan $13$, numero $3$ 
+kirjoitetaan yhteenlaskurivin alle ja numero $1$
+kirjoitetaan seuraavaan sarakkeeseen muistiluvuksi.  N\"ain jatkaen huomataan, 
+ett\"a kaikkiaan tarvitaan kolme muistilukua: \arraycolsep=1pt
+$$
+\begin{array}{ccccc}
+&\mbox{\scriptsize $1$}&\mbox{\scriptsize $1$}
+&\mbox{\scriptsize $1$}&\\[-.5ex]
+&1&9&9&6\\[-.5ex]
++\;&1&9&9&7\\
+\hline
+&3&9&9&3
+\end{array}
+$$
+Onko olemassa sellainen positiivinen koko\-nais\-luku
+$k$, ett\"a lukujen  $1996{\cdot}k$ ja $1997{\cdot}k$ 
+yhteenlaskussa ei tarvita muistilukuja?
+
+%\pr{9}{newn4}
+\textbf{9.\ }
+Maailmanpallon maailmat on numeroitu 1, 2, 3, \dots
+ja jokaisella positiivisella koko\-naisluvulla  $n\geq 1$, 
+taikuri Gandalf voi siirty\"a mihin tahansa 
+suuntaan maailmojen  $n$, $2n$ ja $3n+1$ v\"alill\"a. 
+Voiko Gandalf siirty\"a mist\"a tahansa maailmasta mihin
+tahansa maailmaan?
+
+%\pr{10}{n8}
+\textbf{10.\ }
+Osoita, ett\"a mist\"a tahansa 79 per\"akk\"aisen positiivisen
+koko\-naisluvun jonosta l\"oytyy luku, jonka kymmenj\"arjestelm\"aesityksen
+numeroiden summa on jaollinen luvulla 13.
+
+%\pr{11}{g2}
+\begin{floatingfigure}[r]{4cm}
+  \setlength{\unitlength}{1pt}
+  \begin{picture}(50,50)(0,0)
+    \multiput(5,10)(10,0){10}{\circle*{2}}
+    \multiput(10,40)(20,0){5}{\circle*{2}}
+    \put(0,10){\line(1,0){100}}
+    \put(0,40){\line(1,0){100}}
+    \drawline(5,10)(10,40)(15,10)(30,40)(25,10)(50,40)(35,10)(70,40)(45,10)(90,40)
+    (55,10)(101,34) \put(0,0){\scriptsize
+      $A_1$}\put(10,0){\scriptsize $A_2$}
+    \put(20,0){\scriptsize $A_3$}\put(30,0){\scriptsize
+      $A_4$} \put(40,0){\scriptsize
+      $A_5$}\put(50,0){\scriptsize $A_6$}
+    \put(5,44){\scriptsize $B_1$}\put(25,44){\scriptsize
+      $B_2$} \put(45,44){\scriptsize
+      $B_3$}\put(65,44){\scriptsize $B_4$}
+    \put(85,44){\scriptsize $B_5$}%\put(105,44){\scriptsize $B_6$}
+  \end{picture}
+\end{floatingfigure}
+\textbf{11.\ }
+Kahdella yhdensuuntaisella suoralla on annettuna pisteet $A_1$,~$A_2$,
+$A_3$, \dots ja $B_1$,~$B_2$, $B_3$, \dots (kuten kuvassa), joille
+p\"atee $\abs{A_iA_{i+1}}=1$ ja
+$\abs{B_iB_{i+1}}=2$ kaikilla $i=1,2,\ldots$.
+Olkoon $\angle A_1A_2B_1=\alpha$. Laske
+$$\angle A_1B_1A_2 + \angle A_2B_2A_3 + \angle A_3B_3A_4
++ \cdots.$$
+
+%\pr{12}{g3}
+\textbf{12.\ }
+Kaksi ympyr\"a\"a  ${\cal C}_1$ ja ${\cal C}_2$ leikkaavat pisteiss\"a
+$P$
+ja $Q$. Pisteen $P$ kautta kulkeva jana leikkaa ympyr\"an ${\cal C}_1$ 
+pisteess\"a $A$ ja ympyr\"an 
+${\cal C}_2$ pisteess\"a $B$. Olkoon  $X$ janan
+$AB$ keskipiste. Suora $QX$ leikkaa ympyr\"an 
+${\cal C}_1$ pisteess\"a $Y$ ja ympyr\"an ${\cal C}_2$ pisteess\"a $Z$.
+Osoita, ett\"a $X$ on janan $YZ$ keskipiste.
+
+%\pr{13}{g6}
+\parbox[b]{0.7\textwidth}{%
+  \vspace{3pt}\textbf{13.\ } Samalla suoralla oleville pisteille $A$,~$B$, 
+  $C$, $D$
+  ja~$E$ p\"atee $\abs{AB} = \abs{BC} = \abs{CD}
+  = \abs{DE}$. Piste~$F$ ei ole t\"all\"a suoralla. Olkoon $G$
+  kolmion~$ADF$ ymp\"aripiirretyn ympyr\"an keskipiste ja $H$
+  kolmion~$BEF$ ymp\"aripiirretyn ympyr\"an keskipiste. Osoita, ett\"a
+  suorat~$GH$ ja~$FC$ ovat kohtisuorassa toisiaan vastaan.}
+{\setlength{\unitlength}{1pt}
+  \smash{\begin{picture}(50,60)(-10,-10)
+%\put(-10,0){\vector(1,0){100}} \put(0,-10){\vector(0,1){40}}
+\drawline(0,0)(80,0)
+\drawline(0,0)(55,25)(20,0)
+\drawline(55,25)(80,0)\drawline(40,0)(55,25)(60,0)
+\put(-10,-10){\small $A$}\put(16,-10){\small $B$}\put(36,-10){\small $C$}
+\put(56,-10){\small $D$}\put(76,-10){\small $E$}\put(52,30){\small $F$}
+\end{picture}}}
+
+%\pr{14}{g9}
+\textbf{14.\ }
+Kolmiossa $ABC$ p\"atee, ett\"a $|AC|^2$ on
+$|BC|^2$:n ja $|AB|^2$:n aritmeettinen keskiarvo. Osoita, ett\"a 
+$\cot^2 B\ge\cot A\cot C$. (Huom! $\cot v = \cos v/\sin v$.)
+
+%\pr{15}{g12}
+\textbf{15.\ }
+Ter\"av\"akulmaisessa kolmiossa $ABC$ kulmien $\angle A$,
+$\angle B$ ja $\angle C$ puolittajat leikkaavat kolmion ymp\"aripiirretyn
+ympyr\"an pisteiss\"a
+$A_1$, $B_1$ ja $C_1$, t\"ass\"a j\"arjestyksess\"a. Piste $M$ on
+suorien $AB$ ja $B_1C_1$ leikkauspiste, ja $N$ on
+suorien $BC$ ja $A_1B_1$ leikkauspiste. Osoita, ett\"a 
+$MN$ kulkee kolmion $\triangle ABC$ sis\"a\"anpiirretyn ympyr\"an kautta.
+
+%\pr{16}{d4}
+\textbf{16.\ }
+Kaksi pelaajaa pelaa  $5\times 5$-shakkilaudalla seuraavaa peli\"a:
+Ensimm\"ainen pelaaja asettaa ratsun jollekin ruudulle.
+T\"am\"an j\"alkeen pelaajat siirt\"av\"at ratsua shakin s\"a\"ant\"ojen
+mukaisesti (j\"alkimm\"ainen pelaaja aloittaa siirtelyn). 
+Ratsua ei saa siirt\"a\"a ruutuun, jossa se jo oli.
+Pelaaja, joka ei voi en\"a\"a siirt\"a\"a, h\"avi\"a\"a pelin. 
+Kummalla pelaajista on voittostrategia?
+
+%\pr{17}{d5}
+\textbf{17.\ }
+Suorakaiteen voi jakaa $n$ samankokoiseen neli\"o\"on.
+Saman suorakaiteen voi my\"os jakaa $n+76$ pienemp\"a\"an
+samankokoiseen neli\"o\"on. M\"a\"arit\"a $n$.
+
+%\pr{18}{d9}
+\textbf{18.\ }
+(\emph{i}) Osoita, ett\"a on olemassa kaksi, toisiaan mahdollisesti
+leikkaavaa, \"a\"are\-t\"ont\"a joukkoa $A$ ja $B$, joille p\"atee,
+ett\"a jokainen ep\"anegatiivinen koko\-naisluku $n$
+voidaan esitt\"a\"a yksik\"asitteisell\"a tavalla muodossa $n=a+b$,
+miss\"a  $a\in A$ ja $b\in B$.
+
+\thinspace (\emph{ii})
+Osoita, ett\"a jokaisesta sellaisesta parista $(A,B)$ joko joukko $A$
+tai joukko $B$ sis\"alt\"a\"a ainoastaan jonkin koko\-naisluvun
+$k>1$ monikertoja.
+
+%\pr{19}{d6}
+\textbf{19.\ }
+Mets\"an $n$ el\"aint\"a $(n\geq3)$ el\"a\"a kukin omassa luolassaan, ja
+kustakin luolasta on polku kuhunkin toiseen. Ennen mets\"an kuninkaan
+vaalia jotkin el\"aimet kampanjoivat ehdokkuutensa puolesta.
+Jokainen kampanjoiva el\"ain vierailee kunkin toisen el\"aimen luona täsmälleen 
+kerran, k\"aytt\"a\"a aina polkua siirtyess\"a\"an luolasta toiseen, ei
+koskaan poikkea polulta toiselle siirtyess\"a\"an luolasta toiseen ja
+palaa kampanjansa lopuksi omaan luolaansa.  Tiedet\"a\"an my\"os,
+ett\"a kutakin polkua k\"aytt\"a\"a vain yksi kampanjoiva el\"ain.
+\begin{itemize}
+\item[a)]
+  Osoita, ett\"a jokaisella alku\-luvulla $n$ suurin mahdollinen
+  kampanjoivien el\"ain\-ten m\"a\"ar\"a on $\frac{n-1}{2}$;
+\item[b)]
+  Etsi suurin mahdollinen kampanjoivien el\"ainten lukum\"a\"ar\"a,
+  kun $n=9$.
+\end{itemize}
+
+%\pr{20}{d7}
+\textbf{20.\ }
+Riviss\"a on kaksitoista korttia, joita on kolmenlaisia:
+joko molemmat puolet ovat valkoisia, molemmat ovat mustia
+tai toinen on valkoinen ja toinen on musta.
+Aluksi yhdeks\"an korteista on musta puoli yl\"osp\"ain.
+Sitten kortit~1--6 k\"a\"annet\"a\"an, jonka j\"alkeen
+nelj\"ast\"a kortista on musta puoli yl\"osp\"ain. 
+Sitten kortit~4--9 k\"a\"annet\"a\"an  ja kuudesta kortista
+on musta puoli yl\"osp\"ain.
+Lopuksi kortit 1--3 ja~10--12 k\"a\"annet\"a\"an, mink\"a j\"alkeen
+viidest\"a kortista on musta puoli yl\"osp\"ain.
+Kuinka monta kunkin lajin korttia on p\"oyd\"all\"a? 
+
+\end{document}

@@ -1,0 +1,81 @@
+\input makrot
+\input def
+\input laskut
+
+\font\isosser=cmss12
+\centerline{\isosser Vuoden 2000 pohjoismaisen kilpailun ratkaisut}\bigskip
+
+\harj  Olkoon $x$ kolmen eri yhteenlaskettavan summien
+lukumäärä  ja $y$ kahden eri yhteenlaskettavan summien lukumäärä.
+Tarkastellaan riviä, jossa on 3999 numeroitua laatikkoa ja jokaisessa
+paritonnumeroisessa laatikossa on punainen pallo. Jokainen tapa sijoittaa
+kaksi sinistä palloa parillisnumeroisiin laatikkoihin tuottaa 2000:n jaon
+kolmeksi yhteenlaskettavaksi. Tapoja sijoittaa siniset pallot on
+$\displaystyle{1999\choose 2}=999\cdot 1999$. Mutta on $3!=6$ eri
+sijoittelua, jotka tuottavat saman 2000:n jaon kolmeksi eri
+yhteenlaskettavaksi ja $\displaystyle{3!\over 2}=3$ eri jakoa, jotka
+tuottavat saman 2000 jaon, jossa eri suuria yhteenlaskettavia on kaksi. Koska
+2000 ei ole jaollinen kolmella, kaikki sijoittelut antavat joko kolme tai
+kaksi eri suurta yhteenlaskettavaa. Siis $6x+3y=1999\cdot 999$. Mutta
+$y=999$, koska summassa kaksi kertaa esiintyvän yhteenlaskettavan arvo voi
+olla mikä hyvänsä luvuista 1, 2, \dots 999. Ratkaisemalla edellinen yhtälö
+saadaan $x=998\cdot 333$, joten  $x+y=1001\cdot 333=333333$.
+
+
+
+\harj  Oletetaan, että $P_n$:llä on alkuaan $m$ kolikkoa.
+Silloin $P_{n-1}$:llä on $m+1$ kolikkoa, \dots\ ja  $P_1$:llä $m+n-1$
+kolikkoa. Joka siirrossa henkilö saa $k$ kolikkoa ja antaa pois $k+1$
+kolikkoa, joten hän menettää yhteensä yhden kolikon. Ensimmäisen kierroksen
+jälkeen, kun $P_n$ on antanut $n$ kolikkoa $P_1$:lle, $P_n$:llä on  $m-1$
+kolikkoa, $P_{n-1}$:llä $m$ kolikkoa jne., kahden kierroksen jälkeen
+$P_n$:llä on $m-2$ kolikkoa, $P_{n-1}$:llä  $m-1$ kolikkoa jne. Näin voidaan
+jatkaa $m$:n kierroksen ajan, jonka jälkeen $P_n$:llä ei ole rahaa,  $P_{n-
+1}$:llä on yksi kolikko jne. Kierroksella $m+1$ jokainen, jolla on kolikoita,
+voi ottaa niitä vastaan ja antaa edelleen kuten aikaisemminkin. Rahaton $P_n$
+ei voi enää antaa pois kolikoita. Hän saa $n(m+1)-1$ kolikkoa $P_{n-1}$:ltä,
+muttei voi antaa $n(m+1)$:ää kolikkoa $p_1$:lle.  $P_{n-1}$:llä ei ole
+kolikoita ja  $P_1$:llä on $n-2$ kolikkoa. Ainoa naapuruspari, joista
+toisella voi olla 5 kertaa niin monta kolikkoa kuin toisella, on
+$(P_1,\,P_n)$. Koska $n-2<n(m+1)-1$, on oltava $5(n-2)=n(m+1)-1$ eli $n(4-
+m)=9$. Koska $n>1$, on oltava $n=3$, $m=1$ tai $n=9$, $m=3$. Kokeilemalla
+nähdään, että molemmat vaihtoehdot ovat mahdollisia. Ensimmäisessä
+tapauksessa kolikoiden määrä on $3+2+1=6$, toisessa  $11+10+\cdots+3=63$.
+
+
+
+\harj  Tarkastellaan kolmioita $AOE$ ja $AOD$. Niissä on
+kaksi keskenään yhtä suurta sivuparia ja toista vastinsivuparia vastassa
+olevat kulmat ovat yhtä suuret. Tällöin joko  $AOE$ ja $AOD$ ovat yhteneviä
+tai $\angle AEO=180^{\circ}-\angle ADO$. Edellisessä tapauksessa $\angle
+BEO=\angle CDO$, joten kolmiot $EBO$ ja $DCO$ ovat yhteneviä. Tällöin siis
+$AB=AC$. Jälkimmäisessä tapauksessa merkitään kolmion $ABC$ kulmia
+$2\alpha$:lla, $2\beta$:lla, ja $2\gamma$:lla ja kulmaa $AEO$ $\delta$:lla.
+Kolmion kulman vieruskulmaa koskevan lauseen nojalla saadaan $\angle
+BOE=\angle DOC=\beta+\gamma$, $\delta=2\beta+\gamma$ ja
+$180^{\circ}-\delta=\beta+2\gamma$. Kun nämä yhtälöt lasketaan puolittain
+yhteen, saadaan $3(\beta+\gamma)=180^{\circ}$ eli $\beta+\gamma=60^{\circ}$.
+Kun tämä yhdistetään yhtälöön $2(\alpha+\beta+\gamma)=180^{\circ}$, saadaan
+$2\alpha=60^{\circ}$. 
+
+
+
+\harj  Merkitään $f\(\displaystyle{1\over
+3}\right)=a$ ja $f\left(\displaystyle{2\over 3}\right)=b$. Soveltamalla
+tehtävän epäyhtälöä arvoilla $x=\displaystyle{1\over 3}$,
+$y=\displaystyle{2\over 3}$ ja $z=1$ sekä $x=0$, $y=\displaystyle{1\over 
+3}$, $z=\displaystyle{2\over 3}$ saadaan $${1\over 2}\le {1-b\over b-a}\le
+2,\qquad {1\over 2}\le {b-a\over a}\le 2.$$ Jos olisi $a<0$, olisi $b-a<0$ ja
+siis $b<0$. Lisäksi olisi $1-b<0$ eli $b>1$. Samanlaiseen ristiriitaan
+johtaisi oletus $b-a<0$. Siis $a>0$ ja $b-a>0$, joten  $${1\over
+3}\left({2\over 3}a+{1\over 3}\right)\le a\le {2\over 3}\left({1\over
+3}a+{2\over 3}\right)$$ eli $a\le 2b-2a$, $b-a\le 2a$, $b-a\le 2-2b$ ja $1-
+b\le 2b-2a$. Näistä yhtälöistä 1.\ ja 3.\ antavat $3a\le 2b$ ja $3b\le 2+a$,
+joista eliminoimalla $b$ saadaan $3a\le \displaystyle{4\over 3}+{2a\over 3}$,
+$a\le\displaystyle{4\over 7}$. Yhtälöistä 4.\  ja 2.\ antavat vastaavasti
+$1+2a\le 3b$ ja $b\le 3a$, joista $1\le 7a$, $\displaystyle{1\over 7}\le a$.
+[Rajoja voidaan parantaa -- tarkat ala- ja ylärajat olisivat
+$\displaystyle{4\over 27}$ ja $\displaystyle{76\over 135}$.]
+
+\bye
+\bye

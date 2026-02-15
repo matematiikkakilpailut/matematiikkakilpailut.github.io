@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iranin geometriakilpailu – IGO</title>
+    <meta name="description" content="IGO on kansainvälinen geometriakilpailu, jossa on neljä sarjaa 7.-luokkalaisista lukiolaisiin. Suomalaiset osallistuvat syksyisin etänä - katso menneet kilpailut ja miten hakea mukaan.">
+    <link href="/css/bootstrap.min.css?v=5.3.3" rel="stylesheet">
+    <style>
+     .breadcrumb {
+       --bs-breadcrumb-divider: '';
+       --bs-breadcrumb-padding-x: 0;
+       --bs-breadcrumb-item-padding-x: 0;
+     }
+     .navbar {
+       --bs-navbar-brand-padding-y: 4px;
+     }
+     [data-bs-theme="dark"] {
+       --bs-link-color: #788591;
+       --bs-link-color-rgb: 120, 133, 145;
+       .link-primary, .text-primary {
+         --bs-primary-rgb: 236, 240, 241;
+       }
+       .link-primary:hover {
+         color: rgb(128, 139, 150) !important;
+       }
+     }
+     [data-bs-theme="light"] {
+       --bs-link-color: #168366;
+       --bs-link-color-rgb: 23, 114, 83;
+       .link-primary {
+         --bs-primary-rgb: 33, 37, 41;
+         &:hover {
+           color: rgb(24, 188, 156) !important;
+         }
+       }
+     }
+     [data-bs-theme="dark"] .light-element { display: none; }
+     [data-bs-theme="light"] .dark-element { display: none; }
+     h1,h2,h3,h4,h5,h6 { text-wrap: balance; }
+     #logopalkki {
+       margin-top: 6ex;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+       align-content: center;
+     }
+     @media (pointer: coarse), (max-width: 450px) {
+       footer ul li {
+         padding-top: 0.5em;
+       }
+     }
+    </style>
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/kuvat/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/kuvat/apple-touch-icon.png">
+    <link rel="manifest" href="/kuvat/manifest.webmanifest">
+    <link rel="preload" href="/font/Lato-Regular.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/Lato-Bold.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/Lato-Italic.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="sitemap" href="/sitemap.xml">
+    <link rel="canonical" href="https://matematiikkakilpailut.fi/IGO/">
+    <link rel="alternate" type="application/atom+xml" href="https://matematiikkakilpailut.fi/feed.xml">
+    <script>
+      const getStoredTheme = () => localStorage.getItem('theme')
+      const getPreferredTheme = () => {
+        const storedTheme = getStoredTheme()
+        if (storedTheme) {
+          return storedTheme
+        }
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+      }
+      const setTheme = theme => {
+        document.documentElement.dataset.bsTheme =
+          theme === 'auto'
+          ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+          : theme
+      }
+      setTheme(getPreferredTheme())
+    </script>
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <nav data-bs-theme="dark" class="navbar navbar-expand-md bg-primary" aria-label="Päävalikko">
+  <div class="container-fluid flex-flow align-items-start">
+    <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbar-collapse" aria-controls="navbar-collapse"
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand ps-sm-4" href="/">Matematiikkavalmennus</a>
+    <div class="d-flex order-0 order-md-last ms-md-auto" id="theme-toggle" title="Taustaväri">
+      <div class="dropdown">
+        <button class="btn btn-link nav-link dropdown-toggle
+                       py-2 pt-md-2 px-1 px-lg-2
+                       d-flex align-items-center text-light"
+                type="button"
+                id="bd-theme"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
+          <svg class="bi theme-icon-active" width="16" height="16" fill="currentColor">
+            <use href="/kuvat/sprite3.svg#sun-fill"></use>
+          </svg>
+          <span class="d-none" id="bd-theme-text">Taustaväri</span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme">
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite3.svg#sun-fill"></use>
+              </svg>
+              Vaalea
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite3.svg#moon-stars-fill"></use>
+              </svg>
+              Tumma
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite3.svg#circle-half"></use>
+              </svg>
+              Automaattinen
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="collapse navbar-collapse flex-column align-items-start" id="navbar-collapse">
+      <div class="row flex-grow-1">
+        <div class="col-12 flex-grow-1">
+          <ul class="navbar-nav mb-2 mb-md-0">
+            <li class="nav-item"><a class="nav-link " href="/aikataulu/">Aikataulu</a></li>
+           <li class="nav-item"><a class="nav-link " href="/valmennus/">Kotitehtävät</a></li>
+            <li class="nav-item"><a class="nav-link " href="/aiheet/">Materiaalit</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    
+<div class="container-fluid flex-flow bg-body-secondary align-items-start">
+  <nav aria-label="navigaatiopolku" class="mt-1 ps-sm-4 small">
+    <ol class="breadcrumb mb-1" itemscope itemtype="https://schema.org/BreadcrumbList">
+      
+      <li class="breadcrumb-item pe-1" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <meta itemprop="position" content="1">
+        <a class="icon-link link-primary text-decoration-none" href="/"
+           itemscope itemtype="https://schema.org/WebPage" itemprop="item" itemid="/">
+          <span itemprop="name">Etusivu</span>
+          <svg class="bi" style="stroke-width: 1.1; stroke: currentColor;">
+            <use xlink:href="/kuvat/sprite3.svg#chevron-right"/>
+          </svg>
+        </a>
+      </li>
+      <li class="breadcrumb-item pe-1" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <meta itemprop="position" content="2">
+        <a class="icon-link link-primary text-decoration-none" href="/kilpailut/"
+           itemscope itemtype="https://schema.org/WebPage" itemprop="item" itemid="/kilpailut/">
+          <span itemprop="name">Kilpailut</span>
+          <svg class="bi" style="stroke-width: 1.1; stroke: currentColor;">
+            <use xlink:href="/kuvat/sprite3.svg#chevron-right"/>
+          </svg>
+        </a>
+      </li>
+      <li class="breadcrumb-item active text-primary" aria-current="page"
+          itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <span itemprop="name">IGO</span>
+        <meta itemprop="position" content="3">
+      </li>
+    </ol>
+  </nav>
+</div>
+
+    <div class="container flex-grow-1">
+        <header class="display-4 pt-3 pb-3 mt-3 mb-1">
+  <h1>Iranin geometriakilpailu – IGO</h1>
+</header>
+<main class="row">
+  <div class="col-xs-12">
+    <h2 id="yleist%C3%A4" tabindex="-1">Yleistä</h2>
+<p><a href="https://igo-official.ir">Iranin geometriakilpailussa</a> mitellään nimensä mukaisesti geometrian taidoista. Kukin osallistujamaa ottaa osaa omasta maasta käsin ja kilpailun yhtenä tavoitteena onkin lisätä geometriasta pitävien keskinäistä kommunikointia sekä kotimaissa että kansainvälisesti. Kilpailu järjestettiin ensimmäisen kerran vuonna 2014 ja Suomi on ottanut siihen osaa vuodesta 2017 lähtien.</p>
+<p>Iranin geometriakilpailussa on tarjolla on neljä sarjaa: perustaso 7.-ja 8.-luokkalaisille, keskitaso 9.-luokkalaisille ja lukion ensimmäisen vuoden oppilaille, vaativa taso lukion 2. ja 3. luokan oppilaille sekä avoin sarja. Kilpailu tarjoaakin etenkin nuorimmille kilpailijoille hyvän mahdollisuuden ensimmäisiin kosketuksiin kansainvälisiin kilpailuihin. Kukin osallistujamaa voi osallistua kilpailuun niin monella kilpailijalla kuin haluaa, mutta vain neljä kilpailijaa/sarja otetaan huomioon virallisissa tuloksissa.</p>
+<p>Syksyisin pidettävään kilpailuun kutsutaan Suomessa edellisenä keväänä ja kesänä aktiivisia ja menestyneitä valmennettavia luokka-asteet huomioiden. Kutsuttavien ja osallistujien määrä vaihtelee vuosittain muun muassa ratkaisuiden tarkistamiseen käytössä olevista resursseista riippuen. Mikäli olet kiinnostunut ottamaan osaan kilpailuun, mutta et ole saanut kutsua, niin kysythän vapaista paikoista Lauri Hallilalta (laurihallila@gmail.com). Etenkin perustasosta saattaa löytyä vapaita paikkoja.</p>
+<p>Lisätietoa kilpailusta löytyy yllä mainitulta <a href="https://igo-official.ir">kotisivulta</a>. Kysymyksiä voi myös esittää Lauri Hallilalle.</p>
+<h2 id="menneet-kilpailut" tabindex="-1">Menneet kilpailut</h2>
+<p>Kilpailut vuodesta 2017 lähtien.</p>
+<div role="list">
+<div class="row flex-wrap mb-2" role="listitem">
+    <div class="col-2 col-sm-2"><strong>Vuosi</strong></div>
+    <div class="col-5 col-sm-2"><strong>Tehtävät</strong></div>
+    <div class="col-5 col-sm-2"><strong>Ratkaisut</strong></div> 
+    <div class="col-12 col-sm-6"><strong>Suomen menestys</strong></div>
+</div><hr>
+<div class="row flex-wrap mb-2" role="listitem">
+    <div class="col-2 col-sm-2"><a href="https://igo-official.com/?p=4743">2023</a></div>
+    <div class="col-5 col-sm-2"><a href="sol2023.pdf">englanniksi</a></div>
+    <div class="col-5 col-sm-2"><a href="sol2023.pdf">englanniksi</a></div> 
+    <div class="col-12 col-sm-6"><strong>Vaativa taso:</strong> 1 pronssi, 2 kunniamainintaa <br> <strong>Keskitaso:</strong> 4 kunniamainintaa <br> <strong>Perustaso:</strong> 1 kunniamaininta</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+    <div class="col-2 col-sm-2"><a href="https://igo-official.com/?p=4653">2022</a></div>
+    <div class="col-5 col-sm-2"><a href="teht2022.pdf">englanniksi</a></div>
+    <div class="col-5 col-sm-2">—</div> 
+    <div class="col-12 col-sm-6"><strong>Vaativa taso:</strong> 3 kunniamainintaa <br> <strong>Perustaso:</strong> 2 kunniamainintaa</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+    <div class="col-2 col-sm-2"><a href="https://igo-official.ir/events/8/">2021</a></div>
+    <div class="col-5 col-sm-2"><a href="teht2021.pdf">pdf</a></div>
+    <div class="col-5 col-sm-2"><a href="sol2021.pdf">englanniksi</a></div> 
+    <div class="col-12 col-sm-6"><strong>Perustaso:</strong> 1 kunniamaininta</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+    <div class="col-2 col-sm-2"><a href="https://igo-official.ir/events/7/">2020</a></div>
+    <div class="col-5 col-sm-2"><a href="teht2020.pdf">pdf</a></div>
+    <div class="col-5 col-sm-2"><a href="sol2020.pdf">englanniksi</a></div> 
+    <div class="col-12 col-sm-6"><strong>Vaativa taso:</strong> 3 kunniamainintaa <br> <strong>Keskitaso:</strong> 2 kunniamainintaa <br> <strong>Perustaso:</strong> 1 kunniamaininta</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+    <div class="col-2 col-sm-2"><a href="https://igo-official.ir/events/6/">2019</a></div>
+    <div class="col-5 col-sm-2"><a href="teht2019.pdf">pdf</a></div>
+    <div class="col-5 col-sm-2"><a href="https://igo-official.ir/media/IGO_2019_Booklet_en.pdf">englanniksi</a></div> 
+    <div class="col-12 col-sm-6"><strong>Vaativa taso:</strong> 2 kunniamainintaa <br> <strong>Keskitaso:</strong> 1 pronssi <br><strong>Perustaso:</strong> 2 kunniamainintaa</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+    <div class="col-2 col-sm-2"><a href="https://igo-official.ir/events/5/">2018</a></div>
+    <div class="col-5 col-sm-2"><a href="teht2018.pdf">pdf</a></div>
+    <div class="col-5 col-sm-2"><a href="https://igo-official.ir/media/Solutions-en.pdf">englanniksi</a></div> 
+    <div class="col-12 col-sm-6"><strong>Vaativa taso:</strong> 1 pronssi, 2 kunniamainintaa <br> <strong>Keskitaso:</strong> 2 kunniamainintaa</div>
+</div>
+<div class="row flex-wrap mb-2" role="listitem">
+    <div class="col-2 col-sm-2"><a href="https://igo-official.ir/events/4/">2017</a></div>
+    <div class="col-5 col-sm-2"><a href="teht2017.pdf">pdf</a></div>
+    <div class="col-5 col-sm-2"><a href="https://matematiikkalehtisolmu.fi/2018/2/IGO.pdf">osa suomeksi</a></div> 
+    <div class="col-12 col-sm-6"><strong>Vaativa taso:</strong> 1 kunniamaininta <br> <strong>Keskitaso:</strong> 1 pronssi, 1 kunniamaininta <br><strong>Perustaso:</strong> 1 kunniamaininta</div>
+</div>
+</div>
+
+  </div>
+</main>
+
+
+    </div>
+    
+
+<footer class="footer mt-auto py-4 bg-body-tertiary">
+  <div class="container-md small">
+    <div class="row gy-4">
+      <div class="col-sm-6 col-md-4">
+        <div id="footer-valmennus-heading" class="fw-bold mb-2 fs-6">Valmennus</div>
+        <ul aria-labelledby="footer-valmennus-heading" class="list-unstyled mb-0">
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/kilpailut/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#trophy-fill"/>
+    </svg>
+    Kilpailut
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/aiheet/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#book"/>
+    </svg>
+    Materiaalit
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/kaytanto/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#calendar-event"/>
+    </svg>
+    Tapahtumat
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/valmennus/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#envelope-fill"/>
+    </svg>
+    Kotitehtävät
+  </a>
+</li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div id="footer-yhteystiedot-heading" class="fw-bold mb-2 fs-6">Yhteystiedot</div>
+        <ul aria-labelledby="footer-yhteystiedot-heading" class="list-unstyled mb-0">
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="mailto:info@matematiikkakilpailut.fi"
+    title="Sähköposti"
+    rel="author"
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#envelope-fill"/>
+    </svg>
+    info@matematiikkakilpailut.fi
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/valmentajat/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#people-fill"/>
+    </svg>
+    Valmentajat
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/feed.xml"
+    title="RSS-syöte"
+    rel="alternate"
+    
+    type="application/atom+xml"
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#rss-fill"/>
+    </svg>
+    RSS-syöte
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="https://t.me/+TS59DXkdJpozNDU0"
+    title="Telegram"
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#telegram"/>
+    </svg>
+    Telegram-keskusteluryhmä
+  </a>
+</li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div id="footer-muuta-heading" class="fw-bold mb-2 fs-6">Muuta</div>
+        <ul aria-labelledby="footer-muuta-heading" class="list-unstyled mb-0">
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/kerhot/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#people-fill"/>
+    </svg>
+    Kerhot
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/linkit/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#link-45deg"/>
+    </svg>
+    Linkkejä
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/tietosuoja/"
+    
+    rel="privacy-policy"
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#shield-fill"/>
+    </svg>
+    Tietosuoja
+  </a>
+</li>
+          <li lang="en">
+  <a class="icon-link link-primary text-decoration-none" href="/english/"
+    
+    
+    hreflang="en"
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#translate"/>
+    </svg>
+    In English
+  </a>
+</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script defer src="/js/theme.js"></script>
+    <script type="module" src="/js/instant.page.min.js"></script>
+    <script defer src="/js/bootstrap.bundle.min.js?v=5.3.3"></script>
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "45380cb8b30d4b0791d27e340eefc4da"}'></script>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+\input makrot
+\input def
+\input laskut
+
+\font\isosser=cmss12
+\centerline{\isosser Vuoden 1990 pohjoismaisen kilpailun ratkaisut}\bigskip
+
+\harj  Koska summan termien lukum‰‰r‰ on tehtyjen
+oletusten perusteella parillinen, voidaan summa kirjoittaa muotoon
+$$\sum_{k=1}^{{1\over 2}(n-1)^p}(k^m+\((n-1)^p-k+1\)^m.\eqno (1)$$ Koska $m$
+on pariton, jokaisen termin tekij‰n‰ on $k+(n-1)^p-k+1=(n-1)^p+1$. Koska $p$
+on pariton, on viel‰ $(n-1)^p+1=(n-1)+1^p$ jaollinen luvulla $(n-1)+1=n$.
+Siis $n$ on muunnetun summan (1) jokaisen termin tekij‰, joten summa on
+jaollinen $n$:ll‰.
+
+
+
+\harj  Jos $0\le x\le 1$, niin $x^{3/2}\le x$, ja
+yht‰suuruus p‰tee vain, kun $x=0$ tai $x=1$. Oletamme, ett‰ ainakin yksi
+$a_k\ne 0$. Asetetaan $$x_k={a_k^2\over\sum_{j=1}^n a_j^2}.$$ Silloin $0\le
+x_k\le 1$ ja edell‰ sanotun perusteella on $$\sum_{k=1}^n\({a_k^2\over
+\sum_{j=1}^na_j^2}\)^{3/2}\le \sum_{k=1}^n{a_k^2\over \sum_{j=1}^n
+a_j^2}=1.$$ Siis $$\sum_{k=1}^na_k^3\le\(\sum_{j_1}^n a_j^2\)^{3/2},$$ eli
+v‰itetty ep‰yht‰lˆ.  Yht‰suuruus vallitsee, jos tasan yksi $x_k$ on yksi ja
+muut ovat nollia, ts.\ jos tasan yksi $a_k> 0$ ja muut ovat nollia.
+
+
+
+\harj  Olkoon $$s={1\over 2}(AR+RQ+QA).$$ Olkoon $c$ se
+ympyr‰, joka sivuaa $QR$:‰‰ ja $AR$:n ja $AQ$:n jatkeita; olkoon $I$ $c$:n
+keskipiste. Silloin $\angle QAI=\angle IAR=\displaystyle{1\over 2}\alpha$.
+Sivutkoon $c$ $RQ$:ta, $AQ$:n jatketta ja $AR$:n jatketta pisteiss‰ $X$, $Y$
+ja $Z$. Selv‰stikin $$AQ+QX=AY=AZ=AR+RZ,$$ joten $$AZ=AI\cos{1\over
+2}\alpha=s.$$ Siten $s$ ja kysytty piiri on pienin, kun $AI$ on pienin. T‰m‰
+tapahtuu silloin, kun $X=P$. Kysytty suora on sen ympyr‰n $P$:hen asetettu
+tangentti, joka kulkee $P$:n kautta ja sivuaa $AB$:t‰ ja $AC$:t‰.
+
+
+
+\harj  Kaikki parittomat luvut $n$ ovat muotoa $h(2n)$.
+Osoitetaan, ett‰ kaikki parilliset luvut saadaan luvusta 4 operaatioiden $f$,
+$g$ ja $h$ avulla. T‰h‰n riitt‰‰, kun osoitetaan, ett‰ sopivasti valittu jono
+k‰‰nteisoperaatioita $F=f^{-1}$, $G=g^{-1}$ ja $H=h^{-1}$ tuottaa jokaisesta
+parillisesta luvusta pienemm‰n parillisen luvun tai luvun nelj‰. Operaatiota
+$F$ voidaan soveltaa nollaan p‰‰ttyviin lukuihin, operaatiota $G$ neloseen
+p‰‰ttyviin lukuihin, ja $H(n)=2n$. Saadaan $$\displaylines{H(F(10n))=2n,\cr
+G(H(10n+2))=2n,\quad n\ge 1,\cr H(2)=4,\cr H(G(10n+4))=2n,\cr
+G(H(H(10n+6)))=4n+2,\cr G(H(H(H(10n+8))))=8n+6.\cr}$$ Kun n‰it‰ askelia
+toistetaan ‰‰rellinen m‰‰r‰, p‰‰st‰‰n aina viimein neloseen.
+
+
+
+\bye
