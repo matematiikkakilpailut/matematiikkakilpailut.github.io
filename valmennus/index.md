@@ -71,9 +71,11 @@ Ensimmäinen tehtäväsarja löytyy alta. Kun olet palauttanut ratkaisujasi siih
 
 Peruskoululaiset voivat halutessaan ratkoa myös haastavampia, kaikille koululaisille tarkoitettuja kirjevalmennustehtäviä (yllä).
 
-[Peruskoululaisten ensimmäinen valmennuskirje](2023/kirje1_internet.pdf)
+**Huom.** Kirjeiden palautusosoite on päivitetty 13.3.2026.
 
-[På svenska](2023/brev1_internet.pdf)
+[Peruskoululaisten ensimmäinen valmennuskirje](2023/kirje1v2_internet.pdf)
+
+[På svenska](2023/brev1v2_internet.pdf)
 
 
 ### Vanhempia tehtäväsarjoja ja ratkaisuja
