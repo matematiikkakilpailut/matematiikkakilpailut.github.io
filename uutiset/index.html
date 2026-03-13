@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uutisia</title>
+    
+    <link href="/css/bootstrap.min.css?v=5.3.3" rel="stylesheet">
+    <style>
+     .breadcrumb {
+       --bs-breadcrumb-divider: '';
+       --bs-breadcrumb-padding-x: 0;
+       --bs-breadcrumb-item-padding-x: 0;
+     }
+     .navbar {
+       --bs-navbar-brand-padding-y: 4px;
+     }
+     [data-bs-theme="dark"] {
+       --bs-link-color: #788591;
+       --bs-link-color-rgb: 120, 133, 145;
+       .link-primary, .text-primary {
+         --bs-primary-rgb: 236, 240, 241;
+       }
+       .link-primary:hover {
+         color: rgb(128, 139, 150) !important;
+       }
+     }
+     [data-bs-theme="light"] {
+       --bs-link-color: #168366;
+       --bs-link-color-rgb: 23, 114, 83;
+       .link-primary {
+         --bs-primary-rgb: 33, 37, 41;
+         &:hover {
+           color: rgb(24, 188, 156) !important;
+         }
+       }
+     }
+     [data-bs-theme="dark"] .light-element { display: none; }
+     [data-bs-theme="light"] .dark-element { display: none; }
+     h1,h2,h3,h4,h5,h6 { text-wrap: balance; }
+     #logopalkki {
+       margin-top: 6ex;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+       align-content: center;
+     }
+     @media (pointer: coarse), (max-width: 450px) {
+       footer ul li {
+         padding-top: 0.5em;
+       }
+     }
+    </style>
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/kuvat/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/kuvat/apple-touch-icon.png">
+    <link rel="manifest" href="/kuvat/manifest.webmanifest">
+    <link rel="preload" href="/font/Lato-Regular.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/Lato-Bold.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/Lato-Italic.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="sitemap" href="/sitemap.xml">
+    <link rel="canonical" href="https://matematiikkakilpailut.fi/uutiset/">
+    <link rel="alternate" type="application/atom+xml" href="https://matematiikkakilpailut.fi/feed.xml">
+    <script>
+      const getStoredTheme = () => localStorage.getItem('theme')
+      const getPreferredTheme = () => {
+        const storedTheme = getStoredTheme()
+        if (storedTheme) {
+          return storedTheme
+        }
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+      }
+      const setTheme = theme => {
+        document.documentElement.dataset.bsTheme =
+          theme === 'auto'
+          ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+          : theme
+      }
+      setTheme(getPreferredTheme())
+    </script>
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <nav data-bs-theme="dark" class="navbar navbar-expand-md bg-primary" aria-label="Päävalikko">
+  <div class="container-fluid flex-flow align-items-start">
+    <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbar-collapse" aria-controls="navbar-collapse"
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand ps-sm-4" href="/">Matematiikkavalmennus</a>
+    <div class="d-flex order-0 order-md-last ms-md-auto" id="theme-toggle" title="Taustaväri">
+      <div class="dropdown">
+        <button class="btn btn-link nav-link dropdown-toggle
+                       py-2 pt-md-2 px-1 px-lg-2
+                       d-flex align-items-center text-light"
+                type="button"
+                id="bd-theme"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
+          <svg class="bi theme-icon-active" width="16" height="16" fill="currentColor">
+            <use href="/kuvat/sprite3.svg#sun-fill"></use>
+          </svg>
+          <span class="d-none" id="bd-theme-text">Taustaväri</span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme">
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite3.svg#sun-fill"></use>
+              </svg>
+              Vaalea
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite3.svg#moon-stars-fill"></use>
+              </svg>
+              Tumma
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite3.svg#circle-half"></use>
+              </svg>
+              Automaattinen
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="collapse navbar-collapse flex-column align-items-start" id="navbar-collapse">
+      <div class="row flex-grow-1">
+        <div class="col-12 flex-grow-1">
+          <ul class="navbar-nav mb-2 mb-md-0">
+            <li class="nav-item"><a class="nav-link " href="/aikataulu/">Aikataulu</a></li>
+           <li class="nav-item"><a class="nav-link " href="/valmennus/">Kotitehtävät</a></li>
+            <li class="nav-item"><a class="nav-link " href="/aiheet/">Materiaalit</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    
+<div class="container-fluid flex-flow bg-body-secondary align-items-start">
+  <nav aria-label="navigaatiopolku" class="mt-1 ps-sm-4 small">
+    <ol class="breadcrumb mb-1" itemscope itemtype="https://schema.org/BreadcrumbList">
+      
+      <li class="breadcrumb-item pe-1" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <meta itemprop="position" content="1">
+        <a class="icon-link link-primary text-decoration-none" href="/"
+           itemscope itemtype="https://schema.org/WebPage" itemprop="item" itemid="/">
+          <span itemprop="name">Etusivu</span>
+          <svg class="bi" style="stroke-width: 1.1; stroke: currentColor;">
+            <use xlink:href="/kuvat/sprite3.svg#chevron-right"/>
+          </svg>
+        </a>
+      </li>
+      <li class="breadcrumb-item active text-primary" aria-current="page"
+          itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <span itemprop="name">Uutisia</span>
+        <meta itemprop="position" content="2">
+      </li>
+    </ol>
+  </nav>
+</div>
+
+    <div class="container flex-grow-1">
+        <header class="display-4 pt-3 pb-3 mt-3 mb-1">
+  <h1>Uutisia</h1>
+</header>
+<main class="row">
+  <div class="col-xs-12">
+    <p>Voit seurata uutisia
+<a href="/feed.xml" rel="alternate" type="application/atom+xml">RSS-syötteenä</a>
+tai
+<a href="https://t.me/+TS59DXkdJpozNDU0">Telegram-ryhmässä</a>.</p>
+<h2 id="helmikuun-valmennusviikonloppu-13.2.2026" tabindex="-1">Helmikuun valmennusviikonloppu <a href="/uutiset/2026-02-13-valmennusviikonloppu-tulossa.html" class="fs-6 link-secondary">13.2.2026</a></h2>
+<p>Helmikuun valmennusviikonloppu järjestetään Päivölässä 20.–22.2.</p>
+<p><a href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2026-vk8" class="btn btn-primary btn-sm align-baseline" role="button">Ilmoittaudu tästä!</a></p>
+<p><a href="/aikataulu/">Valmennuksen aikataulu</a></p>
+<h2 id="helmikuun-2026-valmennuskirje-julkaistu-13.2.2026" tabindex="-1">Helmikuun 2026 valmennuskirje julkaistu <a href="/uutiset/2026-02-13-helmikuun-valmennuskirje.html" class="fs-6 link-secondary">13.2.2026</a></h2>
+<p>Helmikuun 2026 <a href="https://drive.google.com/file/d/1j8iKxOCmrYgOxPCz5bulxV85VfjniZ87/view">valmennuskirje</a>
+on julkaistu. Ratkaisut pyydetään palauttamaan viimeistään 15.3.2026.</p>
+<h2 id="tammikuun-2026-valmennuskirje-julkaistu-2.1.2026" tabindex="-1">Tammikuun 2026 valmennuskirje julkaistu <a href="/uutiset/2026-01-02-valmennuskirje-julkaistu.html" class="fs-6 link-secondary">2.1.2026</a></h2>
+<p>Tammikuun 2026 <a href="https://drive.google.com/file/d/1Ee42iz4Uf1ngJn4mK0dt1fujaawzubXv/view">valmennuskirje</a>
+on julkaistu. Ratkaisut pyydetään palauttamaan viimeistään 24.1.2026.</p>
+<h2 id="ensimm%C3%A4inen-valmennusviikonloppu-2026-19.12.2025" tabindex="-1">Ensimmäinen valmennusviikonloppu 2026 <a href="/uutiset/2025-12-19-valmennusviikonloppu-tulossa.html" class="fs-6 link-secondary">19.12.2025</a></h2>
+<p>Vuoden 2026 ensimmäinen valmennusviikonloppu järjestetään Päivölässä 9.–11.1.</p>
+<p><a href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2026-vk2">Ilmoittaudu tästä!</a></p>
+<p><a href="/aikataulu/">valmennuksen aikataulu</a></p>
+<h2 id="joulukuun-valmennusviikonloppu-ja-emc-28.11.2025" tabindex="-1">Joulukuun valmennusviikonloppu ja EMC <a href="/uutiset/2025-11-28-valmennusviikonloppu-ja-EMC.html" class="fs-6 link-secondary">28.11.2025</a></h2>
+<p>Vuoden viimeinen valmennus­viikon­loppu järjestetään Päivölässä 12.–14.12.2025.
+Ohjelman osana on <a href="https://emc.mnm.hr/">European Mathematical Cup</a> -kilpailu eli EMC,
+jota suosittelemme kilpailu­joukkueisiin pyrkiville.</p>
+<p>Sarjoja on kaksi: juniori­sarjassa osallistuja ei saa olla täyttänyt 17 vuotta
+kilpailu­päivänä 13.12.2025 eikä hän saa olla osallistunut kansain­välisiin matematiikka­olympialaisiin.
+Muut osallistuvat seniori­sarjaan. Myös juniori­sarjan ehdot täyttävä saa halutessaan
+valita seniori­sarjan.</p>
+<p>Kilpailun aikana ei ole ns. yläkerran ohjelmaa, koska oletamme
+että kokeneemmat valmennettavat haluavat osallistua kilpailuun.
+Alakerrassa järjestetään ohjelmaa, mutta kannustamme myös nuorempia
+valmennettavia osallistumaan EMC:hen, ehtojen täyttyessä juniori­sarjaan.</p>
+<p><a href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2025-vk50">Ilmoittaudu valmennus­viikon­loppuun!</a></p>
+<h2 id="korjaus-valmennuskirjeen-teht%C3%A4v%C3%A4%C3%A4n-20-15.9.2025" tabindex="-1">Korjaus valmennuskirjeen tehtävään 20 <a href="/uutiset/2025-09-15-korjaus-valmennuskirjeen-tehtavaan-20.html" class="fs-6 link-secondary">15.9.2025</a></h2>
+<p>Korjaus syyskuun 2025
+<a href="https://drive.google.com/file/d/1-P_DiI2MmfwTUEGHeDQR9wtzn_w8d_Hr/view">valmennuskirjeen</a>
+tehtävään 20: jakaja, jolla tehtävän luvut eivät ole jaollisia, on 17 eikä 3.
+Kirje on nyt korjattu.</p>
+<h2 id="syyskuun-valmennuskirje-julkaistu-10.9.2025" tabindex="-1">Syyskuun valmennuskirje julkaistu <a href="/uutiset/2025-09-10-syyskirje.html" class="fs-6 link-secondary">10.9.2025</a></h2>
+<p>Syyskuun 2025 <a href="https://drive.google.com/file/d/1-P_DiI2MmfwTUEGHeDQR9wtzn_w8d_Hr/view">valmennuskirje</a>
+on julkaistu. Ratkaisut pyydetään palauttamaan viimeistään 27.10.2025.</p>
+<h2 id="kes%C3%A4n-2025-valmennuskirjeen-ratkaisut-8.9.2025" tabindex="-1">Kesän 2025 valmennuskirjeen ratkaisut <a href="/uutiset/2025-09-08-kesaratkaisut.html" class="fs-6 link-secondary">8.9.2025</a></h2>
+<p>Kesän 2025 valmennuskirjeen
+<a href="https://drive.google.com/file/d/1s12FR0rtw6XrBgMRaQhn3y1mK3vj0vqA/view">ratkaisut</a>
+on julkaistu.
+Seuraavan kirjeen laadinta on vielä kesken.</p>
+<h2 id="valmennusviikonloppu-elokuun-lopussa-15.8.2025" tabindex="-1">Valmennusviikonloppu elokuun lopussa <a href="/uutiset/2025-08-15-valmennusviikonloppu-tulossa.html" class="fs-6 link-secondary">15.8.2025</a></h2>
+<p>Syyskauden 2025 ensimmäinen valmennusviikonloppu pidetään Päivölässä 29.–31.8.
+Ohjelmassa on koe, jonka tulokset otetaan huomioon Baltian tie -joukkuetta valittaessa.
+Joukkuetta ei todennäköisesti ehditä valita valmennusviikonlopun aikana, vaan
+valittuihin otetaan yhteyttä sen jälkeen.</p>
+<p><a href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2025-vk35">Ilmoittaudu Päivölään!</a></p>
+<p><a href="/aikataulu/">valmennuksen aikataulu</a></p>
+<h2 id="imosta-pronssia-ja-kunniamainintoja-1.8.2025" tabindex="-1">IMOsta pronssia ja kunniamainintoja <a href="/uutiset/2025-08-01-IMO-tuloksia.html" class="fs-6 link-secondary">1.8.2025</a></h2>
+<p><strong>Ohto Katila</strong> saavutti pronssimitalin ja <strong>Zhongyi (David) Li</strong>, <strong>Veikko Heikkinen</strong> ja <strong>Lénárd
+Virág</strong> kunniamaininnat vuoden 2025 matematiikkaolympialaisissa, jotka järjestettiin Australiassa.
+Pisteitä kerryttivät myös <strong>David Liu</strong> ja <strong>Albert Henriksson</strong>.
+Suomi sijoittui maavertailussa <a href="https://www.imo-official.org/team_r.aspx?code=FIN&amp;year=2025">sijalle 61</a>.</p>
+<p>Aiheesta kirjoitti myös <a href="https://www.tek.fi/fi/uutiset-blogit/suomi-sijalle-61-matematiikan-olympialaisissa-tekoalykin-parjaa-jo">TEK-lehti</a>.</p>
+<h2 id="toukokuun-valmennusviikonloppu-13.5.2025" tabindex="-1">Toukokuun valmennusviikonloppu <a href="/uutiset/2025-05-13-valmennusviikonloppu.html" class="fs-6 link-secondary">13.5.2025</a></h2>
+<p>Koska toukokuussa tavallisesti järjestettävä valmennusleiri yhdistettiin
+huhtikuun viikonloppuun, pidämme ylimääräisen valmennusviikonlopun
+23.–25.5.2025.</p>
+<h2 id="kes%C3%A4n-valmennuskirje-julkaistu-3.5.2025" tabindex="-1">Kesän valmennuskirje julkaistu <a href="/uutiset/2025-05-03-valmennuskirje.html" class="fs-6 link-secondary">3.5.2025</a></h2>
+<p>Kesän 2025 <a href="https://drive.google.com/file/d/1n31uLdwv-wMprkZU_RO6QH_N9F4WIViV/view">valmennuskirje</a>
+on julkaistu. Ratkaisut pyydetään palauttamaan viimeistään 1.9.2025.</p>
+<p><a href="/valmennus/">Kotitehtävät</a></p>
+<h2 id="kumpulan-matematiikkaleiri-3.5.2025" tabindex="-1">Kumpulan matematiikkaleiri <a href="/uutiset/2025-05-03-kumpulan-kesaleiri.html" class="fs-6 link-secondary">3.5.2025</a></h2>
+<p>Helsingin yliopiston matematiikan ja tilastotieteen osasto järjestää Kumpulassa
+lukiolaisille sopivan
+<a href="/kerhot/helsinki-kesa-2025/">matematiikkaleirin</a>
+10.–13. kesäkuuta.</p>
+<h2 id="helmikuun-valmennuskirjeen-ratkaisut-19.4.2025" tabindex="-1">Helmikuun valmennuskirjeen ratkaisut <a href="/uutiset/2025-04-19-helmikuun-ratkaisut.html" class="fs-6 link-secondary">19.4.2025</a></h2>
+<p>Helmikuun 2025 valmennuskirjeen
+<a href="https://drive.google.com/file/d/1BHI1PnrhQV--atWp4v7plqyD-WmYIS5U/view">ratkaisut</a>
+on julkaistu.
+Seuraavan kirjeen laadinta on vielä kesken.</p>
+<h2 id="valintaleirin-ilmoittautuminen-25.3.2025" tabindex="-1">Valintaleirin ilmoittautuminen <a href="/uutiset/2025-03-25-leirin-ilmoittautuminen.html" class="fs-6 link-secondary">25.3.2025</a></h2>
+<p>Valintaleiri jakautuu viikonloppukurssiin ja jatkona olevaan valintaleiriosaan.
+Valintaleiriosan ilmoittautuminen:
+<a href="https://paivola.fi/kurssit/matematiikkakilpavalmennus">Matematiikkakilpavalmennus, jatkoleiri</a></p>
+<h2 id="huhtikuun-2025-valmennusviikonloppu-ja-valintaleiri-23.3.2025" tabindex="-1">Huhtikuun 2025 valmennusviikonloppu ja valintaleiri <a href="/uutiset/2025-03-23-valmennusviikonloppu-ja-valintaleiri.html" class="fs-6 link-secondary">23.3.2025</a></h2>
+<p>Viikon 14 valmennusviikonloppu järjestetään tavalliseen tapaan 4.–6.
+huhtikuuta 2025. Samalla alkaa olympiajoukkueen valintaleiri, joka jatkuu keskiviikkoon 9.4. asti.
+Viikonlopun yläkerran ohjelma on samalla osa valintaleirin ohjelmaa.
+Valintaleirille on lähetetty kutsut erikseen.</p>
+<p>Valintaleiri järjestetään poikkeuksellisesti aikaisin, koska Australian
+viisumien hankkimisen ennakoidaan olevan hidasta. Joukkueen valinta tapahtunee
+vasta EGMO-kilpailun jälkeen.</p>
+<p><a href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2025-vk14">Ilmoittaudu Päivölään</a> 28.3. mennessä!</p>
+<h2 id="suomen-joukkue-egmo-2025--kilpailuun-25.2.2025" tabindex="-1">Suomen joukkue EGMO 2025 -kilpailuun <a href="/uutiset/2025-02-25-valittu-EGMO-joukkue.html" class="fs-6 link-secondary">25.2.2025</a></h2>
+<p>Suomen joukkuen vuoden 2025
+<a href="https://egmo2025.com/">Euroopan tyttöjen matematiikkaolympialaisiin</a>
+on valittu. Joukkueeseen valittiin
+<strong>Amelie Hao</strong>, <strong>Louna Kiuru</strong>, <strong>Emiliia Kruzenshtern</strong> ja <strong>Mariia Kurdina</strong>.</p>
+<h2 id="helmikuun-valmennuskirjett%C3%A4-korjattu-25.2.2025" tabindex="-1">Helmikuun valmennuskirjettä korjattu <a href="/uutiset/2025-02-25-helmikuun-valmennuskirjeen-korjauksia.html" class="fs-6 link-secondary">25.2.2025</a></h2>
+<p>Helmikuun 2025 <a href="https://drive.google.com/file/d/1Ba1MJuIXXhi04T8ua4caqfjDEai8-0PS/view">valmennuskirjettä</a>
+on korjattu:</p>
+<ul>
+<li>tehtävässä 8 on kyse vierekkäisten lukujen summista, ei ”tuloksista” ja</li>
+<li>tehtävässä 19 piste <em>H</em> on kolmion ortokeskus.</li>
+</ul>
+<p><a href="/valmennus/">Kotitehtäväsivulla</a> tiedotetaan kirjeistä löytyneistä virheistä.</p>
+<h2 id="helmikuun-valmennuskirje-julkaistu-20.2.2025" tabindex="-1">Helmikuun valmennuskirje julkaistu <a href="/uutiset/2025-02-20-helmikuun-valmennuskirje.html" class="fs-6 link-secondary">20.2.2025</a></h2>
+<p>Helmikuun 2025 <a href="https://drive.google.com/file/d/1Ba1MJuIXXhi04T8ua4caqfjDEai8-0PS/view">valmennuskirje</a>
+on julkaistu. Ratkaisut pyydetään palauttamaan viimeistään 4.4.2025.</p>
+<p>Joulukuun 2024 <a href="https://drive.google.com/file/d/1nWQLkWbkRwzIJNMbdjtabPWDd7Qe1u1v/view">ratkaisut</a>
+on myös julkaistu.</p>
+<p><a href="/valmennus/">Kotitehtävät</a></p>
+<h2 id="helmikuun-valmennusviikonloppu-14.2.2025" tabindex="-1">Helmikuun valmennusviikonloppu <a href="/uutiset/2025-02-14-valmennusviikonloppu-tulossa.html" class="fs-6 link-secondary">14.2.2025</a></h2>
+<p>Vuoden 2025 toinen valmennusviikonloppu järjestetään 21.–23.2.
+Ohjelmaa suunnitellaan vielä.</p>
+<p><a role="button" class="btn btn-primary btn-sm"
+href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2025-vk8">Ilmoittaudu Päivölään</a> 16.2. mennessä;
+<a href="/aikataulu/">Valmennuksen aikataulu</a></p>
+<h2 id="selvennys-valmennuskirjeen-teht%C3%A4v%C3%A4%C3%A4n-12-10.1.2025" tabindex="-1">Selvennys valmennuskirjeen tehtävään 12 <a href="/uutiset/2025-01-10-selvennys-tehtavaan.html" class="fs-6 link-secondary">10.1.2025</a></h2>
+<p>Selvennys joulukuun 2024 <a href="https://drive.google.com/file/d/1yIvpr6YRmTtPYjkYlABKszbdfqSZaDNo/view">valmennuskirjeen</a>
+tehtävään 12:
+se, että 3. asteen polynomin kaikki juuret ovat reaalisia
+tarkoittaa sitä, että polynomi voidaan kirjoittaa muodossa
+(<em>x</em> − <em>u</em><sub>1</sub>)(<em>x</em> − <em>u</em><sub>2</sub>)(<em>x</em> − <em>u</em><sub>3</sub>),
+missä jokainen <em>u</em><sub><em>i</em></sub> on reaaliluku.</p>
+<h2 id="korjaus-valmennuskirjeen-teht%C3%A4v%C3%A4%C3%A4n-13-10.1.2025" tabindex="-1">Korjaus valmennuskirjeen tehtävään 13 <a href="/uutiset/2025-01-10-korjaus-valmennuskirjeen-tehtavaan-13.html" class="fs-6 link-secondary">10.1.2025</a></h2>
+<p>Korjaus joulukuun 2024 <a href="https://drive.google.com/file/d/1yIvpr6YRmTtPYjkYlABKszbdfqSZaDNo/view">valmennuskirjeen</a>
+tehtävään 13: tehtävässä pitäisi lukea ”Onko olemassa 14 luonnollista lukua — —”,
+ts. kokonaisluvut eivät saa olla negatiivisia.</p>
+<h2 id="tammikuun-valmennusviikonloppu-28.12.2024" tabindex="-1">Tammikuun valmennusviikonloppu <a href="/uutiset/2024-12-28-valmennusviikonloppu-tulossa.html" class="fs-6 link-secondary">28.12.2024</a></h2>
+<p>Vuoden 2025 ensimmäinen valmennusviikonloppu järjestetään 10.–12.1.
+Alakerran ohjelmassa on geometriaa ja lukuteoriaa,
+yläkerrassa verkkoteoriaa, peliteoriaa ja epäyhtälöitä.</p>
+<p>Viikonlopun aikana järjestetään valmennuskoe, jonka tulokset
+otetaan huomioon kilpailuvalinnoissa. Varsinkin Pohjoismaiseen
+matematiikkakilpailuun ja EGMOon pyrkivien kannattaa osallistua.</p>
+<p><a
+href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2025-vk2">Ilmoittaudu Päivölään</a> 6.1. mennessä;
+<a href="/aikataulu/">Valmennuksen aikataulu</a></p>
+<h2 id="matemaattisen-ongelmanratkaisun-kurssi-19.12.2024" tabindex="-1">Matemaattisen ongelmanratkaisun kurssi <a href="/uutiset/2024-12-19-ongelmanratkaisukurssi.html" class="fs-6 link-secondary">19.12.2024</a></h2>
+<p>Voit nyt täydentää kirjevalmennusta suorittamalla Avoimessa yliopistossa <a href="/valmennus/ongelma">matemaattisen
+ongelmanratkaisun kurssin</a>.  Kurssi on opiskelijalle maksuton ja sen voi
+suorittaa omaan tahtiin. Suurin osa tehtävistä on automaattisesti tarkastettavia, mutta kurssin
+laajempi toteutus sisältää myös loppuprojektin, jossa harjoitellaan kirjoittamaan ratkaisuja.
+Kurssin suoritus voidaan ottaa huomioon joukkuevalinnoissa.</p>
+<h2 id="joulukuun-valmennuskirje-julkaistu-16.12.2024" tabindex="-1">Joulukuun valmennuskirje julkaistu <a href="/uutiset/2024-12-16-joulukuun-valmennuskirje.html" class="fs-6 link-secondary">16.12.2024</a></h2>
+<p>Joulukuun 2024 <a href="https://drive.google.com/file/d/1yIvpr6YRmTtPYjkYlABKszbdfqSZaDNo/view">valmennuskirje</a>
+on julkaistu. Ratkaisut pyydetään palauttamaan viimeistään 31.1.2025.</p>
+<h2 id="joulukuun-valmennusviikonloppu-29.11.2024" tabindex="-1">Joulukuun valmennusviikonloppu <a href="/uutiset/2024-11-29-valmennusviikonloppu-tulossa.html" class="fs-6 link-secondary">29.11.2024</a></h2>
+<p>Syksyn kolmas valmennusviikonloppu järjestetään 13.–15.12.2024.
+Alakerran ohjelmassa on lukuteoriaa ja kombinatoriikkaa,
+yläkerran ohjelmaa suunnitellaan vielä.</p>
+<p><a href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2024-vk50">Ilmoittaudu Päivölään</a> 5.12. mennessä;
+<a href="/aikataulu/">Valmennuksen aikataulu</a></p>
+<h2 id="marraskuun-valmennuskirjett%C3%A4-korjattu-17.11.2024" tabindex="-1">Marraskuun valmennuskirjettä korjattu <a href="/uutiset/2024-11-17-marraskuun-valmennuskirje.html" class="fs-6 link-secondary">17.11.2024</a></h2>
+<p>Marraskuun 2024 <a href="https://drive.google.com/file/d/14ScVYlYBn7fzkTqtYQc7szrws4DOrwNd/view">valmennuskirjeen</a>
+tehtävässä 12 oli virhe. Kyse on peräkkäisistä luvuista. Korjattu tiedosto löytyy samasta osoitteesta.</p>
+<h2 id="marraskuun-valmennuskirje-julkaistu-15.11.2024" tabindex="-1">Marraskuun valmennuskirje julkaistu <a href="/uutiset/2024-11-15-marraskuun-valmennuskirje.html" class="fs-6 link-secondary">15.11.2024</a></h2>
+<p>Marraskuun 2024 <a href="https://drive.google.com/file/d/14ScVYlYBn7fzkTqtYQc7szrws4DOrwNd/view">valmennuskirje</a>
+on julkaistu. Ratkaisut pyydetään palauttamaan viimeistään 15.12.2024.</p>
+<h2 id="syyskuun-valmennuskirje-julkaistu-1.9.2024" tabindex="-1">Syyskuun valmennuskirje julkaistu <a href="/uutiset/2024-09-01-syyskuun-valmennuskirje.html" class="fs-6 link-secondary">1.9.2024</a></h2>
+<p>Syyskuun 2024 <a href="https://drive.google.com/file/d/1UPyIAjAUP23RyrMWJvNNXl2BqlpjEx6u/view?usp=sharing">valmennuskirje</a>
+on julkaistu. Ratkaisut pyydetään palauttamaan viimeistään 25.10.2024.<br></p>
+<h2 id="valmennusviikonloppu-elo-syyskuun-vaihteessa-9.8.2024" tabindex="-1">Valmennusviikonloppu elo-syyskuun vaihteessa <a href="/uutiset/2024-08-09-valmennusviikonloppu.html" class="fs-6 link-secondary">9.8.2024</a></h2>
+<p>Syyskauden 2024 ensimmäinen valmennusviikonloppu pidetään Päivölässä 30.8.-1.9.
+Ohjelmassa on koe, jonka tulokset otetaan huomioon Baltian tie -joukkuetta valittaessa.
+Joukkuetta ei todennäköisesti ehditä valita valmennusviikonlopun aikana, vaan
+valittuihin otetaan yhteyttä sen jälkeen.</p>
+<p>Alakerran ohjelmassa on epäyhtälöitä ja kombinatorisia korttitemppuja.
+<a href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2024-vk35">Ilmoittaudu Päivölään!</a></p>
+<p><a href="/aikataulu/">valmennuksen aikataulu</a></p>
+<h2 id="imosta-hopeaa%2C-pronssia-ja-maryam-mirzakhani--erikoispalkinto-31.7.2024" tabindex="-1">IMOsta hopeaa, pronssia ja Maryam Mirzakhani -erikoispalkinto <a href="/uutiset/2024-07-31-IMO-tuloksia.html" class="fs-6 link-secondary">31.7.2024</a></h2>
+<p><strong>Aino Aulanko</strong> voitti hopeaa ja <strong>Zhongyi Li</strong> pronssia vuoden 2024 kansainvälisissä matematiikkaolympialaisissa.
+Aulanko sai myös <a href="https://www.imo-register.org.uk/mirzakhani-award.html">Maryam Mirzakhani -erikoispalkinnon</a>. Palkinto jaetaan kunkin maanosan parhaiten menestyneelle
+naiskilpailijalle. Se on nimetty Maryam Mirzakhanin mukaan, joka oli ensimmäinen Fieldsin mitalin saanut naismatemaatikko.
+Palkintoa on jaettu vuodesta 2017 lähtien, ja se tuli nyt ensimmäistä kertaa Pohjoismaihin.</p>
+<p>Matematiikkaolympialaiset järjestettiin 11.–22.7.2024 Bathissa, Iso-Britanniassa.
+Suomen menestystä täydensivät <strong>Albert Henrikssonin</strong>, <strong>Artúr Nádorin</strong> ja <strong>Siiri Roschierin</strong>
+kunniamaininnat. Joukkueen pistesaldoa kartutti myös <strong>Zhiyuan Liu</strong>.
+Kokonaiskilpailussa Suomi sijoittui 62. sijalle 108 osallistujamaan joukossa.</p>
+<p><a href="https://artofproblemsolving.com/community/c3921466_2024_lmo">Tehtävät</a>,
+<a href="https://www.imo-official.org/year_country_r.aspx?year=2024&amp;column=total&amp;order=desc">tulokset</a>,
+uutisointia: <a href="https://www.tek.fi/fi/uutiset-blogit/aino-aulanko-treenasi-juuri-kaytaviin-matematiikan-olympialaisiin-pekingissa-vaatimustaso-yllatti">TEK</a>,
+<a href="https://www.helsinki.fi/fi/matemaattis-luonnontieteellinen-tiedekunta/ajankohtaista/suomelle-hopeaa-ja-erikoispalkinto-matematiikkaolympialaisissa">Helsingin Yliopisto</a></p>
+<h2 id="kes%C3%A4n-valmennuskirje-julkaistu-9.6.2024" tabindex="-1">Kesän valmennuskirje julkaistu <a href="/uutiset/2024-06-09-kesan-valmennuskirje.html" class="fs-6 link-secondary">9.6.2024</a></h2>
+<p>Kesän 2024 <a href="http://matematiikkakilpailut.fi/valmennus/2023/2024_kesa.pdf">valmennuskirje</a> on julkaistu.
+Ratkaisut pyydetään palauttamaan viimeistään 1.9.2024.<br></p>
+<h2 id="joukkue-valittu-vuoden-2024-kansainv%C3%A4lisiin-matematiikkaolympialaisiin-17.5.2024" tabindex="-1">Joukkue valittu vuoden 2024 Kansainvälisiin matematiikkaolympialaisiin <a href="/uutiset/2024-05-17-IMO-2024-joukkue.html" class="fs-6 link-secondary">17.5.2024</a></h2>
+<p>Vuoden 2024 Kansainvälisissä matematiikkaolympialaisissa Suomea edustavat
+<strong>Daniil Akimov</strong>, <strong>Aino Aulanko</strong>, <strong>Albert Henriksson</strong>, <strong>Zhongyi Li</strong>, <strong>Artur Nador</strong> ja <strong>Siiri Roschier</strong>.</p>
+<h2 id="huhtikuun-valmennuskirjeen-palautusosoite-4.5.2024" tabindex="-1">Huhtikuun valmennuskirjeen palautusosoite <a href="/uutiset/2024-05-04-huhtikuun-kirjeen-palautus.html" class="fs-6 link-secondary">4.5.2024</a></h2>
+<p>Huhtikuun 2024 <a href="https://drive.google.com/file/d/1kZczqYsG8l9Fa1Kyqs3DxY5gQMFOfRNs/view">valmennuskirjeen</a>
+vastausosoite on muuttunut:
+palauta helpommat tehtävät Veera Nurmelalle <code>beepa.art@gmail.com</code>
+ja vaikeammat Nirmal Krishnanille <code>nirmal.krishnan@helsinki.fi</code>.</p>
+<h2 id="huhtikuun-valmennusviikonloppu%2C-viikko-17-20.4.2024" tabindex="-1">Huhtikuun valmennusviikonloppu, viikko 17 <a href="/uutiset/2024-04-20-valmennusviikonloppu-tulossa.html" class="fs-6 link-secondary">20.4.2024</a></h2>
+<p>Seuraava valmennusviikonloppu on Päivölän opistolla 26.–28.4.2024.</p>
+<p>Ohjelmassa on ainakin:</p>
+<ul>
+<li>verkkoteoriaa</li>
+<li>geometriaa</li>
+<li>polynomeja</li>
+<li>invarianssiperiaate</li>
+<li>Pythagoraan polku -joukkuekilpailu</li>
+</ul>
+<p>Ilmoittaudu pian! Ilmoittautumisaika päättyy maanantaiaamuna 22.4. klo 8.</p>
+<p><a href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2024-vk17">Ilmoittaudu Päivölään</a></p>
+<p><a href="/kaytanto/">Yleisiä ohjeita</a></p>
+<h2 id="suomeen-kultaa-euroopan-tytt%C3%B6jen-matematiikkaolympialaisista-17.4.2024" tabindex="-1">Suomeen kultaa Euroopan tyttöjen matematiikkaolympialaisista <a href="/uutiset/2024-04-17-EGMO-kultaa.html" class="fs-6 link-secondary">17.4.2024</a></h2>
+<p>Suomen <strong>Aino Aulanko</strong> oli paras eurooppalainen
+<a href="https://egmo2024.ge/">Euroopan tyttöjen vuoden 2024 matematiikkaolympialaisissa</a>.
+Vain vierailijamaa Yhdysvaltojen Hannah Fox ylsi
+korkeampaan pistemäärään 212 kilpailijan joukossa.
+Kultamitali on Suomen ensimmäinen.
+Loistavaa menestystä täydensi <strong>Siiri Roschier</strong> pronssimitalilla
+ja joukkueen pistepottia kartuttivat myös <strong>Amelie Hao</strong> ja <strong>Minea Tiitinen</strong>.</p>
+<p><a href="https://www.egmo.org/egmos/egmo13/">Tehtävät</a>, <a href="https://www.egmo.org/egmos/egmo13/scoreboard/">tulokset</a></p>
+<h2 id="huhtikuun-valmennuskirje-julkaistu-30.3.2024" tabindex="-1">Huhtikuun valmennuskirje julkaistu <a href="/uutiset/2024-03-30-huhtikuun-kirje.html" class="fs-6 link-secondary">30.3.2024</a></h2>
+<p>Huhtikuun 2024 <a href="https://drive.google.com/file/d/1kZczqYsG8l9Fa1Kyqs3DxY5gQMFOfRNs/view">valmennuskirje</a> on julkaistu.
+Ratkaisut pyydetään palauttamaan viimeistään 5.5.2024.<br>
+Helmikuun <a href="https://drive.google.com/file/d/1Q0vNEc9vi-b_xaxi-gfIzPTKXcFxoQYY/view">ratkaisut</a> on myös julkaistu.
+Palautetta vastanneille on tulossa huhtikuun ensimmäisellä viikolla.</p>
+<p><span lang="sv-FI"><a href="https://drive.google.com/file/d/1Qt6Mqssm5UXb4BP6pDeOPETeuPyS7zdH/view">Coachingbrevet</a> för april 2024 har publicerats.
+Vänligen returnera lösningarna senast den 5 maj 2024.<br>
+</span></p>
+<h2 id="pohjoismaille-hopeamitali-romanian-master-of-mathematicsista-28.3.2024" tabindex="-1">Pohjoismaille hopeamitali Romanian Master of Mathematicsista <a href="/uutiset/2024-03-28-RMM-hopeaa.html" class="fs-6 link-secondary">28.3.2024</a></h2>
+<p>Vuoden 2024 <a href="https://rmms.lbi.ro/rmm2024/">Romanian Master of Mathematics</a> -kilpailuun osallistui
+Pohjoismaista yhteinen joukkue, jossa Suomea edusti  <strong>Daniil Akimov</strong>.
+Hän sai hopeamitalin ja muillekin pohjoismaisille kilpailijoille
+annettiin kunniamaininnat.</p>
+<h2 id="helmikuun-2024-valmennusviikonloppu-14.2.2024" tabindex="-1">Helmikuun 2024 valmennusviikonloppu <a href="/uutiset/2024-02-14-NMCEGMO.html" class="fs-6 link-secondary">14.2.2024</a></h2>
+<p>Helmikuun valmennusviikonloppu pidetään Päivölässä 23–25.2. (viikolla 8).
+Ohjelmassa on koe, jonka tulokset otetaan huomioon sekä
+<a href="https://matematiikkakilpailut.fi/PM/">Pohjoismaisen matematiikkakilpailun</a>
+että Euroopan tyttöjen matematiikkaolympialaisten <a href="https://egmo2024.ge/">EGMOn</a>
+joukkuevalinnassa.</p>
+<p>Valintakoe tehdään valmennusviikonlopun yhteydessä, perjantaina 23.2.
+klo 18.30-21. Jos tämä aika ei sovi sinulle mutta haluat pyrkiä kilpailujoukkueisiin,
+ota yhteyttä osoitteeseen <a href="mailto:n.palojarvi@gmail.com">n.palojarvi@gmail.com</a>.
+Ensisijaisesti kyseeseen tulee kokeen tekeminen eri aikana valmennusviikonlopun
+kuluessa. Etäosallistuminen on mahdolista vain erityisestä syystä.</p>
+<p>Jos olet kiinnostunut ja kelpoinen osallistumaan EGMOon, ota valmennusviikonloppuun
+mukaan passi tai henkilökortti, jotta voimme kerätä osallistumisen ja
+matkajärjestelyjen edellyttämät tiedot. Kysy myös huoltajiltasi, antaisivatko he
+osallistumisluvan jos pääsisit joukkueeseen.
+UM:n <a href="https://um.fi/matkustustiedote/-/c/GE">matkustustiedotteen</a> mukaan Georgia
+on suhteellisen turvallinen matkailumaa.</p>
+<h2 id="helmikuun-valmennuskirje-julkaistu-8.2.2024" tabindex="-1">Helmikuun valmennuskirje julkaistu <a href="/uutiset/2024-02-08-helmikuun-kirje.html" class="fs-6 link-secondary">8.2.2024</a></h2>
+<p>Helmikuun 2024 <a href="https://drive.google.com/file/d/1LxNQZGeGjmKVhvMcLkqOpdpzwg4XJamu/view">valmennuskirje</a> on julkaistu.
+Ratkaisut pyydetään palauttamaan viimeistään 24.3.2024.</p>
+<p><span lang="sv-FI"><a href="https://drive.google.com/file/d/13T5soC6pXe_6FAHzcp6r2P3IW2vSWerm/view">Träningsuppgifter</a>, februari 2024.</span></p>
+<h2 id="vuodenvaihteen-valmennuskirje-julkaistu-22.12.2023" tabindex="-1">Vuodenvaihteen valmennuskirje julkaistu <a href="/uutiset/2023-12-22-vuodenvaihteen-kirje.html" class="fs-6 link-secondary">22.12.2023</a></h2>
+<p>Vuodenvaihteen 2023–2024 <a href="/valmennus/2023/kirje_2023_12.pdf">valmennuskirje</a> on julkaistu.
+Ratkaisut pyydetään palauttamaan viimeistään 31.1.2024.
+Huomaa, että helpommilla ja vaikeammilla tehtävillä on eri vastausosoitteet.</p>
+<h2 id="tammikuun-valmennusviikonloppu-17.12.2023" tabindex="-1">Tammikuun valmennusviikonloppu <a href="/uutiset/2023-12-17-valmennusviikonloppu-tulossa.html" class="fs-6 link-secondary">17.12.2023</a></h2>
+<p>Kevään ensimmäinen valmennusviikonloppu järjestetään 12.–14.1.2024.
+Ohjelma tarkentuu myöhemmin.
+<a
+  href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2024-vk2">Ilmoittaudu Päivölään.</a></p>
+<h2 id="emc-2023-9.12.2023" tabindex="-1">EMC 2023 <a href="/uutiset/2023-12-09-EMC.html" class="fs-6 link-secondary">9.12.2023</a></h2>
+<p><a href="https://emc.mnm.hr/">European Mathematical Cup EMC</a>
+järjestetään perjantaina 15.12. klo 12-16 Helsingin yliopiston
+Kumpulan kampuksella, osoite Pietari Kalmin katu 5.
+Lisätiedot ja ilmoittautuminen 14.12. mennessä: <a href="mailto:therealdanielarone@gmail.com">Daniel Arone</a>.</p>
+<p>Kohtuulliset matkakulut (yleensä halvimman mahdollisen julkisen kulkuneuvon avulla)
+Suomessa sijaitsevalta kotipaikkakunnalta korvataan.</p>
+<h2 id="joulukuun-valmennusviikonloppu-25.11.2023" tabindex="-1">Joulukuun valmennusviikonloppu <a href="/uutiset/2023-11-25-valmennusviikonloppu-tulossa.html" class="fs-6 link-secondary">25.11.2023</a></h2>
+<p>Syksyn kolmas valmennusviikonloppu järjestetään 8.–10.12.
+Alakerran ohjelmassa on modulaariaritmetiikkaa ja yleistä
+tehtävänratkaisua, yläkerran ohjelmassa kombinatoriikkaa.</p>
+<p><a href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2023-vk49">Ilmoittaudu Päivölään</a>;
+<a href="/aikataulu/">Valmennuksen aikataulu</a></p>
+<h2 id="lokakuun-valmennuskirje-julkaistu-23.10.2023" tabindex="-1">Lokakuun valmennuskirje julkaistu <a href="/uutiset/2023-10-23-lokakirje.html" class="fs-6 link-secondary">23.10.2023</a></h2>
+<p>Lokakuun 2023 <a href="/valmennus/2023/kirje_2023_10.pdf">valmennuskirje</a> on julkaistu.
+Ratkaisut pyydetään palauttamaan viimeistään 26.11.2023.<br>
+<span lang="sv"><a href="/valmennus/2023/brev_2023_10.pdf">Träningsuppgifter</a>, oktober 2023.</span></p>
+<p>Syyskuun kirjeen <a href="/valmennus/2023/ratkaisut_2023_09.pdf">ratkaisut</a> on myös julkaistu.</p>
+<h2 id="igo-11.10.2023" tabindex="-1">IGO <a href="/uutiset/2023-10-11-IGO.html" class="fs-6 link-secondary">11.10.2023</a></h2>
+<p><a href="https://igo-official.com/?lang=en">Iranin geometriakilpailu IGO:n</a>
+Suomen osuus järjestetään 20.10. klo 13:30-18:00 Helsingin yliopiston
+Kumpulan kampuksella, osoite Pietari Kalmin katu 5. Mukaan pääsevät kaikki halukkaat, ja ilmoittauta
+voi 14.10. mennessä sähköpostilla osoitteeseen <a href="mailto:nirmal.krishnan@helsinki.fi">nirmal.krishnan@helsinki.fi</a>.</p>
+<p>Kisassa kisataan kolmessa eri sarjassa: perustaso 7- ja 8-luokkalaisille, keskitaso 9-luokkalaisille
+ja lukion ensimmäisen vuoden opiskelijoille, ja vaikea taso lukion toisen ja kolmannen vuoden
+opiskelijoille. Vanhoja kisatehtäviä voi katsoa sivulta
+<a href="https://matematiikkakilpailut.fi/IGO/">https://matematiikkakilpailut.fi/IGO/</a>.</p>
+<h2 id="valmennuksen-taloustilanne-9.10.2023" tabindex="-1">Valmennuksen taloustilanne <a href="/uutiset/2023-10-09-taloustilanne.html" class="fs-6 link-secondary">9.10.2023</a></h2>
+<p>Matematiikkavalmennus on usein pystynyt tarjoamaan vähävaraisille valmennettaville taloudellista
+tukea valmennuksen majoituskuluihin ja matkoihin. Nyt (loppuvuonna 2023) valmennuksen
+rahoitustilanne on ikävä kyllä niin huono, että emme pysty tarjoamaan tätä tukea näköpiirissä
+olevassa tulevaisuudessa.</p>
+<h2 id="valmennusviikonloppu-lokakuun-puoliv%C3%A4liss%C3%A4-29.9.2023" tabindex="-1">Valmennusviikonloppu lokakuun puolivälissä <a href="/uutiset/2023-09-29-valmennusviikonloppu-tulossa.html" class="fs-6 link-secondary">29.9.2023</a></h2>
+<p>Syksyn toinen valmennusviikonloppu järjestetään 13.–15.10.
+Ohjelmassa on ainakin geometriaa ja Baltian tie -kilpailun
+valintakoe. Kaikkien Baltian tie -joukkueeseen pyrkivien
+kannattaa tulla paikalle.</p>
+<p><a href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2023-vk41">Ilmoittaudu Päivölään</a></p>
+<p><a href="/aikataulu/">valmennuksen aikataulu</a></p>
+<h2 id="syyskuun-valmennuskirjeess%C3%A4-virhe-26.9.2023" tabindex="-1">Syyskuun valmennuskirjeessä virhe <a href="/uutiset/2023-09-26-tehtavaa-korjattu.html" class="fs-6 link-secondary">26.9.2023</a></h2>
+<p>Syyskuun 2023 <a href="/valmennus/2023/kirje_2023_09.pdf">valmennuskirjeen</a> tehtävässä 14
+oli kirjoitusvirhe: vakion 4/9 oli tarkoitus olla 2/3.<br></p>
+<p><span lang="sv">I september 2023 <a href="/valmennus/2023/brev_2023_09.pdf">träningsbrevet</a> hade uppgift 14 ett skrivfel: konstanten 4/9 var menad att vara 2/3.</span></p>
+<h2 id="valmennuksen-uutiset-telegramin-kautta-16.9.2023" tabindex="-1">Valmennuksen uutiset Telegramin kautta <a href="/uutiset/2023-09-16-telegram.html" class="fs-6 link-secondary">16.9.2023</a></h2>
+<p>Valmennuksen uutisia voi nyt seurata Telegramin kautta.
+<a href="https://t.me/+2f_kP48QnVI2NGE0">Liity ryhmään</a> niin saat tiedon
+kotitehtäväkirjeistä ja tulossa olevista tapahtumista.</p>
+<p>Toinen keino seurata uutisia on valmennuksen <a href="/feed.xml">RSS-syöte</a>.
+Aiemmin oli tavallista, että selaimissa ja sähköpostiohjelmissa oli
+tuki RSS-syötteille, mutta nykyään tämä tuki on harvinaistunut,
+joten ohjasimme syötteen Telegram-ryhmään.
+<a href="https://www.lifewire.com/what-is-an-rss-feed-4684568">Englanninkielinen RSS-ohje</a>,
+suosittu <a href="https://feedly.com">Feedly-lukuohjelma</a>,
+<a href="https://en.wikipedia.org/wiki/Comparison_of_feed_aggregators">RSS-lukuohjelmien vertailu</a>.</p>
+<h2 id="helsingiss%C3%A4-matematiikkakerho-16.9.2023" tabindex="-1">Helsingissä matematiikkakerho <a href="/uutiset/2023-09-16-helsingin-kerho.html" class="fs-6 link-secondary">16.9.2023</a></h2>
+<p>Helsingissä järjestetään syksyllä
+lukiolaisille tarkoitettu haastava matematiikkakerho.
+Aiheina on esimerkiksi kombinatoriikkaa, epäyhtälöitä, irrationaalilukuja ja verkkoja.</p>
+<p>Kerho kokoontuu tiistaisin klo 18.00–19.30.
+<a href="https://www.lyyti.fi/reg/Lukion_matikkakerho_syksy_2023_0589">Ilmoittaudu tästä!</a></p>
+<h2 id="syyskuun-valmennuskirje-julkaistu-11.9.2023" tabindex="-1">Syyskuun valmennuskirje julkaistu <a href="/uutiset/2023-09-11-syyskirje.html" class="fs-6 link-secondary">11.9.2023</a></h2>
+<p>Syyskuun 2023 <a href="/valmennus/2023/kirje_2023_09.pdf">valmennuskirje</a> on julkaistu.
+Ratkaisut pyydetään palauttamaan viimeistään 15.10.2023.<br>
+<span lang="sv"><a href="/valmennus/2023/brev_2023_09.pdf">Träningsuppgifter</a>, september 2023.</span></p>
+<p>Kesän kirjeen <a href="/valmennus/2023/ratkaisut_2023_07.pdf">ratkaisut</a> on myös julkaistu.</p>
+<h2 id="valmennusviikonloppu-syyskuussa-20.8.2023" tabindex="-1">Valmennusviikonloppu syyskuussa <a href="/uutiset/2023-08-20-valmennusviikonloppu-tulossa.html" class="fs-6 link-secondary">20.8.2023</a></h2>
+<p>Syksyn ensimmäinen valmennus­viikon­loppu järjestetään ennakko­tiedoista
+poiketen jo 1.–3.9. Ohjelmassa on kombinatoriikkaa, luku­teoriaa,
+funktionaali­yhtälöitä, geometriaa ja harjoitus­koe. Baltian tie -kilpailun
+varsinainen valinta­koe on vasta seuraavalla kerralla.</p>
+<p><a href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2023-vk35">Ilmoittaudu Päivölään</a>;
+<a href="/aikataulu/">valmennuksen aikataulu</a></p>
+<h2 id="matematiikkaolympialaisista-kaksi-mitalia-20.8.2023" tabindex="-1">Matematiikkaolympialaisista kaksi mitalia <a href="/uutiset/2023-08-20-imo-hopeaa-ja-pronssia.html" class="fs-6 link-secondary">20.8.2023</a></h2>
+<p>Suomen <strong>Daniil Akimov</strong> voitti matematiikka­olympialaisissa hopea­mitalin ja <strong>Aino Aulanko</strong>
+pronssi­mitalin. Kaikki muut Suomen joukkueen jäsenet <strong>Kristian Latvanen</strong>, <strong>Jussi Marttinen</strong>,
+<strong>Siiri Roschier</strong> ja <strong>Daniel Slivinskiy</strong> saivat kunnia­maininnan.</p>
+<p>Yhteispisteissä Suomi tuli jaetulle 64. sijalle 112 osallistujamaasta; parhaiten menestyivät Kiina,
+USA ja Etelä-Korea.  Euroopan maista parhaan tuloksen sai Romania, jonka yhteispisteet ylsivät koko
+kilpailun neljännelle sijalle.</p>
+<p><a href="https://www.imo-official.org/year_country_r.aspx?year=2023">Kaikki tulokset</a>.</p>
+<h2 id="kes%C3%A4n-valmennuskirje-julkaistu-15.7.2023" tabindex="-1">Kesän valmennuskirje julkaistu <a href="/uutiset/2023-07-15-kesan-kirje.html" class="fs-6 link-secondary">15.7.2023</a></h2>
+<p>Kesän 2023 <a href="/valmennus/2023/kirje_2023_07.pdf">valmennuskirje</a> on julkaistu.
+Ratkaisut pyydetään palauttamaan viimeistään 31.8.2023.
+<span lang="sv"><a href="/valmennus/2023/brev_2023_07.pdf">Träningsuppgifter</a>, sommaren 2023.</span></p>
+<p>Huhtikuun kirjeen <a href="/valmennus/2023/ratkaisut_2023_04.pdf">ratkaisut</a> on myös julkaistu.</p>
+<h2 id="huhtikuun-valmennuskirjeeseen-ehtii-vastata-26.6.-asti-5.6.2023" tabindex="-1">Huhtikuun valmennuskirjeeseen ehtii vastata 26.6. asti <a href="/uutiset/2023-06-05-huhtikuun-kirjeeeen-ehtii-vastata.html" class="fs-6 link-secondary">5.6.2023</a></h2>
+<p>Huhtikuun 2023 <a href="/valmennus/2023/kirje_2023_04.pdf">valmennuskirjeen</a>
+ratkaisujen palautusaikaa on pidennetty 26.6. asti.</p>
+<h2 id="huhtikuun-valmennuskirje-julkaistu-20.4.2023" tabindex="-1">Huhtikuun valmennuskirje julkaistu <a href="/uutiset/2023-04-20-huhtikuun-kirje.html" class="fs-6 link-secondary">20.4.2023</a></h2>
+<p>Huhtikuun 2023 <a href="/valmennus/2023/kirje_2023_04.pdf">valmennuskirje</a> on julkaistu.
+Ratkaisut pyydetään palauttamaan viimeistään 28.5.2023.
+<a href="/valmennus/2023/brev_2023_04.pdf">Träningsuppgifter</a>, april 2023.</p>
+<p>Helmikuun kirjeen <a href="/valmennus/2023/ratkaisut_2023_02.pdf">ratkaisut</a> on myös julkaistu.</p>
+<h2 id="loistavaa-menestyst%C3%A4-euroopan-tytt%C3%B6jen-matematiikkaolympialaisissa-18.4.2023" tabindex="-1">Loistavaa menestystä Euroopan tyttöjen matematiikkaolympialaisissa <a href="/uutiset/2023-04-18-2023-04-18.html" class="fs-6 link-secondary">18.4.2023</a></h2>
+<p>Suomen joukkue menestyi loistavasti 13.-19.4.2023 Sloveniassa
+pidetyissä Euroopan tyttöjen matematiikkaolympialaisissa:
+<strong>Aino Aulanko</strong> palkittiin Suomen ensimmäisellä
+hopeamitalilla, <strong>Anni Tapionlinna</strong> voitti pronssia sekä
+<strong>Siiri Roschier</strong> ja <strong>Minea Tiitinen</strong> palkittiin
+kunniamaininnoilla. Joukkue teki Suomen EGMO-historiaa</p>
+<ul>
+<li>olemalla ensimmäinen täysi joukkue, jonka kaikki jäsenet palkittiin.</li>
+<li>olemalla ensimmäinen joukkue, joka sai yli yhden mitalin.</li>
+<li>keräämällä suurimman yhteispistemäärän (ja lähes kaksinkertaisti vanhan piste-ennätyksen vuodelta 2013).</li>
+<li>sijoittumalla parhaiten osallistujamäärään nähden. Suomen joukkueen sijoitus oli 16./38 Euroopan maiden ja 25./55 kaikkien osallistuneiden joukkueiden joukossa.</li>
+</ul>
+<p><a href="https://www.egmo.org/registration/2023/person?@template=scoreboard">Tulokset</a> ja <a href="https://www.egmo.org/egmos/egmo12/">tehtävät</a>.</p>
+<h2 id="helmikuun-valmennuskirje-julkaistu-5.3.2023" tabindex="-1">Helmikuun valmennuskirje julkaistu <a href="/uutiset/2023-03-05-helmikuun-kirje.html" class="fs-6 link-secondary">5.3.2023</a></h2>
+<p>Helmikuun 2023 <a href="/valmennus/2023/kirje_2023_02.pdf">valmennuskirje</a> on julkaistu.
+Ratkaisut pyydetään palauttamaan viimeistään 9.4.2023.
+<span lang="sv-FI"><a href="/valmennus/2023/brev_2023_02.pdf">Träningsuppgifter</a>, februari 2023.</span></p>
+<p>Tammikuun kirjeen <a href="/valmennus/2023/ratkaisut_2023_01.pdf">ratkaisut</a> on myös julkaistu.</p>
+<h2 id="suomen-joukkue-egmo-2023--kilpailuun-26.2.2023" tabindex="-1">Suomen joukkue EGMO 2023 -kilpailuun <a href="/uutiset/2023-02-26-EGMO2023-joukkue.html" class="fs-6 link-secondary">26.2.2023</a></h2>
+<p>Suomen joukkuen vuoden 2023 Euroopan tyttöjen matematiikkaolympialaisiin on valittu. Joukkueeseen valittiin Aino Aulanko,
+Siiri Roschier, Anni Tapionlinna ja Minea Tiitinen.</p>
+<h2 id="pyrkiminen-pohjoismaiseen-matematiikkakilpailuun-ja-euroopan-tytt%C3%B6jen-matematiikkaolympialaisiin-22.1.2023" tabindex="-1">Pyrkiminen pohjoismaiseen matematiikkakilpailuun ja Euroopan tyttöjen matematiikkaolympialaisiin <a href="/uutiset/2023-01-22-NMCEGMO.html" class="fs-6 link-secondary">22.1.2023</a></h2>
+<p>Mikäli olet kiinnostunut pyrkimään 30.3.2023 omissa kouluissa
+pidettävään pohjoismaiseen matematiikkakilpailuun tai
+13.-19.4.2023 Sloveniassa pidettäviin Euroopan tyttöjen
+matematiikkaolympialaisiin, niin suosittelemme:</p>
+<ul>
+<li>osallistumaan 24.-26.2. pidettävään valmennusviikonloppuun.
+Mikäli olet estynyt osallistumaan valmennusviikonloppuun,
+mutta halukas pyrkimään joukkueisiin, niin otathan
+yhteyttä Neea Palojärveen (n.palojarvi@gmail.com).</li>
+<li>Erityisesti pohjoismaista matematiikkakilpailua
+koskien ratkomaan <a href="https://matematiikkakilpailut.fi/valmennus/2023/kirje_2023_01.pdf">tammikuun valmennuskirjeen tehtäviä</a>
+(<a href="https://matematiikkakilpailut.fi/valmennus/2023/brev_2023_01.pdf">kirje ruotsiksi</a>).</li>
+</ul>
+<h2 id="tammikuun-valmennuskirje-julkaistu-21.1.2023" tabindex="-1">Tammikuun valmennuskirje julkaistu <a href="/uutiset/2023-01-21-tammikuun-kirje.html" class="fs-6 link-secondary">21.1.2023</a></h2>
+<p>Tammikuun 2023 <a href="/valmennus/2023/kirje_2023_01.pdf">valmennuskirje</a> on julkaistu.
+Ratkaisut pyydetään palauttamaan viimeistään 26.2.2023.</p>
+<p>Joulukuun kirjeen <a href="/valmennus/2022/ratkaisut_2022_12.pdf">ratkaisut</a> on myös julkaistu.</p>
+<h2 id="edustaja-valittu-vuoden-2023-romanian-master-of-mathematicsiin-21.1.2023" tabindex="-1">Edustaja valittu vuoden 2023 Romanian Master of Mathematicsiin <a href="/uutiset/2023-01-21-RMM-edustaja.html" class="fs-6 link-secondary">21.1.2023</a></h2>
+<p>Vuoden 2023 <a href="https://rmms.lbi.ro/rmm2023/">Romanian Master of Mathematics</a> -kilpailuun lähetetään Pohjoismaista
+yhteinen joukkue, johon on valittu Suomen edustajaksi  <strong>Aino Aulanko</strong>.</p>
+<h2 id="muista-ilmoittautua-valmennusviikonloppuun-6.1.2023" tabindex="-1">Muista ilmoittautua valmennusviikonloppuun <a href="/uutiset/2023-01-06-valmennusviikonloppu-tulossa.html" class="fs-6 link-secondary">6.1.2023</a></h2>
+<p>Kevään ensimmäisessä valmennusviikonlopussa 13.-15.1.2023 järjestetään muun ohjelman
+ohessa koe, jolla valitaan Romanian Master of Mathematics -kilpailun
+Pohjoismaiden joukkueen Suomen edustaja.
+<a href="https://www.paivola.fi/fi/course/450">Ilmoittaudu Päivölään</a></p>
+<h2 id="joulun-valmennuskirje-julkaistu-6.12.2022" tabindex="-1">Joulun valmennuskirje julkaistu <a href="/uutiset/2022-12-06-joulukuun-kirje.html" class="fs-6 link-secondary">6.12.2022</a></h2>
+<p>Joulun 2022 <a href="/valmennus/2022/kirje_2022_12.pdf">valmennuskirje</a> on julkaistu.
+Ratkaisut pyydetään palauttamaan viimeistään 15.1.2023.</p>
+<p>Lokakuun kirjeen <a href="/valmennus/2022/ratkaisut_2022_10.pdf">ratkaisut</a> on myös julkaistu.</p>
+<h2 id="lokakuun-valmennuskirje-julkaistu-26.10.2022" tabindex="-1">Lokakuun valmennuskirje julkaistu <a href="/uutiset/2022-10-26-lokakuun-kirje.html" class="fs-6 link-secondary">26.10.2022</a></h2>
+<p>Lokakuun 2022 <a href="/valmennus/2022/kirje_2022_10.pdf">valmennuskirje</a> on julkaistu.
+Ratkaisut pyydetään palauttamaan viimeistään 4.12.2022.</p>
+<p>Syyskuun kirjeen <a href="/valmennus/2022/ratkaisut_2022_09.pdf">ratkaisut</a> on myös julkaistu.</p>
+<h2 id="kilpamatematiikan-peruskurssi-julkaistu-21.10.2022" tabindex="-1">Kilpamatematiikan peruskurssi julkaistu <a href="/uutiset/2022-10-21-kilpamatematiikan-peruskurssi.html" class="fs-6 link-secondary">21.10.2022</a></h2>
+<p><a href="https://kurssi.matematiikkakilpailut.fi">Kilpamatematiikan peruskurssi</a>
+sisältää paljon materiaalia esimerkiksi MAOLin kilpailuun valmistautumiseen.</p>
+<h2 id="baltian-tie--joukkue-valittu-22.9.2022" tabindex="-1">Baltian tie -joukkue valittu <a href="/uutiset/2022-09-22-baltian-tie-joukkue.html" class="fs-6 link-secondary">22.9.2022</a></h2>
+<p>Vuoden 2022 Baltian tie -kilpailun joukkueeseen on valittu
+Aino Aulanko, Kristian Latvanen, Xiangyu Li, Jussi Marttinen ja Anni Tapionlinna.
+Kilpailu järjestetään <a href="https://balticway2022.no">Tromssassa</a> 10.–14. marraskuuta.</p>
+<h2 id="syyskuun-valmennuskirje-julkaistu-12.9.2022" tabindex="-1">Syyskuun valmennuskirje julkaistu <a href="/uutiset/2022-09-12-syyskuun-kirje.html" class="fs-6 link-secondary">12.9.2022</a></h2>
+<p>Syyskuun 2022 <a href="/valmennus/2022/kirje_2022_09.pdf">valmennuskirje</a> on julkaistu.
+Ratkaisut pyydetään palauttamaan viimeistään 23.10.2022.</p>
+<p>Kesän kirjeen <a href="/valmennus/2022/ratkaisut_2022_06.pdf">ratkaisut</a> on myös julkaistu.</p>
+<h2 id="muista-ilmoittautua-valmennusviikonloppuun-2.9.2022" tabindex="-1">Muista ilmoittautua valmennusviikonloppuun <a href="/uutiset/2022-09-02-valmennusviikonloppu-tulossa.html" class="fs-6 link-secondary">2.9.2022</a></h2>
+<p>Syksyn ensimmäisessä valmennusviikonlopussa järjestetään muun ohjelman
+ohessa valintakoe Baltian tie -kilpailuun.</p>
+<h2 id="ylen-artikkeli-8.8.2022" tabindex="-1">Ylen artikkeli <a href="/uutiset/2022-08-08-YLE.html" class="fs-6 link-secondary">8.8.2022</a></h2>
+<p>Matematiikkavalmennuksen valmentajaa Ville Uotilaa
+ja tietotekniikan olympiaedustajaa Elias Simojokea
+haastateltiin Ylen artikkeliin.
+Lue artikkeli <a href="https://yle.fi/uutiset/3-12566073">täältä</a>.</p>
+<h2 id="n%C3%A4kyvyytt%C3%A4-mediassa-3.8.2022" tabindex="-1">Näkyvyyttä mediassa <a href="/uutiset/2022-08-03-medianakyvyytta.html" class="fs-6 link-secondary">3.8.2022</a></h2>
+<p>Keskiviikkona 3.8.2022 Ylen aamussa ja MTV Uutisaamussa keskusteltiin tiedeolympialaisista. Mukana Ylen aamussa oli valmentajamme
+Neea Palojärvi ja MTV Uutisaamussa valmentajamme Ville Uotila. Lähetykset ovat katsottavissa Yle Areenassa ja MTV Katsomossa.</p>
+<p><a href="https://areena.yle.fi/1-63156332">Yle areena</a></p>
+<p><a href="https://www.mtv.fi/sarja/uutisaamu-33001003008/tiedeolympialaiset-ovat-ponnahduslauta-huippukoulutukseen-1638366">MTV Katsomo</a></p>
+<h2 id="matematiikkaolympialaisista-pronssia-16.7.2022" tabindex="-1">Matematiikkaolympialaisista pronssia <a href="/uutiset/2022-07-16-matematiikkaolympialaisista-pronssia.html" class="fs-6 link-secondary">16.7.2022</a></h2>
+<p>Vuoden 2022 matematiikkaolympialaisista saatiin yksi pronssimitali ja neljä kunniamainintaa.</p>
+<p><a href="/IMO/2022/teht2022.pdf">Tehtävät</a>,
+<a href="https://www.imo-official.org/team_r.aspx?code=FIN&amp;year=2022">viralliset tulokset</a>.</p>
+<h2 id="kes%C3%A4n-valmennuskirje-ja-huhtikuun-ratkaisut-julkaistu-30.6.2022" tabindex="-1">Kesän valmennuskirje ja huhtikuun ratkaisut julkaistu <a href="/uutiset/2022-06-30-kesan-kirje.html" class="fs-6 link-secondary">30.6.2022</a></h2>
+<p>Kesän 2022 <a href="/valmennus/2022/kirje_2022_06.pdf">valmennuskirje</a> on
+julkaistu. Ratkaisut pyydetään palauttamaan
+viimeistään 11.9.2022.</p>
+<p>Huhtikuun 2022 <a href="/valmennus/2022/ratkaisut_2022_04.pdf">ratkaisut</a> on
+myös julkaistu.</p>
+<h2 id="joukkue-valittu-vuoden-2022-kansainv%C3%A4lisiin-matematiikkaolympialaisiin-15.5.2022" tabindex="-1">Joukkue valittu vuoden 2022 Kansainvälisiin Matematiikkaolympialaisiin <a href="/uutiset/2022-05-15-IMO-2022-joukkue.html" class="fs-6 link-secondary">15.5.2022</a></h2>
+<p>Valitsimme vuoden 2022 Kansainvälisiin Matematiikkaolympialaisiin Suomea edustamaan oppilaat <strong>Into Almiala</strong>, <strong>Juho Arala</strong>, <strong>Aino Aulanko</strong>, <strong>Kristian Latvanen</strong>, <strong>Jussi Marttinen</strong> ja <strong>Sampo Siitonen</strong>.</p>
+<h2 id="huhtikuun-valmennuskirje-ja-aiempien-kirjeiden-ratkaisuita-julkaistu-30.4.2022" tabindex="-1">Huhtikuun valmennuskirje ja aiempien kirjeiden ratkaisuita julkaistu <a href="/uutiset/2022-04-30-huhtikuun-kirje.html" class="fs-6 link-secondary">30.4.2022</a></h2>
+<p>Huhtikuun 2022 <a href="/valmennus/2022/kirje_2022_04.pdf">valmennuskirje</a> on
+julkaistu. <a href="/valmennus/2022/brev_2022_04.pdf">Träningsuppgifter, april 2022</a>. Ratkaisut pyydetään palauttamaan
+viimeistään 23.6.2022 eli juuri ennen juhannusaattoa.</p>
+<p><a href="https://matematiikkakilpailut.fi/valmennus/">Valmennuskirjeiden sivulle</a> on myös julkaistu syyskuun 2021-helmikuun 2022 valmennustehtäväsarjojen ratkaisut.</p>
+<h2 id="euroopan-tytt%C3%B6jen-matematiikkaolympialaiset-2022-15.4.2022" tabindex="-1">Euroopan tyttöjen matematiikkaolympialaiset 2022 <a href="/uutiset/2022-04-15-EGMO-2022.html" class="fs-6 link-secondary">15.4.2022</a></h2>
+<p><strong>Aino Aulanko</strong>, <strong>Siiri Roschier</strong>, <strong>Anni
+Tapionlinna</strong> ja <strong>Minea Tiitinen</strong> edustivat Suomea
+<a href="https://egmo2022.hu/">vuoden 2022 Euroopan tyttöjen matematiikkaolympialaisissa</a>
+6.-12.4.2022. Suomalaiset osallistuivat kilpailun lähiversioon
+Egerissä, Unkarissa. Suomen
+joukkue oli 29. osallistuneista 31 Euroopan maasta ja 50. kaikista
+osallistuneista 57 joukkueesta. <a href="https://www.egmo.org/egmos/egmo11/">Tehtävät ja
+ratkaisut</a> sekä
+<a href="https://www.egmo.org/egmos/egmo11/scoreboard/">tulokset</a>.</p>
+<h2 id="vappuaaton-valmennustapahtuma-p%C3%A4iv%C3%B6l%C3%A4ss%C3%A4-8.4.2022" tabindex="-1">Vappuaaton valmennustapahtuma Päivölässä <a href="/uutiset/2022-04-08-vappuaaton-valmennus.html" class="fs-6 link-secondary">8.4.2022</a></h2>
+<p>Seuraava valmennustapahtuma on pitkästä aikaa Päivölässä,
+tällä kertaa lyhennettynä, jotta kaikki ehtivät viettää vappua.
+Ajankohta on siis 29.–30.4., alkamisaika noin klo 18.30
+ja päättymisaika noin klo 17.00. Tapahtuman hinta on 45 €
+ja ilmoittautuminen tapahtuu
+<a href="https://www.paivola.fi/fi/course/422">Päivölän kurssisivun kautta</a>.</p>
+<h2 id="huhtikuun-valmennusviikonvaihde-siirtyy-28.3.2022" tabindex="-1">Huhtikuun valmennusviikonvaihde siirtyy <a href="/uutiset/2022-03-28-huhtikuun-viikonvaihde-siirtyy.html" class="fs-6 link-secondary">28.3.2022</a></h2>
+<p>Viikolle 14 aiottu valmennusviikonvaihde  (7.–9.4.2022) peruuntuu
+aikatauluongelmien vuoksi: mm. EGMO-kilpailu tapahtuu samaan aikaan.
+Sen sijaan järjestetään lyhennetty valmennustapahtuma 29.–30.4.,
+josta ehtii vielä kotiin viettämään vappua. Tapahtuma järjestetään
+Päivölässä, ja lisätietoa tulee lähiaikoina.</p>
+<h2 id="helmikuun-valmennuskirje-julkaistu-27.2.2022" tabindex="-1">Helmikuun valmennuskirje julkaistu <a href="/uutiset/2022-02-27-helmikuun-kirje.html" class="fs-6 link-secondary">27.2.2022</a></h2>
+<p>Helmikuun 2022 <a href="/valmennus/2022/kirje_2022_02.pdf">valmennuskirje</a> on
+julkaistu. <a href="/valmennus/2022/brev_2022_02.pdf">Träningsuppgifter, februari 2022</a>. Ratkaisut pyydetään palauttamaan
+viimeistään 24.4.2022.</p>
+<h2 id="helmikuun-valmennusviikonlopun-ilmoittautuminen-on-auki-12.2.2022" tabindex="-1">Helmikuun valmennusviikonlopun ilmoittautuminen on auki <a href="/uutiset/2022-02-12-helmikuun-valmennus.html" class="fs-6 link-secondary">12.2.2022</a></h2>
+<p><a href="https://www.eventbrite.fi/e/matematiikan-valmennusviikonloppu-25272-tickets-263580976797">Ilmoittautuminen</a>
+etänä pidettävään valmennusviikonloppuun 25.-27.2.2022 on avattu. Ilmoittautuminen päättyy perjantaina 27.2. klo 17:00.</p>
+<h2 id="tammikuun-valmennuskirje-julkaistu-31.1.2022" tabindex="-1">Tammikuun valmennuskirje julkaistu <a href="/uutiset/2022-01-31-tammikuun-kirje.html" class="fs-6 link-secondary">31.1.2022</a></h2>
+<p>Tammikuun 2022 <a href="/valmennus/2022/kirje_2022_01.pdf">valmennuskirje</a> on
+julkaistu. Kirje ilmestyy myöhemmin myös ruotsiksi. Ratkaisut pyydetään palauttamaan
+viimeistään 25.2.2022. <b>Lisäys 6.1.2022:</b> Också <a href="/valmennus/2022/brev_2022_01.pdf">på svenska</a>.</p>
+<h2 id="valmennusviikonloppu-et%C3%A4n%C3%A4-14.-16.1.2022-9.1.2022" tabindex="-1">Valmennusviikonloppu etänä 14.-16.1.2022 <a href="/uutiset/2022-01-09-viikko2.html" class="fs-6 link-secondary">9.1.2022</a></h2>
+<p>Tammikuun valmennusviikonloppu pidetään etänä. Ilmoittautuminen
+<a href="https://www.eventbrite.fi/e/matematiikan-valmennusviikonloppu-14-1612022-tickets-236143580807">Eventbriten</a>
+kautta tai <a href="/aikataulu/">aikataulusivun</a> painikkeella. Ilmoittautumiseen
+voit käyttää Google-tunnusta tai tehdä erillisen tunnuksen Eventbriteen
+sähköpostiosoitteen avulla.</p>
+<p>Valmennus koostuu luennoista, harjoitustehtävistä ja
+ryhmätyöskentelystä. Tarvitset tavalliset kirjoitus- ja
+piirtämisvälineet (kynän, kumin, paperia, viivaimen, joskus
+mahdollisesti harpin) ja jonkin tavan päästä mukaan
+Zoom-neuvotteluun. Tietokoneisiin, älypuhelimiin ja tabletteihin on
+saatavilla <a href="https://zoom.us/download#client_4meeting">Zoom-sovellus</a>.</p>
+<p>Alakerran ohjelma: geometriaa ja hieman lukuteoriaa</p>
+<p>Yläkerran ohjelma: lukuteoriaa (Gaussin ja Eisensteinin kokonaisluvut),
+geometriaa, englanniksi kombinatoriikkaa ja algoritmeja</p>
+<p>Ohjelma alkaa perjantaina klo 19 ja jatkuu sunnuntaihin klo 15 asti. Taukoja on paljon.</p>
+<h2 id="marraskuun-valmennuskirje-on-julkaistu.-3.12.2021" tabindex="-1">Marraskuun valmennuskirje on julkaistu. <a href="/uutiset/2021-12-03-marraskuun-valmennuskirje.html" class="fs-6 link-secondary">3.12.2021</a></h2>
+<p>Marraskuun valmennustehtävät löytyvät suomeksi <a href="https://matematiikkakilpailut.fi/valmennus/2021/kirje_2021_11.pdf">täältä</a>. Se <a href="https://matematiikkakilpailut.fi/valmennus/2021/brev_2021_11.pdf">upppgiftsseriepaket november 2021</a>.
+Ratkaisut pyydetään palauttamaan 12.1.2022 mennessä.</p>
+<h2 id="valmennusviikonloppu-et%C3%A4n%C3%A4-3.-5.12.2021-2.12.2021" tabindex="-1">Valmennusviikonloppu <strong>ETÄNÄ</strong> 3.-5.12.2021 <a href="/uutiset/2021-12-02-viikko48.html" class="fs-6 link-secondary">2.12.2021</a></h2>
+<p>Seuraava valmennusviikonloppu järjestetään
+sittenkin etänä pahentuneen koronatilanteen takia.
+Ilmoittautuminen <a href="https://www.eventbrite.fi/e/matematiikan-valmennusviikonloppu-3-5122021-tickets-221506801807">Eventbriten kautta</a>
+<strong>pe 3.12. klo 17.00 mennessä</strong>.</p>
+<h2 id="valmennusviikonloppu-22.-24.10.2021-et%C3%A4n%C3%A4-14.10.2021" tabindex="-1">Valmennusviikonloppu 22.-24.10.2021 etänä <a href="/uutiset/2021-10-14-viikko42.html" class="fs-6 link-secondary">14.10.2021</a></h2>
+<p>Valmennusviikonloppu 22.-24.10.2021 pidetään etänä. Ilmoittautuminen <a href="https://www.eventbrite.com/e/matematiikan-valmennusviikonloppu-tickets-188248996817">Eventbrite-sivuston kautta</a> Google-tunnuksilla tai sähköpostin avulla kirjautumalla.</p>
+<h2 id="syyskuun-valmennuskirje-julkaistu%2C-ocks%C3%A5-p%C3%A5-svenska-23.9.2021" tabindex="-1">Syyskuun valmennuskirje julkaistu, också på svenska <a href="/uutiset/2021-09-23-syyskuun-kirje.html" class="fs-6 link-secondary">23.9.2021</a></h2>
+<p>Syyskuun 2021 <a href="/valmennus/2021/kirje_2021_09.pdf">valmennuskirje</a> on julkaistu. Se <a href="/valmennus/2021/brev_2021_09.pdf">träningsuppgifter också på svenska</a>.</p>
+<h2 id="paikalliset-matematiikkakerhot-jatkavat-syksyll%C3%A4-2021-22.9.2021" tabindex="-1">Paikalliset matematiikkakerhot jatkavat syksyllä 2021 <a href="/uutiset/2021-09-22-kerhot-jatkavat.html" class="fs-6 link-secondary">22.9.2021</a></h2>
+<p>Alueelliset matematiikkakerhot jatkavat syksyllä 2021. Lisätiedot kunkin kerhon sivulta:</p>
+<ul>
+<li><a href="/kerhot/helsinki">Helsinki</a></li>
+<li><a href="/kerhot/abo">Åbo</a></li>
+<li><a href="/kerhot/ita-suomi/">Itä-Suomi</a></li>
+<li><a href="/kerhot/oulu/">Oulu</a></li>
+<li><a href="/kerhot/tampere/">Tampere</a></li>
+</ul>
+<h2 id="baltian-tie-j%C3%A4rjestet%C3%A4%C3%A4n-paikan-p%C3%A4%C3%A4ll%C3%A4-reykjav%C3%ADkissa-25.8.2021" tabindex="-1">Baltian tie järjestetään paikan päällä Reykjavíkissa <a href="/uutiset/2021-08-25-baltian-tie-reykjavikissa.html" class="fs-6 link-secondary">25.8.2021</a></h2>
+<p><a href="https://sites.google.com/view/balticway2021/home">Baltian tie -joukkuekilpailu</a> järjestetään
+11.-15. marraskuuta 2021 Islannin Reykjavíkissa. Islannin
+<a href="https://www.covid.is/sub-categories/vaccination-and-antibodies">matkustusrajoituksista</a>
+johtuen joukkueeseen voidaan valita vain henkilöitä, jotka ovat joko saaneet molemmat
+koronarokoteannokset viimeistään 14 päivää ennen matkaa tai sairastaneet koronataudin.
+Nämä täytyy pystyä todistamaan Islannin viranomaisten hyväksymällä todistuksella, ja
+lisäksi täytyy käydä testissä vähän ennen matkalle lähtöä.</p>
+<h2 id="valmennusviikonloppu-10.-12.9.2021-et%C3%A4n%C3%A4-24.8.2021" tabindex="-1">Valmennusviikonloppu 10.-12.9.2021 etänä <a href="/uutiset/2021-08-24-viikko36.html" class="fs-6 link-secondary">24.8.2021</a></h2>
+<p>Valmennusviikonloppu 10.-12.9.2021 pidetään etänä. Viikonloppuna pidetään myös koe, jonka tuloksia käytetään apuna vuoden 2021 Baltian tien joukkuevalintaa tehdessä. <a href="https://matematiikkakilpailut.fi/aikataulu/2021W36/">Lisätiedot ja ilmoittautuminen</a>.</p>
+<h2 id="matematiikkaolympialaisista-pronssimitali-28.7.2021" tabindex="-1">Matematiikkaolympialaisista pronssimitali <a href="/uutiset/2021-07-28-imo-pronssimitali.html" class="fs-6 link-secondary">28.7.2021</a></h2>
+<p><strong>Ville Uotila</strong> voitti matematiikkaolympialaisissa pronssimitalin ja
+<strong>Daniel Arone</strong>, <strong>Juho Arala</strong> ja <strong>Sampo Siitonen</strong> kunniamaininnat.
+<a href="https://www.imo-official.org/year_country_r.aspx?year=2021">Kaikki tulokset</a>.</p>
+<h2 id="kes%C3%A4n-valmennuskirje-julkaistu-24.6.2021" tabindex="-1">Kesän valmennuskirje julkaistu <a href="/uutiset/2021-06-24-kesan-valmennuskirje.html" class="fs-6 link-secondary">24.6.2021</a></h2>
+<p>Kesän 2021 <a href="/valmennus/2021/kirje_2021_06.pdf">valmennuskirje</a> on julkaistu.</p>
+<h2 id="kolmoisvoitto-pohjoismaisesta-kilpailusta-16.6.2021" tabindex="-1">Kolmoisvoitto Pohjoismaisesta kilpailusta <a href="/uutiset/2021-06-16-pm-kolmoisvoitto.html" class="fs-6 link-secondary">16.6.2021</a></h2>
+<p><strong>Juho Arala</strong>, <strong>Daniel Arone</strong> ja <strong>Sampo Siitonen</strong> toivat loistavan
+kolmoisvoiton Suomeen vuoden 2021 Pohjoismaisessa
+matematiikkakilpailussa. Myös <strong>Ville Uotila</strong> sijoittui kymmenen
+parhaan joukkoon tulemalla hienosti kahdeksanneksi. <a href="http://www.georgmohr.dk/nmcperm/res/2021.html">Parhaiden
+tulokset</a> ja <a href="http://www.georgmohr.dk/nmcperm/probl/">tehtävät
+ratkaisuneen</a>.</p>
+<h2 id="yl%C3%A4koululaisten-kes%C3%A4leirin-ilmoittautuminen-avattu-22.5.2021" tabindex="-1">Yläkoululaisten kesäleirin ilmoittautuminen avattu <a href="/uutiset/2021-05-22-ylakoululaisten-kesaleiri.html" class="fs-6 link-secondary">22.5.2021</a></h2>
+<p>Yläkoululaisten kesäleirin 11.-13.6.2021 ilmoittautuminen on nyt avattu!
+Leiri pidetään etänä ja on suunnattu kaikille keväällä 2021 yläkoulussa
+olleille.
+<a href="https://matematiikkakilpailut.fi/aikataulu/YlaKesa2021/">Lisätiedot ja ilmoittautuminen</a>.</p>
+<h2 id="suomi-menestyi-tytt%C3%B6jen-matematiikkaolympialaisissa-19.4.2021" tabindex="-1">Suomi menestyi tyttöjen matematiikkaolympialaisissa <a href="/uutiset/2021-04-19-egmo-tulokset.html" class="fs-6 link-secondary">19.4.2021</a></h2>
+<p>Vuoden <a href="https://egmo2021.atsu.edu.ge/">2021 Euroopan tyttöjen
+matematiikkaolympialaisissa</a> Suomea
+edustivat <strong>Aino Aulanko</strong>, <strong>Veera Nurmela</strong>, <strong>Tianyue Sun</strong> ja <strong>Anni
+Tapionlinna</strong>. Kilpailu pidettiin virtuaalisena ja järjestäjämaana toimi
+Georgia. Nurmela oli paras Pohjoismaiden edustajista, ja Suomi oli
+toista vuotta peräkkäin paras osallistuneista Pohjoismaista. Suomen
+joukkue oli 30. osallistuneista 37 Euroopan maasta ja 45. kaikista
+osallistuneista 55 joukkueesta. <a href="https://www.egmo.org/egmos/egmo10/">Tehtävät ja
+ratkaisut</a> sekä
+<a href="https://www.egmo.org/egmos/egmo10/scoreboard/">tulokset</a>.</p>
+<h2 id="huhtikuun-valmennusviikonloppu-et%C3%A4n%C3%A4-12.4.2021" tabindex="-1">Huhtikuun valmennusviikonloppu etänä <a href="/uutiset/2021-04-12-huhtikuun-viikonloppu-etana.html" class="fs-6 link-secondary">12.4.2021</a></h2>
+<p>Huhtikuun valmennusviikonloppu 17.-18.4.2021. järjestetään
+etänä. <a href="/aikataulu/2021W15/">Lisätietoja ja ilmoittautuminen: klikkaa
+tästä</a>.</p>
+<h2 id="maaliskuun-valmennuskirje-julkaistu-23.3.2021" tabindex="-1">Maaliskuun valmennuskirje julkaistu <a href="/uutiset/2021-03-23-maaliskuun-kirje.html" class="fs-6 link-secondary">23.3.2021</a></h2>
+<p>Maaliskuun 2021 <a href="/valmennus/2021/kirje_2021_03.pdf">valmennuskirje</a> on
+julkaistu.</p>
+<h2 id="tytt%C3%B6jen-matematiikkaolympialaisten-joukkue-valittu-19.3.2021" tabindex="-1">Tyttöjen matematiikkaolympialaisten joukkue valittu <a href="/uutiset/2021-03-19-egmo-joukkue.html" class="fs-6 link-secondary">19.3.2021</a></h2>
+<p><strong>Aino Aulanko</strong>, <strong>Veera Nurmela</strong>, <strong>Tianyue Sun</strong> ja <strong>Anni
+Tapionlinna</strong> valittiin edustamaan Suomea <a href="https://egmo2021.atsu.edu.ge/">kymmenensiin Euroopan
+tyttöjen matematiikkaolympialaisiin</a>.
+Kilpailut pidetään 9.-15.4.2021 virtuaalisesti pandemian takia.
+Georgia toimii järjestäjämaana.</p>
+<h2 id="helmikuun-valmennusviikonloppu-et%C3%A4n%C3%A4-16.2.2021" tabindex="-1">Helmikuun valmennusviikonloppu etänä <a href="/uutiset/2021-02-16-helmikuun-viikonloppu-etana.html" class="fs-6 link-secondary">16.2.2021</a></h2>
+<p>Helmikuun valmennusviikonloppu 26.-28.2.2021. järjestetään
+etänä. <a href="/aikataulu/2021W08/">Lisätietoja ja ilmoittautuminen: klikkaa
+tästä</a>.</p>
+<h2 id="baltian-tiess%C3%A4-nelj%C3%A4s-sija-17.11.2020" tabindex="-1">Baltian tiessä neljäs sija <a href="/uutiset/2020-11-17-baltian-tie-tulokset.html" class="fs-6 link-secondary">17.11.2020</a></h2>
+<p>Vuoden 2020 <a href="https://bw2020.olympiaadid.ut.ee">Baltian tie
+-joukkuematematiikkakilpailu</a>
+pidettiin kussakin maassa erikseen, Suomen osalta Päivölässä,
+13.–15.11. Suomea edustivat <strong>Juho Arala</strong>, <strong>Daniel Arone</strong>,
+<strong>Veera Nurmela</strong>, <strong>Sampo Siitonen</strong> ja <strong>Ville Uotila</strong>.
+Saksa voitti 81 pisteellä, Suomi sai
+<a href="https://bw2020.olympiaadid.ut.ee/?page_id=43">jaetun 4. sijan</a> 54 pisteellä.</p>
+<h1>Arkisto</h1>
+<p>Vanhempia uutisia on <a href="/vanhaset.html">arkistossa</a>.</p>
+<h1>Aikataulu</h1>
+<p>Katso myös <a href="/aikataulu/">valmennuksen aikataulua</a>.</p>
+
+  </div>
+</main>
+
+
+    </div>
+    
+
+<footer class="footer mt-auto py-4 bg-body-tertiary">
+  <div class="container-md small">
+    <div class="row gy-4">
+      <div class="col-sm-6 col-md-4">
+        <div id="footer-valmennus-heading" class="fw-bold mb-2 fs-6">Valmennus</div>
+        <ul aria-labelledby="footer-valmennus-heading" class="list-unstyled mb-0">
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/kilpailut/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#trophy-fill"/>
+    </svg>
+    Kilpailut
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/aiheet/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#book"/>
+    </svg>
+    Materiaalit
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/kaytanto/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#calendar-event"/>
+    </svg>
+    Tapahtumat
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/valmennus/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#envelope-fill"/>
+    </svg>
+    Kotitehtävät
+  </a>
+</li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div id="footer-yhteystiedot-heading" class="fw-bold mb-2 fs-6">Yhteystiedot</div>
+        <ul aria-labelledby="footer-yhteystiedot-heading" class="list-unstyled mb-0">
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="mailto:info@matematiikkakilpailut.fi"
+    title="Sähköposti"
+    rel="author"
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#envelope-fill"/>
+    </svg>
+    info@matematiikkakilpailut.fi
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/valmentajat/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#people-fill"/>
+    </svg>
+    Valmentajat
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/feed.xml"
+    title="RSS-syöte"
+    rel="alternate"
+    
+    type="application/atom+xml"
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#rss-fill"/>
+    </svg>
+    RSS-syöte
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="https://t.me/+TS59DXkdJpozNDU0"
+    title="Telegram"
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#telegram"/>
+    </svg>
+    Telegram-keskusteluryhmä
+  </a>
+</li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div id="footer-muuta-heading" class="fw-bold mb-2 fs-6">Muuta</div>
+        <ul aria-labelledby="footer-muuta-heading" class="list-unstyled mb-0">
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/kerhot/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#people-fill"/>
+    </svg>
+    Kerhot
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/linkit/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#link-45deg"/>
+    </svg>
+    Linkkejä
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/tietosuoja/"
+    
+    rel="privacy-policy"
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#shield-fill"/>
+    </svg>
+    Tietosuoja
+  </a>
+</li>
+          <li lang="en">
+  <a class="icon-link link-primary text-decoration-none" href="/english/"
+    
+    
+    hreflang="en"
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#translate"/>
+    </svg>
+    In English
+  </a>
+</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script defer src="/js/theme.js"></script>
+    <script type="module" src="/js/instant.page.min.js"></script>
+    <script defer src="/js/bootstrap.bundle.min.js?v=5.3.3"></script>
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "45380cb8b30d4b0791d27e340eefc4da"}'></script>
+  </body>
+</html>

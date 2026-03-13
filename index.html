@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matematiikkakilpailut ja olympiavalmennus</title>
+    <meta name="description" content="Matematiikkakilpailujen tarkoituksena on kannustaa lahjakkaita nuoria harrastamaan matematiikkaa. Kansainvälisiin kilpailuihin valmennetaan halukkaita. Valmennus koostuu valmennusviikonlopuista ja kirjevalmennuksesta. Valmennettavien joukosta valitaan edustajat kansainvälisiin kilpailuihin, kuten Kansainvälisiin matematiikkaolympialaisiin.">
+    <link href="/css/bootstrap.min.css?v=5.3.3" rel="stylesheet">
+    <style>
+     .breadcrumb {
+       --bs-breadcrumb-divider: '';
+       --bs-breadcrumb-padding-x: 0;
+       --bs-breadcrumb-item-padding-x: 0;
+     }
+     .navbar {
+       --bs-navbar-brand-padding-y: 4px;
+     }
+     [data-bs-theme="dark"] {
+       --bs-link-color: #788591;
+       --bs-link-color-rgb: 120, 133, 145;
+       .link-primary, .text-primary {
+         --bs-primary-rgb: 236, 240, 241;
+       }
+       .link-primary:hover {
+         color: rgb(128, 139, 150) !important;
+       }
+     }
+     [data-bs-theme="light"] {
+       --bs-link-color: #168366;
+       --bs-link-color-rgb: 23, 114, 83;
+       .link-primary {
+         --bs-primary-rgb: 33, 37, 41;
+         &:hover {
+           color: rgb(24, 188, 156) !important;
+         }
+       }
+     }
+     [data-bs-theme="dark"] .light-element { display: none; }
+     [data-bs-theme="light"] .dark-element { display: none; }
+     h1,h2,h3,h4,h5,h6 { text-wrap: balance; }
+     #logopalkki {
+       margin-top: 6ex;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+       align-content: center;
+     }
+     @media (pointer: coarse), (max-width: 450px) {
+       footer ul li {
+         padding-top: 0.5em;
+       }
+     }
+    </style>
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/kuvat/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/kuvat/apple-touch-icon.png">
+    <link rel="manifest" href="/kuvat/manifest.webmanifest">
+    <link rel="preload" href="/font/Lato-Regular.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/Lato-Bold.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/Lato-Italic.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="sitemap" href="/sitemap.xml">
+    <link rel="canonical" href="https://matematiikkakilpailut.fi/">
+    <link rel="alternate" type="application/atom+xml" href="https://matematiikkakilpailut.fi/feed.xml">
+    <script>
+      const getStoredTheme = () => localStorage.getItem('theme')
+      const getPreferredTheme = () => {
+        const storedTheme = getStoredTheme()
+        if (storedTheme) {
+          return storedTheme
+        }
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+      }
+      const setTheme = theme => {
+        document.documentElement.dataset.bsTheme =
+          theme === 'auto'
+          ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+          : theme
+      }
+      setTheme(getPreferredTheme())
+    </script>
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <nav data-bs-theme="dark" class="navbar navbar-expand-md bg-primary" aria-label="Päävalikko">
+  <div class="container-fluid flex-flow align-items-start">
+    <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbar-collapse" aria-controls="navbar-collapse"
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand ps-sm-4" href="/">Matematiikkavalmennus</a>
+    <div class="d-flex order-0 order-md-last ms-md-auto" id="theme-toggle" title="Taustaväri">
+      <div class="dropdown">
+        <button class="btn btn-link nav-link dropdown-toggle
+                       py-2 pt-md-2 px-1 px-lg-2
+                       d-flex align-items-center text-light"
+                type="button"
+                id="bd-theme"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
+          <svg class="bi theme-icon-active" width="16" height="16" fill="currentColor">
+            <use href="/kuvat/sprite3.svg#sun-fill"></use>
+          </svg>
+          <span class="d-none" id="bd-theme-text">Taustaväri</span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme">
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite3.svg#sun-fill"></use>
+              </svg>
+              Vaalea
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite3.svg#moon-stars-fill"></use>
+              </svg>
+              Tumma
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite3.svg#circle-half"></use>
+              </svg>
+              Automaattinen
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="collapse navbar-collapse flex-column align-items-start" id="navbar-collapse">
+      <div class="row flex-grow-1">
+        <div class="col-12 flex-grow-1">
+          <ul class="navbar-nav mb-2 mb-md-0">
+            <li class="nav-item"><a class="nav-link " href="/aikataulu/">Aikataulu</a></li>
+           <li class="nav-item"><a class="nav-link " href="/valmennus/">Kotitehtävät</a></li>
+            <li class="nav-item"><a class="nav-link " href="/aiheet/">Materiaalit</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    
+    <div class="container flex-grow-1">
+        <main>
+  <div class="container">
+    <header class="row">
+      <div class="col-12">
+        <h1 class="py-3 mt-3 mb-2">Matematiikkakilpailut ja olympiavalmennus</h1>
+        <div class="row">
+          <div class="col-xs-12">
+            <picture class="light-element">
+              <source srcset="/kuvat/oph_light.webp" type="image/webp">
+              <img loading="lazy" class="d-block float-sm-end mx-auto mb-2 ms-md-4" src="/kuvat/oph_light.png" width="180" height="174" alt="Opetushallitus rahoittaa hanketta">
+            </picture>
+            <picture class="dark-element">
+              <source srcset="/kuvat/oph_dark.webp" type="image/webp">
+              <img loading="lazy" class="d-block float-sm-end mx-auto mb-2 ms-md-4" src="/kuvat/oph_dark.png" width="180" height="174" alt="Opetushallitus rahoittaa hanketta">
+            </picture>
+            <p><a href="kilpailut">Matematiikkakilpailujen</a> tarkoituksena on
+kannustaa lahjakkaita nuoria harrastamaan matematiikkaa.
+Kilpailuja on eri tasoilla kansallisista alueellisista kilpailuista
+Kansainvälisiin Matematiikkaolympialaisiin.
+Valmennuksesta ja kilpailuihin osallistumisesta vastaa Suomessa
+<a href="http://www.matemaattinenyhdistys.fi/">Suomen matemaattisen yhdistyksen</a>
+<a href="valmentajat">Valmennusjaosto</a>.</p>
+<p>Valmennus koostuu yleensä viikonloppuisin Päivölän opistolla
+järjestettävistä <a href="kaytanto"><strong>valmennustapahtumista</strong></a>
+(ks. <a href="aikataulu">aikataulu</a>) sekä <a href="valmennus"><strong>kirjevalmennuksesta</strong></a>,
+joka on tarkoitettu kaikille, myös niille, jotka eivät voi
+osallistua valmennustapahtumiin.</p>
+
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="row my-4">
+      <!-- News column -->
+      <div class="col-lg-6 my-3 my-lg-0">
+        <div class="card shadow h-100">
+          <div class="card-header">
+            <h2 class="h3 pb-2 mb-0">Uutisia</h2>
+          </div>
+          <div class="card-body p-0">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item py-3">
+                <p>Helmikuun valmennusviikonloppu järjestetään Päivölässä 20.–22.2.</p>
+<p><a href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2026-vk8" class="btn btn-primary btn-sm align-baseline" role="button">Ilmoittaudu tästä!</a></p>
+<p><a href="/aikataulu/">Valmennuksen aikataulu</a></p>
+
+              </li>
+              <li class="list-group-item py-3">
+                <p>Helmikuun 2026 <a href="https://drive.google.com/file/d/1j8iKxOCmrYgOxPCz5bulxV85VfjniZ87/view">valmennuskirje</a>
+on julkaistu. Ratkaisut pyydetään palauttamaan viimeistään 15.3.2026.</p>
+
+              </li>
+              <li class="list-group-item py-3">
+                <p>Tammikuun 2026 <a href="https://drive.google.com/file/d/1Ee42iz4Uf1ngJn4mK0dt1fujaawzubXv/view">valmennuskirje</a>
+on julkaistu. Ratkaisut pyydetään palauttamaan viimeistään 24.1.2026.</p>
+
+              </li>
+              <li class="list-group-item pt-3">
+                <p>Vuoden 2026 ensimmäinen valmennusviikonloppu järjestetään Päivölässä 9.–11.1.</p>
+<p><a href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2026-vk2">Ilmoittaudu tästä!</a></p>
+<p><a href="/aikataulu/">valmennuksen aikataulu</a></p>
+
+              </li>
+            </ul>
+            <div class="text-end">
+              <a href="/uutiset" class="btn btn-sm btn-outline-primary mb-3 me-3">Uutisarkisto</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ column -->
+      <div class="col-lg-6 my-3 my-lg-0">
+        <div class="card shadow h-100">
+          <div class="card-header">
+            <h2 class="h3 pb-2 mb-0">Usein kysytyt kysymykset</h2>
+          </div>
+          <div class="card-body p-0">
+            <div class="accordion accordion-flush" id="faqAccordion" itemscope itemtype="https://schema.org/FAQPage">
+              
+              <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h2 class="accordion-header" itemprop="name">
+                  <button class="accordion-button" type="button" 
+                          data-bs-toggle="collapse" data-bs-target="#faq-kenelle" 
+                          aria-expanded="true" 
+                          aria-controls="faq-kenelle">
+                    <span itemprop="text">Kenelle valmennus on tarkoitettu?</span>
+                  </button>
+                </h2>
+                <div id="faq-kenelle" class="accordion-collapse collapse show" 
+                     aria-labelledby="faq-kenelle" data-bs-parent="#faqAccordion"
+                     itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                  <div class="accordion-body" itemprop="text">
+                    <p><strong>Valmennus on kaikille koululaisille avointa</strong> ja se on suunnattu
+erityisesti lukio- ja yläkouluikäisille.
+Tärkeintä on kiinnostus matematiikkaa kohtaan.</p>
+<p>Muodollisia ennakkotietovaatimuksia valmennuksessa ei ole.</p>
+
+                  </div>
+                </div>
+              </div>
+              
+              <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h2 class="accordion-header" itemprop="name">
+                  <button class="accordion-button collapsed" type="button" 
+                          data-bs-toggle="collapse" data-bs-target="#faq-mukaan" 
+                          aria-expanded="false" 
+                          aria-controls="faq-mukaan">
+                    <span itemprop="text">Miten pääsee mukaan?</span>
+                  </button>
+                </h2>
+                <div id="faq-mukaan" class="accordion-collapse collapse" 
+                     aria-labelledby="faq-mukaan" data-bs-parent="#faqAccordion"
+                     itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                  <div class="accordion-body" itemprop="text">
+                    <ul>
+<li>Katso <a href="/aikataulu/">aikataulusta</a> seuraava valmennusviikonloppu ja ilmoittaudu Päivölään.
+Viikonloppuja on keväällä ja syksyllä,
+ja voit tulla mukaan mihin viikonloppuun tahansa.</li>
+<li>Etsi <a href="/valmennus/">kotitehtävistä</a> ajankohtainen valmennuskirje, ratkaise tehtäviä
+ja lähetä ratkaisut. Huomaa, että peruskoululaisille ja lukiolaisille on eri kotitehtäväsarjat.</li>
+<li>Kilpailuissa menestyminen vaatii sitkeää harjoittelua,
+joten sille kannattaa varata aikaa.</li>
+<li>Harjoittelu on usein yksinäistä puuhaa.
+Jos koulussasi tai lähelläsi on muita matematiikasta kiinnostuneita,
+kannattaa tehdä yhteistyötä.
+Esimerkiksi viikoittain kokoontuva ryhmä voi olla hyvä tapa
+ylläpitää motivaatiota.</li>
+<li>Lue myös <a href="https://www.mayk.fi/matematiikkalukio/kehitys/matematiikkaharrastajan-polku/">Matematiikkaharrastajan polku</a>.</li>
+</ul>
+
+                  </div>
+                </div>
+              </div>
+              
+              <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h2 class="accordion-header" itemprop="name">
+                  <button class="accordion-button collapsed" type="button" 
+                          data-bs-toggle="collapse" data-bs-target="#faq-kilpailuun" 
+                          aria-expanded="false" 
+                          aria-controls="faq-kilpailuun">
+                    <span itemprop="text">Miten pääsee kilpailuihin?</span>
+                  </button>
+                </h2>
+                <div id="faq-kilpailuun" class="accordion-collapse collapse" 
+                     aria-labelledby="faq-kilpailuun" data-bs-parent="#faqAccordion"
+                     itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                  <div class="accordion-body" itemprop="text">
+                    <ul>
+<li>Kysy matematiikanopettajaltasi, järjestetäänkö koulussasi
+<a href="https://maol.fi/neljan-tieteen-kisat/">MAOLin kilpailu</a> ja miten pääset siihen mukaan.
+<ul>
+<li>Kysy sama kysymys <a href="https://kengurukilpailu.fi/">Kenguru-kilpailusta</a>,
+jossa on sarjoja myös nuoremmille, ja (jos olet sopivalla luokalla)
+<a href="/seiskat/">seiskaluokkalaisten kilpailusta</a> ja <a href="https://matcup.edublogs.org/">MatCupista</a>.</li>
+</ul>
+</li>
+<li>Tule mukaan valmennusviikonloppuihin ja ratkaise kotitehtäviä
+(katso kohtaa ”Miten pääsee mukaan?”).</li>
+<li>Pohjoismaiseen matematiikkakilpailuun lähetetään kutsu niille, jotka ovat menestyneet
+parhaiten MAOLin kilpailussa ja valmennuksessa. Siihen osallistutaan omassa koulussa.</li>
+<li>Parhaiten menestyneistä tytöistä valitaan joukkue
+EGMO-kilpailuun.</li>
+<li>Valmennuksessa ja alemman tason kilpaluissa parhaiten menestyneille tulee kutsu
+valintaviikolle, jossa järjestetään kokeita ja valitaan IMO-joukkue.</li>
+</ul>
+
+                  </div>
+                </div>
+              </div>
+              
+              <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h2 class="accordion-header" itemprop="name">
+                  <button class="accordion-button collapsed" type="button" 
+                          data-bs-toggle="collapse" data-bs-target="#faq-materiaali" 
+                          aria-expanded="false" 
+                          aria-controls="faq-materiaali">
+                    <span itemprop="text">Mitä teoriaa kannattaa opiskella?</span>
+                  </button>
+                </h2>
+                <div id="faq-materiaali" class="accordion-collapse collapse" 
+                     aria-labelledby="faq-materiaali" data-bs-parent="#faqAccordion"
+                     itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                  <div class="accordion-body" itemprop="text">
+                    <p>Yleisesti kannattaa lukea kaikkea kiinnostavaa matematiikkaa.
+Kilpailuissa oletetaan periaatteessa lukion oppimäärä,
+mutta kansainvälisesti vertailtuna Suomen lukiokurssi on monelta osalta kovin suppea.
+Varsinkin geometriaa ja lukuteoriaa ja jonkin verran kombinatoriikkaa on tarpeen opiskella lisää.
+Myös algebrallisten lausekkeiden käsittelyä ja matemaattista todistamista on hyvä opetella.
+Differentiaali- ja integraalilaskentaa ei kilpailuissa juurikaan esiinny.</p>
+<p><a href="https://kurssi.matematiikkakilpailut.fi/">Kilpamatematiikan peruskurssi</a> sisältää kilpailuissa tarvittavat perusasiat.
+<a href="/aiheet/">Materiaalisivulla</a> on muitakin <a href="/aiheet/#muita">yleiskatsauksia</a>
+ja niiden jälkeen eri aiheista eritasoisia monisteita.
+Avoimen yliopiston <a href="/valmennus/ongelma/">ongelmanratkaisukurssi</a> täydentää näitä,
+ja siitä saatavan suoritusmerkinnän voi mahdollisesti sisällyttää lukio-opintoihin.</p>
+<p>Matematiikkaa ei opi pelkästään lukemalla, vaan sitä pitää myös harjoitella.
+Oppimateriaaleissa on yleensä aiheisiin liittyviä harjoitustehtäviä,
+kun taas kilpailutehtävät ovat vaihtelevista aiheista.</p>
+
+                  </div>
+                </div>
+              </div>
+              
+              <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h2 class="accordion-header" itemprop="name">
+                  <button class="accordion-button collapsed" type="button" 
+                          data-bs-toggle="collapse" data-bs-target="#faq-tehtavat" 
+                          aria-expanded="false" 
+                          aria-controls="faq-tehtavat">
+                    <span itemprop="text">Miten tehtäviä oppii ratkaisemaan?</span>
+                  </button>
+                </h2>
+                <div id="faq-tehtavat" class="accordion-collapse collapse" 
+                     aria-labelledby="faq-tehtavat" data-bs-parent="#faqAccordion"
+                     itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                  <div class="accordion-body" itemprop="text">
+                    <p>Ratkaisemista oppii harjoittelemalla, ihan kuin mitä tahansa muutakin taitoa.
+Valitse sopivan vaikeita tehtäviä: liian helpoista et saa tarpeeksi vastusta, liian vaikeat
+aiheuttavat turhautumista. Kokemuksen karttuessa siirry vaikeampiin tehtäviin.
+Harjoittelussa ei ole kyse pelkästään matemaattisista taidoista vaan myös
+muusta kilpailussa menestymiseen tarvittavasta: keskittymiskyvystä,
+siitä että jaksat yrittää ja kokeilla uusia ideoita vaikka aiemmat eivät ole onnistuneet,
+ja kirjoitustaidosta, jotta saat kommunikoitua ratkaisusi ymmärrettävästi.</p>
+<p>Vanhojen kilpailujen tehtäväarkistot sopivat hyvin materiaaliksi.
+Varaa useita tunteja aikaa ja tulosta jonkin kilpailun tehtävät.
+Jätä puhelin ja muut häiriötekijät pois ja keskity tehtäviin pitkän aikaa kerrallaan,
+kuin olisit kilpailussa mukana.
+Yritä kirjoittaa niin hyvät ratkaisut kuin osaat.
+Lopuksi katso malliratkaisut.</p>
+<p>Kilpailutehtäviä suunnilleen vaikeusjärjestyksessä:
+<a href="https://www.kengurukilpailu.fi/home/archive">Kenguru</a>,
+<a href="/seiskat/tehtavat.html">Seitsemäsluokkalaisten kilpailu</a>,
+<a href="/MAOL/">MAOLin kilpailu</a> (perus-, väli-, ja avoin sarja sekä loppukilpailu),
+<a href="/Baltian_tie/">Baltian tie</a>,
+<a href="/PM/">Pohjoismainen kilpailu</a>,
+<a href="/EGMO/">EGMO</a> ja <a href="/IMO/">IMO</a>.
+Myös vanhat <a href="/valmennus/">valmennuskirjeet</a> sisältävät paljon tehtäviä.</p>
+
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+    </div>
+    
+
+<footer class="footer mt-auto py-4 bg-body-tertiary">
+  <div class="container-md small">
+    <div class="row gy-4">
+      <div class="col-sm-6 col-md-4">
+        <div id="footer-valmennus-heading" class="fw-bold mb-2 fs-6">Valmennus</div>
+        <ul aria-labelledby="footer-valmennus-heading" class="list-unstyled mb-0">
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/kilpailut/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#trophy-fill"/>
+    </svg>
+    Kilpailut
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/aiheet/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#book"/>
+    </svg>
+    Materiaalit
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/kaytanto/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#calendar-event"/>
+    </svg>
+    Tapahtumat
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/valmennus/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#envelope-fill"/>
+    </svg>
+    Kotitehtävät
+  </a>
+</li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div id="footer-yhteystiedot-heading" class="fw-bold mb-2 fs-6">Yhteystiedot</div>
+        <ul aria-labelledby="footer-yhteystiedot-heading" class="list-unstyled mb-0">
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="mailto:info@matematiikkakilpailut.fi"
+    title="Sähköposti"
+    rel="author"
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#envelope-fill"/>
+    </svg>
+    info@matematiikkakilpailut.fi
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/valmentajat/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#people-fill"/>
+    </svg>
+    Valmentajat
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/feed.xml"
+    title="RSS-syöte"
+    rel="alternate"
+    
+    type="application/atom+xml"
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#rss-fill"/>
+    </svg>
+    RSS-syöte
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="https://t.me/+TS59DXkdJpozNDU0"
+    title="Telegram"
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#telegram"/>
+    </svg>
+    Telegram-keskusteluryhmä
+  </a>
+</li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div id="footer-muuta-heading" class="fw-bold mb-2 fs-6">Muuta</div>
+        <ul aria-labelledby="footer-muuta-heading" class="list-unstyled mb-0">
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/kerhot/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#people-fill"/>
+    </svg>
+    Kerhot
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/linkit/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#link-45deg"/>
+    </svg>
+    Linkkejä
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/tietosuoja/"
+    
+    rel="privacy-policy"
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#shield-fill"/>
+    </svg>
+    Tietosuoja
+  </a>
+</li>
+          <li lang="en">
+  <a class="icon-link link-primary text-decoration-none" href="/english/"
+    
+    
+    hreflang="en"
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#translate"/>
+    </svg>
+    In English
+  </a>
+</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script defer src="/js/theme.js"></script>
+    <script type="module" src="/js/instant.page.min.js"></script>
+    <script defer src="/js/bootstrap.bundle.min.js?v=5.3.3"></script>
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "45380cb8b30d4b0791d27e340eefc4da"}'></script>
+  </body>
+</html>
