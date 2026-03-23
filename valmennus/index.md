@@ -269,14 +269,9 @@ Tammi- ja helmikuun 2017 [tehtävät](2017/2017tammi-helmi.pdf) ja niiden [ratka
 
 Joulukuun 2016 [helpommat](2016/vt12_16he.pdf) ja [vaativammat](2016/vt12_16va.pdf) tehtävät. Ratkaisut [helpompiin](2016/vt12_16he_ra.pdf) ja [vaativampiin](2016/vt12_16va_ra.pdf) tehtäviin.
 
-
 Lokakuun 2016 [tehtävät](2016/valmennussarja_loka_2016.pdf).
 
-
 Syyskuun 2016 [helpommat](2016/vt9_16he.pdf) ja [vaativammat](2016/vt9_16va.pdf) tehtävät. Syyskuun valmennustilaisuudessa jaetussa paperiversioissa olleet virheet (helpompien tehtävien numero 7 ja vaativampien numero 9) on korjattu oheisiin tiedostoihin.
-
-
-Huhtikuun 2016 [tehtävät](2016/tehtavasarja_huhtikuu2016.pdf).  Huom! Vaativampien tehtävien numerossa 6 on painovirhe. Suorien GE ja BC leikkaukseksi määritellyn pisteen J tulee olla suorien GE ja AD leikkauspiste.
 
 Helmikuun 2016 [tehtävät](2016/vt2_2016.pdf) ja [ratkaisut](2016/r2016hel.pdf). Huom. Tehtävässä 4 on painovirhe: viimeisen CL:n tulee olla SL!
 
