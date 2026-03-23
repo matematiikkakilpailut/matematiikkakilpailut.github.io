@@ -134,7 +134,7 @@ English translations as well. These are listed below.
 
 ### Finnish National High School Mathematics Competition (FHSMC)
 
-[Problem compilation from years 1997-2008](/kirjallisuus/fhsmc.pdf). Problems of the final round.
+[Problem compilation from years 1997-2008](https://drive.google.com/file/d/1eYaQA9GqOnwcdhriLk1ED_To6JkdrVUT/view). Problems of the final round.
 
 FHSM [first round, basic level](https://drive.google.com/file/d/1xNqp_EOB7rQpTeJEgYp_qW23UlUpwd15/view) problems, 2007.
 

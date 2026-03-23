@@ -34,7 +34,7 @@ kilpailumatematiikkavalmennustilaisuuksia. Tarkemmin [tästä][oulu].
 
 Harppi-hankkeessa on kuvattu [matematiikkaharrastajan polku](https://www.mayk.fi/matematiikkalukio/kehitys/matematiikkaharrastajan-polku/)
 
- [Po-Shen Lohin haastattelu](/kirjallisuus/Loh.pdf).
+ [Po-Shen Lohin haastattelu](https://drive.google.com/file/d/1N8RCuIw67AsgJ84N3aTLKZSiIQ0j0B7b/view).
 USA:n olympiavalmennuksen johtajan syyskuussa 2016 julkaistu haastattelu, joka voi olla opettavaa luettavaa.
 
 [Päivölän kansanopisto](https://www.paivola.fi/).

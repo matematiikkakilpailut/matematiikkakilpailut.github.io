@@ -35,10 +35,10 @@ Baltian Tie -kilpailussa viisihenkiset joukkueet toimivat yhteistyössä. Tehtä
 ## Tehtävät ja ratkaisut
 
 Kaikkien Baltian Tie -kilpailujen tehtävät (540 kappaletta!) vuosilta
-1999-2016 voi ladata yhtenä [pdf-tiedostona tästä](bwteht.pdf).
+1999-2016 voi ladata yhtenä [pdf-tiedostona tästä](https://drive.google.com/file/d/1fMcR83VTXwjWRkZtNzTvefPp2g4Oc5aq/view).
 Ratkaisukokoelmat ovat tällä hetkellä saatavina
-[vuosien 1990-99](Btratk1990_99.pdf) ja
-[vuosien 2000-09](Btratk2000_09.pdf) kilpailutehtäviin. Linkkejä eri vuosien tehtävien ratkaisuihin löytyy alla olevasta taulukosta.
+[vuosien 1990-99](https://drive.google.com/file/d/1ycjugljpKMOjztBxCeB-c_rBHxQjDzmH/view) ja
+[vuosien 2000-09](https://drive.google.com/file/d/1Gw3wxkfQ1WdYLgI01nP2qOKvdejHREXt/view) kilpailutehtäviin. Linkkejä eri vuosien tehtävien ratkaisuihin löytyy alla olevasta taulukosta.
 
 Melkein kaikkien Baltian Tie -kilpailujen tehtävät ja ratkaisut
 löytyvät englanninkielisinä

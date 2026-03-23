@@ -43,10 +43,10 @@ kielillä.
 
 Vuosien 1987-1994 tehtävät ja ratkaisut ovat tarjolla kirjassa
 _Matti Lehtinen: Matematiikan olympiakirja._ Näiden
-vuosien [tehtävät](nmct87_94.pdf) ja [ratkaisut](nmcr87_94.pdf) saa myös
+vuosien [tehtävät](https://drive.google.com/file/d/18Z4PTkW9JHS4CKElg3_bO5MGGXf3zVEo/view) ja [ratkaisut](https://drive.google.com/file/d/19gRYrSnz-jzc-sCNNtJp-QwSsLvVvnKM/view) saa myös
 oheisista linkeistä.
 
-[Vuosien 1995-2016 tehtävät ja ratkaisut](nmckaikki.pdf) ovat
+[Vuosien 1995-2016 tehtävät ja ratkaisut](https://drive.google.com/file/d/1RTbe58UcbYWO-G1Dc8DF91rE90OBWzDr/view) ovat
 ladattavissa yhtenä tiedostona pdf-muodossa. 
 
 ## Menneet kilpailut

@@ -43,7 +43,7 @@ materiaalia.
 [viro]: http://www.math.olympiaadid.ut.ee
 
 Matematiikkaolympialaisten kulkua valottaa myös kilpailijoille tarkoitettu
-[käytännön opas](/kirjallisuus/kaytannon_ohjeet.pdf).
+[käytännön opas](https://drive.google.com/file/d/1WbbNOwm8fK9Hi73BCJVjWdZCOZUuUMT7/view).
 
 ## Tehtävät ja ratkaisut
 
@@ -56,13 +56,13 @@ _Matti Lehtinen: Matematiikan olympiakirja_, Weilin+Göös 1995,
 ISBN 951-35-5990-4, jota sitäkin alkaa olla hankala löytää.
 
 Oheisista linkeistä voi myös ladata matematiikkaolympialaisten
-vuosien 1959-74 [tehtävät](imot59_74.pdf) ja
-[tehtävät ja ratkaisut](imor59_74.pdf) sekä vuosien 1975-94
-[tehtävät](imot75_94.pdf) ja [ratkaisut](imor75_94.pdf). Erityisesti
+vuosien 1959-74 [tehtävät](https://drive.google.com/file/d/10VLVnFTxScFu5WdUx1Se_KD1zBV9D8xX/view) ja
+[tehtävät ja ratkaisut](https://drive.google.com/file/d/1F2qTwqgbsgP3YYlNfa8VbBGZkQ8BoZ6N/view) sekä vuosien 1975-94
+[tehtävät](https://drive.google.com/file/d/1ZfXeLHEnGvaQJAuCStN0N8SfHvXOOCDm/view) ja [ratkaisut](https://drive.google.com/file/d/14kV1S1TEPoda_LuMoGKSGhOToxGaQIDx/view). Erityisesti
 matematiikkaolympialaisten ensimmäisten vuosien tehtävät ovat selvästi
 nykyisiä helpompia ja sopivat siis hyvin kilpailumatematiikan
 harjoitteluun. Vuosien 1995-2016 tehtävät ja ratkaisut voi ladata
-[tästä](imokaikki.pdf) (n. 1 Mt). Myös tämän sivun lopussa oleva
+[tästä](https://drive.google.com/file/d/13x_GWoGjISulE-VT4Py1mRI7xWUmttzC/view) (n. 1 Mt). Myös tämän sivun lopussa oleva
 taulukko sisältää linkkejä eri vuosien tehtäviin ja niiden
 ratkaisuihin.
 
