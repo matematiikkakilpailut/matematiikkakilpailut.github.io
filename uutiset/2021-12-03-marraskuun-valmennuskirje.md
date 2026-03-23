@@ -2,7 +2,7 @@
 title: Marraskuun valmennuskirje on julkaistu.
 ---
 
-Marraskuun valmennustehtävät löytyvät suomeksi [täältä](https://matematiikkakilpailut.fi/valmennus/2021/kirje_2021_11.pdf). Se [upppgiftsseriepaket november 2021](https://matematiikkakilpailut.fi/valmennus/2021/brev_2021_11.pdf).
+Marraskuun valmennustehtävät löytyvät suomeksi [täältä](https://drive.google.com/file/d/1jU1laYc0gbTlpGe7BzPtTwpRMbJsFTND/view). Se [upppgiftsseriepaket november 2021](https://drive.google.com/file/d/1Y6FYnQnp_gnsbYG09FpcdiBFfGfH2xpV/view).
 Ratkaisut pyydetään palauttamaan 12.1.2022 mennessä.
 
 

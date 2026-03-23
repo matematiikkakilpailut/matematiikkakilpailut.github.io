@@ -112,23 +112,23 @@ English translations as well. These are listed below.
 
 ### The latest translated problem set
 
-[Easier](/valmennus/2014/vt2014_11he_eng.pdf) and
-[more challenging](/valmennus/2014/vt2014_11va_eng.pdf) problems, December 2014.
+[Easier](https://drive.google.com/file/d/1876JJnt2S5UBrNzxsMpdZOaSxBLs-mom/view) and
+[more challenging](https://drive.google.com/file/d/1Y4JZskoTofkxmbk5owql0JeXY-6AZBQz/view) problems, December 2014.
 
 ### Older problem set
 
-[Easier](/valmennus/2014/vt2014_9he_en.pdf) and
-[more challenging](/valmennus/2014/vt2014_9va_en.pdf) problems, September 2014.
+[Easier](https://drive.google.com/file/d/1Cctl-Q1NovOtIWXRfw9hDLgAkzfmX5iM/view) and
+[more challenging](https://drive.google.com/file/d/11pLRwX2YIQjCioT2V-myhoUMyiRasMtB/view) problems, September 2014.
 
-[Easier and more challenging problems, Summer 2014](/valmennus/2014/vt2014_6_en.pdf).
+[Easier and more challenging problems, Summer 2014](https://drive.google.com/file/d/1My4E1YcSmDoeN14SDWTHIxHPzAlZ9pfS/view).
 
-[Easier and more challenging problems, April 2014](/valmennus/2014/vt2014_4_en.pdf).
+[Easier and more challenging problems, April 2014](https://drive.google.com/file/d/1tNlNAFo-DxWTHBmLB7P2KjWtkjFe6rCJ/view).
 
-[Easier and more challenging problems, February 2014](/valmennus/2014/vt2014_2_en.pdf).
+[Easier and more challenging problems, February 2014](https://drive.google.com/file/d/1dw2IaloEhIpka-HZPqMQFXjsJ-4q5EDV/view).
 
-[Easier problems, February 2012](/valmennus/2012/helpot_02_2012eng.pdf).
+[Easier problems, February 2012](https://drive.google.com/file/d/1T0Lh1nViafIxcdu0UD-jmL6-rUwRmFc7/view).
 
-[More challenging problems, February 2012](/valmennus/2012/vaikeat_02_2012eng.pdf).
+[More challenging problems, February 2012](https://drive.google.com/file/d/1k4fnnap7C751VyH772nH0ou8j-DO8LYi/view).
 
 ## Old problems
 
@@ -136,27 +136,27 @@ English translations as well. These are listed below.
 
 [Problem compilation from years 1997-2008](/kirjallisuus/fhsmc.pdf). Problems of the final round.
 
-FHSM [first round, basic level](/valmennus/English/ps07eng.pdf) problems, 2007.
+FHSM [first round, basic level](https://drive.google.com/file/d/1xNqp_EOB7rQpTeJEgYp_qW23UlUpwd15/view) problems, 2007.
 
-FHSMC [first round](/valmennus/English/2008alkueng.pdf) problems, 2008.
+FHSMC [first round](https://drive.google.com/file/d/1TuM7we0epqiSSLEQIho3azzg8Q5BQjKr/view) problems, 2008.
 
-[Problems of the FHSMC 2009–10 and Nordic Math Contest, 2010](/valmennus/English/MAOL2009_10.pdf)
+[Problems of the FHSMC 2009–10 and Nordic Math Contest, 2010](https://drive.google.com/file/d/1BS3T_VFYIbFr9C_ecREfztbEHLyhIcNc/view)
 
-FHSMC [first round](/valmennus/English/alku2010eng.pdf) and
-[final round](/valmennus/English/loppu2011eng.pdf) problems, 2010–11.
+FHSMC [first round](https://drive.google.com/file/d/16NnnITzSeOfxybWujZudChROtpF-FjPR/view) and
+[final round](https://drive.google.com/file/d/1nuXd7OSwq1DJVM87EOMLZ10EbukZbs7A/view) problems, 2010–11.
 
-FHSMC [first round](/valmennus/English/alku2011eng.pdf) and
-[final round](/valmennus/English/loppu2012eng.pdf) problems, 2011–12.
+FHSMC [first round](https://drive.google.com/file/d/1Pbdzy1J6nzAn26a5nHXWrYDKc_lTAFXO/view) and
+[final round](https://drive.google.com/file/d/1wocnekgzIsRFw1MH-tOc2-fY46eSGwUc/view) problems, 2011–12.
 
-FHSMC [problems and solutions](/valmennus/English/maolkilp2011_12eng.pdf), 2011–12.
+FHSMC [problems and solutions](https://drive.google.com/file/d/1KUXbFhSYc3wr6yMvZGi2GyT94EmDzcwU/view), 2011–12.
 
-FHSMC [problems and solutions, 2012–14](/valmennus/English/maolkilp2012_14eng.pdf).
+FHSMC [problems and solutions, 2012–14](https://drive.google.com/file/d/1O4kzpQIEl0BgcGDbtOx2y5ID0kM6ZV7H/view).
 
-FHSMC  and NMC [problems and solutions, 2014–15](/valmennus/English/maol2014_15engl.pdf).
+FHSMC  and NMC [problems and solutions, 2014–15](https://drive.google.com/file/d/1LHkEULTspG-twJNXoCaxLCwhtqjRD3UJ/view).
 
-FHSMC [first round problems, 2015](/valmennus/English/alku2015eng.pdf).
+FHSMC [first round problems, 2015](https://drive.google.com/file/d/1XlAKh12ZGkyxLzIsGjxSA1WPWikzXVhb/view).
 
-FHSMC [first round problems, 2016](/valmennus/English/alkuk2016_eng.pdf).
+FHSMC [first round problems, 2016](https://drive.google.com/file/d/1MSNJmXSg3pcOf832ljK7Z5k64o-4289h/view).
 
 ## Other material
 

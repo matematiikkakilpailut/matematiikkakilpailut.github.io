@@ -2,8 +2,8 @@
 title: Syyskuun valmennuskirje julkaistu
 ---
 
-Syyskuun 2023 [valmennuskirje](/valmennus/2023/kirje_2023_09.pdf) on julkaistu.
+Syyskuun 2023 [valmennuskirje](https://drive.google.com/file/d/1NdQ5JXwNPCO4zq6yR--HAkcyOmJEYGbu/view) on julkaistu.
 Ratkaisut pyydetään palauttamaan viimeistään 15.10.2023.<br>
-<span lang="sv">[Träningsuppgifter](/valmennus/2023/brev_2023_09.pdf), september 2023.</span>
+<span lang="sv">[Träningsuppgifter](https://drive.google.com/file/d/1OuJzUcpx5aIGM7SPMa14XumQuywsIS32/view), september 2023.</span>
 
-Kesän kirjeen [ratkaisut](/valmennus/2023/ratkaisut_2023_07.pdf) on myös julkaistu.
+Kesän kirjeen [ratkaisut](https://drive.google.com/file/d/1Yb8009NZ2L36LvkwtaXy49KI5K1-0cJd/view) on myös julkaistu.

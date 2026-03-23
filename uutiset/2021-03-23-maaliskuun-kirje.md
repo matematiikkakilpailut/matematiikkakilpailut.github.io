@@ -2,5 +2,5 @@
 title: Maaliskuun valmennuskirje julkaistu
 ---
 
-Maaliskuun 2021 [valmennuskirje](/valmennus/2021/kirje_2021_03.pdf) on
+Maaliskuun 2021 [valmennuskirje](https://drive.google.com/file/d/1PWdRFjl0GUCW-E806ur8xMPeb9nJuIM9/view) on
 julkaistu.
