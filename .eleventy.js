@@ -73,6 +73,7 @@ export default function (eleventyConfig) {
     "kuvat",
     "favicon.ico",
     "robots.txt",
+    "pdf-redirects.json",
     "*.png",
     "*.pdf",
     "BingSiteAuth.xml",
