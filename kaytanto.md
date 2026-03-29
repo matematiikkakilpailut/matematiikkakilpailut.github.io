@@ -125,8 +125,137 @@ jotta kaikille riittää varmasti.
 Opetus jaetaan resurssien mukaan aloitteleville
 valmennettaville suunnattuun *alakerran* opetukseen ja
 edistyneemmille tarkoitettuun *yläkerran* opetukseen.
-[Tästä](aikataulu_viikonloppu.pdf) voi lukea yhden esimerkin
-valmennusviikonlopun aikataulusta.
+Alla on esimerkki erään valmennusviikonlopun aikataulusta.
+
+<div class="d-none d-lg-block table-responsive">
+<table class="table table-bordered">
+<caption>Erään valmennusviikonlopun aikataulu</caption>
+<thead class="table-secondary">
+<tr>
+<th>Kellonaika</th>
+<th>Perjantai</th>
+<th>Kellonaika</th>
+<th>Lauantai alakerta</th>
+<th>Lauantai yläkerta</th>
+<th>Sunnuntai alakerta</th>
+<th>Sunnuntai yläkerta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>18:30–18:45</td>
+<td>Tervetuliaissanat</td>
+<td>8:30–9:00</td>
+<td colspan="4" class="text-center">Aamiainen</td>
+</tr>
+<tr>
+<td>18:45–21:00</td>
+<td class="table-success">Kombinatoriikkaa</td>
+<td>9:00–11:30</td>
+<td class="table-success">Helpompi koe</td>
+<td class="table-success">Vaikeampi koe</td>
+<td class="table-success">Geometriaa</td>
+<td class="table-success">Kombinatoriikkaa</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>11:30–12:30</td>
+<td colspan="4" class="text-center">Lounastauko</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>12:30–14:30 (su&nbsp;–13:30)</td>
+<td class="table-success">Geometriaa</td>
+<td class="table-success">Vaikeampi koe jatkuu</td>
+<td colspan="2" class="table-success">Kokeiden palautus ja ratkaisuiden läpikäynti</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>14:30–15:00</td>
+<td colspan="4" class="text-center">Kahvitauko</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>15:00–17:00</td>
+<td class="table-success">Geometriaa</td>
+<td class="table-success">Kombinatoriikkaa</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>17:00–19:00</td>
+<td colspan="4" class="text-center">Päivällistauko ja tyttöjen sauna</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>19:00–21:00</td>
+<td class="table-success">Geometriaa</td>
+<td class="table-success">Kombinatoriikkaa</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>21:00–22:00</td>
+<td colspan="4" class="text-center">Poikien sauna</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div class="d-lg-none">
+
+<h4>Perjantai</h4>
+<table class="table table-bordered">
+<thead class="table-secondary">
+<tr><th>Kellonaika</th><th>Ohjelma</th></tr>
+</thead>
+<tbody>
+<tr><td>18:30–18:45</td><td>Tervetuliaissanat</td></tr>
+<tr><td>18:45–21:00</td><td class="table-success">Kombinatoriikkaa</td></tr>
+</tbody>
+</table>
+
+<h4>Lauantai</h4>
+<table class="table table-bordered">
+<thead class="table-secondary">
+<tr><th>Kellonaika</th><th>Alakerta</th><th>Yläkerta</th></tr>
+</thead>
+<tbody>
+<tr><td>8:30–9:00</td><td colspan="2" class="text-center">Aamiainen</td></tr>
+<tr><td>9:00–11:30</td><td class="table-success">Helpompi koe</td><td class="table-success">Vaikeampi koe</td></tr>
+<tr><td>11:30–12:30</td><td colspan="2" class="text-center">Lounastauko</td></tr>
+<tr><td>12:30–14:30</td><td class="table-success">Geometriaa</td><td class="table-success">Vaikeampi koe jatkuu</td></tr>
+<tr><td>14:30–15:00</td><td colspan="2" class="text-center">Kahvitauko</td></tr>
+<tr><td>15:00–17:00</td><td class="table-success">Geometriaa</td><td class="table-success">Kombinatoriikkaa</td></tr>
+<tr><td>17:00–19:00</td><td colspan="2" class="text-center">Päivällistauko ja tyttöjen sauna</td></tr>
+<tr><td>19:00–21:00</td><td class="table-success">Geometriaa</td><td class="table-success">Kombinatoriikkaa</td></tr>
+<tr><td>21:00–22:00</td><td colspan="2" class="text-center">Poikien sauna</td></tr>
+</tbody>
+</table>
+
+<h4>Sunnuntai</h4>
+<table class="table table-bordered">
+<thead class="table-secondary">
+<tr><th>Kellonaika</th><th>Alakerta</th><th>Yläkerta</th></tr>
+</thead>
+<tbody>
+<tr><td>8:30–9:00</td><td colspan="2" class="text-center">Aamiainen</td></tr>
+<tr><td>9:00–11:30</td><td class="table-success">Geometriaa</td><td class="table-success">Kombinatoriikkaa</td></tr>
+<tr><td>11:30–12:30</td><td colspan="2" class="text-center">Lounastauko</td></tr>
+<tr><td>12:30–13:30</td><td colspan="2" class="table-success text-center">Kokeiden palautus ja ratkaisuiden läpikäynti</td></tr>
+</tbody>
+</table>
+
+</div>
 
 
 
