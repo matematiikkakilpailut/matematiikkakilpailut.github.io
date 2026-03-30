@@ -1,0 +1,21 @@
+name: no-new-pdfs
+on:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check for new PDF files
+        run: |
+          added=$(gh api "repos/$GH_REPO/pulls/$PR/files" --paginate --jq '.[] | select(.status == "added") | select(.filename | test("\\.pdf$"; "i")) | select(.filename | test("^seiskat/[0-9]+/") | not) | .filename')
+          if [ -n "$added" ]; then
+            echo "::error::PR adds new PDF files. Upload them to Google Drive and link instead."
+            echo "$added"
+            exit 1
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          PR: ${{ github.event.pull_request.number }}
