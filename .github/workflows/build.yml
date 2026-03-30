@@ -18,12 +18,8 @@ jobs:
         run: npm i
       - name: Run eleventy
         run: npx @11ty/eleventy
-      - name: Create sitemap
-        run: find _site -name \*.html | sed 's+^_site/+https://matematiikkakilpailut.fi/+;s+index.html$++' | npx sitemap > _site/sitemap.xml
-      - name: Add legacy redirect files
-        run: cp uutis-redir/*.html _site/uutiset/
       - name: Deploy to GitHub Pages
-        if: success()
+        if: success() && github.event_name == 'push'
         uses: crazy-max/ghaction-github-pages@v3
         with:
           allow_empty_commit: false

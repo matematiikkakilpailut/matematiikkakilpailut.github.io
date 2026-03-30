@@ -25,10 +25,28 @@ RSS-syötteeseen ja sen kautta Telegram-tiedotuskanavalle.
 Siksi uutisessa on hyvä olla linkki sen koskemaan aiheeseen
 (valmennuskirje, ilmoittautumissivu tms).
 
+## PDF-tiedostot
+
+PDF-tiedostot on estetty `.gitignore`-tiedostossa, jotta niitä ei lisätä repoon
+vahingossa. Isot tiedostot kannattaa siirtää Google Driveen ja linkittää sieltä.
+
+Jos PDF todella pitää lisätä repoon:
+
+```
+git add -f polku/tiedosto.pdf
+```
+
+## Pull requestit
+
+Pull requesteille ajetaan Cloudflare Pages -build, jonka pitää mennä läpi
+ennen mergeä. Cloudflare luo myös esikatselu-URL:n muotoa
+`https://<hash>.matematiikkakilpailut-github-io.pages.dev/`.
+
 ## Muokkaaminen Githubin kautta
 
-Muokkaa sivua, tee commit, tarkkaile [actions-sivua](https://github.com/matematiikkakilpailut/matematiikkakilpailut.github.io/actions)
-ja jos käännös onnistuu, sivu päivittyy osoitteeseen https://matematiikkakilpailut.fi minuuteissa.
+Muokkaa sivua ja commitoi uudelle branchille. Githubiin syntyy pull request,
+jolle Cloudflare rakentaa esikatselun. Kun build on vihreänä, mergeä PR
+masteriin ja sivu päivittyy osoitteeseen https://matematiikkakilpailut.fi minuuteissa.
 
 
 ## Kääntäminen paikallisesti

@@ -5,6 +5,10 @@ import markdownItAnchor from "markdown-it-anchor";
 import markdownItAttrs from "markdown-it-attrs";
 import rss from "@11ty/eleventy-plugin-rss";
 import * as cheerio from 'cheerio';
+import { SitemapStream, streamToPromise } from "sitemap";
+import { Readable } from "node:stream";
+import { writeFile, readdir } from "node:fs/promises";
+import { join } from "node:path";
 
 
 const md = markdownIt({
@@ -80,11 +84,26 @@ export default function (eleventyConfig) {
     "feed.xsl",
     "CNAME",
     "seiskat/manifest.json",
+    { "uutis-redir": "uutiset" },
     "BW2006",
     "BW2016",
     "{Baltian_tie,EGMO,IGO,IMO,Kappa,MAOL,PM,aiheet,aikataulu,english,kaytanto,kerhot,kilpailut,kirjallisuus,kokoukset,pythagoras,seiskat,tietosuoja,valmennus,valmentajat,uutiset}/**/*.{pdf,png,svg,ico,ps,tex,tex.gz,dvi,sty,cls,tgz,css}",
   ].map((file) => {
     eleventyConfig.addPassthroughCopy(file);
+  });
+
+  eleventyConfig.on("eleventy.after", async ({ dir }) => {
+    const urls = [];
+    const outputDir = dir.output;
+    const files = await readdir(outputDir, { recursive: true });
+    for (const file of files) {
+      if (!file.endsWith(".html")) continue;
+      const url = "/" + file.replace(/index\.html$/, "");
+      urls.push({ url });
+    }
+    const stream = new SitemapStream({ hostname: "https://matematiikkakilpailut.fi" });
+    const data = await streamToPromise(Readable.from(urls).pipe(stream));
+    await writeFile(join(outputDir, "sitemap.xml"), data);
   });
 
   return {
