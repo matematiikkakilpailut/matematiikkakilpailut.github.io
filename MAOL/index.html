@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAOLin matematiikkakilpailut</title>
+    <meta name="description" content="Matemaattisten aineiden opettajien liitto MAOL järjestää matematiikkakilpailuja peruskoululaisille ja lukiolaisille. Kilpailussa menestyneitä kutsutaan kilpailuvalmennukseen, jonka kautta valitaan joukkue matematiikkaolympialaisiin. Tällä sivulla on lukiosarjojen loppukilpailun tehtäviä ja ratkaisuja.">
+    <link href="/css/bootstrap.min.css?v=5.3.3" rel="stylesheet">
+    <style>
+     .breadcrumb {
+       --bs-breadcrumb-divider: '';
+       --bs-breadcrumb-padding-x: 0;
+       --bs-breadcrumb-item-padding-x: 0;
+     }
+     .navbar {
+       --bs-navbar-brand-padding-y: 4px;
+     }
+     [data-bs-theme="dark"] {
+       --bs-link-color: #788591;
+       --bs-link-color-rgb: 120, 133, 145;
+       .link-primary, .text-primary {
+         --bs-primary-rgb: 236, 240, 241;
+       }
+       .link-primary:hover {
+         color: rgb(128, 139, 150) !important;
+       }
+     }
+     [data-bs-theme="light"] {
+       --bs-link-color: #168366;
+       --bs-link-color-rgb: 23, 114, 83;
+       .link-primary {
+         --bs-primary-rgb: 33, 37, 41;
+         &:hover {
+           color: rgb(24, 188, 156) !important;
+         }
+       }
+     }
+     [data-bs-theme="dark"] .light-element { display: none; }
+     [data-bs-theme="light"] .dark-element { display: none; }
+     h1,h2,h3,h4,h5,h6 { text-wrap: balance; }
+     #logopalkki {
+       margin-top: 6ex;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+       align-content: center;
+     }
+     @media (pointer: coarse), (max-width: 450px) {
+       footer ul li {
+         padding-top: 0.5em;
+       }
+     }
+    </style>
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/kuvat/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/kuvat/apple-touch-icon.png">
+    <link rel="manifest" href="/kuvat/manifest.webmanifest">
+    <link rel="preload" href="/font/Lato-Regular.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/Lato-Bold.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/Lato-Italic.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="sitemap" href="/sitemap.xml">
+    <link rel="canonical" href="https://matematiikkakilpailut.fi/MAOL/">
+    <link rel="alternate" type="application/atom+xml" href="https://matematiikkakilpailut.fi/feed.xml">
+    <script>
+      const getStoredTheme = () => localStorage.getItem('theme')
+      const getPreferredTheme = () => {
+        const storedTheme = getStoredTheme()
+        if (storedTheme) {
+          return storedTheme
+        }
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+      }
+      const setTheme = theme => {
+        document.documentElement.dataset.bsTheme =
+          theme === 'auto'
+          ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+          : theme
+      }
+      setTheme(getPreferredTheme())
+    </script>
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <nav data-bs-theme="dark" class="navbar navbar-expand-md bg-primary" aria-label="Päävalikko">
+  <div class="container-fluid flex-flow align-items-start">
+    <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbar-collapse" aria-controls="navbar-collapse"
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand ps-sm-4" href="/">Matematiikkavalmennus</a>
+    <div class="d-flex order-0 order-md-last ms-md-auto" id="theme-toggle" title="Taustaväri">
+      <div class="dropdown">
+        <button class="btn btn-link nav-link dropdown-toggle
+                       py-2 pt-md-2 px-1 px-lg-2
+                       d-flex align-items-center text-light"
+                type="button"
+                id="bd-theme"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
+          <svg class="bi theme-icon-active" width="16" height="16" fill="currentColor">
+            <use href="/kuvat/sprite3.svg#sun-fill"></use>
+          </svg>
+          <span class="d-none" id="bd-theme-text">Taustaväri</span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme">
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite3.svg#sun-fill"></use>
+              </svg>
+              Vaalea
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite3.svg#moon-stars-fill"></use>
+              </svg>
+              Tumma
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+                <use href="/kuvat/sprite3.svg#circle-half"></use>
+              </svg>
+              Automaattinen
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="collapse navbar-collapse flex-column align-items-start" id="navbar-collapse">
+      <div class="row flex-grow-1">
+        <div class="col-12 flex-grow-1">
+          <ul class="navbar-nav mb-2 mb-md-0">
+            <li class="nav-item"><a class="nav-link " href="/aikataulu/">Aikataulu</a></li>
+           <li class="nav-item"><a class="nav-link " href="/valmennus/">Kotitehtävät</a></li>
+            <li class="nav-item"><a class="nav-link " href="/aiheet/">Materiaalit</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    
+<div class="container-fluid flex-flow bg-body-secondary align-items-start">
+  <nav aria-label="navigaatiopolku" class="mt-1 ps-sm-4 small">
+    <ol class="breadcrumb mb-1" itemscope itemtype="https://schema.org/BreadcrumbList">
+      
+      <li class="breadcrumb-item pe-1" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <meta itemprop="position" content="1">
+        <a class="icon-link link-primary text-decoration-none" href="/"
+           itemscope itemtype="https://schema.org/WebPage" itemprop="item" itemid="/">
+          <span itemprop="name">Etusivu</span>
+          <svg class="bi" style="stroke-width: 1.1; stroke: currentColor;">
+            <use xlink:href="/kuvat/sprite3.svg#chevron-right"/>
+          </svg>
+        </a>
+      </li>
+      <li class="breadcrumb-item pe-1" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <meta itemprop="position" content="2">
+        <a class="icon-link link-primary text-decoration-none" href="/kilpailut/"
+           itemscope itemtype="https://schema.org/WebPage" itemprop="item" itemid="/kilpailut/">
+          <span itemprop="name">Kilpailut</span>
+          <svg class="bi" style="stroke-width: 1.1; stroke: currentColor;">
+            <use xlink:href="/kuvat/sprite3.svg#chevron-right"/>
+          </svg>
+        </a>
+      </li>
+      <li class="breadcrumb-item active text-primary" aria-current="page"
+          itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <span itemprop="name">MAOL</span>
+        <meta itemprop="position" content="3">
+      </li>
+    </ol>
+  </nav>
+</div>
+
+    <div class="container flex-grow-1">
+        <header class="display-4 pt-3 pb-3 mt-3 mb-1">
+  <h1>MAOLin matematiikkakilpailut</h1>
+</header>
+<main class="row">
+  <div class="col-xs-12">
+    <p>Matemaattisten aineiden opettajien liitto <a href="https://maol.fi/">MAOL</a>
+järjestää vuosittain
+<a href="https://maol.fi/neljan-tieteen-kisat/">matematiikkakilpailuja</a>
+peruskoululaisille ja lukiolaisille. Alkukilpailut pidetään
+omissa kouluissa syksyisin. Alkukilpailun parhaat pääsevät
+seuraavan vuoden alussa pidettävään loppukilpailuun.
+Kilpailuihin voi päästä mukaan kertomalla matematiikan
+opettajalleen osallistumishalustaan hyvissä ajoin ennen
+kilpailua.</p>
+<h2 id="peruskoulun-matematiikkakilpailu" tabindex="-1">Peruskoulun matematiikkakilpailu</h2>
+<p>Peruskoulun matematiikkakilpailu on suunnattu ensi sijassa
+peruskoulun 9. luokan oppilaille, mutta myös nuoremmat oppilaat
+voivat mainiosti osallistua. Loppukilpailuun osallistuu yleensä kaksi
+virolaista vierailijaa, ja peruskoulun kilpailun kaksi parasta on
+voinut osallistua Viron vastaavaan kilpailuun. Peruskoulun
+matematiikkakilpailun tehtäviä ja ratkaisuja löytyy
+<a href="https://maol.fi/neljan-tieteen-kisat/vanhat-kilpailutehtavat/">MAOL:n kilpailusivulta</a>.</p>
+<h2 id="lukion-matematiikkakilpailu" tabindex="-1">Lukion matematiikkakilpailu</h2>
+<h3 id="yleist%C3%A4" tabindex="-1">Yleistä</h3>
+<p>Lukion kilpailussa on kolme sarjaa iän
+mukaan: <em>avoin</em>, <em>väli-</em> ja <em>perussarja</em>. Näistä avoin sarja
+on vaikein. Kunkin sarjan parhaat pääsevät loppukilpailuun,
+jossa on sarjoista huolimatta vain yhdet tehtävät.</p>
+<p>Peruskoululaiset voivat halutessaan osallistua lukion
+kilpailuun.</p>
+<p>Jonkin verran MAOL:n Lukion matematiikkakilpailun alkukilpailutehtäviä
+löytyy <a href="https://maol.fi/neljan-tieteen-kisat/vanhat-kilpailutehtavat/">MAOL:n kilpailusivuilta</a>.</p>
+<h3 id="alkukilpailun-teht%C3%A4vi%C3%A4-ja-ratkaisuja" tabindex="-1">Alkukilpailun tehtäviä ja ratkaisuja</h3>
+<p>Lukion matematiikkakilpailun tehtäviä ja ratkaisuja muutamilta
+vuosilta löytyy pdf-muotoisina oheisesta taulukosta.</p>
+<div role="list">
+<div class="row flex-wrap mb-3" role="heading">
+  <div class="col-4 col-md-3"><strong>Vuosi</strong></div>
+  <div class="col-4 col-md-3"><strong>Tehtävät</strong></div>
+  <div class="col-4 col-md-3"><strong>Ratkaisut</strong></div>
+</div>
+<hr>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2019</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/13ilFRIPPwTP96XYOS_Xr2TmGjpNyDDu3/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1E9sUjwZjY_zDvDrRQOwt-o0dRnMolZTx/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2018</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1pbIItXqx90UrjkuTTKfgpJo37VeEuCri/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1GqpRL89-LgNRcUkzSMCclWAnECtiGIfl/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2017</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1icci7APrKd-DYPUOUt1LoWOI01YjoWce/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/12XA24a1wnHPVTHLzqNrAHlqUPvsoHMZU/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2016</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/16kFFYF5CZX3puxVZxAmVLH8hQ2nFMry8/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1D8kyJ_vAPlc0lUD2OG4ZnOobkZfJEIiz/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2015</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1fVHg3OMW08M-5YKbx94glT81ILpHxsXB/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1ItG0IOVSSEVWpzPzxSQQGbMj3Z4VwoK5/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2014</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1my_zWKFBYJVXyjRwa3wEp0oQWGAv-leH/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/189MjvFpQ4yM2q5xwHNAsLSQYOjQ8khTO/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2013</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/10CFcnc2jIrQAa9I1oX45Jjy-OSf7e88_/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1PL4k4C_SR6-nEMEGfsbNEFHRVYU39z2O/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2012</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1U4NCOvmMqzAUxAkdKst9E2DDoC5NDjI-/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1LlO4qtl8_xqNzQdi61aLXsvzQ2g5450j/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2011</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1u2I8554-xvmvSn9TiFNsRDvOMXTqRIrV/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1rFZuA6WTdE7Vr6sdcT8HEeX14xlu5J4D/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2010</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1xVeCWXybLNZK7WmlCsMetBQWh1AIF_Iz/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1CLC3upjAfQ6lmLbirofcRGGKVU5Z4L8b/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2009</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1kb4I-y87AlHXHG6aKFNW8VMwpGTW7C3B/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1UUZ09cU8iOjKFDgwBcqIDhnzgKrwLq_Y/view">pdf</a></div>
+</div>
+</div>
+<h3 id="loppukilpailun-teht%C3%A4vi%C3%A4-ja-ratkaisuja" tabindex="-1">Loppukilpailun tehtäviä ja ratkaisuja</h3>
+<p>Lukion matematiikkakilpailun loppukilpailu on järjestetty vuodesta
+1997 alkaen. Tässä tehtäviä ja ratkaisuja pdf-muodossa seuraavan taulukon mukaisesti.</p>
+<div role="list">
+<div class="row flex-wrap mb-3" role="heading">
+  <div class="col-4 col-md-3"><strong>Vuosi</strong></div>
+  <div class="col-4 col-md-3"><strong>Tehtävät</strong></div>
+  <div class="col-4 col-md-3"><strong>Ratkaisut</strong></div>
+</div>
+<hr>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2025</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1IhgO5GY–KlohX0l75yeAV0wITw9jZth/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1Fjetz__TROeuHtGdWGe1oModBqzLC80A/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2019</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1tivGCXohVjRol3sGTe5hL9VaqUSNM1lu/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1KJzs08gFU6d6jd1cFIyiLjIYDpL-DDW_/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2018</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1PUF11ci0GZD_RmnLShq28_XZ7v0nUdap/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1X4t9APSQBibm9hrxmgkc8VU0wyyYnXjM/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2017</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1kvcdK71Dovf33_D_WASRwqGpoprsSZWQ/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1I_49fbHDJ_eIOMyv649AoZsdJvA9ksQe/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2016</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1_eM9okgFhFc_wKJe6ITaIWcDAOkbsJxS/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1fnigLtA1GZKod6m9ZCwEAGi4Ikmv7hp1/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2015</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/10d-dqYI03IneS1NY7b38ZKmrtkpTFL1i/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1CC6EJYzRCseDJ__JFt4ahE1gSBdMXmkP/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2014</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/14rXlXtDL6Eq3hQN_ifsI2GNVD3H2ebav/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1vGRjo2-XQs7oq-Ki_Yc4LU4eBfRPfa7P/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2013</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/11s8Pa_KP14IXyYjEes_cFVI-DrnP5Vlu/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1tor0dVQG-8ZDlAA0Ra0MvMzWHsx_GExN/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2012</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1NrmttWlbAs26WjiiLeFoK1QMD6YoWjPb/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1enDp91p9Wk3FLpog4pssTIwuRRchFGP-/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2011</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1ejXqn3XdwJAycAZtmwX9XOxj0t0f2_Im/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1zriengJDYRNQIUZbb2YODUooiZ5ixWkv/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2010</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1uJNH7yIfdUgLXycJ_zpHNvKV9nepGIOD/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1dLtnDSxS1HcLWQQXg70hOtNAyiP1QkLl/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2009</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1vFPuLzTKPfek238EwZMM_RygZXCwhobn/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1NlzGV7Va03Y5giuwkSbneK916EGE74QD/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2008</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1C9o9PeTMpGX3gCJBpDx_idZyjtCz14iF/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/18waKmDq8oG4GBOjft4QV2ZWW69oedcT2/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2007</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1gh8KmLyMMAvfwa8MDYDJQEi85z5e55sO/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1Sgmr0R0qgN5zcDQ33xnpvRU7vpZd73YW/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2006</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1lIbc4R0LYgMWNoTs5US5cp-A-DzUBRtQ/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1z3mf_ByRgKAaw6tPE3dQqu8doExDmn12/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2005</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1iWPnogNz4xQmBQBXfHw68iZhG5yJWTyj/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1ZRC3L1_6pthU4s-4shjEUhpr76jaa_GB/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2004</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1exZD0T8pAlOndi4_1r089PzfgvE8ps4S/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1w-8qqTOAEucQ4ISCYG47rnT8bX4obZ1R/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2003</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/11Vvd8KvCGiQIBThi5Z1rD93uH676LnBD/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1i6QsI_sXW48Dr1UFavZfEYuKubhPVU-8/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2002</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1theZ46935dFJ-FO2NqB6kIfhzDby1kFU/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/11agXgftTz0LHtMgzvsvSE_ztBCdUVLWT/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2001</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1ABpBcyFxtv_1Cyx1Wd02upYW235L9gnF/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1DIKjUcbyHjsQ7iDooR6nVBXTmXYZwBkR/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">2000</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1T6enSrwUft_k2JXHYHR4UggB-txM7lK3/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1heYqWpWcnzk5lWCbKn08S5M76rAFymT0/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">1999</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1X0mbpe44irOyWaBLvLcAyZ4F_toc_OpI/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1Mqr-CrAz3kIph3ivfJkn-ybztEFjIQh4/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">1998</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/12JBrmXDhYOT5jWN7ei7chLhAJBJWke9M/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1HjaU6MlgVaxu8FSBEI6YNvGHnYlc6Hza/view">pdf</a></div>
+</div>
+<div class="row flex-wrap mb-3" role="listitem">
+  <div class="col-4 col-md-3">1997</div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/1ZKqhnkg3AYVcnF6ngBQr-fh4Lbdgtiz6/view">pdf</a></div>
+  <div class="col-4 col-md-3"><a href="https://drive.google.com/file/d/197UNyqg9g1bMCR_Dy-GvOZ-skiPf9Op0/view">pdf</a></div>
+</div>
+</div>
+
+  </div>
+</main>
+
+
+    </div>
+    
+
+<footer class="footer mt-auto py-4 bg-body-tertiary">
+  <div class="container-md small">
+    <div class="row gy-4">
+      <div class="col-sm-6 col-md-4">
+        <div id="footer-valmennus-heading" class="fw-bold mb-2 fs-6">Valmennus</div>
+        <ul aria-labelledby="footer-valmennus-heading" class="list-unstyled mb-0">
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/kilpailut/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#trophy-fill"/>
+    </svg>
+    Kilpailut
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/aiheet/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#book"/>
+    </svg>
+    Materiaalit
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/kaytanto/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#calendar-event"/>
+    </svg>
+    Tapahtumat
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/valmennus/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#envelope-fill"/>
+    </svg>
+    Kotitehtävät
+  </a>
+</li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div id="footer-yhteystiedot-heading" class="fw-bold mb-2 fs-6">Yhteystiedot</div>
+        <ul aria-labelledby="footer-yhteystiedot-heading" class="list-unstyled mb-0">
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="mailto:info@matematiikkakilpailut.fi"
+    title="Sähköposti"
+    rel="author"
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#envelope-fill"/>
+    </svg>
+    info@matematiikkakilpailut.fi
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/valmentajat/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#people-fill"/>
+    </svg>
+    Valmentajat
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/feed.xml"
+    title="RSS-syöte"
+    rel="alternate"
+    
+    type="application/atom+xml"
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#rss-fill"/>
+    </svg>
+    RSS-syöte
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="https://t.me/+TS59DXkdJpozNDU0"
+    title="Telegram"
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#telegram"/>
+    </svg>
+    Telegram-keskusteluryhmä
+  </a>
+</li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div id="footer-muuta-heading" class="fw-bold mb-2 fs-6">Muuta</div>
+        <ul aria-labelledby="footer-muuta-heading" class="list-unstyled mb-0">
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/kerhot/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#people-fill"/>
+    </svg>
+    Kerhot
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/linkit/"
+    
+    
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#link-45deg"/>
+    </svg>
+    Linkkejä
+  </a>
+</li>
+          <li>
+  <a class="icon-link link-primary text-decoration-none" href="/tietosuoja/"
+    
+    rel="privacy-policy"
+    
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#shield-fill"/>
+    </svg>
+    Tietosuoja
+  </a>
+</li>
+          <li lang="en">
+  <a class="icon-link link-primary text-decoration-none" href="/english/"
+    
+    
+    hreflang="en"
+    
+    >
+    <svg class="bi">
+      <use xlink:href="/kuvat/sprite3.svg#translate"/>
+    </svg>
+    In English
+  </a>
+</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script defer src="/js/theme.js"></script>
+    <script type="module" src="/js/instant.page.min.js"></script>
+    <script defer src="/js/bootstrap.bundle.min.js?v=5.3.3"></script>
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "45380cb8b30d4b0791d27e340eefc4da"}'></script>
+  </body>
+</html>
