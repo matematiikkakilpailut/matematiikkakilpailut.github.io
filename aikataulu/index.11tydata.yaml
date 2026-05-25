@@ -1,6 +1,27 @@
 ---
 aikataulu:
 - pvm: "2026"
+  tapahtuma: "Kesä"
+  otsikko: true
+- tapahtuma: "[Olympia&shy;joukkueen yhteis&shy;pohjois&shy;mainen valmennus&shy;leiri Sorøssa, Tanskassa](https://georgmohr.dk/soroe/)"
+  pvm: "5.&ndash;10.7."
+- pvm: "10.&ndash;20.7."
+  tapahtuma: >-
+    [Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr>](https://www.imo2026.com)
+    Shanghaissa, Kiinassa
+
+# ainoastaan otsikon "aikataulu" alla olevat tapahtumat otetaan mukaan sivulle
+# joten esim. "mahdollisia" tai "vanhoja" eivät näy vaan ovat mukana vain jotta
+# niitä voi tarvittaessa siirtää tai kopioida "aikataulu"-listaan
+
+# ilmoittautumisnapin muotoilut: [Ilmoittaudu tästä!](https://example.com){.btn .btn-primary .btn-sm .align-baseline role="button"}
+
+mahdollisia:
+- pvm: "noin joulukuussa"
+  tapahtuma: "[European Mathematical Cup](https://emc.mnm.hr)"
+
+vanhoja:
+- pvm: "2026"
   tapahtuma: "Kevät ja kesä"
   otsikko: true
 - pvm: "9.&ndash;11.1. (viikko 2)"
@@ -43,24 +64,6 @@ aikataulu:
   tapahtuma: >-
     Valmennus&shy;viikon&shy;loppu Päivölässä erityisesti nuoremmille oppilaille.
     [Ilmoittaudu tästä!](https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2026-vk21){.btn .btn-primary .btn-sm .align-baseline role="button"}
-- tapahtuma: "[Olympia&shy;joukkueen yhteis&shy;pohjois&shy;mainen valmennus&shy;leiri Sorøssa, Tanskassa](https://georgmohr.dk/soroe/)"
-  pvm: "5.&ndash;10.7."
-- pvm: "10.&ndash;20.7."
-  tapahtuma: >-
-    [Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr>](https://www.imo2026.com)
-    Shanghaissa, Kiinassa
-
-# ainoastaan otsikon "aikataulu" alla olevat tapahtumat otetaan mukaan sivulle
-# joten esim. "mahdollisia" tai "vanhoja" eivät näy vaan ovat mukana vain jotta
-# niitä voi tarvittaessa siirtää tai kopioida "aikataulu"-listaan
-
-# ilmoittautumisnapin muotoilut: [Ilmoittaudu tästä!](https://example.com){.btn .btn-primary .btn-sm .align-baseline role="button"}
-
-mahdollisia:
-- pvm: "noin joulukuussa"
-  tapahtuma: "[European Mathematical Cup](https://emc.mnm.hr)"
-
-vanhoja:
 - pvm: "2025"
   tapahtuma: "Kevät ja kesä"
   otsikko: true
