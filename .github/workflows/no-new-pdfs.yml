@@ -5,6 +5,7 @@ permissions:
   contents: read
 jobs:
   check:
+    name: no-new-pdfs
     runs-on: ubuntu-24.04
     steps:
       - name: Check for new PDF files
