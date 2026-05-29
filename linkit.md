@@ -41,5 +41,7 @@ USA:n olympiavalmennuksen johtajan syyskuussa 2016 julkaistu haastattelu, joka v
 Päivölässä toimii [matematiikkalinja](https://www.matematiikkalinja.fi/),
 jonka yhteydessä järjestetään viikonloppuvalmennuksia.
 
+
+
 [Solmu](http://matematiikkalehtisolmu.fi/).
 Matematiikkalehti, johon sinäkin voisit kenties kirjoittaa jotain.
