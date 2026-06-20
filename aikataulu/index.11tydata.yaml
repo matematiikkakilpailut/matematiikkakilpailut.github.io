@@ -9,6 +9,28 @@ aikataulu:
   tapahtuma: >-
     [Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr>](https://www.imo2026.com)
     Shanghaissa, Kiinassa
+- pvm: "2026"
+  tapahtuma: "Syksy"
+  otsikko: true
+- pvm: "28.&ndash;30.8. (viikko 35)"
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä. Baltian tie -joukkueeseen pyrkivien kannattaa osallistua.
+- pvm: "22.10.&ndash;6.11."
+  tapahtuma: >-
+    [MAOLin matematiikkakilpailun alkukilpailu, peruskoulu](https://maol.fi/neljan-tieteen-kisat/)
+- pvm: "6.&ndash;8.11. (viikko 45)"
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä.
+- pvm: "27.10."
+  tapahtuma: >-
+    [MAOLin matematiikkakilpailun alkukilpailu, lukio](https://maol.fi/neljan-tieteen-kisat/)
+- pvm: "12.&ndash;16.11."
+  tapahtuma: >-
+    Baltian tie -joukkuekilpailu Vilnassa, Liettuassa.
+- pvm: "12.&ndash;13.12. (viikko 50)"
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä.
+
 
 # ainoastaan otsikon "aikataulu" alla olevat tapahtumat otetaan mukaan sivulle
 # joten esim. "mahdollisia" tai "vanhoja" eivät näy vaan ovat mukana vain jotta
