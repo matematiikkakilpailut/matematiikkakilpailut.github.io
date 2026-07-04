@@ -5,10 +5,7 @@ import markdownItAnchor from "markdown-it-anchor";
 import markdownItAttrs from "markdown-it-attrs";
 import rss from "@11ty/eleventy-plugin-rss";
 import * as cheerio from 'cheerio';
-import { SitemapStream, streamToPromise } from "sitemap";
-import { Readable } from "node:stream";
-import { writeFile, readdir } from "node:fs/promises";
-import { join } from "node:path";
+import { readFileSync } from "node:fs";
 
 
 const md = markdownIt({
@@ -22,6 +19,26 @@ const md = markdownIt({
 }).use(markdownItAttrs)
 
 export default function (eleventyConfig) {
+  // Validate pdf-redirects.json (hand-edited, fetched client-side by the 404 page).
+  let pdfRedirects;
+  try {
+    pdfRedirects = JSON.parse(readFileSync("pdf-redirects.json", "utf8"));
+  } catch (e) {
+    throw new Error(`pdf-redirects.json is not valid JSON: ${e.message}`);
+  }
+  if (
+    !pdfRedirects ||
+    typeof pdfRedirects !== "object" ||
+    Array.isArray(pdfRedirects) ||
+    !Object.entries(pdfRedirects).every(
+      ([k, v]) => typeof k === "string" && typeof v === "string"
+    )
+  ) {
+    throw new Error(
+      "pdf-redirects.json must be a plain object mapping string paths to string file IDs"
+    );
+  }
+
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(rss);
 
@@ -71,8 +88,10 @@ export default function (eleventyConfig) {
 
 
   [
-    "js",
-    "css",
+    // Ship built assets only: skip css/bootstrap.css (unminified csso input)
+    // and js/bootstrap.bundle.min.js.map (dev source map).
+    "js/*.js",
+    "css/*.min.css",
     "font",
     "kuvat",
     "favicon.ico",
@@ -90,20 +109,6 @@ export default function (eleventyConfig) {
     "{Baltian_tie,EGMO,IGO,IMO,Kappa,MAOL,PM,aiheet,aikataulu,english,kaytanto,kerhot,kilpailut,kirjallisuus,kokoukset,pythagoras,seiskat,tietosuoja,valmennus,valmentajat,uutiset}/**/*.{pdf,png,svg,ico,ps,tex,tex.gz,dvi,sty,cls,tgz,css}",
   ].map((file) => {
     eleventyConfig.addPassthroughCopy(file);
-  });
-
-  eleventyConfig.on("eleventy.after", async ({ dir }) => {
-    const urls = [];
-    const outputDir = dir.output;
-    const files = await readdir(outputDir, { recursive: true });
-    for (const file of files) {
-      if (!file.endsWith(".html")) continue;
-      const url = "/" + file.replace(/index\.html$/, "");
-      urls.push({ url });
-    }
-    const stream = new SitemapStream({ hostname: "https://matematiikkakilpailut.fi" });
-    const data = await streamToPromise(Readable.from(urls).pipe(stream));
-    await writeFile(join(outputDir, "sitemap.xml"), data);
   });
 
   return {

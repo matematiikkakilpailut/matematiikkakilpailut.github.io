@@ -6,8 +6,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title>
+    <title>{% if page.url == "/" %}{{ title }}{% else %}{{ title }} – Matematiikkavalmennus{% endif %}</title>
     {% if description %}<meta name="description" content="{{ description }}">{% endif %}
+    <meta property="og:title" content="{% if page.url == "/" %}{{ title }}{% else %}{{ title }} – Matematiikkavalmennus{% endif %}">
+    {% if description %}<meta property="og:description" content="{{ description }}">{% endif %}
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ pkg.base_url }}{{ page.url }}">
+    <meta property="og:site_name" content="Matematiikkavalmennus">
+    <meta property="og:locale" content="fi_FI">
+    <meta property="og:image" content="{{ pkg.base_url }}/kuvat/icon512.png">
+    <meta name="twitter:card" content="summary">
     <link href="/css/bootstrap.min.css?v=5.3.3" rel="stylesheet">
     <style>
      .breadcrumb {
@@ -89,9 +97,10 @@
     </script>
   </head>
   <body class="d-flex flex-column min-vh-100">
+    <a href="#main" class="visually-hidden-focusable p-2">Siirry sisältöön</a>
     {% include 'ylapalkki.html' %}
     {% include 'leivanmurut.html' %}
-    <div class="container flex-grow-1">
+    <div class="container flex-grow-1" id="main" tabindex="-1">
         {{ content | safe }}
     </div>
     {% include 'alapalkki.html' %}

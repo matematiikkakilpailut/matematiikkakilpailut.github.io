@@ -18,7 +18,7 @@ Lisätietoa: <anne-maria.ernvall-hytonen@helsinki.fi> tai <nirmal.krishnan@helsi
 
 <div id="logopalkki">
 <img src="/kuvat/hy.jpg" alt="Helsingin Yliopisto" height="120"/>
-<img src="/kuvat/oph.png" alt="Opetushallitus rahoittaa hanketta" height="100"/>
+<img src="/OPH_rahoittaa_rgb.png" alt="Opetushallitus rahoittaa hanketta" height="100"/>
 <img src="/kuvat/maol.jpg" alt="MAOL" height="80"/>
 <img src="/kuvat/lumakeskus.jpg" alt="LUMA-keskus Suomi" height="100"/>
 </div>

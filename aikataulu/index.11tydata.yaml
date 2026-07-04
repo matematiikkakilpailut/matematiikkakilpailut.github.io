@@ -1,4 +1,33 @@
 ---
+# Tapahtumakalenteri. Vain avaimen "aikataulu" alla olevat tapahtumat
+# näkyvät sivulla; "mahdollisia" ja "vanhoja" ovat pelkkää varastoa, josta
+# rivejä voi tarvittaessa siirtää tai kopioida "aikataulu"-listaan.
+#
+# "aikataulu" on lista tapahtumia. Jokaisella rivillä on:
+#   pvm:       vasemmassa sarakkeessa näkyvä päivämäärä tai ajankohta (teksti)
+#   tapahtuma: tapahtuman kuvaus, Markdownia (linkit, korostukset yms.)
+#   otsikko:   valinnainen; jos "true", rivi näytetään väliotsikkona
+#              (esim. vuodenaika), ei tavallisena tapahtumana.
+#
+# Esimerkki väliotsikosta:
+#   - pvm: "2026"
+#     tapahtuma: "Syksy"
+#     otsikko: true
+#
+# Esimerkki tavallisesta tapahtumasta:
+#   - pvm: "6.&ndash;8.11. (viikko 45)"
+#     tapahtuma: >-
+#       Valmennusviikonloppu Päivölässä.
+#
+# Muotoiluvinkkejä:
+#   - Jos arvossa on "[" tai ":", se pitää laittaa lainausmerkkeihin,
+#     esim. pvm: "16.&ndash;17.1." tai koko Markdown-linkin sisältävä arvo.
+#   - ">-" aloittaa monirivisen arvon; jatkorivit on sisennettävä.
+#   - Ilmoittautumisnapin muotoilu:
+#     [Ilmoittaudu tästä!](https://example.com){.btn .btn-primary .btn-sm .align-baseline role="button"}
+#   - Olemassa olevissa riveissä esiintyvät HTML-entiteetit "&ndash;" (ajatusviiva)
+#     ja "&shy;" (pehmeä tavutusmerkki) ovat vapaaehtoisia typografisia
+#     hienosäätöjä, eivät pakollisia.
 aikataulu:
 - pvm: "2026"
   tapahtuma: "Kesä"
