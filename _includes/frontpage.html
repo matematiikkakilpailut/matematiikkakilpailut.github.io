@@ -33,9 +33,8 @@ layout: default
             <ul class="list-group list-group-flush">
               {%- for artikkeli in collections.uutinen | reverse | batch(4) | first %}
               <li class="list-group-item {% if loop.last %}pt-3{% else %}py-3{% endif %}">
-                <h3 class="h6 mb-1"><a href="{{ artikkeli.url }}" class="link-primary">{{ artikkeli.data.title }}</a></h3>
-                <div class="text-body-secondary small mb-2">{{ artikkeli.date.toLocaleDateString("fi", {timeZone: "UTC"}) }}</div>
                 {{ artikkeli.templateContent | safe }}
+                <div class="text-body-secondary small text-end">{{ artikkeli.date.toLocaleDateString("fi", {timeZone: "UTC"}) }}</div>
               </li>
               {%- endfor %}
             </ul>
