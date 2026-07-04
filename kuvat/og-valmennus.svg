@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img">
+<title>Valmennus</title>
+
+<rect width="1200" height="630" fill="#2d3e50"></rect>
+<g transform="translate(560,90) scale(0.78)">
+<rect x="0" y="0" width="500" height="500" fill="none" stroke="#f2f4ef" stroke-opacity="0.3" stroke-width="2.5"></rect><rect x="500" y="0" width="309" height="309" fill="none" stroke="#f2f4ef" stroke-opacity="0.3" stroke-width="2.5"></rect><rect x="618" y="309" width="191" height="191" fill="none" stroke="#f2f4ef" stroke-opacity="0.3" stroke-width="2.5"></rect><rect x="500" y="382" width="118" height="118" fill="none" stroke="#f2f4ef" stroke-opacity="0.3" stroke-width="2.5"></rect><rect x="500" y="309" width="73" height="73" fill="none" stroke="#f2f4ef" stroke-opacity="0.3" stroke-width="2.5"></rect><rect x="573" y="309" width="45" height="45" fill="none" stroke="#f2f4ef" stroke-opacity="0.3" stroke-width="2.5"></rect><rect x="590" y="354" width="28" height="28" fill="none" stroke="#f2f4ef" stroke-opacity="0.3" stroke-width="2.5"></rect>
+<path d="M0,500 A500,500 0 0 1 500,0 A309,309 0 0 1 809,309 A191,191 0 0 1 618,500 A118,118 0 0 1 500,382 A73,73 0 0 1 573,309 A45,45 0 0 1 618,354 A28,28 0 0 1 590,382" fill="none" stroke="#ecc98e" stroke-width="7" stroke-linecap="round"></path>
+</g><text x="80" y="92" font-family="Lato, sans-serif" font-size="26" font-weight="700" letter-spacing="1" fill="#9ec7e8">matematiikkakilpailut.fi</text><text x="80" y="372" font-family="Lato, sans-serif" font-size="84" font-weight="900" letter-spacing="-1" fill="#f5f6f4">Valmennus</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img">
+<title>Tulokset</title>
+
+<rect width="1200" height="630" fill="#2d3e50"></rect>
+
+<g stroke="#f2f4ef" stroke-width="4.5" stroke-linecap="round"><line x1="700" y1="70" x2="700" y2="560"></line><line x1="700" y1="560" x2="1180" y2="560"></line></g>
+<polyline points="760,500 830,470 900,410 970,370 1040,290 1110,220" fill="none" stroke="#a9d6a1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></polyline>
+<circle cx="760" cy="500" r="8" fill="#2d3e50" stroke="#f2f4ef" stroke-width="3.5"></circle><circle cx="830" cy="470" r="8" fill="#2d3e50" stroke="#f2f4ef" stroke-width="3.5"></circle><circle cx="900" cy="410" r="8" fill="#2d3e50" stroke="#f2f4ef" stroke-width="3.5"></circle><circle cx="970" cy="370" r="8" fill="#2d3e50" stroke="#f2f4ef" stroke-width="3.5"></circle><circle cx="1040" cy="290" r="8" fill="#2d3e50" stroke="#f2f4ef" stroke-width="3.5"></circle><circle cx="1110" cy="220" r="8" fill="#2d3e50" stroke="#f2f4ef" stroke-width="3.5"></circle>
+<text x="80" y="92" font-family="Lato, sans-serif" font-size="26" font-weight="700" letter-spacing="1" fill="#9ec7e8">matematiikkakilpailut.fi</text><text x="80" y="372" font-family="Lato, sans-serif" font-size="84" font-weight="900" letter-spacing="-1" fill="#f5f6f4">Tulokset</text>
+</svg>
