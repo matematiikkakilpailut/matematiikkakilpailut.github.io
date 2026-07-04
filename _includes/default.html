@@ -100,7 +100,7 @@
     <a href="#main" class="visually-hidden-focusable p-2">Siirry sisältöön</a>
     {% include 'ylapalkki.html' %}
     {% include 'leivanmurut.html' %}
-    <div class="container flex-grow-1" id="main">
+    <div class="container flex-grow-1" id="main" tabindex="-1">
         {{ content | safe }}
     </div>
     {% include 'alapalkki.html' %}
