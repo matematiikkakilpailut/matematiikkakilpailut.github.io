@@ -3,6 +3,32 @@
 <!DOCTYPE html>
 <html lang="{{ lang | default('fi') }}">
   <head>
+    {% set socialImage = '/kuvat/og-default.png' %}
+    {% if ogImage %}
+      {% set socialImage = ogImage %}
+    {% elif '/tulokset' in page.url or '/resultat' in page.url or '/results' in page.url %}
+      {% set socialImage = '/kuvat/og-tulokset.png' %}
+    {% elif page.url == '/aiheet/' or '/tehtavat' in page.url or '/problem' in page.url or '/problems' in page.url %}
+      {% set socialImage = '/kuvat/og-tehtavat.png' %}
+    {% elif page.url.startsWith('/aikataulu/')
+      or page.url.startsWith('/english/')
+      or page.url.startsWith('/kaytanto/')
+      or page.url.startsWith('/kerhot/')
+      or page.url.startsWith('/valmennus/') %}
+      {% set socialImage = '/kuvat/og-valmennus.png' %}
+    {% elif page.url.startsWith('/Baltian_tie/')
+      or page.url.startsWith('/BW2006/')
+      or page.url.startsWith('/BW2016/')
+      or page.url.startsWith('/EGMO/')
+      or page.url.startsWith('/IGO/')
+      or page.url.startsWith('/IMO/')
+      or page.url.startsWith('/MAOL/')
+      or page.url.startsWith('/PM/')
+      or page.url.startsWith('/kilpailut/')
+      or page.url.startsWith('/pythagoras/')
+      or page.url.startsWith('/seiskat/') %}
+      {% set socialImage = '/kuvat/og-kilpailut.png' %}
+    {% endif %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,8 +40,14 @@
     <meta property="og:url" content="{{ pkg.base_url }}{{ page.url }}">
     <meta property="og:site_name" content="Matematiikkavalmennus">
     <meta property="og:locale" content="fi_FI">
-    <meta property="og:image" content="{{ pkg.base_url }}/kuvat/icon512.png">
-    <meta name="twitter:card" content="summary">
+    <meta property="og:image" content="{% if socialImage.startsWith('http') %}{{ socialImage }}{% else %}{{ pkg.base_url }}{{ socialImage }}{% endif %}">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% if page.url == "/" %}{{ title }}{% else %}{{ title }} – Matematiikkavalmennus{% endif %}">
+    {% if description %}<meta name="twitter:description" content="{{ description }}">{% endif %}
+    <meta name="twitter:image" content="{% if socialImage.startsWith('http') %}{{ socialImage }}{% else %}{{ pkg.base_url }}{{ socialImage }}{% endif %}">
     <link href="/css/bootstrap.min.css?v=5.3.3" rel="stylesheet">
     <style>
      .breadcrumb {
@@ -62,8 +94,8 @@
        }
      }
     </style>
-    <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" href="/kuvat/icon.svg" type="image/svg+xml">
+    <link rel="icon" href="/kuvat/favicon-32x32.png" type="image/png" sizes="32x32">
     <link rel="apple-touch-icon" href="/kuvat/apple-touch-icon.png">
     <link rel="manifest" href="/kuvat/manifest.webmanifest">
     <link rel="preload" href="/font/Lato-Regular.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">

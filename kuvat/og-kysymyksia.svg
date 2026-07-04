@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img">
+<title>Kysymyksiä</title>
+
+<rect width="1200" height="630" fill="#2d3e50"></rect>
+
+<g fill="none" stroke="#f2f4ef" stroke-opacity="0.12" stroke-width="2.5"><circle cx="1120" cy="315" r="240"></circle><circle cx="1000" cy="522.8" r="240"></circle><circle cx="760" cy="522.8" r="240"></circle><circle cx="640" cy="315" r="240"></circle><circle cx="760" cy="107.2" r="240"></circle><circle cx="1000" cy="107.2" r="240"></circle></g>
+<circle cx="880" cy="315" r="240" fill="none" stroke="#f2f4ef" stroke-width="4"></circle>
+<polygon points="1120,315 1000,522.8 760,522.8 640,315 760,107.2 1000,107.2" fill="none" stroke="#f2f4ef" stroke-opacity="0.45" stroke-width="2.5"></polygon>
+<polygon points="1120,315 760,522.8 760,107.2" fill="#9ec7e8" fill-opacity="0.08" stroke="#9ec7e8" stroke-width="4" stroke-linejoin="round"></polygon>
+<circle cx="880" cy="315" r="6" fill="#f2f4ef"></circle>
+<text x="80" y="92" font-family="Lato, sans-serif" font-size="26" font-weight="700" letter-spacing="1" fill="#9ec7e8">matematiikkakilpailut.fi</text><text x="80" y="372" font-family="Lato, sans-serif" font-size="84" font-weight="900" letter-spacing="-1" fill="#f5f6f4">Kysymyksiä</text>
+</svg>
