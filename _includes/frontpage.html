@@ -33,6 +33,8 @@ layout: default
             <ul class="list-group list-group-flush">
               {%- for artikkeli in collections.uutinen | reverse | batch(4) | first %}
               <li class="list-group-item {% if loop.last %}pt-3{% else %}py-3{% endif %}">
+                <h3 class="h6 mb-1"><a href="{{ artikkeli.url }}" class="link-primary">{{ artikkeli.data.title }}</a></h3>
+                <div class="text-body-secondary small mb-2">{{ artikkeli.date.toLocaleDateString("fi", {timeZone: "UTC"}) }}</div>
                 {{ artikkeli.templateContent | safe }}
               </li>
               {%- endfor %}
@@ -55,15 +57,15 @@ layout: default
               {% for item in faq %}
               <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
                 <h2 class="accordion-header" itemprop="name">
-                  <button class="accordion-button{% if not loop.first %} collapsed{% endif %}" type="button" 
-                          data-bs-toggle="collapse" data-bs-target="#faq-{{ item.id }}" 
-                          aria-expanded="{% if loop.first %}true{% else %}false{% endif %}" 
+                  <button id="faq-{{ item.id }}-btn" class="accordion-button{% if not loop.first %} collapsed{% endif %}" type="button"
+                          data-bs-toggle="collapse" data-bs-target="#faq-{{ item.id }}"
+                          aria-expanded="{% if loop.first %}true{% else %}false{% endif %}"
                           aria-controls="faq-{{ item.id }}">
                     <span itemprop="text">{{ item.question }}</span>
                   </button>
                 </h2>
-                <div id="faq-{{ item.id }}" class="accordion-collapse collapse{% if loop.first %} show{% endif %}" 
-                     aria-labelledby="faq-{{ item.id }}" data-bs-parent="#faqAccordion"
+                <div id="faq-{{ item.id }}" class="accordion-collapse collapse{% if loop.first %} show{% endif %}"
+                     aria-labelledby="faq-{{ item.id }}-btn" data-bs-parent="#faqAccordion"
                      itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                   <div class="accordion-body" itemprop="text">
                     {{ item.answer | markdown | safe }}

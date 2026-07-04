@@ -38,7 +38,7 @@ Tervetuloa mukaan!
 
 <div id="logopalkki">
 <img src="/kuvat/tau-logo-fin.png" alt="Tampereen Yliopisto" height="120"/>
-<img src="/kuvat/oph.png" alt="Opetushallitus rahoittaa hanketta" height="100"/>
+<img src="/OPH_rahoittaa_rgb.png" alt="Opetushallitus rahoittaa hanketta" height="100"/>
 <img src="/kuvat/maol.jpg" alt="MAOL" height="80"/>
 <img src="/kuvat/lumakeskus.jpg" alt="LUMA-keskus Suomi" height="100"/>
 </div>

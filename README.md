@@ -4,66 +4,148 @@ permalink: null
 
 # matematiikkakilpailut.github.io
 
-Suomen matematiikan olympiavalmennuksen sivusto.
+Suomen matematiikan olympiavalmennuksen sivusto, osoitteessa
+<https://matematiikkakilpailut.fi>. Sivusto rakennetaan
+[Eleventy](https://www.11ty.dev/):llä ja se toimii Cloudflare Pagesissa.
+
+Sivut ovat pääosin [Markdownia](https://www.markdownguide.org/basic-syntax/)
+ja alussa on yaml-muotoinen blokki metadataa.
+
 Usein päivitettyjä sivuja:
 
-* `aikataulu/index.11tydata.yaml` tapahtumakalenteri yaml-muodossa
-* `valmennus/index.md` linkit valmennuskirjeisiin
-  * `valmennus/<vuosi>/kirje_<vuosi>_<kk>.pdf` jne., kirjeet
+* `seiskat/` seitsemäsluokkalaisten kilpailun sivut (tehtävät ja tulokset
+  kaupungeittain) &ndash; kaikkein useimmin muokatut, ks. oma osionsa alla
+* `aikataulu/index.11tydata.yaml` tapahtumakalenteri yaml-muodossa,
+  ks. tiedoston oma kommenttiotsikko ja alla oleva osio
+* `uutiset/` uutiset etusivulle ja RSS-syötteeseen, ks. osio alla
+* `valmennus/index.md` kotitehtävät ja valmennuskirjeet. **Huom.**:
+  kirjeet ja tehtäväsarjat linkitetään Google Drive -linkkeinä, eikä
+  niistä ole enää PDF-tiedostoja repossa.
 
-Sivut ovat [Markdownia](https://www.markdownguide.org/basic-syntax/)
-ja alussa on yaml-muotoinen blokki metadataa. Erikoisuuksia:
+Muita erikoistiedostoja:
 
-* `aikataulu/index.11tydata.yaml` on kokonaan yamlia ja siitä tehdään
-   aikataulu ohjelmallisesti.
 * `_data/faq.yaml` sisältää etusivun usein kysytyt kysymykset.
-* `_data/site.js` sisältää seiskojen sivujen rakenteen.
+* `_data/site.js` sisältää seiskojen sivujen rakenteen (fi/sv/en).
+* `pdf-redirects.json` ohjaa vanhat repossa olleet PDF-osoitteet Google
+  Driveen, ks. osio "Google Drive -PDF:t".
+
+## Uutiset
 
 Kun teet tärkeitä muutoksia, lisää uutinen hakemistoon `uutiset/`
-(ota mallia olemassaolevista). Uutiset päätyvät sekä etusivulle että
-RSS-syötteeseen ja sen kautta Telegram-tiedotuskanavalle.
+(ota mallia olemassaolevista tiedostoista). Uutiset päätyvät sekä
+etusivulle että RSS-syötteeseen ja sen kautta Telegram-tiedotuskanavalle.
 Siksi uutisessa on hyvä olla linkki sen koskemaan aiheeseen
 (valmennuskirje, ilmoittautumissivu tms).
 
-## PDF-tiedostot
+Tiedoston nimen muoto on `uutiset/YYYY-MM-DD-otsikko.md`. Päivämäärä ja
+uutisten järjestys tulevat suoraan tiedoston nimestä. Alussa olevaan
+yaml-blokkiin tarvitaan vähintään `title:`, ja itse leipäteksti on
+Markdownia. Esimerkki (`uutiset/2021-09-23-syyskuun-kirje.md`):
 
-PDF-tiedostot on estetty `.gitignore`-tiedostossa, jotta niitä ei lisätä repoon
-vahingossa. Isot tiedostot kannattaa siirtää Google Driveen ja linkittää sieltä.
+```markdown
+---
+title: Syyskuun valmennuskirje julkaistu, också på svenska
+---
+Syyskuun 2021 [valmennuskirje](https://drive.google.com/file/d/1_QR7c5e1jRYUGKyJ8rJJmgJeSDWKpfKL/view) on julkaistu.
+```
 
-Jos PDF todella pitää lisätä repoon:
+Helpoin tapa on kopioida jokin olemassa oleva tiedosto uudella nimellä ja
+muokata sisältö.
+
+## Aikataulu
+
+`aikataulu/index.11tydata.yaml` on tapahtumakalenteri, joka on kokonaan
+yamlia ja josta aikataulusivu tehdään ohjelmallisesti. Muodon kuvaus ja
+esimerkkirivit ovat tiedoston omassa kommenttiotsikossa sen alussa &ndash;
+lue se ennen muokkaamista.
+
+## Google Drive -PDF:t
+
+Isot PDF-tiedostot (valmennuskirjeet, tehtäväsarjat, kirjallisuus ym.)
+säilytetään yhteisessä Google Drivessa eikä repossa. Uuden PDF:n lisääminen:
+
+1. Lataa PDF jaettuun Google Driveen. Käytä valmennuksen Google Driveä
+   "Valmennusmateriaalia" ja siinä sopivaa alihakemistoa.
+2. Aseta tiedoston jakoasetukseksi "kaikki, joilla on linkki, voivat
+   katsella" ("anyone with the link can view"). Tämän pitäisi olla
+   oletusarvo olemassaolevissa alihakemistoissa, mutta jos teet uuden
+   alihakemiston, se pitää ehkä asettaa erikseen.
+3. Kopioi jaetusta osoitteesta tiedoston ID. Osoite on muotoa
+   `https://drive.google.com/file/d/<ID>/view`, jossa `<ID>` on tiedoston ID.
+4. Linkitä tiedosto sivulta tuolla osoitteella, esim.
+   `[Helmikuun tehtävät](https://drive.google.com/file/d/<ID>/view)`.
+5. Seiskojen tapauksessa tyylisäännöt käsittelevät `.pdf`-loppuiset linkit
+   erityisesti, joten lisää jakolinkin loppuun ylimääräinen parametri:
+   `https://drive.google.com/file/d/.../view?x=.pdf` (tai `...view?usp=sharing&x=.pdf`)
+
+## PDF:t repossa
+
+`.gitignore` estää `*.pdf`-tiedostot, jotta niitä ei vahingossa lisätä
+repoon &ndash; isot tiedostot kuuluvat Google Driveen (ks. yllä).
+
+Säännöllinen poikkeus on seiskojen kilpailun PDF:t, jotka tulevat
+hakemistoon `seiskat/<vuosi>/`. `no-new-pdfs`-tarkistus (ks. alla) sallii
+nimenomaan tämän polun.
+
+PDF:n lisääminen paikallisesti onnistuu pakottamalla:
 
 ```
 git add -f polku/tiedosto.pdf
 ```
 
-## Pull requestit
+Helpointa on kuitenkin ladata tiedosto suoraan GitHubin selainkäyttö­liittymän
+kautta: repossa "Add file" &rarr; "Upload files".
 
-Pull requesteille ajetaan Cloudflare Pages -build, jonka pitää mennä läpi
-ennen mergeä. Cloudflare luo myös esikatselu-URL:n muotoa
+## Seiskojen kilpailu
+
+`seiskat/`-hakemistossa ovat seitsemäsluokkalaisten alueellisen
+matematiikkakilpailun sivut. Nämä ovat sivuston useimmin muokatut sivut:
+tehtävät ja tulokset päivitetään kaupungeittain. Vuosittaiset PDF:t
+(tehtävät, ratkaisut, tulokset) tulevat hakemistoon `seiskat/<vuosi>/` &ndash;
+tämä on ainoa repoon sallittu PDF-polku. Tämänkin sijasta voisi käyttää
+Google Driveä.
+
+Sivujen fi/sv/en-rakenne määritellään tiedostossa `_data/site.js`.
+
+## Pull requestit ja muokkaaminen GitHubin kautta
+
+Helpoin tapa muokata on tehdä muutos GitHubissa ja commitoida se uudelle
+branchille. Näin syntyy pull request. Jokaiselle PR:lle ajetaan Cloudflare
+Pages -build, jonka pitää mennä läpi ennen mergeä, ja Cloudflare luo
+esikatselu-URL:n muotoa
 `https://<hash>.matematiikkakilpailut-github-io.pages.dev/`.
 
-## Muokkaaminen Githubin kautta
+Kun build on vihreänä, mergeä PR masteriin, niin sivu päivittyy osoitteeseen
+<https://matematiikkakilpailut.fi> minuuteissa.
 
-Muokkaa sivua ja commitoi uudelle branchille. Githubiin syntyy pull request,
-jolle Cloudflare rakentaa esikatselun. Kun build on vihreänä, mergeä PR
-masteriin ja sivu päivittyy osoitteeseen https://matematiikkakilpailut.fi minuuteissa.
+Jos PR:n tarkistus näkyy punaisena, kyse on yleensä yaml-kirjoitusvirheestä.
+Klikkaa tarkistuksen kohdalta "Details", niin näet buildin lokin &ndash; tai aja
+`npm run build` paikallisesti, niin saat saman virheen näkyviin.
 
+Repon ainoa GitHub-workflow on `.github/workflows/no-new-pdfs.yml`. Se on
+PR-portti, joka estää uusien PDF-tiedostojen lisäämisen &ndash; paitsi polkuun
+`seiskat/<vuosi>/`. Muut PDF:t kuuluvat Google Driveen.
+
+Cloudflare Pagesin asetukset ovat vain Cloudflaren hallintapaneelissa (repossa
+ei ole `wrangler.toml`-tiedostoa). Ne ovat: build-komento `npm run build`
+(Eleventy) ja julkaistava hakemisto `_site`.
 
 ## Kääntäminen paikallisesti
 
-Asenna Node.js, sitten
+Asenna [Node.js](https://nodejs.org/), sitten
 
 ```
 npm i
-npx @11ty/eleventy --serve
+npm run serve
 ```
 
-ja avaa http://localhost:8080 selaimessa.
-
+ja avaa <http://localhost:8080> selaimessa. Pelkän käännöksen (samalla tavalla
+kuin Cloudflaren buildissa) saa komennolla `npm run build`; tulos menee
+hakemistoon `_site`.
 
 ## Bootstrap
 
 Käytössä Bootstrap versio 5, Bootswatchin tyyli Flatly.
-Päivitys: lataa uusi versio https://bootswatch.com/ (ei min.css),
+Päivitys: lataa uusi versio <https://bootswatch.com/> (ei min.css),
 kopioi vanhasta `@font-face`-muutokset ja poista vastaava Google Fonts -osuus,
 minimoi `csso`:lla, päivitä `default.html`:n cachebuster.
