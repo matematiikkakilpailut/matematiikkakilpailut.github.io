@@ -2,43 +2,10 @@
 layout: page
 title: Valmennusviikonloppu viikolla 36/2021
 url: /aikataulu/
-jsonld: >-
-  {
-  "@context": "https://schema.org",
-  "@type": "Event",
-  "name": "Valmennusviikonloppu viikolla 36/2021",
-  "description": "Valmennusviikonloppu 36/2021 tapahtuu virtuaalisesti. Tilaisuus alkaa perjantaina 10.9.2021 klo 18.00 ja päättyy sunnuntaina 12.9.2021 klo 15. Valmennus on maksutonta.",
-  "startDate": "2021-09-10T18:00+03:00",
-  "endDate": "2021-09-127T15:00+03:00",
-  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "image": "https://keskustelu.matematiikkakilpailut.fi/uploads/default/original/1X/903d26f2a2a48285467275e06546a35b2f203482.png",
-  "isAccessibleForFree": true,
-  "location": {
-    "@type": "VirtualLocation",
-    "url": "https://matematiikkakilpailut.fi/aikataulu/2021W36/"
-  },
-  "performer": {
-    "@type": "Organization",
-    "name": "Suomen matemaattisen yhdistyksen valmennusjaosto",
-    "url": "https://matematiikkakilpailut.fi/"
-  },
-  "organizer": {
-    "@type": "Organization",
-    "name": "Suomen matemaattisen yhdistyksen valmennusjaosto",
-    "url": "https://matematiikkakilpailut.fi/"
-  },
-  "offers": [{
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "EUR",
-    "url": "https://forms.office.com/Pages/ResponsePage.aspx?id=WXWumNwQiEKOLkWT5i_j7qJx6yZfbZFAprGLBJ7hfoZUQ0ZSUVRQUVk5WldCMVNXS1M0UlY5NzI5Wi4u,
-    "availability": "http://schema.org/InStock",
-    "validFrom": "2021-08-23",
-    "validThrough": "2021-09-09"
-  }]
-  }
+sitemap: false
 ---
+
+**Tämä on arkistoitu sivu menneestä tapahtumasta.** Ajankohtaiset tiedot: [aikataulu](/aikataulu/).
 
 Valmennusviikonloppu 36/2021 tapahtuu virtuaalisesti.
 Opetus alkaa perjantaina 10.9.2021 klo 18:00.

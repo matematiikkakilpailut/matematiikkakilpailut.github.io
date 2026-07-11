@@ -2,43 +2,10 @@
 layout: page
 title: Valmennusviikonloppu viikolla 15/2021
 url: /aikataulu/
-jsonld: >-
-  {
-  "@context": "https://schema.org",
-  "@type": "Event",
-  "name": "Valmennusviikonloppu viikolla 15/2021",
-  "description": "Valmennusviikonloppu 15/2021 tapahtuu virtuaalisesti. Tilaisuus alkaa lauantaina 17.4.2021 klo 10.00 ja jatkuu sunnuntaina. Valmennus on maksutonta.",
-  "startDate": "2021-04-17T10:00+03:00",
-  "endDate": "2021-04-187T14:00+03:00",
-  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "image": "https://keskustelu.matematiikkakilpailut.fi/uploads/default/original/1X/903d26f2a2a48285467275e06546a35b2f203482.png",
-  "isAccessibleForFree": true,
-  "location": {
-    "@type": "VirtualLocation",
-    "url": "https://matematiikkakilpailut.fi/aikataulu/2021W15/"
-  },
-  "performer": {
-    "@type": "Organization",
-    "name": "Suomen matemaattisen yhdistyksen valmennusjaosto",
-    "url": "https://matematiikkakilpailut.fi/"
-  },
-  "organizer": {
-    "@type": "Organization",
-    "name": "Suomen matemaattisen yhdistyksen valmennusjaosto",
-    "url": "https://matematiikkakilpailut.fi/"
-  },
-  "offers": [{
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "EUR",
-    "url": "https://docs.google.com/forms/d/1C1_--l_G2bsdyFa_xSd8a7Eo4fL4x4Aiq99RmfzCk7s/viewform?hl=fi",
-    "availability": "http://schema.org/InStock",
-    "validFrom": "2021-04-11",
-    "validThrough": "2021-04-16"
-  }]
-  }
+sitemap: false
 ---
+
+**Tämä on arkistoitu sivu menneestä tapahtumasta.** Ajankohtaiset tiedot: [aikataulu](/aikataulu/).
 
 Valmennusviikonloppu 15/2021 tapahtuu virtuaalisesti.
 Opetus alkaa lauantaina 17.4.2021 klo 10.00.

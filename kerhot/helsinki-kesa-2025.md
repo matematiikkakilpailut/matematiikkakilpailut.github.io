@@ -2,55 +2,9 @@
 layout: page
 title: "Helsingin yliopiston matematiikan ja tilastotieteen osasto järjestää: Kumpulan matematiikkaleiri, kesä 2025"
 url: /kerhot/helsinki-kesa-2025/
-jsonld: |
-  {
-    "@context": "https://schema.org",
-    "@type": "Event",
-    "name": "Kumpulan matematiikkaleiri, kesä 2025",
-    "description": "Kumpulan matematiikkaleiri on kaikille pääkaupunkiseudun lukiolaisille ja vastavalmistuneille suunnattu päiväleiri, jossa pääset oppimaan lukion oppimäärästä poikkeavista aiheista ja ratkomaan niihin liittyviä ongelmia. Alan tutkijoiden ja opiskelijoiden johdatuksella voit tutustua laajaan kirjoon kysymyksiä lukujen transkendenttisuudesta loogisiin peleihin.",
-    "startDate": "2025-06-10",
-    "endDate": "2025-06-13",
-    "location": {
-        "@type": "Place",
-        "name": "Helsingin yliopiston matematiikan ja tilastotieteen osasto, Exactum",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Pietari Kalmin katu 5",
-            "addressLocality": "Helsinki",
-            "addressCountry": "FI"
-        },
-        "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": "60.2047",
-            "longitude": "24.9620"
-        }
-    },
-    "organizer": {
-        "@type": "Organization",
-        "name": "Helsingin yliopiston matematiikan ja tilastotieteen osasto",
-        "url": "https://www.helsinki.fi/fi/matemaattis-luonnontieteellinen-tiedekunta/tiedekunta/matematiikka-ja-tilastotiede",
-        "contactPoint": {
-            "@type": "ContactPoint",
-            "name": "Elias Heiskanen",
-            "email": "elias.heiskanen@helsinki.fi"
-        }
-    },
-    "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR",
-        "availability": "https://schema.org/InStock",
-        "availabilityEnds": "2025-06-05",
-        "url": "https://forms.office.com/e/w6W7CHxsiF"
-    },
-    "url": "https://matematiikkakilpailut.fi/kerhot/helsinki-kesa-2025/",
-    "eventStatus": "https://schema.org/EventScheduled",
-    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-    "isAccessibleForFree": true,
-    "inLanguage": "fi"
-  }
 ---
 
+**Tämä on arkistoitu sivu kesän 2025 leiristä.** Ajankohtaiset tiedot kerhoista ja leireistä: [kerhot](/kerhot/).
 
 Kiinnostaako matematiikka tai luova ongelmanratkaisu?
 Suunnitteletko matematiikan, luonnontieteiden tai tekniikan opintoja ja haluaisit ensimakua korkeakoulutasoiseen matematiikkaan?

@@ -2,43 +2,10 @@
 layout: page
 title: Valmennusviikonloppu viikolla 2/2021
 url: /aikataulu/
-jsonld: >-
-  {
-  "@context": "https://schema.org",
-  "@type": "Event",
-  "name": "Valmennusviikonloppu viikolla 2/2021",
-  "description": "Valmennusviikonloppu 2/2021 tapahtuu virtuaalisesti. Tilaisuus alkaa perjantaina 15.1.2021 klo 18 ja jatkuu lauantaina ja sunnuntaina. Valmennus on maksutonta.",
-  "startDate": "2021-01-15T18:00+02:00",
-  "endDate": "2021-01-17T14:30+02:00",
-  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "image": "https://keskustelu.matematiikkakilpailut.fi/uploads/default/original/1X/903d26f2a2a48285467275e06546a35b2f203482.png",
-  "isAccessibleForFree": true,
-  "location": {
-    "@type": "VirtualLocation",
-    "url": "https://matematiikkakilpailut.fi/aikataulu/2021W02/"
-  },
-  "performer": {
-    "@type": "Organization",
-    "name": "Suomen matemaattisen yhdistyksen valmennusjaosto",
-    "url": "https://matematiikkakilpailut.fi/"
-  },
-  "organizer": {
-    "@type": "Organization",
-    "name": "Suomen matemaattisen yhdistyksen valmennusjaosto",
-    "url": "https://matematiikkakilpailut.fi/"
-  },
-  "offers": [{
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "EUR",
-    "url": "https://docs.google.com/forms/d/e/1FAIpQLSc5SSUsvN1-k4vC4dciMAPGP46t_2V35wcLfcj9g9D-lUdcdA/viewform?usp=sf_link&hl=fi",
-    "availability": "http://schema.org/InStock",
-    "validFrom": "2020-12-28",
-    "validThrough": "2021-01-15"
-  }]
-  }
+sitemap: false
 ---
+
+**Tämä on arkistoitu sivu menneestä tapahtumasta.** Ajankohtaiset tiedot: [aikataulu](/aikataulu/).
 
 Valmennusviikonloppu 2/2021 tapahtuu virtuaalisesti.
 Opetus alkaa perjantaina 15.1.2021 klo 18.

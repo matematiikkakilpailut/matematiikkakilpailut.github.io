@@ -2,43 +2,10 @@
 layout: page
 title: Valmennusviikonloppu viikolla 8/2021
 url: /aikataulu/
-jsonld: >-
-  {
-  "@context": "https://schema.org",
-  "@type": "Event",
-  "name": "Valmennusviikonloppu viikolla 8/2021",
-  "description": "Valmennusviikonloppu 8/2021 tapahtuu virtuaalisesti. Tilaisuus alkaa perjantaina 26.2.2021 klo 17.30 ja jatkuu lauantaina ja sunnuntaina. Valmennus on maksutonta.",
-  "startDate": "2021-02-26T17:30+02:00",
-  "endDate": "2021-02-287T14:00+02:00",
-  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "image": "https://keskustelu.matematiikkakilpailut.fi/uploads/default/original/1X/903d26f2a2a48285467275e06546a35b2f203482.png",
-  "isAccessibleForFree": true,
-  "location": {
-    "@type": "VirtualLocation",
-    "url": "https://matematiikkakilpailut.fi/aikataulu/2021W08/"
-  },
-  "performer": {
-    "@type": "Organization",
-    "name": "Suomen matemaattisen yhdistyksen valmennusjaosto",
-    "url": "https://matematiikkakilpailut.fi/"
-  },
-  "organizer": {
-    "@type": "Organization",
-    "name": "Suomen matemaattisen yhdistyksen valmennusjaosto",
-    "url": "https://matematiikkakilpailut.fi/"
-  },
-  "offers": [{
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "EUR",
-    "url": "https://docs.google.com/forms/d/e/1FAIpQLSdNHKqaCdiN6o362QsSGBU4i04pgyXDruRWH7wWxxQrt4-unw/viewform?hl=fi",
-    "availability": "http://schema.org/InStock",
-    "validFrom": "2021-02-148",
-    "validThrough": "2021-02-26"
-  }]
-  }
+sitemap: false
 ---
+
+**Tämä on arkistoitu sivu menneestä tapahtumasta.** Ajankohtaiset tiedot: [aikataulu](/aikataulu/).
 
 Valmennusviikonloppu 8/2021 tapahtuu virtuaalisesti.
 Opetus alkaa perjantaina 26.2.2021 klo 17.30.
