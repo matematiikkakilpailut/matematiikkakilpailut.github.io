@@ -5,9 +5,9 @@ layout: default
   <h1>{{ title }}</h1>
 </header>
 
-<main class="row">
+<div class="row">
   {{ content | splitCards | safe }}
-</main>
+</div>
 
 
 {% if scripts %}

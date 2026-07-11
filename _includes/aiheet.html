@@ -5,7 +5,7 @@ layout: default
   <h1>{{ title }}</h1>
 </header>
 
-<main>
+<div>
   {% if highlightedContent %}
   <div class="float-md-end col-md-auto ps-md-4 pb-3" style="max-width: 400px;">
     <div class="card border-primary shadow">
@@ -18,7 +18,7 @@ layout: default
   </div>
   {% endif %}
   {{ content | safe }}
-</main>
+</div>
 
 {% if scripts %}
 {{ scripts | safe }}

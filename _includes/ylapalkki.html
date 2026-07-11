@@ -2,7 +2,7 @@
   <div class="container-fluid flex-flow align-items-start">
     <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbar-collapse" aria-controls="navbar-collapse"
-            aria-expanded="false" aria-label="Toggle navigation">
+            aria-expanded="false" aria-label="Avaa tai sulje valikko">
       <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand ps-sm-4" href="/">Matematiikkavalmennus</a>
@@ -15,7 +15,7 @@
                 id="bd-theme"
                 data-bs-toggle="dropdown"
                 aria-expanded="false">
-          <svg class="bi theme-icon-active" width="16" height="16" fill="currentColor">
+          <svg class="bi theme-icon-active" width="16" height="16" fill="currentColor" aria-hidden="true" focusable="false">
             <use href="/kuvat/sprite3.svg#sun-fill"></use>
           </svg>
           <span class="d-none" id="bd-theme-text">Taustaväri</span>
@@ -23,7 +23,7 @@
         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme">
           <li>
             <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
-              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor" aria-hidden="true" focusable="false">
                 <use href="/kuvat/sprite3.svg#sun-fill"></use>
               </svg>
               Vaalea
@@ -31,7 +31,7 @@
           </li>
           <li>
             <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
-              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor" aria-hidden="true" focusable="false">
                 <use href="/kuvat/sprite3.svg#moon-stars-fill"></use>
               </svg>
               Tumma
@@ -39,7 +39,7 @@
           </li>
           <li>
             <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto">
-              <svg class="bi me-2" width="16" height="16" fill="currentColor">
+              <svg class="bi me-2" width="16" height="16" fill="currentColor" aria-hidden="true" focusable="false">
                 <use href="/kuvat/sprite3.svg#circle-half"></use>
               </svg>
               Automaattinen
@@ -52,10 +52,10 @@
       <div class="row flex-grow-1">
         <div class="col-12 flex-grow-1">
           <ul class="navbar-nav mb-2 mb-md-0">
-            <li class="nav-item"><a class="nav-link {% if page.url == "/kilpailut/" %}active{% endif %}" href="/kilpailut/">Kilpailut</a></li>
-            <li class="nav-item"><a class="nav-link {% if page.url == "/aikataulu/" %}active{% endif %}" href="/aikataulu/">Aikataulu</a></li>
-           <li class="nav-item"><a class="nav-link {% if page.url == "/valmennus/" %}active{% endif %}" href="/valmennus/">Kotitehtävät</a></li>
-            <li class="nav-item"><a class="nav-link {% if page.url == "/aiheet/" %}active{% endif %}" href="/aiheet/">Materiaalit</a></li>
+            <li class="nav-item"><a class="nav-link {% if page.url == "/kilpailut/" %}active{% endif %}" {% if page.url == "/kilpailut/" %}aria-current="page"{% endif %} href="/kilpailut/">Kilpailut</a></li>
+            <li class="nav-item"><a class="nav-link {% if page.url == "/aikataulu/" %}active{% endif %}" {% if page.url == "/aikataulu/" %}aria-current="page"{% endif %} href="/aikataulu/">Aikataulu</a></li>
+           <li class="nav-item"><a class="nav-link {% if page.url == "/valmennus/" %}active{% endif %}" {% if page.url == "/valmennus/" %}aria-current="page"{% endif %} href="/valmennus/">Kotitehtävät</a></li>
+            <li class="nav-item"><a class="nav-link {% if page.url == "/aiheet/" %}active{% endif %}" {% if page.url == "/aiheet/" %}aria-current="page"{% endif %} href="/aiheet/">Materiaalit</a></li>
           </ul>
         </div>
       </div>

@@ -45,7 +45,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ pkg.base_url }}{{ page.url }}">
     <meta property="og:site_name" content="Matematiikkavalmennus">
-    <meta property="og:locale" content="fi_FI">
+    <meta property="og:locale" content="{% if lang == 'en' %}en_GB{% else %}fi_FI{% endif %}">
     <meta property="og:image" content="{% if socialImage.startsWith('http') %}{{ socialImage }}{% else %}{{ pkg.base_url }}{{ socialImage }}{% endif %}">
     <meta property="og:image:type" content="{% if socialImage.endsWith('.jpg') %}image/jpeg{% else %}image/png{% endif %}">
     <meta property="og:image:width" content="1200">
@@ -55,6 +55,7 @@
     <meta name="twitter:title" content="{% if page.url == "/" %}{{ title }}{% else %}{{ title }} – Matematiikkavalmennus{% endif %}">
     {% if description %}<meta name="twitter:description" content="{{ description }}">{% endif %}
     <meta name="twitter:image" content="{% if socialImage.startsWith('http') %}{{ socialImage }}{% else %}{{ pkg.base_url }}{{ socialImage }}{% endif %}">
+    <meta name="twitter:image:alt" content="{{ socialImageAlt }}">
     <link href="/css/bootstrap.min.css?v=5.3.3" rel="stylesheet">
     <style>
      figure {
@@ -102,6 +103,10 @@
      [data-bs-theme="dark"] .light-element { display: none; }
      [data-bs-theme="light"] .dark-element { display: none; }
      h1,h2,h3,h4,h5,h6 { text-wrap: balance; }
+     a:focus-visible, button:focus-visible {
+       outline: 2px solid currentColor;
+       outline-offset: 2px;
+     }
      #logopalkki {
        margin-top: 6ex;
        display: flex;
@@ -124,7 +129,7 @@
     <link rel="preload" href="/font/Lato-Italic.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
     {%- if robots %}
     <meta name="robots" content="{{ robots }}">
-    {% elseif page.sitemap == false %}
+    {% elseif sitemap == false %}
     <meta name="robots" content="noindex,follow">
     {% endif %}
     <link rel="sitemap" href="/sitemap.xml">
@@ -153,9 +158,9 @@
     <a href="#main" class="visually-hidden-focusable p-2">Siirry sisältöön</a>
     {% include 'ylapalkki.html' %}
     {% include 'leivanmurut.html' %}
-    <div class="container flex-grow-1" id="main" tabindex="-1">
+    <main class="container flex-grow-1" id="main" tabindex="-1">
         {{ content | safe }}
-    </div>
+    </main>
     {% include 'alapalkki.html' %}
     <script defer src="/js/theme.js"></script>
     <script type="module" src="/js/instant.page.min.js"></script>
