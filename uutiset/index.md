@@ -1,5 +1,6 @@
 ---
 title: Uutisia
+description: Uutisia matematiikan olympiavalmennuksesta ja matematiikkakilpailuista, muun muassa valmennuskirjeet, valmennusviikonloput ja kilpailujen tulokset.
 permalink: /uutiset/
 override:tags: []
 ---
@@ -17,10 +18,10 @@ tai
 {{ artikkeli.templateContent | safe }}
 {% endfor %}
 
-# Arkisto
+## Arkisto
 
 Vanhempia uutisia on [arkistossa](/vanhaset.html).
 
-# Aikataulu
+## Aikataulu
 
 Katso myös [valmennuksen aikataulua](/aikataulu/).
