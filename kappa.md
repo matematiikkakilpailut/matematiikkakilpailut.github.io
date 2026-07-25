@@ -28,7 +28,7 @@ valvojina oppilaat.
 Tänä syksynä myös suomalaisilla opettajilla on mahdollisuus osallistua
 ja verrata omia taitojaan ja naapurimaan kollegojen vastaaviin.
 Tehtävät julkistetaan myös suomeksi
-[Kappa-sivuilla](http://www.math.su.se/samverkan/kommun-skola/t%C3%A4vlingar/kappa-2014-1.141088)
+[Kappa-sivuilla](https://sv.wikipedia.org/wiki/Kappa_(matematikt%C3%A4vling))
 ja vastata saa suomeksi tai ruotsiksi. Vastaukset lähetetään
 sähköpostitse pdf-muotoisina (vaikkapa käsin kirjoitetusta
 skannattuina) osoitteeseen

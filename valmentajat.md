@@ -54,7 +54,7 @@ Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
    Olympiaedustaja vuonna 2021.
 
 [smy]: http://www.matemaattinenyhdistys.fi/
-[matti]: https://www.eukleideskirjat.fi/Matti/
+[matti]: https://web.archive.org/web/20250915184259/https://www.eukleideskirjat.fi/Matti/
 [kluosto]: https://www.tuni.fi/fi/kerkko-luosto
 [jks]: http://www.iki.fi/jks/
 

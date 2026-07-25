@@ -28,6 +28,7 @@ jobs:
         with:
           args: >-
             --no-progress
+            --root-dir ${{ github.workspace }}/_built-site
             --scheme https --scheme http
             --exclude 'web\.archive\.org'
             --exclude-path _built-site/BW2006
