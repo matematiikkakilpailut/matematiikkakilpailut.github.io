@@ -11,7 +11,7 @@ description: >-
 ---
 
 
-#### [MAOL:n kilpailu](/MAOL/)
+## [MAOL:n kilpailu](/MAOL/)
 
 Suomen kansallinen matematiikkakilpailu. Lukion kilpailu jakautuu
 avoimeen sarjaan sekä lukiota aloittelevien perussarjaan; lisäksi
@@ -22,28 +22,28 @@ on yleensä 4 ja kesto on 120 min. Jälkimmäisessä on 5 tehtävään
 työaikaa kolme tuntia.  MAOL:n kilpailu on luetelluista
 kilpailuista selkeästi helpoin.
 
-#### [Pythagoraan polku](/pythagoras/)
+## [Pythagoraan polku](/pythagoras/)
 
 Pythagoraan polku on Päivölän Opiston keväisin järjestämä
 joukkuekilpailu Baltian tie -kilpailun mallin mukaan. Kilpailuun
 osallistuminen on perustunut kutsuun. Osallistuvia lukioita on
 ollut kymmenkunta.
 
-#### [Iranin geometriakilpailu](/IGO/)
+## [Iranin geometriakilpailu](/IGO/)
 
 Iranin geometriakilpailussa, IGO, kilpailutehtävät koostuvat
 geometriasta. Kilpailussa on kolme luokka-asteisiin perustuvaa
 sarjaa sekä avoin sarja. Kilpailu onkin hyvä tapa aloittaa
 kansainvälinen kilpailu-ura.
 
-#### [Pohjoismainen matematiikkakilpailu](/PM/)
+## [Pohjoismainen matematiikkakilpailu](/PM/)
 
 Vaikeampi kuin MAOL, helpompi kuin IMO. Kilpailuun valitaan
 noin&nbsp;20 valmennettavaa, ja tuloksilla on suurehko merkitys
 IMO-joukkuetta valittaessa. Kilpailijat tekevät nelitehtäväisen
 nelituntisen kokeen omassa koulussaan.
 
-#### [Baltian tie](/Baltian_tie/)
+## [Baltian tie](/Baltian_tie/)
 
 Baltian tie on useimmista kilpailuista poiketen joukkuekilpailu.
 Kilpailuun osallistuvat Itämeren alueen maat ja pohjoismaat
@@ -52,7 +52,7 @@ alueen joukkueella, ja Saksa, jonka joukkue edustaa
 hansakaupunkien aluetta.  Kilpailussa on peräti 20 tehtävää,
 joiden ratkaisemiseen on aikaa vain 4,5 tuntia.
 
-#### [Euroopan Tyttöjen Matematiikkaolympialaiset](/EGMO/)
+## [Euroopan Tyttöjen Matematiikkaolympialaiset](/EGMO/)
 
 Euroopan Tyttöjen Matematiikkaolympialaiset, EGMO, on perustettu
 vuonna 2011. Kilpailun tarkoitus on korjata Kansainvälisissä
@@ -61,7 +61,7 @@ kannustamalla tyttöjä pyrkimään Kansainvälisiin
 olympialaisiin. Kilpailu on kaksipäiväinen ja noudattaa muutenkin
 Kansainvälisten Matematiikkaolympialaisten muotoja.
 
-#### [Kansainväliset Matematiikkaolympialaiset](/IMO/)
+## [Kansainväliset Matematiikkaolympialaiset](/IMO/)
 
 <span lang="en">International Mathematical Olympiad</span>, IMO.
 IMO on lukiolaisten matematiikkakilpailujen hierarkian huipulla.
@@ -70,31 +70,32 @@ Tehtävät ovat vaikeita.  Kilpailu on kaksipäiväinen; kumpanakin
 päivänä kamppaillaan 4,5 tuntia kolmen tehtävän parissa.
 
 
-#### [Kenguru](https://www.mayk.fi/kenguru)
+## [Kenguru](https://www.mayk.fi/kenguru)
 
 Australiasta lähtöisin olevassa kilpailussa on miljoonia osallistujia
 viidessä sarjassa alakoulusta lukioon.  Se pidetään maaliskuun
 kolmantena torstaina, ja siihen pääsee mukaan niin, että opettaja
 ilmoittaa koulunsa kilpailun järjestäjille.
 
-#### [Matikkamestari](https://web.archive.org/web/20220925084909/https://www.matikkamankkaa.fi/matikkamestari/)
+## [Matikkamestari](https://web.archive.org/web/20220925084909/https://www.matikkamankkaa.fi/matikkamestari/)
 
-Kilpailu Espoon koulujen kuudesluokkalaisille, ehkä lopettanut?
+Kilpailu Espoon koulujen kuudesluokkalaisille. Kilpailu järjestettiin
+vuosina 2011&ndash;2021, mutta sen toiminta näyttää sittemmin päättyneen.
 
-#### [Seitsemäsluokkalaisten alueellinen matematiikkakilpailu](/seiskat/)
+## [Seitsemäsluokkalaisten alueellinen matematiikkakilpailu](/seiskat/)
 
 Kilpailu järjestetään Helsingissä, Oulussa, Turussa ja Satakunnassa.
 
-#### [MatCup](https://matcup.edublogs.org/)
+## [MatCup](https://matcup.edublogs.org/)
 
 [Pohjoismainen matematiikkakilpailu](https://web.archive.org/web/20240906140207/http://mathclasscomp.com/),
 johon Suomessa osallistuvat kahdeksasluokkalaiset.
 
-#### Mattetäphlan
+## Mattetäphlan
 
 Mattetäphlan on Aalto-yliopiston ruotsinkielisen osakunnan [Teknologföreningenin](https://www.teknologforeningen.fi/) järjestämä matematiikkakilpailu kaikille ruotsinkielisten lukioiden abeille. Kilpailu järjestetään vuosittain ja siihen kuuluu alkukilpailu omassa koulussa ja loppukilpailu Otaniemessä. 
 
-#### [AmmatikkaTop](https://maol.fi/ammatikka-kilpailu/)
+## [AmmatikkaTop](https://maol.fi/ammatikka-kilpailu/)
 
 AmmatikkaTop on [MAOLin](https://maol.fi/) ja [Tekniikan opettajat TOP ry:n](https://www.tekniikanopettajat.fi/)
 järjestämä kilpailu ammatillisen toisen asteen opiskelijoille.
