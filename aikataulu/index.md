@@ -2,6 +2,9 @@
 layout: page
 title: Aikataulu
 url: /aikataulu/
+description: >-
+  Matematiikan olympiavalmennuksen aikataulu: tulevat valmennusviikonloput,
+  leirit ja kilpailut.
 ---
 <ul class="list-unstyled">
 {% for a in aikataulu %}

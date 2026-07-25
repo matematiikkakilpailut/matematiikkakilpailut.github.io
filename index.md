@@ -13,10 +13,10 @@ description: >-
 url: /
 ---
 
-[Matematiikkakilpailujen](kilpailut) tarkoituksena on
+[Matematiikka­kilpailujen](kilpailut) tarkoituksena on
 kannustaa lahjakkaita nuoria harrastamaan matematiikkaa.
 Kilpailuja on eri tasoilla kansallisista alueellisista kilpailuista
-Kansainvälisiin Matematiikkaolympialaisiin.
+Kansainvälisiin Matematiikka­olympialaisiin.
 Valmennuksesta ja kilpailuihin osallistumisesta vastaa Suomessa
 [Suomen matemaattisen yhdistyksen](http://www.matemaattinenyhdistys.fi/)
 [Valmennusjaosto](valmentajat).
