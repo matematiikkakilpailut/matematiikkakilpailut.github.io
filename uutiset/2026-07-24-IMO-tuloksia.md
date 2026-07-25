@@ -1,5 +1,7 @@
 ---
 title: IMOsta pronssia ja kunniamainintoja
+ogImage: /kuvat/og-imo2026.jpg
+ogImageAlt: "IMOsta pronssia ja kunniamainintoja – pronssimitalistit Mikko Ylinen ja Zhongyi Li Suomen lipun kanssa."
 ---
 
 **Zhongyi Li** ja **Mikko Ylinen** voittivat pronssi­mitalit ja **Ohto Katila**, **Seve Torrkulla**

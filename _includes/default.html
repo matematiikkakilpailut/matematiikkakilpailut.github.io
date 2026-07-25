@@ -7,6 +7,7 @@
     {% set socialImageAlt = 'Matematiikkavalmennuksen verkkosivun jakokuva, jossa on abstrakti geometrinen kuvio.' %}
     {% if ogImage %}
       {% set socialImage = ogImage %}
+      {% set socialImageAlt = ogImageAlt %}
     {% elif '/tulokset' in page.url or '/resultat' in page.url or '/results' in page.url %}
       {% set socialImage = '/kuvat/og-tulokset.png' %}
       {% set socialImageAlt = 'Matematiikkakilpailujen tulossivun jakokuva, jossa on abstrakti geometrinen kuvio ja tuloksia kuvaava asettelu.' %}
@@ -46,7 +47,7 @@
     <meta property="og:site_name" content="Matematiikkavalmennus">
     <meta property="og:locale" content="fi_FI">
     <meta property="og:image" content="{% if socialImage.startsWith('http') %}{{ socialImage }}{% else %}{{ pkg.base_url }}{{ socialImage }}{% endif %}">
-    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:type" content="{% if socialImage.endsWith('.jpg') %}image/jpeg{% else %}image/png{% endif %}">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="{{ socialImageAlt }}">
