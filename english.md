@@ -44,7 +44,7 @@ We arrange six weekend training camps each year
 at the [Päivölä institute](https://www.paivola.fi);
 see the [schedule](/aikataulu/). Newcomers are welcome at any of the six camps.
 
-Please [register at Päivölä](https://www.paivola.fi/fi/matematiikkakilpailuvalmennukseen-ilmoittautuminen/) 
+Please [register at Päivölä](https://www.paivola.fi/opintolinjat/matematiikkalinja/lyhytkurssit/kilpailuvalmennus)
 at least one week before each weekend.
 
 The best way to get there is by train to [Toijala
@@ -61,7 +61,7 @@ Another possible mode of transport is the bus. The nearest stop is [Uittamo th](
 which is
 [a couple of kilometres walk](https://share.trailmap.fi/route_11480) 
 from the institute. 
-Of course, one can also [drive to Päivölä](https://www.paivola.fi/fi/yhteystiedot/saapumisohjeet/).
+Of course, one can also [drive to Päivölä](https://www.paivola.fi/paivolan-opisto/yhteystiedot).
 
 Please arrange your **accommodation** as soon as possible after your arrival: go to the main building,
 which you can identify from the canteen, and get the key. If you arrive very late (after 9pm), please

@@ -19,16 +19,16 @@ Vuosittain järjestetään
 Helsingissä, Oulussa, Satakunnassa ja Turussa yhteistyössä paikallisten korkeakoulujen
 sekä Summamutikka- ja OuLUMA-keskusten kanssa.
 
-Oulussa LUMA-keskus ja Oulun yliopisto järjestävät
+Oulussa LUMA-keskus ja Oulun yliopisto järjestivät ennen
 kilpailumatematiikkavalmennustilaisuuksia. Tarkemmin [tästä][oulu].
 
 [blog]: https://blog.matematiikkakilpailut.fi
-[mathstat]: http://www.mathstat.helsinki.fi
+[mathstat]: https://www.helsinki.fi/fi/matemaattis-luonnontieteellinen-tiedekunta/tiedekunta/matematiikka-ja-tilastotiede
 [tiedekasvatus]: https://www.helsinki.fi/fi/tiedekasvatus
-[tekijaryhma]: https://www.helsinki.fi/fi/tiedekasvatus/tekijaryhma
+[tekijaryhma]: https://www.helsinki.fi/fi/tiedekasvatus/opettajille/matematiikan-ja-tilastotieteen-tiedeluokka-summamutikka
 [epsilonit]: /kokoukset/epsilon
 [seiskat]: /seiskat
-[oulu]: https://ouluma.fi/2012/08/matematiikkavalmennus/
+[oulu]: https://web.archive.org/web/20220629132023/https://ouluma.fi/harrastus-ja-kilpailutoiminta/valmennustoiminta/matematiikkavalmennus-oulussa/
 
 
 

@@ -165,12 +165,10 @@ Syyskuun 2021 [tehtävät](https://drive.google.com/file/d/1_QR7c5e1jRYUGKyJ8rJJ
 
 Kesän 2021 [tehtävät](https://drive.google.com/file/d/1wfOUfaNUU5zDBRs4aO9EuNeE3csr9TbY/view).
 
-Maaliskuun 2021 [tehtävät](https://drive.google.com/file/d/1PWdRFjl0GUCW-E806ur8xMPeb9nJuIM9/view).
-[Monivalintojen palautus](https://tehtavat.matematiikkakilpailut.fi/2021-03/). <br>
+Maaliskuun 2021 [tehtävät](https://drive.google.com/file/d/1PWdRFjl0GUCW-E806ur8xMPeb9nJuIM9/view). <br>
 Malliratkaisut saatavilla kirjeeseen vastanneille.<br>
 
-Tammikuun 2021 [tehtävät](https://drive.google.com/file/d/1cIe6g2UBf7fhJdEGB10irc-tDHe8An66/view).
-[Monivalintojen palautus](https://tehtavat.matematiikkakilpailut.fi/2021-01/).<br>
+Tammikuun 2021 [tehtävät](https://drive.google.com/file/d/1cIe6g2UBf7fhJdEGB10irc-tDHe8An66/view).<br>
 Malliratkaisut saatavilla kirjeeseen vastanneille.<br>
 
 Joulukuun 2020 [tehtävät](https://drive.google.com/file/d/16IOrr4rNVQEQa5rV03SW40fFGWE5tSw5/view). <br>
@@ -384,8 +382,8 @@ ratkaisuita ja ratkaisuhahmotelmia sekä
 [edellisiin](https://drive.google.com/file/d/1YHsEQOFZeb9lfvwEBsG_fkuLZ7C7nKtQ/view) että
 [jälkimmäisiin](https://drive.google.com/file/d/1E4kgdlLc_WBAIXP4a-zoOcDpjwOo9JQc/view).
 Tehtävän 7 osalta katso myös
-Jaakko Seppälän kommenttia Solmun keskustelupalstan
-[Sammakot](http://solmu.math.helsinki.fi/cgi-bin/yabb2/YaBB.pl?board=saku)-osastossa.
+Jaakko Seppälän kommenttia Solmun sittemmin suljetun keskustelupalstan
+[Sammakot](https://web.archive.org/web/20120806105104/http://solmu.math.helsinki.fi/cgi-bin/yabb2/YaBB.pl?board=saku)-osastossa.
 
 Joulukuun 2011 [helpommat](https://drive.google.com/file/d/1mJh8R7l0_P6mqs3YSlZsaD90LUeoG_4_/view) ja
 [vaikeammat](https://drive.google.com/file/d/1cxaj2bnzi-VokhnftZDe3DuD-pIvGqNs/view) kirjevalmennustehtävät;

@@ -5,7 +5,7 @@ url: /aiheet/
 eleventyNavigation:
   title: Materiaalit
 highlightedContent: |
-  ### Kilpa­matematiikan perus­kurssi
+  ## Kilpa­matematiikan perus­kurssi {.h3}
 
   [Kilpa­matematiikan perus­kurssi](https://kurssi.matematiikkakilpailut.fi) sopii aloittelijoille
   esimerkiksi MAOLin kilpailuun valmistautumiseen.
@@ -55,9 +55,9 @@ voi saada opetusta ja vinkkejä.
 
 ## Tehtäviä {id=tehtavat}
 
-*   [Kilpailumatematiikan harjoituksia I ja II](http://eukleideskirjat.fi/harjI.html).
-    Vanha kilpailutehtäväkokoelma on nyt järjestetty, siitä on korjattu lukuisia virheitä
-    ja se on julkaistu kahtena niteenä.
+*   [Kilpailumatematiikan harjoituksia I ja II](https://web.archive.org/web/20210512074410/http://eukleideskirjat.fi/harjI.html).
+    Vanha kilpailutehtäväkokoelma on järjestetty, siitä on korjattu lukuisia virheitä
+    ja se on julkaistu kahtena niteenä. Kustantajan sivu on saatavilla enää verkkoarkistosta.
 *   [Kilpailumatematiikan lajeja ja periaatteita](https://drive.google.com/file/d/1pGA-x-gm_UVWzPvUg5DSqYyjRzc6CYiz/view)
 	20 näytetehtävää, jotka pyrkivät antamaan kuvaa kilpailumatematiikassa tavallisista
 	kysymystyypeistä. Tehtäviin on myös ratkaisut. Koonnut Matti Lehtinen, päivitetty syyskuussa 2016.
@@ -149,7 +149,7 @@ tasaisesti neljän pääteeman kesken.
 *   [Geometrian täydennystä](https://drive.google.com/file/d/1GgIZPEjf-ylue16AhdTnnYPRfINyBSCS/view).
 	Muutamia _Kilpailumatematiikan oppaan_ geometriaosuutta täydentäviä faktoja
 	lyhyine perusteluineen. Matti Lehtisen esitys toukokuussa 2013.
-*   [Geometrian pitempi oppimäärä](http://www.elisanet.fi/matti.t.lehtinen/kaikki.pdf)
+*   [Geometrian pitempi oppimäärä](https://web.archive.org/web/20221222123140/http://www.elisanet.fi/matti.t.lehtinen/kaikki.pdf)
 	Matti Lehtisen geometrian luentokurssin uusin versio. Se kattaa kilpailuissa
 	tarvittavan klassisen geometrian ja vähän enemmänkin. 
 *   [Analyyttistä geometriaa kilpailutehtävien kautta](https://drive.google.com/file/d/1OnSnZEAk3azYiu7xU1FA9nvHzIMnuzhg/view)

@@ -28,7 +28,7 @@ Valmennus­viikon­lopun käytännön järjestelyistä on lisätietoa
 Valmennus­viikon­loppuun tulee ilmoittautua viimeistään **viikkoa**
 ennen [sähköisen lomakkeen][ilmo] kautta.
 
-[ilmo]: https://www.paivola.fi/fi/matematiikkakilpailuvalmennukseen-ilmoittautuminen/
+[ilmo]: https://www.paivola.fi/opintolinjat/matematiikkalinja/lyhytkurssit/kilpailuvalmennus
 
 
 ## Olympia­joukkueen valinta- ja valmennusviikko
@@ -98,7 +98,7 @@ ostamaan lipun ajoissa ja olet joustava matkustusajankohdan suhteen, voit sääs
 Toinen mahdollinen kulkutapa on **linja-auto**. Lähin pysäkki on [Uittamo th][uittamo], jolta on parin
 kilometrin [kävelymatka][kavely] perille. Toki Päivölään voi tulla myös omalla autolla tai saada
 kyydin esim. vanhemmiltaan.
-Lisää saapumisohjeita on Päivölän [kotisivuilla](https://www.paivola.fi/fi/yhteystiedot/saapumisohjeet/).
+Lisää saapumisohjeita on Päivölän [kotisivuilla](https://www.paivola.fi/paivolan-opisto/yhteystiedot).
 
 [uittamo]: https://www.openstreetmap.org/node/460305725
 [kavely]: https://share.trailmap.fi/route_11480
