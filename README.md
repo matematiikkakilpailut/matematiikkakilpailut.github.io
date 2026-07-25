@@ -52,6 +52,71 @@ Syyskuun 2021 [valmennuskirje](https://drive.google.com/file/d/1_QR7c5e1jRYUGKyJ
 Helpoin tapa on kopioida jokin olemassa oleva tiedosto uudella nimellä ja
 muokata sisältö.
 
+## Jakokuvat (og:image)
+
+Jokaisella sivulla on jakokuva, joka näkyy kun linkki jaetaan somessa.
+Oletuskuva tulee valituksi sivun osoitteen perusteella tiedostossa
+`_includes/default.html`. Sivukohtaisen asetuksen voi tehdä näin:
+
+```yaml
+ogImage: /kuvat/og-imo2026.jpg
+ogImageAlt: "IMOsta pronssia ja kunniamainintoja..."
+```
+
+`ogImageAlt` on pakollinen aina kun `ogImage` on annettu. Tiedostopäätteen
+pitää olla `.jpg` tai `.png`.
+
+Kuvien tuottaminen: ks `kuvat/og-*.svg`. Oikea koko näille on **1200 × 630**.
+
+### Tyyli
+
+* Tausta `#2d3e50`. Tekstit `#f5f6f4`, korostukset `#9ec7e8` (sininen),
+  `#a9d6a1` (vihreä), `#ecc98e` (okra).
+* Fontti Lato: sivun nimi `matematiikkakilpailut.fi` kohdassa (80, 92),
+  koko 26, `font-weight="700"`, `letter-spacing="1"`, väri `#9ec7e8`.
+* Otsikko vasempaan reunaan `x="80"`, `font-weight="900"`. Yksi sana &rarr;
+  koko 84, useampi rivi &rarr; koko 56 ja rivinväli 68. Katkaise rivit itse;
+  56:n koossa riville mahtuu noin 16 merkkiä.
+* Teksti vasempaan puoliskoon, kuvitus tai valokuva oikealle. Alareunaan
+  mahtuu vielä pieni kuvateksti (koko 22).
+* Valokuva sijoitetaan `<image>`-elementtinä oikeaan reunaan, esimerkiksi
+  `x="720" width="480" height="630"` ja `preserveAspectRatio="xMidYMid slice"`.
+  Jos saumasta tulee ruma, sen voi pehmentää taustan värisellä liukuvärillä
+  kuvan vasemman reunan päällä &ndash; toisissa kuvissa se toimii, toisissa
+  ei, joten katso lopputulos.
+
+### Työvaiheet
+
+Rajaa valokuva ensin sopivaan kokoon:
+
+```
+magick alkuperainen.jpg -gravity center -resize 480x630^ -extent 480x630 -quality 92 rajattu.jpg
+```
+
+Upota se SVG:hen data-URI:na, jotta SVG toimii sellaisenaan:
+
+```
+base64 -i rajattu.jpg | tr -d '\n'
+```
+
+ja liitä tulos `<image ... xlink:href="data:image/jpeg;base64,TÄHÄN">`.
+Muista `xmlns:xlink="http://www.w3.org/1999/xlink"` juurielementtiin.
+
+Rasterointi (Inkscape tarvitsee Lato-fontin asennettuna järjestelmään):
+
+```
+inkscape kuvat/og-imo2026.svg -w 1200 -h 630 -o /tmp/og.png
+magick /tmp/og.png -quality 92 kuvat/og-imo2026.jpg
+```
+
+Laatua 92 voi haluta säätää.
+
+Lopuksi `npm run build` ja tarkista tulos:
+
+```
+grep -o '<meta property="og:image[^>]*>' _site/uutiset/2026-07-24-IMO-tuloksia.html
+```
+
 ## Aikataulu
 
 `aikataulu/index.11tydata.yaml` on tapahtumakalenteri, joka on kokonaan
