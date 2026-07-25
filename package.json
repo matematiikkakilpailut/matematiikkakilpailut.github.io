@@ -5,7 +5,7 @@
   "description": "Suomen matematiikan olympiavalmennuksen sivusto",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "eleventy --output=_test-site && node test/check-links.js",
     "serve": "eleventy --serve",
     "build": "eleventy"
   },

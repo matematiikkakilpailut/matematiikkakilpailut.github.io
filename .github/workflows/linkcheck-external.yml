@@ -1,0 +1,45 @@
+name: External link check
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020  # v7.0.0
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npx eleventy --output=_built-site
+      - name: Check external links
+        id: lychee
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8  # v2.9.0
+        with:
+          args: >-
+            --no-progress
+            --scheme https --scheme http
+            --exclude 'web\.archive\.org'
+            --exclude-path _built-site/BW2006
+            --exclude-path _built-site/BW2016
+            --exclude-path _built-site/kokoukset
+            --exclude-path _built-site/vanhaset
+            _built-site
+          fail: true
+      - name: Open or update issue on failure
+        if: failure() && github.event_name == 'schedule'
+        uses: peter-evans/create-issue-from-file@fca9117c27cdc29c6c4db3b86c48e4115a786710  # v6.0.0
+        with:
+          title: Broken external links
+          content-filepath: ./lychee/out.md
+          labels: report, automated issue
