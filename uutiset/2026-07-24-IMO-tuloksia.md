@@ -6,6 +6,11 @@ title: IMOsta pronssia ja kunniamainintoja
 ja **Amelie Hao** kunnia­maininnat vuoden 2026 matematiikka­olympialaisissa, jotka järjestettiin
 [Shanghaissa, Kiinassa][imo2026]. Pisteitä kerrytti myös **Kaius Hansen**.
 
+<figure>
+  <img src="https://lh3.googleusercontent.com/d/1u-orpRIkpSiTnIiUoBgq3yf689fyKnZO"
+       alt="Pronssimitalistit Mikko Ylinen ja Zhongyi Li">
+  <figcaption>Pronssi­mitalistit Mikko Ylinen ja Zhongyi Li</figcaption>
+</figure>
 
 Suomi sijoittui maa­vertailussa [sijalle 71][sijoitus] 117 osallistujamaan joukossa. Pohjois­maista
 Suomi sijoittui Tanskaa ja Islantia paremmin.
