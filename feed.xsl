@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xsl:stylesheet version="3.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:atom="http://www.w3.org/2005/Atom">
   <xsl:output method="html" version="1.0" encoding="UTF-8" indent="yes" />
   <xsl:template match="/">
@@ -10,69 +10,81 @@
         <title><xsl:value-of select="/atom:feed/atom:title" /> - Atom Feed</title>
         <style>
           body {
-          max-width: 800px;
-          margin: 0 auto;
-          padding: 2rem;
-          font-family: system-ui, -apple-system, sans-serif;
-          line-height: 1.5;
-          color: #1a1a1a;
-          background: #f9f9f9;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            font-family: system-ui, -apple-system, sans-serif;
+            line-height: 1.5;
+            color: #1a1a1a;
+            background: #f9f9f9;
           }
           header {
-          margin-bottom: 2rem;
-          padding-bottom: 1rem;
-          border-bottom: 1px solid #ddd;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #ddd;
           }
           h1 {
-          margin: 0 0 0.5rem 0;
-          font-size: 1.8rem;
-          font-weight: 600;
+            margin: 0 0 0.5rem 0;
+            font-size: 1.8rem;
+            font-weight: 600;
           }
           h2 {
-          margin: 0 0 1rem 0;
-          font-size: 1.2rem;
-          font-weight: normal;
-          color: #666;
+            margin: 0 0 1rem 0;
+            font-size: 1.2rem;
+            font-weight: normal;
+            color: #666;
           }
           .subtitle {
-          font-style: italic;
-          color: #666;
+           font-style: italic;
+           color: #666;
           }
           .meta {
-          color: #666;
-          font-size: 0.9rem;
+            color: #666;
+            font-size: 0.9rem;
           }
           article {
-          margin-bottom: 2rem;
-          padding-bottom: 1rem;
-          border-bottom: 1px solid #eee;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #eee;
+            h3 {
+              margin: 0 0 0.5rem 0;
+              font-size: 1.4rem;
+            }
+            time {
+              color: #666;
+              font-size: 0.9rem;
+            }
           }
-          article h3 {
-          margin: 0 0 0.5rem 0;
-          font-size: 1.4rem;
-          }
-          article time {
-          color: #666;
-          font-size: 0.9rem;
+          figure {
+            margin-inline: 0;
+            img {
+              max-width: 100%;
+              max-height: 70vh;
+              height: auto;
+            }
+            figcaption {
+              text-align: center;
+              font-style: italic;
+            }
           }
           a {
-          color: #005eb8;
-          text-decoration: none;
+            color: #005eb8;
+            text-decoration: none;
           }
           a:hover {
-          text-decoration: underline;
+            text-decoration: underline;
           }
           .feed-info {
-          margin-top: 3rem;
-          padding-top: 1rem;
-          border-top: 1px solid #ddd;
-          font-size: 0.9rem;
-          color: #666;
+            margin-top: 3rem;
+            padding-top: 1rem;
+            border-top: 1px solid #ddd;
+            font-size: 0.9rem;
+            color: #666;
           }
           @media (max-width: 600px) {
-          body {
-          padding: 1rem;
-          }
+            body {
+              padding: 1rem;
+            }
           }
         </style>
       </head>
@@ -104,12 +116,18 @@
               <time datetime="{atom:updated}">
                 <xsl:value-of select="substring(atom:updated, 1, 10)" />
               </time>
-              <div>
-                <xsl:value-of select="atom:content" disable-output-escaping="yes" />
+              <div class="content">
+                <xsl:value-of select="atom:content" />
               </div>
             </article>
           </xsl:for-each>
         </main>
+
+        <script>
+          document.querySelectorAll('.content').forEach(function (el) {
+            el.innerHTML = el.textContent;
+          });
+        </script>
 
         <footer class="feed-info">
           <p> Viimeksi päivitetty: <xsl:value-of select="substring(/atom:feed/atom:updated, 1, 10)" />
