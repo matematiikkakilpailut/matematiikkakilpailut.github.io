@@ -440,6 +440,75 @@ main, .mk-navigaatio, .footer { hyphens: manual; }
 }
 .mk-kortti--uutinen .mk-kortti-jalki { border-top-color: var(--mk-okra); }
 
+/* ---------- listat: uutiset, tehtäväsarjat, materiaalit ---------- */
+
+.mk-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  > li {
+    display: grid;
+    grid-template-columns: 1fr 7.5rem;
+    gap: 1.25rem;
+    padding: 1.25rem 0;
+    border-bottom: 1px solid var(--mk-viiva-ohut);
+    align-items: start;
+
+    &:last-child { border-bottom: 0; }
+  }
+
+  .mk-pvm { font-size: .8125rem; font-weight: 700; color: var(--mk-vaimea); padding-top: .25rem; }
+
+  h3 {
+    font-size: 1.25rem;
+    line-height: 1.3;
+    margin: 0 0 .4375rem;
+
+    .mk-pvm { font-weight: 400; white-space: nowrap; padding-top: 0; }
+    a {
+      color: inherit;
+      text-decoration: none;
+      &:hover { text-decoration: underline; }
+    }
+  }
+
+  p { margin: 0; }
+}
+.mk-lista--arkisto > li { grid-template-columns: 6rem 1fr 9rem; }
+/* Yhden palstan asettelu kumoaa myös arkiston, joten se on jätettävä tämän
+   jälkeen: sama tarkkuus, järjestys ratkaisee. */
+@media (max-width: 767.98px) {
+  .mk-lista > li { grid-template-columns: 1fr; gap: .5rem; }
+}
+
+.mk-pikkukuva {
+  display: block;
+  border-radius: 8px;
+  overflow: hidden;
+  aspect-ratio: 16 / 11;
+  background: repeating-linear-gradient(135deg, var(--mk-viiva-ohut), var(--mk-viiva-ohut) 6px, var(--mk-viiva) 6px, var(--mk-viiva) 12px);
+}
+.mk-pikkukuva img { display: block; width: 100%; height: 100%; object-fit: cover; }
+
+/* ---------- kuvat artikkeleissa ---------- */
+
+main figure { margin-inline: 0; }
+main figure img {
+  max-width: 100%;
+  height: auto;
+  max-height: 70vh;
+  border-radius: 8px;
+}
+main figcaption {
+  text-align: left;
+  font-style: normal;
+  font-size: .84375rem;
+  line-height: 1.5;
+  color: var(--mk-vaimea);
+  margin-top: .5rem;
+}
+
 /* ---------- aikataulu ---------- */
 
 .mk-kausi {

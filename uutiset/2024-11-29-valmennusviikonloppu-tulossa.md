@@ -7,4 +7,6 @@ Alakerran ohjelmassa on lukuteoriaa ja kombinatoriikkaa,
 yläkerran ohjelmaa suunnitellaan vielä.
 
 <a href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2024-vk50">Ilmoittaudu Päivölään</a> 5.12. mennessä;
+<!--tiivistelma-->
+
 <a href="/aikataulu/">Valmennuksen aikataulu</a>

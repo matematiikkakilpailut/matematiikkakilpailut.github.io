@@ -1,0 +1,46 @@
+---
+title: Uutisia
+description: Uutisia matematiikan olympiavalmennuksesta ja matematiikkakilpailuista, muun muassa valmennuskirjeet, valmennusviikonloput ja kilpailujen tulokset.
+permalink: /uutiset/
+override:tags: []
+---
+
+<div class="d-flex flex-wrap gap-2 mb-4">
+  <a class="mk-merkki" href="/feed.xml" rel="alternate" type="application/atom+xml">RSS-syöte</a>
+  <a class="mk-merkki" href="https://t.me/+TS59DXkdJpozNDU0">Telegram-ryhmä</a>
+</div>
+
+{% set uutiset = collections.uutinen | reverse %}
+{% set vuosi = "" %}
+{% for artikkeli in uutiset %}
+  {%- set artikkelinVuosi = artikkeli.date.getUTCFullYear() | string %}
+  {%- if artikkelinVuosi != vuosi %}
+  {%- if not loop.first %}
+  </ul>
+  {%- endif %}
+  <div class="mk-kausi"><h2>{{ artikkelinVuosi }}</h2></div>
+  <ul class="mk-lista mk-lista--arkisto">
+  {%- set vuosi = artikkelinVuosi %}
+  {%- endif %}
+  <li>
+    <div class="mk-pvm">{{ artikkeli.date.toLocaleDateString("fi", {timeZone: "UTC"}) }}</div>
+    <div>
+      <h3><a href="{{ artikkeli.url }}">{{ artikkeli.data.title }}</a></h3>
+      {% if artikkeli.data.tiivistelma %}{{ artikkeli.data.tiivistelma | markdown | safe }}{% else %}{{ artikkeli.templateContent | uutisnayte | safe }}{% endif %}
+    </div>
+    {% set kuva = artikkeli.templateContent | uutiskuva %}
+    {% if kuva %}
+    <a class="mk-pikkukuva" href="{{ artikkeli.url }}">
+      <img src="{{ kuva.src }}" alt="{{ kuva.alt }}" loading="lazy">
+    </a>
+    {% else %}
+    <div></div>
+    {% endif %}
+  </li>
+{% endfor %}
+{% if uutiset.length %}</ul>{% endif %}
+
+<div class="d-flex flex-wrap gap-4 mt-4">
+  <a class="fw-bold text-decoration-none" href="/vanhaset.html">Vanhemmat uutiset arkistossa &rarr;</a>
+  <a class="fw-bold text-decoration-none" href="/aikataulu/">Valmennuksen aikataulu &rarr;</a>
+</div>

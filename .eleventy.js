@@ -139,6 +139,26 @@ export default function (eleventyConfig) {
     return out;
   });
 
+  eleventyConfig.addFilter("uutiskuva", (html) => {
+    const img = cheerio.load(html ?? "", null, false)('img').first();
+    if (!img.length) return null;
+    const src = img.attr('src');
+    return {
+      src: /googleusercontent\.com\/d\//.test(src) ? `${src}=w300` : src,
+      alt: img.attr('alt') ?? "",
+    };
+  });
+
+  eleventyConfig.addFilter("ilmanVuosiliitetta", (otsikko) => {
+    return String(otsikko ?? "").replace(/\s*\(\d{4}\)$/, "");
+  });
+
+  eleventyConfig.addFilter("uutisnayte", (html) => {
+    const $ = cheerio.load(String(html ?? "").split(/<!--\s*tiivistelma\s*-->/)[0], null, false);
+    $('figure, img').remove();
+    return $.html();
+  });
+
   // Aikataulu: tulevat tapahtumat etusivun tapahtumapalkkiin aikajärjestyksessä.
   // Vaatii tapahtumalta alkaa-kentän (ISO 8601, esim. alkaa: 2026-08-28).
   const isoPaiva = (d) => new Date(d).toISOString().slice(0, 10);
