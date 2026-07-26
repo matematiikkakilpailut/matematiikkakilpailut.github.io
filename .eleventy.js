@@ -5,9 +5,8 @@ import markdownItAnchor from "markdown-it-anchor";
 import markdownItAttrs from "markdown-it-attrs";
 import rss from "@11ty/eleventy-plugin-rss";
 import * as cheerio from 'cheerio';
-import { readFileSync } from "node:fs";
+import { readFileSync, mkdirSync, writeFileSync } from "node:fs";
 import { createHash } from "node:crypto";
-import { minify } from "csso";
 import browserslist from 'browserslist';
 import { transform, browserslistToTargets } from 'lightningcss';
 
@@ -60,6 +59,14 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(rss);
+
+  eleventyConfig.addGlobalData("tyyliCss", () => `/css/${tyyliMin().nimi}`);
+  eleventyConfig.on("eleventy.before", ({ directories }) => {
+    const { css, nimi } = tyyliMin();
+    mkdirSync(`${directories.output}css`, { recursive: true });
+    writeFileSync(`${directories.output}css/${nimi}`, css);
+  });
+  eleventyConfig.addWatchTarget("css/tyyli.css");
 
   eleventyConfig.addDataExtension("yaml", yaml.load);
   eleventyConfig.addFilter("markdownify", (x) => {
