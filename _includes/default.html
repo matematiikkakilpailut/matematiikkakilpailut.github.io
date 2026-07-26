@@ -84,7 +84,7 @@
         return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
       }
       const setTheme = theme => {
-        document.documentElement.dataset.bsTheme =
+        document.documentElement.dataset.teema =
           theme === 'auto'
           ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
           : theme
