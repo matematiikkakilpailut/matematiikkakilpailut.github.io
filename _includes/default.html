@@ -56,7 +56,6 @@
     {% if description %}<meta name="twitter:description" content="{{ description }}">{% endif %}
     <meta name="twitter:image" content="{% if socialImage.startsWith('http') %}{{ socialImage }}{% else %}{{ pkg.base_url }}{{ socialImage }}{% endif %}">
     <meta name="twitter:image:alt" content="{{ socialImageAlt }}">
-    <link href="/css/bootstrap.min.css?v=5.3.3" rel="stylesheet">
     <link href="{{ tyyliCss }}" rel="stylesheet">
     <link rel="icon" href="/kuvat/icon.svg" type="image/svg+xml">
     <link rel="icon" href="/kuvat/favicon-32x32.png" type="image/png" sizes="32x32">
@@ -92,17 +91,16 @@
       setTheme(getPreferredTheme())
     </script>
   </head>
-  <body class="d-flex flex-column min-vh-100">
-    <a href="#main" class="visually-hidden-focusable p-2">Siirry sisältöön</a>
+  <body>
+    <a href="#main" class="visually-hidden-focusable">Siirry sisältöön</a>
     {% include 'ylapalkki.html' %}
     {% include 'leivanmurut.html' %}
-    <main class="container flex-grow-1" id="main" tabindex="-1">
+    <main class="container" id="main" tabindex="-1">
         {{ content | safe }}
     </main>
     {% include 'alapalkki.html' %}
     <script defer src="/js/theme.js"></script>
     <script type="module" src="/js/instant.page.min.js"></script>
-    <script defer src="/js/bootstrap.bundle.min.js?v=5.3.3"></script>
     <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "45380cb8b30d4b0791d27e340eefc4da"}'></script>
   </body>
 </html>

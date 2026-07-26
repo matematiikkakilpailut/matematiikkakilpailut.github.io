@@ -208,9 +208,9 @@ ja avaa <http://localhost:8080> selaimessa. Pelkän käännöksen (samalla taval
 kuin Cloudflaren buildissa) saa komennolla `npm run build`; tulos menee
 hakemistoon `_site`.
 
-## Bootstrap
+## Tyylit
 
-Käytössä Bootstrap versio 5, Bootswatchin tyyli Flatly.
-Päivitys: lataa uusi versio <https://bootswatch.com/> (ei min.css),
-kopioi vanhasta `@font-face`-muutokset ja poista vastaava Google Fonts -osuus,
-minimoi `csso`:lla, päivitä `default.html`:n cachebuster.
+Tiedostossa `css/tyyli.css`.
+
+`seiskat/`-sivuilla on oma `seiskat/tyyli.css` ja BW2016-sivuilla
+vanha `css/bw2016.min.css`.

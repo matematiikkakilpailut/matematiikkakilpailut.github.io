@@ -114,8 +114,6 @@ export default function (eleventyConfig) {
 
 
   [
-    // Ship built assets only: skip css/bootstrap.css (unminified csso input)
-    // and js/bootstrap.bundle.min.js.map (dev source map).
     "js/*.js",
     "css/*.min.css",
     "font",
