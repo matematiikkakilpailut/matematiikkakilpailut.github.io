@@ -1,19 +1,19 @@
 {%- if not hideBreadcrumbs %}
-<div class="container-fluid flex-flow bg-body-secondary align-items-start">
-  <nav aria-label="navigaatiopolku" class="mt-1 ps-sm-4 small">
-    <ol class="breadcrumb mb-1" itemscope itemtype="https://schema.org/BreadcrumbList">
+<div class="mk-leivanmurut">
+  <nav aria-label="navigaatiopolku">
+    <ol itemscope itemtype="https://schema.org/BreadcrumbList">
       {% set navPages = collections.all | eleventyNavigationBreadcrumb(page.url, {includeSelf: true, allowMissing:true}) %}
       {%- for crumb in navPages %}
       {%- if loop.last %}
-      <li class="breadcrumb-item active text-primary" aria-current="page"
+      <li aria-current="page"
           itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
         <span itemprop="name">{{ crumb.title }}</span>
         <meta itemprop="position" content="{{ loop.index }}">
       </li>
       {%- else %}
-      <li class="breadcrumb-item pe-1" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
         <meta itemprop="position" content="{{ loop.index }}">
-        <a class="icon-link link-primary text-decoration-none" href="{{ crumb.url }}"
+        <a class="icon-link" href="{{ crumb.url }}"
            itemscope itemtype="https://schema.org/WebPage" itemprop="item" itemid="{{ crumb.url }}">
           <span itemprop="name">{{ crumb.title }}</span>
           <svg class="bi" style="stroke-width: 1.1; stroke: currentColor;" aria-hidden="true" focusable="false">

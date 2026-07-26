@@ -150,6 +150,132 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 [data-teema="dark"] .light-element { display: none; }
 [data-teema="light"] .dark-element { display: none; }
 
+/* ---------- navigaatio ---------- */
+
+.mk-navigaatio {
+  position: relative;
+  background-color: var(--mk-navy);
+
+  li a {
+    display: inline-block;
+    color: var(--mk-paperi);
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: var(--mk-radius-s);
+    padding: .625rem .875rem;
+
+    &:hover { color: var(--mk-sininen); }
+    &.active { background: rgba(242, 244, 239, .12); color: var(--mk-paperi); }
+  }
+}
+
+.mk-navigaatio-rivi {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .5rem;
+  min-height: var(--mk-navi-korkeus);
+  padding: .5rem .75rem;
+}
+
+.mk-logo {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  font-weight: 700;
+  font-size: 1.1875rem;
+  text-decoration: none;
+
+  &, &:hover { color: var(--mk-sininen); }
+  img { display: block; width: 34px; height: 34px; border-radius: var(--mk-radius-s); }
+  @media (min-width: 576px) { margin-left: 1.5rem; }
+}
+
+.mk-navi-lista { display: none; list-style: none; margin: 0; padding: 0; }
+@media (min-width: 768px) {
+  .mk-navi-lista { display: flex; flex-wrap: wrap; }
+  .mk-valikko { display: none; }
+}
+
+.mk-valikko {
+  summary {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: .4375rem .75rem;
+    border: 1px solid rgba(255, 255, 255, .1);
+    border-radius: .375rem;
+    color: rgba(255, 255, 255, .85);
+    cursor: pointer;
+
+    &::-webkit-details-marker { display: none; }
+    &::before {
+      content: "";
+      display: block;
+      width: 1.875rem;
+      height: 1.875rem;
+      background: currentColor;
+      mask: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23000' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") center / 100% no-repeat;
+    }
+  }
+
+  ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    margin: 0;
+    padding: .25rem .75rem 1rem;
+    list-style: none;
+    background: var(--mk-navy);
+
+    a { display: block; }
+  }
+}
+
+
+.mk-teemavalikko {
+  margin-left: auto;
+
+  > button {
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+    border: 0;
+    background: none;
+    color: var(--mk-paperi);
+    cursor: pointer;
+  }
+}
+
+/* ---------- leivanmurut ---------- */
+
+.mk-leivanmurut {
+  background: var(--mk-pinta);
+
+  ol {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0 .25rem;
+    list-style: none;
+    margin: 0;
+    padding: .375rem .75rem;
+    font-size: .875em;
+
+    @media (min-width: 576px) { padding-left: 1.5rem; }
+  }
+
+  a {
+    color: var(--mk-etuala);
+    text-decoration: none;
+    &:hover { text-decoration: underline; }
+  }
+
+  li[aria-current] { color: var(--mk-etuala); }
+}
+
 /* ---------- yksittäiset elementit ---------- */
 
 .icon-link { display: inline-flex; align-items: center; gap: .375rem; text-underline-offset: .25em; }
