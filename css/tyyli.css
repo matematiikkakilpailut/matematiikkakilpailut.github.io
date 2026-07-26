@@ -422,6 +422,45 @@ main, .mk-navigaatio, .footer { hyphens: manual; }
   .mk-ukk-kohta[open]::details-content { block-size: auto; }
 }
 
+/* ---------- alapalkki ---------- */
+
+.footer {
+  margin-top: auto;
+  padding-block: 1.5rem;
+  background: var(--mk-pinta);
+
+  h2 { margin-bottom: .375rem; }
+
+  /* Pitkä sähköpostiosoite ei mahdu kapeaan palstaan sellaisenaan */
+  .icon-link {
+    color: var(--mk-etuala);
+    text-decoration: none;
+    overflow-wrap: anywhere;
+
+    &:hover { text-decoration: underline; }
+    .bi { color: var(--mk-sininen-teksti); }
+  }
+}
+
+.mk-rahoittaja {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .875rem;
+  align-items: flex-start;
+
+  picture, img { flex: none; }
+  p {
+    flex: 1 1 12rem;
+    font-size: .8125rem;
+    line-height: 1.5;
+    color: var(--mk-vaimea);
+    margin: 0;
+  }
+
+  /* Erotinviiva vain nelipalstaisessa asettelussa. */
+  @media (min-width: 992px) { border-left: 1px solid var(--mk-viiva); padding-left: 1.5rem; }
+}
+
 /* ---------- yksittäiset elementit ---------- */
 
 .icon-link { display: inline-flex; align-items: center; gap: .375rem; text-underline-offset: .25em; }
