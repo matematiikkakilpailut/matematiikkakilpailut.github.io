@@ -5,7 +5,7 @@ url: /aiheet/
 eleventyNavigation:
   title: Materiaalit
 highlightedContent: |
-  ## Kilpa­matematiikan perus­kurssi {.h3}
+  ## Kilpa­matematiikan perus­kurssi
 
   [Kilpa­matematiikan perus­kurssi](https://kurssi.matematiikkakilpailut.fi) sopii aloittelijoille
   esimerkiksi MAOLin kilpailuun valmistautumiseen.

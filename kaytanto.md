@@ -1,7 +1,18 @@
 ---
-layout: kortit.html
+layout: aiheet.html
 title: Valmennustapahtumat
 url: /kaytanto/
+ingressi: >-
+  Valmennusviikonloput, olympiajoukkueen valintaviikko, kesäleiri ja Tanskan
+  leiri, sekä käytännön ohjeet Päivölään saapuvalle.
+highlightedYlaotsikko: Näin pääset mukaan
+highlightedTitle: Ilmoittaudu viikonloppuun
+highlightedContent: >-
+  Valmennusviikonloput ovat kaikille koululaisille avoimia, eikä osallistuminen
+  edellytä aiempaa kilpailukokemusta.
+  [Ilmoittaudu](https://www.paivola.fi/opintolinjat/matematiikkalinja/lyhytkurssit/kilpailuvalmennus)
+  Päivölän opistolle viimeistään **viikkoa ennen** viikonloppua.
+  Seuraavan viikonlopun ajankohta on [aikataulussa](/aikataulu/).
 description: >-
   Matematiikkakilpailujen valmennusleirit ja niiden käytännön järjestelyt.
   Päivölän opistolla järjestetään avoimia viikonloppuvalmennuksia lukiolaisille.
@@ -20,15 +31,12 @@ harjoitus­kokeita innostavassa seurassa. Valmennus­viikon­loppuja on vuoden a
 kolme keväisin ja kolme syksyisin. Valmennukseen osallistumisen
 voi aloittaa minä viikonloppuna tahansa. Seuraavan
 valmennus­viikon­lopun ajankohta löytyy
-[aikataulusta](https://matematiikkakilpailut.fi/aikataulu/).
+[aikataulusta](/aikataulu/).
 
 Valmennus­viikon­lopun käytännön järjestelyistä on lisätietoa 
 [tuonnempana](#kaytantoa).
 
-Valmennus­viikon­loppuun tulee ilmoittautua viimeistään **viikkoa**
-ennen [sähköisen lomakkeen][ilmo] kautta.
 
-[ilmo]: https://www.paivola.fi/opintolinjat/matematiikkalinja/lyhytkurssit/kilpailuvalmennus
 
 
 ## Olympia­joukkueen valinta- ja valmennusviikko
@@ -127,134 +135,53 @@ valmennettaville suunnattuun *alakerran* opetukseen ja
 edistyneemmille tarkoitettuun *yläkerran* opetukseen.
 Alla on esimerkki erään valmennusviikonlopun aikataulusta.
 
-<div class="d-none d-lg-block table-responsive">
-<table class="table table-bordered">
-<caption>Erään valmennusviikonlopun aikataulu</caption>
-<thead class="table-secondary">
-<tr>
-<th>Kellonaika</th>
-<th>Perjantai</th>
-<th>Kellonaika</th>
-<th>Lauantai alakerta</th>
-<th>Lauantai yläkerta</th>
-<th>Sunnuntai alakerta</th>
-<th>Sunnuntai yläkerta</th>
-</tr>
+<div class="table-responsive">
+<table class="mk-aikataulu">
+<caption>Perjantai</caption>
+<thead>
+<tr><th class="mk-kello">Kellonaika</th><th>Ohjelma</th></tr>
 </thead>
 <tbody>
-<tr>
-<td>18:30–18:45</td>
-<td>Tervetuliaissanat</td>
-<td>8:30–9:00</td>
-<td colspan="4" class="text-center">Aamiainen</td>
-</tr>
-<tr>
-<td>18:45–21:00</td>
-<td class="table-success">Kombinatoriikkaa</td>
-<td>9:00–11:30</td>
-<td class="table-success">Helpompi koe</td>
-<td class="table-success">Vaikeampi koe</td>
-<td class="table-success">Geometriaa</td>
-<td class="table-success">Kombinatoriikkaa</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>11:30–12:30</td>
-<td colspan="4" class="text-center">Lounastauko</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>12:30–14:30 (su&nbsp;–13:30)</td>
-<td class="table-success">Geometriaa</td>
-<td class="table-success">Vaikeampi koe jatkuu</td>
-<td colspan="2" class="table-success">Kokeiden palautus ja ratkaisuiden läpikäynti</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>14:30–15:00</td>
-<td colspan="4" class="text-center">Kahvitauko</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>15:00–17:00</td>
-<td class="table-success">Geometriaa</td>
-<td class="table-success">Kombinatoriikkaa</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>17:00–19:00</td>
-<td colspan="4" class="text-center">Päivällistauko ja tyttöjen sauna</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>19:00–21:00</td>
-<td class="table-success">Geometriaa</td>
-<td class="table-success">Kombinatoriikkaa</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>21:00–22:00</td>
-<td colspan="4" class="text-center">Poikien sauna</td>
-</tr>
+<tr><td class="mk-kello">18.30</td><td class="mk-yhteinen">Tervetuliaissanat</td></tr>
+<tr><td class="mk-kello">18.45</td><td class="mk-yhteinen">Kombinatoriikkaa</td></tr>
 </tbody>
 </table>
 </div>
 
-<div class="d-lg-none">
-
-<h4>Perjantai</h4>
-<table class="table table-bordered">
-<thead class="table-secondary">
-<tr><th>Kellonaika</th><th>Ohjelma</th></tr>
+<div class="table-responsive">
+<table class="mk-aikataulu">
+<caption>Lauantai</caption>
+<thead>
+<tr><th class="mk-kello">Kellonaika</th><th class="mk-alakerta">Alakerta</th><th class="mk-ylakerta">Yläkerta</th></tr>
 </thead>
 <tbody>
-<tr><td>18:30–18:45</td><td>Tervetuliaissanat</td></tr>
-<tr><td>18:45–21:00</td><td class="table-success">Kombinatoriikkaa</td></tr>
+<tr><td class="mk-kello">8.30</td><td colspan="2" class="mk-tauko">Aamiainen</td></tr>
+<tr><td class="mk-kello">9.00</td><td class="mk-alakerta">Helpompi koe</td><td class="mk-ylakerta">Vaikeampi koe</td></tr>
+<tr><td class="mk-kello">11.30</td><td colspan="2" class="mk-tauko">Lounastauko</td></tr>
+<tr><td class="mk-kello">12.30</td><td class="mk-alakerta">Geometriaa</td><td class="mk-ylakerta">Vaikeampi koe jatkuu</td></tr>
+<tr><td class="mk-kello">14.30</td><td colspan="2" class="mk-tauko">Kahvitauko</td></tr>
+<tr><td class="mk-kello">15.00</td><td class="mk-alakerta">Geometriaa</td><td class="mk-ylakerta">Kombinatoriikkaa</td></tr>
+<tr><td class="mk-kello">17.00</td><td colspan="2" class="mk-tauko">Päivällistauko ja tyttöjen sauna</td></tr>
+<tr><td class="mk-kello">19.00</td><td class="mk-alakerta">Geometriaa</td><td class="mk-ylakerta">Kombinatoriikkaa</td></tr>
+<tr><td class="mk-kello">21.00</td><td colspan="2" class="mk-tauko">Poikien sauna</td></tr>
 </tbody>
 </table>
+</div>
 
-<h4>Lauantai</h4>
-<table class="table table-bordered">
-<thead class="table-secondary">
-<tr><th>Kellonaika</th><th>Alakerta</th><th>Yläkerta</th></tr>
+<div class="table-responsive">
+<table class="mk-aikataulu">
+<caption>Sunnuntai</caption>
+<thead>
+<tr><th class="mk-kello">Kellonaika</th><th class="mk-alakerta">Alakerta</th><th class="mk-ylakerta">Yläkerta</th></tr>
 </thead>
 <tbody>
-<tr><td>8:30–9:00</td><td colspan="2" class="text-center">Aamiainen</td></tr>
-<tr><td>9:00–11:30</td><td class="table-success">Helpompi koe</td><td class="table-success">Vaikeampi koe</td></tr>
-<tr><td>11:30–12:30</td><td colspan="2" class="text-center">Lounastauko</td></tr>
-<tr><td>12:30–14:30</td><td class="table-success">Geometriaa</td><td class="table-success">Vaikeampi koe jatkuu</td></tr>
-<tr><td>14:30–15:00</td><td colspan="2" class="text-center">Kahvitauko</td></tr>
-<tr><td>15:00–17:00</td><td class="table-success">Geometriaa</td><td class="table-success">Kombinatoriikkaa</td></tr>
-<tr><td>17:00–19:00</td><td colspan="2" class="text-center">Päivällistauko ja tyttöjen sauna</td></tr>
-<tr><td>19:00–21:00</td><td class="table-success">Geometriaa</td><td class="table-success">Kombinatoriikkaa</td></tr>
-<tr><td>21:00–22:00</td><td colspan="2" class="text-center">Poikien sauna</td></tr>
+<tr><td class="mk-kello">8.30</td><td colspan="2" class="mk-tauko">Aamiainen</td></tr>
+<tr><td class="mk-kello">9.00</td><td class="mk-alakerta">Geometriaa</td><td class="mk-ylakerta">Kombinatoriikkaa</td></tr>
+<tr><td class="mk-kello">11.30</td><td colspan="2" class="mk-tauko">Lounastauko</td></tr>
+<tr><td class="mk-kello">12.30</td><td colspan="2" class="mk-yhteinen">Kokeiden palautus ja ratkaisuiden läpikäynti</td></tr>
+<tr><td class="mk-kello">13.45</td><td colspan="2" class="mk-tauko">Ohjelma päättyy</td></tr>
 </tbody>
 </table>
-
-<h4>Sunnuntai</h4>
-<table class="table table-bordered">
-<thead class="table-secondary">
-<tr><th>Kellonaika</th><th>Alakerta</th><th>Yläkerta</th></tr>
-</thead>
-<tbody>
-<tr><td>8:30–9:00</td><td colspan="2" class="text-center">Aamiainen</td></tr>
-<tr><td>9:00–11:30</td><td class="table-success">Geometriaa</td><td class="table-success">Kombinatoriikkaa</td></tr>
-<tr><td>11:30–12:30</td><td colspan="2" class="text-center">Lounastauko</td></tr>
-<tr><td>12:30–13:30</td><td colspan="2" class="table-success text-center">Kokeiden palautus ja ratkaisuiden läpikäynti</td></tr>
-</tbody>
-</table>
-
 </div>
 
 
@@ -265,3 +192,6 @@ Alla on esimerkki erään valmennusviikonlopun aikataulusta.
 **Laskut** lähetetään annettuun laskutusosoitteeseen valmennuksen jälkeen.
 Jos laskua ei kuulu parin viikon kuluessa,
 ota yhteyttä Päivölään — on mahdollista, että se on mennyt vahingossa roskapostiin.
+
+
+[ilmo]: https://www.paivola.fi/opintolinjat/matematiikkalinja/lyhytkurssit/kilpailuvalmennus

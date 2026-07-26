@@ -1,27 +1,28 @@
 ---
 layout: default
 ---
-<header class="display-4 pt-3 pb-3 mt-3 mb-1">
+<header class="mk-sivu-otsikko pt-4 pb-3">
   <h1>{{ title }}</h1>
+  {% if ingressi %}<p class="mk-ingressi mt-3 mb-0">{{ ingressi | markdownify | safe }}</p>{% endif %}
 </header>
 
-<div>
+<div class="row gx-lg-5">
   {% if highlightedContent %}
-  <div class="float-md-end col-md-auto ps-md-4 pb-3" style="max-width: 400px;">
-    <div class="card border-primary shadow position-relative">
-      <div class="position-absolute top-0 end-0 p-2">
-        <span class="badge rounded-pill text-bg-info">Uutta!</span>
-      </div>
-      <div class="card-body">
-        <h2 class="h3 card-title">{{ highlightedTitle }}</h2>
-        <div class="highlighted-content" style="text-wrap: balance">
+  <div class="col-lg-4 order-lg-last">
+    <aside class="mk-sivupalkki">
+      <div class="mk-kortti mk-nosto">
+        {% if highlightedYlaotsikko %}<div class="mk-ylaotsikko">{{ highlightedYlaotsikko }}</div>{% endif %}
+        {% if highlightedTitle %}<h2>{{ highlightedTitle }}</h2>{% endif %}
+        <div class="highlighted-content">
           {{ highlightedContent | markdown | safe }}
         </div>
       </div>
-    </div>
+    </aside>
   </div>
   {% endif %}
-  {{ content | safe }}
+  <div class="col-lg-8 mk-artikkeli">
+    {{ content | safe }}
+  </div>
 </div>
 
 {% if scripts %}
