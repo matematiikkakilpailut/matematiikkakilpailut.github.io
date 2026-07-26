@@ -124,6 +124,13 @@ yamlia ja josta aikataulusivu tehdään ohjelmallisesti. Muodon kuvaus ja
 esimerkkirivit ovat tiedoston omassa kommenttiotsikossa sen alussa &ndash;
 lue se ennen muokkaamista.
 
+## Kilpailut-sivun uutisnosto
+
+`kilpailut.md`:n IMO-uutisnostokortti (esim. "IMO 2026, Shanghai" ja
+mitalisaldo) on käsin ylläpidetty: vaihda otsikko, tulosteksti ja
+uutislinkki tuoreimpaan tulokseen kilpailukauden jälkeen, muuten sivu
+jää mainostamaan edellisvuoden tulosta.
+
 ## Google Drive -PDF:t
 
 Isot PDF-tiedostot (valmennuskirjeet, tehtäväsarjat, kirjallisuus ym.)

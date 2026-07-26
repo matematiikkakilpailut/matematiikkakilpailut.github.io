@@ -6,10 +6,7 @@ layout: default
   {% if ingressi %}<p class="mk-ingressi mt-3 mb-0">{{ ingressi | markdownify | safe }}</p>{% endif %}
 </header>
 
-<div class="row">
-  {{ content | splitCards | safe }}
-</div>
-
+{{ content | splitCards | safe }}
 
 {% if scripts %}
 {{ scripts | safe }}

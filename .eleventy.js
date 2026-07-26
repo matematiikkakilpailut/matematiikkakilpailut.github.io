@@ -83,7 +83,6 @@ export default function (eleventyConfig) {
     $('h2').each(function () {
       const section = $('<div></div>');
       section.append($(this).clone());
-
       let sibling = $(this).next();
       while (sibling.length && !sibling.is('h2')) {
         section.append(sibling.clone());
@@ -91,21 +90,53 @@ export default function (eleventyConfig) {
       }
       sections.push(section.html());
     });
-    for (let i = 0; i < sections.length; i++) {
-      const section = sections[i];
-      const header = (
-        i < sections.length - 1 ?
-          '<div class="col-md-6 col-xl-4 my-3"><div class="card h-100 shadow"><div class="card-body">' :
-          '<div class="col-xs-12"><div class="card border-info p-2 my-3 shadow"><div class="card-body">'
-      );
-      const trailer = '</div></div></div>';
-      const $ = cheerio.load(header + section + trailer, null, false);
-      $('h2').addClass('card-title');
-      $('p').addClass('card-text');
-      sections[i] = $.html();
+
+    const kortit = [];
+    const artikkelit = [];
+
+    for (const section of sections) {
+      const $c = cheerio.load('<article class="mk-kortti">' + section + '</article>', null, false);
+      const card = $c('article');
+      const heading = card.find('h2').first();
+
+      if (heading.hasClass('artikkeli')) {
+        heading.removeClass('artikkeli');
+        artikkelit.push(card.html());
+        continue;
+      }
+
+      for (const [luokka, korttiLuokka] of [['nosto', 'mk-kortti--nosto'], ['laaja', 'mk-kortti--laaja'], ['uutinen', 'mk-kortti--uutinen']]) {
+        if (heading.hasClass(luokka)) {
+          heading.removeClass(luokka);
+          card.addClass(korttiLuokka);
+        }
+      }
+
+      const ylaotsikko = card.find('p.ylaotsikko').first();
+      if (ylaotsikko.length) {
+        ylaotsikko.removeClass('ylaotsikko').addClass('mk-ylaotsikko');
+        heading.before(ylaotsikko);
+      }
+      const jalki = card.find('p.jalki').first().remove();
+      const body = $c('<div class="mk-kortti-teksti"></div>');
+      heading.nextAll().each(function () { body.append($c(this).clone()); });
+      heading.nextAll().remove();
+      heading.after(body);
+
+      const link = heading.find('a').first();
+      if (jalki.length) {
+        card.append('<div class="mk-kortti-jalki">' + jalki.html() + '</div>');
+      } else if (link.length) {
+        const jalkiLinkki = $c('<a>Lue lisää</a>').attr('href', link.attr('href'));
+        card.append($c('<div class="mk-kortti-jalki"></div>').append(jalkiLinkki));
+      }
+      kortit.push($c.html());
     }
-    const result = sections.join('\n');
-    return result;
+
+    let out = '';
+    if (kortit.length) out += '<div class="mk-kortit">\n' + kortit.join('\n') + '\n</div>';
+    if (artikkelit.length) out += '\n<div class="mk-artikkeli mt-5">\n' + artikkelit.join('\n') + '\n</div>';
+    return out;
   });
 
   // Aikataulu: tulevat tapahtumat etusivun tapahtumapalkkiin aikajärjestyksessä.
