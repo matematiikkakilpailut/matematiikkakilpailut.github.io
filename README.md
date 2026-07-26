@@ -15,7 +15,7 @@ Usein päivitettyjä sivuja:
 
 * `seiskat/` seitsemäsluokkalaisten kilpailun sivut (tehtävät ja tulokset
   kaupungeittain) &ndash; kaikkein useimmin muokatut, ks. oma osionsa alla
-* `aikataulu/index.11tydata.yaml` tapahtumakalenteri yaml-muodossa,
+* `_data/aikataulu.yaml` tapahtumakalenteri yaml-muodossa,
   ks. tiedoston oma kommenttiotsikko ja alla oleva osio
 * `uutiset/` uutiset etusivulle ja RSS-syötteeseen, ks. osio alla
 * `valmennus/index.md` kotitehtävät ja valmennuskirjeet. **Huom.**:
@@ -119,7 +119,7 @@ grep -o '<meta property="og:image[^>]*>' _site/uutiset/2026-07-24-IMO-tuloksia.h
 
 ## Aikataulu
 
-`aikataulu/index.11tydata.yaml` on tapahtumakalenteri, joka on kokonaan
+`_data/aikataulu.yaml` on tapahtumakalenteri, joka on kokonaan
 yamlia ja josta aikataulusivu tehdään ohjelmallisesti. Muodon kuvaus ja
 esimerkkirivit ovat tiedoston omassa kommenttiotsikossa sen alussa &ndash;
 lue se ennen muokkaamista.

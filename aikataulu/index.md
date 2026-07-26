@@ -5,19 +5,40 @@ url: /aikataulu/
 description: >-
   Matematiikan olympiavalmennuksen aikataulu: tulevat valmennusviikonloput,
   leirit ja kilpailut.
+scripts: |
+  <script defer src="/js/aikataulu.js"></script>
 ---
-<ul class="list-unstyled">
-{% for a in aikataulu %}
-{%- set ots = a['otsikko'] %}
-<li class="row flex-wrap mb-2 mt-2 {% if ots %}bg-info bg-gradient text-light fw-bolder p-1{% endif %}">
-<div class="col-sm-3">{{ a['pvm'] | markdownify | safe }}</div>
-<div class="col-sm-9">{{ a['tapahtuma'] | markdownify | safe }}</div>
-</li>
-{% endfor %}
+
+{########################################
+ # Tapahtumalista: _data/aikataulu.yaml #
+ ########################################}
+
+{#- Ei yhtään tyhjää riviä tai sisennystä! muuten markdown-it
+    tuottaa <p>-elementtejä -#}
+{%- for a in aikataulu.aikataulu %}
+{%- if a.otsikko %}
+{%- if not loop.first %}
 </ul>
-
-<br>
-
-<br>
-
-Lue myös viikonloppuvalmennusten [käytännön asioista](/kaytanto/).
+{%- endif %}
+<div class="mk-kausi"><h2>{{ a.tapahtuma | markdownify | safe }} {{ a.pvm | markdownify | safe }}</h2></div>
+<ul class="mk-tapahtumat">
+{%- else %}
+{%- if loop.first %}
+<ul class="mk-tapahtumat">
+{%- endif %}
+<li class="{{ a | tapahtumanTila }}"{% if a.alkaa %} data-alkaa="{{ a.alkaa | isoPaiva }}"{% endif %}{% if a.paattyy %} data-paattyy="{{ a.paattyy | isoPaiva }}"{% endif %}>
+<div class="mk-pvm">{{ a.pvm | markdownify | safe }}</div>
+<div>{{ a.tapahtuma | markdownify | safe }}
+{%- if a.ilmo %}
+<div class="mt-2 d-flex flex-wrap align-items-center gap-3">
+<a class="mk-nappi mk-nappi--vihrea" href="{{ a.ilmo }}">{{ a.ilmoteksti | default("Ilmoittaudu Päivölään") }}</a>
+<a class="fw-bold text-decoration-none" href="/kaytanto/paivola/">Käytännön asiat &rarr;</a>
+</div>
+{%- endif %}
+</div>
+</li>
+{%- endif %}
+{%- endfor %}
+{%- if aikataulu.aikataulu.length %}
+</ul>
+{%- endif %}

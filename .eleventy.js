@@ -70,10 +70,10 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addDataExtension("yaml", yaml.load);
   eleventyConfig.addFilter("markdownify", (x) => {
-    return md.renderInline(x);
+    return typeof x === "string" ? md.renderInline(x) : "";
   });
   eleventyConfig.addFilter("markdown", (x) => {
-    return md.render(x);
+    return typeof x === "string" ? md.render(x) : "";
   });
   eleventyConfig.setLibrary("md", md);
 
@@ -106,6 +106,40 @@ export default function (eleventyConfig) {
     }
     const result = sections.join('\n');
     return result;
+  });
+
+  // Aikataulu: tulevat tapahtumat etusivun tapahtumapalkkiin aikajärjestyksessä.
+  // Vaatii tapahtumalta alkaa-kentän (ISO 8601, esim. alkaa: 2026-08-28).
+  const isoPaiva = (d) => new Date(d).toISOString().slice(0, 10);
+  const tanaanHelsinki = () => new Date().toLocaleDateString("sv", { timeZone: "Europe/Helsinki" });
+  const paattymisPaiva = (t) => isoPaiva(t.paattyy ?? t.alkaa);
+  eleventyConfig.addFilter("isoPaiva", (d) => d ? isoPaiva(d) : "");
+  eleventyConfig.addFilter("tulevatTapahtumat", (tapahtumat) => {
+    if (!Array.isArray(tapahtumat)) return [];
+    const tanaan = tanaanHelsinki();
+    return tapahtumat
+      .filter((t) => t && !t.otsikko && t.alkaa && t.etusivulle)
+      .filter((t) => paattymisPaiva(t) >= tanaan)
+      .map((t) => ({
+        ...t,
+        nimi: t.nimi ?? t.tapahtuma,
+        iso: isoPaiva(t.alkaa),
+        isoLoppu: paattymisPaiva(t),
+      }))
+      .sort((a, b) => a.iso.localeCompare(b.iso));
+  });
+
+  // Aikataulurivin tila: "kaynnissa", "seuraava", "mennyt" tai tyhjä.
+  eleventyConfig.addFilter("tapahtumanTila", function (tapahtuma) {
+    if (!tapahtuma || !tapahtuma.alkaa) return "";
+    const tanaan = tanaanHelsinki();
+    if (paattymisPaiva(tapahtuma) < tanaan) return "mennyt";
+    if (isoPaiva(tapahtuma.alkaa) <= tanaan) return "kaynnissa";
+    const kaikki = (this.ctx?.aikataulu?.aikataulu) ?? [];
+    const seuraava = kaikki
+      .filter((t) => t && !t.otsikko && t.alkaa && isoPaiva(t.alkaa) > tanaan)
+      .sort((a, b) => isoPaiva(a.alkaa).localeCompare(isoPaiva(b.alkaa)))[0];
+    return seuraava === tapahtuma ? "seuraava" : "";
   });
 
   ["default", "page", "seiskat", "valmennus"].map((layout) => {

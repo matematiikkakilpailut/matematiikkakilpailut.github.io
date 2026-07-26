@@ -1,10 +1,19 @@
 ---
 # Tapahtumakalenteri. Vain avaimen "aikataulu" alla olevat tapahtumat
-# näkyvät sivulla; "mahdollisia" ja "vanhoja" ovat pelkkää varastoa, josta
+# näkyvät sivulla; "mahdollisia" ja "vanhoja" ovat malleja, josta
 # rivejä voi tarvittaessa siirtää tai kopioida "aikataulu"-listaan.
 #
-# "aikataulu" on lista tapahtumia. Jokaisella rivillä on:
-#   pvm:       vasemmassa sarakkeessa näkyvä päivämäärä tai ajankohta (teksti)
+# Jokaisella rivillä on:
+#   pvm:       vasemmassa sarakkeessa näkyvä päivämäärä tai ajankohta (ihmisluettava)
+#   alkaa:     alkupäivä koneluettavassa muodossa VVVV-KK-PP
+#   paattyy:   valinnainen loppupäivä samassa muodossa
+#   etusivulle: valinnainen; jos "true", tapahtuma voi näkyä etusivun
+#              "Seuraava tapahtuma" -paneelissa.
+#   nimi:      valinnainen lyhyt nimi etusivun paneelin otsikoksi; ilman sitä
+#              otsikkona näytetään koko "tapahtuma"-kuvaus.
+#   ilmo:      mahdollinen ilmoittautumislinkki
+#   ilmoteksti: valinnainen ilmoittautumisnapin teksti; oletus
+#              "Ilmoittaudu Päivölään"
 #   tapahtuma: tapahtuman kuvaus, Markdownia (linkit, korostukset yms.)
 #   otsikko:   valinnainen; jos "true", rivi näytetään väliotsikkona
 #              (esim. vuodenaika), ei tavallisena tapahtumana.
@@ -23,8 +32,8 @@
 #   - Jos arvossa on "[" tai ":", se pitää laittaa lainausmerkkeihin,
 #     esim. pvm: "16.&ndash;17.1." tai koko Markdown-linkin sisältävä arvo.
 #   - ">-" aloittaa monirivisen arvon; jatkorivit on sisennettävä.
-#   - Ilmoittautumisnapin muotoilu:
-#     [Ilmoittaudu tästä!](https://example.com){.btn .btn-primary .btn-sm .align-baseline role="button"}
+#   - Ilmoittautumislinkki annetaan ilmo-kentässä; sivupohja muotoilee siitä
+#     napin (mk-nappi).
 #   - Olemassa olevissa riveissä esiintyvät HTML-entiteetit "&ndash;" (ajatusviiva)
 #     ja "&shy;" (pehmeä tavutusmerkki) ovat vapaaehtoisia typografisia
 #     hienosäätöjä, eivät pakollisia.
@@ -34,29 +43,48 @@ aikataulu:
   otsikko: true
 - tapahtuma: "[Olympia&shy;joukkueen yhteis&shy;pohjois&shy;mainen valmennus&shy;leiri Sorøssa, Tanskassa](https://georgmohr.dk/soroe/)"
   pvm: "5.&ndash;10.7."
+  alkaa: 2026-07-05
+  paattyy: 2026-07-10
 - pvm: "10.&ndash;20.7."
   tapahtuma: >-
     [Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr>](https://www.imo2026.com)
     Shanghaissa, Kiinassa
+  alkaa: 2026-07-10
+  paattyy: 2026-07-20
 - pvm: "2026"
   tapahtuma: "Syksy"
   otsikko: true
 - pvm: "28.&ndash;30.8. (viikko 35)"
+  alkaa: 2026-08-28
+  paattyy: 2026-08-30
+  etusivulle: true
   tapahtuma: >-
     Valmennusviikonloppu Päivölässä. Baltian tie -joukkueeseen pyrkivien kannattaa osallistua.
 - pvm: "22.10.&ndash;6.11."
+  alkaa: 2026-10-22
+  paattyy: 2026-11-06
   tapahtuma: >-
     [MAOLin matematiikkakilpailun alkukilpailu, peruskoulu](https://maol.fi/neljan-tieteen-kisat/)
-- pvm: "6.&ndash;8.11. (viikko 45)"
-  tapahtuma: >-
-    Valmennusviikonloppu Päivölässä.
 - pvm: "27.10."
+  alkaa: 2026-10-27
+  etusivulle: true
   tapahtuma: >-
     [MAOLin matematiikkakilpailun alkukilpailu, lukio](https://maol.fi/neljan-tieteen-kisat/)
+- pvm: "6.&ndash;8.11. (viikko 45)"
+  alkaa: 2026-11-06
+  paattyy: 2026-11-08
+  etusivulle: true
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä.
 - pvm: "12.&ndash;16.11."
+  alkaa: 2026-11-12
+  paattyy: 2026-11-16
   tapahtuma: >-
     Baltian tie -joukkuekilpailu Vilnassa, Liettuassa.
 - pvm: "12.&ndash;13.12. (viikko 50)"
+  alkaa: 2026-12-12
+  paattyy: 2026-12-13
+  etusivulle: true
   tapahtuma: >-
     Valmennusviikonloppu Päivölässä.
 
@@ -65,11 +93,13 @@ aikataulu:
 # joten esim. "mahdollisia" tai "vanhoja" eivät näy vaan ovat mukana vain jotta
 # niitä voi tarvittaessa siirtää tai kopioida "aikataulu"-listaan
 
-# ilmoittautumisnapin muotoilut: [Ilmoittaudu tästä!](https://example.com){.btn .btn-primary .btn-sm .align-baseline role="button"}
-
 mahdollisia:
 - pvm: "noin joulukuussa"
   tapahtuma: "[European Mathematical Cup](https://emc.mnm.hr)"
+- pvm: "26.2.&ndash;2.3."
+  tapahtuma: >-
+    [Romanian Master of Mathematics Bukarestissa](https://rmms.lbi.ro/rmm2024/index.php?id=home).
+    Pohjois&shy;maista osallistuu yhteis&shy;joukkue.
 
 vanhoja:
 - pvm: "2026"
@@ -114,7 +144,7 @@ vanhoja:
 - pvm: "22.&ndash;24.5. (viikko 21)"
   tapahtuma: >-
     Valmennus&shy;viikon&shy;loppu Päivölässä erityisesti nuoremmille oppilaille.
-    [Ilmoittaudu tästä!](https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2026-vk21){.btn .btn-primary .btn-sm .align-baseline role="button"}
+    [Ilmoittaudu tästä!](https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2026-vk21){.mk-nappi .mk-nappi--vihrea}
 - pvm: "2025"
   tapahtuma: "Kevät ja kesä"
   otsikko: true
@@ -146,7 +176,7 @@ vanhoja:
     [Euroopan tyttöjen matematiikkaolympialaiset EGMO](https://egmo2025.com/) Pristinassa, Kosovossa.
 - pvm: "23.&ndash;25.5. (viikko 21)"
   tapahtuma: >-
-    Valmennusviikonloppu Päivölässä. [Ilmoittaudu tästä!](https://paivola.fi/kurssit/vk-matematiikkakilpailuvalmennus){.btn .btn-primary .btn-sm .align-baseline role="button"}
+    Valmennusviikonloppu Päivölässä. [Ilmoittaudu tästä!](https://paivola.fi/kurssit/vk-matematiikkakilpailuvalmennus){.mk-nappi .mk-nappi--vihrea}
 - pvm: "6.&ndash;11.7."
   tapahtuma: >-
     Yhteispohjoismainen valmennusleiri IMO-joukkueelle Tanskan Sorøssä.
@@ -387,21 +417,3 @@ vanhoja:
   pvm: "6.&ndash;12.4."
 - pvm: "n. 7.&ndash;9.4. (viikko 14)"
   tapahtuma: "~~Valmennus&shy;viikon&shy;vaihde Päivölässä tai etänä~~ PERUUTETTU"
-
-  
-scripts_old: >-
-    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-    <script type="text/javascript">
-        const orderComplete = function() {
-            const btn = document.getElementById('eventbrite-widget-modal-trigger-263580976797')
-            btn.disabled = true;
-            btn.innerHTML = 'olet ilmoittautunut';
-        }
-        window.EBWidgets.createWidget({
-            widgetType: 'checkout',
-            eventId: '263580976797',
-            modal: true,
-            modalTriggerElementId: 'eventbrite-widget-modal-trigger-263580976797',
-            onOrderComplete: orderComplete
-        });
-    </script>
