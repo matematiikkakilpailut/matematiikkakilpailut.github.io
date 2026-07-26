@@ -150,6 +150,68 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 [data-teema="dark"] .light-element { display: none; }
 [data-teema="light"] .dark-element { display: none; }
 
+/* ---------- typografia ---------- */
+
+h1, h2, h3, h4, h5, h6 { color: var(--mk-ink); font-weight: 700; text-wrap: balance; }
+h1 { letter-spacing: -.02em; }
+main p, main li { text-wrap: pretty; }
+
+main, .mk-navigaatio, .footer { hyphens: manual; }
+
+.mk-sivu-otsikko {
+  container-type: inline-size;
+
+  h1 {
+    font-size: clamp(1.875rem, 3.9cqi, 2.75rem);
+    line-height: 1.12;
+    text-wrap: balance;
+  }
+}
+.mk-sivu-otsikko--kapea h1 { max-width: 24ch; }
+.mk-ingressi {
+  font-size: 1.125rem;
+  line-height: 1.55;
+  max-width: var(--mk-palsta);
+  color: var(--mk-teksti);
+}
+
+.mk-ylaotsikko, .mk-kausi h2, .mk-aikataulu caption, .mk-aikataulu th, .footer h2 {
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--mk-vaimea);
+}
+
+.mk-ylaotsikko {
+  line-height: 1;
+  color: var(--mk-sininen-teksti);
+  margin-bottom: .25rem;
+}
+.mk-ylaotsikko--vaimea { color: var(--mk-vaimea); }
+.mk-ylaotsikko--vihrea { color: var(--mk-vihrea-teksti); }
+.mk-ylaotsikko--okra   { color: var(--mk-okra-teksti); }
+
+.mk-kortti > h2.mk-ylaotsikko,
+.mk-artikkeli > h2.mk-ylaotsikko {
+  font-size: .75rem;
+  line-height: 1;
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.mk-osasto {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 2px solid var(--mk-ink);
+  padding-bottom: .5rem;
+  margin-bottom: 1rem;
+
+  h2 { font-size: 1.375rem; margin: 0; }
+}
+
 /* ---------- navigaatio ---------- */
 
 .mk-navigaatio {

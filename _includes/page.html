@@ -1,14 +1,10 @@
 ---
 layout: default
 ---
-<header class="display-4 pt-3 pb-3 mt-3 mb-1">
+<header class="mk-sivu-otsikko pt-4 pb-3">
   <h1>{{ title }}</h1>
 </header>
-<div class="row">
-  <div class="col-xs-12">
-    {{ content | safe }}
-  </div>
-</div>
+{{ content | safe }}
 {% if scripts %}
 {{ scripts | safe }}
 {% endif %}
