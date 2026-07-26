@@ -6,7 +6,26 @@ import markdownItAttrs from "markdown-it-attrs";
 import rss from "@11ty/eleventy-plugin-rss";
 import * as cheerio from 'cheerio';
 import { readFileSync } from "node:fs";
+import { createHash } from "node:crypto";
+import { minify } from "csso";
+import browserslist from 'browserslist';
+import { transform, browserslistToTargets } from 'lightningcss';
 
+let targets = browserslistToTargets(browserslist('defaults'));
+
+const tyyliMin = () => {
+  const { code } = transform({
+    filename: 'css/tyyli.css',
+    code: readFileSync("css/tyyli.css"),
+    targets,
+    minify: true,
+    sourceMap: false,
+  });
+  return {
+    css: code,
+    nimi: `tyyli.${createHash("md5").update(code).digest("hex").slice(0, 8)}.min.css`
+  };
+};
 
 const md = markdownIt({
   html: true,
