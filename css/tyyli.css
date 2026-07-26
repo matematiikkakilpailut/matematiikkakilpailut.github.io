@@ -311,6 +311,55 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   .mk-teemavalikko { display: none !important; }
 }
 
+/* ---------- UKK-haitari (etusivu) ---------- */
+
+.mk-ukk summary {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  cursor: pointer;
+  list-style: none;
+
+  &::-webkit-details-marker { display: none; }
+  h3 { font-size: 1rem; line-height: 1.4; margin: 0; }
+  &:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+
+  &::after {
+    content: "";
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    background: currentColor;
+    mask: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") center / contain no-repeat;
+  }
+}
+
+.mk-ukk-kohta {
+  border-bottom: 1px solid var(--mk-viiva);
+
+  &[open] > summary {
+    color: var(--mk-ink);
+    background: var(--mk-pinta);
+
+    h3 { color: inherit; }
+    &::after { transform: rotate(-180deg); }
+  }
+}
+.mk-ukk-vastaus { padding: 1rem 1.25rem; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .mk-ukk { interpolate-size: allow-keywords; }
+  .mk-ukk summary::after { transition: transform .2s ease; }
+  .mk-ukk-kohta::details-content {
+    block-size: 0;
+    overflow-y: clip;
+    transition: block-size .3s, content-visibility .3s;
+    transition-behavior: allow-discrete;
+  }
+  .mk-ukk-kohta[open]::details-content { block-size: auto; }
+}
+
 /* ---------- yksittäiset elementit ---------- */
 
 .icon-link { display: inline-flex; align-items: center; gap: .375rem; text-underline-offset: .25em; }
