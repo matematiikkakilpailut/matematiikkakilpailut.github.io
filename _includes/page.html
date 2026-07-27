@@ -4,7 +4,16 @@ layout: default
 <header class="mk-sivu-otsikko pt-4 pb-3">
   <h1>{{ title }}</h1>
 </header>
+{% if highlightedContent %}
+<div class="row gx-lg-5">
+  {% include "nosto.html" %}
+  <div class="col-lg-8">
+    {{ content | safe }}
+  </div>
+</div>
+{% else %}
 {{ content | safe }}
+{% endif %}
 {% if scripts %}
 {{ scripts | safe }}
 {% endif %}

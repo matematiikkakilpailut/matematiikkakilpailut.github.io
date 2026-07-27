@@ -5,6 +5,10 @@ url: /aikataulu/
 description: >-
   Matematiikan olympiavalmennuksen aikataulu: tulevat valmennusviikonloput,
   leirit ja kilpailut.
+highlightedYlaotsikko: Lue myös
+highlightedContent: >-
+  Viikonloppu&shy;valmennusten [käytännön asioista](/kaytanto/paivola/)
+  ja muista [valmennus&shy;tapahtumista](/kaytanto/).
 scripts: |
   <script defer src="/js/aikataulu.js"></script>
 ---

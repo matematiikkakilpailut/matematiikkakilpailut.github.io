@@ -7,19 +7,7 @@ layout: default
 </header>
 
 <div class="row gx-lg-5">
-  {% if highlightedContent %}
-  <div class="col-lg-4 order-lg-last">
-    <aside class="mk-sivupalkki">
-      <div class="mk-kortti mk-nosto">
-        {% if highlightedYlaotsikko %}<div class="mk-ylaotsikko">{{ highlightedYlaotsikko }}</div>{% endif %}
-        {% if highlightedTitle %}<h2>{{ highlightedTitle }}</h2>{% endif %}
-        <div class="highlighted-content">
-          {{ highlightedContent | markdown | safe }}
-        </div>
-      </div>
-    </aside>
-  </div>
-  {% endif %}
+  {% if highlightedContent %}{% include "nosto.html" %}{% endif %}
   <div class="col-lg-8 mk-artikkeli">
     {{ content | safe }}
   </div>
