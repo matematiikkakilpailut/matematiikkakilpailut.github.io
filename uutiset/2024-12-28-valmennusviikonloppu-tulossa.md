@@ -12,4 +12,6 @@ matematiikkakilpailuun ja EGMOon pyrkivien kannattaa osallistua.
 
 <a
 href="https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2025-vk2">Ilmoittaudu Päivölään</a> 6.1. mennessä;
+<!--tiivistelma-->
+
 <a href="/aikataulu/">Valmennuksen aikataulu</a>

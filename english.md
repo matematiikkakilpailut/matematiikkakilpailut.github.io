@@ -38,7 +38,8 @@ possible to have training sessions in Swedish as well.
 
 ## Training camps
 
-[**→ Main article in Finnish**](/kaytanto/)
+[**→ Main article in Finnish**](/kaytanto/) —
+[practical details](/kaytanto/paivola/)
 
 We arrange six weekend training camps each year
 at the [Päivölä institute](https://www.paivola.fi);

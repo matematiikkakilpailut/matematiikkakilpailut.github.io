@@ -1,64 +1,61 @@
-<nav data-bs-theme="dark" class="navbar navbar-expand-md bg-primary" aria-label="Päävalikko">
-  <div class="container-fluid flex-flow align-items-start">
-    <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbar-collapse" aria-controls="navbar-collapse"
-            aria-expanded="false" aria-label="Avaa tai sulje valikko">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand ps-sm-4" href="/">Matematiikkavalmennus</a>
-    <div class="d-flex order-0 order-md-last ms-md-auto" id="theme-toggle" title="Taustaväri">
-      <div class="dropdown">
-        <button class="btn btn-link nav-link dropdown-toggle
-                       py-2 pt-md-2 px-1 px-lg-2
-                       d-flex align-items-center text-light"
-                type="button"
-                id="bd-theme"
-                data-bs-toggle="dropdown"
-                aria-expanded="false">
-          <svg class="bi theme-icon-active" width="16" height="16" fill="currentColor" aria-hidden="true" focusable="false">
-            <use href="/kuvat/sprite3.svg#sun-fill"></use>
-          </svg>
-          <span class="d-none" id="bd-theme-text">Taustaväri</span>
-        </button>
-        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme">
-          <li>
-            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
-              <svg class="bi me-2" width="16" height="16" fill="currentColor" aria-hidden="true" focusable="false">
-                <use href="/kuvat/sprite3.svg#sun-fill"></use>
-              </svg>
-              Vaalea
-            </button>
-          </li>
-          <li>
-            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
-              <svg class="bi me-2" width="16" height="16" fill="currentColor" aria-hidden="true" focusable="false">
-                <use href="/kuvat/sprite3.svg#moon-stars-fill"></use>
-              </svg>
-              Tumma
-            </button>
-          </li>
-          <li>
-            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto">
-              <svg class="bi me-2" width="16" height="16" fill="currentColor" aria-hidden="true" focusable="false">
-                <use href="/kuvat/sprite3.svg#circle-half"></use>
-              </svg>
-              Automaattinen
-            </button>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="collapse navbar-collapse flex-column align-items-start" id="navbar-collapse">
-      <div class="row flex-grow-1">
-        <div class="col-12 flex-grow-1">
-          <ul class="navbar-nav mb-2 mb-md-0">
-            <li class="nav-item"><a class="nav-link {% if page.url == "/kilpailut/" %}active{% endif %}" {% if page.url == "/kilpailut/" %}aria-current="page"{% endif %} href="/kilpailut/">Kilpailut</a></li>
-            <li class="nav-item"><a class="nav-link {% if page.url == "/aikataulu/" %}active{% endif %}" {% if page.url == "/aikataulu/" %}aria-current="page"{% endif %} href="/aikataulu/">Aikataulu</a></li>
-           <li class="nav-item"><a class="nav-link {% if page.url == "/valmennus/" %}active{% endif %}" {% if page.url == "/valmennus/" %}aria-current="page"{% endif %} href="/valmennus/">Kotitehtävät</a></li>
-            <li class="nav-item"><a class="nav-link {% if page.url == "/aiheet/" %}active{% endif %}" {% if page.url == "/aiheet/" %}aria-current="page"{% endif %} href="/aiheet/">Materiaalit</a></li>
-          </ul>
-        </div>
-      </div>
+{% set navilinkit = [
+  ['/kilpailut/', 'Kilpailut'],
+  ['/aikataulu/', 'Aikataulu'],
+  ['/aiheet/', 'Materiaalit'],
+  ['/kaytanto/', 'Tapahtumat']
+] %}
+<nav data-teema="dark" class="mk-navigaatio" aria-label="Päävalikko">
+  <div class="mk-navigaatio-rivi">
+    <details class="mk-valikko">
+      <summary aria-label="Avaa tai sulje valikko"></summary>
+      <ul>
+        {%- for linkki in navilinkit %}
+        <li><a {% if page.url == linkki[0] %}class="active" aria-current="page" {% endif %}href="{{ linkki[0] }}">{{ linkki[1] }}</a></li>
+        {%- endfor %}
+      </ul>
+    </details>
+    <a class="mk-logo" href="/">
+      <img src="/kuvat/icon.svg" width="34" height="34" alt="" aria-hidden="true">
+      <span>Matematiikka&shy;valmennus</span>
+    </a>
+    <ul class="mk-navi-lista">
+      {%- for linkki in navilinkit %}
+      <li><a {% if page.url == linkki[0] %}class="active" aria-current="page" {% endif %}href="{{ linkki[0] }}">{{ linkki[1] }}</a></li>
+      {%- endfor %}
+    </ul>
+    <div class="mk-teemavalikko" id="theme-toggle" title="Taustaväri">
+      <button type="button" id="bd-theme" popovertarget="teema-valikko">
+        <svg class="bi theme-icon-active" width="16" height="16" fill="currentColor" aria-hidden="true" focusable="false">
+          <use href="/kuvat/sprite3.svg#sun-fill"></use>
+        </svg>
+        <span class="d-none" id="bd-theme-text">Taustaväri</span>
+      </button>
+      <ul class="mk-pudotusvalikko" id="teema-valikko" popover aria-labelledby="bd-theme">
+        <li>
+          <button type="button" data-teema-arvo="light" popovertarget="teema-valikko" popovertargetaction="hide">
+            <svg class="bi" width="16" height="16" fill="currentColor" aria-hidden="true" focusable="false">
+              <use href="/kuvat/sprite3.svg#sun-fill"></use>
+            </svg>
+            Vaalea
+          </button>
+        </li>
+        <li>
+          <button type="button" data-teema-arvo="dark" popovertarget="teema-valikko" popovertargetaction="hide">
+            <svg class="bi" width="16" height="16" fill="currentColor" aria-hidden="true" focusable="false">
+              <use href="/kuvat/sprite3.svg#moon-stars-fill"></use>
+            </svg>
+            Tumma
+          </button>
+        </li>
+        <li>
+          <button type="button" data-teema-arvo="auto" popovertarget="teema-valikko" popovertargetaction="hide">
+            <svg class="bi" width="16" height="16" fill="currentColor" aria-hidden="true" focusable="false">
+              <use href="/kuvat/sprite3.svg#circle-half"></use>
+            </svg>
+            Automaattinen
+          </button>
+        </li>
+      </ul>
     </div>
   </div>
 </nav>

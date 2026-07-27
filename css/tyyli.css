@@ -1,0 +1,970 @@
+/* ---------- fontit ---------- */
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: optional;
+  src: local('Lato Regular'), local('Lato-Regular'), url(/font/Lato-Regular.subset.woff2) format('woff2'), url(/font/Lato-Regular.subset.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  font-display: optional;
+  src: local('Lato Italic'), local('Lato-Italic'), url(/font/Lato-Italic.subset.woff2) format('woff2'), url(/font/Lato-Italic.subset.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: optional;
+  src: local('Lato Bold'), local('Lato-Bold'), url(/font/Lato-Bold.subset.woff2) format('woff2'), url(/font/Lato-Bold.subset.woff) format('woff');
+}
+
+:root {
+  --mk-fontit: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  --mk-tausta: #fff;
+  --mk-etuala: #212529;
+  --mk-linkki: #177253;
+  --mk-linkki-hover: #13967d;
+  --mk-navi-korkeus: 4.75rem;  /* teemavalikon paneeli asemoituu tämän alle */
+
+  /* perusvärit */
+  --mk-navy: #2d3e50;          /* navigaatio ja logo (logon taustaväri) */
+  --mk-navy-tumma: #24313f;    /* navyn hover; ei seuraa teemaa, ks. .mk-nappi */
+  --mk-ink: #1b2733;           /* otsikot */
+  --mk-teksti: #4a5560;        /* leipäteksti */
+  --mk-vaimea: #6b7883;        /* metatieto, yläotsikot */
+
+  /* logon aksentit — vaalea versio (pinnoille) ja tumma versio (tekstille) */
+  --mk-sininen: #9ec7e8;
+  --mk-vihrea: #a9d6a1;
+  --mk-okra: #ecc98e;
+  --mk-paperi: #f2f4ef;
+  --mk-sininen-teksti: #1f5c86;
+  --mk-vihrea-teksti: #2f6b3d;
+  --mk-okra-teksti: #8a5a12;
+  --mk-sininen-pinta: #e6f0f8;
+  --mk-vihrea-pinta: #e8f2e6;
+  --mk-okra-pinta: #fbf1de;
+
+  /* pinnat ja viivat */
+  --mk-pinta: #f4f6f7;
+  --mk-viiva: #dfe4e8;
+  --mk-viiva-ohut: #eef1f3;
+
+  /* mitat */
+  --mk-radius: 10px;
+  --mk-radius-s: 6px;
+  --mk-kortti-sisennys: 1.5rem;
+  --mk-palsta: 62ch;
+}
+
+[data-teema="dark"] {
+  --mk-tausta: #212529;
+  --mk-etuala: #dee2e6;
+  --mk-linkki: #788591;
+  --mk-linkki-hover: #99a2ab;
+  --mk-ink: #f2f4ef;
+  --mk-teksti: #c3cbd2;
+  --mk-vaimea: #9aa6b0;
+  --mk-sininen-teksti: var(--mk-sininen);
+  --mk-vihrea-teksti: var(--mk-vihrea);
+  --mk-okra-teksti: var(--mk-okra);
+  --mk-sininen-pinta: rgba(158, 199, 232, .12);
+  --mk-vihrea-pinta: rgba(169, 214, 161, .12);
+  --mk-okra-pinta: rgba(236, 201, 142, .12);
+  --mk-pinta: #2b3035;
+  --mk-viiva: #3a4149;
+  --mk-viiva-ohut: #343a40;
+}
+
+/* ---------- pohja ---------- */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: var(--mk-fontit);
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--mk-teksti);
+  background: var(--mk-tausta);
+  -webkit-text-size-adjust: 100%;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+body > main { flex: 1; }
+
+h1, h2, h3, h4, h5, h6 { margin: 0 0 .5rem; line-height: 1.2; }
+h1 { font-size: calc(1.425rem + 2.1vw); }
+h2 { font-size: calc(1.375rem + 1.5vw); }
+h3 { font-size: calc(1.325rem + .9vw); }
+h4 { font-size: calc(1.275rem + .3vw); }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+@media (min-width: 1200px) {
+  h1 { font-size: 3rem; }
+  h2 { font-size: 2.5rem; }
+  h3 { font-size: 2rem; }
+  h4 { font-size: 1.5rem; }
+}
+
+p { margin: 0 0 1rem; }
+ul, ol { margin: 0 0 1rem; padding-left: 2rem; }
+ul ul, ul ol, ol ul, ol ol { margin-bottom: 0; }
+dl { margin: 0 0 1rem; }
+dt { font-weight: 700; }
+dd { margin: 0 0 .5rem; }
+blockquote { margin: 0 0 1rem; }
+figure { margin: 0 0 1rem; }
+strong, b { font-weight: bolder; }
+abbr[title] { text-decoration: underline dotted; cursor: help; }
+hr { margin: 1rem 0; border: 0; border-top: 1px solid var(--mk-viiva); opacity: .25; }
+img, svg { vertical-align: middle; }
+table { border-collapse: collapse; }
+caption { caption-side: bottom; }
+button, input, select, textarea { margin: 0; font: inherit; }
+button { cursor: pointer; }
+small { font-size: .875em; }
+
+a { color: var(--mk-linkki); text-decoration: underline; }
+a:hover { color: var(--mk-linkki-hover); }
+
+a:focus-visible, button:focus-visible, summary:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root { scroll-behavior: smooth; }
+}
+
+/* OPH-logon versiot eri teemoille */
+[data-teema="dark"] .light-element { display: none; }
+[data-teema="light"] .dark-element { display: none; }
+
+/* ---------- typografia ---------- */
+
+h1, h2, h3, h4, h5, h6 { color: var(--mk-ink); font-weight: 700; text-wrap: balance; }
+h1 { letter-spacing: -.02em; }
+main p, main li { text-wrap: pretty; }
+
+main, .mk-navigaatio, .footer { hyphens: manual; }
+
+.mk-sivu-otsikko {
+  container-type: inline-size;
+
+  h1 {
+    font-size: clamp(1.875rem, 3.9cqi, 2.75rem);
+    line-height: 1.12;
+    text-wrap: balance;
+  }
+}
+.mk-sivu-otsikko--kapea h1 { max-width: 24ch; }
+.mk-ingressi {
+  font-size: 1.125rem;
+  line-height: 1.55;
+  max-width: var(--mk-palsta);
+  color: var(--mk-teksti);
+}
+
+.mk-ylaotsikko, .mk-kausi h2, .mk-aikataulu caption, .mk-aikataulu th, .footer h2 {
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--mk-vaimea);
+}
+
+.mk-ylaotsikko {
+  line-height: 1;
+  color: var(--mk-sininen-teksti);
+  margin-bottom: .25rem;
+}
+.mk-ylaotsikko--vaimea { color: var(--mk-vaimea); }
+.mk-ylaotsikko--vihrea { color: var(--mk-vihrea-teksti); }
+.mk-ylaotsikko--okra   { color: var(--mk-okra-teksti); }
+
+.mk-kortti > h2.mk-ylaotsikko,
+.mk-artikkeli > h2.mk-ylaotsikko {
+  font-size: .75rem;
+  line-height: 1;
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.mk-osasto {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 2px solid var(--mk-ink);
+  padding-bottom: .5rem;
+  margin-bottom: 1rem;
+
+  h2 { font-size: 1.375rem; margin: 0; }
+}
+
+/* ---------- navigaatio ---------- */
+
+.mk-navigaatio {
+  position: relative;
+  background-color: var(--mk-navy);
+
+  li a {
+    display: inline-block;
+    color: var(--mk-paperi);
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: var(--mk-radius-s);
+    padding: .625rem .875rem;
+
+    &:hover { color: var(--mk-sininen); }
+    &.active { background: rgba(242, 244, 239, .12); color: var(--mk-paperi); }
+  }
+}
+
+.mk-navigaatio-rivi {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .5rem;
+  min-height: var(--mk-navi-korkeus);
+  padding: .5rem .75rem;
+}
+
+.mk-logo {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  font-weight: 700;
+  font-size: 1.1875rem;
+  text-decoration: none;
+
+  &, &:hover { color: var(--mk-sininen); }
+  img { display: block; width: 34px; height: 34px; border-radius: var(--mk-radius-s); }
+  @media (min-width: 576px) { margin-left: 1.5rem; }
+}
+
+.mk-navi-lista { display: none; list-style: none; margin: 0; padding: 0; }
+@media (min-width: 768px) {
+  .mk-navi-lista { display: flex; flex-wrap: wrap; }
+  .mk-valikko { display: none; }
+}
+
+.mk-valikko {
+  summary {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: .4375rem .75rem;
+    border: 1px solid rgba(255, 255, 255, .1);
+    border-radius: .375rem;
+    color: rgba(255, 255, 255, .85);
+    cursor: pointer;
+
+    &::-webkit-details-marker { display: none; }
+    &::before {
+      content: "";
+      display: block;
+      width: 1.875rem;
+      height: 1.875rem;
+      background: currentColor;
+      mask: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23000' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") center / 100% no-repeat;
+    }
+  }
+
+  ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    margin: 0;
+    padding: .25rem .75rem 1rem;
+    list-style: none;
+    background: var(--mk-navy);
+
+    a { display: block; }
+  }
+}
+
+
+.mk-teemavalikko {
+  margin-left: auto;
+
+  > button {
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+    border: 0;
+    background: none;
+    color: var(--mk-paperi);
+    cursor: pointer;
+  }
+}
+
+/* ---------- leivanmurut ---------- */
+
+.mk-leivanmurut {
+  background: var(--mk-pinta);
+
+  ol {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0 .25rem;
+    list-style: none;
+    margin: 0;
+    padding: .375rem .75rem;
+    font-size: .875em;
+
+    @media (min-width: 576px) { padding-left: 1.5rem; }
+  }
+
+  a {
+    color: var(--mk-etuala);
+    text-decoration: none;
+    &:hover { text-decoration: underline; }
+  }
+
+  li[aria-current] { color: var(--mk-etuala); }
+}
+
+/* ---------- teemavalikko ---------- */
+
+.mk-pudotusvalikko {
+  position: fixed;
+  inset: auto .5rem auto auto;
+  top: calc(var(--mk-navi-korkeus) + .25rem);
+  margin: 0;
+  min-width: 10rem;
+  padding: .5rem 0;
+  list-style: none;
+  background: var(--mk-tausta);
+  border: 1px solid var(--mk-viiva);
+  border-radius: .375rem;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+
+  button {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    width: 100%;
+    padding: .25rem 1rem;
+    border: 0;
+    background: none;
+    color: var(--mk-teksti);
+    font: inherit;
+    text-align: left;
+    cursor: pointer;
+
+    &:hover, &.active { background: var(--mk-navy); color: var(--mk-paperi); }
+  }
+}
+@supports not selector(:popover-open) {
+  .mk-teemavalikko { display: none !important; }
+}
+
+/* ---------- kortit ---------- */
+
+.mk-kortit { display: grid; grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr)); gap: 1.25rem; }
+@media (min-width: 1200px) { .mk-kortit { grid-template-columns: repeat(3, 1fr); } }
+.mk-kortti--laaja { grid-column: span 2; }
+@media (max-width: 767.98px) { .mk-kortti--laaja { grid-column: auto; } }
+@media (max-width: 1199.98px) {
+  .mk-kortti--uutinen { grid-column: 1 / -1; }
+}
+
+.mk-kortti {
+  display: flex;
+  flex-direction: column;
+  gap: .625rem;
+  background: var(--mk-tausta);
+  border: 1px solid var(--mk-viiva);
+  border-radius: var(--mk-radius);
+  padding: var(--mk-kortti-sisennys);
+  box-shadow: none;
+
+  > h2, > h3 {
+    font-size: 1.3125rem;
+    line-height: 1.3;
+    margin: 0;
+
+    > a {
+      color: inherit;
+      text-decoration: none;
+      &:hover { text-decoration: underline; }
+    }
+  }
+
+  p { font-size: .96875rem; line-height: 1.6; margin: 0; }
+  .mk-kortti-teksti { flex: 1; }
+}
+
+.mk-kortti-jalki {
+  display: flex;
+  gap: 1.125rem;
+  border-top: 1px solid var(--mk-viiva-ohut);
+  padding-top: .875rem;
+  margin-top: .25rem;
+
+  a {
+    font-weight: 700;
+    font-size: .875rem;
+    text-decoration: none;
+
+    &::after { content: " \2192"; }
+    &:hover { text-decoration: underline; }
+  }
+}
+
+.mk-nosto { border-top: 3px solid var(--mk-sininen); }
+
+.mk-kortti--nosto {
+  background: var(--mk-sininen-pinta);
+  box-shadow: inset 0 3px 0 var(--mk-sininen-teksti);
+}
+.mk-kortti--nosto .mk-kortti-jalki { border-top-color: var(--mk-sininen); }
+
+.mk-kortti--uutinen {
+  background: var(--mk-okra-pinta);
+  box-shadow: inset 0 3px 0 var(--mk-okra-teksti);
+}
+.mk-kortti--uutinen .mk-kortti-jalki { border-top-color: var(--mk-okra); }
+
+/* ---------- listat: uutiset, tehtäväsarjat, materiaalit ---------- */
+
+.mk-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  > li {
+    display: grid;
+    grid-template-columns: 1fr 7.5rem;
+    gap: 1.25rem;
+    padding: 1.25rem 0;
+    border-bottom: 1px solid var(--mk-viiva-ohut);
+    align-items: start;
+
+    &:last-child { border-bottom: 0; }
+  }
+
+  .mk-pvm { font-size: .8125rem; font-weight: 700; color: var(--mk-vaimea); padding-top: .25rem; }
+
+  h3 {
+    font-size: 1.25rem;
+    line-height: 1.3;
+    margin: 0 0 .4375rem;
+
+    .mk-pvm { font-weight: 400; white-space: nowrap; padding-top: 0; }
+    a {
+      color: inherit;
+      text-decoration: none;
+      &:hover { text-decoration: underline; }
+    }
+  }
+
+  p { margin: 0; }
+}
+.mk-lista--arkisto > li { grid-template-columns: 6rem 1fr 9rem; }
+/* Yhden palstan asettelu kumoaa myös arkiston, joten se on jätettävä tämän
+   jälkeen: sama tarkkuus, järjestys ratkaisee. */
+@media (max-width: 767.98px) {
+  .mk-lista > li { grid-template-columns: 1fr; gap: .5rem; }
+}
+
+.mk-pikkukuva {
+  display: block;
+  border-radius: 8px;
+  overflow: hidden;
+  aspect-ratio: 16 / 11;
+  background: repeating-linear-gradient(135deg, var(--mk-viiva-ohut), var(--mk-viiva-ohut) 6px, var(--mk-viiva) 6px, var(--mk-viiva) 12px);
+}
+.mk-pikkukuva img { display: block; width: 100%; height: 100%; object-fit: cover; }
+
+/* ---------- kuvat artikkeleissa ---------- */
+
+main figure { margin-inline: 0; }
+main figure img {
+  max-width: 100%;
+  height: auto;
+  max-height: 70vh;
+  border-radius: 8px;
+}
+main figcaption {
+  text-align: left;
+  font-style: normal;
+  font-size: .84375rem;
+  line-height: 1.5;
+  color: var(--mk-vaimea);
+  margin-top: .5rem;
+}
+
+/* ---------- aikataulu ---------- */
+
+.mk-kausi {
+  display: flex;
+  align-items: center;
+  gap: .875rem;
+  margin: 1.25rem 0 .25rem;
+
+  h2 { margin: 0; }
+  &::after { content: ""; flex: 1; height: 1px; background: var(--mk-viiva); }
+}
+
+.mk-tapahtumat {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  &:last-of-type { margin-bottom: 1.5rem; }
+
+  > li {
+    display: grid;
+    grid-template-columns: 9.375rem 1fr;
+    gap: 1.5rem;
+    padding: .5rem 0;
+    border-bottom: 1px solid var(--mk-viiva-ohut);
+
+    @media (max-width: 575.98px) { grid-template-columns: 1fr; gap: .125rem; }
+  }
+
+  .mk-pvm { font-size: .9375rem; font-weight: 700; color: var(--mk-ink); }
+  .mennyt { opacity: .55; }
+
+  .seuraava, .kaynnissa {
+    border-left: 3px solid var(--mk-vihrea);
+    background: var(--mk-vihrea-pinta);
+    padding: .75rem 1.25rem .75rem 1.3125rem;
+    margin-left: -1.5rem;
+
+    @media (max-width: 575.98px) { margin-left: 0; }
+  }
+}
+
+.mk-seuraava {
+  border-left: 3px solid var(--mk-vihrea);
+  padding: .125rem 0 .125rem 1.375rem;
+  display: flex;
+  flex-direction: column;
+  gap: .625rem;
+
+  .mk-otsikko { font-size: 1.5rem; font-weight: 700; line-height: 1.25; color: var(--mk-ink); }
+}
+
+/* ---------- UKK-haitari (etusivu) ---------- */
+
+.mk-ukk summary {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  cursor: pointer;
+  list-style: none;
+
+  &::-webkit-details-marker { display: none; }
+  h3 { font-size: 1rem; line-height: 1.4; margin: 0; }
+  &:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+
+  &::after {
+    content: "";
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    background: currentColor;
+    mask: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") center / contain no-repeat;
+  }
+}
+
+.mk-ukk-kohta {
+  border-bottom: 1px solid var(--mk-viiva);
+
+  &[open] > summary {
+    color: var(--mk-ink);
+    background: var(--mk-pinta);
+
+    h3 { color: inherit; }
+    &::after { transform: rotate(-180deg); }
+  }
+}
+.mk-ukk-vastaus { padding: 1rem 1.25rem; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .mk-ukk { interpolate-size: allow-keywords; }
+  .mk-ukk summary::after { transition: transform .2s ease; }
+  .mk-ukk-kohta::details-content {
+    block-size: 0;
+    overflow-y: clip;
+    transition: block-size .3s, content-visibility .3s;
+    transition-behavior: allow-discrete;
+  }
+  .mk-ukk-kohta[open]::details-content { block-size: auto; }
+}
+
+/* ---------- artikkelisivut (materiaalit, kotitehtävät, käytäntö) ---------- */
+
+.mk-artikkeli {
+  > h2 {
+    font-size: 1.5rem;
+    line-height: 1.25;
+    border-bottom: 2px solid var(--mk-ink);
+    padding-bottom: .5rem;
+    margin: 2rem 0 .5rem;
+  }
+  > h3 { font-size: 1.1875rem; margin: 1.5rem 0 .5rem; }
+  > p { max-width: var(--mk-palsta); }
+
+  > ul {
+    list-style: none;
+    padding: 0;
+    margin: .5rem 0 0;
+    max-width: var(--mk-palsta);
+
+    > li {
+      padding: .875rem 0;
+      border-bottom: 1px solid var(--mk-viiva-ohut);
+      line-height: 1.6;
+
+      &:last-child { border-bottom: 0; }
+
+      > a:first-child {
+        font-weight: 700;
+        color: var(--mk-ink);
+        text-decoration: none;
+        &:hover { text-decoration: underline; }
+      }
+    }
+  }
+
+  ul ul {
+    list-style: disc;
+    padding-left: 1.25rem;
+    > li { border-bottom: 0; padding: .125rem 0; }
+  }
+
+  /* Korostettu lohko keskellä artikkelia, esim. ajankohtainen tehtäväsarja.
+     Markdownissa: lisää lohkolle {.mk-kortti}  */
+  .mk-kortti {
+    margin: 1.5rem 0;
+    max-width: var(--mk-palsta);
+    > h2, > h3 { border-bottom: 0; padding-bottom: 0; margin: 0; }
+  }
+}
+
+.mk-maaritelmat {
+  display: grid;
+  grid-template-columns: minmax(11rem, 2fr) 3fr;
+  margin: 0;
+
+  dt, dd {
+    border-bottom: 1px solid var(--mk-viiva-ohut);
+    padding: 1rem 0;
+    margin: 0;
+    &:last-of-type { border-bottom: 0; }
+  }
+
+  dt {
+    font-weight: 700;
+    color: var(--mk-ink);
+    padding-right: 1.5rem;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      &:hover { text-decoration: underline; }
+    }
+  }
+
+  @media (max-width: 575.98px) {
+    grid-template-columns: 1fr;
+    dt { border-bottom: 0; padding-bottom: 0; }
+    dd { padding-top: .25rem; }
+  }
+}
+
+/* ---------- pienet elementit ---------- */
+
+.mk-merkki {
+  display: inline-block;
+  font-size: .75rem;
+  font-weight: 700;
+  line-height: 1;
+  border-radius: 100px;
+  padding: .375rem .6875rem;
+  background: var(--mk-pinta);
+  color: var(--mk-vaimea);
+}
+.mk-merkki--vihrea { background: var(--mk-vihrea-pinta); color: var(--mk-vihrea-teksti); }
+
+.mk-nappi {
+  display: inline-block;
+  font-size: .9375rem;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  border-radius: var(--mk-radius-s);
+  padding: .8125rem 1.25rem;
+  background: var(--mk-navy);
+  color: var(--mk-paperi);
+}
+.mk-nappi:hover { background: var(--mk-navy-tumma); color: var(--mk-paperi); }
+.mk-nappi--vihrea { background: var(--mk-vihrea-pinta); color: var(--mk-vihrea-teksti); }
+.mk-nappi--vihrea:hover { box-shadow: inset 0 0 0 2px var(--mk-vihrea); }
+.mk-nappi--reunus {
+  background: var(--mk-tausta);
+  color: var(--mk-ink);
+  border: 1px solid var(--mk-viiva);
+  padding: .75rem 1.1875rem;
+}
+
+@keyframes mk-huomio {
+  from { background: var(--mk-okra-pinta); box-shadow: inset 0 0 0 2px var(--mk-okra); }
+  to   { background: transparent; box-shadow: inset 0 0 0 2px transparent; }
+}
+.mk-huomio {
+  border-radius: var(--mk-radius-s);
+  animation: mk-huomio 1.4s ease-out;
+}
+
+.mk-sivupalkki { display: flex; flex-direction: column; gap: 1rem; position: sticky; top: 1.5rem; }
+.mk-laatikko { background: var(--mk-pinta); border-radius: var(--mk-radius); padding: 1.375rem; }
+
+/* ---------- aikataulutaulukko ---------- */
+
+.mk-aikataulu {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 .25rem;
+  font-size: .9375rem;
+  margin-bottom: 1.5rem;
+
+  caption { caption-side: top; padding: 0 0 .5rem; }
+
+  th {
+    letter-spacing: .06em;
+    text-align: left;
+    padding: 0 .75rem .5rem;
+    border-bottom: 1px solid var(--mk-viiva);
+
+    &.mk-alakerta { color: var(--mk-sininen-teksti); }
+    &.mk-ylakerta { color: var(--mk-okra-teksti); }
+  }
+
+  td {
+    padding: .625rem .75rem;
+    border-radius: var(--mk-radius-s);
+
+    &.mk-alakerta { background: var(--mk-sininen-pinta); color: var(--mk-sininen-teksti); }
+    &.mk-ylakerta { background: var(--mk-okra-pinta); color: var(--mk-okra-teksti); }
+    &.mk-yhteinen { background: var(--mk-vihrea-pinta); color: var(--mk-vihrea-teksti); }
+  }
+
+  .mk-kello {
+    width: 1%;
+    white-space: nowrap;
+    text-align: right;
+    color: var(--mk-vaimea);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .mk-tauko { background: var(--mk-pinta); color: var(--mk-vaimea); }
+}
+
+/* ---------- alapalkki ---------- */
+
+.footer {
+  margin-top: auto;
+  padding-block: 1.5rem;
+  background: var(--mk-pinta);
+
+  h2 { margin-bottom: .375rem; }
+
+  /* Pitkä sähköpostiosoite ei mahdu kapeaan palstaan sellaisenaan */
+  .icon-link {
+    color: var(--mk-etuala);
+    text-decoration: none;
+    overflow-wrap: anywhere;
+
+    &:hover { text-decoration: underline; }
+    .bi { color: var(--mk-sininen-teksti); }
+  }
+}
+
+.mk-rahoittaja {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .875rem;
+  align-items: flex-start;
+
+  picture, img { flex: none; }
+  p {
+    flex: 1 1 12rem;
+    font-size: .8125rem;
+    line-height: 1.5;
+    color: var(--mk-vaimea);
+    margin: 0;
+  }
+
+  /* Erotinviiva vain nelipalstaisessa asettelussa. */
+  @media (min-width: 992px) { border-left: 1px solid var(--mk-viiva); padding-left: 1.5rem; }
+}
+
+/* ---------- yksittäiset elementit ---------- */
+
+.icon-link { display: inline-flex; align-items: center; gap: .375rem; text-underline-offset: .25em; }
+.bi { width: 1em; height: 1em; fill: currentColor; flex-shrink: 0; }
+
+.visually-hidden-focusable:not(:focus):not(:focus-within) {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip-path: inset(50%) !important;
+  white-space: nowrap !important;
+}
+.visually-hidden-focusable:focus, .visually-hidden-focusable:focus-within {
+  display: inline-block;
+  padding: .5rem;
+  background: var(--mk-tausta);
+}
+
+.alert {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: var(--mk-radius-s);
+
+  p:last-child { margin-bottom: 0; }
+}
+.alert-warning { background: var(--mk-okra-pinta); color: var(--mk-okra-teksti); }
+.alert-info { background: var(--mk-sininen-pinta); color: var(--mk-sininen-teksti); }
+.alert a, .alert-link { color: inherit; font-weight: 700; text-decoration: underline; }
+
+.table-responsive { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+.highlighted-content h2 { font-size: 1.3125rem; line-height: 1.3; margin: 0 0 .5rem; }
+
+/* Kolmen kerhosivun logorivi. */
+#logopalkki {
+  margin-top: 6ex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+}
+@media (pointer: coarse), (max-width: 450px) {
+  footer ul li { padding-top: 0.5em; }
+}
+
+/* ---------- apuluokat ---------- */
+
+.d-flex { display: flex !important; }
+.d-none { display: none !important; }
+/* Viimeisenä display-sääntönä, jotta hidden voittaa myös apuluokat */
+[hidden] { display: none !important; }
+.flex-column { flex-direction: column !important; }
+.flex-wrap { flex-wrap: wrap !important; }
+.align-items-center { align-items: center !important; }
+.gap-2 { gap: .5rem !important; }
+.gap-3 { gap: 1rem !important; }
+.gap-4 { gap: 1.5rem !important; }
+
+.mt-1 { margin-top: .25rem !important; }
+.mt-2 { margin-top: .5rem !important; }
+.mt-3 { margin-top: 1rem !important; }
+.mt-4 { margin-top: 1.5rem !important; }
+.mt-5 { margin-top: 3rem !important; }
+.mb-0 { margin-bottom: 0 !important; }
+.mb-2 { margin-bottom: .5rem !important; }
+.mb-3 { margin-bottom: 1rem !important; }
+.mb-4 { margin-bottom: 1.5rem !important; }
+.mb-5 { margin-bottom: 3rem !important; }
+.my-4 { margin-top: 1.5rem !important; margin-bottom: 1.5rem !important; }
+.pt-4 { padding-top: 1.5rem !important; }
+.pb-2 { padding-bottom: .5rem !important; }
+.pb-3 { padding-bottom: 1rem !important; }
+
+.fw-bold { font-weight: 700 !important; }
+.text-decoration-none { text-decoration: none !important; }
+.small { font-size: .875em !important; }
+.text-break { word-wrap: break-word !important; }
+.text-body { color: var(--mk-etuala) !important; }
+.text-body-secondary { color: var(--mk-vaimea) !important; }
+.list-unstyled { padding-left: 0 !important; list-style: none !important; }
+
+@media (min-width: 992px) {
+  .mt-lg-0 { margin-top: 0 !important; }
+  .mb-lg-0 { margin-bottom: 0 !important; }
+}
+
+/* Palstaruudukko: sivupohjien palstajaot ja kuuden kilpailusivun
+   tulostaulukot. Bootstrap-jäänne */
+.container, .container-md {
+  width: 100%;
+  padding-inline: .75rem;
+  margin-inline: auto;
+}
+@media (min-width: 576px) { .container { max-width: 540px; } }
+@media (min-width: 768px) { .container, .container-md { max-width: 720px; } }
+@media (min-width: 992px) { .container, .container-md { max-width: 960px; } }
+@media (min-width: 1200px) { .container, .container-md { max-width: 1140px; } }
+@media (min-width: 1400px) { .container, .container-md { max-width: 1320px; } }
+
+.row {
+  --mk-gx: 1.5rem;
+  --mk-gy: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--mk-gy));
+  margin-inline: calc(-.5 * var(--mk-gx));
+}
+.row > * {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-inline: calc(.5 * var(--mk-gx));
+  margin-top: var(--mk-gy);
+}
+.gy-4 { --mk-gy: 1.5rem; }
+
+.col-1  { flex: 0 0 auto; width: 8.33333333%; }
+.col-2  { flex: 0 0 auto; width: 16.66666667%; }
+.col-3  { flex: 0 0 auto; width: 25%; }
+.col-4  { flex: 0 0 auto; width: 33.33333333%; }
+.col-5  { flex: 0 0 auto; width: 41.66666667%; }
+.col-12 { flex: 0 0 auto; width: 100%; }
+
+@media (min-width: 576px) {
+  .col-sm-2  { flex: 0 0 auto; width: 16.66666667%; }
+  .col-sm-6  { flex: 0 0 auto; width: 50%; }
+  .col-sm-10 { flex: 0 0 auto; width: 83.33333333%; }
+  .col-sm-11 { flex: 0 0 auto; width: 91.66666667%; }
+  .offset-sm-1 { margin-left: 8.33333333%; }
+}
+@media (min-width: 768px) {
+  .col-md-3 { flex: 0 0 auto; width: 25%; }
+}
+@media (min-width: 992px) {
+  .gx-lg-5 { --mk-gx: 3rem; }
+  .col-lg-1  { flex: 0 0 auto; width: 8.33333333%; }
+  .col-lg-2  { flex: 0 0 auto; width: 16.66666667%; }
+  .col-lg-3  { flex: 0 0 auto; width: 25%; }
+  .col-lg-4  { flex: 0 0 auto; width: 33.33333333%; }
+  .col-lg-5  { flex: 0 0 auto; width: 41.66666667%; }
+  .col-lg-7  { flex: 0 0 auto; width: 58.33333333%; }
+  .col-lg-8  { flex: 0 0 auto; width: 66.66666667%; }
+  .col-lg-10 { flex: 0 0 auto; width: 83.33333333%; }
+  .offset-lg-0 { margin-left: 0; }
+  .offset-lg-1 { margin-left: 8.33333333%; }
+  .order-lg-last { order: 6; }
+}

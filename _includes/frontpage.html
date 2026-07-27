@@ -1,84 +1,117 @@
 ---
 layout: default
 ---
-<div>
-  <div class="container">
-    <header class="row">
-      <div class="col-12">
-        <h1 class="py-3 mt-3 mb-2">{{ title }}</h1>
-        <div class="row">
-          <div class="col-xs-12">
-            <picture class="light-element">
-              <source srcset="/kuvat/oph_light.webp" type="image/webp">
-              <img loading="lazy" class="d-block float-sm-end mx-auto mb-2 ms-md-4" src="/kuvat/oph_light.png" width="180" height="174" alt="Opetushallitus rahoittaa hanketta">
-            </picture>
-            <picture class="dark-element">
-              <source srcset="/kuvat/oph_dark.webp" type="image/webp">
-              <img loading="lazy" class="d-block float-sm-end mx-auto mb-2 ms-md-4" src="/kuvat/oph_dark.png" width="180" height="174" alt="Opetushallitus rahoittaa hanketta">
-            </picture>
-            {{ content | safe }}
-          </div>
+{% set tulevat = aikataulu.aikataulu | tulevatTapahtumat %}
+
+<div class="container">
+  <header class="row mk-sivu-otsikko mk-sivu-otsikko--kapea pt-4 pb-2">
+    <div class="col-lg-7 d-flex flex-column gap-3">
+      <h1 class="mb-0">{{ title }}</h1>
+      <div class="mk-ingressi">
+        {{ content | safe }}
+      </div>
+      <div class="d-flex flex-wrap gap-2">
+        <a class="mk-nappi" href="#faq-mukaan-btn" data-mk-ukk>Miten pääsen mukaan?</a>
+        <a class="mk-nappi mk-nappi--reunus" href="/kilpailut/">Kilpailut</a>
+      </div>
+    </div>
+
+    {% if tulevat.length %}
+    <div class="col-lg-5 mt-4 mt-lg-0" data-mk-tapahtumat>
+      {% for tapahtuma in tulevat %}
+      <div class="mk-seuraava" data-alkaa="{{ tapahtuma.iso }}" data-paattyy="{{ tapahtuma.isoLoppu }}"{% if not loop.first %} hidden{% endif %}>
+        <div class="d-flex align-items-center gap-2">
+          <span class="mk-ylaotsikko mk-ylaotsikko--vihrea mb-0">Seuraava tapahtuma</span>
+          <span class="mk-ylaotsikko mk-ylaotsikko--vaimea mb-0" data-mk-paivia></span>
+        </div>
+        <div class="mk-otsikko">{{ tapahtuma.nimi | markdownify | safe }}</div>
+        <p class="mb-0">{{ tapahtuma.pvm | markdownify | safe }}</p>
+        <div class="d-flex flex-wrap align-items-center gap-3 mt-1">
+          {% if tapahtuma.ilmo %}<a class="mk-nappi mk-nappi--vihrea" href="{{ tapahtuma.ilmo }}">{{ tapahtuma.ilmoteksti | default("Ilmoittaudu Päivölään") }}</a>{% endif %}
+          <a class="fw-bold text-decoration-none" href="/aikataulu/">Koko aikataulu &rarr;</a>
         </div>
       </div>
-    </header>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </header>
 
-    <div class="row my-4">
-      <!-- News column -->
-      <div class="col-lg-6 my-3 my-lg-0">
-        <div class="card shadow h-100">
-          <div class="card-header">
-            <h2 class="h3 pb-2 mb-0">Uutisia</h2>
-          </div>
-          <div class="card-body p-0">
-            <ul class="list-group list-group-flush">
-              {%- for artikkeli in collections.uutinen | reverse | batch(4) | first %}
-              <li class="list-group-item {% if loop.last %}pt-3{% else %}py-3{% endif %}">
-                <div class="text-body-secondary small float-end ms-3"><a class="text-reset text-decoration-none" href="{{ artikkeli.url }}">{{ artikkeli.date.toLocaleDateString("fi", {timeZone: "UTC"}) }}</a></div>
-                {{ artikkeli.templateContent | safe }}
-              </li>
-              {%- endfor %}
-            </ul>
-            <div class="text-end">
-              <a href="/uutiset" class="btn btn-sm btn-outline-primary mb-3 me-3">Uutisarkisto</a>
-            </div>
-          </div>
-        </div>
+  <div class="row gx-lg-5 mt-5 mb-4">
+    <div class="col-lg-7 mb-5 mb-lg-0">
+      <div class="mk-osasto">
+        <h2>Uutisia</h2>
+        <a class="fw-bold text-decoration-none" href="/uutiset/">Uutisarkisto &rarr;</a>
       </div>
-
-      <!-- FAQ column -->
-      <div class="col-lg-6 my-3 my-lg-0">
-        <div class="card shadow h-100">
-          <div class="card-header">
-            <h2 class="h3 pb-2 mb-0">Usein kysytyt kysymykset</h2>
+      <ul class="mk-lista">
+        {%- for artikkeli in collections.uutinen | reverse | batch(4) | first %}
+        <li>
+          <div>
+            <h3><a href="{{ artikkeli.url }}">{{ artikkeli.data.title | ilmanVuosiliitetta }}</a>
+              <span class="mk-pvm">{{ artikkeli.date.toLocaleDateString("fi", {timeZone: "UTC"}) }}</span></h3>
+            {% if artikkeli.data.tiivistelma %}{{ artikkeli.data.tiivistelma | markdown | safe }}{% else %}{{ artikkeli.templateContent | uutisnayte | safe }}{% endif %}
           </div>
-          <div class="card-body p-0">
-            <div class="accordion accordion-flush" id="faqAccordion" itemscope itemtype="https://schema.org/FAQPage">
-              {% for item in faq %}
-              <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                <h2 class="accordion-header" itemprop="name">
-                  <button id="faq-{{ item.id }}-btn" class="accordion-button{% if not loop.first %} collapsed{% endif %}" type="button"
-                          data-bs-toggle="collapse" data-bs-target="#faq-{{ item.id }}"
-                          aria-expanded="{% if loop.first %}true{% else %}false{% endif %}"
-                          aria-controls="faq-{{ item.id }}">
-                    <span itemprop="text">{{ item.question }}</span>
-                  </button>
-                </h2>
-                <div id="faq-{{ item.id }}" class="accordion-collapse collapse{% if loop.first %} show{% endif %}"
-                     aria-labelledby="faq-{{ item.id }}-btn" data-bs-parent="#faqAccordion"
-                     itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                  <div class="accordion-body" itemprop="text">
-                    {{ item.answer | markdown | safe }}
-                  </div>
-                </div>
-              </div>
-              {% endfor %}
+          {% set kuva = artikkeli.templateContent | uutiskuva %}
+          {% if kuva %}
+          <a class="mk-pikkukuva" href="{{ artikkeli.url }}">
+            <img src="{{ kuva.src }}" alt="{{ kuva.alt }}" loading="lazy">
+          </a>
+          {% else %}
+          <div></div>
+          {% endif %}
+        </li>
+        {%- endfor %}
+      </ul>
+    </div>
+
+    <!-- Usein kysytyt kysymykset -->
+    <div class="col-lg-5">
+      <div class="mk-osasto">
+        <h2>Usein kysyttyä</h2>
+      </div>
+      <div class="mk-ukk" id="faqAccordion" itemscope itemtype="https://schema.org/FAQPage">
+        {% for item in faq %}
+        <details class="mk-ukk-kohta" name="faq"{% if loop.first %} open{% endif %}
+                 itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary id="faq-{{ item.id }}-btn">
+            <h3 itemprop="name"><span itemprop="text">{{ item.question }}</span></h3>
+          </summary>
+          <div class="mk-ukk-vastaus" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <div itemprop="text">
+              {{ item.answer | markdown | safe }}
             </div>
           </div>
-        </div>
+        </details>
+        {% endfor %}
       </div>
     </div>
   </div>
 </div>
+
+<script defer src="/js/aikataulu.js"></script>
+<script>
+  document.querySelectorAll('a[data-mk-ukk]').forEach((nappi) => {
+    nappi.addEventListener('click', (tapahtuma) => {
+      const kysymys = document.querySelector(nappi.getAttribute('href'))?.closest('details');
+      if (!kysymys) return;
+      tapahtuma.preventDefault();
+
+      const auki = kysymys.open;
+      kysymys.open = true;
+
+      kysymys.querySelector('summary').focus({ preventScroll: true });
+      kysymys.scrollIntoView({
+        block: 'nearest',
+        behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+      });
+
+      if (auki) {
+        kysymys.classList.remove('mk-huomio');
+        void kysymys.offsetWidth; // pakottaa animaation alkamaan alusta
+        kysymys.classList.add('mk-huomio');
+      }
+    });
+  });
+</script>
 
 {% if scripts %}
 {{ scripts | safe }}

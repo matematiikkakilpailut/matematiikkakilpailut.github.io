@@ -78,12 +78,12 @@ Alla on tietoa menneistä kilpailuista vuodesta 1993 lähtien.
 {% set header = loop.index0 == 0 %}
 {% macro f(k, name) %}{{ k[name] | default('&mdash;', true) | markdownify | safe }}{% endmacro %}
 <div class="row flex-wrap mb-2" role="listitem">
-  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">{{ f(k, 'vuosi') }}</div>
-  <div class="col-12 col-xs-2 col-sm-6 col-lg-3">{{ f(k, 'paikka') }}</div>
-  <div class="col-12 col-xs-2 col-sm-6 col-lg-1">{{ f(k, 'tehtavat') }}</div>
-  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">{{ f(k, 'ratkaisut') }}</div>
-  <div class="col-12 col-xs-2 col-sm-6 col-lg-3">{{ f(k, 'sijoitus') }}</div>
-  <div class="col-12 col-xs-2 col-sm-6 col-lg-2">{{ f(k, 'muuta') }}</div>
+  <div class="col-12 col-sm-6 col-lg-1">{{ f(k, 'vuosi') }}</div>
+  <div class="col-12 col-sm-6 col-lg-3">{{ f(k, 'paikka') }}</div>
+  <div class="col-12 col-sm-6 col-lg-1">{{ f(k, 'tehtavat') }}</div>
+  <div class="col-12 col-sm-6 col-lg-2">{{ f(k, 'ratkaisut') }}</div>
+  <div class="col-12 col-sm-6 col-lg-3">{{ f(k, 'sijoitus') }}</div>
+  <div class="col-12 col-sm-6 col-lg-2">{{ f(k, 'muuta') }}</div>
   <div class="col-12 col-lg-10 offset-lg-1">{{ f(k, 'edustajat') }}</div>
 </div>
 {% if header %}<hr>{% endif %}

@@ -1,5 +1,5 @@
 {% macro iconLink(href, icon, text, title='', rel='', hreflang='', type='') %}
-  <a class="icon-link link-primary text-decoration-none" href="{{ href }}"
+  <a class="icon-link" href="{{ href }}"
     {% if title %}title="{{ title }}"{% endif %}
     {% if rel %}rel="{{ rel }}"{% endif %}
     {% if hreflang %}hreflang="{{ hreflang }}"{% endif %}
@@ -12,35 +12,49 @@
   </a>
 {% endmacro %}
 
-<footer class="footer mt-auto py-4 bg-body-tertiary">
+<footer class="footer">
   <div class="container-md small">
     <div class="row gy-4">
-      <div class="col-sm-6 col-md-4">
-        <h2 id="footer-valmennus-heading" class="fw-bold mb-2 fs-6">Valmennus</h2>
-        <ul aria-labelledby="footer-valmennus-heading" class="list-unstyled mb-0">
+      <div class="col-sm-6 col-lg-3">
+        <h2 id="footer-valmennus-heading">Valmennus</h2>
+        <ul aria-labelledby="footer-valmennus-heading" class="list-unstyled mb-0 d-flex flex-column gap-2">
           <li>{{ iconLink('/kilpailut/', 'trophy-fill', 'Kilpailut') }}</li>
           <li>{{ iconLink('/aiheet/', 'book', 'Materiaalit') }}</li>
           <li>{{ iconLink('/kaytanto/', 'calendar-event', 'Tapahtumat') }}</li>
           <li>{{ iconLink('/valmennus/', 'envelope-fill', 'Kotitehtävät') }}</li>
         </ul>
       </div>
-      <div class="col-sm-6 col-md-4">
-        <h2 id="footer-yhteystiedot-heading" class="fw-bold mb-2 fs-6">Yhteystiedot</h2>
-        <ul aria-labelledby="footer-yhteystiedot-heading" class="list-unstyled mb-0">
+      <div class="col-sm-6 col-lg-3">
+        <h2 id="footer-yhteystiedot-heading">Yhteystiedot</h2>
+        <ul aria-labelledby="footer-yhteystiedot-heading" class="list-unstyled mb-0 d-flex flex-column gap-2">
           <li>{{ iconLink('mailto:info@matematiikkakilpailut.fi', 'envelope-fill', 'info@matematiikkakilpailut.fi', title='Sähköposti', rel='author') }}</li>
           <li>{{ iconLink('/valmentajat/', 'people-fill', 'Valmentajat') }}</li>
           <li>{{ iconLink('/feed.xml', 'rss-fill', 'RSS-syöte', 'RSS-syöte', 'alternate', type='application/atom+xml') }}</li>
           <li>{{ iconLink('https://t.me/+TS59DXkdJpozNDU0', 'telegram', 'Telegram-keskusteluryhmä', 'Telegram') }}</li>
         </ul>
       </div>
-      <div class="col-sm-6 col-md-4">
-        <h2 id="footer-muuta-heading" class="fw-bold mb-2 fs-6">Muuta</h2>
-        <ul aria-labelledby="footer-muuta-heading" class="list-unstyled mb-0">
+      <div class="col-sm-6 col-lg-3">
+        <h2 id="footer-muuta-heading">Muuta</h2>
+        <ul aria-labelledby="footer-muuta-heading" class="list-unstyled mb-0 d-flex flex-column gap-2">
           <li>{{ iconLink('/kerhot/', 'people-fill', 'Kerhot') }}</li>
           <li>{{ iconLink('/linkit/', 'link-45deg', 'Linkkejä') }}</li>
           <li>{{ iconLink('/tietosuoja/', 'shield-fill', 'Tietosuoja', rel='privacy-policy') }}</li>
           <li lang="en">{{ iconLink('/english/', 'translate', 'In English', hreflang='en') }}</li>
         </ul>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="mk-rahoittaja">
+          <picture class="light-element">
+            <source srcset="/kuvat/oph_light.webp" type="image/webp">
+            <img loading="lazy" src="/kuvat/oph_light.png" width="76" height="73" alt="Opetushallitus rahoittaa hanketta">
+          </picture>
+          <picture class="dark-element">
+            <source srcset="/kuvat/oph_dark.webp" type="image/webp">
+            <img loading="lazy" src="/kuvat/oph_dark.png" width="76" height="73" alt="Opetushallitus rahoittaa hanketta">
+          </picture>
+          <p>Opetus&shy;hallitus rahoittaa hanketta. Valmen&shy;nuksesta vastaa
+            <a href="/valmentajat/">Suomen matemaat&shy;tisen yhdis&shy;tyksen valmennus&shy;jaosto</a>.</p>
+        </div>
       </div>
     </div>
   </div>

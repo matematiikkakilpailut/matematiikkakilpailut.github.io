@@ -56,73 +56,10 @@
     {% if description %}<meta name="twitter:description" content="{{ description }}">{% endif %}
     <meta name="twitter:image" content="{% if socialImage.startsWith('http') %}{{ socialImage }}{% else %}{{ pkg.base_url }}{{ socialImage }}{% endif %}">
     <meta name="twitter:image:alt" content="{{ socialImageAlt }}">
-    <link href="/css/bootstrap.min.css?v=5.3.3" rel="stylesheet">
-    <style>
-     figure {
-       margin-inline: 0;
-
-       img {
-         max-width: 100%;
-         max-height: 70vh;
-         height: auto;
-       }
-
-       figcaption {
-         text-align: center;
-         font-style: italic;
-       }
-     }
-     .breadcrumb {
-       --bs-breadcrumb-divider: '';
-       --bs-breadcrumb-padding-x: 0;
-       --bs-breadcrumb-item-padding-x: 0;
-     }
-     .navbar {
-       --bs-navbar-brand-padding-y: 4px;
-     }
-     [data-bs-theme="dark"] {
-       --bs-link-color: #788591;
-       --bs-link-color-rgb: 120, 133, 145;
-       .link-primary, .text-primary {
-         --bs-primary-rgb: 236, 240, 241;
-       }
-       .link-primary:hover {
-         color: rgb(128, 139, 150) !important;
-       }
-     }
-     [data-bs-theme="light"] {
-       --bs-link-color: #168366;
-       --bs-link-color-rgb: 23, 114, 83;
-       .link-primary {
-         --bs-primary-rgb: 33, 37, 41;
-         &:hover {
-           color: rgb(24, 188, 156) !important;
-         }
-       }
-     }
-     [data-bs-theme="dark"] .light-element { display: none; }
-     [data-bs-theme="light"] .dark-element { display: none; }
-     h1,h2,h3,h4,h5,h6 { text-wrap: balance; }
-     a:focus-visible, button:focus-visible {
-       outline: 2px solid currentColor;
-       outline-offset: 2px;
-     }
-     #logopalkki {
-       margin-top: 6ex;
-       display: flex;
-       flex-wrap: wrap;
-       justify-content: space-evenly;
-       align-content: center;
-     }
-     @media (pointer: coarse), (max-width: 450px) {
-       footer ul li {
-         padding-top: 0.5em;
-       }
-     }
-    </style>
+    <link href="{{ tyyliCss }}" rel="stylesheet">
     <link rel="icon" href="/kuvat/icon.svg" type="image/svg+xml">
     <link rel="icon" href="/kuvat/favicon-32x32.png" type="image/png" sizes="32x32">
-    <link rel="apple-touch-icon" href="/kuvat/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/kuvat/apple-touch-icon.png">
     <link rel="manifest" href="/kuvat/manifest.webmanifest">
     <link rel="preload" href="/font/Lato-Regular.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" href="/font/Lato-Bold.subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
@@ -146,7 +83,7 @@
         return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
       }
       const setTheme = theme => {
-        document.documentElement.dataset.bsTheme =
+        document.documentElement.dataset.teema =
           theme === 'auto'
           ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
           : theme
@@ -154,17 +91,16 @@
       setTheme(getPreferredTheme())
     </script>
   </head>
-  <body class="d-flex flex-column min-vh-100">
-    <a href="#main" class="visually-hidden-focusable p-2">Siirry sisältöön</a>
+  <body>
+    <a href="#main" class="visually-hidden-focusable">Siirry sisältöön</a>
     {% include 'ylapalkki.html' %}
     {% include 'leivanmurut.html' %}
-    <main class="container flex-grow-1" id="main" tabindex="-1">
+    <main class="container" id="main" tabindex="-1">
         {{ content | safe }}
     </main>
     {% include 'alapalkki.html' %}
     <script defer src="/js/theme.js"></script>
-    <script type="module" src="/js/instant.page.min.js"></script>
-    <script defer src="/js/bootstrap.bundle.min.js?v=5.3.3"></script>
     <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "45380cb8b30d4b0791d27e340eefc4da"}'></script>
+    <script type="speculationrules">{"prerender":[{"where":{"href_matches":"/*"},"eagerness":"moderate"}]}</script>
   </body>
 </html>

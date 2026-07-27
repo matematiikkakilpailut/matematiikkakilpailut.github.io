@@ -70,7 +70,7 @@ Alla olevassa taulukossa on tietoa menneistä kilpailuista vuodesta 1995 lähtie
 </div>
 <hr>
 {% for k in kilpailut %}
-<div class="d-flex list-group-item" role="listitem">
+<div class="d-flex" role="listitem">
 <div class="col-3">{{ k['vuosi'] }}</div>
 <div class="col-3">{{ f(k['tehtavat'] ) }}</div>
 <div class="col-3">{{ f(k['ratkaisut']) }}</div>

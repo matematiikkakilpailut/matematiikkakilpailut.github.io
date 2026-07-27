@@ -11,7 +11,7 @@ highlightedTitle: Avoimen yli­opiston ongelman­ratkaisu­kurssi
 highlightedContent: |
   Voit täydentää kirje­valmennusta Avoimen Yli­opiston ongelman­ratkaisu­kurssilla.
 
-  [Lue lisää!](ongelma/){.card-link}
+  [Lue lisää!](ongelma/)
 ---
 
 ## Kirjevalmennus

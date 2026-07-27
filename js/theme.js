@@ -18,10 +18,10 @@
   
       const themeSwitcherText = document.querySelector('#bd-theme-text')
       const activeThemeIcon = document.querySelector('.theme-icon-active use')
-      const btnToActive = document.querySelector(`[data-bs-theme-value="${theme}"]`)
+      const btnToActive = document.querySelector(`[data-teema-arvo="${theme}"]`)
       const svgOfActiveBtn = btnToActive.querySelector('svg use').getAttribute('href')
   
-      document.querySelectorAll('[data-bs-theme-value]').forEach(element => {
+      document.querySelectorAll('[data-teema-arvo]').forEach(element => {
         element.classList.remove('active')
         element.setAttribute('aria-pressed', 'false')
       })
@@ -29,7 +29,7 @@
       btnToActive.classList.add('active')
       btnToActive.setAttribute('aria-pressed', 'true')
       activeThemeIcon.setAttribute('href', svgOfActiveBtn)
-      const themeSwitcherLabel = `${themeSwitcherText.textContent} (${btnToActive.dataset.bsThemeValue})`
+      const themeSwitcherLabel = `${themeSwitcherText.textContent} (${btnToActive.dataset.teemaArvo})`
       themeSwitcher.setAttribute('aria-label', themeSwitcherLabel)
   
       if (focus) {
@@ -47,10 +47,10 @@
     window.addEventListener('DOMContentLoaded', () => {
       showActiveTheme(getPreferredTheme())
   
-      document.querySelectorAll('[data-bs-theme-value]')
+      document.querySelectorAll('[data-teema-arvo]')
         .forEach(toggle => {
           toggle.addEventListener('click', () => {
-            const theme = toggle.getAttribute('data-bs-theme-value')
+            const theme = toggle.getAttribute('data-teema-arvo')
             setStoredTheme(theme)
             setTheme(theme)
             showActiveTheme(theme, true)

@@ -15,7 +15,7 @@ Usein päivitettyjä sivuja:
 
 * `seiskat/` seitsemäsluokkalaisten kilpailun sivut (tehtävät ja tulokset
   kaupungeittain) &ndash; kaikkein useimmin muokatut, ks. oma osionsa alla
-* `aikataulu/index.11tydata.yaml` tapahtumakalenteri yaml-muodossa,
+* `_data/aikataulu.yaml` tapahtumakalenteri yaml-muodossa,
   ks. tiedoston oma kommenttiotsikko ja alla oleva osio
 * `uutiset/` uutiset etusivulle ja RSS-syötteeseen, ks. osio alla
 * `valmennus/index.md` kotitehtävät ja valmennuskirjeet. **Huom.**:
@@ -26,8 +26,8 @@ Muita erikoistiedostoja:
 
 * `_data/faq.yaml` sisältää etusivun usein kysytyt kysymykset.
 * `_data/site.js` sisältää seiskojen sivujen rakenteen (fi/sv/en).
-* `pdf-redirects.json` ohjaa vanhat repossa olleet PDF-osoitteet Google
-  Driveen, ks. osio "Google Drive -PDF:t".
+* `_redirects` on Cloudflare Pagesin uudelleenohjaustiedosto: se ohjaa
+  mm. vanhat repossa olleet PDF-tiedostot Google Driveen
 
 ## Uutiset
 
@@ -119,10 +119,17 @@ grep -o '<meta property="og:image[^>]*>' _site/uutiset/2026-07-24-IMO-tuloksia.h
 
 ## Aikataulu
 
-`aikataulu/index.11tydata.yaml` on tapahtumakalenteri, joka on kokonaan
+`_data/aikataulu.yaml` on tapahtumakalenteri, joka on kokonaan
 yamlia ja josta aikataulusivu tehdään ohjelmallisesti. Muodon kuvaus ja
 esimerkkirivit ovat tiedoston omassa kommenttiotsikossa sen alussa &ndash;
 lue se ennen muokkaamista.
+
+## Kilpailut-sivun uutisnosto
+
+`kilpailut.md`:n IMO-uutisnostokortti (esim. "IMO 2026, Shanghai" ja
+mitalisaldo) on käsin ylläpidetty: vaihda otsikko, tulosteksti ja
+uutislinkki tuoreimpaan tulokseen kilpailukauden jälkeen, muuten sivu
+jää mainostamaan edellisvuoden tulosta.
 
 ## Google Drive -PDF:t
 
@@ -208,9 +215,9 @@ ja avaa <http://localhost:8080> selaimessa. Pelkän käännöksen (samalla taval
 kuin Cloudflaren buildissa) saa komennolla `npm run build`; tulos menee
 hakemistoon `_site`.
 
-## Bootstrap
+## Tyylit
 
-Käytössä Bootstrap versio 5, Bootswatchin tyyli Flatly.
-Päivitys: lataa uusi versio <https://bootswatch.com/> (ei min.css),
-kopioi vanhasta `@font-face`-muutokset ja poista vastaava Google Fonts -osuus,
-minimoi `csso`:lla, päivitä `default.html`:n cachebuster.
+Tiedostossa `css/tyyli.css`.
+
+`seiskat/`-sivuilla on oma `seiskat/tyyli.css` ja BW2016-sivuilla
+vanha `css/bw2016.min.css`.

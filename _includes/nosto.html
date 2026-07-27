@@ -1,0 +1,11 @@
+<div class="col-lg-4 order-lg-last">
+  <aside class="mk-sivupalkki">
+    <div class="mk-kortti mk-nosto">
+      {% if highlightedYlaotsikko %}<div class="mk-ylaotsikko">{{ highlightedYlaotsikko }}</div>{% endif %}
+      {% if highlightedTitle %}<h2>{{ highlightedTitle }}</h2>{% endif %}
+      <div class="highlighted-content">
+        {{ highlightedContent | markdown | safe }}
+      </div>
+    </div>
+  </aside>
+</div>

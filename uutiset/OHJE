@@ -15,8 +15,13 @@ title: Sopiva otsikko uutiselle, ääkköset sallittu
 Uutisen teksti, joka toimii myös ilman otsikkoa.
 Yleensä tulee [linkki lisätietoon](/osoite/sivuston/sisalla/).
 
+<!-- tiivistelma -->
 
-Muutama uusin uutinen näkyy etusivulla listassa ilman otsikoita, kaikki
-uutiset näkyvät uutissivulla. Sitten kun niitä alkaa olla tosi paljon,
-arkistoidaan jotenkin (ei siirtämällä vanhasiin vaan säilytetään niiden
-omat osoitteet).
+Jos uutinen on pitkä tai sen lopussa on esim. linkki aikatauluun,
+laita edellisen kaltainen tiivistelma-kommentti katkaisukohtaan,
+niin etusivulle tulee vain sitä edeltävä osa.
+
+Uutisille tulee geneerinen jakokuva somejakoja varten.
+Jos osaat tehdä paremman (jpg tai png, koko 1200x630),
+lisää se hakemistoon /kuvat ja laita alkuun titlen lisäksi
+ogImage ja ogImageAlt (esimerkki: 2026-07-24-IMO-tuloksia.md).
