@@ -105,7 +105,7 @@
         </header>
 
         <main>
-          <xsl:for-each select="/atom:feed/atom:entry[position() > last() - 10]">
+          <xsl:for-each select="/atom:feed/atom:entry[position() &lt;= 10]">
             <xsl:sort select="atom:updated" order="descending" />
             <article>
               <h3>
