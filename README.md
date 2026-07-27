@@ -26,8 +26,8 @@ Muita erikoistiedostoja:
 
 * `_data/faq.yaml` sisältää etusivun usein kysytyt kysymykset.
 * `_data/site.js` sisältää seiskojen sivujen rakenteen (fi/sv/en).
-* `pdf-redirects.json` ohjaa vanhat repossa olleet PDF-osoitteet Google
-  Driveen, ks. osio "Google Drive -PDF:t".
+* `_redirects` on Cloudflare Pagesin uudelleenohjaustiedosto: se ohjaa
+  mm. vanhat repossa olleet PDF-tiedostot Google Driveen
 
 ## Uutiset
 

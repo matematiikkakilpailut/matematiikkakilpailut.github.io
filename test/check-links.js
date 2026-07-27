@@ -9,8 +9,11 @@ import * as cheerio from "cheerio";
 const SITE = fileURLToPath(new URL("../_test-site/", import.meta.url));
 const EXCLUDE = ["BW2006", "BW2016", "kokoukset", "vanhaset"];
 const SKIP_PROTO = /^(https?:|mailto:|tel:|javascript:|data:|\/\/)/i;
-const pdfRedirects = JSON.parse(
-  readFileSync(new URL("../pdf-redirects.json", import.meta.url), "utf8")
+const redirectPaths = new Set(
+  readFileSync(new URL("../_redirects", import.meta.url), "utf8")
+    .split("\n")
+    .filter((rivi) => rivi.trim())
+    .map((rivi) => rivi.split(/\s+/)[0])
 );
 
 function* htmlFiles(dir) {
@@ -57,7 +60,7 @@ for (const file of htmlFiles(SITE)) {
       ? path.join(SITE, clean)
       : path.resolve(dir, clean);
     const sitePath = "/" + path.relative(SITE, fsPath);
-    if (!targetExists(fsPath) && !(sitePath in pdfRedirects)) {
+    if (!targetExists(fsPath) && !redirectPaths.has(sitePath)) {
       errors.push(`${rel}: broken link ${url}`);
     }
   });

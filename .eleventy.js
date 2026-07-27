@@ -37,26 +37,6 @@ const md = markdownIt({
 }).use(markdownItAttrs)
 
 export default function (eleventyConfig) {
-  // Validate pdf-redirects.json (hand-edited, fetched client-side by the 404 page).
-  let pdfRedirects;
-  try {
-    pdfRedirects = JSON.parse(readFileSync("pdf-redirects.json", "utf8"));
-  } catch (e) {
-    throw new Error(`pdf-redirects.json is not valid JSON: ${e.message}`);
-  }
-  if (
-    !pdfRedirects ||
-    typeof pdfRedirects !== "object" ||
-    Array.isArray(pdfRedirects) ||
-    !Object.entries(pdfRedirects).every(
-      ([k, v]) => typeof k === "string" && typeof v === "string"
-    )
-  ) {
-    throw new Error(
-      "pdf-redirects.json must be a plain object mapping string paths to string file IDs"
-    );
-  }
-
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(rss);
 
@@ -205,14 +185,13 @@ export default function (eleventyConfig) {
     "kuvat",
     "favicon.ico",
     "robots.txt",
-    "pdf-redirects.json",
+    "_redirects",
     "*.png",
     "*.pdf",
     "BingSiteAuth.xml",
     "feed.xsl",
     "CNAME",
     "seiskat/manifest.json",
-    { "uutis-redir": "uutiset" },
     "BW2006",
     "BW2016",
     "{Baltian_tie,EGMO,IGO,IMO,Kappa,MAOL,PM,aiheet,aikataulu,english,kaytanto,kerhot,kilpailut,kirjallisuus,kokoukset,pythagoras,seiskat,tietosuoja,valmennus,valmentajat,uutiset}/**/*.{pdf,png,svg,ico,ps,tex,tex.gz,dvi,sty,cls,tgz,css}",
