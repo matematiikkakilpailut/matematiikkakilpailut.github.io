@@ -55,6 +55,7 @@ aikataulu:
   tapahtuma: "Syksy"
   otsikko: true
 - pvm: "28.&ndash;30.8. (viikko 35)"
+  ilmo: https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2026-vk35
   alkaa: 2026-08-28
   paattyy: 2026-08-30
   etusivulle: true
@@ -71,6 +72,7 @@ aikataulu:
   tapahtuma: >-
     [MAOLin matematiikkakilpailun alkukilpailu, lukio](https://maol.fi/neljan-tieteen-kisat/)
 - pvm: "6.&ndash;8.11. (viikko 45)"
+  ilmo: https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2026-vk-45
   alkaa: 2026-11-06
   paattyy: 2026-11-08
   etusivulle: true
@@ -82,6 +84,7 @@ aikataulu:
   tapahtuma: >-
     Baltian tie -joukkuekilpailu Vilnassa, Liettuassa.
 - pvm: "12.&ndash;13.12. (viikko 50)"
+  ilmo: https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2026-vk-50
   alkaa: 2026-12-12
   paattyy: 2026-12-13
   etusivulle: true
