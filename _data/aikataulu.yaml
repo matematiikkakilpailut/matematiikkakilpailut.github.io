@@ -90,7 +90,21 @@ aikataulu:
   etusivulle: true
   tapahtuma: >-
     Valmennusviikonloppu Päivölässä.
-
+- pvm: "2027"
+  tapahtuma: "Kevät"
+  otsikko: true
+- pvm: "15.&ndash;17.1. (viikko 2)"
+  alkaa: 2027-01-15
+  paattyy: 2027-01-17
+  etusivulle: true
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä.
+- pvm: "26.&ndash;28.2. (viikko 8)"
+  alkaa: 2027-02-26
+  paattyy: 2027-02-28
+  etusivulle: true
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä.
 
 # ainoastaan otsikon "aikataulu" alla olevat tapahtumat otetaan mukaan sivulle
 # joten esim. "mahdollisia" tai "vanhoja" eivät näy vaan ovat mukana vain jotta
