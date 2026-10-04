@@ -26,7 +26,7 @@ override:tags: []
     <div class="mk-pvm">{{ artikkeli.date.toLocaleDateString("fi", {timeZone: "UTC"}) }}</div>
     <div>
       <h3><a href="{{ artikkeli.url }}">{{ artikkeli.data.title }}</a></h3>
-      {% if artikkeli.data.tiivistelma %}{{ artikkeli.data.tiivistelma | markdown | safe }}{% else %}{{ artikkeli.templateContent | uutisnayte | safe }}{% endif %}
+      {% if artikkeli.data.tiivistelma %}{{ artikkeli.data.tiivistelma | markdown | lueLisaa(artikkeli.url) | safe }}{% else %}{{ artikkeli.templateContent | uutisnayte(artikkeli.url) | safe }}{% endif %}
     </div>
     {% set kuva = artikkeli.templateContent | uutiskuva %}
     {% if kuva %}
