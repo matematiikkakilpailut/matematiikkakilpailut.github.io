@@ -14,6 +14,8 @@
 #   ilmo:      mahdollinen ilmoittautumislinkki
 #   ilmoteksti: valinnainen ilmoittautumisnapin teksti; oletus
 #              "Ilmoittaudu Päivölään"
+#   lisaa:     valinnainen linkki, johon napin vieressä oleva "Lue lisää"
+#              vie; oletuksena linkki Päivölän käytännön asioihin
 #   tapahtuma: tapahtuman kuvaus, Markdownia (linkit, korostukset yms.)
 #   otsikko:   valinnainen; jos "true", rivi näytetään väliotsikkona
 #              (esim. vuodenaika), ei tavallisena tapahtumana.
@@ -69,6 +71,7 @@ aikataulu:
 - pvm: "24.&ndash;25.10."
   ilmo: https://mathelots.global/usemo-2026/
   ilmoteksti: "Ilmoittaudu 21.10. mennessä"
+  lisaa: /uutiset/2026-10-04-usemo-2026.html
   alkaa: 2026-10-24
   paattyy: 2026-10-25
   tapahtuma: >-
