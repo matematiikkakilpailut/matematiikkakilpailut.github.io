@@ -66,6 +66,14 @@ aikataulu:
   paattyy: 2026-11-06
   tapahtuma: >-
     [MAOLin matematiikkakilpailun alkukilpailu, peruskoulu](https://maol.fi/neljan-tieteen-kisat/)
+- pvm: "24.&ndash;25.10."
+  ilmo: https://mathelots.global/usemo-2026/
+  ilmoteksti: "Ilmoittaudu 21.10. mennessä"
+  alkaa: 2026-10-24
+  paattyy: 2026-10-25
+  tapahtuma: >-
+    [<abbr>USEMO</abbr>](https://mathelots.global/usemo-2026/), IMO-tasoinen verkkokilpailu.
+    La klo 19.30&ndash;24.00 ja su klo 18.30&ndash;23.00 Suomen aikaa.
 - pvm: "27.10."
   alkaa: 2026-10-27
   etusivulle: true

@@ -474,6 +474,18 @@ main, .mk-navigaatio, .footer { hyphens: manual; }
   }
 
   p { margin: 0; }
+  p:has(> .mk-lue-lisaa) { display: flow-root; }
+
+  .mk-lue-lisaa {
+    float: right;
+    margin-left: 1rem;
+    font-weight: 700;
+    font-size: .875rem;
+    text-decoration: none;
+
+    &::after { content: " \2192"; }
+    &:hover { text-decoration: underline; }
+  }
 }
 .mk-lista--arkisto > li { grid-template-columns: 6rem 1fr 9rem; }
 /* Yhden palstan asettelu kumoaa myös arkiston, joten se on jätettävä tämän

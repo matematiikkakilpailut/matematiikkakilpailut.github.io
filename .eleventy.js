@@ -133,9 +133,24 @@ export default function (eleventyConfig) {
     return String(otsikko ?? "").replace(/\s*\(\d{4}\)$/, "");
   });
 
-  eleventyConfig.addFilter("uutisnayte", (html) => {
-    const $ = cheerio.load(String(html ?? "").split(/<!--\s*tiivistelma\s*-->/)[0], null, false);
+  const lisaaLueLisaa = ($, url) => {
+    const linkki = $('<a class="mk-lue-lisaa">Lue lisää</a>').attr('href', url);
+    const viimeinen = $.root().children().last();
+    if (viimeinen.is('p')) viimeinen.append(linkki);
+    else $.root().append($('<p></p>').append(linkki));
+  };
+
+  eleventyConfig.addFilter("lueLisaa", (html, url) => {
+    const $ = cheerio.load(String(html ?? ""), null, false);
+    lisaaLueLisaa($, url);
+    return $.html();
+  });
+
+  eleventyConfig.addFilter("uutisnayte", (html, url) => {
+    const [nayte, ...loput] = String(html ?? "").split(/<!--\s*tiivistelma\s*-->/);
+    const $ = cheerio.load(nayte, null, false);
     $('figure, img').remove();
+    if (loput.length) lisaaLueLisaa($, url);
     return $.html();
   });
 
