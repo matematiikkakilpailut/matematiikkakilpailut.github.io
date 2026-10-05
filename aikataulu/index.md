@@ -36,7 +36,11 @@ scripts: |
 {%- if a.ilmo %}
 <div class="mt-2 d-flex flex-wrap align-items-center gap-3">
 <a class="mk-nappi mk-nappi--vihrea" href="{{ a.ilmo }}">{{ a.ilmoteksti | default("Ilmoittaudu Päivölään") }}</a>
+{%- if a.lisaa %}
+<a class="fw-bold text-decoration-none" href="{{ a.lisaa }}">Lue lisää &rarr;</a>
+{%- else %}
 <a class="fw-bold text-decoration-none" href="/kaytanto/paivola/">Käytännön asiat &rarr;</a>
+{%- endif %}
 </div>
 {%- endif %}
 </div>
