@@ -37,3 +37,11 @@ oxipng -o4 --strip safe kuvat/favicon-32x32.png kuvat/icon192.png \
 
 `icon192.png` ja `icon512.png` ovat `kuvat/manifest.webmanifest`-tiedoston
 kuvakkeet.
+
+## LinkedIn-banneri
+
+LinkedInin yrityssivun kansikuva (1128×191, renderöidään 2×):
+
+```
+magick -density 192 kuvat/linkedin-banner.svg -resize 2256x382 kuvat/linkedin-banner.png
+```
