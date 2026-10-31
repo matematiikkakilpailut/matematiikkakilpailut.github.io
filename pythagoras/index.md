@@ -11,7 +11,7 @@ description: Lukioiden välinen joukkuematematiikkakilpailu järjestetään vuos
 
 Pythagoraan polku on suomalaisten lukioiden välinen joukkuekilpailu,
 tyyliltään Baltian tie -kilpailua muistuttava. Kilpailun järjestää
-Päivölän Opisto. Tavallisesti kilpailu pidetään samaan aikaan kuin Valmennusjaoston kevätkauden viimeinen valmennusviikonloppu.  Kilpailu on kutsukilpailu. Varsinaisen kilpailun
+Päivölän Opisto. Tavallisesti kilpailu pidetään samaan aikaan kuin Valmennusjaoksen kevätkauden viimeinen valmennusviikonloppu.  Kilpailu on kutsukilpailu. Varsinaisen kilpailun
 lisäksi osallistujille järjestetään matematiikkapitoista ohjelmaa.
 Ensimmäinen Pythagoraan polku -kilpailu järjestettiin Päivölän
 kansanopistossa 16.-18.4.2004.

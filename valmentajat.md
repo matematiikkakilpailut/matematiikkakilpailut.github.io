@@ -9,7 +9,7 @@ description: >-
 
 
 Matematiikkaolympialaisiin tähtäävästä valmennuksesta vastaa Suomessa
-[Suomen matemaattisen yhdistyksen][smy] valmennusjaosto ja sen vapaaehtoiset:
+[Suomen matemaattisen yhdistyksen][smy] valmennusjaos ja sen vapaaehtoiset:
 
 *  Daniel Arone<br/>
    Olympiaedustaja vuosina 2020 ja 2021, kiinnostunut lukuteoriasta.

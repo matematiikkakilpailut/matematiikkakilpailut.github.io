@@ -11,7 +11,7 @@ ja [tiedekasvatuskeskus][tiedekasvatus] järjestävät
 [Tekijäryhmä-nimistä matematiikkakerhoa][tekijaryhma] jonka tarkoitus
 on tarjota haasteita matematiikasta innostuneille lukiolaisille.
 
-Valmennusjaosto järjesti 28.1.2012 Helsingin yliopistossa
+Valmennusjaos järjesti 28.1.2012 Helsingin yliopistossa
 [työpajan Epsilonit kirjaa tutkimassa - matematiikka harrastuksena][epsilonit].
 
 Vuosittain järjestetään

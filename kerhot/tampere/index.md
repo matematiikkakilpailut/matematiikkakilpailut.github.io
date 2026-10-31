@@ -32,7 +32,7 @@ Syksyllä kerho kokoontuu 15.9. alkaen keskiviikkoisin kahden viikon välein klo
 
 Kerhon vetäjänä toimii Tampereen yliopistolla Reijo Jaakkola
 (<mailto:reijo.jaakkola(at)tuni.fi>).  Kerho järjestetään yhteistyössä Suomen
-matemaattisen yhdistyksen valmennusjaoston ja MAOLin kanssa.
+matemaattisen yhdistyksen valmennusjaoksen ja MAOLin kanssa.
 
 Tervetuloa mukaan!
 

@@ -29,7 +29,7 @@ Tapaamisissa tutustutaan erilaisiin matematiikan osa-alueisiin ja ratkotaan mone
 5.4. klo 17-19<br>
 19.4. klo 17-19
 
-Kerhon vetäjänä toimii Oulun yliopiston matemaattisten tieteiden tutkimusyksikön yliopisto-opettaja Topi Törmä. Mikäli sinulla on kysyttävää kerhotoiminnasta, Topi vastaa mielellään kysymyksiin sähköpostitse (topi.torma(at)oulu.fi). Oulun yliopiston matemaattisten tieteiden tutkimusyksikkö järjestää kerhon yhteistyössä Suomen matemaattisen yhdistyksen valmennusjaoston ja MAOLin kanssa.
+Kerhon vetäjänä toimii Oulun yliopiston matemaattisten tieteiden tutkimusyksikön yliopisto-opettaja Topi Törmä. Mikäli sinulla on kysyttävää kerhotoiminnasta, Topi vastaa mielellään kysymyksiin sähköpostitse (topi.torma(at)oulu.fi). Oulun yliopiston matemaattisten tieteiden tutkimusyksikkö järjestää kerhon yhteistyössä Suomen matemaattisen yhdistyksen valmennusjaoksen ja MAOLin kanssa.
 
 Tervetuloa mukaan!
 

@@ -65,7 +65,7 @@ vajaan viikon mittainen *kesäleiri*. Leirin tavoitteena on ensisijaisesti
 harjoitella Kansain­välisiä Matematiikka­olympialaisia varten. Järjestämis­paikka
 vaihtelee vuosittain — viime vuosina se on
 järjestetty muun muassa Helsingissä, Tampereella ja Turussa.
-Osallistujien matka- ja täysihoitokulut maksetaan valmennusjaoston
+Osallistujien matka- ja täysihoitokulut maksetaan valmennusjaoksen
 toimesta.
 
 
@@ -74,7 +74,7 @@ toimesta.
 Pohjoismaiden edustajat leireilevät juuri ennen Kansain­välisiä
 Matematiikka­olympialaisia Sor&oslash;ssa, Tanskassa. Vajaan
 viikon mittaiseen leiriin mahtuu ahkeraa harjoittelua ja muihin
-pohjois­maalaisiin kilpailijoihin tutustumista. Valmennusjaosto
+pohjois­maalaisiin kilpailijoihin tutustumista. Valmennusjaos
 maksaa Suomen osallistujien matkat leiripaikalle sekä
 siellä täysihoidon.
 

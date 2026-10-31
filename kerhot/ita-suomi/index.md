@@ -33,7 +33,7 @@ Voit osallistua mistä päin maailmaa tahansa, sillä kerho järjestetään etä
 - 16.12. klo 17-19
 
 
-Kerhon vetäjänä toimii Laura Ylönen. Laura vastaa mielellään kaikkiin kerhoa koskeviin kysymyksiin sähköpostitse <laura.ylonen@uef.fi>. Kerhon järjestää Itä-Suomen yliopiston Fysiikan ja matematiikan laitos yhteistyössä Suomen matemaattisen yhdistyksen valmennusjaoston ja MAOLin kanssa.
+Kerhon vetäjänä toimii Laura Ylönen. Laura vastaa mielellään kaikkiin kerhoa koskeviin kysymyksiin sähköpostitse <laura.ylonen@uef.fi>. Kerhon järjestää Itä-Suomen yliopiston Fysiikan ja matematiikan laitos yhteistyössä Suomen matemaattisen yhdistyksen valmennusjaoksen ja MAOLin kanssa.
 
 Nappaa kaverikin mukaan ja osallistu kerhoon! Tervetuloa!
 

@@ -22,7 +22,7 @@ suunnattu yläkoulu- ja lukioikäisille**. Erityisesti niiden, jotka
 syystä tai toisesta eivät halua tai voi osallistua
 valmennustapahtumiin, mutta jotka haluavat tulla otetuiksi huomioon
 eri kilpailujoukkueita valittaessa, on syytä pitää yllä kosketusta
-Valmennusjaostoon lähettämällä vastauksia kirjevalmennustehtäviin.
+Valmennusjaokseen lähettämällä vastauksia kirjevalmennustehtäviin.
 
 Tarkoituksena on ratkaista mahdollisimman monta tehtävää (yksikin on 
 parempi kuin ei yhtään!) ja palauttaa ne pyydettyyn osoitteiseen
