@@ -100,8 +100,6 @@
               (<a href="https://www.lifewire.com/what-is-an-rss-feed-4684568" hreflang="en">Englanninkielinen RSS-ohje</a>,
               <a href="https://en.wikipedia.org/wiki/Comparison_of_feed_aggregators" hreflang="en">RSS-lukuohjelmien vertailu</a>.)
           </p>
-          <p>Syötteen sisältö on ohjattu myös <a href="https://t.me/matematiikkakilpailut">Telegram-tiedotuskanavalle</a>.
-          </p>
         </header>
 
         <main>
