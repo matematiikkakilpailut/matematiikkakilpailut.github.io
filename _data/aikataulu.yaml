@@ -118,6 +118,10 @@ aikataulu:
   etusivulle: true
   tapahtuma: >-
     Valmennusviikonloppu Päivölässä.
+- pvm: "6.4."
+  tapahtuma: >-
+    Pohjois&shy;mainen matematiikka&shy;kilpailu kutsutuille omassa koulussa tai Päivölässä.
+  etusivulle: true
 
 # ainoastaan otsikon "aikataulu" alla olevat tapahtumat otetaan mukaan sivulle
 # joten esim. "mahdollisia" tai "vanhoja" eivät näy vaan ovat mukana vain jotta
