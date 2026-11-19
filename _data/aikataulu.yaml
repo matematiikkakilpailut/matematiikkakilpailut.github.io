@@ -41,6 +41,88 @@
 #     hienosäätöjä, eivät pakollisia.
 aikataulu:
 - pvm: "2026"
+  tapahtuma: "Syksy"
+  otsikko: true
+- pvm: "27.10."
+  alkaa: 2026-10-27
+  etusivulle: true
+  tapahtuma: >-
+    [MAOLin matematiikkakilpailun alkukilpailu, lukio](https://maol.fi/neljan-tieteen-kisat/)
+- pvm: "6.&ndash;8.11. (viikko 45)"
+  ilmo: https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2026-vk-45
+  alkaa: 2026-11-06
+  paattyy: 2026-11-08
+  etusivulle: true
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä.
+- pvm: "12.&ndash;16.11."
+  alkaa: 2026-11-12
+  paattyy: 2026-11-16
+  tapahtuma: >-
+    Baltian tie -joukkuekilpailu Vilnassa, Liettuassa.
+- pvm: "11.&ndash;13.12. (viikko 50)"
+  ilmo: https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2026-vk-50
+  alkaa: 2026-12-11
+  paattyy: 2026-12-13
+  etusivulle: true
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä.
+- pvm: "2027"
+  tapahtuma: "Kevät"
+  otsikko: true
+- pvm: "n. 15.&ndash;17.1. (viikko 2)"
+  alkaa: 2027-01-15
+  paattyy: 2027-01-17
+  etusivulle: true
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä.
+    Päivämäärä muuttunee, koska se osuu samalle viikonlopulle
+    MAOLin loppukilpailujen kanssa.
+- pvm: "15.&ndash;16.1."
+  alkaa: 2027-01-15
+  paattyy: 2027-01-16
+  tapahtuma: >-
+    [<abbr>MAOL</abbr>in loppukilpailut](https://maol.fi/neljan-tieteen-kisat/)
+- pvm: "26.&ndash;28.2. (viikko 8)"
+  alkaa: 2027-02-26
+  paattyy: 2027-02-28
+  etusivulle: true
+  tapahtuma: >-
+    Valmennusviikonloppu Päivölässä.
+- pvm: "6.4."
+  tapahtuma: >-
+    Pohjois&shy;mainen matematiikka&shy;kilpailu kutsutuille omassa koulussa tai Päivölässä.
+  etusivulle: true
+- pvm: "11.&ndash;17.4."
+  alkaa: 2027-04-11
+  paattyy: 2027-04-17
+  tapahtuma: >-
+    [Euroopan tyttöjen matematiikka&shy;olympialaiset <abbr>EGMO</abbr>](https://egmo2027.matematika.hr/)
+    Šibenikissä, Kroatiassa
+- pvm: "2027"
+  tapahtuma: "Kesä"
+  otsikko: true
+- pvm: "16.&ndash;26.7."
+  alkaa: 2027-07-16
+  paattyy: 2027-07-26
+  tapahtuma: >-
+    [Kansain&shy;väliset matematiikka&shy;olympialaiset <abbr>IMO</abbr>](https://imo2027.hu/)
+    Budapestissa, Unkarissa
+
+# ainoastaan otsikon "aikataulu" alla olevat tapahtumat otetaan mukaan sivulle
+# joten esim. "mahdollisia" tai "vanhoja" eivät näy vaan ovat mukana vain jotta
+# niitä voi tarvittaessa siirtää tai kopioida "aikataulu"-listaan
+
+mahdollisia:
+- pvm: "noin joulukuussa"
+  tapahtuma: "[European Mathematical Cup](https://emc.mnm.hr)"
+- pvm: "26.2.&ndash;2.3."
+  tapahtuma: >-
+    [Romanian Master of Mathematics Bukarestissa](https://rmms.lbi.ro/rmm2024/index.php?id=home).
+    Pohjois&shy;maista osallistuu yhteis&shy;joukkue.
+
+vanhoja:
+- pvm: "2026"
   tapahtuma: "Kesä"
   otsikko: true
 - tapahtuma: "[Olympia&shy;joukkueen yhteis&shy;pohjois&shy;mainen valmennus&shy;leiri Sorøssa, Tanskassa](https://georgmohr.dk/soroe/)"
@@ -79,63 +161,6 @@ aikataulu:
   tapahtuma: >-
     [<abbr>USEMO</abbr>](https://mathelots.global/usemo-2026/), IMO-tasoinen verkkokilpailu.
     La klo 19.30&ndash;24.00 ja su klo 18.30&ndash;23.00 Suomen aikaa.
-- pvm: "27.10."
-  alkaa: 2026-10-27
-  etusivulle: true
-  tapahtuma: >-
-    [MAOLin matematiikkakilpailun alkukilpailu, lukio](https://maol.fi/neljan-tieteen-kisat/)
-- pvm: "6.&ndash;8.11. (viikko 45)"
-  ilmo: https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2026-vk-45
-  alkaa: 2026-11-06
-  paattyy: 2026-11-08
-  etusivulle: true
-  tapahtuma: >-
-    Valmennusviikonloppu Päivölässä.
-- pvm: "12.&ndash;16.11."
-  alkaa: 2026-11-12
-  paattyy: 2026-11-16
-  tapahtuma: >-
-    Baltian tie -joukkuekilpailu Vilnassa, Liettuassa.
-- pvm: "12.&ndash;13.12. (viikko 50)"
-  ilmo: https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2026-vk-50
-  alkaa: 2026-12-12
-  paattyy: 2026-12-13
-  etusivulle: true
-  tapahtuma: >-
-    Valmennusviikonloppu Päivölässä.
-- pvm: "2027"
-  tapahtuma: "Kevät"
-  otsikko: true
-- pvm: "15.&ndash;17.1. (viikko 2)"
-  alkaa: 2027-01-15
-  paattyy: 2027-01-17
-  etusivulle: true
-  tapahtuma: >-
-    Valmennusviikonloppu Päivölässä.
-- pvm: "26.&ndash;28.2. (viikko 8)"
-  alkaa: 2027-02-26
-  paattyy: 2027-02-28
-  etusivulle: true
-  tapahtuma: >-
-    Valmennusviikonloppu Päivölässä.
-- pvm: "6.4."
-  tapahtuma: >-
-    Pohjois&shy;mainen matematiikka&shy;kilpailu kutsutuille omassa koulussa tai Päivölässä.
-  etusivulle: true
-
-# ainoastaan otsikon "aikataulu" alla olevat tapahtumat otetaan mukaan sivulle
-# joten esim. "mahdollisia" tai "vanhoja" eivät näy vaan ovat mukana vain jotta
-# niitä voi tarvittaessa siirtää tai kopioida "aikataulu"-listaan
-
-mahdollisia:
-- pvm: "noin joulukuussa"
-  tapahtuma: "[European Mathematical Cup](https://emc.mnm.hr)"
-- pvm: "26.2.&ndash;2.3."
-  tapahtuma: >-
-    [Romanian Master of Mathematics Bukarestissa](https://rmms.lbi.ro/rmm2024/index.php?id=home).
-    Pohjois&shy;maista osallistuu yhteis&shy;joukkue.
-
-vanhoja:
 - pvm: "2026"
   tapahtuma: "Kevät ja kesä"
   otsikko: true
