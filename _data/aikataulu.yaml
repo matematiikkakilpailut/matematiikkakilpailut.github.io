@@ -70,19 +70,17 @@ aikataulu:
 - pvm: "2027"
   tapahtuma: "Kevät"
   otsikko: true
-- pvm: "n. 15.&ndash;17.1. (viikko 2)"
-  alkaa: 2027-01-15
-  paattyy: 2027-01-17
+- pvm: "8.&ndash;10.1. (viikko 1)"
+  alkaa: 2027-01-08
+  paattyy: 2027-01-10
   etusivulle: true
   tapahtuma: >-
-    Valmennusviikonloppu Päivölässä.
-    Päivämäärä muuttunee, koska se osuu samalle viikonlopulle
-    MAOLin loppukilpailujen kanssa.
+    Valmennusviikonloppu Päivölässä. Tavallista aiemmin MAOLin loppukilpailun takia.
 - pvm: "15.&ndash;16.1."
   alkaa: 2027-01-15
   paattyy: 2027-01-16
   tapahtuma: >-
-    [<abbr>MAOL</abbr>in loppukilpailut](https://maol.fi/neljan-tieteen-kisat/)
+    [<abbr>MAOL</abbr>in loppukilpailu](https://maol.fi/neljan-tieteen-kisat/)
 - pvm: "26.&ndash;28.2. (viikko 8)"
   alkaa: 2027-02-26
   paattyy: 2027-02-28
