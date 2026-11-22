@@ -1,5 +1,5 @@
 ---
-title: Tammikuun valmennusviikonloppu
+title: Tammikuun 2025 valmennusviikonloppu
 ---
 
 Vuoden 2025 ensimmäinen valmennusviikonloppu järjestetään 10.–12.1.

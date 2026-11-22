@@ -1,5 +1,5 @@
 ---
-title: Tammikuun valmennusviikonloppu 8.–10.1.
+title: Tammikuun 2027 valmennusviikonloppu 8.–10.1.
 ---
 
 Kevään 2027 ensimmäinen valmennusviikonloppu pidetään Päivölässä jo 8.&ndash;10.1.

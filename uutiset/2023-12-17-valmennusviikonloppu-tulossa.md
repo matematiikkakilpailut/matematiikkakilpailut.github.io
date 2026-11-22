@@ -1,5 +1,5 @@
 ---
-title: Tammikuun valmennusviikonloppu
+title: Tammikuun 2024 valmennusviikonloppu
 ---
 
 Kevään ensimmäinen valmennusviikonloppu järjestetään 12.–14.1.2024.
