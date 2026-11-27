@@ -29,7 +29,7 @@
     "csv-parse": "^7.0.2",
     "js-yaml": "^4.3.2",
     "lightningcss": "^1.32.0",
-    "markdown-it": "^14.3.2",
+    "markdown-it": "^14.3.3",
     "markdown-it-anchor": "^9.2.0",
     "markdown-it-attrs": "^4.1.6"
   }
