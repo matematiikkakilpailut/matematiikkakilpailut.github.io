@@ -1,5 +1,5 @@
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
-import yaml from "js-yaml";
+import * as yaml from "js-yaml";
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
 import markdownItAttrs from "markdown-it-attrs";
