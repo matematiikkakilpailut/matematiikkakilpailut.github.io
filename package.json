@@ -21,16 +21,16 @@
   "homepage": "https://github.com/matematiikkakilpailut/matematiikkakilpailut.github.io#readme",
   "base_url": "https://matematiikkakilpailut.fi",
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0",
-    "@11ty/eleventy-navigation": "^0.3.5",
-    "@11ty/eleventy-plugin-rss": "^2.0.2",
-    "browserslist": "^4.28.6",
+    "@11ty/eleventy": "^3.1.8",
+    "@11ty/eleventy-navigation": "^1.0.5",
+    "@11ty/eleventy-plugin-rss": "^3.1.0",
+    "browserslist": "^4.29.6",
     "cheerio": "^1.0.0-rc.12",
-    "csv-parse": "^7.0.2",
-    "js-yaml": "^4.3.2",
+    "csv-parse": "^7.0.3",
+    "js-yaml": "^5.5.0",
     "lightningcss": "^1.32.0",
-    "markdown-it": "^14.3.3",
-    "markdown-it-anchor": "^9.2.0",
-    "markdown-it-attrs": "^4.1.6"
+    "markdown-it": "^15.0.3",
+    "markdown-it-anchor": "^10.1.0",
+    "markdown-it-attrs": "^5.0.1"
   }
 }
