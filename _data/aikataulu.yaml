@@ -60,6 +60,12 @@ aikataulu:
   paattyy: 2026-11-16
   tapahtuma: >-
     Baltian tie -joukkuekilpailu Vilnassa, Liettuassa.
+- pvm: "5.12."
+  alkaa: 2026-12-05
+  etusivulle: true
+  lisaa: /valmennus/
+  tapahtuma: >-
+    Ensimmäiset [laskuharjoitukset](/valmennus/) Discordissa klo 18.00.
 - pvm: "11.&ndash;13.12. (viikko 50)"
   ilmo: https://paivola.fi/kurssit/matematiikkakilpailuvalmennus-2026-vk-50
   alkaa: 2026-12-11
@@ -67,6 +73,10 @@ aikataulu:
   etusivulle: true
   tapahtuma: >-
     Valmennusviikonloppu Päivölässä.
+- pvm: "20.12."
+  alkaa: 2026-12-20
+  tapahtuma: >-
+    [Laskuharjoitukset](/valmennus/) Discordissa.
 - pvm: "2027"
   tapahtuma: "Kevät"
   otsikko: true

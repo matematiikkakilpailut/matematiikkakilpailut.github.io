@@ -663,6 +663,15 @@ main figcaption {
     > li { border-bottom: 0; padding: .125rem 0; }
   }
 
+  /* Tavallinen luettelo ilman linkkilistan viivoja.
+     Markdownissa: lisää luettelon perään omalle rivilleen {.mk-luettelo}  */
+  > ul.mk-luettelo {
+    list-style: disc;
+    padding-left: 1.25rem;
+    margin-bottom: 1rem;
+    > li { border-bottom: 0; padding: .25rem 0; line-height: inherit; }
+  }
+
   /* Korostettu lohko keskellä artikkelia, esim. ajankohtainen tehtäväsarja.
      Markdownissa: lisää lohkolle {.mk-kortti}  */
   .mk-kortti {

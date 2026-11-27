@@ -7,7 +7,7 @@ hideBreadcrumbs: true
 description: >-
   Matematiikkakilpailujen tarkoituksena on kannustaa lahjakkaita nuoria
   harrastamaan matematiikkaa. Kansainvälisiin kilpailuihin valmennetaan
-  halukkaita. Valmennus koostuu valmennusviikonlopuista ja kirjevalmennuksesta.
+  halukkaita. Valmennus koostuu valmennusviikonlopuista ja kotitehtävistä.
   Valmennettavien joukosta valitaan edustajat kansainvälisiin kilpailuihin,
   kuten Kansainvälisiin matematiikkaolympialaisiin.
 url: /
