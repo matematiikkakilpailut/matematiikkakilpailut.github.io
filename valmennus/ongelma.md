@@ -10,13 +10,12 @@ description: >-
 ---
 
 Voit suorittaa Helsingin yli­opiston Avoimessa yli­opistossa
-matemaattisen ongelman­ratkaisun kurssin, joka muistuttaa kirje­valmennusta,
-mutta jossa enin osa tehtävistä tarkastetaan automaattisesti.
+matemaattisen ongelman­ratkaisun kurssin,
+jossa enin osa tehtävistä tarkastetaan automaattisesti.
 Siten niistä saa palautteen heti, mutta toisaalta vastauksena annetaan
 vain lopputulos. Kurssin laajempi toteutus sisältää myös loppu­projektin,
 jossa voit harjoitella ratkaisujen kirjoittamista teksti­muodossa.
-Kurssi otetaan huomioon joukkue­valinnoissa samaan tapaan
-kuin kirje­valmennus.
+Kurssi otetaan huomioon joukkue­valinnoissa.
 
 ## Toimi näin
 

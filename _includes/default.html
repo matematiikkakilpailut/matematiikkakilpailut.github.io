@@ -43,10 +43,10 @@
     <meta property="og:title" content="{% if page.url == "/" %}{{ title }}{% else %}{{ title }} – Matematiikkavalmennus{% endif %}">
     {% if description %}<meta property="og:description" content="{{ description }}">{% endif %}
     <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ pkg.base_url }}{{ page.url }}">
+    <meta property="og:url" content="{{ baseUrl }}{{ page.url }}">
     <meta property="og:site_name" content="Matematiikkavalmennus">
     <meta property="og:locale" content="{% if lang == 'en' %}en_GB{% else %}fi_FI{% endif %}">
-    <meta property="og:image" content="{% if socialImage.startsWith('http') %}{{ socialImage }}{% else %}{{ pkg.base_url }}{{ socialImage }}{% endif %}">
+    <meta property="og:image" content="{% if socialImage.startsWith('http') %}{{ socialImage }}{% else %}{{ baseUrl }}{{ socialImage }}{% endif %}">
     <meta property="og:image:type" content="{% if socialImage.endsWith('.jpg') %}image/jpeg{% else %}image/png{% endif %}">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -54,7 +54,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{% if page.url == "/" %}{{ title }}{% else %}{{ title }} – Matematiikkavalmennus{% endif %}">
     {% if description %}<meta name="twitter:description" content="{{ description }}">{% endif %}
-    <meta name="twitter:image" content="{% if socialImage.startsWith('http') %}{{ socialImage }}{% else %}{{ pkg.base_url }}{{ socialImage }}{% endif %}">
+    <meta name="twitter:image" content="{% if socialImage.startsWith('http') %}{{ socialImage }}{% else %}{{ baseUrl }}{{ socialImage }}{% endif %}">
     <meta name="twitter:image:alt" content="{{ socialImageAlt }}">
     <link href="{{ tyyliCss }}" rel="stylesheet">
     <link rel="icon" href="/kuvat/favicon.svg" type="image/svg+xml">
@@ -70,7 +70,7 @@
     <meta name="robots" content="noindex,follow">
     {% endif %}
     <link rel="sitemap" href="/sitemap.xml">
-    <link rel="canonical" href="{{ pkg.base_url }}{{ page.url }}">
+    <link rel="canonical" href="{{ baseUrl }}{{ page.url }}">
     <link rel="alternate" type="application/atom+xml" href="https://matematiikkakilpailut.fi/feed.xml">
     {% if jsonld %}<script type="application/ld+json">{{ jsonld | safe }}</script>{% endif -%}
     <script>

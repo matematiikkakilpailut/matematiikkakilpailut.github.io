@@ -7,7 +7,7 @@ eleventyExcludeFromCollections: true
 {%- for item in collections.all %}
 {%- if item.data.sitemap != false and item.outputPath and item.outputPath.endsWith(".html") %}
   <url>
-    <loc>{{ pkg.base_url }}{{ item.url }}</loc>
+    <loc>{{ baseUrl }}{{ item.url }}</loc>
     <lastmod>{{ item.date | dateToRfc3339 }}</lastmod>
   </url>
 {%- endif %}

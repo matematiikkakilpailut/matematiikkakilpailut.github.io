@@ -5,10 +5,9 @@ description: >-
   The Finnish Olympic Training in Mathematics is organized by the
   Finnish Mathematical Society's Training division. Its purpose is to
   encourage and assist talented young to take interest in mathematics.
-  The training consists of correspondence training through regular
-  problem sets and various training events, in particular the training
-  weekends at Päivölä. All the training is open for all students in
-  secondary schools.
+  The training consists of online problem sessions and various
+  training events, in particular the training weekends at Päivölä.
+  All the training is open for all students in secondary schools.
 url: /english/
 eleventyNavigation:
   title: In English
@@ -19,8 +18,8 @@ The Finnish Olympic Training in Mathematics is organized by the
 Training division. Its purpose is to encourage and assist talented young to
 take interest in mathematics.
 
-The training primarily consists of two components: correspondence
-training through regular problem sets and various training events, in
+The training primarily consists of two components:
+[online problem sessions](#problem-sessions) and various training events, in
 particular the training weekends at Päivölä. All the training is open
 for all students in secondary schools. The goal is to teach students
 mathematics encountered in mathematical competitions, but also to
@@ -100,16 +99,34 @@ helpful:
   page, which immediately redirects to one part of the page on "Bisection".
 
 
-## Training problem sets
+## Online problem sessions {id=problem-sessions}
 
-[**→ Main article in Finnish**](/valmennus/) 
+[**→ Main article in Finnish**](/valmennus/)
 
-The training problem sets are distributed in the training events, but
-primarily available through this website. Solutions can be sent as
-instructed in the problem sheet or they can be brought to the next
-training event. Traditionally, the problems are provided in
-Finnish and Swedish, but at one time we tried to provide
-English translations as well. These are listed below.
+About every two weeks we publish a small problem set on the training's
+Discord server, one thread per problem, and then discuss the problems
+together with the trainers in a voice channel. Solutions are not handed in
+or graded: the point is to think about the problems, share ideas and
+learn from each other. Please do not solve the problems with AI.
+
+**The problems and the sessions are in Finnish only.**
+
+The first session is on Saturday 5 December 2026 at 6 pm, and after that
+the sessions are held every two weeks on Sundays; see the [schedule](/aikataulu/).
+
+The invitation link has been emailed to the trainees. We do not publish it
+here, because public links attract spammers. If you have not received the
+link, please ask for it at
+[`info@matematiikkakilpailut.fi`](mailto:info@matematiikkakilpailut.fi).
+
+## Old training problem sets
+
+The problem sessions replace the earlier correspondence training, in which
+problem sets were published on this website and solutions were sent in for
+feedback. Solutions to the old sets are no longer accepted, but the problems
+are still good practice. The sets were provided in Finnish and Swedish, but
+at one time we tried to provide English translations as well. These are
+listed below.
 
 ### The latest translated problem set
 

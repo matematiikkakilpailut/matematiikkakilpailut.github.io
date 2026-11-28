@@ -9,76 +9,94 @@ description: >-
   Mukana myös vanhat tehtäväsarjat ratkaisuineen vuodesta 2010.
 highlightedTitle: Avoimen yli­opiston ongelman­ratkaisu­kurssi
 highlightedContent: |
-  Voit täydentää kirje­valmennusta Avoimen Yli­opiston ongelman­ratkaisu­kurssilla.
+  Voit täydentää lasku­harjoituksia Avoimen Yli­opiston ongelman­ratkaisu­kurssilla.
 
   [Lue lisää!](ongelma/)
 ---
 
-## Kirjevalmennus
+## Laskuharjoitukset
 
-Kirjevalmennus- eli kotitehtävät on tarkoitettu **kaikille
-kilpailumatematiikasta kiinnostuneille koululaisille, erityisesti ne on
-suunnattu yläkoulu- ja lukioikäisille**. Erityisesti niiden, jotka
-syystä tai toisesta eivät halua tai voi osallistua
-valmennustapahtumiin, mutta jotka haluavat tulla otetuiksi huomioon
-eri kilpailujoukkueita valittaessa, on syytä pitää yllä kosketusta
-Valmennusjaokseen lähettämällä vastauksia kirjevalmennustehtäviin.
+Valmennuksen kotitehtävät toimivat nyt uudella tavalla. Entisten
+valmennus&shy;kirjeiden sijaan julkaisemme noin kahden viikon välein pienen
+tehtävä&shy;sarjan, ja tehtävistä keskustellaan yhdessä valmentajien kanssa.
+**Ratkaisuja ei palauteta eikä arvostella**: tarkoitus on pohtia tehtäviä,
+jakaa ideoita ja oppia toisilta.
 
-Tarkoituksena on ratkaista mahdollisimman monta tehtävää (yksikin on 
-parempi kuin ei yhtään!) ja palauttaa ne pyydettyyn osoitteiseen
-Tehtäviä on erikseen yläkouluikäisille (ks. peruskoululaisten tehtävät
-alta) ja lukiolaisille ja muille kiinnostuneille koululaisille. Jälkimmäiset
-tehtävät on yleensä jaettu kahteen sarjaan vaikeustason mukaan.
+Laskuharjoitukset on tarkoitettu kaikille kilpailu&shy;matematiikasta
+kiinnostuneille koululaisille, erityisesti lukio&shy;ikäisille.
 
-Valmennusvastauksista voidaan antaa palautetta vain, jos vastausten
-mukana ovat lähettäjän yhteystiedot!
+Kirjeistä luovuttiin, koska palaute ratkaisuista saattoi tulla todella
+hitaasti, tekoäly toi palautettavien tehtävien arviointiin aivan uusia
+haasteita eikä kirjeiden ympärille päässyt muodostumaan yhteisöä.
 
-Netissä on monenlaisia lähteitä,
-joista ratkaisuja voi löytää tai pyytää&nbsp;&ndash; [AOPS](https://aops.com) ja
-[Math Stackexchange](https://math.stackexchange.com) lienevät tunnetuimpia. Näiden
-käyttäminen ei ole haitaksi ja niistä voi oppia paljonkin, mutta
-suosittelemme yrittämään ratkaisua ensin itse. Samaten tehtävien pohtiminen
-yhdessä muiden valmennettavien kanssa, jos siihen tarjoutuu tilaisuus,
-voi olla opettavaista.
+### Näin se toimii
 
-Joukkuevalinnat perustuvat kokonaisharkintaan, jossa
-otetaan huomioon palautetut tehtävät ja menestyminen kilpailuissa ja
-valintakokeissa.
+* Tehtävät julkaistaan valmennuksen Discord-palvelimella foorumilla
+  **#lasku&shy;harjoitukset**, yksi viesti&shy;ketju tehtävää kohti.
+  Tehtävistä voi keskustella viesti&shy;ketjuissa milloin tahansa.
+* **Älä ratkaise tehtäviä tekoälyllä.** Tekoäly ratkaisee nykyään melkein
+  minkä tahansa tehtävän, mutta se olisi vähän kuin nostaisi painoja
+  haarukka&shy;nosturilla ja väittäisi treenaavansa jalka&shy;kyykkyä.
+  Selventävien kysymysten esittämiseen tekoäly sen sijaan voi sopia hyvin.
+* Älä lähetä viesti&shy;ketjuun kokonaista ratkaisua ennen lasku&shy;harjoituksia.
+  Käytä Discordin spoileri&shy;toimintoa, jos viestisi saattaa sisältää hyviä vihjeitä.
+* Laskuharjoitukset pidetään puhe&shy;kanavalla, jonka nimi on myös
+  **#laskuharjoitukset**. Osallistu keskusteluun ja kysy kaikesta,
+  mikä jää epäselväksi!
+{.mk-luettelo}
 
-### Tehtävät lukiolaisille tai kaikille koululaisille
+Ensimmäiset lasku&shy;harjoitukset pidetään lauantaina 5.12.2026 klo 18.00,
+sen jälkeen kahden viikon välein sunnuntaisin.
 
-**Vastausten palautusosoite on muuttunut**:
-osoitteet ovat [`helpot.tehtavat@matematiikkakilpailut.fi`](mailto:helpot.tehtavat@matematiikkakilpailut.fi)
-ja [`vaikeat.tehtavat@matematiikkakilpailut.fi`](mailto:vaikeat.tehtavat@matematiikkakilpailut.fi).
+Kerro meille, mikä toimii ja mikä ei&nbsp;&ndash; kehitämme
+lasku&shy;harjoituksia palautteen perusteella.
 
-Helmikuun 2026 [tehtävät](https://drive.google.com/file/d/1j8iKxOCmrYgOxPCz5bulxV85VfjniZ87/view).
-Ratkaisut pyydetään palauttamaan viimeistään 15.3.2026.
+### Miten pääsee mukaan {id=mukaan}
 
-Tammikuun 2026 [tehtävät](https://drive.google.com/file/d/1Ee42iz4Uf1ngJn4mK0dt1fujaawzubXv/view).
+Kutsulinkki Discord-palvelimelle on lähetetty valmennettaville sähkö&shy;postitse.
+Emme julkaise linkkiä tällä sivulla, koska julkisten linkkien kautta
+palvelimelle tulee roska&shy;postittajia.
 
-Syyskuun 2025 [tehtävät](https://drive.google.com/file/d/1-P_DiI2MmfwTUEGHeDQR9wtzn_w8d_Hr/view).
+**Jos et ole saanut linkkiä** tai olet uusi ja haluat mukaan, pyydä sitä
+osoitteesta [`info@matematiikkakilpailut.fi`](mailto:info@matematiikkakilpailut.fi).
+Esittele itsesi ja kerro vähän, miten haluat osallistua, jotta emme
+epäile sinua botiksi.
 
-* **Korjaus tehtävään 20:** jakaja, jolla tehtävän luvut eivät ole jaollisia, on 17 eikä 3.
+### Joukkuevalinnat
 
+Joukkuevalinnat perustuvat kokonais&shy;harkintaan, jossa otetaan huomioon
+menestyminen kilpailuissa ja valinta&shy;kokeissa.
+Lasku&shy;harjoitusten ratkaisuja ei arvostella.
 
+## Peruskoululaisten kirjevalmennus {id=perus}
 
+Peruskoululaisten kirje&shy;valmennus&shy;tehtävät on nimensä mukaan suunnattu perus&shy;koululaisille. Ensimmäinen tehtävä&shy;sarja on suunniteltu aloitettavan seitsemännen luokan loppu&shy;puolella, mutta tehtävien ratkomisen voi aloittaa myös aiemmin tai myöhemmin. Tehtävien  ratkaiseminen edellyttää usein perehtymistä koulu&shy;matematiikan ulkopuoliseen matematiikkaan ja niiden on tarkoitus olla haastavia. Ei siis kannata säikähtää tehtävien vaikeus&shy;tasoa.
 
-### Peruskoululaisten tehtävät {id=perus}
+Ensimmäinen tehtäväsarja löytyy alta. Kun olet palauttanut ratkaisujasi siihen, saat uuden tehtävä&shy;sarjan ratkottavaksi. Yhteensä perus&shy;koululaisten kirje&shy;valmennus&shy;tehtävä&shy;sarjaan sisältyy 16 kirjettä, mutta halutessaan niistä voi tehdä vain osan. Valmennus&shy;vastauksista voidaan antaa palautetta ja uusi tehtävä&shy;sarja lähettää vain, jos mukana ovat yhteys&shy;tiedot!
 
-Peruskoululaisten kirjevalmennustehtävät on nimensä mukaan suunnattu peruskoululaisille. Ensimmäinen tehtäväsarja on suunniteltu aloitettavan seitsemännen luokan loppupuolella, mutta tehtävien ratkomisen voi aloittaa myös aiemmin tai myöhemmin. Tehtävien  ratkaiseminen edellyttää usein perehtymistä koulumatematiikan ulkopuoliseen matematiikkaan ja niiden on tarkoitus olla haastavia. Ei siis kannata säikähtää tehtävien vaikeustasoa.
+Peruskoululaiset voivat halutessaan osallistua myös haastavampiin, kaikille koululaisille tarkoitettuihin [lasku&shy;harjoituksiin](#mukaan).
 
-Ensimmäinen tehtäväsarja löytyy alta. Kun olet palauttanut ratkaisujasi siihen, saat uuden tehtäväsarjan ratkottavaksi. Yhteensä peruskoululaisten kirjevalmennustehtäväsarjaan sisältyy 16 kirjettä, mutta halutessaan niistä voi tehdä vain osan. Valmennusvastauksista voidaan antaa palautetta ja uusi tehtäväsarja lähettää vain, jos mukana ovat yhteystiedot!
-
-Peruskoululaiset voivat halutessaan ratkoa myös haastavampia, kaikille koululaisille tarkoitettuja kirjevalmennustehtäviä (yllä).
-
-**Huom.** Kirjeiden palautusosoite on päivitetty 13.3.2026.
+**Huom.** Kirjeiden palautus&shy;osoite on päivitetty 13.3.2026.
 
 [Peruskoululaisten ensimmäinen valmennuskirje](https://drive.google.com/file/d/12oNrXX8T_dq9_xX8L5JuRWzCCbjNk8-W/view)
 
 [På svenska](https://drive.google.com/file/d/1w7bR_HU-sk6faS94IxabHD0b6f6LjgGi/view)
 
 
-### Vanhempia tehtäväsarjoja ja ratkaisuja
+## Vanhat valmennuskirjeet ja ratkaisut {id=vanhat}
+
+Lukiolaisille ja kaikille koululaisille tarkoitetut valmennus&shy;kirjeet
+päättyivät vuonna 2026, eikä niihin enää oteta vastaan ratkaisuja.
+Tehtävät sopivat silti edelleen harjoitteluun.
+
+Helmikuun 2026 [tehtävät](https://drive.google.com/file/d/1j8iKxOCmrYgOxPCz5bulxV85VfjniZ87/view).
+
+Tammikuun 2026 [tehtävät](https://drive.google.com/file/d/1Ee42iz4Uf1ngJn4mK0dt1fujaawzubXv/view).
+
+Syyskuun 2025 [tehtävät](https://drive.google.com/file/d/1-P_DiI2MmfwTUEGHeDQR9wtzn_w8d_Hr/view).
+
+* **Korjaus tehtävään 20:** jakaja, jolla tehtävän luvut eivät ole jaollisia, on 17 eikä 3.
+{.mk-luettelo}
 
 Kesän 2025 [tehtävät](https://drive.google.com/file/d/1n31uLdwv-wMprkZU_RO6QH_N9F4WIViV/view)
 ja [ratkaisut](https://drive.google.com/file/d/1s12FR0rtw6XrBgMRaQhn3y1mK3vj0vqA/view).
@@ -96,6 +114,7 @@ ja [ratkaisut](https://drive.google.com/file/d/1nWQLkWbkRwzIJNMbdjtabPWDd7Qe1u1v
   missä jokainen <em>u</em><sub><em>i</em></sub> on reaaliluku.
 * **Korjaus tehtävään 13:** tehtävässä pitäisi lukea "Onko olemassa 14 luonnollista lukua — —",
   ts. kokonaisluvut eivät saa olla negatiivisia.
+{.mk-luettelo}
 
 Marraskuun 2024 [tehtävät](https://drive.google.com/file/d/14ScVYlYBn7fzkTqtYQc7szrws4DOrwNd/view)
 ja [ratkaisut](https://drive.google.com/file/d/1mMwjzJ8eVqHzY9RhHsKB8rcE_fOe0xuZ/view).

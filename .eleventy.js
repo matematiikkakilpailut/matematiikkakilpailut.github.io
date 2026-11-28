@@ -40,6 +40,13 @@ export default function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(rss);
 
+  const { CF_PAGES_URL, CF_PAGES_BRANCH } = process.env;
+  const isPreview = CF_PAGES_URL && CF_PAGES_BRANCH !== "master";
+  eleventyConfig.addGlobalData(
+    "baseUrl",
+    isPreview ? CF_PAGES_URL : JSON.parse(readFileSync("package.json")).base_url,
+  );
+
   eleventyConfig.addGlobalData("tyyliCss", () => `/css/${tyyliMin().nimi}`);
   eleventyConfig.on("eleventy.before", ({ directories }) => {
     const { css, nimi } = tyyliMin();
